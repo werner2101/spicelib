@@ -4,9 +4,10 @@ MODEL_LIBDIR="model_library"
 MODEL_SIGDIR="model_signatures"
 TEMPDIR="tmp"
 
+
+
 all:
 	echo "target all not defined"
-
 
 # nxp models downloaded from URL:
 # http://www.nxp.com/models/index.html  --> Spice and S-parameters
@@ -23,6 +24,8 @@ download_nxp:
 	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/varicap.zip
 	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/basestations.zip
 	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/complex_discretes.zip
+
+unpack_nxp: unpack_nxp_bipolar
 
 unpack_nxp_bipolar: downloads/nxp/SST.zip
 	rm -rf $(TEMPDIR)/nxp/bipolar

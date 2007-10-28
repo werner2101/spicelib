@@ -1,0 +1,19 @@
+
+
+
+
+Connect the library into gschem
+=================================
+
+Insert the following lines to share/gEDA/scheme/geda-clib.scm:
+
+-------
+; add a library with the command backend
+; Syntax:
+; (component-library-command "[listcommand]" "[getcommand]" "[name]")
+;
+(component-library-command 
+ "/home/werner/oss/geda/spicelib/scripts/gedaparts nxp_bipolar.index" 
+ "/home/werner/oss/geda/spicelib/scripts/gedaparts nxp_bipolar.index" 
+ "_NXP bipolar transistors")
+--------
