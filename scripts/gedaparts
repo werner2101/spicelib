@@ -10,33 +10,21 @@ SYMBOL_DIR = BASE_DIR + "symbol_templates/"
 
 #################### FUNCTIONS
 def list_parts(filename):
-    lines = open(PARTDB_DIR + filename, "rt").readlines()
-    parts = []
-    for l in lines:
-        l = string.strip(l)
-        if l == "":      ## ignore empty lines
-            continue
-        if l[0] == "#":  ## ignore comment lines
-            continue
-        if l[0] != "[":
-            continue
-        if l == "[GLOBAL]":
-            continue
-
-        tok = string.split(l[1:-1],",")
-        print tok[0] + "_" + tok[1]
+    ind = ConfigParser.ConfigParser()
+    ind.read(PARTDB_DIR + filename)
+    
+    for sec in ind.sections():
+        if ind.get(sec,"model_status") in ["good","test"]:
+            print sec
 
 def symbol(filename, partname):
     ind = ConfigParser.ConfigParser()
     ind.read(PARTDB_DIR + filename)
 
-    [partname, partid] = string.split(partname,"_")
-    part = partname+ ","+partid
-
-    symbol = ind.get(part, "symbol")
+    symbol = ind.get(partname, "symbol")
     symbol_template = string.Template(open(SYMBOL_DIR + symbol).read())
 
-    repl = dict(ind.items(part))
+    repl = dict(ind.items(partname))
     modeldir = ind.get("GLOBAL","MODELDIR")
     repl["file"] = BASE_DIR + modeldir + repl["file"]
     sym = symbol_template.safe_substitute(repl)
