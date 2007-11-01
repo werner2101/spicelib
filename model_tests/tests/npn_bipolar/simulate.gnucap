@@ -1,0 +1,22 @@
+* NPN Bipolar transistor tests
+
+.get dc_current_gain.net
+
+.pr dc I(V1) I(I1) V(in)
+.dc i1 -1m -10n *0.8 temperature=0 >dc_current_gain_t0.data
+.dc i1 -1m -10n *0.8 temperature=25 >dc_current_gain_t25.data
+.dc i1 -1m -10n *0.8 temperature=50 >dc_current_gain_t50.data
+.dc i1 -1m -10n *0.8 temperature=75 >dc_current_gain_t75.data
+.dc i1 -1m -10n *0.8 temperature=100 >dc_current_gain_t100.data
+
+
+
+.get saturation_voltages.net
+
+.pr dc I(V1) V(in) V(out)
+.dc i1 -50m -1u *0.8 temperature=0 >saturation_voltages_t0.data
+.dc i1 -50m -1u *0.8 temperature=25 >saturation_voltages_t25.data
+.dc i1 -50m -1u *0.8 temperature=50 >saturation_voltages_t50.data
+.dc i1 -50m -1u *0.8 temperature=75 >saturation_voltages_t75.data
+.dc i1 -50m -1u *0.8 temperature=100 >saturation_voltages_t100.data
+
