@@ -2,12 +2,14 @@
 
 MODEL_LIBDIR="model_library"
 MODEL_SIGDIR="model_signatures"
+TESTDIR="model_tests"
 TEMPDIR="tmp"
 
 
 
 all:
 	echo "target all not defined"
+
 
 # nxp models downloaded from URL:
 # http://www.nxp.com/models/index.html  --> Spice and S-parameters
@@ -40,3 +42,18 @@ create_nxp_bipolar:
 	scripts/fix_trailing_newline.py $(TEMPDIR)/nxp/bipolar/*
 	cp $(TEMPDIR)/nxp/bipolar/* $(MODEL_LIBDIR)/nxp/bipolar
 	md5sum $(MODEL_LIBDIR)/nxp/bipolar/* >$(MODEL_SIGDIR)/nxp_bipolar_lib.md5sum
+
+test_nxp_bipolar:
+	rm -rf $(TESTDIR)/nxp/bipolar
+	mkdir -p $(TESTDIR)/nxp/bipolar
+	scripts/testlibrary.py indexfiles/nxp_bipolar.index
+
+
+## texas instruments models
+
+download_ti:
+	rm -rf downloads/ti
+	mkdir -p downloads/ti
+	wget -P downloads/ti http://focus.ti.com/packaged_lits/spice_files/ti_spice_models.zip
+	wget -P downloads/ti http://focus.ti.com/packaged_lits/spice_files/ti_spice_models_index.txt
+

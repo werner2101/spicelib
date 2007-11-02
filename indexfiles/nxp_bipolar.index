@@ -1,6 +1,7 @@
 
 [GLOBAL]
 MODELDIR=model_library/nxp/bipolar/
+TESTDIR=model_tests/nxp/bipolar/
 model_status=broken
 
 

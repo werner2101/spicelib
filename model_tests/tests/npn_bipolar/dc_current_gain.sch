@@ -11,19 +11,6 @@ footprint=none
 T 50900 44950 5 10 1 1 0 0 1
 value=DC 5V
 }
-C 48400 44800 1 0 0 Q2PC4081S_NXP00016
-{
-T 48500 45900 5 10 0 0 0 0 1
-device=NPN_TRANSISTOR
-T 48900 45350 5 10 1 1 0 0 1
-refdes=Q1
-T 48900 45150 5 10 1 1 0 0 1
-value=Q2PC4081S
-T 48500 46100 5 10 0 0 0 0 1
-footprint=none
-T 48500 46500 5 10 0 0 0 0 1
-model-name=Q2PC4081S
-}
 C 46200 44500 1 0 0 idc-1.sym
 {
 T 46900 45150 5 10 1 1 0 0 1
@@ -49,4 +36,9 @@ N 47800 45300 48400 45300 4
 {
 T 48100 45400 5 10 1 1 0 0 1
 netname=in
+}
+C 48400 44800 1 0 0 $partname
+{
+T 48900 45350 5 10 1 1 0 0 1
+refdes=$test_refdes
 }
