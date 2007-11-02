@@ -19,7 +19,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [2PA1576R_NXP00002]
@@ -36,7 +36,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [2PA1576S_NXP00003]
@@ -53,23 +53,23 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [2PA1774QM_NXP00004]
 symbol=pnp.sym
-value=Q2PA1774QM
-modelname=Q2PA1774QM
+value=2PA1774QM
+modelname=2PA1774QM
 file=2PA1774QM.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+test_refdes=X1
 model_status=test
 
 
@@ -78,7 +78,7 @@ symbol=pnp.sym
 value=2PA1774Q
 modelname=2PA1774Q
 file=2PA1774Q.prm
-refdes=Q?
+refdes=X?
 pinseq_c=3
 pinseq_b=1
 pinseq_e=2
@@ -86,8 +86,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=test
+test_refdes=X1
+model_status=good
 
 
 [2PA1774RM_NXP00006]
@@ -104,7 +104,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [2PA1774R_NXP00007]
@@ -121,7 +121,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [2PA1774SM_NXP00008]
@@ -138,7 +138,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [2PA1774S_NXP00009]
@@ -155,7 +155,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [2PB1424_NXP00010]
@@ -172,7 +172,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [2PB709AR_NXP00011]
@@ -189,7 +189,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [2PB709ART_NXP00012]
@@ -206,7 +206,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [2PB709ARW_NXP00013]
@@ -223,7 +223,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [2PC4081Q_NXP00014]
@@ -240,7 +240,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [2PC4081R_NXP00015]
@@ -257,7 +257,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [2PC4081S_NXP00016]
@@ -274,7 +274,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [2PC4617Q_NXP00017]
@@ -291,7 +291,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [2PC4617R_NXP00018]
@@ -308,7 +308,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [2PD2150_NXP00019]
@@ -325,7 +325,9 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=X1
-model_status=test
+model_status=broken
+# bjt model not connected to the subciruit
+# diode not connected too
 
 
 [2PD601AR_NXP00020]
@@ -342,7 +344,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [2PD601ART_NXP00021]
@@ -359,7 +361,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [2PD601ARW_NXP00022]
@@ -376,7 +378,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [_NXP00023]

@@ -25,6 +25,12 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "model_tests/tests/npn_bipolar/",
                                          "saturation_voltages.sch"],
                          "controller" : "plot_all.py",
                          "htmltemplate": "npn_bipolar.html",
+                         "files": ["simulate.gnucap"]},
+            "pnp.sym": { "dir" : BASE_DIR + "model_tests/tests/pnp_bipolar/",
+                         "schematics" : ["dc_current_gain.sch",
+                                         "saturation_voltages.sch"],
+                         "controller" : "plot_all.py",
+                         "htmltemplate": "pnp_bipolar.html",
                          "files": ["simulate.gnucap"]}}
 
 #################### FUNCTIONS

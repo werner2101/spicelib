@@ -25,7 +25,7 @@ def plot_dc_current_gain():
     pylab.close()
 
     for t,m in mm:
-        pylab.semilogx(-m[:,1]*1000,m[:,3]*1000,label=t)
+        pylab.semilogx(-m[:,1]*1000,-m[:,3]*1000,label=t)
     pylab.xlabel("Ic [mA]")
     pylab.ylabel("V BE [mV]")
     pylab.grid()
@@ -44,8 +44,8 @@ def plot_saturation_voltages():
 
     for t,m in mm:
         ## only plot the values where Vce sat is smaller 1.00
-        firstind = pylab.find(m[:,3] < 1.0)[0]
-        pylab.loglog(-m[firstind:,1]*1000,m[firstind:,3]*1000,label=t)
+        firstind = pylab.find(m[:,3] > -1.0)[0]
+        pylab.loglog(-m[firstind:,1]*1000,-m[firstind:,3]*1000,label=t)
     pylab.xlabel("Ic [mA]")
     pylab.ylabel("VCE sat [mV]")
     pylab.grid()
@@ -54,7 +54,7 @@ def plot_saturation_voltages():
     pylab.close()
 
     for t,m in mm:
-        pylab.semilogx(-m[:,1]*1000,m[:,2]*1000,label=t)
+        pylab.semilogx(-m[:,1]*1000,-m[:,2]*1000,label=t)
     pylab.xlabel("Ic [mA]")
     pylab.ylabel("V BE [mV]")
     pylab.grid()
