@@ -16,6 +16,7 @@ ROW_TEMPLATE = """
     <td>$modelname</td>
     <td>$footprint</td>
     <td>$model_status</td>
+    <td>$model_test</td>
     <td>$checksum_test</td>
 </tr> """
 
@@ -53,10 +54,21 @@ def test_model(param):
         ## create the html file
         html = string.Template(open(test["dir"] + test["htmltemplate"], "rt").read())
         open(testdir + "index.html","wt").write(html.safe_substitute(param))
-        return True
+        if result == 0:
+            return True
         
     return False
     
+
+def sort_modelnumber(a,b):
+    aa = string.split(a,"_")[-1]
+    bb = string.split(b,"_")[-1]
+    if aa > bb:
+        return 1
+    elif aa < bb:
+        return -1
+    return 0
+
 def log(x):
     open("gedaparts.log","at").write(str(x) + "\n")
 
@@ -79,7 +91,7 @@ row_template = string.Template(ROW_TEMPLATE)
 
 rows=[]
 secs = ind.sections()
-secs.sort()
+secs.sort(sort_modelnumber)
 for sec in secs:
     if sec == "GLOBAL":
         continue
@@ -87,10 +99,17 @@ for sec in secs:
     repl["checksum_test"] = "NIY"
     repl["modelpath"] = BASE_DIR + modeldir + repl["file"]
     repl["partname"] = sec
+    repl["model_test"] = ""
     if repl["model_status"] in ["test","good"]:
+        print "\n\n"+ "*"*75
+        print "Testing part: " + repl["partname"] + "  model: " +repl["modelpath"]
+        print "*"*75
         result = test_model(repl)
         if result == True:
-            repl["partname"] = '<a href="'+sec+'/index.html">'+sec+'</a>'
+            repl["model_test"] = "succeded"
+        else:
+            repl["model_test"] = "failed"
+        repl["partname"] = '<a href="'+sec+'/index.html">'+sec+'</a>'
             
     rows.append(row_template.safe_substitute(repl))
 

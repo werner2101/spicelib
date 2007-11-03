@@ -1,4 +1,4 @@
-* NPN Bipolar transistor tests
+* PNP bipolar transistor tests
 
 .get dc_current_gain.net
 
