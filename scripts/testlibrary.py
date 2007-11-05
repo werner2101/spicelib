@@ -15,11 +15,20 @@ ROW_TEMPLATE = """
     <td>$value</td>
     <td>$modelname</td>
     <td>$footprint</td>
-    <td>$model_status</td>
-    <td>$model_test</td>
-    <td>$checksum_test</td>
+    <td bgcolor="$model_status_color">$model_status</td>
+    <td bgcolor="$model_test_color">$model_test</td>
+    <td bgcolor="$checksum_test_color">$checksum_test</td>
 </tr> """
 
+COLORS = {"broken": "#FF3F3F",
+          "good": "#7FFF7F",
+          "---": "#CFCFCF",
+          "test": "#FFFF7F",
+          "failed": "#FF3F3F",
+          "succeded": "#7FFF7F",
+          "NIY": "#CFCFCF",
+          "undefined": "#CFCFCF",
+          "default": "#FFFFFF"}
 
 TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "model_tests/tests/npn_bipolar/",
                          "schematics" : ["dc_current_gain.sch",
@@ -59,6 +68,11 @@ def test_model(param):
         
     return False
     
+def color(text):
+    if COLORS.has_key(text):
+        return COLORS[text]
+    else:
+        return COLORS["default"]
 
 def sort_modelnumber(a,b):
     aa = string.split(a,"_")[-1]
@@ -99,7 +113,7 @@ for sec in secs:
     repl["checksum_test"] = "NIY"
     repl["modelpath"] = BASE_DIR + modeldir + repl["file"]
     repl["partname"] = sec
-    repl["model_test"] = ""
+    repl["model_test"] = "---"
     if repl["model_status"] in ["test","good"]:
         print "\n\n"+ "*"*75
         print "Testing part: " + repl["partname"] + "  model: " +repl["modelpath"]
@@ -111,6 +125,9 @@ for sec in secs:
             repl["model_test"] = "failed"
         repl["partname"] = '<a href="'+sec+'/index.html">'+sec+'</a>'
             
+    repl["model_status_color"] = color(repl["model_status"])
+    repl["model_test_color"] = color(repl["model_test"])
+    repl["checksum_test_color"] = color(repl["checksum_test"])
     rows.append(row_template.safe_substitute(repl))
 
 lib = {"indexfile": indexfile,

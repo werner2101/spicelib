@@ -1824,10 +1824,10 @@ test_refdes=Q1
 model_status=good
 
 
-[_NXP00107]
-symbol=.sym
-value=
-modelname=
+[BCP51_NXP00107]
+symbol=pnp.sym
+value=QBCP51
+modelname=QBCP51
 file=BCP51.prm
 refdes=Q?
 pinseq_c=1
@@ -1838,13 +1838,13 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00108]
-symbol=.sym
-value=
-modelname=
+[BCP52-16_NXP00108]
+symbol=pnp.sym
+value=QBCP52-16
+modelname=QBCP52-16
 file=BCP52-16.prm
 refdes=Q?
 pinseq_c=1
@@ -1855,13 +1855,13 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=undefined
+model_status=test
 
 
-[_NXP00109]
-symbol=.sym
-value=
-modelname=
+[BCP53-16_NXP00109]
+symbol=pnp.sym
+value=QBCP53-16
+modelname=QBCP53-16
 file=BCP53-16.prm
 refdes=Q?
 pinseq_c=1
@@ -1872,13 +1872,13 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=undefined
+model_status=test
 
 
-[_NXP00110]
-symbol=.sym
-value=
-modelname=
+[BCP54-16_NXP00110]
+symbol=npn.sym
+value=QBCP54-16
+modelname=QBCP54-16
 file=BCP54-16.prm
 refdes=Q?
 pinseq_c=1
@@ -1889,13 +1889,13 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=undefined
+model_status=test
 
 
-[_NXP00111]
-symbol=.sym
-value=
-modelname=
+[BCP55-16_NXP00111]
+symbol=npn.sym
+value=QBCP55-16
+modelname=QBCP55-16
 file=BCP55-16.prm
 refdes=Q?
 pinseq_c=1
@@ -1906,13 +1906,13 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=undefined
+model_status=test
 
 
-[_NXP00112]
-symbol=.sym
-value=
-modelname=
+[BCP56-16_NXP00112]
+symbol=npn.sym
+value=QBCP56-16
+modelname=QBCP56-16
 file=BCP56-16.prm
 refdes=Q?
 pinseq_c=1
@@ -1923,30 +1923,30 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=undefined
+model_status=test
 
 
-[_NXP00113]
-symbol=.sym
-value=
-modelname=
+[BCP68_NXP00113]
+symbol=npn.sym
+value=BCP68
+modelname=BCP68
 file=BCP68.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+test_refdes=X1
+model_status=good
 
 
-[_NXP00114]
-symbol=.sym
-value=
-modelname=
+[BCP69_NXP00114]
+symbol=pnp.sym
+value=QBCP69
+modelname=QBCP69
 file=BCP69.prm
 refdes=Q?
 pinseq_c=1
@@ -1957,15 +1957,15 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00115]
-symbol=.sym
-value=
-modelname=
+[BCV26_NXP00115]
+symbol=darlington_pnp.sym
+value=BCV26
+modelname=BCV26
 file=BCV26.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -1973,16 +1973,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+test_refdes=X1
+model_status=test
 
 
-[_NXP00116]
-symbol=.sym
-value=
-modelname=
+[BCV27_NXP00116]
+symbol=darlington_npn.sym
+value=BCV27
+modelname=BCV27
 file=BCV27.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -1990,16 +1990,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+test_refdes=X1
+model_status=test
 
 
-[_NXP00117]
-symbol=.sym
-value=
-modelname=
+[BCV28_NXP00117]
+symbol=darlington_pnp.sym
+value=BCV28
+modelname=BCV28
 file=BCV28.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2007,16 +2007,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+test_refdes=X1
+model_status=test
 
 
-[_NXP00118]
-symbol=.sym
-value=
-modelname=
+[BCV29_NXP00118]
+symbol=darlington_npn.sym
+value=BCV29
+modelname=BCV29
 file=BCV29.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2024,16 +2024,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+test_refdes=X1
+model_status=test
 
 
-[_NXP00119]
-symbol=.sym
-value=
-modelname=
+[BCV46_NXP00119]
+symbol=darlington_pnp.sym
+value=BCV46
+modelname=BCV46
 file=BCV46.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2041,16 +2041,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+test_refdes=X1
+model_status=test
 
 
-[_NXP00120]
-symbol=.sym
-value=
-modelname=
+[BCV47_NXP00120]
+symbol=darlington_npn.sym
+value=BCV47
+modelname=BCV47
 file=BCV47.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2058,16 +2058,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+test_refdes=X1
+model_status=test
 
 
-[_NXP00121]
-symbol=.sym
-value=
-modelname=
+[BCV48_NXP00121]
+symbol=darlington_pnp.sym
+value=BCV48
+modelname=BCV48
 file=BCV48.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2075,16 +2075,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+test_refdes=X1
+model_status=test
 
 
-[_NXP00122]
-symbol=.sym
-value=
-modelname=
+[BCV49_NXP00122]
+symbol=darlington_npn.sym
+value=BCV49
+modelname=BCV49
 file=BCV49.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2092,10 +2092,11 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+test_refdes=X1
+model_status=test
 
 
+# dual transistor
 [_NXP00123]
 symbol=.sym
 value=
