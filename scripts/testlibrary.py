@@ -41,7 +41,19 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "model_tests/tests/npn_bipolar/",
                                          "saturation_voltages.sch"],
                          "controller" : "plot_all.py",
                          "htmltemplate": "pnp_bipolar.html",
-                         "files": ["simulate.gnucap"]}}
+                         "files": ["simulate.gnucap"]},
+            "darlington_npn.sym": { "dir" : BASE_DIR + "model_tests/tests/darlington_npn/",
+                                    "schematics" : ["dc_current_gain.sch",
+                                                    "saturation_voltages.sch"],
+                                    "controller" : "plot_all.py",
+                                    "htmltemplate": "darlington_npn.html",
+                                    "files": ["simulate.gnucap"]},
+            "darlington_pnp.sym": { "dir" : BASE_DIR + "model_tests/tests/darlington_pnp/",
+                                    "schematics" : ["dc_current_gain.sch",
+                                                    "saturation_voltages.sch"],
+                                    "controller" : "plot_all.py",
+                                    "htmltemplate": "darlington_pnp.html",
+                                    "files": ["simulate.gnucap"]}}
 
 #################### FUNCTIONS
 
