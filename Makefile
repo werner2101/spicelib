@@ -27,7 +27,8 @@ download_nxp:
 	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/basestations.zip
 	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/complex_discretes.zip
 
-unpack_nxp: unpack_nxp_bipolar
+
+unpack_nxp: unpack_nxp_bipolar unpack_nxp_diodes
 
 unpack_nxp_bipolar: downloads/nxp/SST.zip
 	rm -rf $(TEMPDIR)/nxp/bipolar
@@ -36,6 +37,13 @@ unpack_nxp_bipolar: downloads/nxp/SST.zip
 	- unzip -d $(TEMPDIR)/nxp/bipolar downloads/nxp/SST.zip
 	md5sum $(TEMPDIR)/nxp/bipolar/* >>$(MODEL_SIGDIR)/nxp_bipolar.md5sum
 
+unpack_nxp_diodes: downloads/nxp/diodes.zip
+	rm -rf $(TEMPDIR)/nxp/diodes
+	mkdir -p $(TEMPDIR)/nxp/diodes
+	md5sum downloads/nxp/SST.zip > $(MODEL_SIGDIR)/nxp_diodes.md5sum
+	- unzip -d $(TEMPDIR)/nxp/diodes downloads/nxp/diodes.zip
+	md5sum $(TEMPDIR)/nxp/diodes/* >>$(MODEL_SIGDIR)/nxp_diodes.md5sum
+
 create_nxp_bipolar:
 	rm -rf $(MODEL_LIBDIR)/nxp/bipolar
 	mkdir -p $(MODEL_LIBDIR)/nxp/bipolar
@@ -43,10 +51,22 @@ create_nxp_bipolar:
 	cp $(TEMPDIR)/nxp/bipolar/* $(MODEL_LIBDIR)/nxp/bipolar
 	md5sum $(MODEL_LIBDIR)/nxp/bipolar/* >$(MODEL_SIGDIR)/nxp_bipolar_lib.md5sum
 
+create_nxp_diodes:
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes
+	mkdir -p $(MODEL_LIBDIR)/nxp/diodes
+	scripts/fix_trailing_newline.py $(TEMPDIR)/nxp/diodes/*
+	cp $(TEMPDIR)/nxp/diodes/* $(MODEL_LIBDIR)/nxp/diodes
+	md5sum $(MODEL_LIBDIR)/nxp/diodes/* >$(MODEL_SIGDIR)/nxp_diodes_lib.md5sum
+
 test_nxp_bipolar:
 	rm -rf $(TESTDIR)/nxp/bipolar
 	mkdir -p $(TESTDIR)/nxp/bipolar
 	scripts/testlibrary.py indexfiles/nxp_bipolar.index
+
+test_nxp_diodes:
+	rm -rf $(TESTDIR)/nxp/diodes
+	mkdir -p $(TESTDIR)/nxp/diodes
+	scripts/testlibrary.py indexfiles/nxp_diodes.index
 
 
 ## texas instruments models

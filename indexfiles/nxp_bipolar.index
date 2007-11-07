@@ -1099,6 +1099,7 @@ model_status=good
 
 
 ## subcircuit and model have the same name
+## missing subcircuit .ENDS statement
 [BC847BM_NXP00065]
 symbol=npn.sym
 value=BC847BM
@@ -1567,6 +1568,7 @@ model_status=good
 
 
 ## subcircuit and model have the same name
+## subcircuit .ENDS statement missing
 [BC857BM_NXP00092]
 symbol=pnp.sym
 value=BC857BM
@@ -2045,6 +2047,7 @@ test_refdes=X1
 model_status=test
 
 
+# LE connected to the open node 333
 [BCV47_NXP00120]
 symbol=darlington_npn.sym
 value=BCV47
@@ -2059,7 +2062,7 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 [BCV48_NXP00121]
