@@ -10,14 +10,13 @@ TEMPLATE_FILE = BASE_DIR + "model_tests/tests/html_templates/modelindex.html"
 
 ROW_TEMPLATE = """
 <tr><td>$partname</td>
-    <td>$symbol</td>
-    <td>$file</td>
     <td>$value</td>
-    <td>$modelname</td>
-    <td>$footprint</td>
+    <td>$model_url</td>
+    <td>$symbol</td>
+    <td bgcolor="$checksum_test_color">$checksum_test</td>
     <td bgcolor="$model_status_color">$model_status</td>
     <td bgcolor="$model_test_color">$model_test</td>
-    <td bgcolor="$checksum_test_color">$checksum_test</td>
+    <td>$description</td>
 </tr> """
 
 COLORS = {"broken": "#FF3F3F",
@@ -101,11 +100,17 @@ def log(x):
 #################### MAIN
 
 
-if len(sys.argv) != 2:
-    print "usage: " + sys.argv[0] + "indexfile" 
+if len(sys.argv) < 2:
+    print "usage: " + sys.argv[0] + "options indexfile" 
     sys.exit()
 
-indexfile = sys.argv[1]
+if sys.argv[1] == "--notests":
+    RUNTESTS = False
+    indexfile = sys.argv[2]
+else:
+    RUNTESTS = True
+    indexfile = sys.argv[1]
+    
 ind = ConfigParser.ConfigParser()
 ind.read(indexfile)
 
@@ -126,17 +131,19 @@ for sec in secs:
     repl["modelpath"] = BASE_DIR + modeldir + repl["file"]
     repl["partname"] = sec
     repl["model_test"] = "---"
-    if repl["model_status"] in ["test","good"]:
-        print "\n\n"+ "*"*75
-        print "Testing part: " + repl["partname"] + "  model: " +repl["modelpath"]
-        print "*"*75
-        result = test_model(repl)
-        if result == True:
-            repl["model_test"] = "succeded"
-        else:
-            repl["model_test"] = "failed"
-        repl["partname"] = '<a href="'+sec+'/index.html">'+sec+'</a>'
-            
+    if RUNTESTS:
+        if repl["model_status"] in ["test"]:
+            print "\n\n"+ "*"*75
+            print "Testing part: " + repl["partname"] + "  model: " +repl["modelpath"]
+            print "*"*75
+            result = test_model(repl)
+            if result == True:
+                repl["model_test"] = "succeded"
+            else:
+                repl["model_test"] = "failed"
+            repl["partname"] = '<a href="'+sec+'/index.html">'+sec+'</a>'
+
+    repl["model_url"] = '<a href="../../../'+ modeldir+'/'+repl["file"]+'">'+repl["file"]+'</a>'
     repl["model_status_color"] = color(repl["model_status"])
     repl["model_test_color"] = color(repl["model_test"])
     repl["checksum_test_color"] = color(repl["checksum_test"])

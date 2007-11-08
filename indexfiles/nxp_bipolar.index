@@ -18,6 +18,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -35,6 +36,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -52,6 +54,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -69,6 +72,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -86,6 +90,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -103,6 +108,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -120,6 +126,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -137,6 +144,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -154,6 +162,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -171,6 +180,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -188,6 +198,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -205,6 +216,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -222,6 +234,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -239,6 +252,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -256,6 +270,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -273,6 +288,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -290,6 +306,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -307,6 +324,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -324,6 +342,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=broken
 # bjt model not connected to the subciruit
@@ -343,6 +362,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -360,6 +380,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -377,6 +398,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -394,6 +416,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=test
 
@@ -411,6 +434,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=test
 
@@ -428,6 +452,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -445,6 +470,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -462,6 +488,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -479,6 +506,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -496,6 +524,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -513,6 +542,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -530,6 +560,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -547,6 +578,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -564,6 +596,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -581,6 +614,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -598,6 +632,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -615,6 +650,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -632,6 +668,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -649,6 +686,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -666,6 +704,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -683,6 +722,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -700,6 +740,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -717,6 +758,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -734,6 +776,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -751,6 +794,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -768,6 +812,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -785,6 +830,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -802,6 +848,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -819,6 +866,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -836,6 +884,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -853,6 +902,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -870,6 +920,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -887,6 +938,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -904,6 +956,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -921,6 +974,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -938,6 +992,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -955,6 +1010,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -972,6 +1028,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -989,6 +1046,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1006,6 +1064,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1026,6 +1085,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -1043,6 +1103,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1060,6 +1121,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1077,6 +1139,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1094,6 +1157,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1113,6 +1177,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=broken
 
@@ -1132,6 +1197,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=undefined
 
@@ -1148,6 +1214,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1167,6 +1234,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -1184,6 +1252,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1203,6 +1272,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -1221,6 +1291,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -1238,6 +1309,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1255,6 +1327,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1272,6 +1345,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1289,6 +1363,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1306,6 +1381,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1323,6 +1399,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1340,6 +1417,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1357,6 +1435,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1375,6 +1454,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=broken
 
@@ -1392,6 +1472,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1409,6 +1490,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1426,6 +1508,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1443,6 +1526,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1460,6 +1544,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1477,6 +1562,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1495,6 +1581,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -1512,6 +1599,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1529,6 +1617,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1546,6 +1635,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1563,6 +1653,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1582,6 +1673,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=broken
 
@@ -1599,6 +1691,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1617,6 +1710,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -1634,6 +1728,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1652,6 +1747,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -1669,6 +1765,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1686,6 +1783,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1703,6 +1801,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1720,6 +1819,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1737,6 +1837,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1754,6 +1855,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1771,6 +1873,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1788,6 +1891,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1805,6 +1909,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1822,6 +1927,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1839,6 +1945,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1856,6 +1963,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -1873,6 +1981,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -1890,6 +1999,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -1907,6 +2017,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -1924,6 +2035,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=test
 
@@ -1941,6 +2053,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=good
 
@@ -1958,6 +2071,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=good
 
@@ -1975,8 +2089,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [BCV27_NXP00116]
@@ -1992,8 +2107,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [BCV28_NXP00117]
@@ -2009,8 +2125,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [BCV29_NXP00118]
@@ -2026,8 +2143,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [BCV46_NXP00119]
@@ -2043,8 +2161,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 # LE connected to the open node 333
@@ -2061,6 +2180,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
 model_status=broken
 
@@ -2078,8 +2198,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [BCV49_NXP00122]
@@ -2095,17 +2216,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=X1
-model_status=test
+model_status=good
 
 
-# dual transistor
-[_NXP00123]
+
+# Subcircuit with 4 connections
+[BCV61A_NXP00123]
 symbol=.sym
-value=
-modelname=
+value=BCV61A
+modelname=BCV61A
 file=BCV61A.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2113,16 +2236,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=dual npn transistor
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00124]
+
+# Subcircuit with 4 connections
+[BCV61B_NXP00124]
 symbol=.sym
-value=
-modelname=
+value=BCV61B
+modelname=BCV61B
 file=BCV61B.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2130,16 +2256,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=dual npn transistor
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00125]
+
+# Subcircuit with 4 connections
+[BCV61C_NXP00125]
 symbol=.sym
-value=
-modelname=
+value=BCV61C
+modelname=BCV61C
 file=BCV61C.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2147,16 +2276,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=dual npn transistor
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00126]
+
+# Subcircuit with 4 connections
+[BCV62A_NXP00126]
 symbol=.sym
-value=
-modelname=
+value=BCV62A
+modelname=BCV62A
 file=BCV62A.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2164,16 +2296,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=dual pnp transistor
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00127]
+
+# Subcircuit with 4 connections
+[BCV62B_NXP00127]
 symbol=.sym
-value=
-modelname=
+value=BCV62B
+modelname=BCV62B
 file=BCV62B.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2181,16 +2316,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=dual pnp transistor
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00128]
+
+# Subcircuit with 4 connections
+[BCV62C_NXP00128]
 symbol=.sym
-value=
-modelname=
+value=BCV62C
+modelname=BCV62C
 file=BCV62C.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2198,16 +2336,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=dual pnp transistor
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00129]
+
+# Subcircuit with 4 connections
+[BCV65_NXP00129]
 symbol=.sym
-value=
-modelname=
+value=BCV65
+modelname=BCV65
 file=BCV65.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2215,14 +2356,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=dual npn/pnp transistor
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00130]
-symbol=.sym
-value=
-modelname=
+
+[BCW29_NXP00130]
+symbol=pnp.sym
+value=QBCW29
+modelname=QBCW29
 file=BCW29.prm
 refdes=Q?
 pinseq_c=1
@@ -2232,14 +2375,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00131]
-symbol=.sym
-value=
-modelname=
+
+[BCW30_NXP00131]
+symbol=pnp.sym
+value=QBCW30
+modelname=QBCW30
 file=BCW30.prm
 refdes=Q?
 pinseq_c=1
@@ -2249,15 +2394,17 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00132]
-symbol=.sym
-value=
-modelname=
-file=BCQ17.prm
+
+[BCX17_NXP00132]
+symbol=pnp.sym
+value=QBCX17
+modelname=QBCX17
+file=BCX17.prm
 refdes=Q?
 pinseq_c=1
 pinseq_b=2
@@ -2266,15 +2413,17 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00133]
-symbol=.sym
-value=
-modelname=
-file=BCQ18.prm
+
+[BCX18_NXP00133]
+symbol=pnp.sym
+value=QBCX18
+modelname=QBCX18
+file=BCX18.prm
 refdes=Q?
 pinseq_c=1
 pinseq_b=2
@@ -2283,15 +2432,17 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00134]
-symbol=.sym
-value=
-modelname=
-file=BCQ19.prm
+
+[BCX19_NXP00134]
+symbol=npn.sym
+value=QBCX19
+modelname=QBCX19
+file=BCX19.prm
 refdes=Q?
 pinseq_c=1
 pinseq_b=2
@@ -2300,14 +2451,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00135]
-symbol=.sym
-value=
-modelname=
+
+[BCX51_NXP00135]
+symbol=pnp.sym
+value=QBCX51
+modelname=QBCX51
 file=BCX51.prm
 refdes=Q?
 pinseq_c=1
@@ -2317,31 +2470,35 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00136]
-symbol=.sym
-value=
-modelname=
+
+[BCX56_NXP00136]
+symbol=npn.sym
+value=BCX56
+modelname=BCX56
 file=BCX56.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=broken
+# subckt name identical to model name
 
 
-[_NXP00137]
-symbol=.sym
-value=
-modelname=
+[BCX70G_NXP00137]
+symbol=npn.sym
+value=QBCX70G
+modelname=QBCX70G
 file=BCX70G.prm
 refdes=Q?
 pinseq_c=1
@@ -2351,14 +2508,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00138]
-symbol=.sym
-value=
-modelname=
+
+[BCX70H_NXP00138]
+symbol=npn.sym
+value=QBCX70H
+modelname=QBCX70H
 file=BCX70H.prm
 refdes=Q?
 pinseq_c=1
@@ -2368,14 +2527,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00139]
-symbol=.sym
-value=
-modelname=
+
+[BCX70J_NXP00139]
+symbol=npn.sym
+value=QBCX70J
+modelname=QBCX70J
 file=BCX70J.prm
 refdes=Q?
 pinseq_c=1
@@ -2385,14 +2546,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00140]
-symbol=.sym
-value=
-modelname=
+
+[BCX70K_NXP00140]
+symbol=npn.sym
+value=QBCX70K
+modelname=QBCX70K
 file=BCX70K.prm
 refdes=Q?
 pinseq_c=1
@@ -2402,14 +2565,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00141]
-symbol=.sym
-value=
-modelname=
+
+[BF199_NXP00141]
+symbol=npn.sym
+value=QBF199
+modelname=QBF199
 file=BF199.prm
 refdes=Q?
 pinseq_c=1
@@ -2419,14 +2584,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00142]
-symbol=.sym
-value=
-modelname=
+
+[BF240_NXP00142]
+symbol=npn.sym
+value=QBF240
+modelname=QBF240
 file=BF240.prm
 refdes=Q?
 pinseq_c=1
@@ -2436,16 +2603,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00143]
-symbol=.sym
-value=
-modelname=
+
+[BF324_NXP00143]
+symbol=pnp.sym
+value=BF324
+modelname=BF324
 file=BF324.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2453,16 +2622,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00144]
-symbol=.sym
-value=
-modelname=
+
+[BF370_NXP00144]
+symbol=npn.sym
+value=BF370
+modelname=BF370
 file=BF370.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2470,14 +2641,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00145]
-symbol=.sym
-value=
-modelname=
+
+[BF420_NXP00145]
+symbol=npn.sym
+value=QBF420
+modelname=QBF420
 file=BF420.prm
 refdes=Q?
 pinseq_c=1
@@ -2487,14 +2660,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00146]
-symbol=.sym
-value=
-modelname=
+
+[BF421_NXP00146]
+symbol=pnp.sym
+value=QBF421
+modelname=QBF421
 file=BF421.prm
 refdes=Q?
 pinseq_c=1
@@ -2504,14 +2679,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00147]
-symbol=.sym
-value=
-modelname=
+
+[BF422_NXP00147]
+symbol=npn.sym
+value=QBF422
+modelname=QBF422
 file=BF422.prm
 refdes=Q?
 pinseq_c=1
@@ -2521,14 +2698,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00148]
-symbol=.sym
-value=
-modelname=
+
+[BF423_NXP00148]
+symbol=pnp.sym
+value=QBF423
+modelname=QBF423
 file=BF423.prm
 refdes=Q?
 pinseq_c=1
@@ -2538,14 +2717,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00149]
-symbol=.sym
-value=
-modelname=
+
+[BF450_NXP00149]
+symbol=pnp.sym
+value=QBF450
+modelname=QBF450
 file=BF450.prm
 refdes=Q?
 pinseq_c=1
@@ -2555,14 +2736,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00150]
-symbol=.sym
-value=
-modelname=
+
+[BF550_NXP00150]
+symbol=pnp.sym
+value=QBF550
+modelname=QBF550
 file=BF550.prm
 refdes=Q?
 pinseq_c=1
@@ -2572,16 +2755,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00151]
-symbol=.sym
-value=
-modelname=
+
+[BF570_NXP00151]
+symbol=npn.sym
+value=BF570
+modelname=BF570
 file=BF570.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2589,14 +2774,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00152]
-symbol=.sym
-value=
-modelname=
+
+[BF620_NXP00152]
+symbol=npn.sym
+value=QBF620
+modelname=QBF620
 file=BF620.prm
 refdes=Q?
 pinseq_c=1
@@ -2606,16 +2793,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00153]
-symbol=.sym
-value=
-modelname=
+
+[BF621_NXP00153]
+symbol=pnp.sym
+value=BF621
+modelname=BF621
 file=BF621.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2623,14 +2812,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00154]
-symbol=.sym
-value=
-modelname=
+
+[BF622_NXP00154]
+symbol=npn.sym
+value=QBF622
+modelname=QBF622
 file=BF622.prm
 refdes=Q?
 pinseq_c=1
@@ -2640,16 +2831,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00155]
-symbol=.sym
-value=
-modelname=
+
+[BF623_NXP00155]
+symbol=pnp.sym
+value=BF623
+modelname=BF623
 file=BF623.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2657,16 +2850,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00156]
+
+# Subcircuit with 4 connections
+[BF723_NXP00156]
 symbol=.sym
-value=
-modelname=
+value=BF723
+modelname=BF723
 file=BF723.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2674,14 +2870,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 4 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00157]
-symbol=.sym
-value=
-modelname=
+
+[BF820_NXP00157]
+symbol=npn.sym
+value=QBF820
+modelname=QBF820
 file=BF820.prm
 refdes=Q?
 pinseq_c=1
@@ -2691,14 +2889,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00158]
-symbol=.sym
-value=
-modelname=
+
+[BF820W_NXP00158]
+symbol=npn.sym
+value=QBF820W
+modelname=QBF820W
 file=BF820W.prm
 refdes=Q?
 pinseq_c=1
@@ -2708,16 +2908,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00159]
-symbol=.sym
-value=
-modelname=
+
+[BF821_NXP00159]
+symbol=pnp.sym
+value=BF821
+modelname=BF821
 file=BF821.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2725,14 +2927,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00160]
-symbol=.sym
-value=
-modelname=
+
+[BF822_NXP00160]
+symbol=npn.sym
+value=QBF822
+modelname=QBF822
 file=BF822.prm
 refdes=Q?
 pinseq_c=1
@@ -2742,16 +2946,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00161]
-symbol=.sym
-value=
-modelname=
+
+[BF823_NXP00161]
+symbol=pnp.sym
+value=BF823
+modelname=BF823
 file=BF823.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2759,16 +2965,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00162]
-symbol=.sym
-value=
-modelname=
+
+[BF824_NXP00162]
+symbol=pnp.sym
+value=BF824
+modelname=BF824
 file=BF824.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2776,14 +2984,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00163]
-symbol=.sym
-value=
-modelname=
+
+[BF824W_NXP00163]
+symbol=pnp.sym
+value=QBF824W
+modelname=QBF824W
 file=BF824W.prm
 refdes=Q?
 pinseq_c=1
@@ -2793,14 +3003,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00164]
-symbol=.sym
-value=
-modelname=
+
+[BF840_NXP00164]
+symbol=npn.sym
+value=QBF840
+modelname=QBF840
 file=BF840.prm
 refdes=Q?
 pinseq_c=1
@@ -2810,14 +3022,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00165]
-symbol=.sym
-value=
-modelname=
+
+[BFS19_NXP00165]
+symbol=npn.sym
+value=QBFS19
+modelname=QBFS19
 file=BFS19.prm
 refdes=Q?
 pinseq_c=1
@@ -2827,14 +3041,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00166]
-symbol=.sym
-value=
-modelname=
+
+[BFS20_NXP00166]
+symbol=npn.sym
+value=QBFS20
+modelname=QBFS20
 file=BFS20.prm
 refdes=Q?
 pinseq_c=1
@@ -2844,16 +3060,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00167]
-symbol=.sym
-value=
-modelname=
+
+[BSP19_NXP00167]
+symbol=npn.sym
+value=BSP19
+modelname=BSP19
 file=BSP19.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2861,16 +3079,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00168]
-symbol=.sym
-value=
-modelname=
+
+[BSP31_NXP00168]
+symbol=pnp.sym
+value=BSP31
+modelname=BSP31
 file=BSP31.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2878,16 +3098,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00169]
-symbol=.sym
-value=
-modelname=
+
+[BSP33_NXP00169]
+symbol=pnp.sym
+value=BSP33
+modelname=BSP33
 file=BSP33.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2895,16 +3117,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00170]
-symbol=.sym
-value=
-modelname=
+
+[BSP41_NXP00170]
+symbol=npn.sym
+value=BSP41
+modelname=BSP41
 file=BSP41.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2912,16 +3136,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00171]
-symbol=.sym
-value=
-modelname=
+
+[BSP43_NXP00171]
+symbol=npn.sym
+value=BSP43
+modelname=BSP43
 file=BSP43.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2929,16 +3155,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00172]
-symbol=.sym
-value=
-modelname=
+
+[BSP52_NXP00172]
+symbol=darlington_npn.sym
+value=BSP52
+modelname=BSP52
 file=BSP52.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2946,16 +3174,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn darlington with resistor and diode
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00173]
-symbol=.sym
-value=
-modelname=
+
+[BSP62_NXP00173]
+symbol=darlington_pnp.sym
+value=BSP62
+modelname=BSP62
 file=BSP62.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2963,14 +3193,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp darlington with resistor and diode
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00174]
-symbol=.sym
-value=
-modelname=
+
+[BSR14_NXP00174]
+symbol=npn.sym
+value=QBSR14
+modelname=QBSR14
 file=BSR14.prm
 refdes=Q?
 pinseq_c=1
@@ -2980,14 +3212,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00175]
-symbol=.sym
-value=
-modelname=
+
+[BSR16_NXP00175]
+symbol=pnp.sym
+value=QBSR16
+modelname=QBSR16
 file=BSR16.prm
 refdes=Q?
 pinseq_c=1
@@ -2997,14 +3231,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00176]
-symbol=.sym
-value=
-modelname=
+
+[BSR19A_NXP00176]
+symbol=npn.sym
+value=QBSR19A
+modelname=QBSR19A
 file=BSR19A.prm
 refdes=Q?
 pinseq_c=1
@@ -3014,16 +3250,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00177]
-symbol=.sym
-value=
-modelname=
+
+[BSR31_NXP00177]
+symbol=pnp.sym
+value=BSR31
+modelname=BSR31
 file=BSR31.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3031,16 +3269,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00178]
-symbol=.sym
-value=
-modelname=
+
+[BSR33_NXP00178]
+symbol=pnp.sym
+value=BSR33
+modelname=BSR33
 file=BSR33.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3048,16 +3288,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00179]
-symbol=.sym
-value=
-modelname=
+
+[BSR41_NXP00179]
+symbol=npn.sym
+value=BSR41
+modelname=BSR41
 file=BSR41.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3065,16 +3307,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00180]
-symbol=.sym
-value=
-modelname=
+
+[BSR43_NXP00180]
+symbol=npn.sym
+value=BSR43
+modelname=BSR43
 file=BSR43.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3082,16 +3326,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00181]
-symbol=.sym
-value=
-modelname=
+
+[BST39_NXP00181]
+symbol=npn.sym
+value=BST39
+modelname=BST39
 file=BST39.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3099,16 +3345,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00182]
-symbol=.sym
-value=
-modelname=
+
+[BST52_NXP00182]
+symbol=darlington_npn.sym
+value=BST52
+modelname=BST52
 file=BST52.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3116,16 +3364,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn darlington with resistor and diode
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00183]
-symbol=.sym
-value=
-modelname=
+
+[BST62_NXP00183]
+symbol=darlington_pnp.sym
+value=BST62
+modelname=BST62
 file=BST62.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3133,16 +3383,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=pnp darlington with resistor and diode
+test_refdes=X1
+model_status=good
 
 
-[_NXP00184]
-symbol=.sym
-value=
-modelname=
+
+[BSV52_NXP00184]
+symbol=npn.sym
+value=BSV52
+modelname=BSV52
 file=BSV52.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3150,14 +3402,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00185]
-symbol=.sym
-value=
-modelname=
+
+[MMBT2222A_NXP00185]
+symbol=npn.sym
+value=QMMBT2222A
+modelname=QMMBT2222A
 file=MMBT2222A.prm
 refdes=Q?
 pinseq_c=1
@@ -3167,14 +3421,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00186]
-symbol=.sym
-value=
-modelname=
+
+[MMBT3904_NXP00186]
+symbol=npn.sym
+value=QMMBT3904
+modelname=QMMBT3904
 file=MMBT3904.prm
 refdes=Q?
 pinseq_c=1
@@ -3184,14 +3440,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00187]
-symbol=.sym
-value=
-modelname=
+
+[MMBT3906_NXP00187]
+symbol=pnp.sym
+value=QMMBT3906
+modelname=QMMBT3906
 file=MMBT3906.prm
 refdes=Q?
 pinseq_c=1
@@ -3201,16 +3459,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00188]
-symbol=.sym
-value=
-modelname=
+
+[MMBTA42_NXP00188]
+symbol=npn.sym
+value=MMBTA42
+modelname=MMBTA42
 file=MMBTA42.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3218,16 +3478,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00189]
-symbol=.sym
-value=
-modelname=
+
+[MMBTA92_NXP00189]
+symbol=pnp.sym
+value=MMBTA92
+modelname=MMBTA92
 file=MMBTA92.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3235,16 +3497,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00190]
-symbol=.sym
-value=
-modelname=
+
+[MPSA44_NXP00190]
+symbol=npn.sym
+value=MPSA44
+modelname=MPSA44
 file=MPSA44.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3252,16 +3516,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00191]
-symbol=.sym
-value=
-modelname=
+
+[MPSA56_NXP00191]
+symbol=pnp.sym
+value=MPSA56
+modelname=MPSA56
 file=MPSA56.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3269,16 +3535,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00192]
-symbol=.sym
-value=
-modelname=
+
+[MPSA92_NXP00192]
+symbol=pnp.sym
+value=MPSA92
+modelname=MPSA92
 file=MPSA92.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3286,16 +3554,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=good
 
 
-[_NXP00193]
+
+[PBRN113EK_NXP00193]
 symbol=.sym
-value=
-modelname=
+value=PBRN113EK
+modelname=PBRN113EK
 file=PBRN113EK.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3303,16 +3573,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00194]
+
+[PBRN113ES_NXP00194]
 symbol=.sym
-value=
-modelname=
+value=PBRN113ES
+modelname=PBRN113ES
 file=PBRN113ES.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3320,16 +3592,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00195]
+
+[PBRN113ET_NXP00195]
 symbol=.sym
-value=
-modelname=
+value=PBRN113ET
+modelname=PBRN113ET
 file=PBRN113ET.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3337,16 +3611,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00196]
+
+[PBRN113ZK_NXP00196]
 symbol=.sym
-value=
-modelname=
+value=PBRN113ZK
+modelname=PBRN113ZK
 file=PBRN113ZK.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3354,16 +3630,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00197]
+
+[PBRN113ZS_NXP00197]
 symbol=.sym
-value=
-modelname=
+value=PBRN113ZS
+modelname=PBRN113ZS
 file=PBRN113ZS.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3371,16 +3649,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00198]
+
+[PBRN113ZT_NXP00198]
 symbol=.sym
-value=
-modelname=
+value=PBRN113ZT
+modelname=PBRN113ZT
 file=PBRN113ZT.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3388,16 +3668,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00199]
+
+[PBRN123EK_NXP00199]
 symbol=.sym
-value=
-modelname=
+value=PBRN123EK
+modelname=PBRN123EK
 file=PBRN123EK.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3405,16 +3687,17 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00200]
+[PBRN123ES_NXP00200]
 symbol=.sym
-value=
-modelname=
+value=PBRN123ES
+modelname=PBRN123ES
 file=PBRN123ES.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3422,16 +3705,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00201]
+
+[PBRN123ET_NXP00201]
 symbol=.sym
-value=
-modelname=
+value=PBRN123ET
+modelname=PBRN123ET
 file=PBRN123ET.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3439,16 +3724,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00202]
+
+[PBRN123YK_NXP00202]
 symbol=.sym
-value=
-modelname=
+value=PBRN123YK
+modelname=PBRN123YK
 file=PBRN123YK.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3456,16 +3743,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00203]
+
+[PBRN123YS_NXP00203]
 symbol=.sym
-value=
-modelname=
+value=PBRN123YS
+modelname=PBRN123YS
 file=PBRN123YS.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3473,16 +3762,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00204]
+
+[PBRN123YT_NXP00204]
 symbol=.sym
-value=
-modelname=
+value=PBRN123YT
+modelname=PBRN123YT
 file=PBRN123YT.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3490,50 +3781,57 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00205]
-symbol=.sym
-value=
-modelname=
+
+[PBSS2515E_NXP00205]
+symbol=npn.sym
+value=PBSS2515E
+modelname=PBSS2515E
 file=PBSS2515E.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00206]
-symbol=.sym
-value=
-modelname=
+
+[PBSS2515M_NXP00206]
+symbol=npn.sym
+value=PBSS2515M
+modelname=PBSS2515M
 file=PBSS2515M.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00207]
+
+# Subcircuit with 6 connections
+[PBSS2515VPN_NXP00207]
 symbol=.sym
-value=
-modelname=
+value=PBSS2515VPN
+modelname=PBSS2515VPN
 file=PBSS2515VPN.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3541,16 +3839,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=2 Complementary BISS Transistors in SOT666
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00208]
+
+# Subcircuit with 6 connections
+[PBSS2515VS_NXP00208]
 symbol=.sym
-value=
-modelname=
+value=PBSS2515VS
+modelname=PBSS2515VS
 file=PBSS2515VS.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3558,16 +3859,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=2 npn transistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00209]
+
+# Subcircuit with 6 connections
+[PBSS2515YPN_NXP00209]
 symbol=.sym
-value=
-modelname=
+value=PBSS2515YPN
+modelname=PBSS2515YPN
 file=PBSS2515YPN.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3575,67 +3879,76 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=2 Complementary BISS Transistors in SOT363 / SC-88
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00210]
-symbol=.sym
-value=
-modelname=
+
+[PBSS2540E_NXP00210]
+symbol=npn.sym
+value=PBSS2540E
+modelname=PBSS2540E
 file=PBSS2540E.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00211]
-symbol=.sym
-value=
-modelname=
+
+[PBSS301NX_NXP00211]
+symbol=npn.sym
+value=PBSS301NX
+modelname=PBSS301NX
 file=PBSS301NX.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00212]
-symbol=.sym
-value=
-modelname=
+
+[PBSS301PX_NXP00212]
+symbol=pnp.sym
+value=PBSS301PX
+modelname=PBSS301PX
 file=PBSS301PX.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00213]
+
+# Subcircuit with 6 connections
+[PBSS302ND_NXP00213]
 symbol=.sym
-value=
-modelname=
+value=PBSS302ND
+modelname=PBSS302ND
 file=PBSS302ND.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3643,16 +3956,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00214]
-symbol=.sym
-value=
-modelname=
+
+[PBSS302NX_NXP00214]
+symbol=npn.sym
+value=PBSS302NX
+modelname=PBSS302NX
 file=PBSS302NX.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3660,16 +3975,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00215]
+
+# Subcircuit with 6 connections
+[PBSS302PD_NXP00215]
 symbol=.sym
-value=
-modelname=
+value=PBSS302PD
+modelname=PBSS302PD
 file=PBSS302PD.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3677,33 +3995,38 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00216]
-symbol=.sym
-value=
-modelname=
+
+[PBSS302PX_NXP00216]
+symbol=pnp.sym
+value=PBSS302PX
+modelname=PBSS302PX
 file=PBSS302PX.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00217]
+
+# Subcircuit with 6 connections
+[PBSS303ND_NXP00217]
 symbol=.sym
-value=
-modelname=
+value=PBSS303ND
+modelname=PBSS303ND
 file=PBSS303ND.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3711,33 +4034,38 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00218]
+
+[PBSS303NX_NXP00218]
 symbol=.sym
-value=
-modelname=
+value=PBSS303NX
+modelname=PBSS303NX
 file=PBSS303NX.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00219]
+
+# Subcircuit with 6 connections
+[PBSS303PD_NXP00219]
 symbol=.sym
-value=
-modelname=
+value=PBSS303PD
+modelname=PBSS303PD
 file=PBSS303PD.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3745,33 +4073,38 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00220]
-symbol=.sym
-value=
-modelname=
+
+[PBSS303PX_NXP00220]
+symbol=pnp.sym
+value=PBSS303PX
+modelname=PBSS303PX
 file=PBSS303PX.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00221]
+
+# Subcircuit with 6 connections
+[PBSS304ND_NXP00221]
 symbol=.sym
-value=
-modelname=
+value=PBSS304ND
+modelname=PBSS304ND
 file=PBSS304ND.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3779,33 +4112,38 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00222]
-symbol=.sym
-value=
-modelname=
+
+[PBSS304NX_NXP00222]
+symbol=npn.sym
+value=PBSS304NX
+modelname=PBSS304NX
 file=PBSS304NX.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00223]
+
+# Subcircuit with 6 connections
+[PBSS304PD_NXP00223]
 symbol=.sym
-value=
-modelname=
+value=PBSS304PD
+modelname=PBSS304PD
 file=PBSS304PD.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3813,33 +4151,38 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00224]
-symbol=.sym
-value=
-modelname=
+
+[PBSS304PX_NXP00224]
+symbol=pnp.sym
+value=PBSS304PX
+modelname=PBSS304PX
 file=PBSS304PX.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00225]
+
+# Subcircuit with 6 connections
+[PBSS305ND_NXP00225]
 symbol=.sym
-value=
-modelname=
+value=PBSS305ND
+modelname=PBSS305ND
 file=PBSS305ND.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3847,33 +4190,38 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00226]
-symbol=.sym
-value=
-modelname=
+
+[PBSS305NX_NXP00226]
+symbol=npn.sym
+value=PBSS305NX
+modelname=PBSS305NX
 file=PBSS305NX.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00227]
+
+# Subcircuit with 6 connections
+[PBSS305PD_NXP00227]
 symbol=.sym
-value=
-modelname=
+value=PBSS305PD
+modelname=PBSS305PD
 file=PBSS305PD.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3881,101 +4229,114 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00228]
-symbol=.sym
-value=
-modelname=
+
+[PBSS305PX_NXP00228]
+symbol=pnp.sym
+value=PBSS305PX
+modelname=PBSS305PX
 file=PBSS305PX.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00229]
-symbol=.sym
-value=
-modelname=
+
+[PBSS306NX_NXP00229]
+symbol=npn.sym
+value=PBSS306NX
+modelname=PBSS306NX
 file=PBSS306NX.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00230]
-symbol=.sym
-value=
-modelname=
+
+[PBSS306PX_NXP00230]
+symbol=pnp.sym
+value=PBSS306PX
+modelname=PBSS306PX
 file=PBSS306PX.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00231]
-symbol=.sym
-value=
-modelname=
+
+[PBSS3515E_NXP00231]
+symbol=pnp.sym
+value=PBSS3515E
+modelname=PBSS3515E
 file=PBSS3515E.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00232]
-symbol=.sym
-value=
-modelname=
+
+[PBSS3515M_NXP00232]
+symbol=pnp.sym
+value=PBSS3515M
+modelname=PBSS3515M
 file=PBSS3515M.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00233]
+
+# Subcircuit with 6 connections
+[PBSS3515VS_NXP00233]
 symbol=.sym
-value=
-modelname=
+value=PBSS3515VS
+modelname=PBSS3515VS
 file=PBSS3515VS.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3983,50 +4344,57 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=2 pnp transistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00234]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4120T_NXP00234]
+symbol=npn.sym
+value=PBSS4120T
+modelname=PBSS4120T
 file=PBSS4120T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00235]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4130T_NXP00235]
+symbol=npn.sym
+value=PBSS4130T
+modelname=PBSS4130T
 file=PBSS4130T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00236]
+
+# Subcircuit with 6 connections
+[PBSS4140DPN_NXP00236]
 symbol=.sym
-value=
-modelname=
+value=PBSS4140DPN
+modelname=PBSS4140DPN
 file=PBSS4140DPN.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4034,67 +4402,76 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn/pnp transitor
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00237]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4140S_NXP00237]
+symbol=npn.sym
+value=PBSS4140S
+modelname=PBSS4140S
 file=PBSS4140S.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00238]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4140T_NXP00238]
+symbol=npn.sym
+value=PBSS4140T
+modelname=PBSS4140T
 file=PBSS4140T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00239]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4140U_NXP00239]
+symbol=npn.sym
+value=PBSS4140U
+modelname=PBSS4140U
 file=PBSS4140U.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00240]
+
+# Subcircuit with 6 connections
+[PBSS4140V_NXP00240]
 symbol=.sym
-value=
-modelname=
+value=PBSS4140V
+modelname=PBSS4140V
 file=PBSS4140V.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4102,16 +4479,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00241]
+
+# Subcircuit with 6 connections
+[PBSS4160DPN_NXP00241]
 symbol=.sym
-value=
-modelname=
+value=PBSS4160DPN
+modelname=PBSS4160DPN
 file=PBSS4160DPN.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4119,16 +4499,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn/pnp transistor
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00242]
+
+# Subcircuit with 6 connections
+[PBSS4160DS_NXP00242]
 symbol=.sym
-value=
-modelname=
+value=PBSS4160DS
+modelname=PBSS4160DS
 file=PBSS4160DS.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4136,67 +4519,76 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=2 npn transistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00243]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4160K_NXP00243]
+symbol=npn.sym
+value=PBSS4160K
+modelname=PBSS4160K
 file=PBSS4160K.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00244]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4160T_NXP00244]
+symbol=npn.sym
+value=PBSS4160T
+modelname=PBSS4160T
 file=PBSS4160T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00245]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4160U_NXP00245]
+symbol=npn.sym
+value=PBSS4160U
+modelname=PBSS4160U
 file=PBSS4160U.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00246]
+
+# Subcircuit with 6 connections
+[PBSS4220V_NXP00246]
 symbol=.sym
-value=
-modelname=
+value=PBSS4220V
+modelname=PBSS4220V
 file=PBSS4220V.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4204,33 +4596,38 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00247]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4230T_NXP00247]
+symbol=npn.sym
+value=PBSS4230T
+modelname=PBSS4230T
 file=PBSS4230T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00248]
+
+# Subcircuit with 6 connections
+[PBSS4240DPN_NXP00248]
 symbol=.sym
-value=
-modelname=
+value=PBSS4240DPN
+modelname=PBSS4240DPN
 file=PBSS4240DPN.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4238,33 +4635,38 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=2 Complementary BISS Transistors in SOT457 / SC-74
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00249]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4240T_NXP00249]
+symbol=npn.sym
+value=PBSS4240T
+modelname=PBSS4240T
 file=PBSS4240T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00250]
+
+# Subcircuit with 6 connections
+[PBSS4240V_NXP00250]
 symbol=.sym
-value=
-modelname=
+value=PBSS4240V
+modelname=PBSS4240V
 file=PBSS4240V.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4272,16 +4674,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00251]
+
+# Subcircuit with 6 connections
+[PBSS4240Y_NXP00251]
 symbol=.sym
-value=
-modelname=
+value=PBSS4240Y
+modelname=PBSS4240Y
 file=PBSS4240Y.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4289,67 +4694,76 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00252]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4320T_NXP00252]
+symbol=npn.sym
+value=PBSS4320T
+modelname=PBSS4320T
 file=PBSS4320T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00253]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4320X_NXP00253]
+symbol=npn.sym
+value=PBSS4320X
+modelname=PBSS4320X
 file=PBSS4320X.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00254]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4330X_NXP00254]
+symbol=npn.sym
+value=PBSS4330X
+modelname=PBSS4330X
 file=PBSS4330X.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00255]
+
+# Subcircuit with 6 connections
+[PBSS4350D_NXP00255]
 symbol=.sym
-value=
-modelname=
+value=PBSS4350D
+modelname=PBSS4350D
 file=PBSS4350D.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4357,50 +4771,57 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00256]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4350S_NXP00256]
+symbol=npn.sym
+value=PBSS4350S
+modelname=PBSS4350S
 file=PBSS4350S.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00257]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4350T_NXP00257]
+symbol=npn.sym
+value=PBSS4350T
+modelname=PBSS4350T
 file=PBSS4350T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00258]
+
+# Subcircuit with 4 connections
+[PBSS4350Z_NXP00258]
 symbol=.sym
-value=
-modelname=
+value=PBSS4350Z
+modelname=PBSS4350Z
 file=PBSS4350Z.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4408,16 +4829,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 4 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00259]
+
+# Subcircuit with 6 connections
+[PBSS4420D_NXP00259]
 symbol=.sym
-value=
-modelname=
+value=PBSS4420D
+modelname=PBSS4420D
 file=PBSS4420D.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4425,16 +4849,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00260]
+
+# Subcircuit with 6 connections
+[PBSS4440D_NXP00260]
 symbol=.sym
-value=
-modelname=
+value=PBSS4440D
+modelname=PBSS4440D
 file=PBSS4440D.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4442,31 +4869,35 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00261]
-symbol=.sym
-value=
-modelname=
+
+[PBSS4540X_NXP00261]
+symbol=npn.sym
+value=PBSS4540X
+modelname=PBSS4540X
 file=PBSS4540X.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00262]
+
+[PBSS4540Z_NXP00262]
 symbol=.sym
-value=
-modelname=
+value=PBSS4540Z
+modelname=PBSS4540Z
 file=PBSS4540Z.prm
 refdes=Q?
 pinseq_c=1
@@ -4476,101 +4907,114 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=npn transistor with 4 pins
 test_refdes=Q1
 model_status=undefined
 
 
-[_NXP00263]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5120T_NXP00263]
+symbol=pnp.sym
+value=PBSS5120T
+modelname=PBSS5120T
 file=PBSS5120T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00264]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5130T_NXP00264]
+symbol=pnp.sym
+value=PBSS5130T
+modelname=PBSS5130T
 file=PBSS5130T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00265]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5140S_NXP00265]
+symbol=pnp.sym
+value=PBSS5140S
+modelname=PBSS5140S
 file=PBSS5140S.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00266]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5140T_NXP00266]
+symbol=pnp.sym
+value=PBSS5140T
+modelname=PBSS5140T
 file=PBSS5140T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00267]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5140U_NXP00267]
+symbol=pnp.sym
+value=PBSS5140U
+modelname=PBSS5140U
 file=PBSS5140U.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00268]
+
+# Subcircuit with 6 connections
+[PBSS5140V_NXP00268]
 symbol=.sym
-value=
-modelname=
+value=PBSS5140V
+modelname=PBSS5140V
 file=PBSS5140V.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4578,16 +5022,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00269]
+
+# Subcircuit with 6 connections
+[PBSS5160DS_NXP00269]
 symbol=.sym
-value=
-modelname=
+value=PBSS5160DS
+modelname=PBSS5160DS
 file=PBSS5160DS.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4595,101 +5042,115 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=2 pnp transistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00270]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5160K_NXP00270]
+symbol=pnp.sym
+value=PBSS5160K
+modelname=PBSS5160K
 file=PBSS5160K.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00271]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5160T_NXP00271]
+symbol=pnp.sym
+value=PBSS5160T
+modelname=PBSS5160T
 file=PBSS5160T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00272]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5160U_NXP00272]
+symbol=pnp.sym
+value=PBSS5160U
+modelname=PBSS5160U
 file=PBSS5160U.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00273]
+
+# Subcircuit with 6 connections
+[PBSS5160V_NXP00273]
 symbol=.sym
-value=
-modelname=
+value=PBSS5160V
+modelname=PBSS5160V
 file=PBSS5160V.prm
-refdes=Q?
-pinseq_c=1
+refdes=X?
+pinseq_c=
 pinseq_b=2
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00274]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5220T_NXP00274]
+symbol=pnp.sym
+value=PBSS5220T
+modelname=PBSS5220T
 file=PBSS5220T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00275]
+
+# Subcircuit with 6 connections
+[PBSS5220V_NXP00275]
 symbol=.sym
-value=
-modelname=
+value=PBSS5220V
+modelname=PBSS5220V
 file=PBSS5220V.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4697,50 +5158,57 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00276]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5230T_NXP00276]
+symbol=pnp.sym
+value=PBSS5230T
+modelname=PBSS5230T
 file=PBSS5230T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00277]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5240T_NXP00277]
+symbol=pnp.sym
+value=PBSS5240T
+modelname=PBSS5240T
 file=PBSS5240T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00278]
+
+# Subcircuit with 6 connections
+[PBSS5240V_NXP00278]
 symbol=.sym
-value=
-modelname=
+value=PBSS5240V
+modelname=PBSS5240V
 file=PBSS5240V.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4748,16 +5216,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00279]
+
+# Subcircuit with 6 connections
+[PBSS5240Y_NXP00279]
 symbol=.sym
-value=
-modelname=
+value=PBSS5240Y
+modelname=PBSS5240Y
 file=PBSS5240Y.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4765,50 +5236,57 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00280]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5250T_NXP00280]
+symbol=pnp.sym
+value=PBSS5250T
+modelname=PBSS5250T
 file=PBSS5250T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00281]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5250X_NXP00281]
+symbol=pnp.sym
+value=PBSS5250X
+modelname=PBSS5250X
 file=PBSS5250X.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00282]
+
+# Subcircuit with 6 connections
+[PBSS5320D_NXP00282]
 symbol=.sym
-value=
-modelname=
+value=PBSS5320D
+modelname=PBSS5320D
 file=PBSS5320D.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4816,50 +5294,57 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00283]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5320T_NXP00283]
+symbol=pnp.sym
+value=PBSS5320T
+modelname=PBSS5320T
 file=PBSS5320T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00284]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5320X_NXP00284]
+symbol=pnp.sym
+value=PBSS5320X
+modelname=PBSS5320X
 file=PBSS5320X.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00285]
+
+# Subcircuit with 6 connections
+[PBSS5350D_NXP00285]
 symbol=.sym
-value=
-modelname=
+value=PBSS5350D
+modelname=PBSS5350D
 file=PBSS5350D.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4867,84 +5352,95 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00286]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5350S_NXP00286]
+symbol=pnp.sym
+value=PBSS5350S
+modelname=PBSS5350S
 file=PBSS5350S.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00287]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5350T_NXP00287]
+symbol=pnp.sym
+value=PBSS5350T
+modelname=PBSS5350T
 file=PBSS5350T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00288]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5350X_NXP00288]
+symbol=pnp.sym
+value=PBSS5350X
+modelname=PBSS5350X
 file=PBSS5350X.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00289]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5350Z_NXP00289]
+symbol=pnp.sym
+value=PBSS5350Z
+modelname=PBSS5350Z
 file=PBSS5350Z.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00290]
+
+# Subcircuit with 6 connections
+[PBSS5420D_NXP00290]
 symbol=.sym
-value=
-modelname=
+value=PBSS5420D
+modelname=PBSS5420D
 file=PBSS5420D.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4952,16 +5448,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00291]
+
+# Subcircuit with 6 connections
+[PBSS5440D_NXP00291]
 symbol=.sym
-value=
-modelname=
+value=PBSS5440D
+modelname=PBSS5440D
 file=PBSS5440D.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4969,33 +5468,38 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=pnp transistor with 6 pins
+test_refdes=X1
+model_status=test
 
 
-[_NXP00292]
-symbol=.sym
-value=
-modelname=
+
+[PBSS5540X_NXP00292]
+symbol=pnp.sym
+value=PBSS5540X
+modelname=PBSS5540X
 file=PBSS5540X.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00293]
+
+# Subcircuit with 4 connections
+[PBSS5540Z_NXP00293]
 symbol=.sym
-value=
-modelname=
+value=PBSS5540Z
+modelname=PBSS5540Z
 file=PBSS5540Z.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -5003,14 +5507,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=pnp transistor with 4 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00294]
-symbol=.sym
-value=
-modelname=
+
+[PBSS8110AS_NXP00294]
+symbol=npn.sym
+value=PBSS8110AS
+modelname=PBSS8110AS
 file=PBSS8110AS.prm
 refdes=Q?
 pinseq_c=1
@@ -5020,16 +5526,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=test
 
 
-[_NXP00295]
+
+# Subcircuit with 6 connections
+[PBSS8110D_NXP00295]
 symbol=.sym
-value=
-modelname=
+value=PBSS8110D
+modelname=PBSS8110D
 file=PBSS8110D.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -5037,50 +5546,57 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00296]
-symbol=.sym
-value=
-modelname=
+
+[PBSS8110T_NXP00296]
+symbol=npn.sym
+value=PBSS8110T
+modelname=PBSS8110T
 file=PBSS8110T.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
-model_status=undefined
+description=TBD
+test_refdes=X1
+model_status=test
 
 
-[_NXP00297]
-symbol=.sym
-value=
-modelname=
+
+[PBSS8110X_NXP00297]
+symbol=npn.sym
+value=PBSS8110X
+modelname=PBSS8110X
 file=PBSS8110X.prm
 refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=test
 
 
-[_NXP00298]
+
+# Subcircuit with 6 connections
+[PBSS8110Y_NXP00298]
 symbol=.sym
-value=
-modelname=
+value=PBSS8110Y
+modelname=PBSS8110Y
 file=PBSS8110Y.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -5088,25 +5604,29 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-test_refdes=Q1
+description=npn transistor with 6 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00299]
-symbol=.sym
-value=
-modelname=
+
+[PBSS8110Z_NXP00299]
+symbol=npn.sym
+value=PBSS8110Z
+modelname=PBSS8110Z
 file=PBSS8110Z.prm
 refdes=Q?
-pinseq_c=1
-pinseq_b=2
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
-model_status=undefined
+model_status=test
+
 
 
 [_NXP00300]
@@ -5122,6 +5642,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5139,6 +5660,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5156,6 +5678,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5173,6 +5696,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5190,6 +5714,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5207,6 +5732,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5224,6 +5750,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5241,6 +5768,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5258,6 +5786,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5275,6 +5804,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5292,6 +5822,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5309,6 +5840,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5326,6 +5858,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5343,6 +5876,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5360,6 +5894,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5377,6 +5912,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5394,6 +5930,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5411,6 +5948,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5428,6 +5966,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5445,6 +5984,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5462,6 +6002,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5479,6 +6020,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5496,6 +6038,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5513,6 +6056,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5530,6 +6074,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5547,6 +6092,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5564,6 +6110,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5581,6 +6128,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5598,6 +6146,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5615,6 +6164,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5632,6 +6182,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5649,6 +6200,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5666,6 +6218,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5683,6 +6236,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5700,6 +6254,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5717,6 +6272,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5734,6 +6290,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5751,6 +6308,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5768,6 +6326,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5785,6 +6344,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5802,6 +6362,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5819,6 +6380,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5836,6 +6398,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5853,6 +6416,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5870,6 +6434,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5887,6 +6452,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5904,6 +6470,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5921,6 +6488,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5938,6 +6506,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5955,6 +6524,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5972,6 +6542,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -5989,6 +6560,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6006,6 +6578,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6023,6 +6596,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6040,6 +6614,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6057,6 +6632,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6074,6 +6650,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6091,6 +6668,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6108,6 +6686,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6125,6 +6704,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6142,6 +6722,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6159,6 +6740,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6176,6 +6758,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6193,6 +6776,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6210,6 +6794,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6227,6 +6812,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6244,6 +6830,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6261,6 +6848,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6278,6 +6866,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6295,6 +6884,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6312,6 +6902,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6329,6 +6920,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6346,6 +6938,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6363,6 +6956,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6380,6 +6974,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6397,6 +6992,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6414,6 +7010,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6431,6 +7028,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6448,6 +7046,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6465,6 +7064,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6482,6 +7082,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6499,6 +7100,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6516,6 +7118,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6533,6 +7136,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6550,6 +7154,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6567,6 +7172,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6584,6 +7190,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6601,6 +7208,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6618,6 +7226,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6635,6 +7244,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6652,6 +7262,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6669,6 +7280,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6686,6 +7298,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6703,6 +7316,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6720,6 +7334,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6737,6 +7352,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6754,6 +7370,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6771,6 +7388,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6788,6 +7406,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6805,6 +7424,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6822,6 +7442,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6839,6 +7460,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6856,6 +7478,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6873,6 +7496,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6890,6 +7514,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6907,6 +7532,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6924,6 +7550,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6941,6 +7568,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6958,6 +7586,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6975,6 +7604,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -6992,6 +7622,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7009,6 +7640,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7026,6 +7658,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7043,6 +7676,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7060,6 +7694,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7077,6 +7712,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7094,6 +7730,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7111,6 +7748,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7128,6 +7766,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7145,6 +7784,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7162,6 +7802,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7179,6 +7820,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7196,6 +7838,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7213,6 +7856,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7230,6 +7874,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7247,6 +7892,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7264,6 +7910,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7281,6 +7928,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7298,6 +7946,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7315,6 +7964,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7332,6 +7982,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7349,6 +8000,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7366,6 +8018,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7383,6 +8036,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7400,6 +8054,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7417,6 +8072,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7434,6 +8090,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7451,6 +8108,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7468,6 +8126,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7485,6 +8144,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7502,6 +8162,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7519,6 +8180,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7536,6 +8198,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7553,6 +8216,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7570,6 +8234,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7587,6 +8252,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7604,6 +8270,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7621,6 +8288,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7638,6 +8306,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7655,6 +8324,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7672,6 +8342,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7689,6 +8360,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7706,6 +8378,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7723,6 +8396,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7740,6 +8414,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7757,6 +8432,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7774,6 +8450,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7791,6 +8468,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7808,6 +8486,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7825,6 +8504,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7842,6 +8522,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7859,6 +8540,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7876,6 +8558,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7893,6 +8576,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7910,6 +8594,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7927,6 +8612,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7944,6 +8630,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7961,6 +8648,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7978,6 +8666,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -7995,6 +8684,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8012,6 +8702,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8029,6 +8720,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8046,6 +8738,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8063,6 +8756,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8080,6 +8774,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8097,6 +8792,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8114,6 +8810,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8131,6 +8828,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8148,6 +8846,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8165,6 +8864,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8182,6 +8882,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8199,6 +8900,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8216,6 +8918,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8233,6 +8936,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8250,6 +8954,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8267,6 +8972,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8284,6 +8990,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8301,6 +9008,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8318,6 +9026,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8335,6 +9044,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8352,6 +9062,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8369,6 +9080,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8386,6 +9098,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8403,6 +9116,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8420,6 +9134,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8437,6 +9152,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8454,6 +9170,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8471,6 +9188,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8488,6 +9206,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8505,6 +9224,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8522,6 +9242,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8539,6 +9260,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8556,6 +9278,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8573,6 +9296,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8590,6 +9314,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8607,6 +9332,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8624,6 +9350,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8641,6 +9368,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8658,6 +9386,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8675,6 +9404,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8692,6 +9422,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8709,6 +9440,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8726,6 +9458,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8743,6 +9476,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8760,6 +9494,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8777,6 +9512,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8794,6 +9530,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8811,6 +9548,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8828,6 +9566,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8845,6 +9584,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8862,6 +9602,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8879,6 +9620,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8896,6 +9638,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8913,6 +9656,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8930,6 +9674,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8947,6 +9692,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8964,6 +9710,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8981,6 +9728,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -8998,6 +9746,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9015,6 +9764,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9032,6 +9782,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9049,6 +9800,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9066,6 +9818,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9083,6 +9836,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9100,6 +9854,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9117,6 +9872,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9134,6 +9890,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9151,6 +9908,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9168,6 +9926,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9185,6 +9944,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9202,6 +9962,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9219,6 +9980,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9236,6 +9998,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9253,6 +10016,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9270,6 +10034,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9287,6 +10052,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9304,6 +10070,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9321,6 +10088,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9338,6 +10106,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9355,6 +10124,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9372,6 +10142,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9389,6 +10160,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9406,6 +10178,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9423,6 +10196,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9440,6 +10214,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9457,6 +10232,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9474,6 +10250,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9491,6 +10268,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9508,6 +10286,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9525,6 +10304,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9542,6 +10322,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9559,6 +10340,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9576,6 +10358,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9593,6 +10376,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9610,6 +10394,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9627,6 +10412,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9644,6 +10430,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9661,6 +10448,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9678,6 +10466,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9695,6 +10484,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9712,6 +10502,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9729,6 +10520,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9746,6 +10538,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9763,6 +10556,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9780,6 +10574,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9797,6 +10592,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9814,6 +10610,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9831,6 +10628,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9848,6 +10646,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9865,6 +10664,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9882,6 +10682,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9899,6 +10700,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9916,6 +10718,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9933,6 +10736,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9950,6 +10754,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9967,6 +10772,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -9984,6 +10790,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10001,6 +10808,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10018,6 +10826,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10035,6 +10844,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10052,6 +10862,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10069,6 +10880,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10086,6 +10898,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10103,6 +10916,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10120,6 +10934,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10137,6 +10952,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10154,6 +10970,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10171,6 +10988,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10188,6 +11006,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10205,6 +11024,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10222,6 +11042,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10239,6 +11060,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10256,6 +11078,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10273,6 +11096,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10290,6 +11114,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10307,6 +11132,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10324,6 +11150,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10341,6 +11168,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10358,6 +11186,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10375,6 +11204,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10392,6 +11222,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10409,6 +11240,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10426,6 +11258,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10443,6 +11276,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10460,6 +11294,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10477,6 +11312,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10494,6 +11330,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10511,6 +11348,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10528,6 +11366,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10545,6 +11384,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10562,6 +11402,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10579,6 +11420,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10596,6 +11438,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10613,6 +11456,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10630,6 +11474,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10647,6 +11492,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10664,6 +11510,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10681,6 +11528,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10698,6 +11546,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10715,6 +11564,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10732,6 +11582,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10749,6 +11600,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10766,6 +11618,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10783,6 +11636,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10800,6 +11654,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10817,6 +11672,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10834,6 +11690,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10851,6 +11708,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10868,6 +11726,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10885,6 +11744,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10902,6 +11762,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10919,6 +11780,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10936,6 +11798,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10953,6 +11816,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10970,6 +11834,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -10987,6 +11852,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11004,6 +11870,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11021,6 +11888,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11038,6 +11906,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11055,6 +11924,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11072,6 +11942,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11089,6 +11960,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11106,6 +11978,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11123,6 +11996,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11140,6 +12014,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11157,6 +12032,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11174,6 +12050,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11191,6 +12068,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11208,6 +12086,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11225,6 +12104,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11242,6 +12122,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11259,6 +12140,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11276,6 +12158,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11293,6 +12176,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11310,6 +12194,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11327,6 +12212,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11344,6 +12230,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11361,6 +12248,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11378,6 +12266,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11395,6 +12284,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11412,6 +12302,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11429,6 +12320,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11446,6 +12338,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11463,6 +12356,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11480,6 +12374,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11497,6 +12392,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11514,6 +12410,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11531,6 +12428,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11548,6 +12446,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11565,6 +12464,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11582,6 +12482,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11599,6 +12500,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11616,6 +12518,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11633,6 +12536,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11650,6 +12554,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11667,6 +12572,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11684,6 +12590,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11701,6 +12608,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11718,6 +12626,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11735,6 +12644,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11752,6 +12662,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11769,6 +12680,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11786,6 +12698,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11803,6 +12716,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11820,6 +12734,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11837,6 +12752,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11854,6 +12770,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11871,6 +12788,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11888,6 +12806,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11905,6 +12824,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11922,6 +12842,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11939,6 +12860,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11956,6 +12878,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11973,6 +12896,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -11990,6 +12914,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -12007,6 +12932,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -12024,6 +12950,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -12041,6 +12968,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -12058,6 +12986,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -12075,6 +13004,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -12092,6 +13022,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
@@ -12109,6 +13040,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
+description=TBD
 test_refdes=Q1
 model_status=undefined
 
