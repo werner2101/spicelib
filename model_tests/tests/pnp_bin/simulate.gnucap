@@ -1,0 +1,11 @@
+* PNP Bipolar transistor tests with base resistor
+
+.get dc_current.net
+
+.pr dc I(V1) I(V2) V(in)
+.dc v1 0 5 0.1 temperature=0 >dc_current_t0.data
+.dc v1 0 5 0.1 temperature=25 >dc_current_t25.data
+.dc v1 0 5 0.1 temperature=50 >dc_current_t50.data
+.dc v1 0 5 0.1 temperature=75 >dc_current_t75.data
+.dc v1 0 5 0.1 temperature=100 >dc_current_t100.data
+
