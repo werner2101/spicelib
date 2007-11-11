@@ -52,7 +52,28 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "model_tests/tests/npn_bipolar/",
                                                     "saturation_voltages.sch"],
                                     "controller" : "plot_all.py",
                                     "htmltemplate": "darlington_pnp.html",
-                                    "files": ["simulate.gnucap"]}}
+                                    "files": ["simulate.gnucap"]},
+            "npn_bin.sym": { "dir" : BASE_DIR + "model_tests/tests/npn_bin/",
+                                    "schematics" : ["dc_current.sch"],
+                                    "controller" : "plot_all.py",
+                                    "htmltemplate": "npn_bin.html",
+                                    "files": ["simulate.gnucap"]},
+            "pnp_bin.sym": { "dir" : BASE_DIR + "model_tests/tests/pnp_bin/",
+                                    "schematics" : ["dc_current.sch"],
+                                    "controller" : "plot_all.py",
+                                    "htmltemplate": "pnp_bin.html",
+                                    "files": ["simulate.gnucap"]},
+            "npn_rbase.sym": { "dir" : BASE_DIR + "model_tests/tests/npn_rbase/",
+                                    "schematics" : ["dc_current.sch"],
+                                    "controller" : "plot_all.py",
+                                    "htmltemplate": "npn_rbase.html",
+                                    "files": ["simulate.gnucap"]},
+            "pnp_rbase.sym": { "dir" : BASE_DIR + "model_tests/tests/pnp_rbase/",
+                                    "schematics" : ["dc_current.sch"],
+                                    "controller" : "plot_all.py",
+                                    "htmltemplate": "pnp_rbase.html",
+                                    "files": ["simulate.gnucap"]}
+            }
 
 #################### FUNCTIONS
 

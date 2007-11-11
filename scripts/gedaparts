@@ -16,6 +16,8 @@ def list_parts(filename):
     for sec in ind.sections():
         if ind.get(sec,"model_status") in ["good","test"]:
             print sec
+        else:
+            print sec
 
 def symbol(filename, partname):
     ind = ConfigParser.ConfigParser()
@@ -35,7 +37,7 @@ def log(x):
 
 #################### MAIN
 
-#log(sys.argv)
+log(sys.argv)
 
 if len(sys.argv) == 2: ## --> list command
     list_parts(sys.argv[1])
