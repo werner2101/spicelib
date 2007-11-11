@@ -5626,9 +5626,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=npn transistor with 4 pins
 test_refdes=Q1
-model_status=undefined
+model_status=broken
 # asterisk in front of the subckt definition
 
 
@@ -7531,7 +7531,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=undefined
+model_status=good
 
 
 
@@ -7549,9 +7549,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=pnp transistor with buildin resisotors
+description=pnp transistor with buildin resisitors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7570,7 +7570,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7589,7 +7589,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7608,7 +7608,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7627,7 +7627,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7644,9 +7644,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=pnp transistors with buildin resisotors
+description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7663,9 +7663,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=pnp transistors with buildin resistors
+description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7684,7 +7684,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7703,7 +7703,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7720,9 +7720,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=pnp transistor with buildin resistor
+description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7741,7 +7741,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7760,7 +7760,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7779,7 +7779,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7798,7 +7798,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7817,7 +7817,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7834,9 +7834,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=pnp transistor with buildin ressistors
+description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7855,7 +7855,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7874,7 +7874,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7893,7 +7893,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7912,7 +7912,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7931,7 +7931,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7950,7 +7950,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7969,7 +7969,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -7988,7 +7988,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8007,7 +8007,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8026,7 +8026,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8045,7 +8045,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8064,7 +8064,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8083,7 +8083,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8102,7 +8102,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8119,9 +8119,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=pnp transistor with buildin resitors
+description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8140,7 +8140,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8157,9 +8157,9 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=pnp transistors with buildin rsistors
+description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8178,7 +8178,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8197,7 +8197,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8216,7 +8216,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8235,7 +8235,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8254,7 +8254,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8273,7 +8273,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8292,7 +8292,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8311,7 +8311,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8330,7 +8330,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8349,7 +8349,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8368,7 +8368,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8387,7 +8387,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8406,7 +8406,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8425,7 +8425,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8444,7 +8444,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8463,7 +8463,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8482,7 +8482,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8501,7 +8501,7 @@ pinnr_e=E
 footprint=none
 description=pnp transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8520,7 +8520,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8539,12 +8539,12 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PDTC114EM_NXP00453]
-symbol=pnp_bin.sym
+symbol=npn_bin.sym
 value=PDTC114EM
 modelname=PDTC114EM
 file=PDTC114EM.prm
@@ -8558,7 +8558,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8577,7 +8577,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8596,7 +8596,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8615,7 +8615,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8634,12 +8634,12 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PDTC114TE_NXP00458]
-symbol=npn_bin.sym
+symbol=npn_rbase.sym
 value=PDTC114TE
 modelname=PDTC114TE
 file=PDTC114TE.prm
@@ -8653,7 +8653,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8672,7 +8672,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8691,7 +8691,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8710,7 +8710,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8729,7 +8729,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8748,7 +8748,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8767,7 +8767,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8786,7 +8786,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8805,7 +8805,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8824,7 +8824,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8843,7 +8843,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8862,7 +8862,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8881,7 +8881,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8900,7 +8900,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8919,7 +8919,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8938,7 +8938,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8957,7 +8957,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8976,7 +8976,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -8995,7 +8995,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9014,7 +9014,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9033,7 +9033,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9052,7 +9052,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9071,7 +9071,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9090,7 +9090,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9109,7 +9109,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9128,7 +9128,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9147,7 +9147,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9166,7 +9166,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9185,7 +9185,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9204,7 +9204,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9223,7 +9223,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9242,7 +9242,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9261,7 +9261,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9280,7 +9280,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9299,7 +9299,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9318,7 +9318,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9337,7 +9337,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9356,7 +9356,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9375,7 +9375,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with buildin resistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9394,7 +9394,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9413,7 +9413,7 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -9432,214 +9432,226 @@ pinnr_e=E
 footprint=none
 description=npn transistor with base resistor
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
-[_NXP00500]
-symbol=.sym
-value=
-modelname=
+[PDTC123TT_NXP00500]
+symbol=npn_rbase.sym
+value=PDTC123TT
+modelname=PDTC123TT
 file=PDTC123TT.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00501]
-symbol=.sym
-value=
-modelname=
+
+[PDTC123TU_NXP00501]
+symbol=npn_rbase.sym
+value=PDTC123TU
+modelname=PDTC123TU
 file=PDTC123TU.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00502]
-symbol=.sym
-value=
-modelname=
+
+[PDTC123YE_NXP00502]
+symbol=npn_bin.sym
+value=PDTC123YE
+modelname=PDTC123YE
 file=PDTC123YE.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00503]
-symbol=.sym
-value=
-modelname=
+
+[PDTC123YK_NXP00503]
+symbol=npn_bin.sym
+value=PDTC123YK
+modelname=PDTC123YK
 file=PDTC123YK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00504]
-symbol=.sym
-value=
-modelname=
+
+[PDTC123YM_NXP00504]
+symbol=npn_bin.sym
+value=PDTC123YM
+modelname=PDTC123YM
 file=PDTC123YM.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00505]
-symbol=.sym
-value=
-modelname=
+
+[PDTC123YS_NXP00505]
+symbol=npn_bin.sym
+value=PDTC123YS
+modelname=PDTC123YS
 file=PDTC123YS.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00506]
-symbol=.sym
-value=
-modelname=
+
+[PDTC123YT_NXP00506]
+symbol=npn_bin.sym
+value=PDTC123YT
+modelname=PDTC123YT
 file=PDTC123YT.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=broken
+# model definition name different from usage
 
 
-[_NXP00507]
-symbol=.sym
-value=
-modelname=
+
+[PDTC123YU_NXP00507]
+symbol=npn_bin.sym
+value=PDTC123YU
+modelname=PDTC123YU
 file=PDTC123YU.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00508]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124EE_NXP00508]
+symbol=npn_bin.sym
+value=PDTC124EE
+modelname=PDTC124EE
 file=PDTC124EE.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00509]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124EK_NXP00509]
+symbol=npn_bin.sym
+value=PDTC124EK
+modelname=PDTC124EK
 file=PDTC124EK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00510]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124EM_NXP00510]
+symbol=npn_bin.sym
+value=PDTC124EM
+modelname=PDTC124EM
 file=PDTC124EM.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00511]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124E_NXP00511]
+symbol=npn_bin.sym
+value=PDTC124E
+modelname=PDTC124E
 file=PDTC124E.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -9647,431 +9659,455 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00512]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124ES_NXP00512]
+symbol=npn_bin.sym
+value=PDTC124ES
+modelname=PDTC124ES
 file=PDTC124ES.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00513]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124ET_NXP00513]
+symbol=npn_bin.sym
+value=PDTC124ET
+modelname=PDTC124ET
 file=PDTC124ET.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00514]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124EU_NXP00514]
+symbol=npn_bin.sym
+value=PDTC124EU
+modelname=PDTC124EU
 file=PDTC124EU.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00515]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124TK_NXP00515]
+symbol=npn_rbase.sym
+value=PDTC124TK
+modelname=PDTC124TK
 file=PDTC124TK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00516]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124TM_NXP00516]
+symbol=npn_rbase.sym
+value=PDTC124TM
+modelname=PDTC124TM
 file=PDTC124TM.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00517]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124TS_NXP00517]
+symbol=npn_rbase.sym
+value=PDTC124TS
+modelname=PDTC124TS
 file=PDTC124TS.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00518]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124TT_NXP00518]
+symbol=npn_rbase.sym
+value=PDTC124TT
+modelname=PDTC124TT
 file=PDTC124TT.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00519]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124TU_NXP00519]
+symbol=npn_rbase.sym
+value=PDTC124TU
+modelname=PDTC124TU
 file=PDTC124TU.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00520]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124XE_NXP00520]
+symbol=npn_bin.sym
+value=PDTC124XE
+modelname=PDTC124XE
 file=PDTC124XE.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00521]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124XK_NXP00521]
+symbol=npn_bin.sym
+value=PDTC124XK
+modelname=PDTC124XK
 file=PDTC124XK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00522]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124XM_NXP00522]
+symbol=npn_bin.sym
+value=PDTC124XM
+modelname=PDTC124XM
 file=PDTC124XM.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00523]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124XS_NXP00523]
+symbol=npn_bin.sym
+value=PDTC124XS
+modelname=PDTC124XS
 file=PDTC124XS.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00524]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124XT_NXP00524]
+symbol=npn_bin.sym
+value=PDTC124XT
+modelname=PDTC124XT
 file=PDTC124XT.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00525]
-symbol=.sym
-value=
-modelname=
+
+[PDTC124XU_NXP00525]
+symbol=npn_bin.sym
+value=PDTC124XU
+modelname=PDTC124XU
 file=PDTC124XU.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00526]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143EE_NXP00526]
+symbol=npn_bin.sym
+value=PDTC143EE
+modelname=PDTC143EE
 file=PDTC143EE.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00527]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143EK_NXP00527]
+symbol=npn_bin.sym
+value=PDTC143EK
+modelname=PDTC143EK
 file=PDTC143EK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00528]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143EM_NXP00528]
+symbol=npn_bin.sym
+value=PDTC143EM
+modelname=PDTC143EM
 file=PDTC143EM.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00529]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143ES_NXP00529]
+symbol=npn_bin.sym
+value=PDTC143ES
+modelname=PDTC143ES
 file=PDTC143ES.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00530]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143ET_NXP00530]
+symbol=npn_bin.sym
+value=PDTC143ET
+modelname=PDTC143ET
 file=PDTC143ET.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00531]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143EU_NXP00531]
+symbol=npn_bin.sym
+value=PDTC143EU
+modelname=PDTC143EU
 file=PDTC143EU.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00532]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143TE_NXP00532]
+symbol=npn_rbase.sym
+value=PDTC143TE
+modelname=PDTC143TE
 file=PDTC143TE.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00533]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143TK_NXP00533]
+symbol=npn_rbase.sym
+value=PDTC143TK
+modelname=PDTC143TK
 file=PDTC143TK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00534]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143TM_NXP00534]
+symbol=npn_rbase.sym
+value=PDTC143TM
+modelname=PDTC143TM
 file=PDTC143TM.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00535]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143T_NXP00535]
+symbol=npn_rbase.sym
+value=PDTC143T
+modelname=PDTC143T
 file=PDTC143T.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -10079,233 +10115,246 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00536]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143TS_NXP00536]
+symbol=npn_rbase.sym
+value=PDTC143TS
+modelname=PDTC143TS
 file=PDTC143TS.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00537]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143TT_NXP00537]
+symbol=npn_rbase.sym
+value=PDTC143TT
+modelname=PDTC143TT
 file=PDTC143TT.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00538]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143TU_NXP00538]
+symbol=npn_rbase.sym
+value=PDTC143TU
+modelname=PDTC143TU
 file=PDTC143TU.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00539]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143XE_NXP00539]
+symbol=npn_bin.sym
+value=PDTC143XE
+modelname=PDTC143XE
 file=PDTC143XE.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00540]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143XK_NXP00540]
+symbol=npn_bin.sym
+value=PDTC143XK
+modelname=PDTC143XK
 file=PDTC143XK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00541]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143XM_NXP00541]
+symbol=npn_bin.sym
+value=PDTC143XM
+modelname=PDTC143XM
 file=PDTC143XM.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00542]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143XS_NXP00542]
+symbol=npn_bin.sym
+value=PDTC143XS
+modelname=PDTC143XS
 file=PDTC143XS.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00543]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143XT_NXP00543]
+symbol=npn_bin.sym
+value=PDTC143XT
+modelname=PDTC143XT
 file=PDTC143XT.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00544]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143XU_NXP00544]
+symbol=npn_bin.sym
+value=PDTC143XU
+modelname=PDTC143XU
 file=PDTC143XU.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00545]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143ZE_NXP00545]
+symbol=npn_bin.sym
+value=PDTC143ZE
+modelname=PDTC143ZE
 file=PDTC143ZE.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00546]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143ZK_NXP00546]
+symbol=npn_bin.sym
+value=PDTC143ZK
+modelname=PDTC143ZK
 file=PDTC143ZK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00547]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143ZM_NXP00547]
+symbol=npn_bin.sym
+value=PDTC143ZM
+modelname=PDTC143ZM
 file=PDTC143ZM.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00548]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143Z_NXP00548]
+symbol=npn_bin.sym
+value=PDTC143Z
+modelname=PDTC143Z
 file=PDTC143Z.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -10313,125 +10362,132 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=npn/pnp transitor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00549]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143ZS_NXP00549]
+symbol=npn_bin.sym
+value=PDTC143ZS
+modelname=PDTC143ZS
 file=PDTC143ZS.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00550]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143ZT_NXP00550]
+symbol=npn_bin.sym
+value=PDTC143ZT
+modelname=PDTC143ZT
 file=PDTC143ZT.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00551]
-symbol=.sym
-value=
-modelname=
+
+[PDTC143ZU_NXP00551]
+symbol=npn_bin.sym
+value=PDTC143ZU
+modelname=PDTC143ZU
 file=PDTC143ZU.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00552]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144EE_NXP00552]
+symbol=npn_bin.sym
+value=PDTC144EE
+modelname=PDTC144EE
 file=PDTC144EE.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00553]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144EK_NXP00553]
+symbol=npn_bin.sym
+value=PDTC144EK
+modelname=PDTC144EK
 file=PDTC144EK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00554]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144EM_NXP00554]
+symbol=npn_bin.sym
+value=PDTC144EM
+modelname=PDTC144EM
 file=PDTC144EM.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00555]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144E_NXP00555]
+symbol=npn_bin.sym
+value=PDTC144E
+modelname=PDTC144E
 file=PDTC144E.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -10439,683 +10495,722 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 npn transistor with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00556]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144ES_NXP00556]
+symbol=npn_bin.sym
+value=PDTC144ES
+modelname=PDTC144ES
 file=PDTC144ES.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00557]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144ET_NXP00557]
+symbol=npn_bin.sym
+value=PDTC144ET
+modelname=PDTC144ET
 file=PDTC144ET.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00558]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144EU_NXP00558]
+symbol=npn_bin.sym
+value=PDTC144EU
+modelname=PDTC144EU
 file=PDTC144EU.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00559]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144TE_NXP00559]
+symbol=npn_rbase.sym
+value=PDTC144TE
+modelname=PDTC144TE
 file=PDTC144TE.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00560]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144TK_NXP00560]
+symbol=npn_rbase.sym
+value=PDTC144TK
+modelname=PDTC144TK
 file=PDTC144TK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00561]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144TM_NXP00561]
+symbol=npn_rbase.sym
+value=PDTC144TM
+modelname=PDTC144TM
 file=PDTC144TM.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00562]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144TS_NXP00562]
+symbol=npn_rbase.sym
+value=PDTC144TS
+modelname=PDTC144TS
 file=PDTC144TS.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00563]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144TT_NXP00563]
+symbol=npn_rbase.sym
+value=PDTC144TT
+modelname=PDTC144TT
 file=PDTC144TT.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00564]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144TU_NXP00564]
+symbol=npn_rbase.sym
+value=PDTC144TU
+modelname=PDTC144TU
 file=PDTC144TU.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00565]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144VE_NXP00565]
+symbol=npn_bin.sym
+value=PDTC144VE
+modelname=PDTC144VE
 file=PDTC144VE.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00566]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144VK_NXP00566]
+symbol=npn_bin.sym
+value=PDTC144VK
+modelname=PDTC144VK
 file=PDTC144VK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00567]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144VM_NXP00567]
+symbol=npn_bin.sym
+value=PDTC144VM
+modelname=PDTC144VM
 file=PDTC144VM.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00568]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144VS_NXP00568]
+symbol=npn_bin.sym
+value=PDTC144VS
+modelname=PDTC144VS
 file=PDTC144VS.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00569]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144VT_NXP00569]
+symbol=npn_bin.sym
+value=PDTC144VT
+modelname=PDTC144VT
 file=PDTC144VT.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00570]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144VU_NXP00570]
+symbol=npn_bin.sym
+value=PDTC144VU
+modelname=PDTC144VU
 file=PDTC144VU.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00571]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144WE_NXP00571]
+symbol=npn_bin.sym
+value=PDTC144WE
+modelname=PDTC144WE
 file=PDTC144WE.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00572]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144WK_NXP00572]
+symbol=npn_bin.sym
+value=PDTC144WK
+modelname=PDTC144WK
 file=PDTC144WK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00573]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144WM_NXP00573]
+symbol=npn_bin.sym
+value=PDTC144WM
+modelname=PDTC144WM
 file=PDTC144WM.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00574]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144WS_NXP00574]
+symbol=npn_bin.sym
+value=PDTC144WS
+modelname=PDTC144WS
 file=PDTC144WS.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00575]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144WT_NXP00575]
+symbol=npn_bin.sym
+value=PDTC144WT
+modelname=PDTC144WT
 file=PDTC144WT.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00576]
-symbol=.sym
-value=
-modelname=
+
+[PDTC144WU_NXP00576]
+symbol=npn_bin.sym
+value=PDTC144WU
+modelname=PDTC144WU
 file=PDTC144WU.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00577]
-symbol=.sym
-value=
-modelname=
+
+[PDTC323TK_NXP00577]
+symbol=npn_rbase.sym
+value=PDTC323TK
+modelname=PDTC323TK
 file=PDTC323TK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00578]
-symbol=.sym
-value=
-modelname=
+
+[PDTD113EK_NXP00578]
+symbol=npn_bin.sym
+value=PDTD113EK
+modelname=PDTD113EK
 file=PDTD113EK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00579]
-symbol=.sym
-value=
-modelname=
+
+[PDTD113ES_NXP00579]
+symbol=npn_bin.sym
+value=PDTD113ES
+modelname=PDTD113ES
 file=PDTD113ES.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00580]
-symbol=.sym
-value=
-modelname=
+
+[PDTD113ET_NXP00580]
+symbol=npn_bin.sym
+value=PDTD113ET
+modelname=PDTD113ET
 file=PDTD113ET.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00581]
-symbol=.sym
-value=
-modelname=
+
+[PDTD113ZK_NXP00581]
+symbol=npn_bin.sym
+value=PDTD113ZK
+modelname=PDTD113ZK
 file=PDTD113ZK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00582]
-symbol=.sym
-value=
-modelname=
+
+[PDTD113ZS_NXP00582]
+symbol=npn_bin.sym
+value=PDTD113ZS
+modelname=PDTD113ZS
 file=PDTD113ZS.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00583]
-symbol=.sym
-value=
-modelname=
+
+[PDTD113ZT_NXP00583]
+symbol=npn_bin.sym
+value=PDTD113ZT
+modelname=PDTD113ZT
 file=PDTD113ZT.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00584]
-symbol=.sym
-value=
-modelname=
+
+[PDTD123EK_NXP00584]
+symbol=npn_bin.sym
+value=PDTD123EK
+modelname=PDTD123EK
 file=PDTD123EK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00585]
-symbol=.sym
-value=
-modelname=
+
+[PDTD123ES_NXP00585]
+symbol=npn_bin.sym
+value=PDTD123ES
+modelname=PDTD123ES
 file=PDTD123ES.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00586]
-symbol=.sym
-value=
-modelname=
+
+[PDTD123ET_NXP00586]
+symbol=npn_bin.sym
+value=PDTD123ET
+modelname=PDTD123ET
 file=PDTD123ET.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00587]
-symbol=.sym
-value=
-modelname=
+
+[PDTD123TK_NXP00587]
+symbol=npn_rbase.sym
+value=PDTD123TK
+modelname=PDTD123TK
 file=PDTD123TK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00588]
-symbol=.sym
-value=
-modelname=
+
+[PDTD123TS_NXP00588]
+symbol=npn_rbase.sym
+value=PDTD123TS
+modelname=PDTD123TS
 file=PDTD123TS.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00589]
-symbol=.sym
-value=
-modelname=
+
+[PDTD123TT_NXP00589]
+symbol=npn_rbase.sym
+value=PDTD123TT
+modelname=PDTD123TT
 file=PDTD123TT.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with base resistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00590]
-symbol=.sym
-value=
-modelname=
+
+[PDTD123YK_NXP00590]
+symbol=npn_bin.sym
+value=PDTD123YK
+modelname=PDTD123YK
 file=PDTD123YK.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00591]
-symbol=.sym
-value=
-modelname=
+
+[PDTD123YS_NXP00591]
+symbol=npn_bin.sym
+value=PDTD123YS
+modelname=PDTD123YS
 file=PDTD123YS.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
+refdes=X?
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00592]
-symbol=.sym
-value=
-modelname=
+
+[PDTD123YT_NXP00592]
+symbol=npn_bin.sym
+value=PDTD123YT
+modelname=PDTD123YT
 file=PDTD123YT.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor with buildin resistors
+test_refdes=X1
+model_status=good
 
 
-[_NXP00593]
+
+# Subcircuit with 6 connections
+[PEMB10_NXP00593]
 symbol=.sym
-value=
-modelname=
+value=PEMB10
+modelname=PEMB10
 file=PEMB10.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11124,16 +11219,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00594]
+
+# Subcircuit with 6 connections
+[PEMB11_NXP00594]
 symbol=.sym
-value=
-modelname=
+value=PEMB11
+modelname=PEMB11
 file=PEMB11.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11142,16 +11239,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00595]
+
+# Subcircuit with 6 connections
+[PEMB13_NXP00595]
 symbol=.sym
-value=
-modelname=
+value=PEMB13
+modelname=PEMB13
 file=PEMB13.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11160,16 +11259,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00596]
+
+# Subcircuit with 6 connections
+[PEMB14_NXP00596]
 symbol=.sym
-value=
-modelname=
+value=PEMB14
+modelname=PEMB14
 file=PEMB14.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11178,16 +11279,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00597]
+
+# Subcircuit with 6 connections
+[PEMB15_NXP00597]
 symbol=.sym
-value=
-modelname=
+value=PEMB15
+modelname=PEMB15
 file=PEMB15.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11196,16 +11299,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00598]
+
+# Subcircuit with 6 connections
+[PEMB16_NXP00598]
 symbol=.sym
-value=
-modelname=
+value=PEMB16
+modelname=PEMB16
 file=PEMB16.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11214,16 +11319,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00599]
+
+# Subcircuit with 6 connections
+[PEMB17_NXP00599]
 symbol=.sym
-value=
-modelname=
+value=PEMB17
+modelname=PEMB17
 file=PEMB17.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11232,16 +11339,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00600]
+
+# Subcircuit with 6 connections
+[PEMB18_NXP00600]
 symbol=.sym
-value=
-modelname=
+value=PEMB18
+modelname=PEMB18
 file=PEMB18.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11250,16 +11359,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00601]
+
+# Subcircuit with 6 connections
+[PEMB19_NXP00601]
 symbol=.sym
-value=
-modelname=
+value=PEMB19
+modelname=PEMB19
 file=PEMB19.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11268,16 +11379,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00602]
+
+# Subcircuit with 6 connections
+[PEMB1_NXP00602]
 symbol=.sym
-value=
-modelname=
+value=PEMB1
+modelname=PEMB1
 file=PEMB1.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11286,16 +11399,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00603]
+
+# Subcircuit with 6 connections
+[PEMB20_NXP00603]
 symbol=.sym
-value=
-modelname=
+value=PEMB20
+modelname=PEMB20
 file=PEMB20.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11304,16 +11419,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00604]
+
+# Subcircuit with 6 connections
+[PEMB24_NXP00604]
 symbol=.sym
-value=
-modelname=
+value=PEMB24
+modelname=PEMB24
 file=PEMB24.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11322,16 +11439,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00605]
+
+# Subcircuit with 6 connections
+[PEMB30_NXP00605]
 symbol=.sym
-value=
-modelname=
+value=PEMB30
+modelname=PEMB30
 file=PEMB30.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11340,16 +11459,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00606]
+
+# Subcircuit with 6 connections
+[PEMB3_NXP00606]
 symbol=.sym
-value=
-modelname=
+value=PEMB3
+modelname=PEMB3
 file=PEMB3.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11358,16 +11479,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00607]
+
+# Subcircuit with 6 connections
+[PEMB4_NXP00607]
 symbol=.sym
-value=
-modelname=
+value=PEMB4
+modelname=PEMB4
 file=PEMB4.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11376,16 +11499,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00608]
+
+# Subcircuit with 6 connections
+[PEMB9_NXP00608]
 symbol=.sym
-value=
-modelname=
+value=PEMB9
+modelname=PEMB9
 file=PEMB9.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11394,16 +11519,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00609]
+
+# Subcircuit with 6 connections
+[PEMD10_NXP00609]
 symbol=.sym
-value=
-modelname=
+value=PEMD10
+modelname=PEMD10
 file=PEMD10.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11412,16 +11539,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00610]
+
+# Subcircuit with 6 connections
+[PEMD13_NXP00610]
 symbol=.sym
-value=
-modelname=
+value=PEMD13
+modelname=PEMD13
 file=PEMD13.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11430,16 +11559,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00611]
+
+# Subcircuit with 6 connections
+[PEMD14_NXP00611]
 symbol=.sym
-value=
-modelname=
+value=PEMD14
+modelname=PEMD14
 file=PEMD14.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11448,16 +11579,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00612]
+
+# Subcircuit with 6 connections
+[PEMD15_NXP00612]
 symbol=.sym
-value=
-modelname=
+value=PEMD15
+modelname=PEMD15
 file=PEMD15.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11466,16 +11599,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00613]
+
+# Subcircuit with 6 connections
+[PEMD16_NXP00613]
 symbol=.sym
-value=
-modelname=
+value=PEMD16
+modelname=PEMD16
 file=PEMD16.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11484,16 +11619,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00614]
+
+# Subcircuit with 6 connections
+[PEMD17_NXP00614]
 symbol=.sym
-value=
-modelname=
+value=PEMD17
+modelname=PEMD17
 file=PEMD17.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11502,16 +11639,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00615]
+
+# Subcircuit with 6 connections
+[PEMD18_NXP00615]
 symbol=.sym
-value=
-modelname=
+value=PEMD18
+modelname=PEMD18
 file=PEMD18.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11520,16 +11659,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00616]
+
+# Subcircuit with 6 connections
+[PEMD19_NXP00616]
 symbol=.sym
-value=
-modelname=
+value=PEMD19
+modelname=PEMD19
 file=PEMD19.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11538,16 +11679,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00617]
+
+# Subcircuit with 6 connections
+[PEMD20_NXP00617]
 symbol=.sym
-value=
-modelname=
+value=PEMD20
+modelname=PEMD20
 file=PEMD20.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11556,16 +11699,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00618]
+
+# Subcircuit with 6 connections
+[PEMD24_NXP00618]
 symbol=.sym
-value=
-modelname=
+value=PEMD24
+modelname=PEMD24
 file=PEMD24.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11574,16 +11719,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00619]
+
+# Subcircuit with 6 connections
+[PEMD2_NXP00619]
 symbol=.sym
-value=
-modelname=
+value=PEMD2
+modelname=PEMD2
 file=PEMD2.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11592,16 +11739,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00620]
+
+# Subcircuit with 6 connections
+[PEMD30_NXP00620]
 symbol=.sym
-value=
-modelname=
+value=PEMD30
+modelname=PEMD30
 file=PEMD30.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11610,16 +11759,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00621]
+
+# Subcircuit with 6 connections
+[PEMD4_NXP00621]
 symbol=.sym
-value=
-modelname=
+value=PEMD4
+modelname=PEMD4
 file=PEMD4.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11628,16 +11779,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00622]
+
+# Subcircuit with 6 connections
+[PEMH10_NXP00622]
 symbol=.sym
-value=
-modelname=
+value=PEMH10
+modelname=PEMH10
 file=PEMH10.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11646,16 +11799,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00623]
+
+# Subcircuit with 6 connections
+[PEMH11_NXP00623]
 symbol=.sym
-value=
-modelname=
+value=PEMH11
+modelname=PEMH11
 file=PEMH11.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11664,16 +11819,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00624]
+
+# Subcircuit with 6 connections
+[PEMH13_NXP00624]
 symbol=.sym
-value=
-modelname=
+value=PEMH13
+modelname=PEMH13
 file=PEMH13.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11682,16 +11839,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00625]
+
+# Subcircuit with 6 connections
+[PEMH14_NXP00625]
 symbol=.sym
-value=
-modelname=
+value=PEMH14
+modelname=PEMH14
 file=PEMH14.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11700,16 +11859,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00626]
+
+# Subcircuit with 6 connections
+[PEMH15_NXP00626]
 symbol=.sym
-value=
-modelname=
+value=PEMH15
+modelname=PEMH15
 file=PEMH15.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11718,16 +11879,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00627]
+
+# Subcircuit with 6 connections
+[PEMH16_NXP00627]
 symbol=.sym
-value=
-modelname=
+value=PEMH16
+modelname=PEMH16
 file=PEMH16.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11736,16 +11899,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00628]
+
+# Subcircuit with 6 connections
+[PEMH17_NXP00628]
 symbol=.sym
-value=
-modelname=
+value=PEMH17
+modelname=PEMH17
 file=PEMH17.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11754,16 +11919,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00629]
+
+# Subcircuit with 6 connections
+[PEMH18_NXP00629]
 symbol=.sym
-value=
-modelname=
+value=PEMH18
+modelname=PEMH18
 file=PEMH18.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11772,16 +11939,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00630]
+
+# Subcircuit with 6 connections
+[PEMH19_NXP00630]
 symbol=.sym
-value=
-modelname=
+value=PEMH19
+modelname=PEMH19
 file=PEMH19.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11790,16 +11959,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00631]
+
+# Subcircuit with 6 connections
+[PEMH1_NXP00631]
 symbol=.sym
-value=
-modelname=
+value=PEMH1
+modelname=PEMH1
 file=PEMH1.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11808,16 +11979,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00632]
+
+# Subcircuit with 6 connections
+[PEMH20_NXP00632]
 symbol=.sym
-value=
-modelname=
+value=PEMH20
+modelname=PEMH20
 file=PEMH20.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11826,16 +11999,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00633]
+
+# Subcircuit with 6 connections
+[PEMH24_NXP00633]
 symbol=.sym
-value=
-modelname=
+value=PEMH24
+modelname=PEMH24
 file=PEMH24.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11844,16 +12019,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00634]
+
+# Subcircuit with 6 connections
+[PEMH2_NXP00634]
 symbol=.sym
-value=
-modelname=
+value=PEMH2
+modelname=PEMH2
 file=PEMH2.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11862,16 +12039,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00635]
+
+# Subcircuit with 6 connections
+[PEMH30_NXP00635]
 symbol=.sym
-value=
-modelname=
+value=PEMH30
+modelname=PEMH30
 file=PEMH30.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11880,16 +12059,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00636]
+
+# Subcircuit with 6 connections
+[PEMH4_NXP00636]
 symbol=.sym
-value=
-modelname=
+value=PEMH4
+modelname=PEMH4
 file=PEMH4.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11898,15 +12079,36 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00637]
+
+# Subcircuit with 6 connections
+[PEMH7_NXP00637]
 symbol=.sym
-value=
-modelname=
+value=PEMH7
+modelname=PEMH7
 file=PEMH7.prm
+refdes=X?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
+pinnr_c=C
+pinnr_b=B
+pinnr_e=E
+footprint=none
+description=TBD
+test_refdes=X1
+model_status=undefined
+
+
+
+[TR1_NXP00638]
+symbol=.sym
+value=QTR1
+modelname=QTR1
+file=PEMX1.prm
 refdes=Q?
 pinseq_c=1
 pinseq_b=2
@@ -11920,28 +12122,11 @@ test_refdes=Q1
 model_status=undefined
 
 
-[_NXP00638]
-symbol=.sym
-value=
-modelname=
-file=PEMQ1.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
-pinnr_c=C
-pinnr_b=B
-pinnr_e=E
-footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
 
-
-[_NXP00639]
+[TR1_NXP00639]
 symbol=.sym
-value=
-modelname=
+value=QTR1
+modelname=QTR1
 file=PEMZ1.prm
 refdes=Q?
 pinseq_c=1
@@ -11956,12 +12141,14 @@ test_refdes=Q1
 model_status=undefined
 
 
-[_NXP00640]
+
+# Subcircuit with 6 connections
+[PEMZ7_NXP00640]
 symbol=.sym
-value=
-modelname=
+value=PEMZ7
+modelname=PEMZ7
 file=PEMZ7.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11970,16 +12157,17 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00641]
-symbol=.sym
-value=
-modelname=
+
+[PH2369_NXP00641]
+symbol=npn.sym
+value=PH2369
+modelname=PH2369
 file=PH2369.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -11987,17 +12175,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00642]
+
+# Subcircuit with 6 connections
+[PIMD2_NXP00642]
 symbol=.sym
-value=
-modelname=
+value=PIMD2
+modelname=PIMD2
 file=PIMD2.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12006,16 +12196,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00643]
+
+# Subcircuit with 6 connections
+[PIMT1_NXP00643]
 symbol=.sym
-value=
-modelname=
+value=PIMT1
+modelname=PIMT1
 file=PIMT1.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12024,16 +12216,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00644]
+
+# Subcircuit with 6 connections
+[PIMZ2_NXP00644]
 symbol=.sym
-value=
-modelname=
+value=PIMZ2
+modelname=PIMZ2
 file=PIMZ2.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12042,14 +12236,15 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00645]
-symbol=.sym
-value=
-modelname=
+
+[PMBT2222A_NXP00645]
+symbol=npn.sym
+value=QPMBT2222A
+modelname=QPMBT2222A
 file=PMBT2222A.prm
 refdes=Q?
 pinseq_c=1
@@ -12059,15 +12254,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=npn transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00646]
-symbol=.sym
-value=
-modelname=
+
+[PMBT2222_NXP00646]
+symbol=npn.sym
+value=QPMBT2222
+modelname=QPMBT2222
 file=PMBT2222.prm
 refdes=Q?
 pinseq_c=1
@@ -12077,17 +12273,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=npn transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00647]
-symbol=.sym
-value=
-modelname=
+
+[PMBT2369_NXP00647]
+symbol=npn.sym
+value=PMBT2369
+modelname=PMBT2369
 file=PMBT2369.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12095,15 +12292,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00648]
-symbol=.sym
-value=
-modelname=
+
+[PMBT2907A_NXP00648]
+symbol=pnp.sym
+value=QPMBT2907A
+modelname=QPMBT2907A
 file=PMBT2907A.prm
 refdes=Q?
 pinseq_c=1
@@ -12113,15 +12311,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=pnp transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00649]
-symbol=.sym
-value=
-modelname=
+
+[PMBT2907_NXP00649]
+symbol=pnp.sym
+value=QPMBT2907
+modelname=QPMBT2907
 file=PMBT2907.prm
 refdes=Q?
 pinseq_c=1
@@ -12131,33 +12330,35 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=pnp transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00650]
-symbol=.sym
-value=
-modelname=
+
+[PMBT3904_NXP00650]
+symbol=npn.sym
+value=PMBT3904
+modelname=PMBT3904
 file=PMBT3904.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00651]
-symbol=.sym
-value=
-modelname=
+
+[PMBT3906_NXP00651]
+symbol=pnp.sym
+value=QPMBT3906
+modelname=QPMBT3906
 file=PMBT3906.prm
 refdes=Q?
 pinseq_c=1
@@ -12167,33 +12368,35 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=pnp transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00652]
-symbol=.sym
-value=
-modelname=
+
+[PMBT4401_NXP00652]
+symbol=npn.sym
+value=PMBT4401
+modelname=PMBT4401
 file=PMBT4401.prm
-refdes=Q?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+refdes=X?
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00653]
-symbol=.sym
-value=
-modelname=
+
+[PMBT4403_NXP00653]
+symbol=pnp.sym
+value=QPMBT4403
+modelname=QPMBT4403
 file=PMBT4403.prm
 refdes=Q?
 pinseq_c=1
@@ -12203,15 +12406,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=pnp transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00654]
-symbol=.sym
-value=
-modelname=
+
+[PMBT5401_NXP00654]
+symbol=pnp.sym
+value=QPMBT5401
+modelname=QPMBT5401
 file=PMBT5401.prm
 refdes=Q?
 pinseq_c=1
@@ -12221,15 +12425,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=pnp transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00655]
-symbol=.sym
-value=
-modelname=
+
+[PMBT5550_NXP00655]
+symbol=npn.sym
+value=QPMBT5550
+modelname=QPMBT5550
 file=PMBT5550.prm
 refdes=Q?
 pinseq_c=1
@@ -12239,15 +12444,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=npn transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00656]
-symbol=.sym
-value=
-modelname=
+
+[PMBT5551_NXP00656]
+symbol=npn.sym
+value=QPMBT5551
+modelname=QPMBT5551
 file=PMBT5551.prm
 refdes=Q?
 pinseq_c=1
@@ -12257,17 +12463,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=npn transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00657]
-symbol=.sym
-value=
-modelname=
+
+[PMBT6429_NXP00657]
+symbol=npn.sym
+value=PMBT6429
+modelname=PMBT6429
 file=PMBT6429.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12275,17 +12482,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00658]
-symbol=.sym
-value=
-modelname=
+
+[PMBTA06_NXP00658]
+symbol=npn.sym
+value=PMBTA06
+modelname=PMBTA06
 file=PMBTA06.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12293,17 +12501,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00659]
-symbol=.sym
-value=
-modelname=
+
+[PMBTA13_NXP00659]
+symbol=darlington_npn.sym
+value=PMBTA13
+modelname=PMBTA13
 file=PMBTA13.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12311,17 +12520,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn darlington transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00660]
-symbol=.sym
-value=
-modelname=
+
+[PMBTA14_NXP00660]
+symbol=darlington_npn.sym
+value=PMBTA14
+modelname=PMBTA14
 file=PMBTA14.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12329,17 +12539,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn darlington transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00661]
+
+# Subcircuit with 6 connections
+[PMBTA42DS_NXP00661]
 symbol=.sym
-value=
-modelname=
+value=PMBTA42DS
+modelname=PMBTA42DS
 file=PMBTA42DS.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12347,17 +12559,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 npn transistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00662]
-symbol=.sym
-value=
-modelname=
+
+[PMBTA42_NXP00662]
+symbol=npn.sym
+value=PMBTA42
+modelname=PMBTA42
 file=PMBTA42.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12365,17 +12578,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00663]
-symbol=.sym
-value=
-modelname=
+
+[PMBTA64_NXP00663]
+symbol=darlington_pnp.sym
+value=PMBTA64
+modelname=PMBTA64
 file=PMBTA64.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12383,17 +12597,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn darlington transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00664]
-symbol=.sym
-value=
-modelname=
+
+[PMBTA92_NXP00664]
+symbol=pnp.sym
+value=PMBTA92
+modelname=PMBTA92
 file=PMBTA92.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12401,17 +12616,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=pnp transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00665]
-symbol=.sym
-value=
-modelname=
+
+[PMMT491A_NXP00665]
+symbol=npn.sym
+value=PMMT491A
+modelname=PMMT491A
 file=PMMT491A.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12419,17 +12635,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00666]
-symbol=.sym
-value=
-modelname=
+
+[PMMT591A_NXP00666]
+symbol=pnp.sym
+value=PMMT591A
+modelname=PMMT591A
 file=PMMT591A.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12437,15 +12654,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=pnp transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00667]
-symbol=.sym
-value=
-modelname=
+
+[PMSS3906_NXP00667]
+symbol=pnp.sym
+value=QPMSS3906
+modelname=QPMSS3906
 file=PMSS3906.prm
 refdes=Q?
 pinseq_c=1
@@ -12455,15 +12673,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=pnp transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00668]
-symbol=.sym
-value=
-modelname=
+
+[PMST2222A_NXP00668]
+symbol=npn.sym
+value=QPMST2222A
+modelname=QPMST2222A
 file=PMST2222A.prm
 refdes=Q?
 pinseq_c=1
@@ -12473,15 +12692,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=npn transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00669]
-symbol=.sym
-value=
-modelname=
+
+[PMST2222_NXP00669]
+symbol=npn.sym
+value=QPMST2222
+modelname=QPMST2222
 file=PMST2222.prm
 refdes=Q?
 pinseq_c=1
@@ -12491,15 +12711,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=npn transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00670]
-symbol=.sym
-value=
-modelname=
+
+[PMST2369_NXP00670]
+symbol=npn.sym
+value=QPMST2369
+modelname=QPMST2369
 file=PMST2369.prm
 refdes=Q?
 pinseq_c=1
@@ -12509,15 +12730,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=npn transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00671]
-symbol=.sym
-value=
-modelname=
+
+[PMST2907A_NXP00671]
+symbol=pnp.sym
+value=QPMST2907A
+modelname=QPMST2907A
 file=PMST2907A.prm
 refdes=Q?
 pinseq_c=1
@@ -12527,15 +12749,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=pnp transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00672]
-symbol=.sym
-value=
-modelname=
+
+[PMST4403_NXP00672]
+symbol=pnp.sym
+value=QPMST4403
+modelname=QPMST4403
 file=PMST4403.prm
 refdes=Q?
 pinseq_c=1
@@ -12545,15 +12768,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=pnp transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00673]
-symbol=.sym
-value=
-modelname=
+
+[PMST5088_NXP00673]
+symbol=npn.sym
+value=QPMST5088
+modelname=QPMST5088
 file=PMST5088.prm
 refdes=Q?
 pinseq_c=1
@@ -12563,15 +12787,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=npn transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00674]
-symbol=.sym
-value=
-modelname=
+
+[PMST5089_NXP00674]
+symbol=npn.sym
+value=QPMST5089
+modelname=QPMST5089
 file=PMST5089.prm
 refdes=Q?
 pinseq_c=1
@@ -12581,15 +12806,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=npn transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00675]
-symbol=.sym
-value=
-modelname=
+
+[PMST5401_NXP00675]
+symbol=pnp.sym
+value=QPMST5401
+modelname=QPMST5401
 file=PMST5401.prm
 refdes=Q?
 pinseq_c=1
@@ -12599,15 +12825,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=pnp transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00676]
-symbol=.sym
-value=
-modelname=
+
+[PMST5550_NXP00676]
+symbol=npn.sym
+value=QPMST5550
+modelname=QPMST5550
 file=PMST5550.prm
 refdes=Q?
 pinseq_c=1
@@ -12617,15 +12844,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=npn transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00677]
-symbol=.sym
-value=
-modelname=
+
+[PMST5551_NXP00677]
+symbol=npn.sym
+value=QPMST5551
+modelname=QPMST5551
 file=PMST5551.prm
 refdes=Q?
 pinseq_c=1
@@ -12635,17 +12863,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=npn transistor
 test_refdes=Q1
-model_status=undefined
+model_status=good
 
 
-[_NXP00678]
-symbol=.sym
-value=
-modelname=
+
+[PMST6429_NXP00678]
+symbol=npn.sym
+value=PMST6429
+modelname=PMST6429
 file=PMST6429.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12653,17 +12882,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00679]
-symbol=.sym
-value=
-modelname=
+
+[PMSTA42_NXP00679]
+symbol=npn.sym
+value=PMSTA42
+modelname=PMSTA42
 file=PMSTA42.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12671,17 +12901,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00680]
-symbol=.sym
-value=
-modelname=
+
+[PMSTA92_NXP00680]
+symbol=pnp.sym
+value=PMSTA92
+modelname=PMSTA92
 file=PMSTA92.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12689,17 +12920,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=pnp transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00681]
+
+# Subcircuit with 6 connections
+[PSSI2021SAY_NXP00681]
 symbol=.sym
-value=
-modelname=
+value=PSSI2021SAY
+modelname=PSSI2021SAY
 file=PSSI2021SAY.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12707,17 +12940,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=constant current source in SOT353
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00682]
+
+[PSSI3120_NXP00682]
 symbol=.sym
-value=
-modelname=
+value=PSSI3120
+modelname=PSSI3120
 file=PSSI3120.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12725,17 +12959,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=PECL termination
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00683]
+
+# Subcircuit with 6 connections
+[PUMB13_NXP00683]
 symbol=.sym
-value=
-modelname=
+value=PUMB13
+modelname=PUMB13
 file=PUMB13.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12743,17 +12979,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 pnp transistors with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00684]
+
+# Subcircuit with 6 connections
+[PUMB14_NXP00684]
 symbol=.sym
-value=
-modelname=
+value=PUMB14
+modelname=PUMB14
 file=PUMB14.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12761,17 +12999,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 pnp transistors with base resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00685]
+
+# Subcircuit with 6 connections
+[PUMB19_NXP00685]
 symbol=.sym
-value=
-modelname=
+value=PUMB19
+modelname=PUMB19
 file=PUMB19.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12779,17 +13019,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 pnp transistors with base resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00686]
+
+# Subcircuit with 6 connections
+[PUMB1_NXP00686]
 symbol=.sym
-value=
-modelname=
+value=PUMB1
+modelname=PUMB1
 file=PUMB1.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12797,17 +13039,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 pnp transistors with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00687]
+
+# Subcircuit with 6 connections
+[PUMB24_NXP00687]
 symbol=.sym
-value=
-modelname=
+value=PUMB24
+modelname=PUMB24
 file=PUMB24.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12815,17 +13059,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 pnp transistors with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00688]
+
+# Subcircuit with 6 connections
+[PUMB30_NXP00688]
 symbol=.sym
-value=
-modelname=
+value=PUMB30
+modelname=PUMB30
 file=PUMB30.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12833,17 +13079,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 pnp transistors with base resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00689]
+
+# Subcircuit with 6 connections
+[PUMB9_NXP00689]
 symbol=.sym
-value=
-modelname=
+value=PUMB9
+modelname=PUMB9
 file=PUMB9.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12851,17 +13099,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 pnp transistors with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00690]
+
+# Subcircuit with 6 connections
+[PUMD14_NXP00690]
 symbol=.sym
-value=
-modelname=
+value=PUMD14
+modelname=PUMD14
 file=PUMD14.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12869,17 +13119,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 pnp transistors with base resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00691]
+
+# Subcircuit with 6 connections
+[PUMD18_NXP00691]
 symbol=.sym
-value=
-modelname=
+value=PUMD18
+modelname=PUMD18
 file=PUMD18.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12887,17 +13139,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 pnp transistors with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00692]
+
+# Subcircuit with 6 connections
+[PUMD19_NXP00692]
 symbol=.sym
-value=
-modelname=
+value=PUMD19
+modelname=PUMD19
 file=PUMD19.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12905,17 +13159,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 pnp transistors with base resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00693]
+
+# Subcircuit with 6 connections
+[PUMD20_NXP00693]
 symbol=.sym
-value=
-modelname=
+value=PUMD20
+modelname=PUMD20
 file=PUMD20.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12923,17 +13179,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 npn transistors with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00694]
+
+# Subcircuit with 6 connections
+[PUMD24_NXP00694]
 symbol=.sym
-value=
-modelname=
+value=PUMD24
+modelname=PUMD24
 file=PUMD24.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12941,17 +13199,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 npn transistors with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00695]
+
+# Subcircuit with 6 connections
+[PUMD2_NXP00695]
 symbol=.sym
-value=
-modelname=
+value=PUMD2
+modelname=PUMD2
 file=PUMD2.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12959,17 +13219,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 npn transistors with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00696]
+
+# Subcircuit with 6 connections
+[PUMD30_NXP00696]
 symbol=.sym
-value=
-modelname=
+value=PUMD30
+modelname=PUMD30
 file=PUMD30.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12977,17 +13239,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 npn transistors with base resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00697]
+
+# Subcircuit with 6 connections
+[PUMF11_NXP00697]
 symbol=.sym
-value=
-modelname=
+value=PUMF11
+modelname=PUMF11
 file=PUMF11.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12995,17 +13259,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=pnp transistor and npn transistor with resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00698]
+
+# Subcircuit with 6 connections
+[PUMH13_NXP00698]
 symbol=.sym
-value=
-modelname=
+value=PUMH13
+modelname=PUMH13
 file=PUMH13.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13013,17 +13279,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 npn transistors with buildin resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00699]
+
+# Subcircuit with 6 connections
+[PUMH30_NXP00699]
 symbol=.sym
-value=
-modelname=
+value=PUMH30
+modelname=PUMH30
 file=PUMH30.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13031,15 +13299,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 npn transistors with base resistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00700]
-symbol=.sym
-value=
-modelname=
+
+[TR1_NXP00700]
+symbol=pnp.sym
+value=QTR1
+modelname=QTR1
 file=PUMT1.prm
 refdes=Q?
 pinseq_c=1
@@ -13049,16 +13318,17 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=2 PNP Transistors in SC-88
 test_refdes=Q1
 model_status=undefined
 
 
-[_NXP00701]
-symbol=.sym
-value=
-modelname=
-file=PUMQ1.prm
+
+[TR1_NXP00701]
+symbol=npn.sym
+value=QTR1
+modelname=QTR1
+file=PUMX1.prm
 refdes=Q?
 pinseq_c=1
 pinseq_b=2
@@ -13067,17 +13337,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=2 NPN Transistors in SC-88
 test_refdes=Q1
 model_status=undefined
 
 
-[_NXP00702]
+
+# Subcircuit with 6 connections
+[PUMX2_NXP00702]
 symbol=.sym
-value=
-modelname=
+value=PUMX2
+modelname=PUMX2
 file=PUMX2.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13085,15 +13357,16 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=2 npn transistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00703]
+
+[TR1_NXP00703]
 symbol=.sym
-value=
-modelname=
+value=QTR1
+modelname=QTR1
 file=PUMZ1.prm
 refdes=Q?
 pinseq_c=1
@@ -13103,17 +13376,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=npn/pnp transistor
 test_refdes=Q1
 model_status=undefined
 
 
-[_NXP00704]
+
+# Subcircuit with 6 connections
+[PUMZ2_NXP00704]
 symbol=.sym
-value=
-modelname=
+value=PUMZ2
+modelname=PUMZ2
 file=PUMZ2.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13121,17 +13396,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=npn/pnp transistors
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00705]
-symbol=.sym
-value=
-modelname=
+
+[PXTA14_NXP00705]
+symbol=darlington_npn.sym
+value=PXTA14
+modelname=PXTA14
 file=PXTA14.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13139,17 +13415,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn darlington transistor
+test_refdes=X1
+model_status=broken
+# missing connection between nodes 33 and 333
 
 
-[_NXP00706]
-symbol=.sym
-value=
-modelname=
+
+[PXTA42_NXP00706]
+symbol=npn.sym
+value=PXTA42
+modelname=PXTA42
 file=PXTA42.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13157,35 +13435,37 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00707]
-symbol=.sym
-value=
-modelname=
+
+[PXTA92_NXP00707]
+symbol=pnp.sym
+value=PXTA92
+modelname=PXTA92
 file=PXTA92.prm
-refdes=Q?
-pinseq_c=1
+refdes=X?
+pinseq_c=3
 pinseq_b=2
-pinseq_e=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=pnp transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00708]
-symbol=.sym
-value=
-modelname=
+
+[PZTA14_NXP00708]
+symbol=darlington_npn.sym
+value=PZTA14
+modelname=PZTA14
 file=PZTA14.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13193,17 +13473,18 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn darlington transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00709]
-symbol=.sym
-value=
-modelname=
+
+[PZTA42_NXP00709]
+symbol=npn.sym
+value=PZTA42
+modelname=PZTA42
 file=PZTA42.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13211,17 +13492,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
-model_status=undefined
+description=npn transistor
+test_refdes=X1
+model_status=good
 
 
-[_NXP00710]
+
+# Subcircuit with 4 connections
+[PZTA44_NXP00710]
 symbol=.sym
-value=
-modelname=
+value=PZTA44
+modelname=PZTA44
 file=PZTA44.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13229,17 +13512,19 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=npn transistor with 4 pins
+test_refdes=X1
 model_status=undefined
 
 
-[_NXP00711]
+
+# Subcircuit with 4 connections
+[PZTA92_NXP00711]
 symbol=.sym
-value=
-modelname=
+value=PZTA92
+modelname=PZTA92
 file=PZTA92.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13247,7 +13532,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
-test_refdes=Q1
+description=npn transistor with 4 pins
+test_refdes=X1
 model_status=undefined
 
