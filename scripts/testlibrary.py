@@ -23,6 +23,8 @@ COLORS = {"broken": "#FF3F3F",
           "good": "#7FFF7F",
           "---": "#CFCFCF",
           "test": "#FFFF7F",
+          "missing1": "#FFFF7F",
+          "missing2": "#FFFF7F",
           "failed": "#FF3F3F",
           "succeded": "#7FFF7F",
           "NIY": "#CFCFCF",
@@ -118,6 +120,14 @@ def sort_modelnumber(a,b):
 def log(x):
     open("gedaparts.log","at").write(str(x) + "\n")
 
+def load_md5sums(filename):
+    lines = open(filename, "rt").readlines()
+    md5 = {}
+    for l in lines:
+        tok = string.split(string.strip(l),"  ")
+        md5[tok[1]] = tok[0]
+    return md5
+
 #################### MAIN
 
 
@@ -137,6 +147,8 @@ ind.read(indexfile)
 
 testdir = ind.get("GLOBAL","TESTDIR")
 modeldir = ind.get("GLOBAL","MODELDIR")
+golden_md5 = load_md5sums(BASE_DIR + ind.get("GLOBAL","GOLDEN_SIGNATURES"))
+current_md5 = load_md5sums(BASE_DIR + ind.get("GLOBAL","CURRENT_SIGNATURES"))
 
 html_template = string.Template(open(TEMPLATE_FILE).read())
 row_template = string.Template(ROW_TEMPLATE)
@@ -149,6 +161,18 @@ for sec in secs:
         continue
     repl = dict(ind.items(sec))
     repl["checksum_test"] = "NIY"
+    if current_md5.has_key(modeldir + repl["file"]):
+        if golden_md5.has_key(modeldir + repl["file"]):
+            if current_md5[modeldir + repl["file"]] ==  golden_md5[modeldir + repl["file"]]:
+                repl["checksum_test"] = "good"
+            else:
+                repl["checksum_test"] = "failed"
+        else:
+            repl["checksum_test"] = "missing2"
+    else:
+        repl["checksum_test"] = "missing1"
+
+    
     repl["modelpath"] = BASE_DIR + modeldir + repl["file"]
     repl["partname"] = sec
     repl["model_test"] = "---"

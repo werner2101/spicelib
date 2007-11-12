@@ -2,7 +2,9 @@
 [GLOBAL]
 MODELDIR=model_library/nxp/bipolar/
 TESTDIR=model_tests/nxp/bipolar/
-model_status=broken
+DESCRIPTION=NXP bipolar models
+GOLDEN_SIGNATURES=model_signatures_golden/nxp_bipolar_lib.md5sum
+CURRENT_SIGNATURES=model_signatures/nxp_bipolar_lib.md5sum
 
 
 [2PA1576Q_NXP00001]
