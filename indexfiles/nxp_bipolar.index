@@ -2078,7 +2078,7 @@ model_status=good
 
 
 [BCV26_NXP00115]
-symbol=darlington_pnp.sym
+symbol=pnp_darlington.sym
 value=BCV26
 modelname=BCV26
 file=BCV26.prm
@@ -2096,7 +2096,7 @@ model_status=good
 
 
 [BCV27_NXP00116]
-symbol=darlington_npn.sym
+symbol=npn_darlington.sym
 value=BCV27
 modelname=BCV27
 file=BCV27.prm
@@ -2114,7 +2114,7 @@ model_status=good
 
 
 [BCV28_NXP00117]
-symbol=darlington_pnp.sym
+symbol=pnp_darlington.sym
 value=BCV28
 modelname=BCV28
 file=BCV28.prm
@@ -2132,7 +2132,7 @@ model_status=good
 
 
 [BCV29_NXP00118]
-symbol=darlington_npn.sym
+symbol=npn_darlington.sym
 value=BCV29
 modelname=BCV29
 file=BCV29.prm
@@ -2150,7 +2150,7 @@ model_status=good
 
 
 [BCV46_NXP00119]
-symbol=darlington_pnp.sym
+symbol=pnp_darlington.sym
 value=BCV46
 modelname=BCV46
 file=BCV46.prm
@@ -2169,7 +2169,7 @@ model_status=good
 
 # LE connected to the open node 333
 [BCV47_NXP00120]
-symbol=darlington_npn.sym
+symbol=npn_darlington.sym
 value=BCV47
 modelname=BCV47
 file=BCV47.prm
@@ -2187,7 +2187,7 @@ model_status=broken
 
 
 [BCV48_NXP00121]
-symbol=darlington_pnp.sym
+symbol=pnp_darlington.sym
 value=BCV48
 modelname=BCV48
 file=BCV48.prm
@@ -2205,7 +2205,7 @@ model_status=good
 
 
 [BCV49_NXP00122]
-symbol=darlington_npn.sym
+symbol=npn_darlington.sym
 value=BCV49
 modelname=BCV49
 file=BCV49.prm
@@ -3163,7 +3163,7 @@ model_status=good
 
 
 [BSP52_NXP00172]
-symbol=darlington_npn.sym
+symbol=npn_darlington.sym
 value=BSP52
 modelname=BSP52
 file=BSP52.prm
@@ -3182,7 +3182,7 @@ model_status=undefined
 
 
 [BSP62_NXP00173]
-symbol=darlington_pnp.sym
+symbol=pnp_darlington.sym
 value=BSP62
 modelname=BSP62
 file=BSP62.prm
@@ -3353,7 +3353,7 @@ model_status=good
 
 
 [BST52_NXP00182]
-symbol=darlington_npn.sym
+symbol=npn_darlington.sym
 value=BST52
 modelname=BST52
 file=BST52.prm
@@ -3372,7 +3372,7 @@ model_status=undefined
 
 
 [BST62_NXP00183]
-symbol=darlington_pnp.sym
+symbol=pnp_darlington.sym
 value=BST62
 modelname=BST62
 file=BST62.prm
@@ -12510,7 +12510,7 @@ model_status=good
 
 
 [PMBTA13_NXP00659]
-symbol=darlington_npn.sym
+symbol=npn_darlington.sym
 value=PMBTA13
 modelname=PMBTA13
 file=PMBTA13.prm
@@ -12529,7 +12529,7 @@ model_status=good
 
 
 [PMBTA14_NXP00660]
-symbol=darlington_npn.sym
+symbol=npn_darlington.sym
 value=PMBTA14
 modelname=PMBTA14
 file=PMBTA14.prm
@@ -12587,7 +12587,7 @@ model_status=good
 
 
 [PMBTA64_NXP00663]
-symbol=darlington_pnp.sym
+symbol=pnp_darlington.sym
 value=PMBTA64
 modelname=PMBTA64
 file=PMBTA64.prm
@@ -13405,7 +13405,7 @@ model_status=undefined
 
 
 [PXTA14_NXP00705]
-symbol=darlington_npn.sym
+symbol=npn_darlington.sym
 value=PXTA14
 modelname=PXTA14
 file=PXTA14.prm
@@ -13463,7 +13463,7 @@ model_status=good
 
 
 [PZTA14_NXP00708]
-symbol=darlington_npn.sym
+symbol=npn_darlington.sym
 value=PZTA14
 modelname=PZTA14
 file=PZTA14.prm
