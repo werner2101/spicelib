@@ -6,7 +6,7 @@ import ConfigParser
 #################### SETUP VARS
 BASE_DIR= "/home/werner/oss/geda/spicelib/"
 TEMPLATE_FILE = BASE_DIR + "model_tests/tests/html_templates/modelindex.html"
-#SYMBOL_DIR = BASE_DIR + "symbol_templates/"
+
 
 ROW_TEMPLATE = """
 <tr><td>$partname</td>
@@ -53,7 +53,7 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "model_tests/tests/npn_bipolar/",
                                     "schematics" : ["dc_current_gain.sch",
                                                     "saturation_voltages.sch"],
                                     "controller" : "plot_all.py",
-                                    "htmltemplate": "index.html.html",
+                                    "htmltemplate": "index.html",
                                     "files": ["simulate.gnucap"]},
             "npn_bin.sym": { "dir" : BASE_DIR + "model_tests/tests/npn_bin/",
                                     "schematics" : ["dc_current.sch"],
@@ -160,7 +160,7 @@ for sec in secs:
     if sec == "GLOBAL":
         continue
     repl = dict(ind.items(sec))
-    repl["checksum_test"] = "NIY"
+
     if current_md5.has_key(modeldir + repl["file"]):
         if golden_md5.has_key(modeldir + repl["file"]):
             if current_md5[modeldir + repl["file"]] ==  golden_md5[modeldir + repl["file"]]:
@@ -177,7 +177,7 @@ for sec in secs:
     repl["partname"] = sec
     repl["model_test"] = "---"
     if RUNTESTS:
-        if repl["model_status"] in ["test"]:
+        if repl["model_status"] not in ["undefined"]:
             print "\n\n"+ "*"*75
             print "Testing part: " + repl["partname"] + "  model: " +repl["modelpath"]
             print "*"*75

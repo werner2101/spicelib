@@ -14,9 +14,7 @@ def list_parts(filename):
     ind.read(PARTDB_DIR + filename)
     
     for sec in ind.sections():
-        if ind.get(sec,"model_status") in ["good","test"]:
-            print sec
-        else:
+        if ind.get(sec,"model_status") not in  ["undefined"]:
             print sec
 
 def symbol(filename, partname):

@@ -5,7 +5,7 @@ TESTDIR=model_tests/nxp/bipolar/
 DESCRIPTION=NXP bipolar models
 GOLDEN_SIGNATURES=model_signatures_golden/nxp_bipolar_lib.md5sum
 CURRENT_SIGNATURES=model_signatures/nxp_bipolar_lib.md5sum
-
+model_status=undefined
 
 [2PA1576Q_NXP00001]
 symbol=pnp.sym
