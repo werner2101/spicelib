@@ -610,7 +610,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW56S_2.pdf
 description=high-speed double diode array
 test_refdes=X1
-model_status=broken
+model_status=undefined
 # duplicate usage of refdes in the subckt
 
 
@@ -3811,6 +3811,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 description=4.7V zener diode
 test_refdes=X1
 model_status=test
+# twisted subckt connections (compared to PDZ5.6B)
 
 
 

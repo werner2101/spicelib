@@ -94,7 +94,7 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "model_tests/tests/npn_bipolar/",
 def test_model(param):
     testdir = ind.get("GLOBAL","TESTDIR") + param["partname"] + "/"
     msg = " "
-    errormsg = " "
+    longmsg = " "
 
 
     if TESTDEFS.has_key(param["symbol"]):
@@ -111,23 +111,24 @@ def test_model(param):
         ## run the tests
         save_cwd = os.getcwd()
         os.chdir(testdir)
-        result = os.system("./"+test["controller"])
-#        (pin, pout, perr) = os.popen3("./"+test["controller"])
-#        msg = pout.read()
-#        errormsg = perr.read()
+        pop = popen2.Popen4("./"+test["controller"])
+        result = pop.wait()
+        longmsg = pop.fromchild.read()
         os.chdir(save_cwd)
+        param["test_result"] = longmsg
         ## create the html file with the test results
         html = string.Template(open(test["dir"] + test["htmltemplate"], "rt").read())
         open(testdir + "index.html","wt").write(html.safe_substitute(param))
-#        print msg
-#        print errormsg
-        if result == 0:            #not errormsg:
-            True, msg, ""
+
+        if result == 0:
+            return True, "Test succeded", longmsg
         else:
-            return False, msg, "Test failed"
+            return False, "Test failed with errorcode %i" %(result), longmsg
     else:
-        errormsg = "no test definition available"
-        return False, msg, errormsg
+        longmsg = "no test definition available"
+        return False, msg, longmsg
+
+
 
     
 def color(text):
@@ -205,20 +206,21 @@ for sec in secs:
     repl["modelpath"] = BASE_DIR + modeldir + repl["file"]
     repl["partname"] = sec
     repl["model_test"] = "---"
+    repl["test_result"] = "---"
     if repl.has_key("documentation"):
         if (len(repl["documentation"]) > 10) and (repl["documentation"][:4] == "http"):
             repl["documentation"] = '<a href="'+ repl["documentation"]+'">'+repl["documentation"]+'</a>'
     if RUNTESTS:
         if repl["model_status"] not in ["undefined"]:
-            print "\n\n"+ "*"*75
+            print "\n" + "*"*75
             print "Testing part: " + repl["partname"] + "  model: " +repl["modelpath"]
-            print "*"*25
-            result, msg, errormsg = test_model(repl)
+            result, shortmsg, longmsg = test_model(repl)
             if result == True:
                 repl["model_test"] = "succeded"
+                print "Model test succeded:", shortmsg
             else:
                 repl["model_test"] = "failed"
-                print "Model test failed:", errormsg
+                print "Model test failed:", shortmsg
             repl["partname"] = '<a href="'+sec+'/index.html">'+sec+'</a>'
 
     repl["model_url"] = '<a href="../../../'+ modeldir+'/'+repl["file"]+'">'+repl["file"]+'</a>'
@@ -227,11 +229,10 @@ for sec in secs:
     repl["checksum_test_color"] = color(repl["checksum_test"])
     rows.append(row_template.safe_substitute(repl))
 
+
 lib = {"indexfile": indexfile,
        "testdir": testdir,
        "modeldir": ind.get("GLOBAL","MODELDIR"),
-       "title": ind.get("DESCRIPTION"),
+       "title": ind.get("GLOBAL","DESCRIPTION"),
        "model_rows": string.join(rows,"\n")}
-
 open(testdir + "index.html", "wt").write(html_template.safe_substitute(lib))
-
