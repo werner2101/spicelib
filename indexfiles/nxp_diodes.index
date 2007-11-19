@@ -21,7 +21,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/1N4728A_1.pdf
 description=6.2V zener diode 
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -77,7 +77,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS116H_1.pdf
 description=low-leakage diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -95,7 +95,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS116_4.pdf
 description=low-leakage diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -113,7 +113,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS16H_1.pdf
 description=high-speed switching diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -131,7 +131,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS16L_1.pdf
 description=high-speed diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -149,7 +149,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS16_4.pdf
 description=high-speed diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -205,7 +205,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS216_5.pdf
 description=high-speed switching diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -223,7 +223,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS21H_2.pdf
 description=high voltage switching diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -279,7 +279,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS28_2.pdf
 description=High-speed double diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -297,7 +297,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS321_2.pdf
 description=general purpose diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -315,7 +315,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS32L_4.pdf
 description=high-speed switching diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -333,7 +333,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS416_2.pdf
 description=low-leackage diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -351,7 +351,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS45A_2.pdf
 description=low-leakage diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -369,7 +369,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS516_1.pdf
 description=high-speed diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -387,7 +387,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS521_1.pdf
 description=high voltage switching diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -405,7 +405,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS56_2.pdf
 description=high-speed double diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -423,7 +423,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS716_1.pdf
 description=low-leakage diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -441,7 +441,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV102_BAV103_3.pdf
 description=general-purpose switching diodes
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -459,7 +459,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV199_4.pdf
 description=low-leakage double diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -534,7 +534,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV99S_3.pdf
 description=high-speed switching diode array
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -550,8 +550,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAW101_1.pdf
+description=high voltage double diode
 test_refdes=X1
 model_status=undefined
 
@@ -569,8 +569,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAW101S_1.pdf
+description=high voltage double diode
 test_refdes=X1
 model_status=undefined
 
@@ -588,8 +588,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAW56_4.pdf
+description=high-speed double diode
 test_refdes=X1
 model_status=undefined
 
@@ -607,11 +607,11 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAW56S_2.pdf
+description=high-speed double diode array
 test_refdes=X1
-model_status=undefined
-
+model_status=broken
+# duplicate usage of refdes in the subckt
 
 
 # Subcircuit with 3 connections
@@ -626,8 +626,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAW56T_2.pdf
+description=high-speed double diode
 test_refdes=X1
 model_status=undefined
 
@@ -645,15 +645,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAW56W_4.pdf
+description=high-speed double diode
 test_refdes=X1
 model_status=undefined
 
 
 
 [BAW62_NXP01036]
-symbol=.sym
+symbol=diode.sym
 value=BAW62
 modelname=BAW62
 file=BAW62.prm
@@ -663,10 +663,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAW62_2.pdf
+description=high-speed diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -701,15 +701,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZA408B_2.pdf
+description=Quadruple bidirectional ESD transient voltage suppressor
 test_refdes=X1
 model_status=undefined
 
 
 
 [BZA820A_NXP01039]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZA820A
 modelname=BZA820A
 file=BZA820A.prm
@@ -719,15 +719,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat_download/datasheets/BZA800A_SERIES_3.pdf
+description=20V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
 [BZA856A_NXP01040]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZA856A
 modelname=BZA856A
 file=BZA856A.prm
@@ -737,10 +737,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat_download/datasheets/BZA800A_SERIES_3.pdf
+description=5.6V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -756,15 +756,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZA800AVL_SERIES_2.pdf
+description=5.6V quadruple low capacitance ESD suppressor
 test_refdes=X1
 model_status=undefined
 
 
 
 [BZA862A_NXP01042]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZA862A
 modelname=BZA862A
 file=BZA862A.prm
@@ -774,10 +774,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat_download/datasheets/BZA800A_SERIES_3.pdf
+description=6.2V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -793,15 +793,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZA800AVL_SERIES_2.pdf
+description=6.2V quadruple low capacitance ESD suppressor
 test_refdes=X1
 model_status=undefined
 
 
 
 [BZA868A_NXP01044]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZA868A
 modelname=BZA868A
 file=BZA868A.prm
@@ -811,10 +811,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat_download/datasheets/BZA800A_SERIES_3.pdf
+description=6.8V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -830,15 +830,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZA800AVL_SERIES_2.pdf
+description=6.8V quadruple low capacitance ESD suppressor
 test_refdes=X1
 model_status=undefined
 
 
 
 [BZA956A_NXP01046]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZA956A
 modelname=BZA956A
 file=BZA956A.prm
@@ -848,10 +848,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZA900A_SERIES_1.pdf
+description=5.6V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -867,15 +867,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZA900AVL_SERIES_3.pdf
+description=5.6V quadruple low capacitance ESD suppressor
 test_refdes=X1
 model_status=undefined
 
 
 
 [BZA962A_NXP01048]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZA962A
 modelname=BZA962A
 file=BZA962A.prm
@@ -885,10 +885,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZA900A_SERIES_1.pdf
+description=6.2V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -904,15 +904,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZA900AVL_SERIES_3.pdf
+description=6.2V quadruple low capacitance ESD suppressor
 test_refdes=X1
 model_status=undefined
 
 
 
 [BZA968A_NXP01050]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZA968A
 modelname=BZA968A
 file=BZA968A.prm
@@ -922,10 +922,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZA900A_SERIES_1.pdf
+description=6.8V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -941,15 +941,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZA900AVL_SERIES_3.pdf
+description=6.8V quadruple low capacitance ESD suppressor
 test_refdes=X1
 model_status=undefined
 
 
 
 [BZV85-C33_NXP01052]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZV85-C33
 modelname=BZV85-C33
 file=BZV85-C33.prm
@@ -959,15 +959,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZV85_2.pdf
+description=33V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZV85C3V6_NXP01053]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZV85C3V6
 modelname=BZV85C3V6
 file=BZV85-C3V6.prm
@@ -977,15 +977,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZV85_2.pdf
+description=3.6V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
 [BZV90C30_NXP01054]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZV90C30
 modelname=BZV90C30
 file=BZV90-C30.prm
@@ -995,15 +995,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZV90_3.pdf
+description=30V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
 [BZX100A_NXP01055]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX100A
 modelname=BZX100A
 file=BZX100A.prm
@@ -1013,15 +1013,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX100A_1.pdf
+description=100V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [BZX284B6V2_NXP01056]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX284B6V2
 modelname=BZX284B6V2
 file=BZX284-B6V2.prm
@@ -1031,15 +1031,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX284_4.pdf
+description=6.2V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
 [BZX284C7V5_NXP01057]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX284C7V5
 modelname=BZX284C7V5
 file=BZX284-C7V5.prm
@@ -1049,15 +1049,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX284_4.pdf
+description=7.5V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
 [BZX284C8V2_NXP01058]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX284C8V2
 modelname=BZX284C8V2
 file=BZX284-C8V2.prm
@@ -1067,681 +1067,681 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX284_4.pdf
+description=8.2V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
 [BZX384-B10_NXP01059]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B10
 modelname=BZX384-B10
 file=BZX384-B10.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=10V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B11_NXP01060]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B11
 modelname=BZX384-B11
 file=BZX384-B11.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=11V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B12_NXP01061]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B12
 modelname=BZX384-B12
 file=BZX384-B12.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=12V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B13_NXP01062]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B13
 modelname=BZX384-B13
 file=BZX384-B13.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=13V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B15_NXP01063]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B15
 modelname=BZX384-B15
 file=BZX384-B15.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=15V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B16_NXP01064]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B16
 modelname=BZX384-B16
 file=BZX384-B16.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=16V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B18_NXP01065]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B18
 modelname=BZX384-B18
 file=BZX384-B18.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=18V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B20_NXP01066]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B20
 modelname=BZX384-B20
 file=BZX384-B20.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=20V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B22_NXP01067]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B22
 modelname=BZX384-B22
 file=BZX384-B22.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=22V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B24_NXP01068]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B24
 modelname=BZX384-B24
 file=BZX384-B24.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=24V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B27_NXP01069]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B27
 modelname=BZX384-B27
 file=BZX384-B27.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=27V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B2V4_NXP01070]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B2V4
 modelname=BZX384-B2V4
 file=BZX384-B2V4.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=2.4V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B2V7_NXP01071]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B2V7
 modelname=BZX384-B2V7
 file=BZX384-B2V7.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=2.7V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B30_NXP01072]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B30
 modelname=BZX384-B30
 file=BZX384-B30.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=30V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B33_NXP01073]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B33
 modelname=BZX384-B33
 file=BZX384-B33.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=33V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B36_NXP01074]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B36
 modelname=BZX384-B36
 file=BZX384-B36.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=36V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B39_NXP01075]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B39
 modelname=BZX384-B39
 file=BZX384-B39.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=39V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B3V0_NXP01076]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B3V0
 modelname=BZX384-B3V0
 file=BZX384-B3V0.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=3.0V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B3V3_NXP01077]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B3V3
 modelname=BZX384-B3V3
 file=BZX384-B3V3.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=3.3V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B3V6_NXP01078]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B3V6
 modelname=BZX384-B3V6
 file=BZX384-B3V6.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=3.6V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B3V9_NXP01079]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B3V9
 modelname=BZX384-B3V9
 file=BZX384-B3V9.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=3.9V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B43_NXP01080]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B43
 modelname=BZX384-B43
 file=BZX384-B43.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=43V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B47_NXP01081]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B47
 modelname=BZX384-B47
 file=BZX384-B47.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=47V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B4V3_NXP01082]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B4V3
 modelname=BZX384-B4V3
 file=BZX384-B4V3.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=4.3V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B4V7_NXP01083]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B4V7
 modelname=BZX384-B4V7
 file=BZX384-B4V7.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=4.7V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B51_NXP01084]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B51
 modelname=BZX384-B51
 file=BZX384-B51.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=51V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B56_NXP01085]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B56
 modelname=BZX384-B56
 file=BZX384-B56.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=56V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B5V1_NXP01086]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B5V1
 modelname=BZX384-B5V1
 file=BZX384-B5V1.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=5.1V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B5V6_NXP01087]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B5V6
 modelname=BZX384-B5V6
 file=BZX384-B5V6.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=5.6V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B62_NXP01088]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B62
 modelname=BZX384-B62
 file=BZX384-B62.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=62V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B68_NXP01089]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B68
 modelname=BZX384-B68
 file=BZX384-B68.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=68V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B6V2_NXP01090]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B6V2
 modelname=BZX384-B6V2
 file=BZX384-B6V2.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=6.2V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B6V8_NXP01091]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B6V8
 modelname=BZX384-B6V8
 file=BZX384-B6V8.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=6.8V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B75_NXP01092]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B75
 modelname=BZX384-B75
 file=BZX384-B75.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=75V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B7V5_NXP01093]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B7V5
 modelname=BZX384-B7V5
 file=BZX384-B7V5.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=7.5V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B8V2_NXP01094]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B8V2
 modelname=BZX384-B8V2
 file=BZX384-B8V2.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=8.2V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX384-B9V1_NXP01095]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX384-B9V1
 modelname=BZX384-B9V1
 file=BZX384-B9V1.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
+description=9.1V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [BZX585-B10_NXP01096]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B10
 modelname=BZX585-B10
 file=BZX585-B10.prm
@@ -1751,15 +1751,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=10V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B11_NXP01097]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B11
 modelname=BZX585-B11
 file=BZX585-B11.prm
@@ -1769,15 +1769,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=11V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B12_NXP01098]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B12
 modelname=BZX585-B12
 file=BZX585-B12.prm
@@ -1787,15 +1787,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=12V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B13_NXP01099]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B13
 modelname=BZX585-B13
 file=BZX585-B13.prm
@@ -1805,15 +1805,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=13V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B15_NXP01100]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B15
 modelname=BZX585-B15
 file=BZX585-B15.prm
@@ -1823,15 +1823,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=15V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B16_NXP01101]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B16
 modelname=BZX585-B16
 file=BZX585-B16.prm
@@ -1841,15 +1841,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=16V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B18_NXP01102]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B18
 modelname=BZX585-B18
 file=BZX585-B18.prm
@@ -1859,15 +1859,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=18V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B20_NXP01103]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B20
 modelname=BZX585-B20
 file=BZX585-B20.prm
@@ -1877,15 +1877,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=20V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B22_NXP01104]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B22
 modelname=BZX585-B22
 file=BZX585-B22.prm
@@ -1895,15 +1895,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=22V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B24_NXP01105]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B24
 modelname=BZX585-B24
 file=BZX585-B24.prm
@@ -1913,15 +1913,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=24V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B27_NXP01106]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B27
 modelname=BZX585-B27
 file=BZX585-B27.prm
@@ -1931,15 +1931,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=27V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B2V4_NXP01107]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B2V4
 modelname=BZX585-B2V4
 file=BZX585-B2V4.prm
@@ -1949,15 +1949,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=2.4V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B2V7_NXP01108]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B2V7
 modelname=BZX585-B2V7
 file=BZX585-B2V7.prm
@@ -1967,15 +1967,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=2.7V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B30_NXP01109]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B30
 modelname=BZX585-B30
 file=BZX585-B30.prm
@@ -1985,15 +1985,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=30V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B33_NXP01110]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B33
 modelname=BZX585-B33
 file=BZX585-B33.prm
@@ -2003,15 +2003,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=33V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B36_NXP01111]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B36
 modelname=BZX585-B36
 file=BZX585-B36.prm
@@ -2021,15 +2021,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=36V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B39_NXP01112]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B39
 modelname=BZX585-B39
 file=BZX585-B39.prm
@@ -2039,15 +2039,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=39V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B3V0_NXP01113]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B3V0
 modelname=BZX585-B3V0
 file=BZX585-B3V0.prm
@@ -2057,15 +2057,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=3.0V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B3V3_NXP01114]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B3V3
 modelname=BZX585-B3V3
 file=BZX585-B3V3.prm
@@ -2075,15 +2075,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=3.3V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B3V6_NXP01115]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B3V6
 modelname=BZX585-B3V6
 file=BZX585-B3V6.prm
@@ -2093,15 +2093,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=3.6V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B3V9_NXP01116]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B3V9
 modelname=BZX585-B3V9
 file=BZX585-B3V9.prm
@@ -2111,15 +2111,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=3.9V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B43_NXP01117]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B43
 modelname=BZX585-B43
 file=BZX585-B43.prm
@@ -2129,15 +2129,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=43V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B47_NXP01118]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B47
 modelname=BZX585-B47
 file=BZX585-B47.prm
@@ -2147,15 +2147,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=47V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B4V3_NXP01119]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B4V3
 modelname=BZX585-B4V3
 file=BZX585-B4V3.prm
@@ -2165,15 +2165,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=4.3V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B4V7_NXP01120]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B4V7
 modelname=BZX585-B4V7
 file=BZX585-B4V7.prm
@@ -2183,15 +2183,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=4.7V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B51_NXP01121]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B51
 modelname=BZX585-B51
 file=BZX585-B51.prm
@@ -2201,15 +2201,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=51V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B56_NXP01122]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B56
 modelname=BZX585-B56
 file=BZX585-B56.prm
@@ -2219,15 +2219,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=56V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B5V1_NXP01123]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B5V1
 modelname=BZX585-B5V1
 file=BZX585-B5V1.prm
@@ -2237,15 +2237,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=5.1V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B5V6_NXP01124]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B5V6
 modelname=BZX585-B5V6
 file=BZX585-B5V6.prm
@@ -2255,15 +2255,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=5.6V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B62_NXP01125]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B62
 modelname=BZX585-B62
 file=BZX585-B62.prm
@@ -2273,15 +2273,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=62V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B68_NXP01126]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B68
 modelname=BZX585-B68
 file=BZX585-B68.prm
@@ -2291,15 +2291,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=68V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B6V2_NXP01127]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B6V2
 modelname=BZX585-B6V2
 file=BZX585-B6V2.prm
@@ -2309,15 +2309,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=6.2V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B6V8_NXP01128]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B6V8
 modelname=BZX585-B6V8
 file=BZX585-B6V8.prm
@@ -2327,15 +2327,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=6.8V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B75_NXP01129]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B75
 modelname=BZX585-B75
 file=BZX585-B75.prm
@@ -2345,15 +2345,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=75V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B7V5_NXP01130]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B7V5
 modelname=BZX585-B7V5
 file=BZX585-B7V5.prm
@@ -2363,15 +2363,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=7.5V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B8V2_NXP01131]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B8V2
 modelname=BZX585-B8V2
 file=BZX585-B8V2.prm
@@ -2381,15 +2381,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=8.2V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX585-B9V1_NXP01132]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX585-B9V1
 modelname=BZX585-B9V1
 file=BZX585-B9V1.prm
@@ -2399,15 +2399,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
+description=9.1V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX79C6V8_NXP01133]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX79C6V8
 modelname=BZX79C6V8
 file=BZX79-C6V8.prm
@@ -2417,15 +2417,16 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX79_3.pdf
+description=6.8V zener diode
 test_refdes=D1
 model_status=test
 
 
 
+
 [BZX84C10V_NXP01134]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C10V
 modelname=BZX84C10V
 file=BZX84-C10.prm
@@ -2435,15 +2436,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=10V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C11V_NXP01135]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C11V
 modelname=BZX84C11V
 file=BZX84-C11.prm
@@ -2453,15 +2454,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=11V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C12V_NXP01136]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C12V
 modelname=BZX84C12V
 file=BZX84-C12.prm
@@ -2471,15 +2472,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=12V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C13V_NXP01137]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C13V
 modelname=BZX84C13V
 file=BZX84-C13.prm
@@ -2489,15 +2490,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=13V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C15V_NXP01138]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C15V
 modelname=BZX84C15V
 file=BZX84-C15.prm
@@ -2507,15 +2508,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=15V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C16V_NXP01139]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C16V
 modelname=BZX84C16V
 file=BZX84-C16.prm
@@ -2525,15 +2526,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=16V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C18V_NXP01140]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C18V
 modelname=BZX84C18V
 file=BZX84-C18.prm
@@ -2543,15 +2544,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=18V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C20V_NXP01141]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C20V
 modelname=BZX84C20V
 file=BZX84-C20.prm
@@ -2561,15 +2562,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=20V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C22V_NXP01142]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C22V
 modelname=BZX84C22V
 file=BZX84-C22.prm
@@ -2579,15 +2580,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=22V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C24V_NXP01143]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C24V
 modelname=BZX84C24V
 file=BZX84-C24.prm
@@ -2597,15 +2598,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=24V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C27V_NXP01144]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C27V
 modelname=BZX84C27V
 file=BZX84-C27.prm
@@ -2615,15 +2616,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=27V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C2V4_NXP01145]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C2V4
 modelname=BZX84C2V4
 file=BZX84-C2V4.prm
@@ -2633,15 +2634,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=2.4V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C2V7_NXP01146]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C2V7
 modelname=BZX84C2V7
 file=BZX84-C2V7.prm
@@ -2651,15 +2652,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=2.7V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C30V_NXP01147]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C30V
 modelname=BZX84C30V
 file=BZX84-C30.prm
@@ -2669,15 +2670,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=20V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C33V_NXP01148]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C33V
 modelname=BZX84C33V
 file=BZX84-C33.prm
@@ -2687,15 +2688,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=33V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C36V_NXP01149]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C36V
 modelname=BZX84C36V
 file=BZX84-C36.prm
@@ -2705,15 +2706,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=36V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C39V_NXP01150]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C39V
 modelname=BZX84C39V
 file=BZX84-C39.prm
@@ -2723,15 +2724,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=39V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C3V0_NXP01151]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C3V0
 modelname=BZX84C3V0
 file=BZX84-C3V0.prm
@@ -2741,8 +2742,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=3.0V zener diode
 test_refdes=D1
 model_status=test
 
@@ -2750,7 +2751,7 @@ model_status=test
 
 # Subcircuit with 3 connections
 [BZX84C3V3_NXP01152]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C3V3
 modelname=BZX84C3V3
 file=BZX84C3V3.prm
@@ -2760,15 +2761,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=3.3V zener diode
 test_refdes=X1
 model_status=undefined
 
 
 
 [BZX84C3V6_NXP01153]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C3V6
 modelname=BZX84C3V6
 file=BZX84-C3V6.prm
@@ -2778,15 +2779,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=3.6V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C3V9_NXP01154]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C3V9
 modelname=BZX84C3V9
 file=BZX84-C3V9.prm
@@ -2796,15 +2797,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=3.9V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C43V_NXP01155]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C43V
 modelname=BZX84C43V
 file=BZX84-C43.prm
@@ -2814,15 +2815,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=43V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C47V_NXP01156]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C47V
 modelname=BZX84C47V
 file=BZX84-C47.prm
@@ -2832,8 +2833,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=47V zener diode
 test_refdes=D1
 model_status=test
 
@@ -2841,7 +2842,7 @@ model_status=test
 
 # Subcircuit with 3 connections
 [BZX84C4V3_NXP01157]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C4V3
 modelname=BZX84C4V3
 file=BZX84C4V3.prm
@@ -2851,15 +2852,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=4.3V zener diode
 test_refdes=X1
 model_status=undefined
 
 
 
 [BZX84C4V7_NXP01158]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C4V7
 modelname=BZX84C4V7
 file=BZX84-C4V7.prm
@@ -2869,15 +2870,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=4.7V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C51V_NXP01159]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C51V
 modelname=BZX84C51V
 file=BZX84-C51.prm
@@ -2887,15 +2888,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=51V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C56V_NXP01160]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C56V
 modelname=BZX84C56V
 file=BZX84-C56.prm
@@ -2905,15 +2906,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=56V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C5V1_NXP01161]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C5V1
 modelname=BZX84C5V1
 file=BZX84-C5V1.prm
@@ -2923,15 +2924,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=5.1V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C5V6_NXP01162]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C5V6
 modelname=BZX84C5V6
 file=BZX84-C5V6.prm
@@ -2941,15 +2942,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=5.6V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C62V_NXP01163]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C62V
 modelname=BZX84C62V
 file=BZX84-C62.prm
@@ -2959,15 +2960,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=62V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C68V_NXP01164]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C68V
 modelname=BZX84C68V
 file=BZX84-C68.prm
@@ -2977,15 +2978,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=68V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C6V2_NXP01165]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C6V2
 modelname=BZX84C6V2
 file=BZX84-C6V2.prm
@@ -2995,15 +2996,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=6.2V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C6V8_NXP01166]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C6V8
 modelname=BZX84C6V8
 file=BZX84-C6V8.prm
@@ -3013,8 +3014,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=6.8V zener diode
 test_refdes=D1
 model_status=test
 
@@ -3022,7 +3023,7 @@ model_status=test
 
 # Subcircuit with 3 connections
 [BZX84C75_NXP01167]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C75
 modelname=BZX84C75
 file=BZX84C75.prm
@@ -3032,15 +3033,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=75V zener diode
 test_refdes=X1
 model_status=undefined
 
 
 
 [BZX84C7V5_NXP01168]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C7V5
 modelname=BZX84C7V5
 file=BZX84-C7V5.prm
@@ -3050,15 +3051,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=7.5V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C8V2_NXP01169]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C8V2
 modelname=BZX84C8V2
 file=BZX84-C8V2.prm
@@ -3068,15 +3069,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=8.2V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX84C9V1_NXP01170]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84C9V1
 modelname=BZX84C9V1
 file=BZX84-C9V1.prm
@@ -3086,15 +3087,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
+description=9.1V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B10_NXP01171]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B10
 modelname=BZX884-B10
 file=BZX884-B10.prm
@@ -3104,15 +3105,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=10V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B11_NXP01172]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B11
 modelname=BZX884-B11
 file=BZX884-B11.prm
@@ -3122,15 +3123,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=11V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B12_NXP01173]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B12
 modelname=BZX884-B12
 file=BZX884-B12.prm
@@ -3140,15 +3141,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=12V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B13_NXP01174]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B13
 modelname=BZX884-B13
 file=BZX884-B13.prm
@@ -3158,15 +3159,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=13V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B15_NXP01175]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B15
 modelname=BZX884-B15
 file=BZX884-B15.prm
@@ -3176,15 +3177,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=15V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B16_NXP01176]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B16
 modelname=BZX884-B16
 file=BZX884-B16.prm
@@ -3194,15 +3195,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=16V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B18_NXP01177]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B18
 modelname=BZX884-B18
 file=BZX884-B18.prm
@@ -3212,15 +3213,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=18V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B20_NXP01178]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B20
 modelname=BZX884-B20
 file=BZX884-B20.prm
@@ -3230,15 +3231,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=20V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B22_NXP01179]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B22
 modelname=BZX884-B22
 file=BZX884-B22.prm
@@ -3248,15 +3249,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=22V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B24_NXP01180]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B24
 modelname=BZX884-B24
 file=BZX884-B24.prm
@@ -3266,15 +3267,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=24V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B27_NXP01181]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B27
 modelname=BZX884-B27
 file=BZX884-B27.prm
@@ -3284,15 +3285,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=27V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B2V4_NXP01182]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B2V4
 modelname=BZX884-B2V4
 file=BZX884-B2V4.prm
@@ -3302,15 +3303,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=2.4V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B2V7_NXP01183]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B2V7
 modelname=BZX884-B2V7
 file=BZX884-B2V7.prm
@@ -3320,15 +3321,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=2.7V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B30_NXP01184]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B30
 modelname=BZX884-B30
 file=BZX884-B30.prm
@@ -3338,15 +3339,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=30V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B33_NXP01185]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B33
 modelname=BZX884-B33
 file=BZX884-B33.prm
@@ -3356,15 +3357,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=33V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B36_NXP01186]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B36
 modelname=BZX884-B36
 file=BZX884-B36.prm
@@ -3374,15 +3375,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=36V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B39_NXP01187]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B39
 modelname=BZX884-B39
 file=BZX884-B39.prm
@@ -3392,15 +3393,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=39V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B3V0_NXP01188]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B3V0
 modelname=BZX884-B3V0
 file=BZX884-B3V0.prm
@@ -3410,15 +3411,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=3.0V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B3V3_NXP01189]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B3V3
 modelname=BZX884-B3V3
 file=BZX884-B3V3.prm
@@ -3428,15 +3429,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=3.3V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B3V6_NXP01190]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B3V6
 modelname=BZX884-B3V6
 file=BZX884-B3V6.prm
@@ -3446,15 +3447,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=3.6V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B3V9_NXP01191]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B3V9
 modelname=BZX884-B3V9
 file=BZX884-B3V9.prm
@@ -3464,15 +3465,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=3.9V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B43_NXP01192]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B43
 modelname=BZX884-B43
 file=BZX884-B43.prm
@@ -3482,15 +3483,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=43V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B47_NXP01193]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B47
 modelname=BZX884-B47
 file=BZX884-B47.prm
@@ -3500,15 +3501,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=47V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B4V3_NXP01194]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B4V3
 modelname=BZX884-B4V3
 file=BZX884-B4V3.prm
@@ -3518,15 +3519,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=4.3V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B4V7_NXP01195]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B4V7
 modelname=BZX884-B4V7
 file=BZX884-B4V7.prm
@@ -3536,15 +3537,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=4.7V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B51_NXP01196]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B51
 modelname=BZX884-B51
 file=BZX884-B51.prm
@@ -3554,15 +3555,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=51V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B56_NXP01197]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B56
 modelname=BZX884-B56
 file=BZX884-B56.prm
@@ -3572,15 +3573,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=56V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B5V1_NXP01198]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B5V1
 modelname=BZX884-B5V1
 file=BZX884-B5V1.prm
@@ -3590,15 +3591,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=5.1V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B5V6_NXP01199]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B5V6
 modelname=BZX884-B5V6
 file=BZX884-B5V6.prm
@@ -3608,15 +3609,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=5.6V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B62_NXP01200]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B62
 modelname=BZX884-B62
 file=BZX884-B62.prm
@@ -3626,15 +3627,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=62V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B68_NXP01201]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B68
 modelname=BZX884-B68
 file=BZX884-B68.prm
@@ -3644,15 +3645,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=68V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B6V2_NXP01202]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B6V2
 modelname=BZX884-B6V2
 file=BZX884-B6V2.prm
@@ -3662,15 +3663,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=6.2V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B6V8_NXP01203]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B6V8
 modelname=BZX884-B6V8
 file=BZX884-B6V8.prm
@@ -3680,15 +3681,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=6.8V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B75_NXP01204]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B75
 modelname=BZX884-B75
 file=BZX884-B75.prm
@@ -3698,15 +3699,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=75V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B7V5_NXP01205]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B7V5
 modelname=BZX884-B7V5
 file=BZX884-B7V5.prm
@@ -3716,15 +3717,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=7.5V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B8V2_NXP01206]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B8V2
 modelname=BZX884-B8V2
 file=BZX884-B8V2.prm
@@ -3734,15 +3735,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=8.2V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [BZX884-B9V1_NXP01207]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX884-B9V1
 modelname=BZX884-B9V1
 file=BZX884-B9V1.prm
@@ -3752,15 +3753,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
+description=9.1V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PDZ10B_NXP01208]
-symbol=.sym
+symbol=zener_diode.sym
 value=PDZ10B
 modelname=PDZ10B
 file=PDZ10B.prm
@@ -3770,15 +3771,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
+description=10V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PDZ11B_NXP01209]
-symbol=.sym
+symbol=zener_diode.sym
 value=PDZ11B
 modelname=PDZ11B
 file=PDZ11B.prm
@@ -3788,15 +3789,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
+description=11V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PDZ4.7B_NXP01210]
-symbol=.sym
+symbol=zener_diode.sym
 value=PDZ4.7B
 modelname=PDZ4.7B
 file=PDZ4.7B.prm
@@ -3806,15 +3807,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
+description=4.7V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PDZ5.6B_NXP01211]
-symbol=.sym
+symbol=zener_diode.sym
 value=PDZ5.6B
 modelname=PDZ5.6B
 file=PDZ5.6B.prm
@@ -3824,15 +3825,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
+description=5.6V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PDZ9.1B_NXP01212]
-symbol=.sym
+symbol=zener_diode.sym
 value=PDZ9.1B
 modelname=PDZ9.1B
 file=PDZ9.1B.prm
@@ -3842,10 +3843,11 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
+description=9.1V zener diode
 test_refdes=D1
 model_status=test
+
 
 
 
@@ -5366,7 +5368,7 @@ model_status=undefined
 
 
 [PZU10B1_NXP01294]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU10B1
 modelname=PZU10B1
 file=PZU10B1.prm
@@ -5376,15 +5378,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=10V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU10B2_NXP01295]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU10B2
 modelname=PZU10B2
 file=PZU10B2.prm
@@ -5394,15 +5396,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=10V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU10B3_NXP01296]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU10B3
 modelname=PZU10B3
 file=PZU10B3.prm
@@ -5412,15 +5414,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=10V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU10B_NXP01297]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU10B
 modelname=PZU10B
 file=PZU10B.prm
@@ -5430,15 +5432,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=10V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU11B1_NXP01298]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU11B1
 modelname=PZU11B1
 file=PZU11B1.prm
@@ -5448,15 +5450,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=11V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU11B2_NXP01299]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU11B2
 modelname=PZU11B2
 file=PZU11B2.prm
@@ -5466,15 +5468,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=11V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU11B3_NXP01300]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU11B3
 modelname=PZU11B3
 file=PZU11B3.prm
@@ -5484,15 +5486,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=11V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU11B_NXP01301]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU11B
 modelname=PZU11B
 file=PZU11B.prm
@@ -5502,15 +5504,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=11V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU12B1_NXP01302]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU12B1
 modelname=PZU12B1
 file=PZU12B1.prm
@@ -5520,15 +5522,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=12V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU12B2_NXP01303]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU12B2
 modelname=PZU12B2
 file=PZU12B2.prm
@@ -5538,15 +5540,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU12B3_NXP01304]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU12B3
 modelname=PZU12B3
 file=PZU12B3.prm
@@ -5556,15 +5558,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=12V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU12B_NXP01305]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU12B
 modelname=PZU12B
 file=PZU12B.prm
@@ -5574,15 +5576,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=12V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU13B1_NXP01306]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU13B1
 modelname=PZU13B1
 file=PZU13B1.prm
@@ -5592,15 +5594,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=13V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU13B2_NXP01307]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU13B2
 modelname=PZU13B2
 file=PZU13B2.prm
@@ -5610,15 +5612,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=13V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU13B3_NXP01308]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU13B3
 modelname=PZU13B3
 file=PZU13B3.prm
@@ -5628,15 +5630,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=13V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU13B_NXP01309]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU13B
 modelname=PZU13B
 file=PZU13B.prm
@@ -5646,15 +5648,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=13V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU14B2_NXP01310]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU14B2
 modelname=PZU14B2
 file=PZU14B2.prm
@@ -5664,15 +5666,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=14V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU15B1_NXP01311]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU15B1
 modelname=PZU15B1
 file=PZU15B1.prm
@@ -5682,15 +5684,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=15V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU15B2_NXP01312]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU15B2
 modelname=PZU15B2
 file=PZU15B2.prm
@@ -5700,15 +5702,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=15V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU15B3_NXP01313]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU15B3
 modelname=PZU15B3
 file=PZU15B3.prm
@@ -5718,15 +5720,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=15V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU15B_NXP01314]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU15B
 modelname=PZU15B
 file=PZU15B.prm
@@ -5736,15 +5738,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=15V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU16B1_NXP01315]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU16B1
 modelname=PZU16B1
 file=PZU16B1.prm
@@ -5754,15 +5756,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=16V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU16B2_NXP01316]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU16B2
 modelname=PZU16B2
 file=PZU16B2.prm
@@ -5772,15 +5774,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=16V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU16B3_NXP01317]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU16B3
 modelname=PZU16B3
 file=PZU16B3.prm
@@ -5790,15 +5792,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=16V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU16B_NXP01318]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU16B
 modelname=PZU16B
 file=PZU16B.prm
@@ -5808,15 +5810,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=16V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU18B1_NXP01319]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU18B1
 modelname=PZU18B1
 file=PZU18B1.prm
@@ -5826,15 +5828,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=18V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU18B2_NXP01320]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU18B2
 modelname=PZU18B2
 file=PZU18B2.prm
@@ -5844,15 +5846,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=18V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU18B3_NXP01321]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU18B3
 modelname=PZU18B3
 file=PZU18B3.prm
@@ -5862,15 +5864,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=18V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU18B_NXP01322]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU18B
 modelname=PZU18B
 file=PZU18B.prm
@@ -5880,15 +5882,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=18V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU20B1_NXP01323]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU20B1
 modelname=PZU20B1
 file=PZU20B1.prm
@@ -5898,15 +5900,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=20V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU20B2_NXP01324]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU20B2
 modelname=PZU20B2
 file=PZU20B2.prm
@@ -5916,15 +5918,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=20V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU20B3_NXP01325]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU20B3
 modelname=PZU20B3
 file=PZU20B3.prm
@@ -5934,15 +5936,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=20V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU20B_NXP01326]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU20B
 modelname=PZU20B
 file=PZU20B.prm
@@ -5952,15 +5954,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=20V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU22B1_NXP01327]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU22B1
 modelname=PZU22B1
 file=PZU22B1.prm
@@ -5970,15 +5972,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=22V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU22B2_NXP01328]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU22B2
 modelname=PZU22B2
 file=PZU22B2.prm
@@ -5988,15 +5990,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=22V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU22B3_NXP01329]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU22B3
 modelname=PZU22B3
 file=PZU22B3.prm
@@ -6006,15 +6008,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=22V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU22B_NXP01330]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU22B
 modelname=PZU22B
 file=PZU22B.prm
@@ -6024,15 +6026,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=22V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU24B1_NXP01331]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU24B1
 modelname=PZU24B1
 file=PZU24B1.prm
@@ -6042,15 +6044,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=24V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU24B2_NXP01332]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU24B2
 modelname=PZU24B2
 file=PZU24B2.prm
@@ -6060,15 +6062,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=24V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU24B3_NXP01333]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU24B3
 modelname=PZU24B3
 file=PZU24B3.prm
@@ -6078,15 +6080,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=24V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU2.4B_NXP01334]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU2.4B
 modelname=PZU2.4B
 file=PZU2.4B.prm
@@ -6096,15 +6098,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=2.4V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU24B_NXP01335]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU24B
 modelname=PZU24B
 file=PZU24B.prm
@@ -6114,15 +6116,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=24V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU2.7B1_NXP01336]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU2.7B1
 modelname=PZU2.7B1
 file=PZU2.7B1.prm
@@ -6132,15 +6134,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=2.7V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU2.7B2_NXP01337]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU2.7B2
 modelname=PZU2.7B2
 file=PZU2.7B2.prm
@@ -6150,15 +6152,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=2.7V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU2.7B_NXP01338]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU2.7B
 modelname=PZU2.7B
 file=PZU2.7B.prm
@@ -6168,15 +6170,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=2.7V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU27B_NXP01339]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU27B
 modelname=PZU27B
 file=PZU27B.prm
@@ -6186,15 +6188,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=27V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU3.0B1_NXP01340]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3.0B1
 modelname=PZU3.0B1
 file=PZU3.0B1.prm
@@ -6204,15 +6206,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=3.0V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU3.0B2_NXP01341]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3.0B2
 modelname=PZU3.0B2
 file=PZU3.0B2.prm
@@ -6222,15 +6224,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=3.0V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU3.0B_NXP01342]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3.0B
 modelname=PZU3.0B
 file=PZU3.0B.prm
@@ -6240,15 +6242,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=3.0V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU30B_NXP01343]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU30B
 modelname=PZU30B
 file=PZU30B.prm
@@ -6258,15 +6260,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=30V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU3.3B1_NXP01344]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3.3B1
 modelname=PZU3.3B1
 file=PZU3.3B1.prm
@@ -6276,15 +6278,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=3.3V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU3.3B2_NXP01345]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3.3B2
 modelname=PZU3.3B2
 file=PZU3.3B2.prm
@@ -6294,15 +6296,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=3.3V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU3.3B_NXP01346]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3.3B
 modelname=PZU3.3B
 file=PZU3.3B.prm
@@ -6312,15 +6314,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=3.3V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU33B_NXP01347]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU33B
 modelname=PZU33B
 file=PZU33B.prm
@@ -6330,15 +6332,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=33V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU3.6B1_NXP01348]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3.6B1
 modelname=PZU3.6B1
 file=PZU3.6B1.prm
@@ -6348,15 +6350,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=3.6V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU3.6B2_NXP01349]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3.6B2
 modelname=PZU3.6B2
 file=PZU3.6B2.prm
@@ -6366,15 +6368,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=3.6V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU3.6B_NXP01350]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3.6B
 modelname=PZU3.6B
 file=PZU3.6B.prm
@@ -6384,15 +6386,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=3.6V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU36B_NXP01351]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU36B
 modelname=PZU36B
 file=PZU36B.prm
@@ -6402,15 +6404,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=36V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU3.9B1_NXP01352]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3.9B1
 modelname=PZU3.9B1
 file=PZU3.9B1.prm
@@ -6420,15 +6422,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=3.9V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU3.9B2_NXP01353]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3.9B2
 modelname=PZU3.9B2
 file=PZU3.9B2.prm
@@ -6438,15 +6440,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=3.9V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU3.9B_NXP01354]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3.9B
 modelname=PZU3.9B
 file=PZU3.9B.prm
@@ -6456,15 +6458,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=3.9V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU4.3B1_NXP01355]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4.3B1
 modelname=PZU4.3B1
 file=PZU4.3B1.prm
@@ -6474,15 +6476,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=4.3V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU4.3B2_NXP01356]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4.3B2
 modelname=PZU4.3B2
 file=PZU4.3B2.prm
@@ -6492,15 +6494,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=4.3V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU4.3B3_NXP01357]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4.3B3
 modelname=PZU4.3B3
 file=PZU4.3B3.prm
@@ -6510,15 +6512,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=4.3V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU4.3B_NXP01358]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4.3B
 modelname=PZU4.3B
 file=PZU4.3B.prm
@@ -6528,15 +6530,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=4.3V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU4.7B1_NXP01359]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4.7B1
 modelname=PZU4.7B1
 file=PZU4.7B1.prm
@@ -6546,15 +6548,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=4.7V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU4.7B2_NXP01360]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4.7B2
 modelname=PZU4.7B2
 file=PZU4.7B2.prm
@@ -6564,15 +6566,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=4.7V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU4.7B3_NXP01361]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4.7B3
 modelname=PZU4.7B3
 file=PZU4.7B3.prm
@@ -6582,15 +6584,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=4.7V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU4.7B_NXP01362]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4.7B
 modelname=PZU4.7B
 file=PZU4.7B.prm
@@ -6600,15 +6602,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=4.7V zener diode
 test_refdes=X1
 model_status=test
 
 
 
 [PZU5.1B1_NXP01363]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5.1B1
 modelname=PZU5.1B1
 file=PZU5.1B1.prm
@@ -6618,15 +6620,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=5.1V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU5.1B2_NXP01364]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5.1B2
 modelname=PZU5.1B2
 file=PZU5.1B2.prm
@@ -6636,15 +6638,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=5.1V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU5.1B3_NXP01365]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5.1B3
 modelname=PZU5.1B3
 file=PZU5.1B3.prm
@@ -6654,15 +6656,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=5.1V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU5.1B_NXP01366]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5.1B
 modelname=PZU5.1B
 file=PZU5.1B.prm
@@ -6672,15 +6674,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=5.1V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU5.6B1_NXP01367]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5.6B1
 modelname=PZU5.6B1
 file=PZU5.6B1.prm
@@ -6690,15 +6692,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=5.6V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU5.6B2_NXP01368]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5.6B2
 modelname=PZU5.6B2
 file=PZU5.6B2.prm
@@ -6708,15 +6710,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=5.6V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU5.6B3_NXP01369]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5.6B3
 modelname=PZU5.6B3
 file=PZU5.6B3.prm
@@ -6726,15 +6728,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=5.6V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU5.6B_NXP01370]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5.6B
 modelname=PZU5.6B
 file=PZU5.6B.prm
@@ -6744,15 +6746,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=5.6V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU6.2B1_NXP01371]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6.2B1
 modelname=PZU6.2B1
 file=PZU6.2B1.prm
@@ -6762,15 +6764,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=5.6V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU6.2B2_NXP01372]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6.2B2
 modelname=PZU6.2B2
 file=PZU6.2B2.prm
@@ -6780,15 +6782,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=6.2V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU6.2B3_NXP01373]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6.2B3
 modelname=PZU6.2B3
 file=PZU6.2B3.prm
@@ -6798,15 +6800,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=6.2V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU6.2B_NXP01374]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6.2B
 modelname=PZU6.2B
 file=PZU6.2B.prm
@@ -6816,15 +6818,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=6.2V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU6.8B1_NXP01375]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6.8B1
 modelname=PZU6.8B1
 file=PZU6.8B1.prm
@@ -6834,15 +6836,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=6.8V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU6.8B2_NXP01376]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6.8B2
 modelname=PZU6.8B2
 file=PZU6.8B2.prm
@@ -6852,15 +6854,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=6.8V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU6.8B3_NXP01377]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6.8B3
 modelname=PZU6.8B3
 file=PZU6.8B3.prm
@@ -6870,15 +6872,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=6.8V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU6.8B_NXP01378]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6.8B
 modelname=PZU6.8B
 file=PZU6.8B.prm
@@ -6888,15 +6890,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=6.8V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU7.5B1_NXP01379]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU7.5B1
 modelname=PZU7.5B1
 file=PZU7.5B1.prm
@@ -6906,15 +6908,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=7.5V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU7.5B2_NXP01380]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU7.5B2
 modelname=PZU7.5B2
 file=PZU7.5B2.prm
@@ -6924,15 +6926,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=7.5V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU7.5B3_NXP01381]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU7.5B3
 modelname=PZU7.5B3
 file=PZU7.5B3.prm
@@ -6942,15 +6944,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=7.5V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU7.5B_NXP01382]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU7.5B
 modelname=PZU7.5B
 file=PZU7.5B.prm
@@ -6960,15 +6962,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=7.5V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU8.2B1_NXP01383]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU8.2B1
 modelname=PZU8.2B1
 file=PZU8.2B1.prm
@@ -6978,15 +6980,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=8.2V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU8.2B2_NXP01384]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU8.2B2
 modelname=PZU8.2B2
 file=PZU8.2B2.prm
@@ -6996,15 +6998,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=8.2V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU8.2B3_NXP01385]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU8.2B3
 modelname=PZU8.2B3
 file=PZU8.2B3.prm
@@ -7014,15 +7016,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=8.2V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU8.2B_NXP01386]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU8.2B
 modelname=PZU8.2B
 file=PZU8.2B.prm
@@ -7032,15 +7034,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=8.2V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU9.1B1_NXP01387]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU9.1B1
 modelname=PZU9.1B1
 file=PZU9.1B1.prm
@@ -7050,15 +7052,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=9.1V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU9.1B2_NXP01388]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU9.1B2
 modelname=PZU9.1B2
 file=PZU9.1B2.prm
@@ -7068,15 +7070,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=9.1V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU9.1B3_NXP01389]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU9.1B3
 modelname=PZU9.1B3
 file=PZU9.1B3.prm
@@ -7086,15 +7088,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=9.1V zener diode
 test_refdes=D1
 model_status=test
 
 
 
 [PZU9.1B_NXP01390]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU9.1B
 modelname=PZU9.1B
 file=PZU9.1B.prm
@@ -7104,8 +7106,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
+description=9.1V zener diode
 test_refdes=D1
 model_status=test
 

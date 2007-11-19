@@ -1,6 +1,8 @@
 #!/usr/bin/python
 
 import sys, re, string, os
+import shutil
+import popen2
 import ConfigParser
 
 #################### SETUP VARS
@@ -91,26 +93,42 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "model_tests/tests/npn_bipolar/",
 
 def test_model(param):
     testdir = ind.get("GLOBAL","TESTDIR") + param["partname"] + "/"
+    msg = " "
+    errormsg = " "
+
 
     if TESTDEFS.has_key(param["symbol"]):
         test = TESTDEFS[param["symbol"]]
         ## copy all test files and the controller to dest
-        os.system("mkdir -p " + testdir)
+        if not os.path.isdir(testdir):
+            os.makedirs(testdir)
         for f in (test["files"] + [test["controller"]]):
-            os.system("cp " + test["dir"] + f + " " + testdir)
+            shutil.copy(test["dir"] + f, testdir)
         ## apply the params to all schematic files
         for f in test["schematics"]:
             sch = string.Template(open(test["dir"] + f,"rt").read())
             open(testdir + f, "wt").write(sch.safe_substitute(param))
         ## run the tests
-        result = os.system("cd " + testdir + " && ./" + test["controller"])
-        ## create the html file
+        save_cwd = os.getcwd()
+        os.chdir(testdir)
+        result = os.system("./"+test["controller"])
+#        (pin, pout, perr) = os.popen3("./"+test["controller"])
+#        msg = pout.read()
+#        errormsg = perr.read()
+        os.chdir(save_cwd)
+        ## create the html file with the test results
         html = string.Template(open(test["dir"] + test["htmltemplate"], "rt").read())
         open(testdir + "index.html","wt").write(html.safe_substitute(param))
-        if result == 0:
-            return True
-        
-    return False
+#        print msg
+#        print errormsg
+        if result == 0:            #not errormsg:
+            True, msg, ""
+        else:
+            return False, msg, "Test failed"
+    else:
+        errormsg = "no test definition available"
+        return False, msg, errormsg
+
     
 def color(text):
     if COLORS.has_key(text):
@@ -171,6 +189,7 @@ for sec in secs:
         continue
     repl = dict(ind.items(sec))
 
+    ## Checksum test
     if current_md5.has_key(modeldir + repl["file"]):
         if golden_md5.has_key(modeldir + repl["file"]):
             if current_md5[modeldir + repl["file"]] ==  golden_md5[modeldir + repl["file"]]:
@@ -186,16 +205,20 @@ for sec in secs:
     repl["modelpath"] = BASE_DIR + modeldir + repl["file"]
     repl["partname"] = sec
     repl["model_test"] = "---"
+    if repl.has_key("documentation"):
+        if (len(repl["documentation"]) > 10) and (repl["documentation"][:4] == "http"):
+            repl["documentation"] = '<a href="'+ repl["documentation"]+'">'+repl["documentation"]+'</a>'
     if RUNTESTS:
         if repl["model_status"] not in ["undefined"]:
             print "\n\n"+ "*"*75
             print "Testing part: " + repl["partname"] + "  model: " +repl["modelpath"]
-            print "*"*75
-            result = test_model(repl)
+            print "*"*25
+            result, msg, errormsg = test_model(repl)
             if result == True:
                 repl["model_test"] = "succeded"
             else:
                 repl["model_test"] = "failed"
+                print "Model test failed:", errormsg
             repl["partname"] = '<a href="'+sec+'/index.html">'+sec+'</a>'
 
     repl["model_url"] = '<a href="../../../'+ modeldir+'/'+repl["file"]+'">'+repl["file"]+'</a>'
@@ -207,6 +230,7 @@ for sec in secs:
 lib = {"indexfile": indexfile,
        "testdir": testdir,
        "modeldir": ind.get("GLOBAL","MODELDIR"),
+       "title": ind.get("DESCRIPTION"),
        "model_rows": string.join(rows,"\n")}
 
 open(testdir + "index.html", "wt").write(html_template.safe_substitute(lib))
