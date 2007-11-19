@@ -2493,7 +2493,7 @@ footprint=none
 description=TBD
 test_refdes=X1
 model_status=broken
-# subckt name identical to model name
+# leading NPN at the Q1 definition wrong
 
 
 [BCX70G_NXP00137]

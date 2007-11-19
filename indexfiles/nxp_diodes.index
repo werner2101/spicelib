@@ -266,7 +266,7 @@ model_status=undefined
 
 
 [BAS28_NXP01015]
-symbol=.sym
+symbol=diode.sym
 value=BAS28
 modelname=BAS28
 file=BAS28.prm
@@ -276,15 +276,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAS28_2.pdf
+description=High-speed double diode
 test_refdes=D1
 model_status=test
 
 
 
 [BAS321_NXP01016]
-symbol=.sym
+symbol=diode.sym
 value=BAS321
 modelname=BAS321
 file=BAS321.prm
@@ -294,15 +294,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAS321_2.pdf
+description=general purpose diode
 test_refdes=D1
 model_status=test
 
 
 
 [BAS32L_NXP01017]
-symbol=.sym
+symbol=diode.sym
 value=BAS32L
 modelname=BAS32L
 file=BAS32L.prm
@@ -312,15 +312,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAS32L_4.pdf
+description=high-speed switching diode
 test_refdes=D1
 model_status=test
 
 
 
 [BAS416_NXP01018]
-symbol=.sym
+symbol=diode.sym
 value=BAS416
 modelname=BAS416
 file=BAS416.prm
@@ -330,15 +330,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAS416_2.pdf
+description=low-leackage diode
 test_refdes=D1
 model_status=test
 
 
 
 [BAS45A_NXP01019]
-symbol=.sym
+symbol=diode.sym
 value=BAS45A
 modelname=BAS45A
 file=BAS45A.prm
@@ -348,15 +348,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAS45A_2.pdf
+description=low-leakage diode
 test_refdes=D1
 model_status=test
 
 
 
 [BAS516_NXP01020]
-symbol=.sym
+symbol=diode.sym
 value=BAS516
 modelname=BAS516
 file=BAS516.prm
@@ -366,15 +366,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAS516_1.pdf
+description=high-speed diode
 test_refdes=D1
 model_status=test
 
 
 
 [BAS521_NXP01021]
-symbol=.sym
+symbol=diode.sym
 value=BAS521
 modelname=BAS521
 file=BAS521.prm
@@ -384,15 +384,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAS521_1.pdf
+description=high voltage switching diode
 test_refdes=X1
 model_status=test
 
 
 
 [BAS56_NXP01022]
-symbol=.sym
+symbol=diode.sym
 value=BAS56
 modelname=BAS56
 file=BAS56.prm
@@ -402,15 +402,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAS56_2.pdf
+description=high-speed double diode
 test_refdes=D1
 model_status=test
 
 
 
 [BAS716_NXP01023]
-symbol=.sym
+symbol=diode.sym
 value=BAS716
 modelname=BAS716
 file=BAS716.prm
@@ -420,15 +420,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAS716_1.pdf
+description=low-leakage diode
 test_refdes=X1
 model_status=test
 
 
 
 [BAV103_NXP01024]
-symbol=.sym
+symbol=diode.sym
 value=BAV103
 modelname=BAV103
 file=BAV103.prm
@@ -438,15 +438,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAV102_BAV103_3.pdf
+description=general-purpose switching diodes
 test_refdes=D1
 model_status=test
 
 
 
 [BAV199_NXP01025]
-symbol=.sym
+symbol=diode.sym
 value=BAV199
 modelname=BAV199
 file=BAV199.prm
@@ -456,8 +456,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAV199_4.pdf
+description=low-leakage double diode
 test_refdes=D1
 model_status=test
 
@@ -475,8 +475,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAV23_2.pdf
+description=general purpose double diode
 test_refdes=X1
 model_status=undefined
 
@@ -494,8 +494,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAV23S_5.pdf
+description=general purpose double diode
 test_refdes=X1
 model_status=undefined
 
@@ -513,15 +513,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAV70_6.pdf
+description=high-speed double diode
 test_refdes=X1
 model_status=undefined
 
 
 
 [BAV99S_NXP01029]
-symbol=.sym
+symbol=diode.sym
 value=BAV99S
 modelname=BAV99S
 file=BAV99S.prm
@@ -531,8 +531,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/BAV99S_3.pdf
+description=high-speed switching diode array
 test_refdes=D1
 model_status=test
 

@@ -74,7 +74,17 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "model_tests/tests/npn_bipolar/",
                                     "schematics" : ["dc_current.sch"],
                                     "controller" : "plot_all.py",
                                     "htmltemplate": "index.html",
-                                    "files": ["simulate.gnucap"]}
+                                    "files": ["simulate.gnucap"]},
+            "diode.sym": { "dir" : BASE_DIR + "model_tests/tests/diode/",
+                                    "schematics" : ["dc_current.sch"],
+                                    "controller" : "plot_all.py",
+                                    "htmltemplate": "index.html",
+                                    "files": ["simulate.ngspice"]},
+            "zener_diode.sym": { "dir" : BASE_DIR + "model_tests/tests/zener_diode/",
+                                    "schematics" : ["dc_current.sch"],
+                                    "controller" : "plot_all.py",
+                                    "htmltemplate": "index.html",
+                                    "files": ["simulate.ngspice"]}
             }
 
 #################### FUNCTIONS
