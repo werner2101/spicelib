@@ -407,8 +407,8 @@ model_status=good
 
 [BC327-25_NXP00023]
 symbol=pnp.sym
-value=BC327-25
-modelname=BC327-25
+value=BC327_25
+modelname=BC327_25
 file=BC327-25.prm
 refdes=X?
 pinseq_c=3
@@ -420,13 +420,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [BC327-40_NXP00024]
 symbol=pnp.sym
-value=BC327-40
-modelname=BC327-40
+value=BC327_40
+modelname=BC327_40
 file=BC327-40.prm
 refdes=X?
 pinseq_c=3
@@ -438,7 +438,7 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [BC327_NXP00025]
@@ -461,8 +461,8 @@ model_status=good
 
 [BC337-16_NXP00026]
 symbol=npn.sym
-value=QBC337-16
-modelname=QBC337-16
+value=QBC337_16
+modelname=QBC337_16
 file=BC337-16.prm
 refdes=Q?
 pinseq_c=1
@@ -474,13 +474,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BC337-25_NXP00027]
 symbol=npn.sym
-value=QBC337-25
-modelname=QBC337-25
+value=QBC337_25
+modelname=QBC337_25
 file=BC337-25.prm
 refdes=Q?
 pinseq_c=1
@@ -492,13 +492,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BC337-40_NXP00028]
 symbol=npn.sym
-value=QBC337-40
-modelname=QBC337-40
+value=QBC337_40
+modelname=QBC337_40
 file=BC337-40.prm
 refdes=Q?
 pinseq_c=1
@@ -510,7 +510,7 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BC368_NXP00029]
@@ -695,8 +695,8 @@ model_status=good
 
 [BC807-25_NXP00039]
 symbol=pnp.sym
-value=QBC807-25
-modelname=QBC807-25
+value=QBC807_25
+modelname=QBC807_25
 file=BC807-25.prm
 refdes=Q?
 pinseq_c=1
@@ -708,13 +708,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BC807-25W_NXP00040]
 symbol=pnp.sym
-value=QBC807-25W
-modelname=QBC807-25W
+value=QBC807_25W
+modelname=QBC807_25W
 file=BC807-25W.prm
 refdes=Q?
 pinseq_c=1
@@ -726,13 +726,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BC807-40_NXP00041]
 symbol=pnp.sym
-value=QBC807-40
-modelname=QBC807-40
+value=QBC807_40
+modelname=QBC807_40
 file=BC807-40.prm
 refdes=Q?
 pinseq_c=1
@@ -744,13 +744,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BC807-40W_NXP00042]
 symbol=pnp.sym
-value=QBC807-40W
-modelname=QBC807-40W
+value=QBC807_40W
+modelname=QBC807_40W
 file=BC807-40W.prm
 refdes=Q?
 pinseq_c=1
@@ -762,7 +762,7 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BC807_NXP00043]
@@ -803,8 +803,8 @@ model_status=good
 
 [BC817-16_NXP00045]
 symbol=npn.sym
-value=QBC817-16
-modelname=QBC817-16
+value=QBC817_16
+modelname=QBC817_16
 file=BC817-16.prm
 refdes=Q?
 pinseq_c=1
@@ -816,13 +816,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BC817-16W_NXP00046]
 symbol=npn.sym
-value=QBC817-16W
-modelname=QBC817-16W
+value=QBC817_16W
+modelname=QBC817_16W
 file=BC817-16W.prm
 refdes=Q?
 pinseq_c=1
@@ -834,13 +834,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BC817-25_NXP00047]
 symbol=npn.sym
-value=QBC817-25
-modelname=QBC817-25
+value=QBC817_25
+modelname=QBC817_25
 file=BC817-25.prm
 refdes=Q?
 pinseq_c=1
@@ -852,13 +852,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BC817-25W_NXP00048]
 symbol=npn.sym
-value=QBC817-25W
-modelname=QBC817-25W
+value=QBC817_25W
+modelname=QBC817_25W
 file=BC817-25W.prm
 refdes=Q?
 pinseq_c=1
@@ -870,13 +870,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BC817-40_NXP00049]
 symbol=npn.sym
-value=QBC817-40
-modelname=QBC817-40
+value=QBC817_40
+modelname=QBC817_40
 file=BC817-40.prm
 refdes=Q?
 pinseq_c=1
@@ -888,13 +888,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BC817-40W_NXP00050]
 symbol=npn.sym
-value=QBC817-40W
-modelname=QBC817-40W
+value=QBC817_40W
+modelname=QBC817_40W
 file=BC817-40W.prm
 refdes=Q?
 pinseq_c=1
@@ -906,7 +906,7 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BC817_NXP00051]
@@ -1953,8 +1953,8 @@ model_status=good
 
 [BCP52-16_NXP00108]
 symbol=pnp.sym
-value=QBCP52-16
-modelname=QBCP52-16
+value=QBCP52_16
+modelname=QBCP52_16
 file=BCP52-16.prm
 refdes=Q?
 pinseq_c=1
@@ -1966,13 +1966,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BCP53-16_NXP00109]
 symbol=pnp.sym
-value=QBCP53-16
-modelname=QBCP53-16
+value=QBCP53_16
+modelname=QBCP53_16
 file=BCP53-16.prm
 refdes=Q?
 pinseq_c=1
@@ -1984,13 +1984,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BCP54-16_NXP00110]
 symbol=npn.sym
-value=QBCP54-16
-modelname=QBCP54-16
+value=QBCP54_16
+modelname=QBCP54_16
 file=BCP54-16.prm
 refdes=Q?
 pinseq_c=1
@@ -2002,13 +2002,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BCP55-16_NXP00111]
 symbol=npn.sym
-value=QBCP55-16
-modelname=QBCP55-16
+value=QBCP55_16
+modelname=QBCP55_16
 file=BCP55-16.prm
 refdes=Q?
 pinseq_c=1
@@ -2020,13 +2020,13 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BCP56-16_NXP00112]
 symbol=npn.sym
-value=QBCP56-16
-modelname=QBCP56-16
+value=QBCP56_16
+modelname=QBCP56_16
 file=BCP56-16.prm
 refdes=Q?
 pinseq_c=1
@@ -2038,7 +2038,7 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=test
+model_status=good
 
 
 [BCP68_NXP00113]

@@ -2,6 +2,7 @@
 
 MODEL_LIBDIR="model_library"
 MODEL_SIGDIR="model_signatures"
+MODEL_PATCHDIR="model_patches"
 TESTDIR="model_tests"
 TEMPDIR="tmp"
 
@@ -49,6 +50,7 @@ create_nxp_bipolar:
 	mkdir -p $(MODEL_LIBDIR)/nxp/bipolar
 	scripts/fix_trailing_newline.py $(TEMPDIR)/nxp/bipolar/*
 	cp $(TEMPDIR)/nxp/bipolar/* $(MODEL_LIBDIR)/nxp/bipolar
+	patch -d $(MODEL_LIBDIR) -p1 < $(MODEL_PATCHDIR)/nxp_bipolar.patch
 	md5sum $(MODEL_LIBDIR)/nxp/bipolar/* >$(MODEL_SIGDIR)/nxp_bipolar_lib.md5sum
 
 create_nxp_diodes:

@@ -1,0 +1,364 @@
+diff --git a/nxp/bipolar/BC327-25.prm b/nxp/bipolar/BC327-25.prm
+index 834ba0d..88eb275 100644
+--- a/nxp/bipolar/BC327-25.prm
++++ b/nxp/bipolar/BC327-25.prm
+@@ -1,5 +1,5 @@
+ *
+-.SUBCKT BC327-25 1 2 3
++.SUBCKT BC327_25 1 2 3
+ * 
+ * housing parasitics
+ LB 2 22 1.2E-009 
+@@ -9,9 +9,9 @@ CBCG 22 11 3.53E-013
+ CBEG 22 33 1.81E-013 
+ CCEG 11 33 2.37E-013
+ * 
+-Q1 11 22 33 BC327-25 
++Q1 11 22 33 BC327_25 
+ *
+-.MODEL BC327-25 PNP
++.MODEL BC327_25 PNP
+ + IS=1.08E-13
+ + NF=0.99
+ + ISE=2.713E-14
+@@ -51,4 +51,4 @@ Q1 11 22 33 BC327-25
+ + MJS=0.333
+ + FC=0.99
+ .ENDS
+-*
++*
+diff --git a/nxp/bipolar/BC327-40.prm b/nxp/bipolar/BC327-40.prm
+index 56ee29f..dae2839 100644
+--- a/nxp/bipolar/BC327-40.prm
++++ b/nxp/bipolar/BC327-40.prm
+@@ -1,5 +1,5 @@
+ *
+-.SUBCKT BC327-40 1 2 3
++.SUBCKT BC327_40 1 2 3
+ * 
+ * housing parasitics
+ LB 2 22 1.2E-009 
+@@ -9,9 +9,9 @@ CBCG 22 11 3.53E-013
+ CBEG 22 33 1.81E-013 
+ CCEG 11 33 2.37E-013
+ * 
+-Q1 11 22 33 BC327-40 
++Q1 11 22 33 BC327_40 
+ *
+-.MODEL BC327-40 PNP
++.MODEL BC327_40 PNP
+ + IS = 2.077E-13 
+ + NF = 1.005 
+ + ISE = 1.411E-14 
+@@ -51,4 +51,4 @@ Q1 11 22 33 BC327-40
+ + MJS = 0.333 
+ + FC = 0.935
+ .ENDS
+-*
++*
+diff --git a/nxp/bipolar/BC337-16.prm b/nxp/bipolar/BC337-16.prm
+index afa3f0d..84ee25c 100644
+--- a/nxp/bipolar/BC337-16.prm
++++ b/nxp/bipolar/BC337-16.prm
+@@ -1,5 +1,5 @@
+ * 
+-.MODEL QBC337-16 NPN( 
++.MODEL QBC337_16 NPN( 
+ +    IS = 4.887E-14 
+ +    NF = 1.002 
+ +    ISE = 2.552E-15 
+@@ -38,4 +38,4 @@
+ +    VJS = 0.75 
+ +    MJS = 0.333 
+ +    FC = 0.652)
+-*
++*
+diff --git a/nxp/bipolar/BC337-25.prm b/nxp/bipolar/BC337-25.prm
+index 4a754a7..bab0241 100644
+--- a/nxp/bipolar/BC337-25.prm
++++ b/nxp/bipolar/BC337-25.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBC337-25 NPN( 
++.MODEL QBC337_25 NPN( 
+ +    IS = 4.13E-14 
+ +    NF = 0.9822 
+ +    ISE = 3.534E-15 
+@@ -38,4 +38,4 @@
+ +    VJS = 0.75 
+ +    MJS = 0.333 
+ +    FC = 0.643)
+-*
++*
+diff --git a/nxp/bipolar/BC337-40.prm b/nxp/bipolar/BC337-40.prm
+index 304cdf8..872d4e8 100644
+--- a/nxp/bipolar/BC337-40.prm
++++ b/nxp/bipolar/BC337-40.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBC337-40 NPN( 
++.MODEL QBC337_40 NPN( 
+ +    IS = 7.809E-14 
+ +    NF = 0.9916 
+ +    ISE = 2.069E-15 
+@@ -38,4 +38,4 @@
+ +    VJS = 0.75 
+ +    MJS = 0.333 
+ +    FC = 0.843) 
+-*
++*
+diff --git a/nxp/bipolar/BC807-25.prm b/nxp/bipolar/BC807-25.prm
+index 486709e..8c25b58 100644
+--- a/nxp/bipolar/BC807-25.prm
++++ b/nxp/bipolar/BC807-25.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBC807-25 PNP( 
++.MODEL QBC807_25 PNP( 
+ +     IS=1.08E-13
+ +     NF=0.99
+ +     ISE=2.713E-14
+@@ -38,4 +38,4 @@
+ +     VJS=0.75
+ +     MJS=0.333
+ +     FC=0.99)
+-*
++*
+diff --git a/nxp/bipolar/BC807-25W.prm b/nxp/bipolar/BC807-25W.prm
+index f8cf587..88db0be 100644
+--- a/nxp/bipolar/BC807-25W.prm
++++ b/nxp/bipolar/BC807-25W.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBC807-25W PNP( 
++.MODEL QBC807_25W PNP( 
+ +     IS=1.08E-13
+ +     NF=0.99
+ +     ISE=2.713E-14
+@@ -38,4 +38,4 @@
+ +     VJS=0.75
+ +     MJS=0.333
+ +     FC=0.99)
+-*
++*
+diff --git a/nxp/bipolar/BC807-40.prm b/nxp/bipolar/BC807-40.prm
+index 0fa2fc5..7c3042e 100644
+--- a/nxp/bipolar/BC807-40.prm
++++ b/nxp/bipolar/BC807-40.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBC807-40 PNP( 
++.MODEL QBC807_40 PNP( 
+ +     IS = 2.077E-13 
+ +     NF = 1.005 
+ +     ISE = 1.411E-14 
+@@ -38,4 +38,4 @@
+ +     VJS = 0.75 
+ +     MJS = 0.333 
+ +     FC = 0.935)
+-*
++*
+diff --git a/nxp/bipolar/BC807-40W.prm b/nxp/bipolar/BC807-40W.prm
+index ec8fa95..3d40fa7 100644
+--- a/nxp/bipolar/BC807-40W.prm
++++ b/nxp/bipolar/BC807-40W.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBC807-40W PNP( 
++.MODEL QBC807_40W PNP( 
+ +     IS = 2.077E-13 
+ +     NF = 1.005 
+ +     ISE = 1.411E-14 
+@@ -38,4 +38,4 @@
+ +     VJS = 0.75 
+ +     MJS = 0.333 
+ +     FC = 0.935)
+-*
++*
+diff --git a/nxp/bipolar/BC817-16.prm b/nxp/bipolar/BC817-16.prm
+index 05975c1..c23c4fe 100644
+--- a/nxp/bipolar/BC817-16.prm
++++ b/nxp/bipolar/BC817-16.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBC817-16 NPN( 
++.MODEL QBC817_16 NPN( 
+ +    IS = 3.615E-14
+ +    NF = 0.9932
+ +    ISE = 2.649E-15
+@@ -38,4 +38,4 @@
+ +    VJS = 0.75
+ +    MJS = 0.333
+ +    FC = 0.8528) 
+-*
++*
+diff --git a/nxp/bipolar/BC817-16W.prm b/nxp/bipolar/BC817-16W.prm
+index 06b04fa..14c7b63 100644
+--- a/nxp/bipolar/BC817-16W.prm
++++ b/nxp/bipolar/BC817-16W.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBC817-16W NPN( 
++.MODEL QBC817_16W NPN( 
+ +    IS = 3.615E-14
+ +    NF = 0.9932
+ +    ISE = 2.649E-15
+@@ -38,4 +38,4 @@
+ +    VJS = 0.75
+ +    MJS = 0.333
+ +    FC = 0.8528) 
+-*
++*
+diff --git a/nxp/bipolar/BC817-25.prm b/nxp/bipolar/BC817-25.prm
+index a0fea93..d6299c7 100644
+--- a/nxp/bipolar/BC817-25.prm
++++ b/nxp/bipolar/BC817-25.prm
+@@ -1,5 +1,5 @@
+ * 
+-.MODEL QBC817-25 NPN( 
++.MODEL QBC817_25 NPN( 
+ +    IS = 9.198E-14
+ +    NF = 1.003
+ +    ISE = 4.468E-16
+@@ -38,4 +38,4 @@
+ +    VJS = 0.75
+ +    MJS = 0.333
+ +    FC = 0.905) 
+-*
++*
+diff --git a/nxp/bipolar/BC817-25W.prm b/nxp/bipolar/BC817-25W.prm
+index d16da55..6284ec8 100644
+--- a/nxp/bipolar/BC817-25W.prm
++++ b/nxp/bipolar/BC817-25W.prm
+@@ -1,5 +1,5 @@
+ * 
+-.MODEL QBC817-25W NPN( 
++.MODEL QBC817_25W NPN( 
+ +    IS = 9.198E-14
+ +    NF = 1.003
+ +    ISE = 4.468E-16
+@@ -38,4 +38,4 @@
+ +    VJS = 0.75
+ +    MJS = 0.333
+ +    FC = 0.905) 
+-*
++*
+diff --git a/nxp/bipolar/BC817-40.prm b/nxp/bipolar/BC817-40.prm
+index f0726bd..ab923f1 100644
+--- a/nxp/bipolar/BC817-40.prm
++++ b/nxp/bipolar/BC817-40.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBC817-40 NPN( 
++.MODEL QBC817_40 NPN( 
+ +    IS = 6.286E-14
+ +    NF = 0.9917
+ +    ISE = 4.53E-15
+@@ -38,4 +38,4 @@
+ +    VJS = 0.75
+ +    MJS = 0.333
+ +    FC = 0.8662) 
+-*
++*
+diff --git a/nxp/bipolar/BC817-40W.prm b/nxp/bipolar/BC817-40W.prm
+index fdaf49c..25b9f79 100644
+--- a/nxp/bipolar/BC817-40W.prm
++++ b/nxp/bipolar/BC817-40W.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBC817-40W NPN( 
++.MODEL QBC817_40W NPN( 
+ +    IS = 6.286E-14
+ +    NF = 0.9917
+ +    ISE = 4.53E-15
+@@ -38,4 +38,4 @@
+ +    VJS = 0.75
+ +    MJS = 0.333
+ +    FC = 0.8662) 
+-*
++*
+diff --git a/nxp/bipolar/BCP52-16.prm b/nxp/bipolar/BCP52-16.prm
+index f926ea5..0c0f24c 100644
+--- a/nxp/bipolar/BCP52-16.prm
++++ b/nxp/bipolar/BCP52-16.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBCP52-16 PNP 
++.MODEL QBCP52_16 PNP 
+ +     IS=6.1530E-14
+ +     NF=0.9911
+ +     ISE=1.382E-16
+@@ -38,4 +38,4 @@
+ +     VJS=0.75
+ +     MJS=0.333
+ +     FC=0.9427 
+-*
++*
+diff --git a/nxp/bipolar/BCP53-16.prm b/nxp/bipolar/BCP53-16.prm
+index 428ba81..4e976d6 100644
+--- a/nxp/bipolar/BCP53-16.prm
++++ b/nxp/bipolar/BCP53-16.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBCP53-16 PNP 
++.MODEL QBCP53_16 PNP 
+ +     IS=6.1530E-14
+ +     NF=0.9911
+ +     ISE=1.382E-16
+@@ -38,4 +38,4 @@
+ +     VJS=0.75
+ +     MJS=0.333
+ +     FC=0.9427 
+-*
++*
+diff --git a/nxp/bipolar/BCP54-16.prm b/nxp/bipolar/BCP54-16.prm
+index 435e093..8d1250f 100644
+--- a/nxp/bipolar/BCP54-16.prm
++++ b/nxp/bipolar/BCP54-16.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBCP54-16 NPN( 
++.MODEL QBCP54_16 NPN( 
+ +     IS=6.119E-14
+ +     NF=0.9948
+ +     ISE=5.844E-15
+@@ -38,4 +38,4 @@
+ +     VJS=0.75
+ +     MJS=0.333
+ +     FC=0.9232 )
+-*
++*
+diff --git a/nxp/bipolar/BCP55-16.prm b/nxp/bipolar/BCP55-16.prm
+index bfa7f90..e51f198 100644
+--- a/nxp/bipolar/BCP55-16.prm
++++ b/nxp/bipolar/BCP55-16.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBCP55-16 NPN( 
++.MODEL QBCP55_16 NPN( 
+ +     IS=6.119E-14
+ +     NF=0.9948
+ +     ISE=5.844E-15
+@@ -38,4 +38,4 @@
+ +     VJS=0.75
+ +     MJS=0.333
+ +     FC=0.9232 )
+-*
++*
+diff --git a/nxp/bipolar/BCP56-16.prm b/nxp/bipolar/BCP56-16.prm
+index 2bdebe1..ebe06af 100644
+--- a/nxp/bipolar/BCP56-16.prm
++++ b/nxp/bipolar/BCP56-16.prm
+@@ -1,5 +1,5 @@
+ *
+-.MODEL QBCP56-16 NPN( 
++.MODEL QBCP56_16 NPN( 
+ +     IS=6.119E-14
+ +     NF=0.9948
+ +     ISE=5.844E-15
+@@ -38,4 +38,4 @@
+ +     VJS=0.75
+ +     MJS=0.333
+ +     FC=0.9232 )
+-*
++*
