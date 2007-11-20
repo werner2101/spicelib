@@ -113,7 +113,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS16H_1.pdf
 description=high-speed switching diode
 test_refdes=D1
-model_status=good
+model_status=broken
+# ".*" before model definition
 
 
 
@@ -4301,7 +4302,7 @@ model_status=undefined
 
 
 [PESD24VS1UB_NXP01237]
-symbol=zener.sym
+symbol=zener_diode.sym
 value=PESD24VS1UB
 modelname=PESD24VS1UB
 file=PESD24VS1UB.prm
@@ -4464,7 +4465,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
 description=3.3V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=test
+model_status=broken
+# asterisk * in front of the model statement
 
 
 
@@ -5008,7 +5010,7 @@ pinnr_a=A
 pinnr_k=K
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1BA_BB_BL_3.pdf
-description==5.0V low capacitance bidirectional ESD protection diode
+description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
 model_status=test
 
@@ -5259,7 +5261,7 @@ model_status=undefined
 
 
 [PLVA2656A_NXP01288]
-symbol=zener.sym
+symbol=zener_diode.sym
 value=PLVA2656A
 modelname=PLVA2656A
 file=PLVA2656A.prm
@@ -5542,7 +5544,7 @@ pinnr_a=A
 pinnr_k=K
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
-description=V zener diode
+description=12V zener diode
 test_refdes=D1
 model_status=test
 

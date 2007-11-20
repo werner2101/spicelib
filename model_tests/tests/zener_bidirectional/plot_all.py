@@ -2,7 +2,6 @@
 # -*- coding: iso-8859-1 -*-
 
 import pylab
-import os
 import popen2
 import sys
 import numpy
@@ -19,7 +18,7 @@ def plot_forward_voltage():
         x = pl.get_scalevector().get_data()
         yv =pl.get_datavectors()[0]
         y = yv.get_data()
-        if numpy.any(y<0.0) or numpy.any(y>2.0):
+        if numpy.any(y<0.0) or numpy.any(y>200.0):
             print "forward voltage out of expected range [0.0, 200.0]"
             ret = 1
         pylab.semilogy(y,-x,label = labels[n])
@@ -56,8 +55,8 @@ command = "gnetlist -g spice-sdb -o dc_current.net dc_current.sch"
 
 print ME, "creating netlist: ", command
 pop = popen2.Popen4(command)
-ret_gnetlist = pop.wait()
 print pop.fromchild.read()
+ret_gnetlist = pop.wait()
 if ret_gnetlist != 0:
     print ME, "netlist creation failed with errorcode:", ret_gnetlist
 else:
@@ -66,8 +65,8 @@ else:
 command = "ngspice -b simulate.ngspice"
 print ME, "running simulation: ", command
 pop = popen2.Popen4(command)
-ret_simulation = pop.wait()
 print pop.fromchild.read()
+ret_simulation = pop.wait()
 if ret_simulation != 0:
     print ME, "simulation failed with errorcode:", ret_simulation
 else:
@@ -76,9 +75,11 @@ else:
 print ME, "testing and plotting"
 try:
     ret_plot = plot_forward_voltage()
-except:
-    print ME, "plotting function died"
+except Exception, data:
+    print ME, "plotting function died:"
+    print data
     sys.exit(1)
+
 if ret_plot == 0:
     print ME, "finished testing and plotting successfully"
     sys.exit(0)

@@ -86,6 +86,11 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "model_tests/tests/npn_bipolar/",
                                     "schematics" : ["dc_current.sch"],
                                     "controller" : "plot_all.py",
                                     "htmltemplate": "index.html",
+                                    "files": ["simulate.ngspice"]},
+            "zener_bidirectional.sym": { "dir" : BASE_DIR + "model_tests/tests/zener_bidirectional/",
+                                    "schematics" : ["dc_current.sch"],
+                                    "controller" : "plot_all.py",
+                                    "htmltemplate": "index.html",
                                     "files": ["simulate.ngspice"]}
             }
 
@@ -112,8 +117,8 @@ def test_model(param):
         save_cwd = os.getcwd()
         os.chdir(testdir)
         pop = popen2.Popen4("./"+test["controller"])
-        result = pop.wait()
         longmsg = pop.fromchild.read()
+        result = pop.wait()
         os.chdir(save_cwd)
         param["test_result"] = longmsg
         ## create the html file with the test results
