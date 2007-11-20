@@ -3853,7 +3853,7 @@ model_status=test
 
 
 [PESD12VL1BA_NXP01213]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=PESD12VL1BA
 modelname=PESD12VL1BA
 file=PESD12VL1BA.prm
@@ -3863,8 +3863,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
+description=12V low capacitance bidirectional ESD protection diode
 test_refdes=X1
 model_status=test
 
@@ -3890,7 +3890,7 @@ model_status=undefined
 
 
 [PESD12VS1UB_NXP01215]
-symbol=.sym
+symbol=zener_diode.sym
 value=PESD12VS1UB
 modelname=PESD12VS1UB
 file=PESD12VS1UB.prm
@@ -3900,15 +3900,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
+description=12V ESD protection diode
 test_refdes=D1
 model_status=test
 
 
 
 [PESD12VS1UL_NXP01216]
-symbol=.sym
+symbol=zener_diode.sym
 value=PESD12VS1UL
 modelname=PESD12VS1UL
 file=PESD12VS1UL.prm
@@ -3918,8 +3918,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
+description=12V ESD protection diode
 test_refdes=D1
 model_status=test
 
@@ -4040,7 +4040,7 @@ model_status=undefined
 
 
 [PESD15VL1BA_NXP01223]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=PESD15VL1BA
 modelname=PESD15VL1BA
 file=PESD15VL1BA.prm
@@ -4050,8 +4050,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
+description=15V low capacitance bidirectional ESD protection diode
 test_refdes=X1
 model_status=test
 
@@ -4077,7 +4077,7 @@ model_status=undefined
 
 
 [PESD15VS1UB_NXP01225]
-symbol=.sym
+symbol=zener.sym
 value=PESD15VS1UB
 modelname=PESD15VS1UB
 file=PESD15VS1UB.prm
@@ -4087,15 +4087,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
+description=15V ESD protection diode
 test_refdes=D1
 model_status=test
 
 
 
 [PESD15VS1UL_NXP01226]
-symbol=.sym
+symbol=zener_diode.sym
 value=PESD15VS1UL
 modelname=PESD15VS1UL
 file=PESD15VS1UL.prm
@@ -4105,8 +4105,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
+description=15V ESD protection diode
 test_refdes=D1
 model_status=test
 
@@ -4246,7 +4246,7 @@ model_status=undefined
 
 
 [PESD1LIN_NXP01234]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=PESD1LIN
 modelname=PESD1LIN
 file=PESD1LIN.prm
@@ -4256,15 +4256,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESD1LIN_1.pdf
+description=15/24V LIN bus protection diode
 test_refdes=X1
 model_status=test
 
 
 
 [PESD24VL1BA_NXP01235]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=PESD24VL1BA
 modelname=PESD24VL1BA
 file=PESD24VL1BA.prm
@@ -4274,8 +4274,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
+description=24V low capacitance bidirectional ESD protection diode
 test_refdes=X1
 model_status=test
 
@@ -4301,7 +4301,7 @@ model_status=undefined
 
 
 [PESD24VS1UB_NXP01237]
-symbol=.sym
+symbol=zener.sym
 value=PESD24VS1UB
 modelname=PESD24VS1UB
 file=PESD24VS1UB.prm
@@ -4311,15 +4311,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
+description=24V ESD protection diode
 test_refdes=D1
 model_status=test
 
 
 
 [PESD24VS1UL_NXP01238]
-symbol=.sym
+symbol=zener_diode.sym
 value=PESD24VS1UL
 modelname=PESD24VS1UL
 file=PESD24VS1UL.prm
@@ -4329,8 +4329,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
+description=24V ESD protection diode
 test_refdes=D1
 model_status=test
 
@@ -4451,7 +4451,7 @@ model_status=undefined
 
 
 [PESD3V3L1BA_NXP01245]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=PESD3V3L1BA
 modelname=PESD3V3L1BA
 file=PESD3V3L1BA.prm
@@ -4461,8 +4461,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
+description=3.3V low capacitance bidirectional ESD protection diode
 test_refdes=X1
 model_status=test
 
@@ -4583,7 +4583,7 @@ model_status=undefined
 
 
 [PESD3V3S1UB_NXP01252]
-symbol=.sym
+symbol=zener_diode.sym
 value=PESD3V3S1UB
 modelname=PESD3V3S1UB
 file=PESD3V3S1UB.prm
@@ -4593,15 +4593,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
+description=3.3V ESD protection diode
 test_refdes=D1
 model_status=test
 
 
 
 [PESD3V3S1UL_NXP01253]
-symbol=.sym
+symbol=zener_diode.sym
 value=PESD3V3S1UL
 modelname=PESD3V3S1UL
 file=PESD3V3S1UL.prm
@@ -4611,8 +4611,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
+description=3.3V ESD protection diode
 test_refdes=D1
 model_status=test
 
@@ -4771,7 +4771,7 @@ model_status=undefined
 
 
 [PESD5V0L1BA_NXP01262]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=PESD5V0L1BA
 modelname=PESD5V0L1BA
 file=PESD5V0L1BA.prm
@@ -4781,8 +4781,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
+description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
 model_status=test
 
@@ -4979,7 +4979,7 @@ model_status=undefined
 
 
 [PESD5V0S1BA_NXP01273]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=PESD5V0S1BA
 modelname=PESD5V0S1BA
 file=PESD5V0S1BA.prm
@@ -4989,15 +4989,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1BA_BB_BL_3.pdf
+description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
 model_status=test
 
 
 
 [PESD5V0S1BB_NXP01274]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=PESD5V0S1BB
 modelname=PESD5V0S1BB
 file=PESD5V0S1BB.prm
@@ -5007,15 +5007,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1BA_BB_BL_3.pdf
+description==5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
 model_status=test
 
 
 
 [PESD5V0S1BL_NXP01275]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=PESD5V0S1BL
 modelname=PESD5V0S1BL
 file=PESD5V0S1BL.prm
@@ -5025,15 +5025,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1BA_BB_BL_3.pdf
+description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
 model_status=test
 
 
 
 [PESD5V0S1UB_NXP01276]
-symbol=.sym
+symbol=zener_diode.sym
 value=PESD5V0S1UB
 modelname=PESD5V0S1UB
 file=PESD5V0S1UB.prm
@@ -5043,15 +5043,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
+description=5.0V ESD protection diode
 test_refdes=D1
 model_status=test
 
 
 
 [PESD5V0S1UL_NXP01277]
-symbol=.sym
+symbol=zener_diode.sym
 value=PESD5V0S1UL
 modelname=PESD5V0S1UL
 file=PESD5V0S1UL.prm
@@ -5061,8 +5061,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
+description=5.0V ESD protection diode
 test_refdes=D1
 model_status=test
 
@@ -5259,7 +5259,7 @@ model_status=undefined
 
 
 [PLVA2656A_NXP01288]
-symbol=.sym
+symbol=zener.sym
 value=PLVA2656A
 modelname=PLVA2656A
 file=PLVA2656A.prm
@@ -5269,15 +5269,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat_download/datasheets/PLVA2600A_SERIES_4.pdf
+description=5.6V low-voltage avalanche regulator double diodes
 test_refdes=D1
 model_status=test
 
 
 
 [PLVA650A_NXP01289]
-symbol=.sym
+symbol=zener_diode.sym
 value=PLVA650A
 modelname=PLVA650A
 file=PLVA650A.prm
@@ -5287,15 +5287,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PLVA6XXA_SERIES_3.pdf
+description=5.0V low-voltage avalanche regulator diode
 test_refdes=D1
 model_status=test
 
 
 
 [PMBD6050_NXP01290]
-symbol=.sym
+symbol=diode.sym
 value=PMBD6050
 modelname=PMBD6050
 file=PMBD6050.prm
@@ -5305,8 +5305,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PMBD6050_4.pdf
+description=high-speed diode
 test_refdes=D1
 model_status=test
 
@@ -5332,7 +5332,7 @@ model_status=undefined
 
 
 [PMBD7000_NXP01292]
-symbol=.sym
+symbol=diode.sym
 value=PMBD7000
 modelname=PMBD7000
 file=PMBD7000.prm
@@ -5342,8 +5342,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-documentation=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/PMBD7000_3.pdf
+description=high-speed double diode
 test_refdes=D1
 model_status=test
 
