@@ -1,10 +1,13 @@
 
 
-MODEL_LIBDIR="model_library"
-MODEL_SIGDIR="model_signatures"
-MODEL_PATCHDIR="model_patches"
-TESTDIR="model_tests"
-TEMPDIR="tmp"
+MODEL_LIBDIR=model_library
+MODEL_SIGDIR=model_signatures
+MODEL_PATCHDIR=model_patches
+TESTDIR=model_tests
+TEMPDIR=tmp
+
+INSTALLDIR=/store
+NAME=spicelib
 
 
 
@@ -94,4 +97,21 @@ create_ti_opamps:
 	rm -rf $(MODEL_LIBDIR)/ti/opamps
 	mkdir -p $(MODEL_LIBDIR)/ti/opamps
 	cp -a $(TEMPDIR)/ti/spice_models/opa* $(MODEL_LIBDIR)/ti/opamps
-	find $(MODEL_LIBDIR)/ti/opamps -type f -exec md5sum {} \; >$(MODEL_SIGDIR)/ti_opamp_lib.md5sum
+	find $(MODEL_LIBDIR)/ti/opamps -type f -exec md5sum {} \; >$(MODEL_SIGDIR)/ti_opamps_lib.md5sum
+
+
+
+#### install all models to an extra directory
+#### this installation should be used by the users
+
+install:
+	rm -rf $(INSTALLDIR)/$(NAME)
+	mkdir -p $(INSTALLDIR)/$(NAME)
+	mkdir -p $(INSTALLDIR)/$(NAME)/scripts
+	cp -a scripts/gedaparts $(INSTALLDIR)/$(NAME)/scripts
+	cp -a indexfiles $(INSTALLDIR)/$(NAME)
+	cp -a model_library $(INSTALLDIR)/$(NAME)
+	cp -a model_tests $(INSTALLDIR)/$(NAME)
+	cp -a symbol_templates $(INSTALLDIR)/$(NAME)
+	cp -a doc $(INSTALLDIR)/$(NAME)
+

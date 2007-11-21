@@ -1,0 +1,913 @@
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2674/sboc229.zip_d/OPAx674_SBOC229/disclaimer.txt
+7322b1548ac1b6d14f48ed34bd514b76  model_library/ti/opamps/opa2674/sboc229.zip_d/OPAx674_SBOC229/OPA2674_Model.sub
+940a94857d5aeb0617a11fe2626a2f56  model_library/ti/opamps/opa627/sboc118.zip_d/OPA627E.TSM
+9fe674e04341de1c7ee34b577a6a598c  model_library/ti/opamps/opa627/sboc118.zip_d/OPA627E Test Circuit.TSC
+2371b8a441a193c703645755b0a1d7cb  model_library/ti/opamps/opa627/sbom099.zip_d/OPA627E.MOD
+4a60d0b3505ec9f6a2bd1067bff1bf83  model_library/ti/opamps/opa627/sbom099.zip_d/OPA627.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa627/sbom099.zip_d/Readme.txt
+f3607e803ce771a84c085e071ec4bf57  model_library/ti/opamps/opa2343/sboc197.zip_d/OPA343 Test Circuit.TSC
+e59d88b6610e5d9404542787083036a9  model_library/ti/opamps/opa2343/sboc197.zip_d/OPA343.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2343/sboc197.zip_d/disclaimer.txt
+f87c03bc02613f5a196edf118e5bd7a6  model_library/ti/opamps/opa2343/sbom069.zip_d/OPA343.slb
+7faf691996cbdc8351254ddbffa1d772  model_library/ti/opamps/opa2343/sbom069.zip_d/OPA343.sch
+4c0c32ccf6bd30f3b5006701fac3c1bf  model_library/ti/opamps/opa2343/sbom069.zip_d/OPA343.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2343/sbom069.zip_d/Readme.txt
+5c85f229bfa37c28425755036b6ddcf9  model_library/ti/opamps/opa3692/sbom148.zip_d/sbom148.txt
+2c444cd3d04e51a885b55968ba777c75  model_library/ti/opamps/opa251/sbom057.zip_d/OPA251.slb
+03990659e8580a725efe18da51049d92  model_library/ti/opamps/opa251/sbom057.zip_d/OPA251.mod
+e3ed849894aa144d161d4e7bf369923f  model_library/ti/opamps/opa251/sbom057.zip_d/OPA251.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa251/sbom057.zip_d/Readme.txt
+1c1816231a65d000023d0d724e7c09d2  model_library/ti/opamps/opa251/sboc237.zip_d/OPA251.TSM
+e026dfb2844b9f89545e0cbd5e4a4bcc  model_library/ti/opamps/opa251/sboc237.zip_d/OPA251 Test Circuit.TSC
+1619a931557d251a61cd5e7df1eb05b9  model_library/ti/opamps/opa843/sboc096.zip_d/OPA843 Test Circuit.TSC
+fbc91adaa9c46fc99ad23b74ea5f5754  model_library/ti/opamps/opa843/sboc096.zip_d/OPA843.TSM
+7e30bfc992206b75ea0ce65419ce4a44  model_library/ti/opamps/opa843/sboc021.zip_d/OPA843.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa549/sboc215.zip_d/disclaimer.txt
+6bcd3adda31d7c9816c61df1d24171f1  model_library/ti/opamps/opa549/sboc215.zip_d/OPA549.TSM
+61359061ac19f03524e82d7f7097f2c8  model_library/ti/opamps/opa549/sboc215.zip_d/OPA549 Test Circuit.TSC
+9e9d47379bdf0749d0b5dd087cb337c0  model_library/ti/opamps/opa549/sbom089.zip_d/OPA549.sch
+cd5ce96446efd1707194103e9fd01528  model_library/ti/opamps/opa549/sbom089.zip_d/OPA549.slb
+60cab3eb1116f79a399488ba4a46cf51  model_library/ti/opamps/opa549/sbom089.zip_d/OPA549.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa549/sbom089.zip_d/Readme.txt
+0832bc943a29982ae623106068236f26  model_library/ti/opamps/opa4137/sboc053.zip_d/OPA137.sch
+d6a9d49419b24e55722ff2668cff1dbb  model_library/ti/opamps/opa4137/sboc053.zip_d/OPA137.MOD
+ac1e3cfe0fc50d48ba49fa3c1e2b834a  model_library/ti/opamps/opa4137/sboc053.zip_d/OPA137.slb
+07a183d3d70260db6e8b0cfb63018e5e  model_library/ti/opamps/opa4137/sboc186.zip_d/OPA137 Test Circuit.TSC
+6b5150228f5ee5c8d7ff119f668b6ac9  model_library/ti/opamps/opa4137/sboc186.zip_d/OPA137.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa4137/sboc186.zip_d/disclaimer.txt
+2e7c36a4ccc4aa8921a4cf39faf37f41  model_library/ti/opamps/opa602/sboc115.zip_d/OPA602.TSM
+1942d1e392008e3c8534dbfba2c7a817  model_library/ti/opamps/opa602/sboc115.zip_d/OPA602 Test Circuit.TSC
+57ff6220458c33c4ed900efb2abc1c29  model_library/ti/opamps/opa602/sbom091.zip_d/OPA602.MOD
+86df6f0ca64947b9211f84f3a918e8c1  model_library/ti/opamps/opa602/sbom091.zip_d/OPA602E.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa602/sbom091.zip_d/Readme.txt
+44196fc603b51b94a777c82d3436499b  model_library/ti/opamps/opa348/sboc201.zip_d/OPA348.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa348/sboc201.zip_d/disclaimer.txt
+a37df192a6dacc22a4afff1e539de88f  model_library/ti/opamps/opa348/sboc201.zip_d/OPA348 Test Circuit.TSC
+ae9358ebd23b406749901e4f3f9d6d19  model_library/ti/opamps/opa348/sboc001.zip_d/OPA348.slb
+3c58e658b134fc98a0cacc64184664c5  model_library/ti/opamps/opa348/sboc001.zip_d/OPA348.sch
+ce53e342f70a42c6d1d59f48fede1447  model_library/ti/opamps/opa348/sboc001.zip_d/OPA348.MOD
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa830/sboc224.zip_d/disclaimer.txt
+422fd732299604c1bdbb8877bf8e2cbc  model_library/ti/opamps/opa830/sboc224.zip_d/OPAx83x Model.sub
+d0920527729347cb5b1c25a28066d55c  model_library/ti/opamps/opa379/sboc125.zip_d/OPA379 Test Circuit.TSC
+69acc1e7200c04ba8c7fc38f3c14fc6e  model_library/ti/opamps/opa379/sboc125.zip_d/OPA379.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa379/sboc126.zip_d/disclaimer.txt
+ca76c37c4ead6d505f0ebd4ce1607920  model_library/ti/opamps/opa379/sboc126.zip_d/OPA379.slb
+b80d9b4ccd175ed6deb5f7ee3c102d1b  model_library/ti/opamps/opa379/sboc126.zip_d/OPA379 Test Circuit.sch
+b043645955ef37eace414f71fbc28e98  model_library/ti/opamps/opa379/sboc126.zip_d/OPA379.MOD
+109e1d2461709d9dbb043736d0d424e0  model_library/ti/opamps/opa2241/sboc238.zip_d/OPA241 Test Circuit.TSC
+d72e91195f4db85871d3fc32421a6c96  model_library/ti/opamps/opa2241/sboc238.zip_d/Opa241.TSM
+f79962cc1d67cf3e10c6827cbe760184  model_library/ti/opamps/opa2241/sbom054.zip_d/OPA241.slb
+d20be3d66bacf0a9e96bdac12cc80078  model_library/ti/opamps/opa2241/sbom054.zip_d/OPA241.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2241/sbom054.zip_d/Readme.txt
+8e0d818d860ba0a3c8ab685dd415799b  model_library/ti/opamps/opa2241/sbom054.zip_d/OPA241.sch
+2c444cd3d04e51a885b55968ba777c75  model_library/ti/opamps/opa2251/sbom057.zip_d/OPA251.slb
+03990659e8580a725efe18da51049d92  model_library/ti/opamps/opa2251/sbom057.zip_d/OPA251.mod
+e3ed849894aa144d161d4e7bf369923f  model_library/ti/opamps/opa2251/sbom057.zip_d/OPA251.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2251/sbom057.zip_d/Readme.txt
+1c1816231a65d000023d0d724e7c09d2  model_library/ti/opamps/opa2251/sboc237.zip_d/OPA251.TSM
+e026dfb2844b9f89545e0cbd5e4a4bcc  model_library/ti/opamps/opa2251/sboc237.zip_d/OPA251 Test Circuit.TSC
+24c3d1233efd92a53d68c46cc7a37c47  model_library/ti/opamps/opa512/sbom084.zip_d/OPA512E.sch
+e11484bd7eadc5841e8e0f6b89f9bf18  model_library/ti/opamps/opa512/sbom084.zip_d/OPA512.sch
+07be4fab0f506c7a13c72225d9588325  model_library/ti/opamps/opa512/sbom084.zip_d/OPA512.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa512/sbom084.zip_d/Readme.txt
+fa98895bd00a0cc2b70e852b9652e1a6  model_library/ti/opamps/opa512/sbom084.zip_d/OPA512E.MOD
+08d86f7c408347402154dcb2f610e4c4  model_library/ti/opamps/opa512/sboc110.zip_d/OPA512 Test Circuit.TSC
+bbd4d586aa897d3d7cfdc4feb105eebc  model_library/ti/opamps/opa512/sboc110.zip_d/OPA512.TSM
+ccb5680a3680e3e79aa8a776726e4a75  model_library/ti/opamps/opa842/sboc095.zip_d/OPA842 Sample Circuit.TSC
+fc7a031f0dc0aa111e1b113952e67a4a  model_library/ti/opamps/opa842/sboc095.zip_d/OPA842.TSM
+9eed8323ffd6abd7a70d91b73674b57e  model_library/ti/opamps/opa842/sboc007.zip_d/OPA842 Rev 5-1-03.txt
+109e1d2461709d9dbb043736d0d424e0  model_library/ti/opamps/opa4241/sboc238.zip_d/OPA241 Test Circuit.TSC
+d72e91195f4db85871d3fc32421a6c96  model_library/ti/opamps/opa4241/sboc238.zip_d/Opa241.TSM
+f79962cc1d67cf3e10c6827cbe760184  model_library/ti/opamps/opa4241/sbom054.zip_d/OPA241.slb
+d20be3d66bacf0a9e96bdac12cc80078  model_library/ti/opamps/opa4241/sbom054.zip_d/OPA241.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4241/sbom054.zip_d/Readme.txt
+8e0d818d860ba0a3c8ab685dd415799b  model_library/ti/opamps/opa4241/sbom054.zip_d/OPA241.sch
+25e3e3a2d7f183bd8fe88995e993bd34  model_library/ti/opamps/opa130/sbom039.zip_d/OPA130.MOD
+d5a21b1c4f2953b7073c6392055dd420  model_library/ti/opamps/opa130/sbom047.zip_d/OPA2130.MOD
+57d612d5fe9298979c1ee52cad2dda94  model_library/ti/opamps/opa130/sbom075.zip_d/OPA4130.MOD
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa130/sboc182.zip_d/disclaimer.txt
+89f7bbb9d00e5fadca5f84f9c2e06f3b  model_library/ti/opamps/opa130/sboc182.zip_d/OPA130 Test Circuit.TSC
+c5d2a1f3811a66cfa136ce4a30ef3211  model_library/ti/opamps/opa130/sboc182.zip_d/OPA130.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa453/sboc214.zip_d/disclaimer.txt
+13bb3bda9ba3f3fb064048eb99a2e66a  model_library/ti/opamps/opa453/sboc214.zip_d/OPA453.TSM
+f1b8f615f2d96712ca86c1cb01643c3f  model_library/ti/opamps/opa453/sboc214.zip_d/OPA453 Test Circuit.TSC
+66fc599b9968ee2b3a5d0ff6fbd7fccd  model_library/ti/opamps/opa453/sboc041.zip_d/OPA453.slb
+797f9d969dbe05c28d381d3cb8876131  model_library/ti/opamps/opa453/sboc041.zip_d/OPA453.sch
+475c41db9cf6b8cfdedec9850b7707d1  model_library/ti/opamps/opa453/sboc041.zip_d/Opa453.mod
+c6a570171d6d222ba8922be0f29713ba  model_library/ti/opamps/opa453/sboc109.zip_d/OPA453 Test Circuit.TSC
+13bb3bda9ba3f3fb064048eb99a2e66a  model_library/ti/opamps/opa453/sboc109.zip_d/Opa453.TSM
+611a73d64ae16cdf6f88907981d684b3  model_library/ti/opamps/opa2604/sbom093.zip_d/OPA604.MOD
+6663f231f246f316ca2d307b2243a8ca  model_library/ti/opamps/opa2604/sbom093.zip_d/OPA604M.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2604/sbom093.zip_d/Readme.txt
+776ae28b94d94718581ddfddafb02312  model_library/ti/opamps/opa2604/sbom093.zip_d/OPA604E.MOD
+7fa39e3f38eb6b45cd5dd8df883f32e3  model_library/ti/opamps/opa2604/sbom060.zip_d/OPA2604E.MOD
+7a85e0de9450f139bbcbdab61c034660  model_library/ti/opamps/opa2604/sbom060.zip_d/OPA2604.MOD
+d3692a34553221dc634edbe94d248294  model_library/ti/opamps/opa2604/sbom060.zip_d/OPA2604M.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2604/sbom060.zip_d/Readme.txt
+4ee8cb6f87977b66d87eb82312d9687d  model_library/ti/opamps/opa544/sbom059.zip_d/OPA2544.MOD
+589cd292363f0da44fcf17feca53a96a  model_library/ti/opamps/opa544/sbom086.zip_d/OPA544.MOD
+62a59c6f6c7cc2510c2478ba7a6a0088  model_library/ti/opamps/opa544/sbom086.zip_d/OPA544.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa544/sbom086.zip_d/Readme.txt
+eec63a101bc5822c8e4219131e73aa6c  model_library/ti/opamps/opa544/sboc112.zip_d/OPA544 Test Circuit.TSC
+b329cba467aef4449804d6ee3309fa5d  model_library/ti/opamps/opa544/sboc112.zip_d/OPA544.TSM
+6f8734580db8b5525eb4d5073b3c5abe  model_library/ti/opamps/opa2681/sbom118.zip_d/OPA681.mod
+303958d9a8b33cab8f521c4df3c53870  model_library/ti/opamps/opa692/sboc086.zip_d/OPA692 Test Circuit.TSC
+bed8a7e26e0ef4740f2e0dfb07a15231  model_library/ti/opamps/opa692/sboc086.zip_d/OPA692.TSM
+5c85f229bfa37c28425755036b6ddcf9  model_library/ti/opamps/opa692/sbom148.zip_d/sbom148.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa134/sboc185.zip_d/disclaimer.txt
+d206db8c31c667c8bfbf2ce34366259f  model_library/ti/opamps/opa134/sboc185.zip_d/OPA134 Test Circuit.TSC
+63a05d2614f219e185e440dd7783f6a1  model_library/ti/opamps/opa134/sboc185.zip_d/OPA134.TSM
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa134/sbom042.zip_d/Readme.txt
+74e5e997dca1b073d0f163290436a7f8  model_library/ti/opamps/opa134/sbom042.zip_d/OPA134.sch
+455c3968d30e094de9395976e37dce7e  model_library/ti/opamps/opa134/sbom042.zip_d/OPA134.MOD
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa211/sboc247a.zip_d/disclaimer.txt
+78084ff9594413fc72d980a9e190d008  model_library/ti/opamps/opa211/sboc247a.zip_d/OPA211 Test Circuit.TSC
+a97a037f7f711a72e569580042d1c1f3  model_library/ti/opamps/opa211/sboc247a.zip_d/OPA211.TSM
+9bd1ecf9e530414b59a6272142df5d73  model_library/ti/opamps/opa2342/sbom068.zip_d/OPA342.slb
+2fe3558d9dcbf34b0fe0cc1a0801ec63  model_library/ti/opamps/opa2342/sbom068.zip_d/OPA342.sch
+6529686f2377686f9dff4322aa4b77fc  model_library/ti/opamps/opa2342/sbom068.zip_d/OPA342.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2342/sbom068.zip_d/Readme.txt
+a48daf8b09810cdcfc89b3de7d858920  model_library/ti/opamps/opa2342/sboc196.zip_d/OPA342 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2342/sboc196.zip_d/disclaimer.txt
+a1a5e81b8d12f5012ab0a70ee3d4dd72  model_library/ti/opamps/opa2342/sboc196.zip_d/OPA342.TSM
+38faf82f3dc34219822a8d48f5505380  model_library/ti/opamps/opa2683/sbom145.zip_d/sbom145.txt
+763aa2aefc4304196e63202c0daf0c37  model_library/ti/opamps/opa2683/sboc241.zip_d/OPA2683.TSM
+68a6d59e5fa58607626c988d9314798f  model_library/ti/opamps/opa2683/sboc241.zip_d/OPA2683 Test Circuit.TSC
+5d0c2d57363b9f8fa37f60c07b5d24f7  model_library/ti/opamps/opa551/sboc216.zip_d/OPA551.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa551/sboc216.zip_d/disclaimer.txt
+599419cc0c4aca562a80b6c5c78cb419  model_library/ti/opamps/opa551/sboc216.zip_d/OPA551 Test Circuit.TSC
+2e365b3c0d08fe6115c9ecb2c53b8fee  model_library/ti/opamps/opa551/sboc033.zip_d/OPA551.sch
+bbba1c3995a19d040d73515b4e1ea58b  model_library/ti/opamps/opa551/sboc033.zip_d/OPA551.slb
+9943470785ddc46d7faa27196f5ca667  model_library/ti/opamps/opa551/sboc033.zip_d/Opa551.mod
+860220d834749dacf35cedd7f0aee60d  model_library/ti/opamps/opa380/sboc105.zip_d/OPA380 Test Circuit.TSC
+55d4a0d62e7e4e2d5a6ef7f1216b331d  model_library/ti/opamps/opa380/sboc105.zip_d/OPA380.TSM
+abdf86c4d0b91f7f2ef939fc443200cd  model_library/ti/opamps/opa380/sboc035.zip_d/OPA380.slb
+ce25730cfbb20d9cd4f09b9d0c2a8adb  model_library/ti/opamps/opa380/sboc035.zip_d/OPA380.MOD
+6e6eed39a417ac2fa42c7a4315d453b4  model_library/ti/opamps/opa380/sboc035.zip_d/OPA380.sch
+cfbff56c2a04653555d99a876c615bd2  model_library/ti/opamps/opa111/sboc177.zip_d/OPA111E Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa111/sboc177.zip_d/disclaimer.txt
+b8c7767abc465ac1925487f90dcc408e  model_library/ti/opamps/opa111/sboc177.zip_d/OPA111E.TSM
+161ddc8d76172f111d430221f94916b7  model_library/ti/opamps/opa111/sbom034.zip_d/OPA111.MOD
+5d7229f4c9d1df2971b16a627799e8e1  model_library/ti/opamps/opa111/sbom034.zip_d/OPA111E.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa111/sbom034.zip_d/Readme.txt
+4fb2cf9d42d21ce902bf9cd81fbb708b  model_library/ti/opamps/opa111/sbom046.zip_d/OPA2111E.MOD
+28cee5bd948962eefd2f09f97c2ae4fa  model_library/ti/opamps/opa111/sbom046.zip_d/OPA2111.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa111/sbom046.zip_d/Readme.txt
+62ffb154ae50dcb92d0a82408aeb5a58  model_library/ti/opamps/opa404/sbom074.zip_d/OPA404E.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa404/sbom074.zip_d/Readme.txt
+2893b66b7502d05e6231172288f571db  model_library/ti/opamps/opa404/sbom074.zip_d/OPA404.MOD
+aec64ef8143883b36e393abe49999237  model_library/ti/opamps/opa404/sboc106.zip_d/OPA404E Test Circuit.TSC
+5ba720fea6c6b5460b11c8fd9c31af37  model_library/ti/opamps/opa404/sboc106.zip_d/OPA404E.TSM
+ca9dc787275d18c6a82e89abfb929cab  model_library/ti/opamps/opa404/sboc211.zip_d/OPA404E Test Circuit.TSC
+5ba720fea6c6b5460b11c8fd9c31af37  model_library/ti/opamps/opa404/sboc211.zip_d/OPA404E.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa404/sboc211.zip_d/disclaimer.txt
+0b8615edbf84802762ae12d15d35753e  model_library/ti/opamps/opa4684/sbom149.zip_d/sbom149.txt
+2fd6138551276f2b3068288dfc632938  model_library/ti/opamps/opa2347/sbom152a.zip_d/OPA347.slb
+f31cc1dad755bc3d98ece8d8b1c44fe7  model_library/ti/opamps/opa2347/sbom152a.zip_d/OPA347.MOD
+84eb790d18a95b8d292483ac61d902c6  model_library/ti/opamps/opa2347/sbom152a.zip_d/OPA347.sch
+4c337c2d16759da6c0482195d46c21b9  model_library/ti/opamps/opa2347/sboc200.zip_d/OPA347 Test Circuit.TSC
+fbb72545b25785b0342afeb33ed60911  model_library/ti/opamps/opa2347/sboc200.zip_d/OPA347.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2347/sboc200.zip_d/disclaimer.txt
+38faf82f3dc34219822a8d48f5505380  model_library/ti/opamps/opa683/sbom145.zip_d/sbom145.txt
+b7e0b481ca309e2488b840562726551d  model_library/ti/opamps/opa683/sboc122.zip_d/OPA683 Test Circuit.TSC
+8988e74163eb8524c3f7bccbc753f8fb  model_library/ti/opamps/opa683/sboc122.zip_d/OPA683.TSM
+763aa2aefc4304196e63202c0daf0c37  model_library/ti/opamps/opa683/sboc241.zip_d/OPA2683.TSM
+68a6d59e5fa58607626c988d9314798f  model_library/ti/opamps/opa683/sboc241.zip_d/OPA2683 Test Circuit.TSC
+9bd1ecf9e530414b59a6272142df5d73  model_library/ti/opamps/opa342/sbom068.zip_d/OPA342.slb
+2fe3558d9dcbf34b0fe0cc1a0801ec63  model_library/ti/opamps/opa342/sbom068.zip_d/OPA342.sch
+6529686f2377686f9dff4322aa4b77fc  model_library/ti/opamps/opa342/sbom068.zip_d/OPA342.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa342/sbom068.zip_d/Readme.txt
+a48daf8b09810cdcfc89b3de7d858920  model_library/ti/opamps/opa342/sboc196.zip_d/OPA342 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa342/sboc196.zip_d/disclaimer.txt
+a1a5e81b8d12f5012ab0a70ee3d4dd72  model_library/ti/opamps/opa342/sboc196.zip_d/OPA342.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa4350/sboc202.zip_d/disclaimer.txt
+6636923d8c794742d9612414830645b4  model_library/ti/opamps/opa4350/sboc202.zip_d/OPA350 Test Circuit.TSC
+6e41bf0167bf9fef8c8b35cf6e36bab8  model_library/ti/opamps/opa4350/sboc202.zip_d/OPA350.TSM
+594adcd74badde8bada79a1671f15132  model_library/ti/opamps/opa4350/sbom071.zip_d/OPA350.slb
+22a856b7dbae78065d3c6961fb8ee192  model_library/ti/opamps/opa4350/sbom071.zip_d/OPA350.mod
+14391a2a2054b4014a74295d6f029f8a  model_library/ti/opamps/opa4350/sbom071.zip_d/OPA350.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4350/sbom071.zip_d/Readme.txt
+44507c5dfb9f31ddda1a5120c53e5b1a  model_library/ti/opamps/opa301/sboc129.zip_d/OPA301 Test Circuit.TSC
+cb271ee9c227b7736646697b359f2af9  model_library/ti/opamps/opa301/sboc129.zip_d/Opa301.TSM
+c435c7b7b770ce1143da3c56f9d0390c  model_library/ti/opamps/opa301/sboc193.zip_d/OPA301 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa301/sboc193.zip_d/disclaimer.txt
+8599b68ccd889b73a52dc673e2aeb409  model_library/ti/opamps/opa301/sboc193.zip_d/OPA301.TSM
+b8fe5e7f7f45ed2d8cb0427045bb6064  model_library/ti/opamps/opa301/sboc039a.zip_d/OPA301.sch
+2206a0e98e85c942a071e7d63ade79bb  model_library/ti/opamps/opa301/sboc039a.zip_d/Opa301.mod
+88914d7ac8373d06a4ea9df01da003c4  model_library/ti/opamps/opa301/sboc039a.zip_d/OPA301.slb
+20dc831aca1bf2dfca9b880c8442a6ad  model_library/ti/opamps/opa237/sbom053.zip_d/OPA237X.MOD
+ba4cc0ab91988ae8310c8d90e47966d4  model_library/ti/opamps/opa237/sbom053.zip_d/OPA237.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa237/sbom053.zip_d/Readme.txt
+9cd66b529b06828f279e32fb181ccac0  model_library/ti/opamps/opa1632/sboc064.zip_d/Opa1632.mod
+ba284ba025ffaeaa3c6ae943018c1e82  model_library/ti/opamps/opa1632/sboc100.zip_d/Opa1632.TSM
+62061a5240fcf2865c7a279a0b6a9a9f  model_library/ti/opamps/opa1632/sboc100.zip_d/OPA1632 Test Circuit.TSC
+aa719407c5e19316f6766ac337f13c0b  model_library/ti/opamps/opa2349/sbom070a.zip_d/OPA349.MOD
+ac23f91331cf813394911b0d8ea5a785  model_library/ti/opamps/opa2349/sbom070a.zip_d/OPA349.sch
+d58fe684dedb9c8d542ed28e742501a5  model_library/ti/opamps/opa2349/sbom070a.zip_d/OPA349.slb
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2349/sbom070a.zip_d/Readme.txt
+25e3e3a2d7f183bd8fe88995e993bd34  model_library/ti/opamps/opa2130/sbom039.zip_d/OPA130.MOD
+d5a21b1c4f2953b7073c6392055dd420  model_library/ti/opamps/opa2130/sbom047.zip_d/OPA2130.MOD
+57d612d5fe9298979c1ee52cad2dda94  model_library/ti/opamps/opa2130/sbom075.zip_d/OPA4130.MOD
+2db7cf6deeeb75b67d6da7d4efdecc12  model_library/ti/opamps/opa4336/sbom064.zip_d/OPA336.mod
+876058505e5665a50b1fe305bfed9fd3  model_library/ti/opamps/opa4336/sbom064.zip_d/OPA336.sch
+663156af19f5eb7e10c8c5f510f271c7  model_library/ti/opamps/opa4336/sbom064.zip_d/OPA336.slb
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4336/sbom064.zip_d/Readme.txt
+9556981351fa11cfd4bf4f2afb50bbe3  model_library/ti/opamps/opa131/sbom076.zip_d/OPA4131E.MOD
+890837b6fa0b2ffbf02e402007fd9435  model_library/ti/opamps/opa131/sbom076.zip_d/OPA4131.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa131/sbom076.zip_d/Readme.txt
+c2f9bf911fbaf9aca59b41939ef28af8  model_library/ti/opamps/opa131/sbom040.zip_d/OPA131.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa131/sbom040.zip_d/Readme.txt
+5261f38f61c442a6ba2bd6d9dadec2c2  model_library/ti/opamps/opa131/sbom040.zip_d/OPA131E.MOD
+96d256a52bc4612c1b4c2839b8565237  model_library/ti/opamps/opa131/sbom048.zip_d/OPA2131E.MOD
+71c7475d51ec5dbc7cb6eba6d8ca563d  model_library/ti/opamps/opa131/sbom048.zip_d/OPA2131.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa131/sbom048.zip_d/Readme.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa131/sboc183.zip_d/disclaimer.txt
+5851c3239c9565dd91fa56b2a05158f8  model_library/ti/opamps/opa131/sboc183.zip_d/OPA131E Test Circuit.TSC
+9e38578068d38c8e7545438009e1dd1f  model_library/ti/opamps/opa131/sboc183.zip_d/OPA131E.TSM
+fde8265d27364095d93e84261df72dab  model_library/ti/opamps/opa4227/sbom051a.zip_d/OPA227.MOD
+f541d01bbde4841074bbea656473a220  model_library/ti/opamps/opa4227/sbom051a.zip_d/OPA227.sch
+b003fc0a3bf00961819bf7878814a4c2  model_library/ti/opamps/opa4227/sbom051a.zip_d/OPA227.slb
+d4d2e06e52d33d08e488fa0e3180f0d6  model_library/ti/opamps/opa357/sboc206.zip_d/OPA357 Test Circuit.TSC
+2d2ff19cc90cc90c007695658d5329a3  model_library/ti/opamps/opa357/sboc206.zip_d/OPA357.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa357/sboc206.zip_d/disclaimer.txt
+052e4b09ca06426266567a9bc33f35a8  model_library/ti/opamps/opa357/sboc027.zip_d/OPA357.sch
+38199bde7dbc5bb41badfd31704cd566  model_library/ti/opamps/opa357/sboc027.zip_d/OPA357.slb
+740dc3c11e95c4c22581899f4d84d8c4  model_library/ti/opamps/opa357/sboc027.zip_d/OPA357.MOD
+5e8f9ec33a303a9e80461a82975c7aba  model_library/ti/opamps/opa227/sboc188.zip_d/OPA227.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa227/sboc188.zip_d/disclaimer.txt
+08fd1ae6b506d9eba4ab1e23f4649565  model_library/ti/opamps/opa227/sboc188.zip_d/OPA227 Test Circuit.TSC
+fde8265d27364095d93e84261df72dab  model_library/ti/opamps/opa227/sbom051a.zip_d/OPA227.MOD
+f541d01bbde4841074bbea656473a220  model_library/ti/opamps/opa227/sbom051a.zip_d/OPA227.sch
+b003fc0a3bf00961819bf7878814a4c2  model_library/ti/opamps/opa227/sbom051a.zip_d/OPA227.slb
+f39c7df8074e795b4154b9e10c1dbb8c  model_library/ti/opamps/opa300/sboc128.zip_d/OPA300 Test Circuit.TSC
+e1bb20841ba6e5401b764187bc2ee714  model_library/ti/opamps/opa300/sboc128.zip_d/Opa300.TSM
+b8fca5dabaf6048e133760f944245798  model_library/ti/opamps/opa300/sboc038a.zip_d/Opa300.mod
+7b35046f63af41f52867dc9e16f0db1b  model_library/ti/opamps/opa300/sboc038a.zip_d/OPA300.slb
+f9696fae3833f65ac6ad3d5874c5ffab  model_library/ti/opamps/opa300/sboc038a.zip_d/OPA300.sch
+49543f00301461f0e075fb75479bc117  model_library/ti/opamps/opa300/sboc038a.zip_d/OPA300.1OP
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2889/sboc231.zip_d/OPAx889_SBOC231/disclaimer.txt
+e866ae5c1e3a6ef6a61e68f378ae8345  model_library/ti/opamps/opa2889/sboc231.zip_d/OPAx889_SBOC231/OPAx889_Model.sub
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa452/sboc213.zip_d/disclaimer.txt
+9e90056a561030cfa721c64b37b38547  model_library/ti/opamps/opa452/sboc213.zip_d/OPA452.TSM
+7bbd0523681c307a8914b3fdc29abc78  model_library/ti/opamps/opa452/sboc213.zip_d/OPA452 Test Circuit.TSC
+9e90056a561030cfa721c64b37b38547  model_library/ti/opamps/opa452/sboc108.zip_d/Opa452.TSM
+af8de88cd1ab6fc23dfed3a6e94def86  model_library/ti/opamps/opa452/sboc108.zip_d/OPA452 Test Circuit.TSC
+927b2a71bab0dba30d2a6f5a2d580536  model_library/ti/opamps/opa452/sboc040.zip_d/OPA452.sch
+f1a59fee8e1011dae0ad1c2f053853f1  model_library/ti/opamps/opa452/sboc040.zip_d/OPA452.slb
+6d7e557e69ea2501e1f15a335f14faa7  model_library/ti/opamps/opa452/sboc040.zip_d/Opa452.mod
+2505d6158e57003f3ea75d13f4e9b698  model_library/ti/opamps/opa27/sboc175.zip_d/OPA27E.TSM
+a69ea7ea6112928c91e5538d47399b88  model_library/ti/opamps/opa27/sboc175.zip_d/OPA27E Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa27/sboc175.zip_d/disclaimer.txt
+d39930e218fcb4bfa09247c741ac126b  model_library/ti/opamps/opa27/sbom062.zip_d/OPA27E.MOD
+74cee8470ef72958a99cb6506e3da599  model_library/ti/opamps/opa27/sbom062.zip_d/OPA27M.MOD
+c3d37de20138ffb5ddeffd22f717ca42  model_library/ti/opamps/opa27/sbom062.zip_d/OPA27.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa27/sbom062.zip_d/Readme.txt
+b90b56935b5d6d3c2b7187a6a6acc509  model_library/ti/opamps/opa4228/sbom144.zip_d/OPA228.sch
+f1f7e60bafb27e0ba851090af07d3c0b  model_library/ti/opamps/opa4228/sbom144.zip_d/OPA228.MOD
+54b8d0c71e9d5fd695065a326c7a0f01  model_library/ti/opamps/opa4228/sbom144.zip_d/OPA228.slb
+7c7f18988defdbfdb3bf3ab290cdaccf  model_library/ti/opamps/opa4132/sbom049.zip_d/OPA2132.MOD
+c191335535633520ac2a690bd12b0a64  model_library/ti/opamps/opa4132/sbom041.zip_d/OPA132.sch
+70e05604586b5aba4a62e58245148c00  model_library/ti/opamps/opa4132/sbom041.zip_d/OPA132.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4132/sbom041.zip_d/Readme.txt
+dfc655cf00142932404cbb26c30eff97  model_library/ti/opamps/opa4132/sboc184.zip_d/OPA132 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa4132/sboc184.zip_d/disclaimer.txt
+8463504d0819da481f0832fd05b37454  model_library/ti/opamps/opa4132/sboc184.zip_d/OPA132.TSM
+9d60a33e4f4fea1f97adde10e4f8820f  model_library/ti/opamps/opa4132/sbom077.zip_d/OPA4132.MOD
+8cd5462df4dd11b089144ae4d25fcfc8  model_library/ti/opamps/opa875/sboc226.zip_d/OPAx875_Model.sub
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa875/sboc226.zip_d/disclaimer.txt
+0b8615edbf84802762ae12d15d35753e  model_library/ti/opamps/opa2684/sbom149.zip_d/sbom149.txt
+253c535f29c0caf712b63b0f45d88020  model_library/ti/opamps/opa363/sboc024.zip_d/OPA363.sch
+713d6f4340808e9a7d41f52e030b5c3f  model_library/ti/opamps/opa363/sboc024.zip_d/OPA363.MOD
+69fd9cc9ed5f421ddc1ab6022791a341  model_library/ti/opamps/opa363/sboc024.zip_d/OPA363.slb
+d053fd38c7ea8dc6f2cd90adc859b7cd  model_library/ti/opamps/opa363/sboc103.zip_d/OPA363 Test Circuit.TSC
+2b53bc09f8557ec493e4bd162e435140  model_library/ti/opamps/opa363/sboc103.zip_d/OPA363.TSM
+97a98d38f86a4593e82915d90de15da8  model_library/ti/opamps/opa373/sboc209.zip_d/OPA373.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa373/sboc209.zip_d/disclaimer.txt
+4566dd4936ffd6367997194bb8216546  model_library/ti/opamps/opa373/sboc209.zip_d/OPA373 Test Circuit.TSC
+30e386037d7f0a065898d4eae6346749  model_library/ti/opamps/opa373/sboc031.zip_d/OPA373.sch
+9d269ec34b2f52a685e55f771b9707fa  model_library/ti/opamps/opa373/sboc031.zip_d/OPA373.slb
+e2b7af0d757b06aff95d46856f3bf09d  model_library/ti/opamps/opa373/sboc031.zip_d/Opa373.MOD
+0a642b449bfae0a3335317de353e9c03  model_library/ti/opamps/opa365/sboc133.zip_d/OPA365.slb
+e2b3d62753dfffeaca66c093aec6898a  model_library/ti/opamps/opa365/sboc133.zip_d/OPA365.MOD
+488cfba2457c741a55f2062edf336a8c  model_library/ti/opamps/opa365/sboc133.zip_d/OPA365 Test Circuit.sch
+ac7beaeb6077aed156f1751f35727955  model_library/ti/opamps/opa365/sboc134.zip_d/OPA365 Test Circuit.TSC
+43b05b5ac4d7b771b95ac34412487bfa  model_library/ti/opamps/opa365/sboc134.zip_d/OPA365.TSM
+7c7f18988defdbfdb3bf3ab290cdaccf  model_library/ti/opamps/opa2132/sbom049.zip_d/OPA2132.MOD
+c191335535633520ac2a690bd12b0a64  model_library/ti/opamps/opa2132/sbom041.zip_d/OPA132.sch
+70e05604586b5aba4a62e58245148c00  model_library/ti/opamps/opa2132/sbom041.zip_d/OPA132.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2132/sbom041.zip_d/Readme.txt
+dfc655cf00142932404cbb26c30eff97  model_library/ti/opamps/opa2132/sboc184.zip_d/OPA132 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2132/sboc184.zip_d/disclaimer.txt
+8463504d0819da481f0832fd05b37454  model_library/ti/opamps/opa2132/sboc184.zip_d/OPA132.TSM
+9d60a33e4f4fea1f97adde10e4f8820f  model_library/ti/opamps/opa2132/sbom077.zip_d/OPA4132.MOD
+9bd1ecf9e530414b59a6272142df5d73  model_library/ti/opamps/opa4342/sbom068.zip_d/OPA342.slb
+2fe3558d9dcbf34b0fe0cc1a0801ec63  model_library/ti/opamps/opa4342/sbom068.zip_d/OPA342.sch
+6529686f2377686f9dff4322aa4b77fc  model_library/ti/opamps/opa4342/sbom068.zip_d/OPA342.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4342/sbom068.zip_d/Readme.txt
+a48daf8b09810cdcfc89b3de7d858920  model_library/ti/opamps/opa4342/sboc196.zip_d/OPA342 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa4342/sboc196.zip_d/disclaimer.txt
+a1a5e81b8d12f5012ab0a70ee3d4dd72  model_library/ti/opamps/opa4342/sboc196.zip_d/OPA342.TSM
+b43ef9c8faa5413fee5cf162dd12d721  model_library/ti/opamps/opa548/sboc114.zip_d/OPA548 Test Circuit.TSC
+c8eb0a7281f89682aa8e18f4b9d71de5  model_library/ti/opamps/opa548/sboc114.zip_d/OPA548.TSM
+ced28e8ca5a28b958e0eb18e20bc0f7b  model_library/ti/opamps/opa548/sbom088.zip_d/OPA548.slb
+eb2057a036d8506c78ea22c4579e93d9  model_library/ti/opamps/opa548/sbom088.zip_d/OPA548.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa548/sbom088.zip_d/Readme.txt
+dadd895f71c46b4483ee0f9f04667daa  model_library/ti/opamps/opa548/sbom088.zip_d/OPA548.mod
+7b3c2cc2e5f7665a001d6accb84c7437  model_library/ti/opamps/opa4340/sboc195.zip_d/OPA340.TSM
+c9cb6d0b13e9858ac14c6e9a024da2fe  model_library/ti/opamps/opa4340/sboc195.zip_d/OPA340 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa4340/sboc195.zip_d/disclaimer.txt
+5a59ae0218426e54e3d5d72761901e63  model_library/ti/opamps/opa4340/sbom067.zip_d/OPA340.sch
+8eda6e4018244be775a9d605d290c289  model_library/ti/opamps/opa4340/sbom067.zip_d/OPA340.slb
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4340/sbom067.zip_d/Readme.txt
+77f9160daf4995c0e60dfc63ac59a220  model_library/ti/opamps/opa4340/sbom067.zip_d/OPA340.mod
+d50efad1f4baa4b5caccaf9afb23a984  model_library/ti/opamps/opa693/sboc049.zip_d/OPA693.txt
+9556981351fa11cfd4bf4f2afb50bbe3  model_library/ti/opamps/opa4131/sbom076.zip_d/OPA4131E.MOD
+890837b6fa0b2ffbf02e402007fd9435  model_library/ti/opamps/opa4131/sbom076.zip_d/OPA4131.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4131/sbom076.zip_d/Readme.txt
+c2f9bf911fbaf9aca59b41939ef28af8  model_library/ti/opamps/opa4131/sbom040.zip_d/OPA131.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4131/sbom040.zip_d/Readme.txt
+5261f38f61c442a6ba2bd6d9dadec2c2  model_library/ti/opamps/opa4131/sbom040.zip_d/OPA131E.MOD
+96d256a52bc4612c1b4c2839b8565237  model_library/ti/opamps/opa4131/sbom048.zip_d/OPA2131E.MOD
+71c7475d51ec5dbc7cb6eba6d8ca563d  model_library/ti/opamps/opa4131/sbom048.zip_d/OPA2131.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4131/sbom048.zip_d/Readme.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa4131/sboc183.zip_d/disclaimer.txt
+5851c3239c9565dd91fa56b2a05158f8  model_library/ti/opamps/opa4131/sboc183.zip_d/OPA131E Test Circuit.TSC
+9e38578068d38c8e7545438009e1dd1f  model_library/ti/opamps/opa4131/sboc183.zip_d/OPA131E.TSM
+ebd080f14ce55fe6cdb93d21cba60040  model_library/ti/opamps/opa698/sboc045.zip_d/OPA698.txt
+96f3a07bbae01fff2145f4a1cae69f34  model_library/ti/opamps/opa846/sboc005a.zip_d/OPA846_Model.sub
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa846/sboc005a.zip_d/disclaimer.txt
+c16ab5dac30aa99225f88094bca27fed  model_library/ti/opamps/opa846/sboc097.zip_d/OPA846 Test Circuit.TSC
+deaf7083a8cc3ea8e31a7c7b67d70a7f  model_library/ti/opamps/opa846/sboc097.zip_d/OPA846.TSM
+7b3c2cc2e5f7665a001d6accb84c7437  model_library/ti/opamps/opa2340/sboc195.zip_d/OPA340.TSM
+c9cb6d0b13e9858ac14c6e9a024da2fe  model_library/ti/opamps/opa2340/sboc195.zip_d/OPA340 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2340/sboc195.zip_d/disclaimer.txt
+5a59ae0218426e54e3d5d72761901e63  model_library/ti/opamps/opa2340/sbom067.zip_d/OPA340.sch
+8eda6e4018244be775a9d605d290c289  model_library/ti/opamps/opa2340/sbom067.zip_d/OPA340.slb
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2340/sbom067.zip_d/Readme.txt
+77f9160daf4995c0e60dfc63ac59a220  model_library/ti/opamps/opa2340/sbom067.zip_d/OPA340.mod
+34a8e915c72d176e80fe503e8980963b  model_library/ti/opamps/opa344/sboc198.zip_d/OPA344 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa344/sboc198.zip_d/disclaimer.txt
+2b93735519758d20be0f6bfcbe586f69  model_library/ti/opamps/opa344/sboc198.zip_d/OPA344.TSM
+f9991b2fdeabf668d51b3241a18006c3  model_library/ti/opamps/opa344/sboc011.zip_d/OPA344.MOD
+e82a82ee6a004eae972eee8844e25fa9  model_library/ti/opamps/opa344/sboc011.zip_d/OPA344.slb
+3a78d49e7f716d6392cf7bc7a57d3811  model_library/ti/opamps/opa344/sboc011.zip_d/OPA344.sch
+2fd6138551276f2b3068288dfc632938  model_library/ti/opamps/opa4347/sbom152a.zip_d/OPA347.slb
+f31cc1dad755bc3d98ece8d8b1c44fe7  model_library/ti/opamps/opa4347/sbom152a.zip_d/OPA347.MOD
+84eb790d18a95b8d292483ac61d902c6  model_library/ti/opamps/opa4347/sbom152a.zip_d/OPA347.sch
+4c337c2d16759da6c0482195d46c21b9  model_library/ti/opamps/opa4347/sboc200.zip_d/OPA347 Test Circuit.TSC
+fbb72545b25785b0342afeb33ed60911  model_library/ti/opamps/opa4347/sboc200.zip_d/OPA347.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa4347/sboc200.zip_d/disclaimer.txt
+65d59318042f3148db1dcd3a625fecab  model_library/ti/opamps/opa354/sboc018a.zip_d/OPA354.sch
+8e9602ded8ba1d143fccd9f50e0497c6  model_library/ti/opamps/opa354/sboc018a.zip_d/OPA354.slb
+98cc060d3bd0986fbdbd71531bc48053  model_library/ti/opamps/opa354/sboc018a.zip_d/OPA354.MOD
+cf60f4830d2c5726f706fa28a08b56b4  model_library/ti/opamps/opa354/sboc204.zip_d/OPA354.TSM
+e95fa8fe71031276e65e84df8d37908c  model_library/ti/opamps/opa354/sboc204.zip_d/OPA354 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa354/sboc204.zip_d/disclaimer.txt
+535dc30cd2332e473fa0bf8f93d0c55d  model_library/ti/opamps/opa2335/sboc124.zip_d/OPA335 Test Circuit.TSC
+ad0e2ba60628440bf99f10007433914c  model_library/ti/opamps/opa2335/sboc124.zip_d/OPA335.TSM
+b3e638c111ed80d9dffb53426d8cb519  model_library/ti/opamps/opa2335/sboc002.zip_d/OPA335.sch
+a349d5001bd28dbd8d65fd25b0f8fa1d  model_library/ti/opamps/opa2335/sboc002.zip_d/OPA335.MOD
+8d3ef5896ece1f186021a7b978b991a5  model_library/ti/opamps/opa2335/sboc002.zip_d/OPA335.slb
+7771100765b45c713bc448305f2b3a72  model_library/ti/opamps/opa656/sbom135b.zip_d/sbom135b.txt
+70a6b6ed8101dd026ed017d010adc118  model_library/ti/opamps/opa656/sboc120.zip_d/OPA656.TSM
+303efbd82f6baae7a6e5b614cb2665ac  model_library/ti/opamps/opa656/sboc120.zip_d/OPA656 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa691/sbom151a.zip_d/disclaimer.txt
+ccc6e607ef1611007b272d8cc453ec48  model_library/ti/opamps/opa691/sbom151a.zip_d/OPAx691_Model.sub
+7863c0d35aee93271c38ddaf05062c17  model_library/ti/opamps/opa691/sboc240.zip_d/OPAx691.TSM
+b8000678676f0d324e212c025095ef80  model_library/ti/opamps/opa691/sboc240.zip_d/OPA691 Test Circuit.TSC
+f8a8bda6279bb5ecb6404f0a9818e3b3  model_library/ti/opamps/opa847/sboc098.zip_d/OPA847.TSM
+994aa322227a128e4df9770c4ecffe3c  model_library/ti/opamps/opa847/sboc098.zip_d/OPA847 Test Circuit.TSC
+85c06b6c7495d8a80eb07a0c9f9f679e  model_library/ti/opamps/opa847/sboc037a.zip_d/OPA847_Model.sub
+ee96592d409874ecc88657510b7e787f  model_library/ti/opamps/opa445/sboc107.zip_d/OPA445E.TSM
+3d76502ccf27f353b9ce91cf98f225a0  model_library/ti/opamps/opa445/sboc107.zip_d/OPA445E Test Circuit.TSC
+ee96592d409874ecc88657510b7e787f  model_library/ti/opamps/opa445/sboc212.zip_d/OPA445E.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa445/sboc212.zip_d/disclaimer.txt
+29c020f83218c14e75f241fccd49608f  model_library/ti/opamps/opa445/sboc212.zip_d/OPA445E Test Circuit.TSC
+1fa65b5a6122a62b62521f35257b30c9  model_library/ti/opamps/opa445/sbom079.zip_d/OPA445E.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa445/sbom079.zip_d/Readme.txt
+d47934a8ee13879badac5d0c475aff47  model_library/ti/opamps/opa445/sbom079.zip_d/OPA445.MOD
+a9aa9df02829cdc3f53e39daf0a19c2d  model_library/ti/opamps/opa2690/sbom147.zip_d/sbom147.txt
+4b9ecdf5f6a4f24bf2c7c0f483c89e0d  model_library/ti/opamps/opa657/sboc121.zip_d/OPA657 Test Circuit.TSC
+217e0fa3548f0dea46ba51863e8b4ee4  model_library/ti/opamps/opa657/sboc121.zip_d/OPA657.TSM
+e75e491173517778066be34f4047e8c6  model_library/ti/opamps/opa657/sbom137c.zip_d/OPA657 Rev E.sub
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa657/sbom137c.zip_d/disclaimer.txt
+9dae564931d2310c8a9402e84514c23d  model_library/ti/opamps/opa552/sboc034.zip_d/OPA552.sch
+426d850aff7605db6ff0c1ad55c5ee25  model_library/ti/opamps/opa552/sboc034.zip_d/OPA552.slb
+aa06e7c83e29cc64d551f09e27da623a  model_library/ti/opamps/opa552/sboc034.zip_d/Opa552.mod
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa552/sboc217.zip_d/disclaimer.txt
+5e11eac544730ead7596cd66e5cfb6a1  model_library/ti/opamps/opa552/sboc217.zip_d/OPA552.TSM
+1eeba63f0c3c24c9025323af43ccc863  model_library/ti/opamps/opa552/sboc217.zip_d/OPA552 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa4353/sboc203.zip_d/disclaimer.txt
+cacb814464e5fc59268282190465773b  model_library/ti/opamps/opa4353/sboc203.zip_d/OPA353 Test Circuit.TSC
+3c0695182d5be27d41fba8f3ea833f3a  model_library/ti/opamps/opa4353/sboc203.zip_d/OPA353.TSM
+ec65348b3fc30a781f1c9a46265864bd  model_library/ti/opamps/opa4353/sbom072.zip_d/OPA353.slb
+c12f6eb07ab4e1f0377857ac1af68ca0  model_library/ti/opamps/opa4353/sbom072.zip_d/OPA353.sch
+e56c302d3cbaa599f180f80bc307e63f  model_library/ti/opamps/opa4353/sbom072.zip_d/OPA353.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4353/sbom072.zip_d/Readme.txt
+8ac636cd09bb29ecfdf0bf6edea5fa77  model_library/ti/opamps/opa2613/sboc047a.zip_d/OPA2613.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2613/sboc047a.zip_d/disclaimer.txt
+4d0c7acf173d519f18b1fbbedc48a5bb  model_library/ti/opamps/opa2613/sboc236.zip_d/OPA2613 Test Circuit.TSC
+e9d7507b0369858db257b1c943bbe476  model_library/ti/opamps/opa2613/sboc236.zip_d/OPA2613.TSM
+0e81f22c9616971007c5bd7c34c185dd  model_library/ti/opamps/opa338/sbom066.zip_d/OPA338.slb
+848d1e678f719db9cce41b31d0079784  model_library/ti/opamps/opa338/sbom066.zip_d/OPA338.mod
+d73049c87d0913a4fa93ca00b82662a7  model_library/ti/opamps/opa338/sbom066.zip_d/OPA338.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa338/sbom066.zip_d/Readme.txt
+3f2722867c56860fdc04bb7285a6569d  model_library/ti/opamps/opa699/sboc046.zip_d/OPA699.txt
+cfc1a1418393b5094f0384a22ef54e2b  model_library/ti/opamps/opa2677/sbom138a.zip_d/sbom138a.txt
+3769a742dfb52f87d32b1ea4dd973a46  model_library/ti/opamps/opa2677/sboc242.zip_d/OPA2677.TSM
+cece52923081d18e5b99478cfdf0cce7  model_library/ti/opamps/opa2677/sboc242.zip_d/OPA2677 Test Circuit.TSC
+5a91d9912441c8eba08eb6271f2659fe  model_library/ti/opamps/opa124/sboc179.zip_d/OPA124E Test Circuit.TSC
+2018cba284b7d42d198c303d6c7652ca  model_library/ti/opamps/opa124/sboc179.zip_d/OPA124E.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa124/sboc179.zip_d/disclaimer.txt
+675f6f086ef30b5c012639e6280a78ad  model_library/ti/opamps/opa124/sbom036.zip_d/OPA124.MOD
+cb81bfaa3a632652138439289f1005c0  model_library/ti/opamps/opa124/sbom036.zip_d/OPA124E.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa124/sbom036.zip_d/Readme.txt
+2db7cf6deeeb75b67d6da7d4efdecc12  model_library/ti/opamps/opa336/sbom064.zip_d/OPA336.mod
+876058505e5665a50b1fe305bfed9fd3  model_library/ti/opamps/opa336/sbom064.zip_d/OPA336.sch
+663156af19f5eb7e10c8c5f510f271c7  model_library/ti/opamps/opa336/sbom064.zip_d/OPA336.slb
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa336/sbom064.zip_d/Readme.txt
+ca096a0ff1269161e690d00265c04322  model_library/ti/opamps/opa820/sboc048a.zip_d/OPA820 Rev B.txt
+e26ca79551dca380b08826bf9b1e7e15  model_library/ti/opamps/opa820/sboc094.zip_d/OPA820 Test Circuit.TSC
+03ced8323224df1ab6a0ebbb87734e3a  model_library/ti/opamps/opa820/sboc094.zip_d/OPA820.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa3691/sbom151a.zip_d/disclaimer.txt
+ccc6e607ef1611007b272d8cc453ec48  model_library/ti/opamps/opa3691/sbom151a.zip_d/OPAx691_Model.sub
+7863c0d35aee93271c38ddaf05062c17  model_library/ti/opamps/opa3691/sboc240.zip_d/OPAx691.TSM
+b8000678676f0d324e212c025095ef80  model_library/ti/opamps/opa3691/sboc240.zip_d/OPA691 Test Circuit.TSC
+0832bc943a29982ae623106068236f26  model_library/ti/opamps/opa2137/sboc053.zip_d/OPA137.sch
+d6a9d49419b24e55722ff2668cff1dbb  model_library/ti/opamps/opa2137/sboc053.zip_d/OPA137.MOD
+ac1e3cfe0fc50d48ba49fa3c1e2b834a  model_library/ti/opamps/opa2137/sboc053.zip_d/OPA137.slb
+07a183d3d70260db6e8b0cfb63018e5e  model_library/ti/opamps/opa2137/sboc186.zip_d/OPA137 Test Circuit.TSC
+6b5150228f5ee5c8d7ff119f668b6ac9  model_library/ti/opamps/opa2137/sboc186.zip_d/OPA137.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2137/sboc186.zip_d/disclaimer.txt
+0b8615edbf84802762ae12d15d35753e  model_library/ti/opamps/opa3684/sbom149.zip_d/sbom149.txt
+7c7f18988defdbfdb3bf3ab290cdaccf  model_library/ti/opamps/opa132/sbom049.zip_d/OPA2132.MOD
+c191335535633520ac2a690bd12b0a64  model_library/ti/opamps/opa132/sbom041.zip_d/OPA132.sch
+70e05604586b5aba4a62e58245148c00  model_library/ti/opamps/opa132/sbom041.zip_d/OPA132.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa132/sbom041.zip_d/Readme.txt
+dfc655cf00142932404cbb26c30eff97  model_library/ti/opamps/opa132/sboc184.zip_d/OPA132 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa132/sboc184.zip_d/disclaimer.txt
+8463504d0819da481f0832fd05b37454  model_library/ti/opamps/opa132/sboc184.zip_d/OPA132.TSM
+9d60a33e4f4fea1f97adde10e4f8820f  model_library/ti/opamps/opa132/sbom077.zip_d/OPA4132.MOD
+8d423b3c895e84c05729a5b8a172e8d7  model_library/ti/opamps/opa547/sboc113.zip_d/OPA547 Test Circuit.TSC
+98cb6af469df594ef95cdbd09e5b9695  model_library/ti/opamps/opa547/sboc113.zip_d/Opa547.TSM
+f2f6bac8ae85908c1d31632530eb9523  model_library/ti/opamps/opa547/sbom087.zip_d/OPA547.slb
+9245b789fcf881b3781c2e88696756fc  model_library/ti/opamps/opa547/sbom087.zip_d/OPA547.sch
+c970b00061765005668297ec599d475a  model_library/ti/opamps/opa547/sbom087.zip_d/OPA547.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa547/sbom087.zip_d/Readme.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2691/sbom151a.zip_d/disclaimer.txt
+ccc6e607ef1611007b272d8cc453ec48  model_library/ti/opamps/opa2691/sbom151a.zip_d/OPAx691_Model.sub
+7863c0d35aee93271c38ddaf05062c17  model_library/ti/opamps/opa2691/sboc240.zip_d/OPAx691.TSM
+b8000678676f0d324e212c025095ef80  model_library/ti/opamps/opa2691/sboc240.zip_d/OPA691 Test Circuit.TSC
+7d8f29afc41c997005ed64081f8252d3  model_library/ti/opamps/opa561/sboc017.zip_d/OPA561.slb
+a0b55b634755dfe12782352249bdaafd  model_library/ti/opamps/opa561/sboc017.zip_d/OPA561.MOD
+d396b50a17fa9512b3fe71f675010d18  model_library/ti/opamps/opa561/sboc017.zip_d/OPA561.sch
+e14359f3f4e7908b518a3ebe1547d002  model_library/ti/opamps/opa2244/sbom056.zip_d/OPA244.slb
+ddb5e6faf175e98b69d751e3ae07d213  model_library/ti/opamps/opa2244/sbom056.zip_d/OPA244.mod
+424db00bfef8d3422a54e6aa099dc630  model_library/ti/opamps/opa2244/sbom056.zip_d/OPA244.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2244/sbom056.zip_d/Readme.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2244/sboc191.zip_d/disclaimer.txt
+fa0d4430f03112cd1950bf7cd1eb51b6  model_library/ti/opamps/opa2244/sboc191.zip_d/OPA244.TSM
+47c477ea72129d8152e851442badb6ae  model_library/ti/opamps/opa2244/sboc191.zip_d/OPA244 Test Circuit.TSC
+32e7376cce0bb677030327b6937490ee  model_library/ti/opamps/opa703/sboc087.zip_d/OPA703 Test Circuit.TSC
+daebc6f3cda70caaa2982ec72805781d  model_library/ti/opamps/opa703/sboc087.zip_d/OPA703.TSM
+7ace79d89c26f54f0e7f81be64b51fc9  model_library/ti/opamps/opa703/sbom141.zip_d/OPA703.MOD
+b33d9f61b86671134cf5ed2edb131121  model_library/ti/opamps/opa703/sbom141.zip_d/OPA703.slb
+fcbf9a59abcf299de3aae59339103636  model_library/ti/opamps/opa703/sbom141.zip_d/OPA703.sch
+3d246e446684362f8f0d91633a50af9c  model_library/ti/opamps/opa728/sboc079.zip_d/OPA728.TSM
+dba8dd84c55d936415f37e39b5904786  model_library/ti/opamps/opa728/sboc079.zip_d/OPA728 Test Circuit.TSC
+977f71ac8bd5701a0a227df0afd7aaa3  model_library/ti/opamps/opa728/sboc078.zip_d/OPA728.MOD
+ea2dbb74e7b28c347a9167c2c7fce4f9  model_library/ti/opamps/opa728/sboc078.zip_d/OPA728.slb
+3fc9f2563a40e4c0c5be49d4b5edb106  model_library/ti/opamps/opa728/sboc078.zip_d/OPA728.sch
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2353/sboc203.zip_d/disclaimer.txt
+cacb814464e5fc59268282190465773b  model_library/ti/opamps/opa2353/sboc203.zip_d/OPA353 Test Circuit.TSC
+3c0695182d5be27d41fba8f3ea833f3a  model_library/ti/opamps/opa2353/sboc203.zip_d/OPA353.TSM
+ec65348b3fc30a781f1c9a46265864bd  model_library/ti/opamps/opa2353/sbom072.zip_d/OPA353.slb
+c12f6eb07ab4e1f0377857ac1af68ca0  model_library/ti/opamps/opa2353/sbom072.zip_d/OPA353.sch
+e56c302d3cbaa599f180f80bc307e63f  model_library/ti/opamps/opa2353/sbom072.zip_d/OPA353.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2353/sbom072.zip_d/Readme.txt
+b81d23d71ee493503b9b1a4f08eb893c  model_library/ti/opamps/opa128/sbom037.zip_d/OPA128E.MOD
+5ce1a25efae63211d67b0717ddc63ddd  model_library/ti/opamps/opa128/sbom037.zip_d/OPA128.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa128/sbom037.zip_d/Readme.txt
+ee79fe8c3afc2a8b1bcfb7b8ec2daadc  model_library/ti/opamps/opa128/sboc180.zip_d/OPA128E Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa128/sboc180.zip_d/disclaimer.txt
+44e12067578a5d416ef949c0188efa28  model_library/ti/opamps/opa128/sboc180.zip_d/OPA128E.TSM
+3ff2ade10b6097eebcbe4d05a4a96783  model_library/ti/opamps/opa2652/sbom153.zip_d/sbom153.txt
+323ee1393ebc6b95ed5e89c88f5bbd38  model_library/ti/opamps/opa684/sboc123.zip_d/OPA684 Test Circuit.TSC
+446a1281345f9b195b9dd233ad1f353e  model_library/ti/opamps/opa684/sboc123.zip_d/OPA684.TSM
+0b8615edbf84802762ae12d15d35753e  model_library/ti/opamps/opa684/sbom149.zip_d/sbom149.txt
+3f534ae493ff55de5592649ac9532997  model_library/ti/opamps/opa2277/sbom063.zip_d/OPA277.slb
+38e14cf20378304999847aee85d57b0f  model_library/ti/opamps/opa2277/sbom063.zip_d/OPA277.mod
+cdbdd2bd040c0d6fafd1180498e3527a  model_library/ti/opamps/opa2277/sbom063.zip_d/OPA277.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2277/sbom063.zip_d/Readme.txt
+6b83d04c17e4392f8a59e083e5cec5b7  model_library/ti/opamps/opa2277/sboc192.zip_d/OPA277 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2277/sboc192.zip_d/disclaimer.txt
+ef9398b771abf505e2a4ea31503890c9  model_library/ti/opamps/opa2277/sboc192.zip_d/OPA277.TSM
+195d4e415624eea96bb1e08ba09413a2  model_library/ti/opamps/opa569/sboc003.zip_d/OPA569.slb
+cd395cce9c3af1d0a4df6e87193d2a35  model_library/ti/opamps/opa569/sboc003.zip_d/OPA569.mod
+a88d5e8d4e5325cfc79d180bac8fa012  model_library/ti/opamps/opa569/sboc003.zip_d/OPA569.sch
+7b3c2cc2e5f7665a001d6accb84c7437  model_library/ti/opamps/opa340/sboc195.zip_d/OPA340.TSM
+c9cb6d0b13e9858ac14c6e9a024da2fe  model_library/ti/opamps/opa340/sboc195.zip_d/OPA340 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa340/sboc195.zip_d/disclaimer.txt
+5a59ae0218426e54e3d5d72761901e63  model_library/ti/opamps/opa340/sbom067.zip_d/OPA340.sch
+8eda6e4018244be775a9d605d290c289  model_library/ti/opamps/opa340/sbom067.zip_d/OPA340.slb
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa340/sbom067.zip_d/Readme.txt
+77f9160daf4995c0e60dfc63ac59a220  model_library/ti/opamps/opa340/sbom067.zip_d/OPA340.mod
+611a73d64ae16cdf6f88907981d684b3  model_library/ti/opamps/opa604/sbom093.zip_d/OPA604.MOD
+6663f231f246f316ca2d307b2243a8ca  model_library/ti/opamps/opa604/sbom093.zip_d/OPA604M.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa604/sbom093.zip_d/Readme.txt
+776ae28b94d94718581ddfddafb02312  model_library/ti/opamps/opa604/sbom093.zip_d/OPA604E.MOD
+cd5466051525b821f1880fdbc9d514e3  model_library/ti/opamps/opa604/sboc116a.zip_d/OPA604E.TSM
+e37f76cd34cff8005bbc0f277bab82ff  model_library/ti/opamps/opa604/sboc116a.zip_d/OPA604E Test Circuit.TSC
+7fa39e3f38eb6b45cd5dd8df883f32e3  model_library/ti/opamps/opa604/sbom060.zip_d/OPA2604E.MOD
+7a85e0de9450f139bbcbdab61c034660  model_library/ti/opamps/opa604/sbom060.zip_d/OPA2604.MOD
+d3692a34553221dc634edbe94d248294  model_library/ti/opamps/opa604/sbom060.zip_d/OPA2604M.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa604/sbom060.zip_d/Readme.txt
+3f534ae493ff55de5592649ac9532997  model_library/ti/opamps/opa277/sbom063.zip_d/OPA277.slb
+38e14cf20378304999847aee85d57b0f  model_library/ti/opamps/opa277/sbom063.zip_d/OPA277.mod
+cdbdd2bd040c0d6fafd1180498e3527a  model_library/ti/opamps/opa277/sbom063.zip_d/OPA277.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa277/sbom063.zip_d/Readme.txt
+6b83d04c17e4392f8a59e083e5cec5b7  model_library/ti/opamps/opa277/sboc192.zip_d/OPA277 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa277/sboc192.zip_d/disclaimer.txt
+ef9398b771abf505e2a4ea31503890c9  model_library/ti/opamps/opa277/sboc192.zip_d/OPA277.TSM
+60ec758418487c01d5e1ed9c838ec015  model_library/ti/opamps/opa234/sboc190.zip_d/OPA234 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa234/sboc190.zip_d/disclaimer.txt
+78222c566082df3680273208f37e0a8b  model_library/ti/opamps/opa234/sboc190.zip_d/OPA234E.TSM
+6148219afd074fbd3b4dfdcb8e5d9700  model_library/ti/opamps/opa234/sbom050.zip_d/OPA2234e.mod
+d88ce59da641eb121c3b9d496061daad  model_library/ti/opamps/opa234/sbom050.zip_d/OPA2234.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa234/sbom050.zip_d/Readme.txt
+d1dd16064cffa349b7ca6a06e50a9389  model_library/ti/opamps/opa234/sbom052.zip_d/OPA234.sch
+ea6ba3dccba9b70b660fc9773b8e4be7  model_library/ti/opamps/opa234/sbom052.zip_d/OPA234E.sch
+5fe1ac7fe9f74de554bc38a80a88758c  model_library/ti/opamps/opa234/sbom052.zip_d/OPA234e.mod
+746ecb5cd33c67c6478f8a8db686689b  model_library/ti/opamps/opa234/sbom052.zip_d/OPA234.mod
+7e5e03a25eda3a5e5a5ec9f307623f23  model_library/ti/opamps/opa234/sbom052.zip_d/OPA234E.slb
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa234/sbom052.zip_d/Readme.txt
+95714c4bea8d7d03f89d04a615d9f5fd  model_library/ti/opamps/opa234/sbom052.zip_d/OPA234.slb
+e5ef4f94723a1cdfd5f40434e6d8aaad  model_library/ti/opamps/opa234/sbom078.zip_d/OPA4234.mod
+8ba99db486f96e462944cb4c457295f5  model_library/ti/opamps/opa234/sbom078.zip_d/OPA4234e.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa234/sbom078.zip_d/Readme.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2350/sboc202.zip_d/disclaimer.txt
+6636923d8c794742d9612414830645b4  model_library/ti/opamps/opa2350/sboc202.zip_d/OPA350 Test Circuit.TSC
+6e41bf0167bf9fef8c8b35cf6e36bab8  model_library/ti/opamps/opa2350/sboc202.zip_d/OPA350.TSM
+594adcd74badde8bada79a1671f15132  model_library/ti/opamps/opa2350/sbom071.zip_d/OPA350.slb
+22a856b7dbae78065d3c6961fb8ee192  model_library/ti/opamps/opa2350/sbom071.zip_d/OPA350.mod
+14391a2a2054b4014a74295d6f029f8a  model_library/ti/opamps/opa2350/sbom071.zip_d/OPA350.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2350/sbom071.zip_d/Readme.txt
+aa719407c5e19316f6766ac337f13c0b  model_library/ti/opamps/opa349/sbom070a.zip_d/OPA349.MOD
+ac23f91331cf813394911b0d8ea5a785  model_library/ti/opamps/opa349/sbom070a.zip_d/OPA349.sch
+d58fe684dedb9c8d542ed28e742501a5  model_library/ti/opamps/opa349/sbom070a.zip_d/OPA349.slb
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa349/sbom070a.zip_d/Readme.txt
+071026292af0ef194152d4a8289f855e  model_library/ti/opamps/opa349/sloc078a.zip_d/OPA349 Test Circuit.TSC
+0e1052478fa1d137065629e7fa9f2041  model_library/ti/opamps/opa349/sloc078a.zip_d/OPA349.TSM
+2a19cc2caabc7c5c51c13f394162f851  model_library/ti/opamps/opa734/sboc059.zip_d/OPA734.slb
+d7724d79932e34b069411f6d23ca5ab5  model_library/ti/opamps/opa734/sboc059.zip_d/OPA734.sch
+d36b8c218b4801c84779ddff5026fc81  model_library/ti/opamps/opa734/sboc059.zip_d/OPA734.MOD
+e525aca3c198d64edc9fddcf0d229b02  model_library/ti/opamps/opa734/sboc091.zip_d/OPA734 Test Circuit.TSC
+33f98bd2b6278ca84e50333930207ec6  model_library/ti/opamps/opa734/sboc091.zip_d/OPA734.TSM
+2fd6138551276f2b3068288dfc632938  model_library/ti/opamps/opa347/sbom152a.zip_d/OPA347.slb
+f31cc1dad755bc3d98ece8d8b1c44fe7  model_library/ti/opamps/opa347/sbom152a.zip_d/OPA347.MOD
+84eb790d18a95b8d292483ac61d902c6  model_library/ti/opamps/opa347/sbom152a.zip_d/OPA347.sch
+4c337c2d16759da6c0482195d46c21b9  model_library/ti/opamps/opa347/sboc200.zip_d/OPA347 Test Circuit.TSC
+fbb72545b25785b0342afeb33ed60911  model_library/ti/opamps/opa347/sboc200.zip_d/OPA347.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa347/sboc200.zip_d/disclaimer.txt
+6cbb869984872c67522f16931aac013e  model_library/ti/opamps/opa37/sboc176.zip_d/OPA37E Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa37/sboc176.zip_d/disclaimer.txt
+2dfda944b5c93064fd0e09a716c39540  model_library/ti/opamps/opa37/sboc176.zip_d/OPA37E.TSM
+95273f65aae0e489d7ef1a72720e3a21  model_library/ti/opamps/opa37/sbom073.zip_d/OPA37E.MOD
+d744233497441880dd2430c250d7f7e8  model_library/ti/opamps/opa37/sbom073.zip_d/OPA37.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa37/sbom073.zip_d/Readme.txt
+5d119df028514bb150a9f9d991167151  model_library/ti/opamps/opa2822/sbom157.zip_d/sbom157.txt
+956018a3f36f393d8e13eb8c91fd4af1  model_library/ti/opamps/opa615/sboc223.zip_d/OPA615_Model.sub
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa615/sboc223.zip_d/disclaimer.txt
+67252a2cf27349b2cebe85385343415b  model_library/ti/opamps/opa861/sboc127.zip_d/OPA861 Model.sub
+f31bf18b15d46d1f6b2e6da1605d02be  model_library/ti/opamps/opa129/sboc181.zip_d/OPA129E.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa129/sboc181.zip_d/disclaimer.txt
+cdeb4f3f02875565c58ed1f0794f9e2b  model_library/ti/opamps/opa129/sboc181.zip_d/OPA129E Test Circuit.TSC
+203c52fbfd19dcc15f6591a0d9fbfe5e  model_library/ti/opamps/opa129/sbom038.zip_d/OPA129.sch
+e8c05880d110d28ea0cb41d0bdfda2ad  model_library/ti/opamps/opa129/sbom038.zip_d/OPA129.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa129/sbom038.zip_d/Readme.txt
+d7261cc6fe9037866b050790c42f3cd6  model_library/ti/opamps/opa129/sbom038.zip_d/OPA129E.MOD
+eab8cad97c305663666ed7c334315940  model_library/ti/opamps/opa360/sboc102.zip_d/OPA360.TSM
+95ba0b64297f936b8c19201e94c4a1bb  model_library/ti/opamps/opa360/sboc102.zip_d/OPA360 Test Circuit.TSC
+cc345b4ab8555921f0dbf44f69bcbd4d  model_library/ti/opamps/opa360/sboc050.zip_d/OPA360.MOD
+5d304106886863e6038bcaad22393774  model_library/ti/opamps/opa360/sboc050.zip_d/OPA360.slb
+09b70add25953b679c67614c230e97e3  model_library/ti/opamps/opa360/sboc050.zip_d/OPA360.sch
+9556981351fa11cfd4bf4f2afb50bbe3  model_library/ti/opamps/opa2131/sbom076.zip_d/OPA4131E.MOD
+890837b6fa0b2ffbf02e402007fd9435  model_library/ti/opamps/opa2131/sbom076.zip_d/OPA4131.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2131/sbom076.zip_d/Readme.txt
+c2f9bf911fbaf9aca59b41939ef28af8  model_library/ti/opamps/opa2131/sbom040.zip_d/OPA131.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2131/sbom040.zip_d/Readme.txt
+5261f38f61c442a6ba2bd6d9dadec2c2  model_library/ti/opamps/opa2131/sbom040.zip_d/OPA131E.MOD
+96d256a52bc4612c1b4c2839b8565237  model_library/ti/opamps/opa2131/sbom048.zip_d/OPA2131E.MOD
+71c7475d51ec5dbc7cb6eba6d8ca563d  model_library/ti/opamps/opa2131/sbom048.zip_d/OPA2131.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2131/sbom048.zip_d/Readme.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2131/sboc183.zip_d/disclaimer.txt
+5851c3239c9565dd91fa56b2a05158f8  model_library/ti/opamps/opa2131/sboc183.zip_d/OPA131E Test Circuit.TSC
+9e38578068d38c8e7545438009e1dd1f  model_library/ti/opamps/opa2131/sboc183.zip_d/OPA131E.TSM
+60ec758418487c01d5e1ed9c838ec015  model_library/ti/opamps/opa2234/sboc190.zip_d/OPA234 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2234/sboc190.zip_d/disclaimer.txt
+78222c566082df3680273208f37e0a8b  model_library/ti/opamps/opa2234/sboc190.zip_d/OPA234E.TSM
+6148219afd074fbd3b4dfdcb8e5d9700  model_library/ti/opamps/opa2234/sbom050.zip_d/OPA2234e.mod
+d88ce59da641eb121c3b9d496061daad  model_library/ti/opamps/opa2234/sbom050.zip_d/OPA2234.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2234/sbom050.zip_d/Readme.txt
+d1dd16064cffa349b7ca6a06e50a9389  model_library/ti/opamps/opa2234/sbom052.zip_d/OPA234.sch
+ea6ba3dccba9b70b660fc9773b8e4be7  model_library/ti/opamps/opa2234/sbom052.zip_d/OPA234E.sch
+5fe1ac7fe9f74de554bc38a80a88758c  model_library/ti/opamps/opa2234/sbom052.zip_d/OPA234e.mod
+746ecb5cd33c67c6478f8a8db686689b  model_library/ti/opamps/opa2234/sbom052.zip_d/OPA234.mod
+7e5e03a25eda3a5e5a5ec9f307623f23  model_library/ti/opamps/opa2234/sbom052.zip_d/OPA234E.slb
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2234/sbom052.zip_d/Readme.txt
+95714c4bea8d7d03f89d04a615d9f5fd  model_library/ti/opamps/opa2234/sbom052.zip_d/OPA234.slb
+e5ef4f94723a1cdfd5f40434e6d8aaad  model_library/ti/opamps/opa2234/sbom078.zip_d/OPA4234.mod
+8ba99db486f96e462944cb4c457295f5  model_library/ti/opamps/opa2234/sbom078.zip_d/OPA4234e.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2234/sbom078.zip_d/Readme.txt
+12293cba2b980caa8678f318b07ec42b  model_library/ti/opamps/opa345/sboc012.zip_d/OPA345.sch
+24c08e251d5037bfb0f6a48e892a2de5  model_library/ti/opamps/opa345/sboc012.zip_d/OPA345.slb
+bb42eff308773f6b931a13c390728910  model_library/ti/opamps/opa345/sboc012.zip_d/OPA345.MOD
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa345/sboc199.zip_d/disclaimer.txt
+a07d5d35e38268436bd8fe17b6e82c00  model_library/ti/opamps/opa345/sboc199.zip_d/OPA345.TSM
+cf58857b452de3c93fc692f56456ce5a  model_library/ti/opamps/opa345/sboc199.zip_d/OPA345 Test Circuit.TSC
+ddd69674856bf4a47768bcf58a5b19a0  model_library/ti/opamps/opa1013/sbom033.zip_d/OPA1013E.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa1013/sbom033.zip_d/Readme.txt
+13284bf2c138dc32a88c20ce07243a7f  model_library/ti/opamps/opa1013/sbom033.zip_d/OPA1013.MOD
+62a769554b984e569b3036fd7ffc0779  model_library/ti/opamps/opa1013/sboc099.zip_d/OPA1013E Test Circuit.TSC
+b46cd66411ca7ec3df801ac9ab1aa68e  model_library/ti/opamps/opa1013/sboc099.zip_d/OPA1013E.TSM
+3f534ae493ff55de5592649ac9532997  model_library/ti/opamps/opa4277/sbom063.zip_d/OPA277.slb
+38e14cf20378304999847aee85d57b0f  model_library/ti/opamps/opa4277/sbom063.zip_d/OPA277.mod
+cdbdd2bd040c0d6fafd1180498e3527a  model_library/ti/opamps/opa4277/sbom063.zip_d/OPA277.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4277/sbom063.zip_d/Readme.txt
+6b83d04c17e4392f8a59e083e5cec5b7  model_library/ti/opamps/opa4277/sboc192.zip_d/OPA277 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa4277/sboc192.zip_d/disclaimer.txt
+ef9398b771abf505e2a4ea31503890c9  model_library/ti/opamps/opa4277/sboc192.zip_d/OPA277.TSM
+5e0d535f57a89087fc7a78b0b3593ee3  model_library/ti/opamps/opa606/sbom094.zip_d/OPA606.MOD
+638d67743ad5a0e4a1cff2eb0eb00dca  model_library/ti/opamps/opa606/sbom094.zip_d/OPA606E.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa606/sbom094.zip_d/Readme.txt
+c34faf3d3673754b38536b05cf898fac  model_library/ti/opamps/opa606/sboc117.zip_d/OPA606.TSM
+e9356f85a79ba5fd8cc4f7f803e3ea7c  model_library/ti/opamps/opa606/sboc117.zip_d/OPA606 Test Circuit.TSC
+fa218eb8a060c8e5cdb0acc4d2ecca7f  model_library/ti/opamps/opa2107/sbom045.zip_d/OPA2107.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2107/sbom045.zip_d/Readme.txt
+3893c1ad9ddf1a3c56b2b60846a948ca  model_library/ti/opamps/opa2107/sbom045.zip_d/OPA2107E.MOD
+2db7cf6deeeb75b67d6da7d4efdecc12  model_library/ti/opamps/opa2336/sbom064.zip_d/OPA336.mod
+876058505e5665a50b1fe305bfed9fd3  model_library/ti/opamps/opa2336/sbom064.zip_d/OPA336.sch
+663156af19f5eb7e10c8c5f510f271c7  model_library/ti/opamps/opa2336/sbom064.zip_d/OPA336.slb
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2336/sbom064.zip_d/Readme.txt
+7683ec4c7380c45a547a80084b9022fc  model_library/ti/opamps/opa726/sboc029.zip_d/OPA726.MOD
+b9c637dbec5e138a4c0e8c2e19fc2f5f  model_library/ti/opamps/opa726/sboc029.zip_d/OPA726.sch
+7b319f44627ef0f9439416c7e7d2bb74  model_library/ti/opamps/opa726/sboc029.zip_d/OPA726.slb
+b8335a54642823323200a9e3e88b7025  model_library/ti/opamps/opa726/sboc090.zip_d/OPA726.TSM
+25ba97b7a695c945ac64f7dee971cc16  model_library/ti/opamps/opa726/sboc090.zip_d/OPA726 Test Circuit.TSC
+15a2283f467ed057c14e3d7d8cdd6e01  model_library/ti/opamps/opa541/sbom058.zip_d/OPA2541.MOD
+5b2d31c91aab77d17ab3c6787ac93a33  model_library/ti/opamps/opa541/sbom058.zip_d/OPA2541E.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa541/sbom058.zip_d/Readme.txt
+47535c6ca77d0811ffb80d0e9ffe5076  model_library/ti/opamps/opa541/sbom085.zip_d/OPA541.MOD
+a653918e5321b146a543a9fc5d8c2eb6  model_library/ti/opamps/opa541/sbom085.zip_d/OPA541E.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa541/sbom085.zip_d/Readme.txt
+f3c090926474506b61bf9a6c759139d9  model_library/ti/opamps/opa541/sbom085.zip_d/OPA541.sch
+9cdfe9dedaa13c91a412efc8b66a61a9  model_library/ti/opamps/opa541/sbom085.zip_d/OPA541E.MOD
+39847d83185761162325d85bf8913bc2  model_library/ti/opamps/opa541/sboc111.zip_d/OPA541.TSM
+5d11cd38a87a4b73b3aa3fc9871713d1  model_library/ti/opamps/opa541/sboc111.zip_d/OPA541 Test Circuit.TSC
+60ec758418487c01d5e1ed9c838ec015  model_library/ti/opamps/opa4234/sboc190.zip_d/OPA234 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa4234/sboc190.zip_d/disclaimer.txt
+78222c566082df3680273208f37e0a8b  model_library/ti/opamps/opa4234/sboc190.zip_d/OPA234E.TSM
+6148219afd074fbd3b4dfdcb8e5d9700  model_library/ti/opamps/opa4234/sbom050.zip_d/OPA2234e.mod
+d88ce59da641eb121c3b9d496061daad  model_library/ti/opamps/opa4234/sbom050.zip_d/OPA2234.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4234/sbom050.zip_d/Readme.txt
+d1dd16064cffa349b7ca6a06e50a9389  model_library/ti/opamps/opa4234/sbom052.zip_d/OPA234.sch
+ea6ba3dccba9b70b660fc9773b8e4be7  model_library/ti/opamps/opa4234/sbom052.zip_d/OPA234E.sch
+5fe1ac7fe9f74de554bc38a80a88758c  model_library/ti/opamps/opa4234/sbom052.zip_d/OPA234e.mod
+746ecb5cd33c67c6478f8a8db686689b  model_library/ti/opamps/opa4234/sbom052.zip_d/OPA234.mod
+7e5e03a25eda3a5e5a5ec9f307623f23  model_library/ti/opamps/opa4234/sbom052.zip_d/OPA234E.slb
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4234/sbom052.zip_d/Readme.txt
+95714c4bea8d7d03f89d04a615d9f5fd  model_library/ti/opamps/opa4234/sbom052.zip_d/OPA234.slb
+e5ef4f94723a1cdfd5f40434e6d8aaad  model_library/ti/opamps/opa4234/sbom078.zip_d/OPA4234.mod
+8ba99db486f96e462944cb4c457295f5  model_library/ti/opamps/opa4234/sbom078.zip_d/OPA4234e.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4234/sbom078.zip_d/Readme.txt
+e6815de91087ef72d5b4d8907c29b765  model_library/ti/opamps/opa567/sboc101.zip_d/OPA567.TSM
+53237bd7f5116f7dc10ed24fbae1e959  model_library/ti/opamps/opa567/sboc101.zip_d/OPA567 Test Circuit.TSC
+d9800335c808722af70312677d548318  model_library/ti/opamps/opa2614/sboc067.zip_d/OPA2614.txt
+0b9e842e3674623deca6f8a8c1a2b431  model_library/ti/opamps/opa2614/sboc235.zip_d/OPA2614 Test Circuit.TSC
+6d5080a588abac55382fec198a7f7f7a  model_library/ti/opamps/opa2614/sboc235.zip_d/OPA2614.TSM
+36e7b9bf96fdbc220e84347b9e198d91  model_library/ti/opamps/opa337/sbom065.zip_d/OPA337.mod
+d01ff4a2c6915521929dc399eb240e2e  model_library/ti/opamps/opa337/sbom065.zip_d/OPA337.sch
+3acfa2c1cf5daed8572a8280d7fbf31b  model_library/ti/opamps/opa337/sbom065.zip_d/OPA337.slb
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa337/sbom065.zip_d/Readme.txt
+aeb43a89fcb2b27b55d72283f3b7de66  model_library/ti/opamps/opa381/sboc073.zip_d/OPA381.MOD
+f1c4d108cf6a61b0d758c808e9a92d1d  model_library/ti/opamps/opa381/sboc073.zip_d/OPA381.sch
+4154c62b4d4401e5807262034adf3519  model_library/ti/opamps/opa381/sboc073.zip_d/OPA381.slb
+28a3f4ceb9caf8c63365c100a2f7129c  model_library/ti/opamps/opa727/sboc077.zip_d/OPA727.sch
+a85fd7ba05f1d2c0ae7c6a7f78f5c92a  model_library/ti/opamps/opa727/sboc077.zip_d/OPA727.slb
+64a630f3c046018f96259d488784464c  model_library/ti/opamps/opa727/sboc077.zip_d/OPA727.MOD
+adb73f2a05daf50eb9e697588dff27ba  model_library/ti/opamps/opa727/sboc080.zip_d/OPA727.TSM
+21f8c572aba8b4006e21a6699d8c9ebd  model_library/ti/opamps/opa727/sboc080.zip_d/OPA727 Test Circuit.TSC
+0e81f22c9616971007c5bd7c34c185dd  model_library/ti/opamps/opa2338/sbom066.zip_d/OPA338.slb
+848d1e678f719db9cce41b31d0079784  model_library/ti/opamps/opa2338/sbom066.zip_d/OPA338.mod
+d73049c87d0913a4fa93ca00b82662a7  model_library/ti/opamps/opa2338/sbom066.zip_d/OPA338.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2338/sbom066.zip_d/Readme.txt
+0a6027ae762071e24086abde927d37ea  model_library/ti/opamps/opa121/sbom035.zip_d/OPA121E.MOD
+75366feebe75d5a39344f4ed0607c16d  model_library/ti/opamps/opa121/sbom035.zip_d/OPA121.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa121/sbom035.zip_d/Readme.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa121/sboc178.zip_d/disclaimer.txt
+9189c1320f306f45de9e88e1d60ab181  model_library/ti/opamps/opa121/sboc178.zip_d/OPA121E Test Circuit.TSC
+43b69c0834c3512a95a22711a4eb426d  model_library/ti/opamps/opa121/sboc178.zip_d/OPA121E.TSM
+44196fc603b51b94a777c82d3436499b  model_library/ti/opamps/opa2348/sboc201.zip_d/OPA348.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa2348/sboc201.zip_d/disclaimer.txt
+a37df192a6dacc22a4afff1e539de88f  model_library/ti/opamps/opa2348/sboc201.zip_d/OPA348 Test Circuit.TSC
+ae9358ebd23b406749901e4f3f9d6d19  model_library/ti/opamps/opa2348/sboc001.zip_d/OPA348.slb
+3c58e658b134fc98a0cacc64184664c5  model_library/ti/opamps/opa2348/sboc001.zip_d/OPA348.sch
+ce53e342f70a42c6d1d59f48fede1447  model_library/ti/opamps/opa2348/sboc001.zip_d/OPA348.MOD
+7ede4d06eba00adb6c89953c0f53fd84  model_library/ti/opamps/opa177/sbom044.zip_d/OPA177E.MOD
+56c7cecaac935f4613b1179781084d17  model_library/ti/opamps/opa177/sbom044.zip_d/OPA177.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa177/sbom044.zip_d/Readme.txt
+999f0bb5ca6a6b800803086e714673e8  model_library/ti/opamps/opa177/sboc187.zip_d/OPA177E Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa177/sboc187.zip_d/disclaimer.txt
+f0af37bcc9e1af92139e2b2558355e02  model_library/ti/opamps/opa177/sboc187.zip_d/OPA177E.TSM
+f3607e803ce771a84c085e071ec4bf57  model_library/ti/opamps/opa343/sboc197.zip_d/OPA343 Test Circuit.TSC
+e59d88b6610e5d9404542787083036a9  model_library/ti/opamps/opa343/sboc197.zip_d/OPA343.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa343/sboc197.zip_d/disclaimer.txt
+f87c03bc02613f5a196edf118e5bd7a6  model_library/ti/opamps/opa343/sbom069.zip_d/OPA343.slb
+7faf691996cbdc8351254ddbffa1d772  model_library/ti/opamps/opa343/sbom069.zip_d/OPA343.sch
+4c0c32ccf6bd30f3b5006701fac3c1bf  model_library/ti/opamps/opa343/sbom069.zip_d/OPA343.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa343/sbom069.zip_d/Readme.txt
+dde433ea808a181de5a597048d967ab5  model_library/ti/opamps/opa364/sboc025a.zip_d/OPA364.slb
+a98062e7780c979a6f98184bef82f8ef  model_library/ti/opamps/opa364/sboc025a.zip_d/OPA364.sch
+9aa71487e8846901215fc1ad21e0653a  model_library/ti/opamps/opa364/sboc025a.zip_d/OPA364.MOD
+0fcac57f38576b7730eff40db196569d  model_library/ti/opamps/opa364/sboc208.zip_d/OPA364.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa364/sboc208.zip_d/disclaimer.txt
+a6c05fd3eedc59ef6b02f3ef658dd61d  model_library/ti/opamps/opa364/sboc208.zip_d/OPA364 Test Circuit.TSC
+44196fc603b51b94a777c82d3436499b  model_library/ti/opamps/opa4348/sboc201.zip_d/OPA348.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa4348/sboc201.zip_d/disclaimer.txt
+a37df192a6dacc22a4afff1e539de88f  model_library/ti/opamps/opa4348/sboc201.zip_d/OPA348 Test Circuit.TSC
+ae9358ebd23b406749901e4f3f9d6d19  model_library/ti/opamps/opa4348/sboc001.zip_d/OPA348.slb
+3c58e658b134fc98a0cacc64184664c5  model_library/ti/opamps/opa4348/sboc001.zip_d/OPA348.sch
+ce53e342f70a42c6d1d59f48fede1447  model_library/ti/opamps/opa4348/sboc001.zip_d/OPA348.MOD
+109e1d2461709d9dbb043736d0d424e0  model_library/ti/opamps/opa241/sboc238.zip_d/OPA241 Test Circuit.TSC
+d72e91195f4db85871d3fc32421a6c96  model_library/ti/opamps/opa241/sboc238.zip_d/Opa241.TSM
+f79962cc1d67cf3e10c6827cbe760184  model_library/ti/opamps/opa241/sbom054.zip_d/OPA241.slb
+d20be3d66bacf0a9e96bdac12cc80078  model_library/ti/opamps/opa241/sbom054.zip_d/OPA241.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa241/sbom054.zip_d/Readme.txt
+8e0d818d860ba0a3c8ab685dd415799b  model_library/ti/opamps/opa241/sbom054.zip_d/OPA241.sch
+e99cd092089b4742f59c4969432ddf15  model_library/ti/opamps/opa725/sboc089.zip_d/OPA725 Test Circuit.TSC
+05029dc0371c3b05fc815250fdbbf500  model_library/ti/opamps/opa725/sboc089.zip_d/OPA725.TSM
+f51277ba13bacac8149b3c57533cc565  model_library/ti/opamps/opa725/sboc028.zip_d/OPA725.MOD
+42efc394256267a0101ca16dc3924c99  model_library/ti/opamps/opa725/sboc028.zip_d/OPA725.sch
+c72e7e560b6bd844a41cf0542fc56489  model_library/ti/opamps/opa725/sboc028.zip_d/OPA725.slb
+032011ef9344eef2f3c018321a65edfd  model_library/ti/opamps/opa704/sbom142.zip_d/OPA704.slb
+44893debfc7ad261f5e3c42ac6d447d6  model_library/ti/opamps/opa704/sbom142.zip_d/OPA704.MOD
+b1fdb315f7540544035cf7dcdb0290a2  model_library/ti/opamps/opa704/sbom142.zip_d/OPA704.sch
+2c53cb92050b567c94d9beb0299f1e38  model_library/ti/opamps/opa704/sboc088.zip_d/OPA704 Test Circuit.TSC
+7d7dbda6304c49f7f59a3908a226fe8b  model_library/ti/opamps/opa704/sboc088.zip_d/OPA704.TSM
+eb25e22dc84d46bc86b734f4106d971f  model_library/ti/opamps/opa735/sboc060.zip_d/OPA735.slb
+f2580812caa4550109e7db040d74ca0a  model_library/ti/opamps/opa735/sboc060.zip_d/OPA735.sch
+96a8e78048681891dd5017dfb1e3e4c0  model_library/ti/opamps/opa735/sboc060.zip_d/OPA735.MOD
+93e04a8b846be00f6347dcb0aea941a0  model_library/ti/opamps/opa735/sboc092.zip_d/OPA735 Test Circuit.TSC
+90552b16171f044e29550b8c656d9c5a  model_library/ti/opamps/opa735/sboc092.zip_d/OPA735.TSM
+15a2283f467ed057c14e3d7d8cdd6e01  model_library/ti/opamps/opa2541/sbom058.zip_d/OPA2541.MOD
+5b2d31c91aab77d17ab3c6787ac93a33  model_library/ti/opamps/opa2541/sbom058.zip_d/OPA2541E.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2541/sbom058.zip_d/Readme.txt
+47535c6ca77d0811ffb80d0e9ffe5076  model_library/ti/opamps/opa2541/sbom085.zip_d/OPA541.MOD
+a653918e5321b146a543a9fc5d8c2eb6  model_library/ti/opamps/opa2541/sbom085.zip_d/OPA541E.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2541/sbom085.zip_d/Readme.txt
+f3c090926474506b61bf9a6c759139d9  model_library/ti/opamps/opa2541/sbom085.zip_d/OPA541.sch
+9cdfe9dedaa13c91a412efc8b66a61a9  model_library/ti/opamps/opa2541/sbom085.zip_d/OPA541E.MOD
+e14359f3f4e7908b518a3ebe1547d002  model_library/ti/opamps/opa4244/sbom056.zip_d/OPA244.slb
+ddb5e6faf175e98b69d751e3ae07d213  model_library/ti/opamps/opa4244/sbom056.zip_d/OPA244.mod
+424db00bfef8d3422a54e6aa099dc630  model_library/ti/opamps/opa4244/sbom056.zip_d/OPA244.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4244/sbom056.zip_d/Readme.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa4244/sboc191.zip_d/disclaimer.txt
+fa0d4430f03112cd1950bf7cd1eb51b6  model_library/ti/opamps/opa4244/sboc191.zip_d/OPA244.TSM
+47c477ea72129d8152e851442badb6ae  model_library/ti/opamps/opa4244/sboc191.zip_d/OPA244 Test Circuit.TSC
+f3607e803ce771a84c085e071ec4bf57  model_library/ti/opamps/opa4343/sboc197.zip_d/OPA343 Test Circuit.TSC
+e59d88b6610e5d9404542787083036a9  model_library/ti/opamps/opa4343/sboc197.zip_d/OPA343.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa4343/sboc197.zip_d/disclaimer.txt
+f87c03bc02613f5a196edf118e5bd7a6  model_library/ti/opamps/opa4343/sbom069.zip_d/OPA343.slb
+7faf691996cbdc8351254ddbffa1d772  model_library/ti/opamps/opa4343/sbom069.zip_d/OPA343.sch
+4c0c32ccf6bd30f3b5006701fac3c1bf  model_library/ti/opamps/opa4343/sbom069.zip_d/OPA343.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4343/sbom069.zip_d/Readme.txt
+6c8a075f25aa3e6c701caf0aaa36b8fa  model_library/ti/opamps/opa333/sboc083.zip_d/OPA333.TSM
+0f981ac61fe5809f4440c3323de9327c  model_library/ti/opamps/opa333/sboc083.zip_d/OPA333 Test Circuit.TSC
+ec32b24d1044cce19371cb9b8e423594  model_library/ti/opamps/opa333/sboc084.zip_d/OPA333.slb
+f5ea37adf304aefaebd3785affd18f3c  model_library/ti/opamps/opa333/sboc084.zip_d/OPA333.MOD
+8cd5462df4dd11b089144ae4d25fcfc8  model_library/ti/opamps/opa3875/sboc226.zip_d/OPAx875_Model.sub
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa3875/sboc226.zip_d/disclaimer.txt
+a9aa9df02829cdc3f53e39daf0a19c2d  model_library/ti/opamps/opa3690/sbom147.zip_d/sbom147.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa890/sboc230.zip_d/OPAx890_SBOC230/disclaimer.txt
+c76270be15987e054efbc00c404058d1  model_library/ti/opamps/opa890/sboc230.zip_d/OPAx890_SBOC230/OPAx890_Model.sub
+161ddc8d76172f111d430221f94916b7  model_library/ti/opamps/opa2111/sbom034.zip_d/OPA111.MOD
+5d7229f4c9d1df2971b16a627799e8e1  model_library/ti/opamps/opa2111/sbom034.zip_d/OPA111E.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2111/sbom034.zip_d/Readme.txt
+4fb2cf9d42d21ce902bf9cd81fbb708b  model_library/ti/opamps/opa2111/sbom046.zip_d/OPA2111E.MOD
+28cee5bd948962eefd2f09f97c2ae4fa  model_library/ti/opamps/opa2111/sbom046.zip_d/OPA2111.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2111/sbom046.zip_d/Readme.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa353/sboc203.zip_d/disclaimer.txt
+cacb814464e5fc59268282190465773b  model_library/ti/opamps/opa353/sboc203.zip_d/OPA353 Test Circuit.TSC
+3c0695182d5be27d41fba8f3ea833f3a  model_library/ti/opamps/opa353/sboc203.zip_d/OPA353.TSM
+ec65348b3fc30a781f1c9a46265864bd  model_library/ti/opamps/opa353/sbom072.zip_d/OPA353.slb
+c12f6eb07ab4e1f0377857ac1af68ca0  model_library/ti/opamps/opa353/sbom072.zip_d/OPA353.sch
+e56c302d3cbaa599f180f80bc307e63f  model_library/ti/opamps/opa353/sbom072.zip_d/OPA353.mod
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa353/sbom072.zip_d/Readme.txt
+b90b56935b5d6d3c2b7187a6a6acc509  model_library/ti/opamps/opa228/sbom144.zip_d/OPA228.sch
+f1f7e60bafb27e0ba851090af07d3c0b  model_library/ti/opamps/opa228/sbom144.zip_d/OPA228.MOD
+54b8d0c71e9d5fd695065a326c7a0f01  model_library/ti/opamps/opa228/sbom144.zip_d/OPA228.slb
+b29106d1bb76d91348e691e15b0ea689  model_library/ti/opamps/opa228/sboc189.zip_d/OPA228.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa228/sboc189.zip_d/disclaimer.txt
+9dd3f584083abdd816f26fcb77386d33  model_library/ti/opamps/opa228/sboc189.zip_d/OPA228 Test Circuit.TSC
+fae86dfb6de76f9380a907a7c9e3cdfa  model_library/ti/opamps/opa4243/sbom055.zip_d/OPA243.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4243/sbom055.zip_d/Readme.txt
+38aabc93fd0ae97bbf835f3f4aeb7b13  model_library/ti/opamps/opa4243/sbom055.zip_d/OPA243.slb
+067a5e7a8597556fe09ef4f5832290be  model_library/ti/opamps/opa4243/sbom055.zip_d/OPA243.mod
+4ee8cb6f87977b66d87eb82312d9687d  model_library/ti/opamps/opa2544/sbom059.zip_d/OPA2544.MOD
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa350/sboc202.zip_d/disclaimer.txt
+6636923d8c794742d9612414830645b4  model_library/ti/opamps/opa350/sboc202.zip_d/OPA350 Test Circuit.TSC
+6e41bf0167bf9fef8c8b35cf6e36bab8  model_library/ti/opamps/opa350/sboc202.zip_d/OPA350.TSM
+594adcd74badde8bada79a1671f15132  model_library/ti/opamps/opa350/sbom071.zip_d/OPA350.slb
+22a856b7dbae78065d3c6961fb8ee192  model_library/ti/opamps/opa350/sbom071.zip_d/OPA350.mod
+14391a2a2054b4014a74295d6f029f8a  model_library/ti/opamps/opa350/sbom071.zip_d/OPA350.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa350/sbom071.zip_d/Readme.txt
+0832bc943a29982ae623106068236f26  model_library/ti/opamps/opa137/sboc053.zip_d/OPA137.sch
+d6a9d49419b24e55722ff2668cff1dbb  model_library/ti/opamps/opa137/sboc053.zip_d/OPA137.MOD
+ac1e3cfe0fc50d48ba49fa3c1e2b834a  model_library/ti/opamps/opa137/sboc053.zip_d/OPA137.slb
+07a183d3d70260db6e8b0cfb63018e5e  model_library/ti/opamps/opa137/sboc186.zip_d/OPA137 Test Circuit.TSC
+6b5150228f5ee5c8d7ff119f668b6ac9  model_library/ti/opamps/opa137/sboc186.zip_d/OPA137.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa137/sboc186.zip_d/disclaimer.txt
+0c9650708e2bbdf8561401d346a39e47  model_library/ti/opamps/opa355/sboc205.zip_d/OPA355 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa355/sboc205.zip_d/disclaimer.txt
+1fd0d6d4981ae831152b4f8669ab7ce7  model_library/ti/opamps/opa355/sboc205.zip_d/OPA355.TSM
+aa99b03901f3f4430dc603bf7ebe7d33  model_library/ti/opamps/opa355/sbom143.zip_d/OPA355.slb
+6b08427a8d76c8867f22f243d98c383d  model_library/ti/opamps/opa355/sbom143.zip_d/OPA355.mod
+f01f3e4e9995db7854c20db26bb45baa  model_library/ti/opamps/opa355/sbom143.zip_d/OPA355.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4134/sbom042.zip_d/Readme.txt
+74e5e997dca1b073d0f163290436a7f8  model_library/ti/opamps/opa4134/sbom042.zip_d/OPA134.sch
+455c3968d30e094de9395976e37dce7e  model_library/ti/opamps/opa4134/sbom042.zip_d/OPA134.MOD
+1c635873fe86e2f27ee4f312579eb506  model_library/ti/opamps/opa501/sbom081.zip_d/OPA501.sch
+3cdd0480a63f966289de877ab2e4dc25  model_library/ti/opamps/opa501/sbom081.zip_d/OPA501E.MOD
+1cea86a8832d7b3efb6046edaaf3fff0  model_library/ti/opamps/opa501/sbom081.zip_d/OPA501E.sch
+19c834f5960327b26db65fc5642dcce2  model_library/ti/opamps/opa501/sbom081.zip_d/OPA501.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa501/sbom081.zip_d/Readme.txt
+b90b56935b5d6d3c2b7187a6a6acc509  model_library/ti/opamps/opa2228/sbom144.zip_d/OPA228.sch
+f1f7e60bafb27e0ba851090af07d3c0b  model_library/ti/opamps/opa2228/sbom144.zip_d/OPA228.MOD
+54b8d0c71e9d5fd695065a326c7a0f01  model_library/ti/opamps/opa2228/sbom144.zip_d/OPA228.slb
+20dc831aca1bf2dfca9b880c8442a6ad  model_library/ti/opamps/opa2237/sbom053.zip_d/OPA237X.MOD
+ba4cc0ab91988ae8310c8d90e47966d4  model_library/ti/opamps/opa2237/sbom053.zip_d/OPA237.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2237/sbom053.zip_d/Readme.txt
+36e7b9bf96fdbc220e84347b9e198d91  model_library/ti/opamps/opa2337/sbom065.zip_d/OPA337.mod
+d01ff4a2c6915521929dc399eb240e2e  model_library/ti/opamps/opa2337/sbom065.zip_d/OPA337.sch
+3acfa2c1cf5daed8572a8280d7fbf31b  model_library/ti/opamps/opa2337/sbom065.zip_d/OPA337.slb
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2337/sbom065.zip_d/Readme.txt
+691217fb687bcf974d6ff9a1e603d645  model_library/ti/opamps/opa637/sboc119.zip_d/OPA637E Test Circuit.TSC
+51b2060ba5fed148387c9bff475af909  model_library/ti/opamps/opa637/sboc119.zip_d/OPA637E.TSM
+da0902359e7493fe93c86a04a99e06be  model_library/ti/opamps/opa637/sbom101.zip_d/OPA637E.MOD
+f96edc38edc6554e2c7ca79db61d8ca8  model_library/ti/opamps/opa637/sbom101.zip_d/OPA637.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa637/sbom101.zip_d/Readme.txt
+0935ddcc8039e329f6a2c54bc6bb7eab  model_library/ti/opamps/opa690/sboc085.zip_d/OPA690.TSM
+8ef1815033d1ab66c7d60c7bb83b707f  model_library/ti/opamps/opa690/sboc085.zip_d/OPA690 Test Circuit.TSC
+a9aa9df02829cdc3f53e39daf0a19c2d  model_library/ti/opamps/opa690/sbom147.zip_d/sbom147.txt
+25e3e3a2d7f183bd8fe88995e993bd34  model_library/ti/opamps/opa4130/sbom039.zip_d/OPA130.MOD
+d5a21b1c4f2953b7073c6392055dd420  model_library/ti/opamps/opa4130/sbom047.zip_d/OPA2130.MOD
+57d612d5fe9298979c1ee52cad2dda94  model_library/ti/opamps/opa4130/sbom075.zip_d/OPA4130.MOD
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa2134/sbom042.zip_d/Readme.txt
+74e5e997dca1b073d0f163290436a7f8  model_library/ti/opamps/opa2134/sbom042.zip_d/OPA134.sch
+455c3968d30e094de9395976e37dce7e  model_library/ti/opamps/opa2134/sbom042.zip_d/OPA134.MOD
+fde8265d27364095d93e84261df72dab  model_library/ti/opamps/opa2227/sbom051a.zip_d/OPA227.MOD
+f541d01bbde4841074bbea656473a220  model_library/ti/opamps/opa2227/sbom051a.zip_d/OPA227.sch
+b003fc0a3bf00961819bf7878814a4c2  model_library/ti/opamps/opa2227/sbom051a.zip_d/OPA227.slb
+535dc30cd2332e473fa0bf8f93d0c55d  model_library/ti/opamps/opa335/sboc124.zip_d/OPA335 Test Circuit.TSC
+ad0e2ba60628440bf99f10007433914c  model_library/ti/opamps/opa335/sboc124.zip_d/OPA335.TSM
+b3e638c111ed80d9dffb53426d8cb519  model_library/ti/opamps/opa335/sboc002.zip_d/OPA335.sch
+a349d5001bd28dbd8d65fd25b0f8fa1d  model_library/ti/opamps/opa335/sboc002.zip_d/OPA335.MOD
+8d3ef5896ece1f186021a7b978b991a5  model_library/ti/opamps/opa335/sboc002.zip_d/OPA335.slb
+81cdc14656a1247cf53457a7d413d99e  model_library/ti/opamps/opa743/sboc063.zip_d/OPA743.slb
+22fc1c23d85cef03f4e0cba9d05462fd  model_library/ti/opamps/opa743/sboc063.zip_d/OPA743.MOD
+c9fa1c6d405a4998463d1c7d15100e2b  model_library/ti/opamps/opa743/sboc063.zip_d/OPA743.sch
+0cbeb4efc47d817861656d17e98c56df  model_library/ti/opamps/opa743/sboc093.zip_d/OPA743.TSM
+660dcc5398f4b7319216434e392d444e  model_library/ti/opamps/opa743/sboc093.zip_d/OPA743 Test Circuit.TSC
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa334/sboc194.zip_d/disclaimer.txt
+3ff56184e0ece7260cd67f5b457d3d9b  model_library/ti/opamps/opa334/sboc194.zip_d/OPA334 Test Circuit.TSC
+c1b71d43e776016ee96c2c2bf314f61c  model_library/ti/opamps/opa334/sboc194.zip_d/OPA334.TSM
+104074467a24d1d5d66a3e6f8090f154  model_library/ti/opamps/opa374/sboc032.zip_d/Opa374.MOD
+0b6d302b6ec43f228d8a9953a581ff72  model_library/ti/opamps/opa374/sboc032.zip_d/OPA374.sch
+af1ed9d9d9d8f1e7870a55c91b99c306  model_library/ti/opamps/opa374/sboc032.zip_d/OPA374.slb
+e10bbf9e70c394ec364ed6bcb02eb32a  model_library/ti/opamps/opa374/sboc210.zip_d/OPA374 Test Circuit.TSC
+fb229a18b678695ed29ccd4173fad2b9  model_library/ti/opamps/opa374/sboc210.zip_d/OPA374.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa374/sboc210.zip_d/disclaimer.txt
+704c555eb608fe3c1c5c865a26075f14  model_library/ti/opamps/opa374/sboc104.zip_d/OPA374 Test Circuit.TSC
+fb229a18b678695ed29ccd4173fad2b9  model_library/ti/opamps/opa374/sboc104.zip_d/Opa374.TSM
+376dfa4be96a8e6a4026ea015e6d4a07  model_library/ti/opamps/opa695/sboc036a.zip_d/OPA695.txt
+0724ff9f22b8f4c43ee32ad3f0377cf2  model_library/ti/opamps/opa358/sboc061.zip_d/OPA358.slb
+f79f776eaa3a31db7a272fec0a2c6e2f  model_library/ti/opamps/opa358/sboc061.zip_d/OPA358.MOD
+cfd359a9026bf064673f00469d441099  model_library/ti/opamps/opa358/sboc061.zip_d/OPA358.sch
+1ace57a29007f244d8132233a9044500  model_library/ti/opamps/opa358/sboc207.zip_d/OPA358.TSM
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa358/sboc207.zip_d/disclaimer.txt
+dd127cd3d4cd879790ca3e3a36ef9176  model_library/ti/opamps/opa358/sboc207.zip_d/OPA358 Test Circuit.TSC
+906ecbc7f888520de9aaa92b797a7d7c  model_library/ti/opamps/opa694/sboc068.zip_d/OPA694.txt
+ca096a0ff1269161e690d00265c04322  model_library/ti/opamps/opa4820/sboc048a.zip_d/OPA820 Rev B.txt
+e14359f3f4e7908b518a3ebe1547d002  model_library/ti/opamps/opa244/sbom056.zip_d/OPA244.slb
+ddb5e6faf175e98b69d751e3ae07d213  model_library/ti/opamps/opa244/sbom056.zip_d/OPA244.mod
+424db00bfef8d3422a54e6aa099dc630  model_library/ti/opamps/opa244/sbom056.zip_d/OPA244.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa244/sbom056.zip_d/Readme.txt
+7e2dddb661ad49e1519b813ed5e4b5e2  model_library/ti/opamps/opa244/sboc191.zip_d/disclaimer.txt
+fa0d4430f03112cd1950bf7cd1eb51b6  model_library/ti/opamps/opa244/sboc191.zip_d/OPA244.TSM
+47c477ea72129d8152e851442badb6ae  model_library/ti/opamps/opa244/sboc191.zip_d/OPA244 Test Circuit.TSC
+2c444cd3d04e51a885b55968ba777c75  model_library/ti/opamps/opa4251/sbom057.zip_d/OPA251.slb
+03990659e8580a725efe18da51049d92  model_library/ti/opamps/opa4251/sbom057.zip_d/OPA251.mod
+e3ed849894aa144d161d4e7bf369923f  model_library/ti/opamps/opa4251/sbom057.zip_d/OPA251.sch
+c4d79640c366b07fa836f7ec7328e20e  model_library/ti/opamps/opa4251/sbom057.zip_d/Readme.txt
+1c1816231a65d000023d0d724e7c09d2  model_library/ti/opamps/opa4251/sboc237.zip_d/OPA251.TSM
+e026dfb2844b9f89545e0cbd5e4a4bcc  model_library/ti/opamps/opa4251/sboc237.zip_d/OPA251 Test Circuit.TSC

@@ -91,6 +91,11 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "model_tests/tests/npn_bipolar/",
                                     "schematics" : ["dc_current.sch"],
                                     "controller" : "plot_all.py",
                                     "htmltemplate": "index.html",
+                                    "files": ["simulate.ngspice"]},
+            "opamp.sym": { "dir" : BASE_DIR + "model_tests/tests/opamp/",
+                                    "schematics" : ["dc_amplifier.sch"],
+                                    "controller" : "plot_all.py",
+                                    "htmltemplate": "index.html",
                                     "files": ["simulate.ngspice"]}
             }
 

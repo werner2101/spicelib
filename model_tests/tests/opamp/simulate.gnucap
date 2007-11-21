@@ -1,0 +1,8 @@
+* opamp tests
+
+.get dc_amplifier.net
+
+.pr dc V(in) V(out)
+.dc v1 -0.5 3 0.1 >dc_amplifier.data
+
+
