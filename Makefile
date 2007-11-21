@@ -79,3 +79,19 @@ download_ti:
 	wget -P downloads/ti http://focus.ti.com/packaged_lits/spice_files/ti_spice_models.zip
 	wget -P downloads/ti http://focus.ti.com/packaged_lits/spice_files/ti_spice_models_index.txt
 
+unpack_ti_all:
+	rm -rf $(TEMPDIR)/ti
+	mkdir -p $(TEMPDIR)/ti
+	md5sum downloads/ti/ti_spice_models.zip > $(MODEL_SIGDIR)/ti_all.md5sum
+	md5sum downloads/ti/ti_spice_models_index.txt >> $(MODEL_SIGDIR)/ti_all.md5sum
+	unzip -d $(TEMPDIR)/ti downloads/ti/ti_spice_models.zip
+	find $(TEMPDIR)/ti/ -type f -exec md5sum {} \; >>$(MODEL_SIGDIR)/ti_all.md5sum
+	# unzip all archives that are inside the above zip and remove the zips
+	find $(TEMPDIR)/ti/ -name "*zip" -exec unzip -d {}_d {} \;
+	find $(TEMPDIR)/ti/ -name "*zip" -exec rm {} \;
+
+create_ti_opamps:
+	rm -rf $(MODEL_LIBDIR)/ti/opamps
+	mkdir -p $(MODEL_LIBDIR)/ti/opamps
+	cp -a $(TEMPDIR)/ti/spice_models/opa* $(MODEL_LIBDIR)/ti/opamps
+	find $(MODEL_LIBDIR)/ti/opamps -type f -exec md5sum {} \; >$(MODEL_SIGDIR)/ti_opamp_lib.md5sum

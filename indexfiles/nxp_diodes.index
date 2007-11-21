@@ -2421,7 +2421,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX79_3.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2440,7 +2440,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2458,7 +2458,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2476,7 +2476,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=12V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2494,7 +2494,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=13V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2512,7 +2512,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=15V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2530,7 +2530,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=16V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2548,7 +2548,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=18V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2566,7 +2566,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2584,7 +2584,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=22V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2602,7 +2602,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=24V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2620,7 +2620,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=27V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2638,7 +2638,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=2.4V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2656,7 +2656,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=2.7V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2674,7 +2674,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2692,7 +2692,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=33V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2710,7 +2710,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=36V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2728,7 +2728,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=39V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2746,7 +2746,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=3.0V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2783,7 +2783,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=3.6V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2801,7 +2801,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=3.9V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2819,7 +2819,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=43V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2837,7 +2837,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=47V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2874,7 +2874,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=4.7V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2892,7 +2892,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=51V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2910,7 +2910,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=56V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2928,7 +2928,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=5.1V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2946,7 +2946,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2964,7 +2964,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=62V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -2982,7 +2982,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=68V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -3000,7 +3000,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=6.2V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -3018,7 +3018,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -3055,7 +3055,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=7.5V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -3073,7 +3073,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=8.2V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -3091,7 +3091,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -3775,7 +3775,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -3793,7 +3793,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -3830,7 +3830,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -3848,7 +3848,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -3867,7 +3867,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
 description=12V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -3904,7 +3904,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
 description=12V ESD protection diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -3922,7 +3922,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
 description=12V ESD protection diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -4054,7 +4054,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
 description=15V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -4109,7 +4109,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
 description=15V ESD protection diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -4260,7 +4260,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESD1LIN_1.pdf
 description=15/24V LIN bus protection diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -4278,7 +4278,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
 description=24V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -4315,7 +4315,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
 description=24V ESD protection diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -4333,7 +4333,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
 description=24V ESD protection diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -4598,7 +4598,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
 description=3.3V ESD protection diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -4616,7 +4616,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
 description=3.3V ESD protection diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -4786,7 +4786,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
 description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -4994,7 +4994,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1BA_BB_BL_3.pdf
 description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=test
+model_status=broken
+# model parameter N much to low
 
 
 
@@ -5012,7 +5013,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1BA_BB_BL_3.pdf
 description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=test
+model_status=broken
+# model parameter N much to low
 
 
 
@@ -5030,7 +5032,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1BA_BB_BL_3.pdf
 description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=test
+model_status=broken
+# model parameter N much to low
 
 
 
@@ -5048,7 +5051,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
 description=5.0V ESD protection diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5066,7 +5069,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
 description=5.0V ESD protection diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5274,7 +5277,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/PLVA2600A_SERIES_4.pdf
 description=5.6V low-voltage avalanche regulator double diodes
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5292,7 +5295,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PLVA6XXA_SERIES_3.pdf
 description=5.0V low-voltage avalanche regulator diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5310,7 +5313,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBD6050_4.pdf
 description=high-speed diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5347,7 +5350,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBD7000_3.pdf
 description=high-speed double diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5384,7 +5387,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5402,7 +5405,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5420,7 +5423,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5438,7 +5441,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5456,7 +5459,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5474,7 +5477,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5492,7 +5495,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5510,7 +5513,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5528,7 +5531,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=12V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5546,7 +5549,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=12V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5564,7 +5567,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=12V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5582,7 +5585,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=12V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5600,7 +5603,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=13V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5618,7 +5621,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=13V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5636,7 +5639,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=13V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5654,7 +5657,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=13V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5672,7 +5675,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=14V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5690,7 +5693,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=15V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5708,7 +5711,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=15V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5726,7 +5729,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=15V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5744,7 +5747,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=15V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5762,7 +5765,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=16V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5780,7 +5783,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=16V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5798,7 +5801,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=16V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5816,7 +5819,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=16V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5834,7 +5837,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=18V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5852,7 +5855,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=18V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5870,7 +5873,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=18V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5888,7 +5891,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=18V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5906,7 +5909,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5924,7 +5927,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5942,7 +5945,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5960,7 +5963,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5978,7 +5981,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=22V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -5996,7 +5999,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=22V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6014,7 +6017,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=22V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6032,7 +6035,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=22V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6050,7 +6053,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=24V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6068,7 +6071,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=24V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6086,7 +6089,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=24V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6104,7 +6107,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=2.4V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6122,7 +6125,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=24V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6140,7 +6143,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=2.7V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6158,7 +6161,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=2.7V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6176,7 +6179,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=2.7V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6194,7 +6197,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=27V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6212,7 +6215,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.0V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6230,7 +6233,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.0V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6248,7 +6251,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.0V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6266,7 +6269,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=30V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6284,7 +6287,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.3V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6302,7 +6305,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.3V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6320,7 +6323,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.3V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6338,7 +6341,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=33V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6356,7 +6359,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.6V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6374,7 +6377,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.6V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6392,7 +6395,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.6V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6410,7 +6413,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=36V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6428,7 +6431,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.9V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6446,7 +6449,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.9V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6464,7 +6467,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.9V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6482,7 +6485,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.3V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6500,7 +6503,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.3V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6518,7 +6521,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.3V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6536,7 +6539,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.3V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6554,7 +6557,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.7V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6572,7 +6575,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.7V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6590,7 +6593,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.7V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6608,7 +6611,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.7V zener diode
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -6626,7 +6629,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.1V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6644,7 +6647,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.1V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6662,7 +6665,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.1V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6680,7 +6683,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.1V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6698,7 +6701,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6716,7 +6719,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6734,7 +6737,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6752,7 +6755,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6770,7 +6773,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6788,7 +6791,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.2V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6806,7 +6809,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.2V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6824,7 +6827,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.2V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6842,7 +6845,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6860,7 +6863,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6878,7 +6881,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6896,7 +6899,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6914,7 +6917,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=7.5V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6932,7 +6935,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=7.5V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6950,7 +6953,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=7.5V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6968,7 +6971,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=7.5V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -6986,7 +6989,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=8.2V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -7004,7 +7007,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=8.2V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -7022,7 +7025,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=8.2V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -7040,7 +7043,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=8.2V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -7058,7 +7061,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -7076,7 +7079,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -7094,7 +7097,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 
 
 
@@ -7112,5 +7115,5 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=test
+model_status=good
 

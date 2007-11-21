@@ -4,7 +4,7 @@
 
 .control
 
-set filetype=ascii
+*set filetype=ascii
 
 foreach t 0 25 50 75 100
   set temp =  $t

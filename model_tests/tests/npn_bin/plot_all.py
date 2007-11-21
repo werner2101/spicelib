@@ -18,7 +18,7 @@ def plot_dc_current():
     mm.append(("100 C",pylab.load("dc_current_t100.data")))
 
     for t,m in mm:
-        if numpy.any(-m[:1] < -0.001) or numpy.any(-m[:1]>1.0):
+        if numpy.any(-m[:,1] < -0.001) or numpy.any(-m[:,1]>1.0):
             print "Input current out of expected range [-0.001, 1.0]"
             ret = 1
         pylab.plot(m[:,0], -m[:,1]*1000,label=t)
@@ -30,7 +30,7 @@ def plot_dc_current():
     pylab.close()
 
     for t,m in mm:
-        if numpy.any(-m[:2] < -0.001) or numpy.any(-m[:2]>100.0):
+        if numpy.any(-m[:,2] < -0.001) or numpy.any(-m[:,2]>100.0):
             print "Collector current out of expected range [-0.001, 100.0]"
             ret = 1
         pylab.plot(m[:,0], -m[:,2]*1000,label=t)
