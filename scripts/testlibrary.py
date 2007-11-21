@@ -213,7 +213,7 @@ for sec in secs:
         repl["checksum_test"] = "missing1"
 
     
-    repl["modelpath"] = BASE_DIR + modeldir + repl["file"]
+    repl["modelpath"] = "../../../../" + modeldir + repl["file"]
     repl["partname"] = sec
     repl["model_test"] = "---"
     repl["test_result"] = "---"
@@ -223,7 +223,7 @@ for sec in secs:
     if RUNTESTS:
         if repl["model_status"] not in ["undefined"]:
             print "\n" + "*"*75
-            print "Testing part: " + repl["partname"] + "  model: " +repl["modelpath"]
+            print "Testing part: " + repl["partname"] + "  model: " +modeldir + repl["file"]
             result, shortmsg, longmsg = test_model(repl)
             if result == True:
                 repl["model_test"] = "succeded"

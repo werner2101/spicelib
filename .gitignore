@@ -1,4 +1,8 @@
 model_library
+model_signatures
+model_tests/nxp
+model_tests/ti
 downloads
 tmp
 *~
+*pyc
