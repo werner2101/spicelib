@@ -4078,7 +4078,7 @@ model_status=undefined
 
 
 [PESD15VS1UB_NXP01225]
-symbol=zener.sym
+symbol=zener_diode.sym
 value=PESD15VS1UB
 modelname=PESD15VS1UB
 file=PESD15VS1UB.prm
