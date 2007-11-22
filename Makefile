@@ -4,7 +4,7 @@ MODEL_LIBDIR=model_library
 MODEL_SIGDIR=model_signatures
 MODEL_PATCHDIR=model_patches
 TESTDIR=model_tests
-TEMPDIR=tmp
+TEMPDIR=unpack
 
 INSTALLDIR=/store
 NAME=spicelib
@@ -94,10 +94,26 @@ unpack_ti_all:
 	find $(TEMPDIR)/ti/ -name "*zip" -exec rm {} \;
 
 create_ti_opamps:
+	# remove TINA models, Test circuits, Readme and disclaimer files
+	find $(TEMPDIR)/ti/ -name "*TSM" -exec rm {} \;
+	find $(TEMPDIR)/ti/ -name "*TSC" -exec rm {} \;
+	find $(TEMPDIR)/ti/ -name "Readme.txt" -exec rm {} \;
+	find $(TEMPDIR)/ti/ -name "disclaimer.txt" -exec rm {} \;
+	# remove pspice schemantics and libraries
+	find $(TEMPDIR)/ti/ -name "*.sch" -exec rm {} \;
+	find $(TEMPDIR)/ti/ -name "*.slb" -exec rm {} \;
+	# all remaining files are assumed to be models 
+	# with uniq filename and content (tested with md5sums)
+	# even as there are many duplicate files. 
 	rm -rf $(MODEL_LIBDIR)/ti/opamps
 	mkdir -p $(MODEL_LIBDIR)/ti/opamps
-	cp -a $(TEMPDIR)/ti/spice_models/opa* $(MODEL_LIBDIR)/ti/opamps
-	find $(MODEL_LIBDIR)/ti/opamps -type f -exec md5sum {} \; >$(MODEL_SIGDIR)/ti_opamps_lib.md5sum
+	find $(TEMPDIR)/ti/spice_models/opa* -type f -exec cp {} $(MODEL_LIBDIR)/ti/opamps \;
+	md5sum $(MODEL_LIBDIR)/ti/opamps/*  >$(MODEL_SIGDIR)/ti_opamps_lib.md5sum
+
+test_ti_opamps:
+	rm -rf $(TESTDIR)/ti/opamps
+	mkdir -p $(TESTDIR)/ti/opamps
+	scripts/testlibrary.py indexfiles/ti_opamps.index
 
 
 

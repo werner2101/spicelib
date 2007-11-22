@@ -2,6 +2,6 @@ model_library
 model_signatures
 model_tests
 downloads
-tmp
+unpack
 *~
 *pyc
