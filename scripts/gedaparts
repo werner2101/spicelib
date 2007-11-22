@@ -1,10 +1,14 @@
 #!/usr/bin/python
 
-import sys, re, string
+import sys, os, re, string
 import ConfigParser
 
+
 #################### SETUP VARS
-BASE_DIR= "/home/werner/oss/geda/spicelib/"
+REL_DIR= "../"       # relation between this script and the BASE_DIR
+BASE_DIR = os.path.join(os.getcwd(),
+                        os.path.dirname(sys.argv[0]),
+                        REL_DIR)
 PARTDB_DIR = BASE_DIR + "indexfiles/"
 SYMBOL_DIR = BASE_DIR + "symbol_templates/"
 

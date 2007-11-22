@@ -6,9 +6,14 @@ import popen2
 import ConfigParser
 
 #################### SETUP VARS
-BASE_DIR= "/home/werner/oss/geda/spicelib/"
-TEMPLATE_FILE = BASE_DIR + "testcircuits/index_template.html"
+TEMPLATE_FILE = "testcircuits/index_template.html"
+REL_DIR = "../"   # relation between this script and the BASE_DIR
 
+BASE_DIR = os.path.join(os.getcwd(),
+                        os.path.dirname(sys.argv[0]),
+                        REL_DIR)
+
+#################### GLOBAL DEFINITIONS
 
 ROW_TEMPLATE = """
 <tr><td>$partname</td>
@@ -189,7 +194,7 @@ modeldir = ind.get("GLOBAL","MODELDIR")
 golden_md5 = load_md5sums(BASE_DIR + ind.get("GLOBAL","GOLDEN_SIGNATURES"))
 current_md5 = load_md5sums(BASE_DIR + ind.get("GLOBAL","CURRENT_SIGNATURES"))
 
-html_template = string.Template(open(TEMPLATE_FILE).read())
+html_template = string.Template(open(BASE_DIR + TEMPLATE_FILE).read())
 row_template = string.Template(ROW_TEMPLATE)
 
 rows=[]
