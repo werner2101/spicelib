@@ -11,8 +11,19 @@ NAME=spicelib
 
 
 
-all:
-	echo "target all not defined"
+all:	download unpack create index
+
+download: download_nxp download_ti
+
+unpack: unpack_nxp unpack_ti
+
+create: create_nxp create_ti
+
+index: 
+	scripts/testlibrary -i indexfiles/*index
+
+test:
+	scripts/testlibrary -t indexfiles/*index
 
 
 # nxp models downloaded from URL:
@@ -33,6 +44,8 @@ download_nxp:
 
 
 unpack_nxp: unpack_nxp_bipolar unpack_nxp_diodes
+
+create_nxp: create_nxp_diodes create_nxp_bipolar
 
 unpack_nxp_bipolar: downloads/nxp/SST.zip
 	rm -rf $(TEMPDIR)/nxp/bipolar
@@ -76,13 +89,15 @@ test_nxp_diodes:
 
 ## texas instruments models
 
+create_ti: create_ti_opamps
+
 download_ti:
 	rm -rf downloads/ti
 	mkdir -p downloads/ti
 	wget -P downloads/ti http://focus.ti.com/packaged_lits/spice_files/ti_spice_models.zip
 	wget -P downloads/ti http://focus.ti.com/packaged_lits/spice_files/ti_spice_models_index.txt
 
-unpack_ti_all:
+unpack_ti:
 	rm -rf $(TEMPDIR)/ti
 	mkdir -p $(TEMPDIR)/ti
 	md5sum downloads/ti/ti_spice_models.zip > $(MODEL_SIGDIR)/ti_all.md5sum

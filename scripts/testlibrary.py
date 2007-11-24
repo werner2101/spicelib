@@ -4,6 +4,7 @@ import sys, re, string, os
 import shutil
 import popen2
 import ConfigParser
+import getopt
 
 #################### SETUP VARS
 TEMPLATE_FILE = "testcircuits/index_template.html"
@@ -107,7 +108,7 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "testcircuits/npn_bipolar/",
 #################### FUNCTIONS
 
 def test_model(param):
-    testdir = ind.get("GLOBAL","TESTDIR") + param["partname"] + "/"
+    testdir = param["testdir"]
     msg = " "
     longmsg = " "
 
@@ -144,6 +145,94 @@ def test_model(param):
         return False, msg, longmsg
 
 
+def test_single(indexfilename, partname):
+    ind = ConfigParser.ConfigParser()
+    ind.read(indexfilename)
+    testdir = ind.get("GLOBAL","TESTDIR")
+    modeldir = ind.get("GLOBAL","MODELDIR")
+
+    repl = dict(ind.items(partname))
+    repl["modelpath"] = "../../../../" + modeldir + repl["file"]
+    repl["testdir"] = ind.get("GLOBAL","TESTDIR") + partname + "/"
+    repl["partname"] = partname
+    if repl.has_key("documentation"):
+        if (len(repl["documentation"]) > 10) and (repl["documentation"][:4] == "http"):
+            repl["documentation"] = '<a href="'+ repl["documentation"]+'">'+repl["documentation"]+'</a>'
+
+    result, shortmsg, longmsg = test_model(repl)
+    if result == True:
+        print partname, shortmsg, ": ", repl["testdir"] + "index.html"
+    else:
+        print partname, shortmsg, ": ", repl["testdir"] + "index.html"
+
+
+def test_library(indexfilename, runtests=False, status_list=["test","good","broken"]):
+    ind = ConfigParser.ConfigParser()
+    ind.read(indexfilename)
+    
+    testdir = ind.get("GLOBAL","TESTDIR")
+    modeldir = ind.get("GLOBAL","MODELDIR")
+    golden_md5 = load_md5sums(BASE_DIR + ind.get("GLOBAL","GOLDEN_SIGNATURES"))
+    current_md5 = load_md5sums(BASE_DIR + ind.get("GLOBAL","CURRENT_SIGNATURES"))
+    
+    html_template = string.Template(open(BASE_DIR + TEMPLATE_FILE).read())
+    row_template = string.Template(ROW_TEMPLATE)
+    
+    rows=[]
+    secs = ind.sections()
+    secs.sort(sort_modelnumber)
+    for sec in secs:
+        if sec == "GLOBAL":
+            continue
+        repl = dict(ind.items(sec))
+    
+        ## Checksum test
+        if current_md5.has_key(modeldir + repl["file"]):
+            if golden_md5.has_key(modeldir + repl["file"]):
+                if current_md5[modeldir + repl["file"]] ==  golden_md5[modeldir + repl["file"]]:
+                    repl["checksum_test"] = "good"
+                else:
+                    repl["checksum_test"] = "failed"
+            else:
+                repl["checksum_test"] = "missing2"
+        else:
+            repl["checksum_test"] = "missing1"
+    
+        
+        repl["modelpath"] = "../../../../" + modeldir + repl["file"]
+        repl["testdir"] = ind.get("GLOBAL","TESTDIR") + sec + "/"
+        repl["partname"] = sec
+        repl["model_test"] = "---"
+        repl["test_result"] = "---"
+        if repl.has_key("documentation"):
+            if (len(repl["documentation"]) > 10) and (repl["documentation"][:4] == "http"):
+                repl["documentation"] = '<a href="'+ repl["documentation"]+'">'+repl["documentation"]+'</a>'
+        if runtests:
+            if repl["model_status"] in status_list:
+                print "\n" + "*"*75
+                print "Testing part: " + repl["partname"] + "  model: " +modeldir + repl["file"]
+                result, shortmsg, longmsg = test_model(repl)
+                if result == True:
+                    repl["model_test"] = "succeded"
+                    print sec, shortmsg, ": ", repl["testdir"] + "index.html"
+                else:
+                    repl["model_test"] = "failed"
+                    print sec, shortmsg, ": ", repl["testdir"] + "index.html"
+                repl["partname"] = '<a href="'+sec+'/index.html">'+sec+'</a>'
+    
+        repl["model_url"] = '<a href="../../../'+ modeldir+'/'+repl["file"]+'">'+repl["file"]+'</a>'
+        repl["model_status_color"] = color(repl["model_status"])
+        repl["model_test_color"] = color(repl["model_test"])
+        repl["checksum_test_color"] = color(repl["checksum_test"])
+        rows.append(row_template.safe_substitute(repl))
+    
+    
+    lib = {"indexfile": indexfilename,
+           "testdir": testdir,
+           "modeldir": ind.get("GLOBAL","MODELDIR"),
+           "title": ind.get("GLOBAL","DESCRIPTION"),
+           "model_rows": string.join(rows,"\n")}
+    open(testdir + "index.html", "wt").write(html_template.safe_substitute(lib))
 
     
 def color(text):
@@ -161,9 +250,6 @@ def sort_modelnumber(a,b):
         return -1
     return 0
 
-def log(x):
-    open("gedaparts.log","at").write(str(x) + "\n")
-
 def load_md5sums(filename):
     lines = open(filename, "rt").readlines()
     md5 = {}
@@ -172,82 +258,38 @@ def load_md5sums(filename):
         md5[tok[1]] = tok[0]
     return md5
 
+def usage():
+    print "TBD"
+
 #################### MAIN
 
+try:
+    opts, args = getopt.getopt(sys.argv[1:], "tip", ["test","index","part"])
+except getopt.GetoptError:
+    # print help information and exit:
+    usage()
+    sys.exit(2)
 
-if len(sys.argv) < 2:
-    print "usage: " + sys.argv[0] + "options indexfile" 
-    sys.exit()
+if len(args) < 1:
+    usage()
+    sys.exit(2)
 
-if sys.argv[1] == "--notests":
-    RUNTESTS = False
-    indexfile = sys.argv[2]
-else:
-    RUNTESTS = True
-    indexfile = sys.argv[1]
+for o, a in opts:
+    if o in ("-i","--index"):
+        for arg in args:
+            test_library(arg)
+        sys.exit()
+    if o in ("-t","--test"):
+        for arg in args:
+            test_library(arg, runtests=True)
+        sys.exit()
+    if o in ("-p", "--part"):
+        if len(args) < 2:
+            usage()
+            sys.exit(2)
+        for arg in args[1:]:
+            test_single(args[0],arg)
+        sys.exit()
     
-ind = ConfigParser.ConfigParser()
-ind.read(indexfile)
-
-testdir = ind.get("GLOBAL","TESTDIR")
-modeldir = ind.get("GLOBAL","MODELDIR")
-golden_md5 = load_md5sums(BASE_DIR + ind.get("GLOBAL","GOLDEN_SIGNATURES"))
-current_md5 = load_md5sums(BASE_DIR + ind.get("GLOBAL","CURRENT_SIGNATURES"))
-
-html_template = string.Template(open(BASE_DIR + TEMPLATE_FILE).read())
-row_template = string.Template(ROW_TEMPLATE)
-
-rows=[]
-secs = ind.sections()
-secs.sort(sort_modelnumber)
-for sec in secs:
-    if sec == "GLOBAL":
-        continue
-    repl = dict(ind.items(sec))
-
-    ## Checksum test
-    if current_md5.has_key(modeldir + repl["file"]):
-        if golden_md5.has_key(modeldir + repl["file"]):
-            if current_md5[modeldir + repl["file"]] ==  golden_md5[modeldir + repl["file"]]:
-                repl["checksum_test"] = "good"
-            else:
-                repl["checksum_test"] = "failed"
-        else:
-            repl["checksum_test"] = "missing2"
-    else:
-        repl["checksum_test"] = "missing1"
-
     
-    repl["modelpath"] = "../../../../" + modeldir + repl["file"]
-    repl["partname"] = sec
-    repl["model_test"] = "---"
-    repl["test_result"] = "---"
-    if repl.has_key("documentation"):
-        if (len(repl["documentation"]) > 10) and (repl["documentation"][:4] == "http"):
-            repl["documentation"] = '<a href="'+ repl["documentation"]+'">'+repl["documentation"]+'</a>'
-    if RUNTESTS:
-        if repl["model_status"] not in ["undefined"]:
-            print "\n" + "*"*75
-            print "Testing part: " + repl["partname"] + "  model: " +modeldir + repl["file"]
-            result, shortmsg, longmsg = test_model(repl)
-            if result == True:
-                repl["model_test"] = "succeded"
-                print "Model test succeded:", shortmsg
-            else:
-                repl["model_test"] = "failed"
-                print "Model test failed:", shortmsg
-            repl["partname"] = '<a href="'+sec+'/index.html">'+sec+'</a>'
 
-    repl["model_url"] = '<a href="../../../'+ modeldir+'/'+repl["file"]+'">'+repl["file"]+'</a>'
-    repl["model_status_color"] = color(repl["model_status"])
-    repl["model_test_color"] = color(repl["model_test"])
-    repl["checksum_test_color"] = color(repl["checksum_test"])
-    rows.append(row_template.safe_substitute(repl))
-
-
-lib = {"indexfile": indexfile,
-       "testdir": testdir,
-       "modeldir": ind.get("GLOBAL","MODELDIR"),
-       "title": ind.get("GLOBAL","DESCRIPTION"),
-       "model_rows": string.join(rows,"\n")}
-open(testdir + "index.html", "wt").write(html_template.safe_substitute(lib))
