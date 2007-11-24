@@ -232,6 +232,8 @@ def test_library(indexfilename, runtests=False, status_list=["test","good","brok
            "modeldir": ind.get("GLOBAL","MODELDIR"),
            "title": ind.get("GLOBAL","DESCRIPTION"),
            "model_rows": string.join(rows,"\n")}
+    if not os.path.isdir(testdir):
+        os.makedirs(testdir)
     open(testdir + "index.html", "wt").write(html_template.safe_substitute(lib))
 
     

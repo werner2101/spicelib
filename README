@@ -9,7 +9,7 @@ Building and testing a spice model library
 4. Create model index files
 5. Test the models
 6. Use the models with gEDA
-7. Maintaining models (TBD)
+7. Maintaining models
 
 
 0. Preface
@@ -27,7 +27,8 @@ files itself. This building rules may be stored in and SCM tool
 somewhere in the web. 
 Note: This is the way openSUSE distributes proprietary font packages, ...
 
-Most of the steps below may be part of a Makefile, ...
+Most of the steps below may be part of a Makefile, others can be done
+with scripting.
 
 
 1. Download spice models
@@ -51,12 +52,12 @@ steps below again and again.
 Most vendors provide there models as .zip archives with different
 directory structure. In this step the models gets unpacked.
 
-In this step all files all files gets a md5 checksum. The checksum files are
+In this step all files gets a md5 checksum. The checksum files are
 stored in:
   
   model_signatures/[vendor_category].md5sum
 
-This checksum will help to track changes in the model files when
+This checksum may help to track changes in the model files when
 maintaining the model library. You'll easily be able to find the
 changed files of a .zip file.
 
@@ -87,7 +88,7 @@ I'm storing checksums of that created lib, too:
 
 The index files contains the information how to use the models and how
 to combine them with gEDA symbols. The information is stored in an
-.ini-style file format that can be easily writen with scripts and with
+.ini-style file format that can be easily written with scripts and with
 an editor. The index files are stored in:
 
   indexfiles/[vendor_section].index
@@ -126,8 +127,8 @@ in the symbol template files.
 
 "test_refdes" is currently required for testing.
 
-The "model_status" is a rating that tells the user wheter the symbol
-is good, broken, untested, undefined, ...
+The "model_status" is a rating that tells the user whether the symbol
+is good, broken, untested or undefined.
 
 
 5. Testing the models
@@ -188,4 +189,4 @@ already used, your done.
 If the archive is different but contains 95% of identical files, then
 you only need to check the modified and the new models.
 
-More TBD
+

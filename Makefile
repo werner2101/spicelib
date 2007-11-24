@@ -1,4 +1,8 @@
 
+NAME=spicelib
+VERSION=0.0.1
+INSTALLDIR=/store
+
 
 MODEL_LIBDIR=model_library
 MODEL_SIGDIR=model_signatures
@@ -6,12 +10,13 @@ MODEL_PATCHDIR=model_patches
 TESTDIR=model_tests
 TEMPDIR=unpack
 
-INSTALLDIR=/store
-NAME=spicelib
 
 
 
-all:	download unpack create index
+all:	mkdirs download unpack create index
+
+mkdirs:
+	mkdir -p model_signatures
 
 download: download_nxp download_ti
 
@@ -20,10 +25,10 @@ unpack: unpack_nxp unpack_ti
 create: create_nxp create_ti
 
 index: 
-	scripts/testlibrary -i indexfiles/*index
+	scripts/testlibrary.py -i indexfiles/*index
 
 test:
-	scripts/testlibrary -t indexfiles/*index
+	scripts/testlibrary.py -t indexfiles/*index
 
 
 # nxp models downloaded from URL:
@@ -79,12 +84,12 @@ create_nxp_diodes:
 test_nxp_bipolar:
 	rm -rf $(TESTDIR)/nxp/bipolar
 	mkdir -p $(TESTDIR)/nxp/bipolar
-	scripts/testlibrary.py indexfiles/nxp_bipolar.index
+	scripts/testlibrary.py -t indexfiles/nxp_bipolar.index
 
 test_nxp_diodes:
 	rm -rf $(TESTDIR)/nxp/diodes
 	mkdir -p $(TESTDIR)/nxp/diodes
-	scripts/testlibrary.py indexfiles/nxp_diodes.index
+	scripts/testlibrary.py -t indexfiles/nxp_diodes.index
 
 
 ## texas instruments models
@@ -128,7 +133,7 @@ create_ti_opamps:
 test_ti_opamps:
 	rm -rf $(TESTDIR)/ti/opamps
 	mkdir -p $(TESTDIR)/ti/opamps
-	scripts/testlibrary.py indexfiles/ti_opamps.index
+	scripts/testlibrary.py -t indexfiles/ti_opamps.index
 
 
 
