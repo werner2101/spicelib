@@ -4,8 +4,6 @@ import sys,re,string
 
 
 
-PREFIX="NXP"
-NUMBER=101001
 
 
 
@@ -47,6 +45,32 @@ test_refdes=$test_refdes
 model_status=$status
 """
 
+OPAMP_TEMPLATE="""
+$headline
+[$part _$number]
+symbol=opamp.sym
+value=$part
+modelname=$part
+file=$filename
+refdes=$refdes
+pinseq_inp=1
+pinseq_inn=2
+pinseq_pp=3
+pinseq_pn=4
+pinseq_out=5
+pinnr_inp=in+
+pinnr_inn=in-
+pinnr_pp=V+
+pinnr_pn=V-
+pinnr_out=out
+footprint=none
+description=TBD1
+documentation=TBD2
+test_refdes=$test_refdes
+model_status=$status
+"""
+
+
 
 values = {"headline":"",
           "part":"",
@@ -60,26 +84,33 @@ values = {"headline":"",
 
 
 #tt = string.Template(TRANSISTOR_TEMPLATE)
-tt = string.Template(DIODE_TEMPLATE)
+#tt = string.Template(DIODE_TEMPLATE)
+tt = string.Template(OPAMP_TEMPLATE)
+PINCOUNT = 5
+MODEL_REFDES = "X"
+PREFIX="TI"
+NUMBER=100001
 
-for f in sys.argv[1:]:
+files = sys.argv[1:]
+files.sort()
+for f in files:
     lines = open(f,"rt").readlines()
     v = values.copy()
     for l in lines:
-        if re.match(".SUBCKT",l) or re.match(".MODEL",l):
+        if re.match(".subckt",l.lower()) or re.match(".MODEL",l):
             toks = string.split(string.strip(l))
             v["part"] = toks[1]
             v["filename"] = f
             v["number"] = PREFIX + str(NUMBER)[1:]
             NUMBER = NUMBER + 1
             if re.match(".MODEL",l):            
-                v["refdes"] = "D?"
-                v["test_refdes"] = "D1"
+                v["refdes"] = MODEL_REFDES + "?"
+                v["test_refdes"] = MODEL_REFDES + "1"
             else:
                 v["refdes"] = "X?"
                 v["test_refdes"] = "X1"
             n = len(toks)
-            if n > 4:
+            if n != (PINCOUNT + 2) :
                 v["headline"] = "\n# Subcircuit with " + "%i" %(n-2) + " connections"
                 v["status"] = "undefined"
             print tt.safe_substitute(v)
