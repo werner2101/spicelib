@@ -1182,8 +1182,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Ultra-Low Noise, Precision Operational Amplifiers
+documentation=http://www.ti.com/lit/gpn/opa27
 test_refdes=X1
 model_status=test
 
@@ -1206,8 +1206,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High Precision Operational Amplifiers
+documentation=http://www.ti.com/lit/gpn/opa277
 test_refdes=X1
 model_status=test
 
@@ -1230,8 +1230,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Ultra-Low Noise, Precision Operational Amplifiers
+documentation=http://www.ti.com/lit/gpn/opa27
 test_refdes=X1
 model_status=test
 
@@ -1254,8 +1254,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Ultra-Low Noise, Precision Operational Amplifiers
+documentation=http://www.ti.com/lit/gpn/opa27
 test_refdes=X1
 model_status=test
 
@@ -1278,8 +1278,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=1.8V, microPOWER CMOS Operational Amplifiers Zero-Drift Series
+documentation=http://www.ti.com/lit/gpn/opa333
 test_refdes=X1
 model_status=test
 
@@ -1302,8 +1302,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Single-Supply CMOS Op Amps Zero-Drift
+documentation=http://www.ti.com/lit/gpn/opa335
 test_refdes=X1
 model_status=test
 
@@ -1326,10 +1326,11 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Single-Supply, microPower CMOS Op Amp microAmplifier
+documentation=http://www.ti.com/lit/gpn/opa336
 test_refdes=X1
-model_status=test
+model_status=broken
+# missplaced .ends statements
 
 
 
@@ -1350,8 +1351,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Single-Supply CMOS Operational Amplifiers
+documentation=http://www.ti.com/lit/gpn/opa337
 test_refdes=X1
 model_status=test
 
@@ -1374,8 +1375,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Single-Supply CMOS Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa338
 test_refdes=X1
 model_status=test
 
@@ -1398,8 +1399,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Single-Supply, Rail-to-Rail Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa340
 test_refdes=X1
 model_status=test
 
@@ -1422,10 +1423,11 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Low-Cost,Low-Power,Rail-to-Rail Op Amp
+documentation=http://www.ti.com/lit/gpn/opa342
 test_refdes=X1
-model_status=test
+model_status=broken
+# ngspice does not like the leading TABs in the model
 
 
 
@@ -1446,8 +1448,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Rail-to-Rail Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa343
 test_refdes=X1
 model_status=test
 
@@ -1470,8 +1472,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Low Power, Single-Supply, Rail-To-Rail Operational MicroAmplifier
+documentation=http://www.ti.com/lit/gpn/opa344
 test_refdes=X1
 model_status=test
 
@@ -1494,8 +1496,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Low Power, Single-Supply, Rail-To-Rail Operational MicroAmplifier
+documentation=http://www.ti.com/lit/gpn/opa345
 test_refdes=X1
 model_status=test
 
@@ -1518,8 +1520,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=microPower Rail-To-Rail Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa347
 test_refdes=X1
 model_status=test
 
@@ -1542,8 +1544,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=1MHz, 45µA, CMOS Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa348
 test_refdes=X1
 model_status=test
 
@@ -1566,8 +1568,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=1uA, Rail-to-Rail, I/O, CMOS Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa349
 test_refdes=X1
 model_status=test
 
@@ -1590,8 +1592,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High-Speed, Single-Supply, Rail-to-Rail Op Amp
+documentation=http://www.ti.com/lit/gpn/opa350
 test_refdes=X1
 model_status=test
 
@@ -1614,8 +1616,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High-Speed, Single-Supply, Rail-to-Rail Op Amp
+documentation=http://www.ti.com/lit/gpn/opa353
 test_refdes=X1
 model_status=test
 
@@ -1638,8 +1640,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=250MHz, Rail-to-Rail I/O, CMOS Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa354
 test_refdes=X1
 model_status=test
 
@@ -1663,8 +1665,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=200MHz, CMOS Operational Amplifier with Shutdown
+documentation=http://www.ti.com/lit/gpn/opa355
 test_refdes=X1
 model_status=undefined
 
@@ -1688,8 +1690,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Rail-to-Rail I/O, CMOS Operational Amplifiers w/ Shutdown
+documentation=http://www.ti.com/lit/gpn/opa357
 test_refdes=X1
 model_status=undefined
 
@@ -1713,8 +1715,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=3V Single-Supply 80MHz High-Speed Op Amp
+documentation=http://www.ti.com/lit/gpn/opa358
 test_refdes=X1
 model_status=undefined
 
@@ -1738,8 +1740,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=3V Video Amplifier with 6dB Gain and Filter
+documentation=http://www.ti.com/lit/gpn/opa360
 test_refdes=X1
 model_status=undefined
 
@@ -1763,8 +1765,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=1.8V, 7MHz, 90dB CMRR, Single-Supply Rail-to-Rail I/O Op Amp
+documentation=http://www.ti.com/lit/gpn/opa363
 test_refdes=X1
 model_status=undefined
 
@@ -1787,8 +1789,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=1.8V, 7MHz, 90dB CMRR, Single-Supply Rail-to-Rail I/O Op Amp
+documentation=http://www.ti.com/lit/gpn/opa364
 test_refdes=X1
 model_status=test
 
@@ -1811,8 +1813,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=2.2V, 50MHz, Low-Noise Single-Supply Rail-to-Rail Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa365
 test_refdes=X1
 model_status=test
 
@@ -1835,8 +1837,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Ultra-Low Noise, Precision Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa37
 test_refdes=X1
 model_status=test
 
@@ -1859,8 +1861,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=1.8V, 2.9µA, 90kHz, Rail-to-Rail I/O Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa379
 test_refdes=X1
 model_status=test
 
@@ -1883,8 +1885,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Ultra-Low Noise, Precision Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa37
 test_refdes=X1
 model_status=test
 
@@ -1907,8 +1909,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Precision, High-Speed Transimpedance Amplifier
+documentation=http://www.ti.com/lit/gpn/opa380
 test_refdes=X1
 model_status=test
 
@@ -1931,8 +1933,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Precision, Low Power, 18MHz Transimpedance Amplifier
+documentation=http://www.ti.com/lit/gpn/opa381
 test_refdes=X1
 model_status=test
 
@@ -1955,8 +1957,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Quad High Speed Precision Difet Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa404
 test_refdes=X1
 model_status=test
 
@@ -1979,8 +1981,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Quad High Speed Precision Difet® Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa404
 test_refdes=X1
 model_status=test
 
@@ -2003,8 +2005,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Low Power, Precision FET-Input Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa4130
 test_refdes=X1
 model_status=test
 
@@ -2027,8 +2029,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=General Purpose FET-Input Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa4131
 test_refdes=X1
 model_status=test
 
@@ -2051,8 +2053,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=General Purpose FET-Input Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa4131
 test_refdes=X1
 model_status=test
 
@@ -2075,8 +2077,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High Speed FET-Input Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa4132
 test_refdes=X1
 model_status=test
 
@@ -2099,8 +2101,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Low Power, Precision Single-Supply Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa4234
 test_refdes=X1
 model_status=test
 
@@ -2123,8 +2125,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Low Power, Precision Single-Supply Operational Amplifiers
+documentation=http://www.ti.com/lit/gpn/opa4234
 test_refdes=X1
 model_status=test
 
@@ -2147,8 +2149,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High Voltage FET-Input Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa445
 test_refdes=X1
 model_status=test
 
@@ -2171,8 +2173,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High Voltage FET-Input Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa445
 test_refdes=X1
 model_status=test
 
@@ -2195,8 +2197,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High Current, High Power Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa501
 test_refdes=X1
 model_status=test
 
@@ -2219,8 +2221,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High Current, High Power Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa501
 test_refdes=X1
 model_status=test
 
@@ -2243,8 +2245,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Very High Current, High Power Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa512
 test_refdes=X1
 model_status=test
 
@@ -2267,8 +2269,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Very High Current, High Power Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa512
 test_refdes=X1
 model_status=test
 
@@ -2291,8 +2293,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High Power Monolithic Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa541
 test_refdes=X1
 model_status=test
 
@@ -2315,8 +2317,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High Power Monolithic Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa541
 test_refdes=X1
 model_status=test
 
@@ -2339,8 +2341,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High-Voltage, High-Current Operational Amplifier 
+documentation=http://www.ti.com/lit/gpn/opa544
 test_refdes=X1
 model_status=test
 
@@ -2364,8 +2366,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High-Voltage, High-Current Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa547
 test_refdes=X1
 model_status=undefined
 
@@ -2389,8 +2391,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High-Voltage, High-Current Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa548
 test_refdes=X1
 model_status=undefined
 
@@ -2414,8 +2416,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High-Voltage, High-Current Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa549
 test_refdes=X1
 model_status=undefined
 
@@ -2439,8 +2441,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High-Current, High-Speed Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa561
 test_refdes=X1
 model_status=undefined
 
@@ -2464,8 +2466,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Rail-To-Rail I/O, 2A Power Amplifier
+documentation=http://www.ti.com/lit/gpn/opa569
 test_refdes=X1
 model_status=undefined
 
@@ -2488,8 +2490,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High-Speed Precision Difet Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa602
 test_refdes=X1
 model_status=test
 
@@ -2512,8 +2514,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High-Speed Precision Difet Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa602
 test_refdes=X1
 model_status=test
 
@@ -2536,8 +2538,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=FET-Input, Low Distortion Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa604
 test_refdes=X1
 model_status=test
 
@@ -2560,8 +2562,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=FET-Input, Low Distortion Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa604
 test_refdes=X1
 model_status=test
 
@@ -2584,10 +2586,11 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=FET-Input, Low Distortion Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa6042
 test_refdes=X1
-model_status=test
+model_status=broken
+# output different from OPA604 and OPA604E
 
 
 
@@ -2608,8 +2611,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Wide-Bandwidth Difet Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa606
 test_refdes=X1
 model_status=test
 
@@ -2632,15 +2635,15 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Wide-Bandwidth Difet Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa606
 test_refdes=X1
 model_status=test
 
 
 
 # Subcircuit with 11 connections
-[OPA615_Model_TI00110]
+[OPA615_TI00110]
 symbol=opamp.sym
 value=OPA615_Model
 modelname=OPA615_Model
@@ -2657,8 +2660,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Wide-Bandwidth, DC Restoration Circuit
+documentation=http://www.ti.com/lit/gpn/opa615
 test_refdes=X1
 model_status=undefined
 
@@ -2681,8 +2684,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Precision High-Speed Difet Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa627
 test_refdes=X1
 model_status=test
 
@@ -2705,8 +2708,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Precision High-Speed Difet Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa627
 test_refdes=X1
 model_status=test
 
@@ -2729,8 +2732,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=recision High-Speed Difet Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa637
 test_refdes=X1
 model_status=test
 
@@ -2753,8 +2756,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=recision High-Speed Difet® Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa637
 test_refdes=X1
 model_status=test
 
@@ -2768,19 +2771,20 @@ file=OPA657 Rev E.sub
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=1.6GHz, Low Noise, FET-Input Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa657
 test_refdes=X1
-model_status=test
+model_status=broken
+# unknown card .PARAM
 
 
 
@@ -2802,8 +2806,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=SpeedPlus Wideband, Current Feedback Operational Amplifier with Disable
+documentation=http://www.ti.com/lit/gpn/opa681
 test_refdes=X1
 model_status=undefined
 
@@ -2827,8 +2831,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Ultra-Wideband, Fixed Gain Video Buffer Amplifier with Disable
+documentation=http://www.ti.com/lit/gpn/opa693
 test_refdes=X1
 model_status=undefined
 
@@ -2842,20 +2846,21 @@ file=OPA694.txt
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Wideband, Low Power, Current Feedback Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa694
 test_refdes=X1
 model_status=test
-
+# ngspice patches required
+# what is a "V" device
 
 
 # Subcircuit with 6 connections
@@ -2876,8 +2881,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Ultra-Wideband, Current-Feedback Operational Amplifier With Disable
+documentation=http://www.ti.com/lit/gpn/opa695
 test_refdes=X1
 model_status=undefined
 
@@ -2901,8 +2906,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Unity Gain Stable, Wideband Voltage Limiting Amplifier
+documentation=http://www.ti.com/lit/gpn/opa698
 test_refdes=X1
 model_status=undefined
 
@@ -2926,8 +2931,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Wideband, High Gain Voltage Limiting Amplifier
+documentation=http://www.ti.com/lit/gpn/opa699
 test_refdes=X1
 model_status=undefined
 
@@ -2950,10 +2955,10 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=CMOS, Rail-to-Rail, I/O Op Amp
+documentation=http://www.ti.com/lit/gpn/opa703
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -2974,10 +2979,10 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=CMOS, Rail-to-Rail, I/O Op Amp
+documentation=http://www.ti.com/lit/gpn/opa704
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -2998,10 +3003,10 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Very Low-Noise, High-Speed, 12V CMOS Op Amp
+documentation=http://www.ti.com/lit/gpn/opa725
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -3023,8 +3028,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Very Low-Noise, High-Speed, 12V CMOS Op Amp
+documentation=http://www.ti.com/lit/gpn/opa726
 test_refdes=X1
 model_status=undefined
 
@@ -3047,10 +3052,10 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=20MHz, High Precision CMOS Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa727
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -3072,8 +3077,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=20MHz, High Precision CMOS Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa728
 test_refdes=X1
 model_status=undefined
 
@@ -3097,8 +3102,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=0.05µV/°C max, Single-Supply CMOS Operational Amplifier Zero-Drift
+documentation=http://www.ti.com/lit/gpn/opa734
 test_refdes=X1
 model_status=undefined
 
@@ -3121,10 +3126,10 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=0.05µV/°C max, Single-Supply CMOS Operational Amplifier Zero-Drift
+documentation=http://www.ti.com/lit/gpn/opa735
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -3145,10 +3150,10 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=CMOS, Rail-to-Rail, I/O Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa743
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -3160,19 +3165,19 @@ file=OPA820 Rev B.txt
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Unity-Gain Stable, Low-Noise, Voltage-Feedback Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa820
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -3193,10 +3198,10 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Wideband Low Distortion Unity-Gain Stable Voltage-Feedback Op Amp
+documentation=http://www.ti.com/lit/gpn/opa842
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -3217,14 +3222,14 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Wideband, Low Distortion, Medium Gain, Voltage-Feedback Operational Amp
+documentation=http://www.ti.com/lit/gpn/opa843
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
-[OPA846_Model_TI00134]
+[OPA846_TI00134]
 symbol=opamp.sym
 value=OPA846_Model
 modelname=OPA846_Model
@@ -3232,24 +3237,24 @@ file=OPA846_Model.sub
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Wideband, Low Noise, Voltage-Feedback Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa846
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 # Subcircuit with 6 connections
-[OPA847_Model_TI00135]
+[OPA847_TI00135]
 symbol=opamp.sym
 value=OPA847_Model
 modelname=OPA847_Model
@@ -3266,15 +3271,15 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Wideband, Ultra Low-Noise, Voltage-Feedback Operational Amplifier with Shutdown
+documentation=http://www.ti.com/lit/gpn/opa847
 test_refdes=X1
 model_status=undefined
 
 
 
 # Subcircuit with 6 connections
-[OPA861_Model_TI00136]
+[OPA861_TI00136]
 symbol=opamp.sym
 value=OPA861_Model
 modelname=OPA861_Model
@@ -3291,15 +3296,15 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Wide Bandwidth Operational Transconductance Amplifier
+documentation=http://www.ti.com/lit/gpn/opa861
 test_refdes=X1
 model_status=undefined
 
 
 
 # Subcircuit with 6 connections
-[OPAx691_Model_TI00137]
+[OPAx691_TI00137]
 symbol=opamp.sym
 value=OPAx691_Model
 modelname=OPAx691_Model
@@ -3316,15 +3321,15 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Dual Wideband, Current-Feedback Operational Amplifier With Disable
+documentation=http://www.ti.com/lit/gpn/opa2691
 test_refdes=X1
 model_status=undefined
 
 
 
 # Subcircuit with 6 connections
-[OPAx83x_Model_TI00138]
+[OPAx83x_TI00138]
 symbol=opamp.sym
 value=OPAx83x_Model
 modelname=OPAx83x_Model
@@ -3341,8 +3346,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Dual, Low-Power, High-Speed, Fixed-Gain Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa2832
 test_refdes=X1
 model_status=undefined
 
@@ -3350,7 +3355,7 @@ model_status=undefined
 
 # Subcircuit with 8 connections
 [OPAx875_TI00139]
-symbol=opamp.sym
+symbol=.sym
 value=OPAx875
 modelname=OPAx875
 file=OPAx875_Model.sub
@@ -3366,15 +3371,15 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Triple 2:1 High-Speed Video Multiplexer
+documentation=http://www.ti.com/lit/gpn/opa3875
 test_refdes=X1
 model_status=undefined
 
 
 
 # Subcircuit with 6 connections
-[OPAx889_Model_TI00140]
+[OPAx889_TI00140]
 symbol=opamp.sym
 value=OPAx889_Model
 modelname=OPAx889_Model
@@ -3391,15 +3396,15 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Dual, Low-Power, Wideband, Voltage-Feedback OPERATIONAL AMPLIFIER with Disable
+documentation=http://www.ti.com/lit/gpn/opa2889
 test_refdes=X1
 model_status=undefined
 
 
 
 # Subcircuit with 6 connections
-[OPAx890_Model_TI00141]
+[OPAx890_TI00141]
 symbol=opamp.sym
 value=OPAx890_Model
 modelname=OPAx890_Model
@@ -3420,7 +3425,7 @@ description=TBD1
 documentation=TBD2
 test_refdes=X1
 model_status=undefined
-
+# not found on ti homepage
 
 
 # Subcircuit with 8 connections
@@ -3441,8 +3446,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High-Performance, Fully-Differential Audio Op Amp
+documentation=http://www.ti.com/lit/gpn/opa1632
 test_refdes=X1
 model_status=undefined
 
@@ -3466,8 +3471,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Low-Noise, High-Speed,16-Bit Accurate, CMOS Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa300
 test_refdes=X1
 model_status=undefined
 
@@ -3490,10 +3495,10 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Low-Noise, High-Speed,16-Bit Accurate, CMOS Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa301
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -3515,8 +3520,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=6.5MHz, 585uA, Rail-to-Rail I/O CMOS Op Amp
+documentation=http://www.ti.com/lit/gpn/opa373
 test_refdes=X1
 model_status=undefined
 
@@ -3539,10 +3544,10 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=6.5MHz, 585uA, Rail-to-Rail I/O CMOS Op Amp
+documentation=http://www.ti.com/lit/gpn/opa374
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -3564,8 +3569,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=80V, 50mA Operational Amplifiers
+documentation=http://www.ti.com/lit/gpn/opa452
 test_refdes=X1
 model_status=undefined
 
@@ -3589,8 +3594,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=80V, 50mA Operational Amplifiers
+documentation=http://www.ti.com/lit/gpn/opa453
 test_refdes=X1
 model_status=undefined
 
@@ -3614,8 +3619,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High-Voltage, High-Current Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa551
 test_refdes=X1
 model_status=undefined
 
@@ -3639,8 +3644,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=High-Voltage, High-Current Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa552
 test_refdes=X1
 model_status=undefined
 
@@ -3663,8 +3668,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Wideband, Unity Gain Stable, FET-Input Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa656
 test_refdes=X1
 model_status=test
 
@@ -3688,8 +3693,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Dual, Wideband, High Output Current Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa2677
 test_refdes=X1
 model_status=undefined
 
@@ -3713,8 +3718,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Very Low-Power, Current Feedback Operational Amplifier with Disable
+documentation=http://www.ti.com/lit/gpn/opa683
 test_refdes=X1
 model_status=undefined
 
@@ -3738,8 +3743,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Wideband, Voltage Feeback Operational Amplifier With Disable
+documentation=http://www.ti.com/lit/gpn/opa690
 test_refdes=X1
 model_status=undefined
 
@@ -3763,8 +3768,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Ultra Wideband, Fixed Gain Video Buffer Amplifier with Disable
+documentation=http://www.ti.com/lit/gpn/opa692
 test_refdes=X1
 model_status=undefined
 
@@ -3788,8 +3793,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Low-Power, Current Feedback Operational Amplifier With Disable
+documentation=http://www.ti.com/lit/gpn/opa684
 test_refdes=X1
 model_status=undefined
 
@@ -3812,10 +3817,10 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Dual, 700MHz, Voltage-Feedback Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa2652
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -3836,8 +3841,8 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
-documentation=TBD2
+description=Dual Wideband, Low-Noise Operational Amplifier
+documentation=http://www.ti.com/lit/gpn/opa2822
 test_refdes=X1
 model_status=test
 

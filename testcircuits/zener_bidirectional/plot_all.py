@@ -21,7 +21,7 @@ def plot_forward_voltage():
         if numpy.any(y<0.0) or numpy.any(y>200.0):
             print "forward voltage out of expected range [0.0, 200.0]"
             ret = 1
-        pylab.semilogy(y,-x,label = labels[n])
+        pylab.semilogy(y,-x*1000.0,label = labels[n])
     pylab.ylabel("If [mA]")
     pylab.xlabel("Uf [V]")
     pylab.grid()
@@ -37,7 +37,7 @@ def plot_forward_voltage():
         if numpy.any(-y<0.0) or numpy.any(-y>200.0):
             print "reverse voltage out of expected range [0.0, 200.0]"
             ret = 2
-        pylab.semilogy(-y,x,label = labels[n])
+        pylab.semilogy(-y,x*1000.0,label = labels[n])
     pylab.ylabel("Ir [mA]")
     pylab.xlabel("Ur [V]")
     pylab.grid()
