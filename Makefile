@@ -77,8 +77,12 @@ create_nxp_bipolar:
 create_nxp_diodes:
 	rm -rf $(MODEL_LIBDIR)/nxp/diodes
 	mkdir -p $(MODEL_LIBDIR)/nxp/diodes
-	scripts/fix_trailing_newline.py $(TEMPDIR)/nxp/diodes/*
 	cp $(TEMPDIR)/nxp/diodes/* $(MODEL_LIBDIR)/nxp/diodes
+	scripts/fix_trailing_newline.py $(MODEL_LIBDIR)/nxp/diodes/*
+	patch -d $(MODEL_LIBDIR)/nxp/diodes/ -p1 < $(MODEL_PATCHDIR)/nxp_diodes.patch
+	scripts/replace_string.py BZX384-B BZX384B $(MODEL_LIBDIR)/nxp/diodes/BZX384-B*.prm
+	scripts/replace_string.py BZX585-B BZX585B $(MODEL_LIBDIR)/nxp/diodes/BZX585-B*.prm
+	scripts/replace_string.py BZX884-B BZX884B $(MODEL_LIBDIR)/nxp/diodes/BZX884-B*.prm
 	md5sum $(MODEL_LIBDIR)/nxp/diodes/* >$(MODEL_SIGDIR)/nxp_diodes_lib.md5sum
 
 test_nxp_bipolar:
