@@ -24,7 +24,7 @@ ROW_TEMPLATE = """
     <td bgcolor="$checksum_test_color">$checksum_test</td>
     <td bgcolor="$model_status_color">$model_status</td>
     <td bgcolor="$model_test_color">$model_test</td>
-    <td>$description</td>
+    <td>$description $documentation2</td>
 </tr> """
 
 COLORS = {"broken": "#FF3F3F",
@@ -204,9 +204,12 @@ def test_library(indexfilename, runtests=False, status_list=["test","good","brok
         repl["partname"] = sec
         repl["model_test"] = "---"
         repl["test_result"] = "---"
+        repl["documentation2"] = ""
         if repl.has_key("documentation"):
             if (len(repl["documentation"]) > 10) and (repl["documentation"][:4] == "http"):
-                repl["documentation"] = '<a href="'+ repl["documentation"]+'">'+repl["documentation"]+'</a>'
+                doc = repl["documentation"]
+                repl["documentation"] = '<a href="'+ doc +'">'+doc+'</a>'
+                repl["documentation2"] = '<a href="'+ doc +'">(d) </a>'
         if runtests:
             if repl["model_status"] in status_list:
                 print "\n" + "*"*75
