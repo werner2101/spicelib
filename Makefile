@@ -71,7 +71,24 @@ create_nxp_bipolar:
 	mkdir -p $(MODEL_LIBDIR)/nxp/bipolar
 	cp $(TEMPDIR)/nxp/bipolar/* $(MODEL_LIBDIR)/nxp/bipolar
 	scripts/fix_trailing_newline.py $(MODEL_LIBDIR)/nxp/bipolar/*
-	patch -d $(MODEL_LIBDIR) -p1 < $(MODEL_PATCHDIR)/nxp_bipolar.patch
+	scripts/replace_string.py BC327-25 BC327_25 $(MODEL_LIBDIR)/nxp/bipolar/BC327-25.prm
+	scripts/replace_string.py BC327-40 BC327_40 $(MODEL_LIBDIR)/nxp/bipolar/BC327-40.prm
+	scripts/replace_string.py QBC337-16 QBC337_16 $(MODEL_LIBDIR)/nxp/bipolar/BC337-16.prm
+	scripts/replace_string.py QBC337-25 QBC337_25 $(MODEL_LIBDIR)/nxp/bipolar/BC337-25.prm
+	scripts/replace_string.py QBC337-40 QBC337_40 $(MODEL_LIBDIR)/nxp/bipolar/BC337-40.prm
+	scripts/replace_string.py QBC807-25 QBC807_25 $(MODEL_LIBDIR)/nxp/bipolar/BC807-25.prm
+	scripts/replace_string.py QBC807-25W QBC807_25W $(MODEL_LIBDIR)/nxp/bipolar/BC807-25W.prm
+	scripts/replace_string.py QBC807-40 QBC807_40 $(MODEL_LIBDIR)/nxp/bipolar/BC807-40.prm
+	scripts/replace_string.py QBC807-40W QBC807_40W $(MODEL_LIBDIR)/nxp/bipolar/BC807-40W.prm
+	scripts/replace_string.py QBC817-16 QBC817_16 $(MODEL_LIBDIR)/nxp/bipolar/BC817-16.prm
+	scripts/replace_string.py QBC817-16W QBC817_16W $(MODEL_LIBDIR)/nxp/bipolar/BC817-16W.prm
+	scripts/replace_string.py QBC817-25 QBC817_25 $(MODEL_LIBDIR)/nxp/bipolar/BC817-25.prm
+	scripts/replace_string.py QBC817-25W QBC817_25W $(MODEL_LIBDIR)/nxp/bipolar/BC817-25W.prm
+	scripts/replace_string.py QBC817-40 QBC817_40 $(MODEL_LIBDIR)/nxp/bipolar/BC817-40.prm
+	scripts/replace_string.py QBC817-40W QBC817_40W $(MODEL_LIBDIR)/nxp/bipolar/BC817-40W.prm
+	scripts/replace_string.py QBCP54-16 QBCP54_16 $(MODEL_LIBDIR)/nxp/bipolar/BCP54-16.prm
+	scripts/replace_string.py QBCP55-16 QBCP55_16 $(MODEL_LIBDIR)/nxp/bipolar/BCP55-16.prm
+	scripts/replace_string.py QBCP56-16 QBCP56_16 $(MODEL_LIBDIR)/nxp/bipolar/BCP56-16.prm
 	md5sum $(MODEL_LIBDIR)/nxp/bipolar/* >$(MODEL_SIGDIR)/nxp_bipolar_lib.md5sum
 
 create_nxp_diodes:

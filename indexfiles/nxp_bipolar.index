@@ -346,9 +346,7 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=X1
-model_status=broken
-# bjt model not connected to the subciruit
-# diode not connected too
+model_status=good
 
 
 [2PD601AR_NXP00020]
@@ -1164,8 +1162,6 @@ test_refdes=Q1
 model_status=good
 
 
-## subcircuit and model have the same name
-## missing subcircuit .ENDS statement
 [BC847BM_NXP00065]
 symbol=npn.sym
 value=BC847BM
@@ -1173,15 +1169,15 @@ modelname=BC847BM
 file=BC847BM.prm
 refdes=X?
 pinseq_c=3
-pinseq_b=2
-pinseq_e=1
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 # complementary npn/pnp transistor
@@ -1441,7 +1437,6 @@ test_refdes=Q1
 model_status=good
 
 
-## subcircuit and model have the same name
 [BC856A_NXP00080]
 symbol=pnp.sym
 value=BC856A
@@ -1457,7 +1452,7 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 [BC8567AT_NXP00081]
@@ -1659,8 +1654,6 @@ test_refdes=Q1
 model_status=good
 
 
-## subcircuit and model have the same name
-## subcircuit .ENDS statement missing
 [BC857BM_NXP00092]
 symbol=pnp.sym
 value=BC857BM
@@ -1676,7 +1669,7 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 [BC857B_NXP00093]
@@ -1966,7 +1959,8 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=good
+model_status=broken
+# wrong .ENDS card
 
 
 [BCP53-16_NXP00109]
@@ -1984,7 +1978,8 @@ pinnr_e=E
 footprint=none
 description=TBD
 test_refdes=Q1
-model_status=good
+model_status=broken
+# wrong .ENDS card
 
 
 [BCP54-16_NXP00110]
@@ -13537,4 +13532,24 @@ footprint=none
 description=npn transistor with 4 pins
 test_refdes=X1
 model_status=undefined
+
+
+
+[PBSS4520X_NXP00712]
+symbol=npn.sym
+value=PBSS4520X
+modelname=PBSS4520X
+file=PBSS4520X.prm
+refdes=X?
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
+pinnr_c=C
+pinnr_b=B
+pinnr_e=E
+footprint=none
+description=TBD
+test_refdes=X1
+model_status=good
+
 

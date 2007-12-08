@@ -1,4 +1,4 @@
-7a749f2084930b2f7e83ccb2a0c98159  downloads/nxp/SST.zip
+bb42fe563055084fe3c94ca48798f111  downloads/nxp/SST.zip
 20ce2f718bda5ef4ee43e1cc55a7aaae  unpack/nxp/bipolar/2PA1576Q.prm
 700cd0bf5d57931579f646e61aaa22c1  unpack/nxp/bipolar/2PA1576R.prm
 fc62db2a0c6515ae1a1d998ea0e4630b  unpack/nxp/bipolar/2PA1576S.prm
@@ -17,7 +17,7 @@ aa4d4749d81d22aa0b46a7db1dde66e6  unpack/nxp/bipolar/2PB709ART.prm
 cb208c962fb745f7149df2d0d26f17ca  unpack/nxp/bipolar/2PC4081S.prm
 137662af17248e5e7f5459016400f572  unpack/nxp/bipolar/2PC4617Q.prm
 407a5d7e6036ff695283e8408986ec09  unpack/nxp/bipolar/2PC4617R.prm
-5cc5675741f061e1a7d378da44ea4156  unpack/nxp/bipolar/2PD2150.prm
+fad3aa9b7941ff33d5834f02861cb3c2  unpack/nxp/bipolar/2PD2150.prm
 eb5832d6564dcd4f1f2440192a3f8cc7  unpack/nxp/bipolar/2PD601AR.prm
 d47aa4eb9f139c018b91b6eb9401598c  unpack/nxp/bipolar/2PD601ART.prm
 45b13ecc2a0be6ee6992b7c36dce131f  unpack/nxp/bipolar/2PD601ARW.prm
@@ -63,7 +63,7 @@ fe0ed6186299f01e7ec34056013d3e21  unpack/nxp/bipolar/BC846W.prm
 5553e8b25f4ca4635dde999cc8602979  unpack/nxp/bipolar/BC847A.prm
 b3fb136ba067f727bfc355331307f4da  unpack/nxp/bipolar/BC847AT.prm
 a17701af94e1a2ddc4361527cd0560d2  unpack/nxp/bipolar/BC847AW.prm
-8e2db31e0ba35e24ef910ef0d22d0b5d  unpack/nxp/bipolar/BC847BM.prm
+d3b005817e18f813a9efc83262a69a56  unpack/nxp/bipolar/BC847BM.prm
 9fa4af4012ac1aa08939ab5179622e83  unpack/nxp/bipolar/BC847BPN.prm
 ce5de5729dbeac799dc926d674402013  unpack/nxp/bipolar/BC847B.prm
 738568dcdd464c5773b523e03a05a000  unpack/nxp/bipolar/BC847BS.prm
@@ -78,7 +78,7 @@ bb0fdae5812c6fdd17a91e7805eb2d5c  unpack/nxp/bipolar/BC847.prm
 5c2cf7ed270ee1f248443268d8babef5  unpack/nxp/bipolar/BC847W.prm
 ae8a2e1f84498c798980856a2a7b6892  unpack/nxp/bipolar/BC848B.prm
 44d7023d34fdab9375ef9ed02f132e09  unpack/nxp/bipolar/BC848W.prm
-b4c519827f95922a7bc63b50301a836f  unpack/nxp/bipolar/BC856A.prm
+54c8433d4818822658edcaea0bc82836  unpack/nxp/bipolar/BC856A.prm
 34058b163e0dde4cf58058138e360905  unpack/nxp/bipolar/BC856AT.prm
 3d769f12c7aa52d5316e31fc550ea9d0  unpack/nxp/bipolar/BC856AW.prm
 59d8e141247b90f2e009419705257a71  unpack/nxp/bipolar/BC856B.prm
@@ -90,7 +90,7 @@ a9a55fa531fe3f9e7007d6e2c9b67546  unpack/nxp/bipolar/BC856BW.prm
 9e8fe1f5376747e79588e3358f40f41a  unpack/nxp/bipolar/BC857A.prm
 e881db35f29e356fb0b12bc527485875  unpack/nxp/bipolar/BC857AT.prm
 5b3ee39f12a95739687bf5fd38751508  unpack/nxp/bipolar/BC857AW.prm
-8da52e97568463c13926e53581a6f28a  unpack/nxp/bipolar/BC857BM.prm
+67c079d64876c21c26b7673c1d1a25de  unpack/nxp/bipolar/BC857BM.prm
 dbf4e92eb4616ddf8427a2133e790f17  unpack/nxp/bipolar/BC857B.prm
 7ddee0bfac758b11557647d87467b27b  unpack/nxp/bipolar/BC857BS.prm
 a6bca60fb49dc066ba474a5d2f214560  unpack/nxp/bipolar/BC857BT.prm
@@ -106,8 +106,8 @@ fa61ad7aaf65839aeba4e2ba2ec0025a  unpack/nxp/bipolar/BC858B.prm
 606b72f6a64aa4cd0c6033e548f243a2  unpack/nxp/bipolar/BC868.prm
 167f72d2cddc2f4512986216be4c730f  unpack/nxp/bipolar/BC869.prm
 65602b60e39ad1ceec6fcd252bf90d46  unpack/nxp/bipolar/BCP51.prm
-e5436678e79a864d047de595c747978d  unpack/nxp/bipolar/BCP52-16.prm
-eacf635f117c81119abd4ebe9def5142  unpack/nxp/bipolar/BCP53-16.prm
+db929e909c315b865c8beb471e20e21d  unpack/nxp/bipolar/BCP52-16.prm
+c92236168eac3b3aacd4c92313b4f5cd  unpack/nxp/bipolar/BCP53-16.prm
 f76e9402bbd9c3c9b001b2e83bb329bb  unpack/nxp/bipolar/BCP54-16.prm
 eebba40ea1e68573a0b24b0d1e7382fd  unpack/nxp/bipolar/BCP55-16.prm
 288e4f341c27171d7a392ef572d2ae82  unpack/nxp/bipolar/BCP56-16.prm
@@ -259,6 +259,7 @@ acd83bb70153b21efbf9cff882fbd987  unpack/nxp/bipolar/PBSS4330X.prm
 0062275f858654c5c72152d4e3336129  unpack/nxp/bipolar/PBSS4350Z.prm
 a36b764f40d8eef3d3059523a18bd83a  unpack/nxp/bipolar/PBSS4420D.prm
 e5c610500de4f5ff690f23f6a4899ba0  unpack/nxp/bipolar/PBSS4440D.prm
+abc253e52a3bfa72b7e5c9c94fa58a3a  unpack/nxp/bipolar/PBSS4520X.prm
 bbb2bfd82574845b52398622912d189e  unpack/nxp/bipolar/PBSS4540X.prm
 3582889c33a62d6a3fa736f4a386e79a  unpack/nxp/bipolar/PBSS4540Z.prm
 babdea6b2a51afae07bb5713c4ed3045  unpack/nxp/bipolar/PBSS5120T.prm
