@@ -6078,8 +6078,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
+description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -6098,8 +6098,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
+description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -6118,8 +6118,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
+description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -6138,8 +6138,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
+description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -6158,8 +6158,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
+description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -6178,8 +6178,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
+description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -6198,8 +6198,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
+description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -6218,8 +6218,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
+description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -6238,8 +6238,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
+description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -6258,8 +6258,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
+description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -6278,8 +6278,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
+description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -6298,8 +6298,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
+description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -6318,8 +6318,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
+description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -6338,8 +6338,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
+description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -6358,8 +6358,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
+description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -6378,8 +6378,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
+description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -6398,8 +6398,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
+description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -6418,8 +6418,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
+description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -6438,8 +6438,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
+description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -6458,8 +6458,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
+description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -6478,8 +6478,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
+description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -6498,8 +6498,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
+description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -6518,8 +6518,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
+description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -6538,8 +6538,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
+description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -6558,8 +6558,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
+description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -6578,8 +6578,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
+description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -6598,8 +6598,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -6618,8 +6618,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -6638,8 +6638,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -6658,8 +6658,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -6678,8 +6678,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -6698,8 +6698,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -6718,8 +6718,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status=good
 
@@ -6738,8 +6738,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status=good
 
@@ -6758,8 +6758,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status=good
 
@@ -6778,8 +6778,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status=good
 
@@ -6798,8 +6798,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status=good
 
@@ -6818,8 +6818,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status=good
 
@@ -6838,8 +6838,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
+description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -6858,8 +6858,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
+description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -6878,8 +6878,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
+description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -6898,8 +6898,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
+description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -6918,8 +6918,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
+description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -6938,8 +6938,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
+description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -6958,8 +6958,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -6978,8 +6978,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -6998,8 +6998,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -7018,8 +7018,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -7038,8 +7038,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -7058,8 +7058,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -7078,8 +7078,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -7098,8 +7098,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -7118,8 +7118,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -7138,8 +7138,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -7158,8 +7158,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -7178,8 +7178,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7198,8 +7198,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7218,8 +7218,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7238,8 +7238,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7258,8 +7258,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7278,8 +7278,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -7298,8 +7298,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -7318,8 +7318,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -7338,8 +7338,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -7358,8 +7358,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -7378,8 +7378,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -7398,8 +7398,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -7418,8 +7418,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7438,8 +7438,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7458,8 +7458,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7478,8 +7478,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7498,8 +7498,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7518,8 +7518,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7538,8 +7538,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -7558,8 +7558,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -7578,8 +7578,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -7598,8 +7598,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -7618,8 +7618,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -7638,8 +7638,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -7658,8 +7658,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status=good
 
@@ -7678,8 +7678,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status=good
 
@@ -7698,8 +7698,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status=good
 
@@ -7718,8 +7718,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status=good
 
@@ -7738,8 +7738,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status=good
 
@@ -7758,8 +7758,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status=good
 
@@ -7778,8 +7778,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7798,8 +7798,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7818,8 +7818,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7838,8 +7838,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7858,8 +7858,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7878,8 +7878,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7898,8 +7898,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -7918,8 +7918,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -7939,8 +7939,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resisitors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -7959,8 +7959,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -7979,8 +7979,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -7999,8 +7999,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8019,8 +8019,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8039,8 +8039,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -8059,8 +8059,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -8079,8 +8079,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -8099,8 +8099,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -8119,8 +8119,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -8139,8 +8139,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
+description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -8159,8 +8159,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -8179,8 +8179,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -8199,8 +8199,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -8219,8 +8219,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -8239,8 +8239,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -8259,8 +8259,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -8279,8 +8279,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -8299,8 +8299,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -8319,8 +8319,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -8339,8 +8339,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -8359,8 +8359,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -8379,8 +8379,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -8399,8 +8399,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -8419,8 +8419,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8439,8 +8439,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8459,8 +8459,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8479,8 +8479,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8499,8 +8499,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8519,8 +8519,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
+description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8539,8 +8539,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -8559,8 +8559,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -8579,8 +8579,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -8599,8 +8599,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -8619,8 +8619,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -8639,8 +8639,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA323TK_1.pdf
+description=PNP 500 mA, 15 V resistor-equipped transistor; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -8659,8 +8659,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTB113E_SER_1.pdf
+description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -8679,8 +8679,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTB113E_SER_1.pdf
+description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -8699,8 +8699,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTB113E_SER_1.pdf
+description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -8719,8 +8719,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTB113Z_SER_1.pdf
+description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8739,8 +8739,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTB113Z_SER_1.pdf
+description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8759,8 +8759,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTB113Z_SER_1.pdf
+description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8779,8 +8779,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTB123E_SER_1.pdf
+description=PNP 500 mA, 50 V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -8799,8 +8799,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTB123E_SER_1.pdf
+description=PNP 500 mA, 50 V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -8819,8 +8819,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTB123E_SER_1.pdf
+description=PNP 500 mA, 50 V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -8839,8 +8839,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTB123T_SER_2.pdf
+description=PNP 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -8859,8 +8859,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTB123T_SER_2.pdf
+description=PNP 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -8879,8 +8879,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTB123T_SER_2.pdf
+description=PNP 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -8899,8 +8899,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8919,8 +8919,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8939,8 +8939,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8959,8 +8959,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8979,8 +8979,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -8999,8 +8999,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -9019,8 +9019,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -9039,8 +9039,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -9059,8 +9059,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -9079,8 +9079,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -9099,8 +9099,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9119,8 +9119,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9139,8 +9139,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9159,8 +9159,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9179,8 +9179,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9199,8 +9199,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9219,8 +9219,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9239,8 +9239,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9259,8 +9259,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9279,8 +9279,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9299,8 +9299,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9319,8 +9319,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9339,8 +9339,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9359,8 +9359,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9379,8 +9379,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status=good
 
@@ -9399,8 +9399,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status=good
 
@@ -9419,8 +9419,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status=good
 
@@ -9439,8 +9439,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status=good
 
@@ -9459,8 +9459,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status=good
 
@@ -9479,8 +9479,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status=good
 
@@ -9499,8 +9499,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
+description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9519,8 +9519,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
+description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9539,8 +9539,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
+description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9559,8 +9559,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
+description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9579,8 +9579,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
+description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9599,8 +9599,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
+description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9619,8 +9619,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -9639,8 +9639,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -9659,8 +9659,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -9679,8 +9679,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -9699,8 +9699,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -9719,8 +9719,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -9739,8 +9739,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9759,8 +9759,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9779,8 +9779,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9799,8 +9799,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9819,8 +9819,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9839,8 +9839,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9859,8 +9859,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -9879,8 +9879,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9899,8 +9899,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9919,8 +9919,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9939,8 +9939,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9959,8 +9959,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
+description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -9979,8 +9979,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -9999,8 +9999,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -10019,8 +10019,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -10039,8 +10039,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -10059,8 +10059,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=broken
 # model definition name different from usage
@@ -10080,8 +10080,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
+description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -10100,8 +10100,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -10120,8 +10120,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -10140,8 +10140,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -10160,8 +10160,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=2 npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status=undefined
 
@@ -10180,8 +10180,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -10200,8 +10200,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -10220,8 +10220,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -10240,8 +10240,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -10260,8 +10260,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -10280,8 +10280,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -10300,8 +10300,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -10320,8 +10320,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -10340,8 +10340,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -10360,8 +10360,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -10380,8 +10380,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -10400,8 +10400,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -10420,8 +10420,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -10440,8 +10440,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
+description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -10460,8 +10460,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status=good
 
@@ -10480,8 +10480,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status=good
 
@@ -10500,8 +10500,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status=good
 
@@ -10520,8 +10520,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status=good
 
@@ -10540,8 +10540,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status=good
 
@@ -10560,8 +10560,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status=good
 
@@ -10580,8 +10580,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -10600,8 +10600,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -10620,8 +10620,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -10640,8 +10640,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -10660,8 +10660,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -10680,8 +10680,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -10700,8 +10700,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -10720,8 +10720,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -10740,8 +10740,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -10760,8 +10760,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -10780,8 +10780,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -10800,8 +10800,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -10820,8 +10820,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -10840,8 +10840,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -10860,8 +10860,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -10880,8 +10880,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -10900,8 +10900,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn/pnp transitor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status=undefined
 
@@ -10920,8 +10920,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -10940,8 +10940,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -10960,8 +10960,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -10980,8 +10980,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -11000,8 +11000,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -11020,8 +11020,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -11040,8 +11040,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=2 npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=undefined
 
@@ -11060,8 +11060,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -11080,8 +11080,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -11100,8 +11100,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status=good
 
@@ -11120,8 +11120,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -11140,8 +11140,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -11160,8 +11160,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -11180,8 +11180,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -11200,8 +11200,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -11220,8 +11220,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -11240,8 +11240,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -11260,8 +11260,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -11280,8 +11280,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -11300,8 +11300,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -11320,8 +11320,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -11340,8 +11340,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -11360,8 +11360,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -11380,8 +11380,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -11400,8 +11400,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -11420,8 +11420,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -11440,8 +11440,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -11460,8 +11460,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
+description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status=good
 
@@ -11480,8 +11480,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTC323TK_1.pdf
+description=NPN 500mA, 15V resistor-equipped transistor; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -11500,8 +11500,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD113E_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -11520,8 +11520,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD113E_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -11540,8 +11540,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD113E_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -11560,8 +11560,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD113Z_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -11580,8 +11580,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD113Z_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -11600,8 +11600,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD113Z_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -11620,8 +11620,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD123E_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -11640,8 +11640,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD123E_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -11660,8 +11660,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD123E_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -11680,8 +11680,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD123T_SER_2.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -11700,8 +11700,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD123T_SER_2.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -11720,8 +11720,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with base resistor
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD123T_SER_2.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status=good
 
@@ -11740,8 +11740,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -11760,8 +11760,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -11780,8 +11780,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
+description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -12806,8 +12806,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PH2369_4.pdf
+description=NPN switching transistor
 test_refdes=X1
 model_status=good
 
@@ -12929,8 +12929,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT2369_4.pdf
+description=NPN switching transistor
 test_refdes=X1
 model_status=good
 
@@ -12949,8 +12949,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT2907_PMBT2907A_5.pdf
+description=PNP switching transistors
 test_refdes=Q1
 model_status=good
 
@@ -12969,8 +12969,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT2907_PMBT2907A_5.pdf
+description=PNP switching transistors
 test_refdes=Q1
 model_status=good
 
@@ -12989,8 +12989,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT3904_4.pdf
+description=NPN switching transistor
 test_refdes=X1
 model_status=good
 
@@ -13009,8 +13009,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT3906_N_5.pdf
+description=PNP switching transistor
 test_refdes=Q1
 model_status=good
 
@@ -13029,8 +13029,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT4401_4.pdf
+description=NPN switching transistor
 test_refdes=X1
 model_status=good
 
@@ -13049,8 +13049,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT4403_4.pdf
+description=PNP switching transistor
 test_refdes=Q1
 model_status=good
 
@@ -13069,8 +13069,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT5401_4.pdf
+description=PNP high-voltage transistor
 test_refdes=Q1
 model_status=good
 
@@ -13089,8 +13089,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT5550_4.pdf
+description=NPN high-voltage transistor
 test_refdes=Q1
 model_status=good
 
@@ -13109,8 +13109,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT5551_4.pdf
+description=NPN high-voltage transistor
 test_refdes=Q1
 model_status=good
 
@@ -13129,8 +13129,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT6428_PMBT6429_4.pdf
+description=NPN general purpose transistor
 test_refdes=X1
 model_status=good
 
@@ -13149,8 +13149,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBTA06_5.pdf
+description=NPN general purpose transistor
 test_refdes=X1
 model_status=good
 
@@ -13169,8 +13169,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn darlington transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBTA13_PMBTA14_5.pdf
+description=NPN Darlington transistor
 test_refdes=X1
 model_status=good
 
@@ -13189,8 +13189,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn darlington transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBTA13_PMBTA14_5.pdf
+description=NPN Darlington transistor
 test_refdes=X1
 model_status=good
 
@@ -13210,8 +13210,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=2 npn transistors
+documentation=http://www.nxp.com/acrobat/datasheets/PMBTA42DS_1.pdf
+description=NPN/NPN high-voltage double transistors
 test_refdes=X1
 model_status=undefined
 
@@ -13230,8 +13230,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBTA42_4.pdf
+description=NPN high-voltage transistor
 test_refdes=X1
 model_status=good
 
@@ -13250,8 +13250,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn darlington transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBTA64_6.pdf
+description=PNP Darlington transistor
 test_refdes=X1
 model_status=good
 
@@ -13270,8 +13270,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBTA92_5.pdf
+description=PNP high-voltage transistor
 test_refdes=X1
 model_status=good
 
@@ -13290,8 +13290,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMMT491A_5.pdf
+description=NPN BISS transistor
 test_refdes=X1
 model_status=good
 
@@ -13310,8 +13310,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMMT591A_5.pdf
+description=PNP BISS transistor
 test_refdes=X1
 model_status=good
 
@@ -13330,8 +13330,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMSS3906_4.pdf
+description=PNP switching transistor
 test_refdes=Q1
 model_status=good
 
@@ -13350,8 +13350,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST2222_2222A_2.pdf
+description=NPN switching transistor
 test_refdes=Q1
 model_status=good
 
@@ -13370,8 +13370,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST2222_2222A_2.pdf
+description=NPN switching transistor
 test_refdes=Q1
 model_status=good
 
@@ -13390,8 +13390,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST2369_3.pdf
+description=NPN switching transistor
 test_refdes=Q1
 model_status=good
 
@@ -13410,8 +13410,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST2907A_3.pdf
+description=PNP switching transistor
 test_refdes=Q1
 model_status=good
 
@@ -13430,8 +13430,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST4403_3.pdf
+description=PNP switching transistor
 test_refdes=Q1
 model_status=good
 
@@ -13450,8 +13450,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST5088_5089_3.pdf
+description=NPN general purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -13470,8 +13470,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST5088_5089_3.pdf
+description=NPN general purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -13490,8 +13490,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST5401_3.pdf
+description=PNP high-voltage transistor
 test_refdes=Q1
 model_status=good
 
@@ -13510,8 +13510,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST5550_5551_4.pdf
+description=NPN high-voltage transistor
 test_refdes=Q1
 model_status=good
 
@@ -13530,8 +13530,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST5550_5551_4.pdf
+description=NPN high-voltage transistor
 test_refdes=Q1
 model_status=good
 
@@ -13550,8 +13550,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST6428_6429_3.pdf
+description=NPN general purpose transistor
 test_refdes=X1
 model_status=good
 
@@ -13570,8 +13570,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMSTA42_43_2.pdf
+description=NPN high-voltage transistor
 test_refdes=X1
 model_status=good
 
@@ -13590,8 +13590,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMSTA92_3.pdf
+description=PNP high-voltage transistor
 test_refdes=X1
 model_status=good
 
@@ -13611,7 +13611,7 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
+documentation=http://www.nxp.com/acrobat/datasheets/PSSI2021SAY_2.pdf
 description=constant current source in SOT353
 test_refdes=X1
 model_status=undefined
@@ -14110,8 +14110,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn darlington transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PXTA14_4.pdf
+description=NPN Darlington transistor
 test_refdes=X1
 model_status=broken
 # missing connection between nodes 33 and 333
@@ -14131,8 +14131,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PXTA42_4.pdf
+description=NPN high-voltage transistor
 test_refdes=X1
 model_status=good
 
@@ -14151,8 +14151,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PXTA92_4.pdf
+description=PNP high-voltage transistor
 test_refdes=X1
 model_status=good
 
@@ -14171,8 +14171,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn darlington transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PZTA14_4.pdf
+description=NPN Darlington transistor
 test_refdes=X1
 model_status=good
 
@@ -14191,8 +14191,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PZTA42_3.pdf
+description=NPN high-voltage transistor
 test_refdes=X1
 model_status=good
 
@@ -14212,8 +14212,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 4 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PZTA44_4.pdf
+description=NPN high-voltage transistor
 test_refdes=X1
 model_status=undefined
 
@@ -14233,8 +14233,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 4 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PZTA92_3.pdf
+description=PNP high-voltage transistor
 test_refdes=X1
 model_status=undefined
 
@@ -14253,8 +14253,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4520X_3.pdf
+description=20V, 5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
