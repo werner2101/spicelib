@@ -48,3 +48,7 @@ model-name=$modelname
 L 199 650 297 659 3 0 0 0 -1 -1
 L 200 650 269 723 3 0 0 0 -1 -1
 L 297 659 269 723 3 0 0 0 -1 -1
+T 100 1700 5 10 0 0 0 0 1
+documentation=$documentation
+T 100 1900 5 10 0 0 0 0 1
+description=$description
