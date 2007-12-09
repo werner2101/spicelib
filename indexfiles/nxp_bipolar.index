@@ -647,8 +647,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=x
-description=x
+documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
+description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -1128,10 +1128,7 @@ test_refdes=Q1
 model_status=good
 
 
-# BC846S
-# 2NPN Transistors in SC-88
-# QTR1 = QTR2  NPN
-[_NXP00060]
+[BC846S_NXP00060]
 symbol=.sym
 value=
 modelname=
@@ -1182,8 +1179,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=x
-description=x
+documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
+description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -1201,8 +1198,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=x
-description=x
+documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
+description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -1220,8 +1217,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=x
-description=x
+documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
+description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -1239,15 +1236,14 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=x
-description=x
+documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
+description=45V, 100mA NPN general-purpose transistors
 test_refdes=X1
 model_status=good
 
 
-# complementary npn/pnp transistor
 # contains 2 models but no subcircuit
-[_NXP00066]
+[BC847BPN_NXP00066]
 symbol=.sym
 value=
 modelname=
@@ -1278,14 +1274,14 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=x
-description=x
+documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
+description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
 model_status=good
 
 
 
-[_NXP00068]
+[BC847BS_NXP00068]
 symbol=.sym
 value=
 modelname=
@@ -1317,15 +1313,14 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=x
-description=x
+documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
+description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
 model_status=good
 
 
-# complementary npn/pnp transistor
 # contains 2 models but no subcircuit
-[_NXP00070]
+[BC847BVN_NXP00070]
 symbol=.sym
 value=
 modelname=
@@ -1344,8 +1339,7 @@ test_refdes=Q1
 model_status=undefined
 
 
-# contains 2 npn transistors
-[_NXP00071]
+[BC847BV_NXP00071]
 symbol=.sym
 value=
 modelname=
@@ -1377,8 +1371,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=x
-description=x
+documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
+description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -1396,8 +1390,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=x
-description=x
+documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
+description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -1415,8 +1409,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=x
-description=x
+documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
+description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -1434,8 +1428,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=x
-description=x
+documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
+description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -1453,8 +1447,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=x
-description=x
+documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
+description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -1472,8 +1466,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=x
-description=x
+documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
+description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -2045,8 +2039,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BC636_BCP51_BCX51_7.pdf
+description=45V, 1A PNP medium power transistors
 test_refdes=Q1
 model_status=good
 
@@ -2064,8 +2058,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BC638_BCP52_BCX52_7.pdf
+description=60V, 1A PNP medium power transistors
 test_refdes=Q1
 model_status=broken
 # wrong .ENDS card
@@ -2084,8 +2078,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BC640_BCP53_BCX53_7.pdf
+description=80V, 1A PNP medium power transistors
 test_refdes=Q1
 model_status=broken
 # wrong .ENDS card
@@ -2104,8 +2098,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BC635_BCP54_BCX54_7.pdf
+description=45V, 1A NPN medium power transistors
 test_refdes=Q1
 model_status=good
 
@@ -2123,8 +2117,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BC637_BCP55_BCX55_7.pdf
+description=60V, 1A NPN medium power transistors
 test_refdes=Q1
 model_status=good
 
@@ -2142,8 +2136,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BC639_BCP56_BCX56_8.pdf
+description=80V, 1A NPN medium power transistors
 test_refdes=Q1
 model_status=good
 
@@ -2161,8 +2155,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCP68_4.pdf
+description=NPN medium power transistor; 20V, 1A
 test_refdes=X1
 model_status=good
 
@@ -2180,8 +2174,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCP69_5.pdf
+description=PNP medium power transistor; 20V, 1A
 test_refdes=Q1
 model_status=good
 
@@ -2199,8 +2193,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCV26_BCV46_5.pdf
+description=PNP Darlington transistors
 test_refdes=X1
 model_status=good
 
@@ -2218,8 +2212,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCV27_BCV47_5.pdf
+description=NPN Darlington transistors
 test_refdes=X1
 model_status=good
 
@@ -2237,8 +2231,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCV28_48_5.pdf
+description=PNP Darlington transistors
 test_refdes=X1
 model_status=good
 
@@ -2256,8 +2250,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCV29_49_6.pdf
+description=NPN Darlington transistors
 test_refdes=X1
 model_status=good
 
@@ -2275,8 +2269,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCV26_BCV46_5.pdf
+description=PNP Darlington transistors
 test_refdes=X1
 model_status=good
 
@@ -2295,8 +2289,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCV27_BCV47_5.pdf
+description=NPN Darlington transistors
 test_refdes=X1
 model_status=broken
 
@@ -2314,8 +2308,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCV28_48_5.pdf
+description=PNP Darlington transistors
 test_refdes=X1
 model_status=good
 
@@ -2333,8 +2327,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCV29_49_6.pdf
+description=NPN Darlington transistors
 test_refdes=X1
 model_status=good
 
@@ -2354,8 +2348,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=dual npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BCV61_3.pdf
+description=NPN general purpose double transistor
 test_refdes=X1
 model_status=undefined
 
@@ -2375,8 +2369,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=dual npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BCV61_3.pdf
+description=NPN general purpose double transistor
 test_refdes=X1
 model_status=undefined
 
@@ -2396,8 +2390,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=dual npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BCV61_3.pdf
+description=NPN general purpose double transistor
 test_refdes=X1
 model_status=undefined
 
@@ -2417,8 +2411,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=dual pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
+description=PNP general purpose double transistor
 test_refdes=X1
 model_status=undefined
 
@@ -2438,8 +2432,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=dual pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
+description=PNP general purpose double transistor
 test_refdes=X1
 model_status=undefined
 
@@ -2459,8 +2453,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=dual pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
+description=PNP general purpose double transistor
 test_refdes=X1
 model_status=undefined
 
@@ -2480,8 +2474,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=dual npn/pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BCV65_3.pdf
+description=NPN/PNP general purpose transistor
 test_refdes=X1
 model_status=undefined
 
@@ -2500,8 +2494,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCW29_BCW30_5.pdf
+description=PNP general purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -2520,8 +2514,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCW29_BCW30_5.pdf
+description=PNP general purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -2540,8 +2534,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCX17_BCX18_4.pdf
+description=PNP general purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -2560,8 +2554,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCX17_BCX18_4.pdf
+description=PNP general purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -2580,8 +2574,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCX19_5.pdf
+description=NPN general purpose transistor
 test_refdes=Q1
 model_status=good
 
@@ -2600,8 +2594,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BC636_BCP51_BCX51_7.pdf
+description=45V, 1A PNP medium power transistors
 test_refdes=Q1
 model_status=good
 
@@ -2620,8 +2614,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BC639_BCP56_BCX56_8.pdf
+description=80V, 1A NPN medium power transistors
 test_refdes=X1
 model_status=broken
 # leading NPN at the Q1 definition wrong
@@ -2640,8 +2634,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
+description=NPN general purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -2660,8 +2654,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
+description=NPN general purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -2680,8 +2674,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
+description=NPN general purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -2700,8 +2694,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
+description=NPN general purpose transistors
 test_refdes=Q1
 model_status=good
 
@@ -2720,8 +2714,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=x
+description=x
 test_refdes=Q1
 model_status=good
 
@@ -2740,8 +2734,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF240_5.pdf
+description=NPN medium frequency transistor
 test_refdes=Q1
 model_status=good
 
@@ -2760,8 +2754,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF324_3.pdf
+description=PNP medium frequency transistor
 test_refdes=X1
 model_status=good
 
@@ -2780,8 +2774,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF370_4.pdf
+description=NPN medium frequency transistor
 test_refdes=X1
 model_status=good
 
@@ -2800,8 +2794,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF420_422_3.pdf
+description=NPN high voltage transistors
 test_refdes=Q1
 model_status=good
 
@@ -2820,8 +2814,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF421_423_3.pdf
+description=PNP high voltage transistors
 test_refdes=Q1
 model_status=good
 
@@ -2840,8 +2834,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF420_422_3.pdf
+description=NPN high voltage transistors
 test_refdes=Q1
 model_status=good
 
@@ -2860,8 +2854,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF421_423_3.pdf
+description=PNP high voltage transistors
 test_refdes=Q1
 model_status=good
 
@@ -2880,8 +2874,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF450_3.pdf
+description=PNP medium frequency transistor
 test_refdes=Q1
 model_status=good
 
@@ -2900,8 +2894,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF550_4.pdf
+description=PNP medium frequency transistor
 test_refdes=Q1
 model_status=good
 
@@ -2920,8 +2914,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF570_4.pdf
+description=NPN medium frequency transistor
 test_refdes=X1
 model_status=good
 
@@ -2940,8 +2934,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF620_622_4.pdf
+description=NPN high-voltage transistors
 test_refdes=Q1
 model_status=good
 
@@ -2960,8 +2954,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF621_623_4.pdf
+description=PNP high-voltage transistors
 test_refdes=X1
 model_status=good
 
@@ -2980,8 +2974,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF620_622_4.pdf
+description=NPN high-voltage transistors
 test_refdes=Q1
 model_status=good
 
@@ -3000,8 +2994,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF621_623_4.pdf
+description=PNP high-voltage transistors
 test_refdes=X1
 model_status=good
 
@@ -3021,8 +3015,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 4 pins
+documentation=http://www.nxp.com/acrobat/datasheets/BF723_3.pdf
+description=PNP high-voltage transistor
 test_refdes=X1
 model_status=undefined
 
@@ -3041,8 +3035,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF820_BF822_4.pdf
+description=NPN high voltage transistors
 test_refdes=Q1
 model_status=good
 
@@ -3061,8 +3055,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF820W_4.pdf
+description=NPN high-voltage transistor
 test_refdes=Q1
 model_status=good
 
@@ -3081,8 +3075,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF821_BF823_4.pdf
+description=PNP high voltage transistors
 test_refdes=X1
 model_status=good
 
@@ -3101,8 +3095,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF820_BF822_4.pdf
+description=NPN high voltage transistors
 test_refdes=Q1
 model_status=good
 
@@ -3121,8 +3115,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF821_BF823_4.pdf
+description=PNP high voltage transistors
 test_refdes=X1
 model_status=good
 
@@ -3141,8 +3135,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF824_4.pdf
+description=PNP medium frequency transistor
 test_refdes=X1
 model_status=good
 
@@ -3161,8 +3155,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF824W_3.pdf
+description=PNP medium frequency transistor
 test_refdes=Q1
 model_status=good
 
@@ -3181,8 +3175,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BF840_5.pdf
+description=NPN medium frequency transistor
 test_refdes=Q1
 model_status=good
 
@@ -3201,8 +3195,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BFS19_4.pdf
+description=NPN medium frequency transistor
 test_refdes=Q1
 model_status=good
 
@@ -3221,8 +3215,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BFS20_5.pdf
+description=NPN medium frequency transistor
 test_refdes=Q1
 model_status=good
 
@@ -3241,8 +3235,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BSP19_20_3.pdf
+description=NPN high-voltage transistors
 test_refdes=X1
 model_status=good
 
@@ -3261,8 +3255,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BSP31_32_33_3.pdf
+description=PNP medium power transistors
 test_refdes=X1
 model_status=good
 
@@ -3281,8 +3275,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BSP31_32_33_3.pdf
+description=PNP medium power transistors
 test_refdes=X1
 model_status=good
 
@@ -3301,8 +3295,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BSP41_43_4.pdf
+description=NPN medium power transistors
 test_refdes=X1
 model_status=good
 
@@ -3321,8 +3315,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BSP41_43_4.pdf
+description=NPN medium power transistors
 test_refdes=X1
 model_status=good
 
@@ -3341,8 +3335,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn darlington with resistor and diode
+documentation=http://www.nxp.com/acrobat/datasheets/BSP50_51_52_3.pdf
+description=NPN Darlington transistors with resistor and diode
 test_refdes=X1
 model_status=undefined
 
@@ -3361,8 +3355,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp darlington with resistor and diode
+documentation=http://www.nxp.com/acrobat/datasheets/BSP60_61_62_5.pdf
+description=PNP Darlington transistors with resistor and diode
 test_refdes=X1
 model_status=undefined
 
@@ -3381,8 +3375,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BSR13_BSR14_4.pdf
+description=NPN switching transistors
 test_refdes=Q1
 model_status=good
 
@@ -3401,8 +3395,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BSR15_BSR16_4.pdf
+description=PNP switching transistors
 test_refdes=Q1
 model_status=good
 
@@ -3421,8 +3415,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BSR19_BSR19A_4.pdf
+description=NPN high voltage transistors
 test_refdes=Q1
 model_status=good
 
@@ -3441,8 +3435,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BSR30_31_33_4.pdf
+description=PNP medium power transistors
 test_refdes=X1
 model_status=good
 
@@ -3461,8 +3455,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BSR30_31_33_4.pdf
+description=PNP medium power transistors
 test_refdes=X1
 model_status=good
 
@@ -3481,8 +3475,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BSR40_41_42_43_4.pdf
+description=NPN medium power transistors
 test_refdes=X1
 model_status=good
 
@@ -3501,8 +3495,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BSR40_41_42_43_4.pdf
+description=NPN medium power transistors
 test_refdes=X1
 model_status=good
 
@@ -3521,8 +3515,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BST39-40_5.pdf
+description=NPN high-voltage transistors
 test_refdes=X1
 model_status=good
 
@@ -3541,8 +3535,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn darlington with resistor and diode
+documentation=http://www.nxp.com/acrobat/datasheets/BST50_51_52_5.pdf
+description=NPN Darlington transistor with resistor and diode
 test_refdes=X1
 model_status=undefined
 
@@ -3561,8 +3555,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp darlington with resistor and diode
+documentation=http://www.nxp.com/acrobat/datasheets/BST60_61_62_5.pdf
+description=PNP Darlington transistor with resistor and diode
 test_refdes=X1
 model_status=undefined
 
@@ -3581,8 +3575,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/BSV52_4.pdf
+description=NPN switching transistor
 test_refdes=X1
 model_status=good
 
@@ -3601,8 +3595,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/MMBT2222A_2.pdf
+description=NPN switching transistor
 test_refdes=Q1
 model_status=good
 
@@ -3621,8 +3615,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/MMBT3904_4.pdf
+description=NPN switching transistor
 test_refdes=Q1
 model_status=good
 
@@ -3641,8 +3635,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/MMBT3906_2.pdf
+description=PNP switching transistor
 test_refdes=Q1
 model_status=good
 
@@ -3661,8 +3655,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/MMBTA42_1.pdf
+description=NPN high-voltage transistor
 test_refdes=X1
 model_status=good
 
@@ -3681,8 +3675,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/MMBTA92_2.pdf
+description=PNP high-voltage transistor
 test_refdes=X1
 model_status=good
 
@@ -3701,8 +3695,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/MPSA42_43_5.pdf
+description=NPN high-voltage transistors
 test_refdes=X1
 model_status=good
 
@@ -3721,8 +3715,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/MPSA56_5.pdf
+description=PNP general purpose transistor
 test_refdes=X1
 model_status=good
 
@@ -3741,8 +3735,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/MPSA92_5.pdf
+description=PNP high-voltage transistor
 test_refdes=X1
 model_status=good
 
@@ -3761,8 +3755,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBRN113E_SER_1.pdf
+description=NPN 800mA, 40V BISS RETs; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -3781,8 +3775,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBRN113E_SER_1.pdf
+description=NPN 800mA, 40V BISS RETs; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -3801,8 +3795,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBRN113E_SER_1.pdf
+description=NPN 800mA, 40V BISS RETs; R1=1k, R2=1k
 test_refdes=X1
 model_status=good
 
@@ -3821,8 +3815,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBRN113Z_SER_1.pdf
+description=NPN 800mA, 40V BISS RETs; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -3841,8 +3835,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBRN113Z_SER_1.pdf
+description=NPN 800mA, 40V BISS RETs; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -3861,8 +3855,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBRN113Z_SER_1.pdf
+description=NPN 800mA, 40V BISS RETs; R1=1k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -3881,8 +3875,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBRN123E_SER_1.pdf
+description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -3900,8 +3894,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBRN123E_SER_1.pdf
+description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -3920,8 +3914,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBRN123E_SER_1.pdf
+description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status=good
 
@@ -3940,8 +3934,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBRN123Y_SER_1.pdf
+description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -3960,8 +3954,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBRN123Y_SER_1.pdf
+description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -3980,8 +3974,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with buildin resistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBRN123Y_SER_1.pdf
+description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=10k
 test_refdes=X1
 model_status=good
 
@@ -4000,8 +3994,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515E_1.pdf
+description=15V, 0.5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4020,8 +4014,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515M_3.pdf
+description=15V, 0.5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4041,8 +4035,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=2 Complementary BISS Transistors in SOT666
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515VPN_3.pdf
+description=15V low VCEsat NPN/PNP transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4062,8 +4056,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=2 npn transistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515VS_3.pdf
+description=15V low VCEsat NPN double transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4083,8 +4077,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=2 Complementary BISS Transistors in SOT363 / SC-88
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515YPN_3.pdf
+description=15V low VCEsat NPN/PNP transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4103,8 +4097,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS2540E_1.pdf
+description=40V, 500mA NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4123,8 +4117,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS301NX_1.pdf
+description=12V, 5.3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4143,14 +4137,14 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS301PX_1.pdf
+description=12V, 5.3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
 
 
-# Subcircuit with 6 connections
+# Subcircuit with 6 connections (4 collector pins)
 [PBSS302ND_NXP00213]
 symbol=.sym
 value=PBSS302ND
@@ -4164,8 +4158,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS302ND_1.pdf
+description=40V NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4184,8 +4178,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS302NX_1.pdf
+description=20V, 5.3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4205,8 +4199,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS302PD_1.pdf
+description=40V PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4225,8 +4219,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS302PX_1.pdf
+description=20V, 5.1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4246,8 +4240,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS303ND_1.pdf
+description=60V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4266,8 +4260,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS303NX_1.pdf
+description=30V, 5.1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4287,8 +4281,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS303PD_1.pdf
+description=60V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4307,8 +4301,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS303PX_1.pdf
+description=30V, 5.1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4328,8 +4322,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS304ND_1.pdf
+description=80V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4348,8 +4342,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS304NX_1.pdf
+description=60V, 4.7A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4369,8 +4363,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS304PD_1.pdf
+description=80V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4389,8 +4383,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS304PX_1.pdf
+description=60V, 4.2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4410,8 +4404,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS305ND_1.pdf
+description=100V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4430,8 +4424,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS305NX_1.pdf
+description=80V, 4.6A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4451,8 +4445,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS305PD_1.pdf
+description=100V, 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4471,8 +4465,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS305PX_1.pdf
+description=80V, 4.0A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4491,8 +4485,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS306NX_1.pdf
+description=100V, 4.5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4511,8 +4505,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS306PX_1.pdf
+description=100V, 3.7A PNP low VCEsat(BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4531,8 +4525,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS3515E_1.pdf
+description=15V, 0.5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4551,8 +4545,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS3515M_1.pdf
+description=15V, 0.5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4572,8 +4566,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=2 pnp transistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS3515VS_3.pdf
+description=15V low VCEsat PNP double transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4592,8 +4586,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4120T_1.pdf
+description=20V; 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4612,8 +4606,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4130T_1.pdf
+description=30V; 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4633,8 +4627,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn/pnp transitor
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140DPN_1.pdf
+description=40V low VCEsat NPN/PNP transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4653,8 +4647,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140S_2.pdf
+description=40V low VCEsat NPN transistor
 test_refdes=X1
 model_status=good
 
@@ -4673,8 +4667,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140T_5.pdf
+description=40V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4693,8 +4687,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140U_2.pdf
+description=40V Low VCEsat NPN Transistor
 test_refdes=X1
 model_status=good
 
@@ -4714,8 +4708,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140V_2.pdf
+description=40V low VCEsat NPN transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4735,8 +4729,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn/pnp transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140DPN_1.pdf
+description=40V low VCEsat NPN/PNP transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4756,8 +4750,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=2 npn transistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160DS_3.pdf
+description=60V, 1A NPN/NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4776,8 +4770,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160K_2.pdf
+description=60V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4796,8 +4790,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160T_2.pdf
+description=60V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4816,8 +4810,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160U_2.pdf
+description=60V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4837,8 +4831,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4220V_1.pdf
+description=20V, 2A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4857,8 +4851,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4230T_1.pdf
+description=30V; 2A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4878,8 +4872,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=2 Complementary BISS Transistors in SOT457 / SC-74
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240DPN_1.pdf
+description=40V low VCEsat NPN/PNP transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4898,8 +4892,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240T_2.pdf
+description=40V; 2A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -4919,8 +4913,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240V_1.pdf
+description=40V low VCEsat NPN transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4940,8 +4934,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240Y_1.pdf
+description=40V low VCEsat NPN transistor
 test_refdes=X1
 model_status=undefined
 
@@ -4960,8 +4954,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4320T_2.pdf
+description=20V NPN low VCEsat transistor
 test_refdes=X1
 model_status=good
 
@@ -4980,8 +4974,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4320X_3.pdf
+description=20V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5000,8 +4994,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4330X_3.pdf
+description=30V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5021,8 +5015,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350D_3.pdf
+description=50V low VCEsat NPN transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5041,8 +5035,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350S_2.pdf
+description=50V low VCEsat NPN transistor
 test_refdes=X1
 model_status=good
 
@@ -5061,8 +5055,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350T_2.pdf
+description=50V; 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5082,8 +5076,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 4 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350Z_3.pdf
+description=50V low VCEsat NPN transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5103,8 +5097,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4420D_1.pdf
+description=20V, 4A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5124,8 +5118,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4440D_1.pdf
+description=40V NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5144,8 +5138,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4540X_3.pdf
+description=40V, 5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=broken
 # model call does not match model definitions
@@ -5164,8 +5158,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 4 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS4540Z_3.pdf
+description=40V low VCEsat NPN transistor
 test_refdes=Q1
 model_status=undefined
 
@@ -5184,8 +5178,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5120T_1.pdf
+description=20V; 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5204,8 +5198,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5130T_1.pdf
+description=30V; 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5224,8 +5218,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140S_2.pdf
+description=40V low VCEsat PNP transistor
 test_refdes=X1
 model_status=good
 
@@ -5244,8 +5238,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140T_3.pdf
+description=40V low VCEsat PNP transistor
 test_refdes=X1
 model_status=good
 
@@ -5264,8 +5258,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140U_2.pdf
+description=40V low VCEsat PNP transistor
 test_refdes=X1
 model_status=good
 
@@ -5285,8 +5279,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140V_2.pdf
+description=40V low VCEsat PNP transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5306,8 +5300,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=2 pnp transistors
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160DS_2.pdf
+description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5326,8 +5320,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160K_2.pdf
+description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=broken
 # model statement has leading Asterisk "*"
@@ -5347,8 +5341,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160T_2.pdf
+description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5367,8 +5361,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160U_3.pdf
+description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=broken
 # model definition has leading asterisk "*"
@@ -5389,8 +5383,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160V_2.pdf
+description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5409,8 +5403,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5220T_1.pdf
+description=20V; 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5430,8 +5424,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5220V_2.pdf
+description=20V, 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5450,8 +5444,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5230T_1.pdf
+description=30V; 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5470,8 +5464,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5240T_2.pdf
+description=40V, 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5491,8 +5485,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5240V_1.pdf
+description=40V low VCEsat PNP transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5512,8 +5506,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5240Y_2.pdf
+description=40V low VCEsat PNP transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5532,8 +5526,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5250T_1.pdf
+description=50V; 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5552,8 +5546,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5250X_2.pdf
+description=50V, 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5573,8 +5567,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5320D_1.pdf
+description=20V low VCEsat PNP transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5593,8 +5587,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5320T_2.pdf
+description=20V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5613,8 +5607,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5320X_3.pdf
+description=20V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5634,8 +5628,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350D_4.pdf
+description=50V low VCEsat PNP transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5654,8 +5648,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350S_2.pdf
+description=50V low VCEsat PNP transistor
 test_refdes=X1
 model_status=good
 
@@ -5674,8 +5668,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350T_2.pdf
+description=50V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5694,8 +5688,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350X_3.pdf
+description=50V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5714,8 +5708,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350Z_4.pdf
+description=50V low VCEsat PNP transistor
 test_refdes=X1
 model_status=good
 
@@ -5735,8 +5729,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5420D_1.pdf
+description=20V, 4A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5756,8 +5750,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5440D_1.pdf
+description=40V PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5776,8 +5770,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5540X_3.pdf
+description=40V, 5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5797,8 +5791,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 4 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5540Z_4.pdf
+description=40V low VCEsat PNP transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5817,8 +5811,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110AS_3.pdf
+description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=Q1
 model_status=broken
 # asterisk in front of the subckt definition
@@ -5839,8 +5833,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110D_1.pdf
+description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5859,8 +5853,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110T_2.pdf
+description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5879,8 +5873,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110X_1.pdf
+description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=Q1
 model_status=broken
 # asterisk in front of the subckt definition
@@ -5901,8 +5895,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110Y_1.pdf
+description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5921,8 +5915,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor with 4 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110Z_2.pdf
+description=100V, 1A NPN low VCesat (BISS) transistor
 test_refdes=Q1
 model_status=broken
 # asterisk in front of the subckt definition
@@ -5941,8 +5935,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110AS_2.pdf
+description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -5962,8 +5956,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110D_2.pdf
+description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -5982,8 +5976,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110S_2.pdf
+description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -6002,8 +5996,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110T_3.pdf
+description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -6022,8 +6016,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110X_1.pdf
+description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=good
 
@@ -6043,8 +6037,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 6 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110Y_1.pdf
+description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=undefined
 
@@ -6063,8 +6057,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=pnp transistor with 4 pins
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110Z_2.pdf
+description=100V, 1A NPN low VCesat (BISS) transistor
 test_refdes=Q1
 model_status=undefined
 # asterisk in front of the subckt definition
@@ -12895,8 +12889,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT2222_2222A_5.pdf
+description=NPN switching transistors
 test_refdes=Q1
 model_status=good
 
@@ -12915,8 +12909,8 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-documentation=
-description=npn transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT2222_2222A_5.pdf
+description=NPN switching transistors
 test_refdes=Q1
 model_status=good
 
