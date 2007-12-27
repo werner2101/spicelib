@@ -4,17 +4,17 @@
 ; (component-library-command "[listcommand]" "[getcommand]" "[name]")
 ;
 (component-library-command 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts nxp_bipolar.index" 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts nxp_bipolar.index" 
- "0_NXP bipolar transistors")
+ "/home/werner/oss/geda/spicelib/scripts/gedaparts -l nxp_bipolar.index" 
+ "/home/werner/oss/geda/spicelib/scripts/gedaparts -p nxp_bipolar.index" 
+ "NXP bipolar transistors")
 (component-library-command 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts nxp_diodes.index" 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts nxp_diodes.index" 
- "0_NXP diodes")
+ "/home/werner/oss/geda/spicelib/scripts/gedaparts -l nxp_diodes.index" 
+ "/home/werner/oss/geda/spicelib/scripts/gedaparts -p nxp_diodes.index" 
+ "NXP diodes")
 (component-library-command 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts ti_opamps.index" 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts ti_opamps.index" 
- "0_TI opamps")
+ "/home/werner/oss/geda/spicelib/scripts/gedaparts -l ti_opamps.index" 
+ "/home/werner/oss/geda/spicelib/scripts/gedaparts -p ti_opamps.index" 
+ "TI opamps")
 
 ;(component-library-command 
 ; "/store/spicelib/scripts/gedaparts nxp_bipolar.index" 

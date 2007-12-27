@@ -2,6 +2,7 @@
 
 import sys, os, re, string
 import ConfigParser
+import getopt
 
 
 #################### SETUP VARS
@@ -10,39 +11,124 @@ BASE_DIR = os.path.join(os.getcwd(),
                         os.path.dirname(sys.argv[0]),
                         REL_DIR)
 PARTDB_DIR = BASE_DIR + "indexfiles/"
-SYMBOL_DIR = BASE_DIR + "symbol_templates/"
+SYMBOLTEMPLATE_DIR = BASE_DIR + "symbol_templates/"
+SYMBOLDUMP_DIR = BASE_DIR + "symbols/"
 
 #################### FUNCTIONS
 def list_parts(filename):
     ind = ConfigParser.ConfigParser()
     ind.read(PARTDB_DIR + filename)
-    
-    for sec in ind.sections():
-        if ind.get(sec,"model_status") not in  ["undefined"]:
-            print sec
+    parts = []
+    for part in ind.sections():
+        if ind.get(part,"model_status") not in  ["undefined"]:
+            parts.append(part)
+    return parts
 
 def symbol(filename, partname):
     ind = ConfigParser.ConfigParser()
     ind.read(PARTDB_DIR + filename)
 
     symbol = ind.get(partname, "symbol")
-    symbol_template = string.Template(open(SYMBOL_DIR + symbol).read())
+    symbol_template = string.Template(open(SYMBOLTEMPLATE_DIR + symbol).read())
 
     repl = dict(ind.items(partname))
     modeldir = ind.get("GLOBAL","MODELDIR")
     repl["file"] = BASE_DIR + modeldir + repl["file"]
-    sym = symbol_template.safe_substitute(repl)
-    print sym,
+    return symbol_template.safe_substitute(repl)
+
+def dumplibrary(directory, library):
+    libdir = os.path.join(directory,library)
+    if not os.path.exists(libdir):
+        os.mkdir(libdir)
+
+    ind = ConfigParser.ConfigParser()
+    ind.read(os.path.join(PARTDB_DIR,library))
+    for part in ind.sections():
+        if ind.get(part,"model_status") not in  ["undefined"]:
+            symbol = ind.get(part, "symbol")
+            symbol_template = string.Template(open(SYMBOLTEMPLATE_DIR + symbol).read())
+            repl = dict(ind.items(part))
+            modeldir = ind.get("GLOBAL","MODELDIR")
+            repl["file"] = os.path.join(BASE_DIR, modeldir, repl["file"])
+
+            sym = symbol_template.safe_substitute(repl)
+            filename = os.path.join(libdir, part + ".sym")
+            open(filename,"wt").write(sym)
 
 def log(x):
     open("gedaparts.log","at").write(str(x) + "\n")
 
+def usage():
+    print "usage: " +  sys.argv[0] + """ [options], ...
+  -h --help: print help information
+  -v --verbose: print debug messages to stderr
+  -s --symbols library [library, ...]: dump symbol files to a directory
+  -d --symboldir dirname: set destination dir for the symbols
+  -l --list library: list symbol of one library file
+  -p --part library part: get a single part of a library"""
+
+
 #################### MAIN
 
-log(sys.argv)
+try:
+    opts, args = getopt.getopt(sys.argv[1:], "hvsd:l:p:", ["help", "verbose","symbols", "symboldir=", "list=", "part="])
+except getopt.GetoptError, err:
+    # print help information and exit:
+    print str(err) # will print something like "option -a not recognized"
+    usage()
+    sys.exit(2)
 
-if len(sys.argv) == 2: ## --> list command
-    list_parts(sys.argv[1])
-elif len(sys.argv) == 3:  ## --> part command
-    symbol(sys.argv[1], sys.argv[2])
+verbose = False
+dumpsymbols = False
+symboldir = SYMBOLDUMP_DIR
+listlibrary = False
+printpart = False
 
+for o, a in opts:
+    if o == "-v":
+        verbose = True
+    elif o in ("-h", "--help"):
+        usage()
+        sys.exit()
+    elif o in ("-v", "--verbose"):
+        verbose = True
+    elif o in ("-s", "--symbols"):
+        dumpsymbols = True
+    elif o in ("-d", "--symboldir"):
+        symboldir = a
+    elif o in ("-l", "--list"):
+        listlibrary = True
+        libraryfile = a
+    elif o in ("-p", "--part"):
+        printpart = True
+        libraryfile = a
+        symbolfile = args[0]
+    else:
+        assert False, "unhandled option"
+
+if verbose:
+    log(sys.argv[0] + ": opts:" + str(opts) + " args: " + str(args))
+
+if dumpsymbols:
+    if os.path.exists(os.path.abspath(symboldir)):
+        if not os.path.isdir(symboldir):
+            sys.stderr.write(sys.argv[0] + ": symboldir is not a directory")
+            sys.exit(2)
+    else:
+        os.mkdir(symboldir)
+    for lib in args:
+        dumplibrary(symboldir, os.path.basename(lib))
+    sys.exit()
+    
+elif listlibrary:
+    sys.stdout.write("\n".join(list_parts(libraryfile)))
+    sys.exit()
+
+elif printpart:
+    sys.stdout.write(symbol(libraryfile, symbolfile))
+    sys.exit()
+    
+else:
+    sys.stderr.write(sys.argv[0] + ": undefined case\n")
+    usage()
+    sys.exit(2)
