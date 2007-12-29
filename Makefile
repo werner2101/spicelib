@@ -165,4 +165,5 @@ install:
 	cp -a model_tests $(INSTALLDIR)/$(NAME)
 	cp -a symbol_templates $(INSTALLDIR)/$(NAME)
 	cp -a doc $(INSTALLDIR)/$(NAME)
+	cp -a testcircuits $(INSTALLDIR)/$(NAME)
 
