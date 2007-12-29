@@ -3,8 +3,8 @@
 MODELDIR=model_library/nxp/bipolar/
 TESTDIR=model_tests/nxp/bipolar/
 DESCRIPTION=NXP bipolar models
-GOLDEN_SIGNATURES=model_signatures_golden/nxp_bipolar_lib.md5sum
-CURRENT_SIGNATURES=model_signatures/nxp_bipolar_lib.md5sum
+GOLDEN_CHECKSUMS=model_golden_checksums/nxp_bipolar_lib.md5sum
+CURRENT_CHECKSUMS=model_checksums/nxp_bipolar_lib.md5sum
 model_status=undefined
 
 [2PA1576Q_NXP00001]

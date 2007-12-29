@@ -2,8 +2,8 @@
 MODELDIR=model_library/nxp/diodes/
 TESTDIR=model_tests/nxp/diodes/
 DESCRIPTION=NXP diode models
-GOLDEN_SIGNATURES=model_signatures_golden/nxp_diodes_lib.md5sum
-CURRENT_SIGNATURES=model_signatures/nxp_diodes_lib.md5sum
+GOLDEN_CHECKSUMS=model_golden_checksums/nxp_diodes_lib.md5sum
+CURRENT_CHECKSUMS=model_checksums/nxp_diodes_lib.md5sum
 model_status=undefined
 
 

@@ -5,7 +5,7 @@ INSTALLDIR=/store
 
 
 MODEL_LIBDIR=model_library
-MODEL_SIGDIR=model_signatures
+MODEL_SIGDIR=model_checksums
 MODEL_PATCHDIR=model_patches
 TESTDIR=model_tests
 TEMPDIR=unpack
@@ -16,7 +16,7 @@ TEMPDIR=unpack
 all:	mkdirs download unpack create index
 
 mkdirs:
-	mkdir -p model_signatures
+	mkdir -p $(MODEL_SIGDIR)
 
 download: download_nxp download_ti
 

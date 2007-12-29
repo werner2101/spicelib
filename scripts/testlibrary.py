@@ -172,8 +172,8 @@ def test_library(indexfilename, runtests=False, status_list=["test","good","brok
     
     testdir = ind.get("GLOBAL","TESTDIR")
     modeldir = ind.get("GLOBAL","MODELDIR")
-    golden_md5 = load_md5sums(BASE_DIR + ind.get("GLOBAL","GOLDEN_SIGNATURES"))
-    current_md5 = load_md5sums(BASE_DIR + ind.get("GLOBAL","CURRENT_SIGNATURES"))
+    golden_md5 = load_md5sums(BASE_DIR + ind.get("GLOBAL","GOLDEN_CHECKSUMS"))
+    current_md5 = load_md5sums(BASE_DIR + ind.get("GLOBAL","CURRENT_CHECKSUMS"))
     
     html_template = string.Template(open(BASE_DIR + TEMPLATE_FILE).read())
     row_template = string.Template(ROW_TEMPLATE)
