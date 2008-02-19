@@ -166,7 +166,7 @@ def test_single(indexfilename, partname):
         print partname, shortmsg, ": ", repl["testdir"] + "index.html"
 
 
-def test_library(indexfilename, runtests=False, status_list=["test","good","broken"]):
+def test_library(indexfilename, runtests=False, checksum=None, status=None):
     ind = ConfigParser.ConfigParser()
     ind.read(indexfilename)
     
@@ -177,7 +177,8 @@ def test_library(indexfilename, runtests=False, status_list=["test","good","brok
     
     html_template = string.Template(open(BASE_DIR + TEMPLATE_FILE).read())
     row_template = string.Template(ROW_TEMPLATE)
-    
+
+    status_list = ["good", "test", "broken"]
     rows=[]
     secs = ind.sections()
     secs.sort(sort_modelnumber)
@@ -198,6 +199,11 @@ def test_library(indexfilename, runtests=False, status_list=["test","good","brok
         else:
             repl["checksum_test"] = "missing1"
     
+
+        if checksum and checksum != repl["checksum_test"]:
+            continue
+        if status and status != repl["model_status"]:
+            continue
         
         repl["modelpath"] = "../../../../" + modeldir + repl["file"]
         repl["testdir"] = ind.get("GLOBAL","TESTDIR") + sec + "/"
@@ -264,12 +270,19 @@ def load_md5sums(filename):
     return md5
 
 def usage():
-    print "TBD"
+    print "usage is:"
+    print "  -i --index libraryname1 [libraryname2, ..]"
+    print "  -t --test libraryname1 [libraryname2, ..]"
+    print "  -p --part libraryname partname1 [partname2, ..]"
+    print "  -s --status status: check/list only one given status"
+    print "  -c --checksum checksum: check/list only one checksum status"
+
 
 #################### MAIN
 
 try:
-    opts, args = getopt.getopt(sys.argv[1:], "tip", ["test","index","part"])
+    opts, args = getopt.getopt(sys.argv[1:], "tips:c:",
+                               ["test","index","part","status=","checksum="])
 except getopt.GetoptError:
     # print help information and exit:
     usage()
@@ -279,22 +292,40 @@ if len(args) < 1:
     usage()
     sys.exit(2)
 
+mode="xx"
+status = None
+checksum = None
+
 for o, a in opts:
     if o in ("-i","--index"):
-        for arg in args:
-            test_library(arg)
-        sys.exit()
+        mode = "index"
     if o in ("-t","--test"):
-        for arg in args:
-            test_library(arg, runtests=True)
-        sys.exit()
+        mode = "test"
     if o in ("-p", "--part"):
-        if len(args) < 2:
-            usage()
-            sys.exit(2)
-        for arg in args[1:]:
-            test_single(args[0],arg)
-        sys.exit()
+        mode = "part"
+    if o in ("-s", "--status"):
+        status = a
+    if o in ("-c", "--checksum"):
+        checksum = a
+    
+    
+
+if mode == "undefined":
+    usage()
+    sys.exit(2)
+elif mode == "index":
+    for arg in args:
+        test_library(arg)
+elif mode == "test":
+    for arg in args:
+        test_library(arg, runtests=True, checksum=checksum, status=status)
+elif mode == "part":
+    if len(args) < 2:
+        usage()
+        sys.exit(2)
+    for arg in args[1:]:
+        test_single(args[0], arg)
+    
     
     
 
