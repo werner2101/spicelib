@@ -33,7 +33,7 @@ def symbol(filename, partname):
 
     repl = dict(ind.items(partname))
     modeldir = ind.get("GLOBAL","MODELDIR")
-    repl["file"] = BASE_DIR + modeldir + repl["file"]
+    repl["file"] = os.path.abspath(BASE_DIR + modeldir + repl["file"])
     return symbol_template.safe_substitute(repl)
 
 def dumplibrary(directory, library):
