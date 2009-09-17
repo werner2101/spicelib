@@ -1,12 +1,12 @@
 #!/usr/bin/python
 
 import sys,re,string
+import ConfigParser
 
 
 
 
-
-
+#################### CONSTANTS
 TRANSISTOR_TEMPLATE="""
 $headline
 [$part _$number]
@@ -80,27 +80,50 @@ values = {"headline":"",
           "test_refdes":"D1",
           "status":"test"}
 
+#################### FUNCTIONS
+
+def read_index(filename):
+    index = ConfigParser.ConfigParser()
+    index.read(filename)
+
+    modelfiles = set([])
+
+    for section in index.sections():
+        if index.has_option(section, 'file'):
+            modelfile = index.get(section, 'file')
+            modelfiles.add(modelfile)
+
+    return modelfiles
 
 
-
+#################### MAIN
 #tt = string.Template(TRANSISTOR_TEMPLATE)
-#tt = string.Template(DIODE_TEMPLATE)
-tt = string.Template(OPAMP_TEMPLATE)
-PINCOUNT = 5
-MODEL_REFDES = "X"
-PREFIX="TI"
-NUMBER=100001
+tt = string.Template(DIODE_TEMPLATE)
+#tt = string.Template(OPAMP_TEMPLATE)
+PINCOUNT = 2
+MODEL_REFDES = "D"
+PREFIX="NXP"
+NUMBER=101396
+INDEX_FILE = 'indexfiles/nxp_diodes.index'
+
+#usedfiles = set([])
+usedfiles = read_index(INDEX_FILE)
+#print usedfiles
+#xxx
 
 files = sys.argv[1:]
 files.sort()
 for f in files:
+    modelname = f.split('/')[-1]
+    if modelname in usedfiles:
+        continue
     lines = open(f,"rt").readlines()
     v = values.copy()
     for l in lines:
         if re.match(".subckt",l.lower()) or re.match(".MODEL",l):
             toks = string.split(string.strip(l))
             v["part"] = toks[1]
-            v["filename"] = f
+            v["filename"] = modelname
             v["number"] = PREFIX + str(NUMBER)[1:]
             NUMBER = NUMBER + 1
             if re.match(".MODEL",l):            
