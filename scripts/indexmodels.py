@@ -97,14 +97,14 @@ def read_index(filename):
 
 
 #################### MAIN
-#tt = string.Template(TRANSISTOR_TEMPLATE)
-tt = string.Template(DIODE_TEMPLATE)
+tt = string.Template(TRANSISTOR_TEMPLATE)
+#tt = string.Template(DIODE_TEMPLATE)
 #tt = string.Template(OPAMP_TEMPLATE)
-PINCOUNT = 2
-MODEL_REFDES = "D"
+PINCOUNT = 3
+MODEL_REFDES = "Q"
 PREFIX="NXP"
-NUMBER=101396
-INDEX_FILE = 'indexfiles/nxp_diodes.index'
+NUMBER=100734
+INDEX_FILE = 'indexfiles/nxp_bipolar.index'
 
 #usedfiles = set([])
 usedfiles = read_index(INDEX_FILE)
