@@ -23,7 +23,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1576_5.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [2PA1576R_NXP00002]
@@ -42,7 +43,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1576_5.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [2PA1576S_NXP00003]
@@ -61,7 +63,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1576_5.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [2PA1774QM_NXP00004]
@@ -232,7 +235,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PB709ART_1.pdf
 description=45 V, 100 mA PNP general-purpose transistor
 test_refdes=X1
-model_status=good
+model_status=broken
+# name of modelnames of Q1, D1 wrong
 
 
 [2PB709ARW_NXP00013]
@@ -270,7 +274,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PC4081_5.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [2PC4081R_NXP00015]
@@ -289,7 +294,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PC4081_5.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [2PC4081S_NXP00016]
@@ -308,7 +314,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PC4081_5.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [2PC4617Q_NXP00017]
@@ -327,7 +334,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/2PC4617_4.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [2PC4617R_NXP00018]
@@ -346,7 +354,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/2PC4617_4.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [2PD2150_NXP00019]
@@ -745,7 +754,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC807-25W_NXP00040]
@@ -764,7 +774,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC807-40_NXP00041]
@@ -783,7 +794,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC807-40W_NXP00042]
@@ -802,7 +814,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC807_NXP00043]
@@ -821,7 +834,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC807W_NXP00044]
@@ -840,7 +854,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC817-16_NXP00045]
@@ -859,7 +874,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC817-16W_NXP00046]
@@ -878,7 +894,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC817-25_NXP00047]
@@ -897,7 +914,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC817-25W_NXP00048]
@@ -916,7 +934,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC817-40_NXP00049]
@@ -935,7 +954,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC817-40W_NXP00050]
@@ -954,7 +974,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC817_NXP00051]
@@ -973,7 +994,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC817W_NXP00052]
@@ -992,7 +1014,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC846A_NXP00053]
@@ -1011,7 +1034,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC846AT_NXP00054]
@@ -1030,7 +1054,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC846AW_NXP00055]
@@ -1049,7 +1074,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC846B_NXP00056]
@@ -1068,7 +1094,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC846BT_NXP00057]
@@ -1087,7 +1114,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC846BW_NXP00058]
@@ -1106,7 +1134,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC846_NXP00059]
@@ -1125,7 +1154,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC846_BC546_SER_6.pdf
 description=65V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC846S_NXP00060]
@@ -1163,7 +1193,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC846_BC546_SER_6.pdf
 description=65V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC847A_NXP00062]
@@ -1182,7 +1213,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC847AT_NXP00063]
@@ -1201,7 +1233,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC847AW_NXP00064]
@@ -1220,7 +1253,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC847BM_NXP00065]
@@ -1261,6 +1295,8 @@ description=NPN/PNP general purpose transistor
 test_refdes=X1
 model_status=undefined
 
+
+
 [BC847B_NXP00067]
 symbol=npn.sym
 value=QBC847B
@@ -1277,7 +1313,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -1316,7 +1353,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 # contains 2 models but no subcircuit
@@ -1374,7 +1412,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC847C_NXP00073]
@@ -1393,7 +1432,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC847CT_NXP00074]
@@ -1412,7 +1452,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC847CW_NXP00075]
@@ -1431,7 +1472,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC847_NXP00076]
@@ -1450,7 +1492,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC847W_NXP00077]
@@ -1469,7 +1512,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC848B_NXP00078]
@@ -1488,7 +1532,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC848_SER_6.pdf
 description=30V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC848W_NXP00079]
@@ -1507,7 +1552,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC848_SER_6.pdf
 description=30V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC856A_NXP00080]
@@ -1545,7 +1591,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 ## typo in model name
 
 
@@ -1565,7 +1612,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC856B_NXP00083]
@@ -1584,7 +1632,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC856BT_NXP00084]
@@ -1603,7 +1652,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC856BW_NXP00085]
@@ -1622,7 +1672,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC856_NXP00086]
@@ -1641,7 +1692,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 # 2 pnp transistors
@@ -1680,7 +1732,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC857A_NXP00089]
@@ -1699,7 +1752,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC857AT_NXP00090]
@@ -1718,7 +1772,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC857AW_NXP00091]
@@ -1737,7 +1792,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC857BM_NXP00092]
@@ -1775,7 +1831,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC857BS_NXP00094]
@@ -1813,7 +1870,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -1852,7 +1910,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC857C_NXP00098]
@@ -1871,7 +1930,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC857CT_NXP00099]
@@ -1890,7 +1950,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC857CW_NXP00100]
@@ -1909,7 +1970,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC857_NXP00101]
@@ -1928,7 +1990,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC857W_NXP00102]
@@ -1947,7 +2010,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC858B_NXP00103]
@@ -1966,7 +2030,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC858W_NXP00104]
@@ -1985,7 +2050,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC868_NXP00105]
@@ -2004,7 +2070,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC868_7.pdf
 description=NPN medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BC869_NXP00106]
@@ -2023,7 +2090,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC869_6.pdf
 description=PNP medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BCP51_NXP00107]
@@ -2042,7 +2110,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC636_BCP51_BCX51_7.pdf
 description=45V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BCP52-16_NXP00108]
@@ -2101,7 +2170,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC635_BCP54_BCX54_7.pdf
 description=45V, 1A NPN medium power transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BCP55-16_NXP00111]
@@ -2120,7 +2190,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC637_BCP55_BCX55_7.pdf
 description=60V, 1A NPN medium power transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BCP56-16_NXP00112]
@@ -2139,9 +2210,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC639_BCP56_BCX56_8.pdf
 description=80V, 1A NPN medium power transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
+# subcircuits with 4 pins
 [BCP68_NXP00113]
 symbol=npn.sym
 value=BCP68
@@ -2158,7 +2231,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCP68_4.pdf
 description=NPN medium power transistor; 20V, 1A
 test_refdes=X1
-model_status=good
+model_status=undefined
 
 
 [BCP69_NXP00114]
@@ -2177,7 +2250,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCP69_5.pdf
 description=PNP medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 [BCV26_NXP00115]
@@ -2497,7 +2571,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCW29_BCW30_5.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -2517,7 +2592,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCW29_BCW30_5.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -2537,7 +2613,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX17_BCX18_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -2557,7 +2634,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX17_BCX18_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -2577,7 +2655,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX19_5.pdf
 description=NPN general purpose transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -2597,7 +2676,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC636_BCP51_BCX51_7.pdf
 description=45V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -2618,7 +2698,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC639_BCP56_BCX56_8.pdf
 description=80V, 1A NPN medium power transistors
 test_refdes=X1
 model_status=broken
-# leading NPN at the Q1 definition wrong
+# trailing NPN at the Q1 definition wrong
 
 
 [BCX70G_NXP00137]
@@ -2637,7 +2717,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -2657,7 +2738,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -2677,7 +2759,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -2697,7 +2780,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -2897,7 +2981,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF550_4.pdf
 description=PNP medium frequency transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -2937,7 +3022,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF620_622_4.pdf
 description=NPN high-voltage transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -2977,7 +3063,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF620_622_4.pdf
 description=NPN high-voltage transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -3038,7 +3125,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF820_BF822_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -3058,7 +3146,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF820W_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -3098,7 +3187,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF820_BF822_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -3158,7 +3248,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF824W_3.pdf
 description=PNP medium frequency transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -3178,7 +3269,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF840_5.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -3198,7 +3290,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BFS19_4.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -3218,7 +3311,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BFS20_5.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -3378,7 +3472,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR13_BSR14_4.pdf
 description=NPN switching transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -3418,7 +3513,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR19_BSR19A_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -3598,7 +3694,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBT2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -3618,7 +3715,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBT3904_4.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -3638,7 +3736,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBT3906_2.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -5865,7 +5964,7 @@ symbol=npn.sym
 value=PBSS8110X
 modelname=PBSS8110X
 file=PBSS8110X.prm
-refdes=Q?
+refdes=X?
 pinseq_c=2
 pinseq_b=3
 pinseq_e=1
@@ -5875,9 +5974,9 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110X_1.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
-test_refdes=Q1
-model_status=broken
-# asterisk in front of the subckt definition
+test_refdes=X1
+model_status=good
+
 
 
 
@@ -5907,7 +6006,7 @@ symbol=npn.sym
 value=PBSS8110Z
 modelname=PBSS8110Z
 file=PBSS8110Z.prm
-refdes=Q?
+refdes=X?
 pinseq_c=2
 pinseq_b=1
 pinseq_e=3
@@ -5917,9 +6016,9 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110Z_2.pdf
 description=100V, 1A NPN low VCesat (BISS) transistor
-test_refdes=Q1
-model_status=broken
-# asterisk in front of the subckt definition
+test_refdes=X1
+model_status=undefined
+
 
 
 [PBSS9110AS_NXP00300]
@@ -12892,7 +12991,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2222_2222A_5.pdf
 description=NPN switching transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -12912,7 +13012,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2222_2222A_5.pdf
 description=NPN switching transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -12952,7 +13053,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2907_PMBT2907A_5.pdf
 description=PNP switching transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -12972,7 +13074,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2907_PMBT2907A_5.pdf
 description=PNP switching transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# .ENDS statement in model without subcircuit
 
 
 
@@ -12996,6 +13099,7 @@ model_status=good
 
 
 
+
 [PMBT3906_NXP00651]
 symbol=pnp.sym
 value=QPMBT3906
@@ -13012,7 +13116,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3906_N_5.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# unknown parameter B=1
 
 
 
@@ -13052,8 +13157,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT4403_4.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=good
-
+model_status=broken
+# wrong .ENDS statement
 
 
 [PMBT5401_NXP00654]
@@ -13092,8 +13197,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT5550_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=good
-
+model_status=broken
+# wrong .ENDS statement
 
 
 [PMBT5551_NXP00656]
@@ -13112,8 +13217,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=good
-
+model_status=broken
+# wrong .ENDS statement
 
 
 [PMBT6429_NXP00657]
@@ -13333,7 +13438,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMSS3906_4.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# wrong .ENDS statement
 
 
 
@@ -13353,7 +13459,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2222_2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# wrong .ENDS statement
 
 
 
@@ -13373,7 +13480,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2222_2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# wrong .ENDS statement
 
 
 
@@ -13393,7 +13501,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2369_3.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# wrong .ENDS statement
 
 
 
@@ -13413,7 +13522,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2907A_3.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# wrong .ENDS statement
 
 
 
@@ -13433,7 +13543,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST4403_3.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# wrong .ENDS statement
 
 
 
@@ -13453,7 +13564,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5088_5089_3.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# wrong .ENDS statement
 
 
 
@@ -13473,7 +13585,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5088_5089_3.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
+# wrong .ENDS statement
 
 
 
@@ -13513,7 +13626,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5550_5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# wrong .ENDS statement
 
 
 
@@ -13533,7 +13647,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5550_5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
+# wrong .ENDS statement
 
 
 
@@ -14308,9 +14423,9 @@ value=PBHV8540T
 modelname=PBHV8540T
 file=PBHV8540T.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14349,9 +14464,9 @@ value=PBHV9040T
 modelname=PBHV9040T
 file=PBHV9040T.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14360,7 +14475,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBHV9040T_1.pdf
 description=500V, 0.25A PNP high-voltage low VCEsat (BISS) transistor
 test_refdes=X1
 model_status=broken
-#node 333 is not connected
+# node 333 is not connected
 
 
 
@@ -14686,173 +14801,182 @@ model_status=undefined
 
 
 [2PB709ARL_NXP00734]
-symbol=.sym
+symbol=pnp.sym
 value=2PB709ARL
 modelname=2PB709ARL
 file=2PB709ARL.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+documentation=http://www.nxp.com/acrobat/datasheets/2PB709AXL_1.pdf
+description=45 V, 100 mA PNP general-purpose transistors
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [2PB709ASL_NXP00735]
-symbol=.sym
+symbol=pnp.sym
 value=2PB709ASL
 modelname=2PB709ASL
 file=2PB709ASL.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=45 V, 100 mA PNP general-purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/2PB709AXL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [2PB710ARL_NXP00736]
-symbol=.sym
+symbol=pnp.sym
 value=2PB710ARL
 modelname=2PB710ARL
 file=2PB710ARL.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=50 V, 500 mA PNP general-purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/2PB710AXL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [2PB710ASL_NXP00737]
-symbol=.sym
+symbol=pnp.sym
 value=2PB710ASL
 modelname=2PB710ASL
 file=2PB710ASL.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=50 V, 500 mA PNP general-purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/2PB710AXL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [2PD601ARL_NXP00738]
-symbol=.sym
+symbol=npn.sym
 value=2PD601ARL
 modelname=2PD601ARL
 file=2PD601ARL.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=50 V, 100 mA NPN general-purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/2PD601AXL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [2PD601ASL_NXP00739]
-symbol=.sym
+symbol=npn.sym
 value=2PD601ASL
 modelname=2PD601ASL
 file=2PD601ASL.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=50 V, 100 mA NPN general-purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/2PD601AXL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [2PD602AQL_NXP00740]
-symbol=.sym
+symbol=npn.sym
 value=2PD602AQL
 modelname=2PD602AQL
 file=2PD602AQL.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=50 V, 500 mA NPN general-purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/2PD602AXL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [2PD602ARL_NXP00741]
-symbol=.sym
+symbol=npn.sym
 value=2PD602ARL
 modelname=2PD602ARL
 file=2PD602ARL.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=50 V, 500 mA NPN general-purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/2PD602AXL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [2PD602ASL_NXP00742]
-symbol=.sym
+symbol=npn.sym
 value=2PD602ASL
 modelname=2PD602ASL
 file=2PD602ASL.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=50 V, 500 mA NPN general-purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/2PD602AXL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -14870,9 +14994,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/PNP general purpose transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BC817DPN_2.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -14890,66 +15015,70 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN general purpose double transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BC817DS_2.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
 [BC859BW_NXP00745]
-symbol=.sym
+symbol=pnp.sym
 value=BC859BW
 modelname=BC859BW
 file=BC859BW.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP general purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/BC859W_860W_4.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [BC859CW_NXP00746]
-symbol=.sym
+symbol=pnp.sym
 value=BC859CW
 modelname=BC859CW
 file=BC859CW.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP general purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/BC859W_860W_4.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [BC860B_NXP00747]
-symbol=.sym
+symbol=pnp.sym
 value=BC860B
 modelname=BC860B
 file=BC860B.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP general purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/BC859_BC860_5.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -14967,9 +15096,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP general purpose double transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -14987,161 +15117,172 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP general purpose double transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BCV64B_3.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
 [BCW61B_NXP00750]
-symbol=.sym
+symbol=pnp.sym
 value=BCW61B
 modelname=BCW61B
 file=BCW61B.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=General purpose PNP transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BCW61_3.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [BCW61C_NXP00751]
-symbol=.sym
+symbol=pnp.sym
 value=BCW61C
 modelname=BCW61C
 file=BCW61C.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP general purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/BCW61_3.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [BCW61D_NXP00752]
-symbol=.sym
+symbol=pnp.sym
 value=BCW61D
 modelname=BCW61D
 file=BCW61D.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP general purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/BCW61_3.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [BCW69_NXP00753]
-symbol=.sym
+symbol=pnp.sym
 value=BCW69
 modelname=BCW69
 file=BCW69.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP general purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/BCW69_BCW70_4.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [BCW70_NXP00754]
-symbol=.sym
+symbol=pnp.sym
 value=BCW70
 modelname=BCW70
 file=BCW70.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP general purpose transistors
+documentation=http://www.nxp.com/acrobat/datasheets/BCW69_BCW70_4.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [BCW89_NXP00755]
-symbol=.sym
+symbol=pnp.sym
 value=BCW89
 modelname=BCW89
 file=BCW89.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=General purpose PNP transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BCW89_3.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [BF720_NXP00756]
-symbol=.sym
+symbol=npn.sym
 value=BF720
 modelname=BF720
 file=BF720.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN high voltage transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BF720_722_3.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
+# model parameter without leading "+"
 
 
 
 [BF722_NXP00757]
-symbol=.sym
+symbol=npn.sym
 value=BF722
 modelname=BF722
 file=BF722.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN high voltage transistor
+documentation=http://www.nxp.com/acrobat/datasheets/BF720_722_3.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
+# model parameter without leading "+"
 
 
 
@@ -15159,28 +15300,31 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=500 V, 0.25 A PNP high-voltage low VCEsat (BISS) transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PBHV9040Z_2.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
 [PBHV9115T_NXP00759]
-symbol=.sym
+symbol=pnp.sym
 value=PBHV9115T
 modelname=PBHV9115T
 file=PBHV9115T.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=150 V, 1 A PNP high-voltage low VCEsat (BISS) transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PBHV9115T_2.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
+# nodes 22 and 222 not connected?
 
 
 
@@ -15198,9 +15342,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=150 V, 1 A PNP high-voltage low VCEsat (BISS) transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PBHV9115Z_2.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15218,66 +15363,70 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=30 V, 3 A PNP low VCEsat (BISS) transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PBSS5330X_3.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
 [PDTA123YE_NXP00762]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PDTA123YE
 modelname=PDTA123YE
 file=PDTA123YE.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PDTA123YM_NXP00763]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PDTA123YM
 modelname=PDTA123YM
 file=PDTA123YM.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PDTA123YU_NXP00764]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PDTA123YU
 modelname=PDTA123YU
 file=PDTA123YU.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
+documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -15295,9 +15444,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP/PNP resistor-equipped transistors; R1=47k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMB2_PUMB2_2.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15315,9 +15465,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMD12_PUMD12_3.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15335,9 +15486,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/PNP resistor-equipped transistors; R1=10k, R2=10k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMD3_PIMD3_PUMD3_9.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15355,9 +15507,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k and R1=2.2k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMD48_PUMD48_4.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15375,9 +15528,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/PNP resistor-equipped transistors; R1=4.7k, R2=open
+documentation=http://www.nxp.com/acrobat/datasheets/PEMD6_PUMD6_4.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15395,9 +15549,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/PNP resistor-equipped transistors; R1=10k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMD9_PUMD9_5.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15415,9 +15570,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/NPN resistor-equipped transistors; R1=10k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PIMH9_PUMH9_PEMH9_4.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15435,9 +15591,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP general purpose double transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PEMT1_2.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15455,47 +15612,51 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/NPN resistor-equipped transistors; R1=10k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PIMH9_PUMH9_PEMH9_4.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
 [PMBS3904_NXP00774]
-symbol=.sym
+symbol=npn.sym
 value=PMBS3904
 modelname=PMBS3904
 file=PMBS3904.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN general purpose transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBS3904_5.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PMBS3906_NXP00775]
-symbol=.sym
+symbol=pnp.sym
 value=PMBS3906
 modelname=PMBS3906
 file=PMBS3906.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP general purpose transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBS3906_5.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
+# model parameter "+" missing
 
 
 
@@ -15513,9 +15674,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=40 V, 200 mA NPN/NPN general-purpose double transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT3904YS_1.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15533,9 +15695,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=40 V, 200 mA PNP/PNP general-purpose double transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT3906YS_2.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15553,85 +15716,91 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=40 V, 200 mA NPN/PNP general-purpose double transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBT3946YPN_1.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
 [PMBTA44_NXP00779]
-symbol=.sym
+symbol=npn.sym
 value=PMBTA44
 modelname=PMBTA44
 file=PMBTA44.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=400 V, 0.3 A NPN high-voltage low VCEsat (BISS) transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMBTA44_1.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
+# nodes 222 and 22 not connected?
 
 
 
 [PMST3904_NXP00780]
-symbol=.sym
+symbol=npn.sym
 value=PMST3904
 modelname=PMST3904
 file=PMST3904.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN switching transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST3904_4.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PMST3906_NXP00781]
-symbol=.sym
+symbol=pnp.sym
 value=PMST3906
 modelname=PMST3906
 file=PMST3906.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=40 V, 200 mA PNP switching transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST3906_5.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PMST4401_NXP00782]
-symbol=.sym
+symbol=npn.sym
 value=PMST4401
 modelname=PMST4401
 file=PMST4401.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
-pinseq_e=3
+pinseq_c=3
+pinseq_b=1
+pinseq_e=2
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN switching transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PMST4401_3.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -15649,9 +15818,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP/PNP resistor-equipped transistors; R1 = 10 kOhm, R2 = 10 kOhm
+documentation=http://www.nxp.com/acrobat/datasheets/PEMB11_PUMB11_2.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15669,9 +15839,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP/PNP resistor-equipped transistors; R1=47k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMB2_PUMB2_2.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15689,9 +15860,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP/PNP resistor-equipped transistors; R1=4.7k, R2=open
+documentation=http://www.nxp.com/acrobat/datasheets/PEMB3_PUMB3_2.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15709,9 +15881,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP/PNP resistor-equipped transistors; R1=10k, R2=open
+documentation=http://www.nxp.com/acrobat/datasheets/PEMB4_PUMB4_4.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15729,9 +15902,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/PNP resistor-equipped transistors; R1=2.2k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMD10_PUMD10_5.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15749,9 +15923,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMD12_PUMD12_3.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15769,9 +15944,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/PNP resistor-equipped transistors; R1=4.7k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMD13_PUMD13_2.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15789,9 +15965,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/PNP resistor-equipped transistors; R1=10k, R2=10k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMD3_PIMD3_PUMD3_9.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15809,9 +15986,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k and R1=2.2k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMD48_PUMD48_4.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15829,9 +16007,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/PNP resistor-equipped transistors; R1=4.7k, R2=open
+documentation=http://www.nxp.com/acrobat/datasheets/PEMD6_PUMD6_4.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15849,9 +16028,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/PNP resistor-equipped transistors; R1=10k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMD9_PUMD9_5.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15869,9 +16049,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/NPN resistor-equipped transistors; R1=22k, R2=22k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMH1_PUMH1_4.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15889,9 +16070,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/NPN resistor-equipped transistors; R1=2.2k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMH10_PUMH10_2.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15909,9 +16091,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/NPN resistor-equipped transistors; R1=10k, R2=10k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMH11_PUMH11_5.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15929,9 +16112,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/NPN resistor-equipped transistors; R1=47k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PEMH2_PUMH2_3.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15949,9 +16133,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/NPN resistor-equipped transistors; R1=10k, R2=open
+documentation=http://www.nxp.com/acrobat/datasheets/PEMH4_PUMH4_5.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15969,9 +16154,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/NPN resistor-equipped transistors; R1=4.7k, R2=open
+documentation=http://www.nxp.com/acrobat/datasheets/PEMH7_PUMH7_3.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -15989,9 +16175,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN/NPN resistor-equipped transistors; R1=10k, R2=47k
+documentation=http://www.nxp.com/acrobat/datasheets/PIMH9_PUMH9_PEMH9_4.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -16009,9 +16196,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN switching transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PXT4401_4.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -16029,9 +16217,10 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP switching transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PXT4403_4.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
@@ -16049,64 +16238,71 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN switching transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PZT2222A_3.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 
 [PZT2907A_NXP00804]
-symbol=.sym
+symbol=pnp.sym
 value=PZT2907A
 modelname=PZT2907A
 file=PZT2907A.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP switching transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PZT2907A_3.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
+# model parameter "+" missing
 
 
 
 [PZT4401_NXP00805]
-symbol=.sym
+symbol=npn.sym
 value=PZT4401
 modelname=PZT4401
 file=PZT4401.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=NPN switching transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PZT4401_1.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
+# model parameter "+" missing
 
 
 
 [PZT4403_NXP00806]
-symbol=.sym
+symbol=pnp.sym
 value=PZT4403
 modelname=PZT4403
 file=PZT4403.prm
 refdes=X?
-pinseq_c=1
-pinseq_b=2
+pinseq_c=2
+pinseq_b=1
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+description=PNP switching transistor
+documentation=http://www.nxp.com/acrobat/datasheets/PZT4403_N_2.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
+# model parameter "+" missing
 

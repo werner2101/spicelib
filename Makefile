@@ -62,7 +62,7 @@ unpack_nxp_bipolar: downloads/nxp/SST.zip
 unpack_nxp_diodes: downloads/nxp/diodes.zip
 	rm -rf $(TEMPDIR)/nxp/diodes
 	mkdir -p $(TEMPDIR)/nxp/diodes
-	md5sum downloads/nxp/SST.zip > $(MODEL_SIGDIR)/nxp_diodes.md5sum
+	md5sum downloads/nxp/diodes.zip > $(MODEL_SIGDIR)/nxp_diodes.md5sum
 	- unzip -d $(TEMPDIR)/nxp/diodes downloads/nxp/diodes.zip
 	md5sum $(TEMPDIR)/nxp/diodes/* >>$(MODEL_SIGDIR)/nxp_diodes.md5sum
 
