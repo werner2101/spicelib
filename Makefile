@@ -96,7 +96,6 @@ create_nxp_diodes:
 	mkdir -p $(MODEL_LIBDIR)/nxp/diodes
 	cp $(TEMPDIR)/nxp/diodes/* $(MODEL_LIBDIR)/nxp/diodes
 	scripts/fix_trailing_newline.py $(MODEL_LIBDIR)/nxp/diodes/*
-	patch -d $(MODEL_LIBDIR)/nxp/diodes/ -p1 < $(MODEL_PATCHDIR)/nxp_diodes.patch
 	scripts/replace_string.py BZX384-B BZX384B $(MODEL_LIBDIR)/nxp/diodes/BZX384-B*.prm
 	scripts/replace_string.py BZX585-B BZX585B $(MODEL_LIBDIR)/nxp/diodes/BZX585-B*.prm
 	scripts/replace_string.py BZX884-B BZX884B $(MODEL_LIBDIR)/nxp/diodes/BZX884-B*.prm
@@ -120,16 +119,17 @@ create_ti: create_ti_opamps
 download_ti:
 	rm -rf downloads/ti
 	mkdir -p downloads/ti
-	wget -P downloads/ti http://focus.ti.com/packaged_lits/spice_files/ti_spice_models.zip
-	wget -P downloads/ti http://focus.ti.com/packaged_lits/spice_files/ti_spice_models_index.txt
+	wget -P downloads/ti http://focus.ti.com/packaged_lits/pspice_files/ti_pspice_models.zip
+	wget -P downloads/ti http://focus.ti.com/packaged_lits/pspice_files/ti_pspice_models_index.txt
 
 unpack_ti:
 	rm -rf $(TEMPDIR)/ti
 	mkdir -p $(TEMPDIR)/ti
-	md5sum downloads/ti/ti_spice_models.zip > $(MODEL_SIGDIR)/ti_all.md5sum
-	md5sum downloads/ti/ti_spice_models_index.txt >> $(MODEL_SIGDIR)/ti_all.md5sum
-	unzip -d $(TEMPDIR)/ti downloads/ti/ti_spice_models.zip
-	find $(TEMPDIR)/ti/ -type f -exec md5sum {} \; >>$(MODEL_SIGDIR)/ti_all.md5sum
+	md5sum downloads/ti/ti_pspice_models.zip > $(MODEL_SIGDIR)/ti_all.md5sum
+	md5sum downloads/ti/ti_pspice_models_index.txt >> $(MODEL_SIGDIR)/ti_all.md5sum
+	unzip -d $(TEMPDIR)/ti downloads/ti/ti_pspice_models.zip
+	find $(TEMPDIR)/ti/ -type f -exec md5sum {} \; >xxx.txt
+	cat xxx.txt | sort -k 2 >>$(MODEL_SIGDIR)/ti_all.md5sum
 	# unzip all archives that are inside the above zip and remove the zips
 	find $(TEMPDIR)/ti/ -name "*zip" -exec unzip -d {}_d {} \;
 
@@ -137,13 +137,13 @@ create_ti_opamps:
 	rm -rf $(MODEL_LIBDIR)/ti/opamps
 	mkdir -p $(MODEL_LIBDIR)/ti/opamps
 	# copy models, don't copy TINA models and test circuits, don't copy PSpice libs and schematics
-	find $(TEMPDIR)/ti/spice_models/opa* -type f -name "*mod" -exec cp {} $(MODEL_LIBDIR)/ti/opamps \;
-	find $(TEMPDIR)/ti/spice_models/opa* -type f -name "*MOD" -exec cp {} $(MODEL_LIBDIR)/ti/opamps \;
-	find $(TEMPDIR)/ti/spice_models/opa* -type f -name "*txt" -exec cp {} $(MODEL_LIBDIR)/ti/opamps \;
-	find $(TEMPDIR)/ti/spice_models/opa* -type f -name "*sub" -exec cp {} $(MODEL_LIBDIR)/ti/opamps \;
+	find $(TEMPDIR)/ti/pspice_models/opa* -type f -name "*mod" -exec cp {} $(MODEL_LIBDIR)/ti/opamps \;
+	find $(TEMPDIR)/ti/pspice_models/opa* -type f -name "*MOD" -exec cp {} $(MODEL_LIBDIR)/ti/opamps \;
+	find $(TEMPDIR)/ti/pspice_models/opa* -type f -name "*txt" -exec cp {} $(MODEL_LIBDIR)/ti/opamps \;
+	find $(TEMPDIR)/ti/pspice_models/opa* -type f -name "*sub" -exec cp {} $(MODEL_LIBDIR)/ti/opamps \;
 	# remove the accidently copied Readme and disclaimer file
 	rm $(MODEL_LIBDIR)/ti/opamps/Readme.txt $(MODEL_LIBDIR)/ti/opamps/disclaimer.txt
-	md5sum $(MODEL_LIBDIR)/ti/opamps/*  >$(MODEL_SIGDIR)/ti_opamps_lib.md5sum
+	md5sum $(MODEL_LIBDIR)/ti/opamps/* >$(MODEL_SIGDIR)/ti_opamps_lib.md5sum
 
 test_ti_opamps:
 	rm -rf $(TESTDIR)/ti/opamps
