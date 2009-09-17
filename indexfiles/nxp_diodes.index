@@ -21,7 +21,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/1N4728A_1.pdf
 description=6.2V zener diode 
 test_refdes=X1
-model_status=good
+model_status=test
 
 
 
@@ -216,8 +216,8 @@ value=BAS21H
 modelname=BAS21H
 file=BAS21H.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -289,7 +289,7 @@ symbol=diode.sym
 value=BAS321
 modelname=BAS321
 file=BAS321.prm
-refdes=D?
+refdes=X?
 pinseq_a=1
 pinseq_k=2
 pinnr_a=A
@@ -297,7 +297,7 @@ pinnr_k=K
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS321_2.pdf
 description=general purpose diode
-test_refdes=D1
+test_refdes=X1
 model_status=good
 
 
@@ -1017,7 +1017,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX100A_1.pdf
 description=100V zener diode
 test_refdes=X1
-model_status=good
+model_status=broken
+## Model has no Devicetype
 
 
 
@@ -3803,8 +3804,8 @@ value=PDZ4.7B
 modelname=PDZ4.7B
 file=PDZ4.7B.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -3818,8 +3819,8 @@ model_status=good
 
 [PDZ5.6B_NXP01211]
 symbol=zener_diode.sym
-value=PDZ5.6B
-modelname=PDZ5.6B
+value=PDZ5V6B
+modelname=PDZ5V6B
 file=PDZ5.6B.prm
 refdes=D?
 pinseq_a=1
@@ -3836,8 +3837,8 @@ model_status=good
 
 [PDZ9.1B_NXP01212]
 symbol=zener_diode.sym
-value=PDZ9.1B
-modelname=PDZ9.1B
+value=PDZ9V1B
+modelname=PDZ9V1B
 file=PDZ9.1B.prm
 refdes=D?
 pinseq_a=1
@@ -6617,8 +6618,8 @@ model_status=good
 
 [PZU5.1B1_NXP01363]
 symbol=zener_diode.sym
-value=PZU5.1B1
-modelname=PZU5.1B1
+value=PZU5V1B1
+modelname=PZU5V1B1
 file=PZU5.1B1.prm
 refdes=D?
 pinseq_a=1
@@ -6635,8 +6636,8 @@ model_status=good
 
 [PZU5.1B2_NXP01364]
 symbol=zener_diode.sym
-value=PZU5.1B2
-modelname=PZU5.1B2
+value=PZU5V1B2
+modelname=PZU5V1B2
 file=PZU5.1B2.prm
 refdes=D?
 pinseq_a=1
@@ -6653,8 +6654,8 @@ model_status=good
 
 [PZU5.1B3_NXP01365]
 symbol=zener_diode.sym
-value=PZU5.1B3
-modelname=PZU5.1B3
+value=PZU5V1B3
+modelname=PZU5V1B3
 file=PZU5.1B3.prm
 refdes=D?
 pinseq_a=1
@@ -6671,8 +6672,8 @@ model_status=good
 
 [PZU5.1B_NXP01366]
 symbol=zener_diode.sym
-value=PZU5.1B
-modelname=PZU5.1B
+value=PZU5V1B
+modelname=PZU5V1B
 file=PZU5.1B.prm
 refdes=D?
 pinseq_a=1
@@ -6689,8 +6690,8 @@ model_status=good
 
 [PZU5.6B1_NXP01367]
 symbol=zener_diode.sym
-value=PZU5.6B1
-modelname=PZU5.6B1
+value=PZU5V6B1
+modelname=PZU5V6B1
 file=PZU5.6B1.prm
 refdes=D?
 pinseq_a=1
@@ -6707,8 +6708,8 @@ model_status=good
 
 [PZU5.6B2_NXP01368]
 symbol=zener_diode.sym
-value=PZU5.6B2
-modelname=PZU5.6B2
+value=PZU5V6B2
+modelname=PZU5V6B2
 file=PZU5.6B2.prm
 refdes=D?
 pinseq_a=1
@@ -6725,8 +6726,8 @@ model_status=good
 
 [PZU5.6B3_NXP01369]
 symbol=zener_diode.sym
-value=PZU5.6B3
-modelname=PZU5.6B3
+value=PZU5V6B3
+modelname=PZU5V6B3
 file=PZU5.6B3.prm
 refdes=D?
 pinseq_a=1
@@ -6743,8 +6744,8 @@ model_status=good
 
 [PZU5.6B_NXP01370]
 symbol=zener_diode.sym
-value=PZU5.6B
-modelname=PZU5.6B
+value=PZU5V6B
+modelname=PZU5V6B
 file=PZU5.6B.prm
 refdes=D?
 pinseq_a=1
@@ -6761,8 +6762,8 @@ model_status=good
 
 [PZU6.2B1_NXP01371]
 symbol=zener_diode.sym
-value=PZU6.2B1
-modelname=PZU6.2B1
+value=PZU6V2B1
+modelname=PZU6V2B1
 file=PZU6.2B1.prm
 refdes=D?
 pinseq_a=1
@@ -6779,8 +6780,8 @@ model_status=good
 
 [PZU6.2B2_NXP01372]
 symbol=zener_diode.sym
-value=PZU6.2B2
-modelname=PZU6.2B2
+value=PZU6V2B2
+modelname=PZU6V2B2
 file=PZU6.2B2.prm
 refdes=D?
 pinseq_a=1
@@ -6797,8 +6798,8 @@ model_status=good
 
 [PZU6.2B3_NXP01373]
 symbol=zener_diode.sym
-value=PZU6.2B3
-modelname=PZU6.2B3
+value=PZU6V2B3
+modelname=PZU6V2B3
 file=PZU6.2B3.prm
 refdes=D?
 pinseq_a=1
@@ -6815,8 +6816,8 @@ model_status=good
 
 [PZU6.2B_NXP01374]
 symbol=zener_diode.sym
-value=PZU6.2B
-modelname=PZU6.2B
+value=PZU6V2B
+modelname=PZU6V2B
 file=PZU6.2B.prm
 refdes=D?
 pinseq_a=1
@@ -6833,8 +6834,8 @@ model_status=good
 
 [PZU6.8B1_NXP01375]
 symbol=zener_diode.sym
-value=PZU6.8B1
-modelname=PZU6.8B1
+value=PZU6V8B1
+modelname=PZU6V8B1
 file=PZU6.8B1.prm
 refdes=D?
 pinseq_a=1
@@ -6851,8 +6852,8 @@ model_status=good
 
 [PZU6.8B2_NXP01376]
 symbol=zener_diode.sym
-value=PZU6.8B2
-modelname=PZU6.8B2
+value=PZU6V8B2
+modelname=PZU6V8B2
 file=PZU6.8B2.prm
 refdes=D?
 pinseq_a=1
@@ -6869,8 +6870,8 @@ model_status=good
 
 [PZU6.8B3_NXP01377]
 symbol=zener_diode.sym
-value=PZU6.8B3
-modelname=PZU6.8B3
+value=PZU6V8B3
+modelname=PZU6V8B3
 file=PZU6.8B3.prm
 refdes=D?
 pinseq_a=1
@@ -6887,8 +6888,8 @@ model_status=good
 
 [PZU6.8B_NXP01378]
 symbol=zener_diode.sym
-value=PZU6.8B
-modelname=PZU6.8B
+value=PZU6V8B
+modelname=PZU6V8B
 file=PZU6.8B.prm
 refdes=D?
 pinseq_a=1
@@ -6905,8 +6906,8 @@ model_status=good
 
 [PZU7.5B1_NXP01379]
 symbol=zener_diode.sym
-value=PZU7.5B1
-modelname=PZU7.5B1
+value=PZU7V5B1
+modelname=PZU7V5B1
 file=PZU7.5B1.prm
 refdes=D?
 pinseq_a=1
@@ -6923,8 +6924,8 @@ model_status=good
 
 [PZU7.5B2_NXP01380]
 symbol=zener_diode.sym
-value=PZU7.5B2
-modelname=PZU7.5B2
+value=PZU7V5B2
+modelname=PZU7V5B2
 file=PZU7.5B2.prm
 refdes=D?
 pinseq_a=1
@@ -6941,8 +6942,8 @@ model_status=good
 
 [PZU7.5B3_NXP01381]
 symbol=zener_diode.sym
-value=PZU7.5B3
-modelname=PZU7.5B3
+value=PZU7V5B3
+modelname=PZU7V5B3
 file=PZU7.5B3.prm
 refdes=D?
 pinseq_a=1
@@ -6959,8 +6960,8 @@ model_status=good
 
 [PZU7.5B_NXP01382]
 symbol=zener_diode.sym
-value=PZU7.5B
-modelname=PZU7.5B
+value=PZU7V5B
+modelname=PZU7V5B
 file=PZU7.5B.prm
 refdes=D?
 pinseq_a=1
@@ -6977,8 +6978,8 @@ model_status=good
 
 [PZU8.2B1_NXP01383]
 symbol=zener_diode.sym
-value=PZU8.2B1
-modelname=PZU8.2B1
+value=PZU8V2B1
+modelname=PZU8V2B1
 file=PZU8.2B1.prm
 refdes=D?
 pinseq_a=1
@@ -6995,8 +6996,8 @@ model_status=good
 
 [PZU8.2B2_NXP01384]
 symbol=zener_diode.sym
-value=PZU8.2B2
-modelname=PZU8.2B2
+value=PZU8V2B2
+modelname=PZU8V2B2
 file=PZU8.2B2.prm
 refdes=D?
 pinseq_a=1
@@ -7013,8 +7014,8 @@ model_status=good
 
 [PZU8.2B3_NXP01385]
 symbol=zener_diode.sym
-value=PZU8.2B3
-modelname=PZU8.2B3
+value=PZU8V2B3
+modelname=PZU8V2B3
 file=PZU8.2B3.prm
 refdes=D?
 pinseq_a=1
@@ -7031,8 +7032,8 @@ model_status=good
 
 [PZU8.2B_NXP01386]
 symbol=zener_diode.sym
-value=PZU8.2B
-modelname=PZU8.2B
+value=PZU8V2B
+modelname=PZU8V2B
 file=PZU8.2B.prm
 refdes=D?
 pinseq_a=1
@@ -7049,8 +7050,8 @@ model_status=good
 
 [PZU9.1B1_NXP01387]
 symbol=zener_diode.sym
-value=PZU9.1B1
-modelname=PZU9.1B1
+value=PZU9V1B1
+modelname=PZU9V1B1
 file=PZU9.1B1.prm
 refdes=D?
 pinseq_a=1
@@ -7067,8 +7068,8 @@ model_status=good
 
 [PZU9.1B2_NXP01388]
 symbol=zener_diode.sym
-value=PZU9.1B2
-modelname=PZU9.1B2
+value=PZU9V1B2
+modelname=PZU9V1B2
 file=PZU9.1B2.prm
 refdes=D?
 pinseq_a=1
@@ -7085,8 +7086,8 @@ model_status=good
 
 [PZU9.1B3_NXP01389]
 symbol=zener_diode.sym
-value=PZU9.1B3
-modelname=PZU9.1B3
+value=PZU9V1B3
+modelname=PZU9V1B3
 file=PZU9.1B3.prm
 refdes=D?
 pinseq_a=1
@@ -7103,8 +7104,8 @@ model_status=good
 
 [PZU9.1B_NXP01390]
 symbol=zener_diode.sym
-value=PZU9.1B
-modelname=PZU9.1B
+value=PZU9V1B
+modelname=PZU9V1B
 file=PZU9.1B.prm
 refdes=D?
 pinseq_a=1
@@ -7117,3 +7118,93 @@ description=9.1V zener diode
 test_refdes=D1
 model_status=good
 
+
+
+[1N4148_NXP01391]
+symbol=diode.sym
+value=1N4148
+modelname=1N4148
+file=1N4148.prm
+refdes=X?
+pinseq_a=2
+pinseq_k=1
+pinnr_a=A
+pinnr_k=K
+footprint=none
+documentation=http://www.nxp.com/acrobat/datasheets/1N4148_1N4448_5.pdf
+description=High-speed diode
+test_refdes=X1
+model_status=broken
+## ENDS missing
+
+
+
+[BAS101_NXP01392]
+symbol=.sym
+value=BAS101
+modelname=BAS101
+file=BAS101.prm
+refdes=X?
+pinseq_a=1
+pinseq_k=3
+pinnr_a=A
+pinnr_k=K
+footprint=none
+documentation=http://www.nxp.com/acrobat/datasheets/BAS101_BAS101S_1.pdf
+description=High-voltage switching diode
+test_refdes=X1
+model_status=undefined
+
+
+## contains two diodes
+[BAS101S_NXP01393]
+symbol=.sym
+value=BAS101S
+modelname=BAS101S
+file=BAS101S.prm
+refdes=X?
+pinseq_a=1
+pinseq_k=3
+pinnr_a=A
+pinnr_k=K
+footprint=none
+documentation=http://www.nxp.com/acrobat/datasheets/BAS101_BAS101S_1.pdf
+description=High-voltage switching diode
+test_refdes=X1
+model_status=undefined
+
+
+
+[BAS16J_NXP01394]
+symbol=diode.sym
+value=BAS16J
+modelname=BAS16J
+file=BAS16J.prm
+refdes=D?
+pinseq_a=1
+pinseq_k=2
+pinnr_a=A
+pinnr_k=K
+footprint=none
+documentation=http://www.nxp.com/acrobat/datasheets/BAS16_SER_5.pdf
+description=High-speed switching diode
+test_refdes=D1
+model_status=broken
+## .ENDS in a Model
+
+
+[BAS21J_NXP01395]
+symbol=diode.sym
+value=BAS21J
+modelname=BAS21J
+file=BAS21J.prm
+refdes=X?
+pinseq_a=2
+pinseq_k=1
+pinnr_a=A
+pinnr_k=K
+footprint=none
+documentation=http://www.nxp.com/acrobat/datasheets/BAS21J_1.pdf
+description=Single high-speed switching diode
+test_refdes=X1
+model_status=broken
