@@ -292,7 +292,7 @@ if len(args) < 1:
     usage()
     sys.exit(2)
 
-mode="xx"
+mode="undefined"
 status = None
 checksum = None
 

@@ -66,11 +66,15 @@ unpack_nxp_diodes: downloads/nxp/diodes.zip
 	- unzip -d $(TEMPDIR)/nxp/diodes downloads/nxp/diodes.zip
 	md5sum $(TEMPDIR)/nxp/diodes/* >>$(MODEL_SIGDIR)/nxp_diodes.md5sum
 
-create_nxp_bipolar:
+create_nxp_bipolar: 
 	rm -rf $(MODEL_LIBDIR)/nxp/bipolar
 	mkdir -p $(MODEL_LIBDIR)/nxp/bipolar
 	cp $(TEMPDIR)/nxp/bipolar/* $(MODEL_LIBDIR)/nxp/bipolar
+	## general newline fix for the End of the file
 	scripts/fix_trailing_newline.py $(MODEL_LIBDIR)/nxp/bipolar/*
+	## general fix for wrong .ENDS statements
+	scripts/fix_ends_without_subcircuit.py $(MODEL_LIBDIR)/nxp/bipolar/*
+	## individual file fixes
 	scripts/replace_string.py BC327-25 BC327_25 $(MODEL_LIBDIR)/nxp/bipolar/BC327-25.prm
 	scripts/replace_string.py BC327-40 BC327_40 $(MODEL_LIBDIR)/nxp/bipolar/BC327-40.prm
 	scripts/replace_string.py QBC337-16 QBC337_16 $(MODEL_LIBDIR)/nxp/bipolar/BC337-16.prm
@@ -89,6 +93,9 @@ create_nxp_bipolar:
 	scripts/replace_string.py QBCP54-16 QBCP54_16 $(MODEL_LIBDIR)/nxp/bipolar/BCP54-16.prm
 	scripts/replace_string.py QBCP55-16 QBCP55_16 $(MODEL_LIBDIR)/nxp/bipolar/BCP55-16.prm
 	scripts/replace_string.py QBCP56-16 QBCP56_16 $(MODEL_LIBDIR)/nxp/bipolar/BCP56-16.prm
+	scripts/replace_string.py "QTR1" "TR1" $(MODEL_LIBDIR)/nxp/bipolar/2PB709ART.prm
+
+	## md5sums for the created models
 	md5sum $(MODEL_LIBDIR)/nxp/bipolar/* >$(MODEL_SIGDIR)/nxp_bipolar_lib.md5sum
 
 create_nxp_diodes:
@@ -97,8 +104,6 @@ create_nxp_diodes:
 	cp $(TEMPDIR)/nxp/diodes/* $(MODEL_LIBDIR)/nxp/diodes
 	scripts/fix_trailing_newline.py $(MODEL_LIBDIR)/nxp/diodes/*
 	scripts/replace_string.py BZX384-B BZX384B $(MODEL_LIBDIR)/nxp/diodes/BZX384-B*.prm
-	scripts/replace_string.py BZX585-B BZX585B $(MODEL_LIBDIR)/nxp/diodes/BZX585-B*.prm
-	scripts/replace_string.py BZX884-B BZX884B $(MODEL_LIBDIR)/nxp/diodes/BZX884-B*.prm
 	md5sum $(MODEL_LIBDIR)/nxp/diodes/* >$(MODEL_SIGDIR)/nxp_diodes_lib.md5sum
 
 test_nxp_bipolar:
