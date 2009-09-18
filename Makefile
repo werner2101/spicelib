@@ -70,10 +70,6 @@ create_nxp_bipolar:
 	rm -rf $(MODEL_LIBDIR)/nxp/bipolar
 	mkdir -p $(MODEL_LIBDIR)/nxp/bipolar
 	cp $(TEMPDIR)/nxp/bipolar/* $(MODEL_LIBDIR)/nxp/bipolar
-	## general newline fix for the End of the file
-	scripts/fix_trailing_newline.py $(MODEL_LIBDIR)/nxp/bipolar/*
-	## general fix for wrong .ENDS statements
-	scripts/fix_ends_without_subcircuit.py $(MODEL_LIBDIR)/nxp/bipolar/*
 	## individual file fixes
 	scripts/replace_string.py BC327-25 BC327_25 $(MODEL_LIBDIR)/nxp/bipolar/BC327-25.prm
 	scripts/replace_string.py BC327-40 BC327_40 $(MODEL_LIBDIR)/nxp/bipolar/BC327-40.prm
@@ -90,10 +86,24 @@ create_nxp_bipolar:
 	scripts/replace_string.py QBC817-25W QBC817_25W $(MODEL_LIBDIR)/nxp/bipolar/BC817-25W.prm
 	scripts/replace_string.py QBC817-40 QBC817_40 $(MODEL_LIBDIR)/nxp/bipolar/BC817-40.prm
 	scripts/replace_string.py QBC817-40W QBC817_40W $(MODEL_LIBDIR)/nxp/bipolar/BC817-40W.prm
+	scripts/replace_string.py QBCP52-16 QBCP52_16 $(MODEL_LIBDIR)/nxp/bipolar/BCP52-16.prm
+	scripts/replace_string.py QBCP53-16 QBCP53_16 $(MODEL_LIBDIR)/nxp/bipolar/BCP53-16.prm
 	scripts/replace_string.py QBCP54-16 QBCP54_16 $(MODEL_LIBDIR)/nxp/bipolar/BCP54-16.prm
 	scripts/replace_string.py QBCP55-16 QBCP55_16 $(MODEL_LIBDIR)/nxp/bipolar/BCP55-16.prm
 	scripts/replace_string.py QBCP56-16 QBCP56_16 $(MODEL_LIBDIR)/nxp/bipolar/BCP56-16.prm
 	scripts/replace_string.py "QTR1" "TR1" $(MODEL_LIBDIR)/nxp/bipolar/2PB709ART.prm
+	scripts/replace_string.py "1 BCX56 NPN" "1 BCX56" $(MODEL_LIBDIR)/nxp/bipolar/BCX56.prm
+	scripts/replace_string.py "*.SUBCKT" ".SUBCKT" $(MODEL_LIBDIR)/nxp/bipolar/PBSS8110AS.prm
+	scripts/replace_string.py "LE 3 333" "LE 3 33" $(MODEL_LIBDIR)/nxp/bipolar/BCV47.prm
+	scripts/replace_string.py "1 PBSS4540X" "1 PB4540X" $(MODEL_LIBDIR)/nxp/bipolar/PBSS4540X.prm
+	scripts/replace_string.py "*.MODEL" ".MODEL" $(MODEL_LIBDIR)/nxp/bipolar/PBSS5160K.prm
+	scripts/replace_string.py "*.MODEL" ".MODEL" $(MODEL_LIBDIR)/nxp/bipolar/PBSS5160U.prm
+	scripts/replace_string.py "TC2233Y" "TC223Y" $(MODEL_LIBDIR)/nxp/bipolar/PDTC123YT.prm
+	scripts/replace_string.py "LE 3 333" "LE 3 33" $(MODEL_LIBDIR)/nxp/bipolar/PXTA14.prm
+	## general newline fix for the End of the file
+	scripts/fix_trailing_newline.py $(MODEL_LIBDIR)/nxp/bipolar/*
+	## general fix for wrong .ENDS statements
+	scripts/fix_ends_without_subcircuit.py $(MODEL_LIBDIR)/nxp/bipolar/*
 
 	## md5sums for the created models
 	md5sum $(MODEL_LIBDIR)/nxp/bipolar/* >$(MODEL_SIGDIR)/nxp_bipolar_lib.md5sum

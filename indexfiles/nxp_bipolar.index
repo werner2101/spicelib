@@ -23,7 +23,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1576_5.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -43,7 +43,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1576_5.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -63,7 +63,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1576_5.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -225,9 +225,9 @@ value=2PB709ART
 modelname=2PB709ART
 file=2PB709ART.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=2
+pinseq_b=3
+pinseq_e=1
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -235,8 +235,9 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PB709ART_1.pdf
 description=45 V, 100 mA PNP general-purpose transistor
 test_refdes=X1
-model_status=broken
-# name of modelnames of Q1, D1 wrong
+model_status=good
+# name of modelnames of Q1 wrong
+# pin picture does not match the Q1 configuration
 
 
 [2PB709ARW_NXP00013]
@@ -274,7 +275,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PC4081_5.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -294,7 +295,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PC4081_5.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -314,7 +315,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PC4081_5.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -334,7 +335,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/2PC4617_4.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -354,7 +355,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/2PC4617_4.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -754,7 +755,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -774,7 +775,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -794,7 +795,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -814,7 +815,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -834,7 +835,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -854,7 +855,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -874,7 +875,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -894,7 +895,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -914,7 +915,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -934,7 +935,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -954,7 +955,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -974,7 +975,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -994,7 +995,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1014,7 +1015,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1034,7 +1035,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1054,7 +1055,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1074,7 +1075,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1094,7 +1095,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1114,7 +1115,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1134,7 +1135,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1154,7 +1155,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC846_BC546_SER_6.pdf
 description=65V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1193,7 +1194,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC846_BC546_SER_6.pdf
 description=65V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1213,7 +1214,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1233,7 +1234,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1253,7 +1254,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1313,7 +1314,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1353,7 +1354,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1412,7 +1413,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1432,7 +1433,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1452,7 +1453,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1472,7 +1473,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1492,7 +1493,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1512,7 +1513,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1532,7 +1533,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC848_SER_6.pdf
 description=30V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1552,7 +1553,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC848_SER_6.pdf
 description=30V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1591,7 +1592,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 ## typo in model name
 
@@ -1612,7 +1613,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1632,7 +1633,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1652,7 +1653,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1672,7 +1673,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1692,7 +1693,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1732,7 +1733,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1752,7 +1753,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1772,7 +1773,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1792,7 +1793,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1831,7 +1832,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1870,7 +1871,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1910,7 +1911,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1930,7 +1931,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1950,7 +1951,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1970,7 +1971,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -1990,7 +1991,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2010,7 +2011,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2030,7 +2031,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2050,7 +2051,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2070,7 +2071,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC868_7.pdf
 description=NPN medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2090,7 +2091,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC869_6.pdf
 description=PNP medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2110,7 +2111,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC636_BCP51_BCX51_7.pdf
 description=45V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2130,7 +2131,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC638_BCP52_BCX52_7.pdf
 description=60V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS card
 
 
@@ -2150,7 +2151,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC640_BCP53_BCX53_7.pdf
 description=80V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS card
 
 
@@ -2170,7 +2171,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC635_BCP54_BCX54_7.pdf
 description=45V, 1A NPN medium power transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2190,7 +2191,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC637_BCP55_BCX55_7.pdf
 description=60V, 1A NPN medium power transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2210,7 +2211,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC639_BCP56_BCX56_8.pdf
 description=80V, 1A NPN medium power transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2250,7 +2251,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCP69_5.pdf
 description=PNP medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2366,7 +2367,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV27_BCV47_5.pdf
 description=NPN Darlington transistors
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 [BCV48_NXP00121]
@@ -2571,7 +2572,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCW29_BCW30_5.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2592,7 +2593,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCW29_BCW30_5.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2613,7 +2614,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX17_BCX18_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2634,7 +2635,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX17_BCX18_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2655,7 +2656,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX19_5.pdf
 description=NPN general purpose transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2676,7 +2677,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC636_BCP51_BCX51_7.pdf
 description=45V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2697,7 +2698,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC639_BCP56_BCX56_8.pdf
 description=80V, 1A NPN medium power transistors
 test_refdes=X1
-model_status=broken
+model_status=good
 # trailing NPN at the Q1 definition wrong
 
 
@@ -2717,7 +2718,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2738,7 +2739,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2759,7 +2760,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2780,7 +2781,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -2981,7 +2982,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF550_4.pdf
 description=PNP medium frequency transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3022,7 +3023,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF620_622_4.pdf
 description=NPN high-voltage transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3063,7 +3064,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF620_622_4.pdf
 description=NPN high-voltage transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3125,7 +3126,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF820_BF822_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3146,7 +3147,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF820W_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3187,7 +3188,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF820_BF822_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3248,7 +3249,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF824W_3.pdf
 description=PNP medium frequency transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3269,7 +3270,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF840_5.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3290,7 +3291,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BFS19_4.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3311,7 +3312,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BFS20_5.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3472,7 +3473,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR13_BSR14_4.pdf
 description=NPN switching transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3513,7 +3514,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR19_BSR19A_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3694,7 +3695,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBT2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3715,7 +3716,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBT3904_4.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -3736,7 +3737,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBT3906_2.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -5240,7 +5241,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4540X_3.pdf
 description=40V, 5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=broken
+model_status=good
 # model call does not match model definitions
 
 
@@ -5422,7 +5423,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160K_2.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=broken
+model_status=good
 # model statement has leading Asterisk "*"
 
 
@@ -5463,7 +5464,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160U_3.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=broken
+model_status=good
 # model definition has leading asterisk "*"
 
 
@@ -5902,7 +5903,7 @@ symbol=npn.sym
 value=PBSS8110AS
 modelname=PBSS8110AS
 file=PBSS8110AS.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -5912,8 +5913,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110AS_3.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
-test_refdes=Q1
-model_status=broken
+test_refdes=X1
+model_status=good
 # asterisk in front of the subckt definition
 
 
@@ -10161,7 +10162,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=broken
+model_status=good
 # model definition name different from usage
 
 
@@ -12991,7 +12992,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2222_2222A_5.pdf
 description=NPN switching transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -13012,7 +13013,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2222_2222A_5.pdf
 description=NPN switching transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -13053,7 +13054,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2907_PMBT2907A_5.pdf
 description=PNP switching transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -13074,7 +13075,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2907_PMBT2907A_5.pdf
 description=PNP switching transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # .ENDS statement in model without subcircuit
 
 
@@ -13116,7 +13117,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3906_N_5.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # unknown parameter B=1
 
 
@@ -13157,7 +13158,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT4403_4.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS statement
 
 
@@ -13197,7 +13198,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT5550_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS statement
 
 
@@ -13217,7 +13218,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS statement
 
 
@@ -13438,7 +13439,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMSS3906_4.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS statement
 
 
@@ -13459,7 +13460,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2222_2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS statement
 
 
@@ -13480,7 +13481,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2222_2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS statement
 
 
@@ -13501,7 +13502,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2369_3.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS statement
 
 
@@ -13522,7 +13523,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2907A_3.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS statement
 
 
@@ -13543,7 +13544,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST4403_3.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS statement
 
 
@@ -13564,7 +13565,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5088_5089_3.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS statement
 
 
@@ -13585,7 +13586,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5088_5089_3.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS statement
 
 
@@ -13626,7 +13627,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5550_5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS statement
 
 
@@ -13647,7 +13648,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5550_5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=broken
+model_status=good
 # wrong .ENDS statement
 
 
@@ -14228,7 +14229,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PXTA14_4.pdf
 description=NPN Darlington transistor
 test_refdes=X1
-model_status=broken
+model_status=good
 # missing connection between nodes 33 and 333
 
 
