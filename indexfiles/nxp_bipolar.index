@@ -1473,8 +1473,9 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status=broken
 # .ENDS statement in model without subcircuit
+# no circuit elements, only models
 
 
 [BC847_NXP00076]
@@ -13117,7 +13118,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3906_N_5.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=good
+model_status=broken
 # unknown parameter B=1
 
 
