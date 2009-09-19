@@ -1,6 +1,6 @@
 
 NAME=spicelib
-VERSION=0.0.2
+VERSION=0.0.3
 INSTALLDIR=/store
 
 
@@ -30,6 +30,8 @@ index:
 test:
 	scripts/testlibrary.py -t indexfiles/*index
 
+release:
+	git archive --format=tar $(VERSION) |gzip >s$(NAME)-$(VERSION).tar.gz
 
 # nxp models downloaded from URL:
 # http://www.nxp.com/models/index.html  --> Spice and S-parameters
