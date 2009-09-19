@@ -21,7 +21,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/1N4728A_1.pdf
 description=6.2V zener diode 
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -1009,15 +1009,15 @@ value=BZX100A
 modelname=BZX100A
 file=BZX100A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX100A_1.pdf
 description=100V zener diode
 test_refdes=X1
-model_status=broken
+model_status=good
 ## Model has no Devicetype
 
 
@@ -1076,11 +1076,11 @@ model_status=good
 
 
 
-[BZX384-B10_NXP01059]
+[BZX384B10_NXP01059]
 symbol=zener_diode.sym
 value=BZX384B10
 modelname=BZX384B10
-file=BZX384-B10.prm
+file=BZX384B10.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1094,11 +1094,11 @@ model_status=good
 
 
 
-[BZX384-B11_NXP01060]
+[BZX384B11_NXP01060]
 symbol=zener_diode.sym
 value=BZX384B11
 modelname=BZX384B11
-file=BZX384-B11.prm
+file=BZX384B11.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1112,11 +1112,11 @@ model_status=good
 
 
 
-[BZX384-B12_NXP01061]
+[BZX384B12_NXP01061]
 symbol=zener_diode.sym
 value=BZX384B12
 modelname=BZX384B12
-file=BZX384-B12.prm
+file=BZX384B12.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1130,11 +1130,11 @@ model_status=good
 
 
 
-[BZX384-B13_NXP01062]
+[BZX384B13_NXP01062]
 symbol=zener_diode.sym
 value=BZX384B13
 modelname=BZX384B13
-file=BZX384-B13.prm
+file=BZX384B13.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1148,11 +1148,11 @@ model_status=good
 
 
 
-[BZX384-B15_NXP01063]
+[BZX384B15_NXP01063]
 symbol=zener_diode.sym
 value=BZX384B15
 modelname=BZX384B15
-file=BZX384-B15.prm
+file=BZX384B15.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1166,11 +1166,11 @@ model_status=good
 
 
 
-[BZX384-B16_NXP01064]
+[BZX384B16_NXP01064]
 symbol=zener_diode.sym
 value=BZX384B16
 modelname=BZX384B16
-file=BZX384-B16.prm
+file=BZX384B16.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1184,11 +1184,11 @@ model_status=good
 
 
 
-[BZX384-B18_NXP01065]
+[BZX384B18_NXP01065]
 symbol=zener_diode.sym
 value=BZX384B18
 modelname=BZX384B18
-file=BZX384-B18.prm
+file=BZX384B18.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1202,11 +1202,11 @@ model_status=good
 
 
 
-[BZX384-B20_NXP01066]
+[BZX384B20_NXP01066]
 symbol=zener_diode.sym
 value=BZX384B20
 modelname=BZX384B20
-file=BZX384-B20.prm
+file=BZX384B20.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1220,11 +1220,11 @@ model_status=good
 
 
 
-[BZX384-B22_NXP01067]
+[BZX384B22_NXP01067]
 symbol=zener_diode.sym
 value=BZX384B22
 modelname=BZX384B22
-file=BZX384-B22.prm
+file=BZX384B22.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1238,11 +1238,11 @@ model_status=good
 
 
 
-[BZX384-B24_NXP01068]
+[BZX384B24_NXP01068]
 symbol=zener_diode.sym
 value=BZX384B24
 modelname=BZX384B24
-file=BZX384-B24.prm
+file=BZX384B24.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1256,11 +1256,11 @@ model_status=good
 
 
 
-[BZX384-B27_NXP01069]
+[BZX384B27_NXP01069]
 symbol=zener_diode.sym
 value=BZX384B27
 modelname=BZX384B27
-file=BZX384-B27.prm
+file=BZX384B27.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1274,11 +1274,11 @@ model_status=good
 
 
 
-[BZX384-B2V4_NXP01070]
+[BZX384B2V4_NXP01070]
 symbol=zener_diode.sym
 value=BZX384B2V4
 modelname=BZX384B2V4
-file=BZX384-B2V4.prm
+file=BZX384B2V4.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1292,11 +1292,11 @@ model_status=good
 
 
 
-[BZX384-B2V7_NXP01071]
+[BZX384B2V7_NXP01071]
 symbol=zener_diode.sym
 value=BZX384B2V7
 modelname=BZX384B2V7
-file=BZX384-B2V7.prm
+file=BZX384B2V7.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1310,11 +1310,11 @@ model_status=good
 
 
 
-[BZX384-B30_NXP01072]
+[BZX384B30_NXP01072]
 symbol=zener_diode.sym
 value=BZX384B30
 modelname=BZX384B30
-file=BZX384-B30.prm
+file=BZX384B30.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1328,11 +1328,11 @@ model_status=good
 
 
 
-[BZX384-B33_NXP01073]
+[BZX384B33_NXP01073]
 symbol=zener_diode.sym
 value=BZX384B33
 modelname=BZX384B33
-file=BZX384-B33.prm
+file=BZX384B33.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1346,11 +1346,11 @@ model_status=good
 
 
 
-[BZX384-B36_NXP01074]
+[BZX384B36_NXP01074]
 symbol=zener_diode.sym
 value=BZX384B36
 modelname=BZX384B36
-file=BZX384-B36.prm
+file=BZX384B36.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1364,11 +1364,11 @@ model_status=good
 
 
 
-[BZX384-B39_NXP01075]
+[BZX384B39_NXP01075]
 symbol=zener_diode.sym
 value=BZX384B39
 modelname=BZX384B39
-file=BZX384-B39.prm
+file=BZX384B39.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1382,11 +1382,11 @@ model_status=good
 
 
 
-[BZX384-B3V0_NXP01076]
+[BZX384B3V0_NXP01076]
 symbol=zener_diode.sym
 value=BZX384B3V0
 modelname=BZX384B3V0
-file=BZX384-B3V0.prm
+file=BZX384B3V0.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1400,11 +1400,11 @@ model_status=good
 
 
 
-[BZX384-B3V3_NXP01077]
+[BZX384B3V3_NXP01077]
 symbol=zener_diode.sym
 value=BZX384B3V3
 modelname=BZX384B3V3
-file=BZX384-B3V3.prm
+file=BZX384B3V3.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1418,11 +1418,11 @@ model_status=good
 
 
 
-[BZX384-B3V6_NXP01078]
+[BZX384B3V6_NXP01078]
 symbol=zener_diode.sym
 value=BZX384B3V6
 modelname=BZX384B3V6
-file=BZX384-B3V6.prm
+file=BZX384B3V6.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1436,11 +1436,11 @@ model_status=good
 
 
 
-[BZX384-B3V9_NXP01079]
+[BZX384B3V9_NXP01079]
 symbol=zener_diode.sym
 value=BZX384B3V9
 modelname=BZX384B3V9
-file=BZX384-B3V9.prm
+file=BZX384B3V9.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1454,11 +1454,11 @@ model_status=good
 
 
 
-[BZX384-B43_NXP01080]
+[BZX384B43_NXP01080]
 symbol=zener_diode.sym
 value=BZX384B43
 modelname=BZX384B43
-file=BZX384-B43.prm
+file=BZX384B43.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1472,11 +1472,11 @@ model_status=good
 
 
 
-[BZX384-B47_NXP01081]
+[BZX384B47_NXP01081]
 symbol=zener_diode.sym
 value=BZX384B47
 modelname=BZX384B47
-file=BZX384-B47.prm
+file=BZX384B47.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1490,11 +1490,11 @@ model_status=good
 
 
 
-[BZX384-B4V3_NXP01082]
+[BZX384B4V3_NXP01082]
 symbol=zener_diode.sym
 value=BZX384B4V3
 modelname=BZX384B4V3
-file=BZX384-B4V3.prm
+file=BZX384B4V3.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1508,11 +1508,11 @@ model_status=good
 
 
 
-[BZX384-B4V7_NXP01083]
+[BZX384B4V7_NXP01083]
 symbol=zener_diode.sym
 value=BZX384B4V7
 modelname=BZX384B4V7
-file=BZX384-B4V7.prm
+file=BZX384B4V7.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1526,11 +1526,11 @@ model_status=good
 
 
 
-[BZX384-B51_NXP01084]
+[BZX384B51_NXP01084]
 symbol=zener_diode.sym
 value=BZX384B51
 modelname=BZX384B51
-file=BZX384-B51.prm
+file=BZX384B51.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1544,11 +1544,11 @@ model_status=good
 
 
 
-[BZX384-B56_NXP01085]
+[BZX384B56_NXP01085]
 symbol=zener_diode.sym
 value=BZX384B56
 modelname=BZX384B56
-file=BZX384-B56.prm
+file=BZX384B56.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1562,11 +1562,11 @@ model_status=good
 
 
 
-[BZX384-B5V1_NXP01086]
+[BZX384B5V1_NXP01086]
 symbol=zener_diode.sym
 value=BZX384B5V1
 modelname=BZX384B5V1
-file=BZX384-B5V1.prm
+file=BZX384B5V1.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1580,11 +1580,11 @@ model_status=good
 
 
 
-[BZX384-B5V6_NXP01087]
+[BZX384B5V6_NXP01087]
 symbol=zener_diode.sym
 value=BZX384B5V6
 modelname=BZX384B5V6
-file=BZX384-B5V6.prm
+file=BZX384B5V6.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1598,11 +1598,11 @@ model_status=good
 
 
 
-[BZX384-B62_NXP01088]
+[BZX384B62_NXP01088]
 symbol=zener_diode.sym
 value=BZX384B62
 modelname=BZX384B62
-file=BZX384-B62.prm
+file=BZX384B62.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1616,11 +1616,11 @@ model_status=good
 
 
 
-[BZX384-B68_NXP01089]
+[BZX384B68_NXP01089]
 symbol=zener_diode.sym
 value=BZX384B68
 modelname=BZX384B68
-file=BZX384-B68.prm
+file=BZX384B68.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1634,11 +1634,11 @@ model_status=good
 
 
 
-[BZX384-B6V2_NXP01090]
+[BZX384B6V2_NXP01090]
 symbol=zener_diode.sym
 value=BZX384B6V2
 modelname=BZX384B6V2
-file=BZX384-B6V2.prm
+file=BZX384B6V2.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1652,11 +1652,11 @@ model_status=good
 
 
 
-[BZX384-B6V8_NXP01091]
+[BZX384B6V8_NXP01091]
 symbol=zener_diode.sym
 value=BZX384B6V8
 modelname=BZX384B6V8
-file=BZX384-B6V8.prm
+file=BZX384B6V8.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1670,11 +1670,11 @@ model_status=good
 
 
 
-[BZX384-B75_NXP01092]
+[BZX384B75_NXP01092]
 symbol=zener_diode.sym
 value=BZX384B75
 modelname=BZX384B75
-file=BZX384-B75.prm
+file=BZX384B75.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1688,11 +1688,11 @@ model_status=good
 
 
 
-[BZX384-B7V5_NXP01093]
+[BZX384B7V5_NXP01093]
 symbol=zener_diode.sym
 value=BZX384B7V5
 modelname=BZX384B7V5
-file=BZX384-B7V5.prm
+file=BZX384B7V5.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1706,11 +1706,11 @@ model_status=good
 
 
 
-[BZX384-B8V2_NXP01094]
+[BZX384B8V2_NXP01094]
 symbol=zener_diode.sym
 value=BZX384B8V2
 modelname=BZX384B8V2
-file=BZX384-B8V2.prm
+file=BZX384B8V2.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -1724,11 +1724,11 @@ model_status=good
 
 
 
-[BZX384-B9V1_NXP01095]
+[BZX384B9V1_NXP01095]
 symbol=zener_diode.sym
 value=BZX384B9V1
 modelname=BZX384B9V1
-file=BZX384-B9V1.prm
+file=BZX384B9V1.prm
 refdes=X?
 pinseq_a=2
 pinseq_k=1
@@ -4466,7 +4466,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
 description=3.3V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=broken
+model_status=good
 # asterisk * in front of the model statement
 
 
@@ -6094,14 +6094,14 @@ model_status=good
 
 
 
-[PZU2.4B_NXP01334]
+[PZU2V4B_NXP01334]
 symbol=zener_diode.sym
-value=PZU2.4B
-modelname=PZU2.4B
-file=PZU2.4B.prm
+value=PZU2V4B
+modelname=PZU2V4B
+file=PZU2V4B.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6130,14 +6130,14 @@ model_status=good
 
 
 
-[PZU2.7B1_NXP01336]
+[PZU2V7B1_NXP01336]
 symbol=zener_diode.sym
-value=PZU2.7B1
-modelname=PZU2.7B1
-file=PZU2.7B1.prm
+value=PZU2V7B1
+modelname=PZU2V7B1
+file=PZU2V7B1.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6148,14 +6148,14 @@ model_status=good
 
 
 
-[PZU2.7B2_NXP01337]
+[PZU2V7B2_NXP01337]
 symbol=zener_diode.sym
-value=PZU2.7B2
-modelname=PZU2.7B2
-file=PZU2.7B2.prm
+value=PZU2V7B2
+modelname=PZU2V7B2
+file=PZU2V7B2.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6166,14 +6166,14 @@ model_status=good
 
 
 
-[PZU2.7B_NXP01338]
+[PZU2V7B_NXP01338]
 symbol=zener_diode.sym
-value=PZU2.7B
-modelname=PZU2.7B
-file=PZU2.7B.prm
+value=PZU2V7B
+modelname=PZU2V7B
+file=PZU2V7B.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6202,14 +6202,14 @@ model_status=good
 
 
 
-[PZU3.0B1_NXP01340]
+[PZU3V0B1_NXP01340]
 symbol=zener_diode.sym
-value=PZU3.0B1
-modelname=PZU3.0B1
-file=PZU3.0B1.prm
+value=PZU3V0B1
+modelname=PZU3V0B1
+file=PZU3V0B1.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6220,14 +6220,14 @@ model_status=good
 
 
 
-[PZU3.0B2_NXP01341]
+[PZU3V0B2_NXP01341]
 symbol=zener_diode.sym
-value=PZU3.0B2
-modelname=PZU3.0B2
-file=PZU3.0B2.prm
+value=PZU3V0B2
+modelname=PZU3V0B2
+file=PZU3V0B2.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6238,14 +6238,14 @@ model_status=good
 
 
 
-[PZU3.0B_NXP01342]
+[PZU3V0B_NXP01342]
 symbol=zener_diode.sym
-value=PZU3.0B
-modelname=PZU3.0B
-file=PZU3.0B.prm
+value=PZU3V0B
+modelname=PZU3V0B
+file=PZU3V0B.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6274,14 +6274,14 @@ model_status=good
 
 
 
-[PZU3.3B1_NXP01344]
+[PZU3V3B1_NXP01344]
 symbol=zener_diode.sym
-value=PZU3.3B1
-modelname=PZU3.3B1
-file=PZU3.3B1.prm
+value=PZU3V3B1
+modelname=PZU3V3B1
+file=PZU3V3B1.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6292,14 +6292,14 @@ model_status=good
 
 
 
-[PZU3.3B2_NXP01345]
+[PZU3V3B2_NXP01345]
 symbol=zener_diode.sym
-value=PZU3.3B2
-modelname=PZU3.3B2
-file=PZU3.3B2.prm
+value=PZU3V3B2
+modelname=PZU3V3B2
+file=PZU3V3B2.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6310,14 +6310,14 @@ model_status=good
 
 
 
-[PZU3.3B_NXP01346]
+[PZU3V3B_NXP01346]
 symbol=zener_diode.sym
-value=PZU3.3B
-modelname=PZU3.3B
-file=PZU3.3B.prm
+value=PZU3V3B
+modelname=PZU3V3B
+file=PZU3V3B.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6346,14 +6346,14 @@ model_status=good
 
 
 
-[PZU3.6B1_NXP01348]
+[PZU3V6B1_NXP01348]
 symbol=zener_diode.sym
-value=PZU3.6B1
-modelname=PZU3.6B1
-file=PZU3.6B1.prm
+value=PZU3V6B1
+modelname=PZU3V6B1
+file=PZU3V6B1.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6364,14 +6364,14 @@ model_status=good
 
 
 
-[PZU3.6B2_NXP01349]
+[PZU3V6B2_NXP01349]
 symbol=zener_diode.sym
-value=PZU3.6B2
-modelname=PZU3.6B2
-file=PZU3.6B2.prm
+value=PZU3V6B2
+modelname=PZU3V6B2
+file=PZU3V6B2.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6382,14 +6382,14 @@ model_status=good
 
 
 
-[PZU3.6B_NXP01350]
+[PZU3V6B_NXP01350]
 symbol=zener_diode.sym
-value=PZU3.6B
-modelname=PZU3.6B
-file=PZU3.6B.prm
+value=PZU3V6B
+modelname=PZU3V6B
+file=PZU3V6B.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6418,14 +6418,14 @@ model_status=good
 
 
 
-[PZU3.9B1_NXP01352]
+[PZU3V9B1_NXP01352]
 symbol=zener_diode.sym
-value=PZU3.9B1
-modelname=PZU3.9B1
-file=PZU3.9B1.prm
+value=PZU3V9B1
+modelname=PZU3V9B1
+file=PZU3V9B1.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6436,14 +6436,14 @@ model_status=good
 
 
 
-[PZU3.9B2_NXP01353]
+[PZU3V9B2_NXP01353]
 symbol=zener_diode.sym
-value=PZU3.9B2
-modelname=PZU3.9B2
-file=PZU3.9B2.prm
+value=PZU3V9B2
+modelname=PZU3V9B2
+file=PZU3V9B2.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6454,14 +6454,14 @@ model_status=good
 
 
 
-[PZU3.9B_NXP01354]
+[PZU3V9B_NXP01354]
 symbol=zener_diode.sym
-value=PZU3.9B
-modelname=PZU3.9B
-file=PZU3.9B.prm
+value=PZU3V9B
+modelname=PZU3V9B
+file=PZU3V9B.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6472,14 +6472,14 @@ model_status=good
 
 
 
-[PZU4.3B1_NXP01355]
+[PZU4V3B1_NXP01355]
 symbol=zener_diode.sym
-value=PZU4.3B1
-modelname=PZU4.3B1
-file=PZU4.3B1.prm
+value=PZU4V3B1
+modelname=PZU4V3B1
+file=PZU4V3B1.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6490,14 +6490,14 @@ model_status=good
 
 
 
-[PZU4.3B2_NXP01356]
+[PZU4V3B2_NXP01356]
 symbol=zener_diode.sym
-value=PZU4.3B2
-modelname=PZU4.3B2
-file=PZU4.3B2.prm
+value=PZU4V3B2
+modelname=PZU4V3B2
+file=PZU4V3B2.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6508,14 +6508,14 @@ model_status=good
 
 
 
-[PZU4.3B3_NXP01357]
+[PZU4V3B3_NXP01357]
 symbol=zener_diode.sym
-value=PZU4.3B3
-modelname=PZU4.3B3
-file=PZU4.3B3.prm
+value=PZU4V3B3
+modelname=PZU4V3B3
+file=PZU4V3B3.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6526,14 +6526,14 @@ model_status=good
 
 
 
-[PZU4.3B_NXP01358]
+[PZU4V3B_NXP01358]
 symbol=zener_diode.sym
-value=PZU4.3B
-modelname=PZU4.3B
-file=PZU4.3B.prm
+value=PZU4V3B
+modelname=PZU4V3B
+file=PZU4V3B.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6544,14 +6544,14 @@ model_status=good
 
 
 
-[PZU4.7B1_NXP01359]
+[PZU4V7B1_NXP01359]
 symbol=zener_diode.sym
-value=PZU4.7B1
-modelname=PZU4.7B1
-file=PZU4.7B1.prm
+value=PZU4V7B1
+modelname=PZU4V7B1
+file=PZU4V7B1.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6562,14 +6562,14 @@ model_status=good
 
 
 
-[PZU4.7B2_NXP01360]
+[PZU4V7B2_NXP01360]
 symbol=zener_diode.sym
-value=PZU4.7B2
-modelname=PZU4.7B2
-file=PZU4.7B2.prm
+value=PZU4V7B2
+modelname=PZU4V7B2
+file=PZU4V7B2.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6580,14 +6580,14 @@ model_status=good
 
 
 
-[PZU4.7B3_NXP01361]
+[PZU4V7B3_NXP01361]
 symbol=zener_diode.sym
-value=PZU4.7B3
-modelname=PZU4.7B3
-file=PZU4.7B3.prm
+value=PZU4V7B3
+modelname=PZU4V7B3
+file=PZU4V7B3.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -6598,14 +6598,14 @@ model_status=good
 
 
 
-[PZU4.7B_NXP01362]
+[PZU4V7B_NXP01362]
 symbol=zener_diode.sym
-value=PZU4.7B
-modelname=PZU4.7B
-file=PZU4.7B.prm
+value=PZU4V7B
+modelname=PZU4V7B
+file=PZU4V7B.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
@@ -7134,7 +7134,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/1N4148_1N4448_5.pdf
 description=High-speed diode
 test_refdes=X1
-model_status=broken
+model_status=good
 ## ENDS missing
 
 
@@ -7189,7 +7189,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS16_SER_5.pdf
 description=High-speed switching diode
 test_refdes=D1
-model_status=broken
+model_status=good
 ## .ENDS in a Model
 
 
@@ -7207,7 +7207,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS21J_1.pdf
 description=Single high-speed switching diode
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 
@@ -7224,7 +7224,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual high-voltage switching diodes
+documentation=http://www.nxp.com/acrobat_download/datasheets/BAV23_SER_6.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7242,7 +7243,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual high-voltage switching diodes
+documentation=http://www.nxp.com/acrobat_download/datasheets/BAV23_SER_6.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7260,7 +7262,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=High-speed switching diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BAV70_SER_7.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7278,7 +7281,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=High-speed switching diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BAV99_SER_5.pdf
 test_refdes=D1
 model_status=undefined
 
@@ -7296,7 +7300,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=High-speed switching diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BAV756S_BAW56_SER_5.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7314,7 +7319,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Quadruple ESD transient voltage suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/BZA420A_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7332,7 +7338,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Quadruple ESD transient voltage suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/BZA456A_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7350,7 +7357,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Quadruple ESD transient voltage suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/BZA462A_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7368,7 +7376,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Quadruple ESD transient voltage suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/BZA800AL_SERIES_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7386,7 +7395,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Quadruple ESD transient voltage suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/BZA800AL_SERIES_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7404,14 +7414,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Quadruple ESD transient voltage suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/BZA800AL_SERIES_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [BZB100A_NXP01407]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=BZB100A
 modelname=BZB100A
 file=BZB100A.prm
@@ -7421,370 +7432,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=100V bidirectional Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZB100A_2.pdf
 test_refdes=X1
-model_status=test
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B10_NXP01408]
-symbol=.sym
-value=BZB84-B10
-modelname=BZB84-B10
-file=BZB84-B10.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B11_NXP01409]
-symbol=.sym
-value=BZB84-B11
-modelname=BZB84-B11
-file=BZB84-B11.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B12_NXP01410]
-symbol=.sym
-value=BZB84-B12
-modelname=BZB84-B12
-file=BZB84-B12.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B13_NXP01411]
-symbol=.sym
-value=BZB84-B13
-modelname=BZB84-B13
-file=BZB84-B13.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B15_NXP01412]
-symbol=.sym
-value=BZB84-B15
-modelname=BZB84-B15
-file=BZB84-B15.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B2V4_NXP01413]
-symbol=.sym
-value=BZB84-B2V4
-modelname=BZB84-B2V4
-file=BZB84-B2V4.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B2V7_NXP01414]
-symbol=.sym
-value=BZB84-B2V7
-modelname=BZB84-B2V7
-file=BZB84-B2V7.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B3V0_NXP01415]
-symbol=.sym
-value=BZB84-B3V0
-modelname=BZB84-B3V0
-file=BZB84-B3V0.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B3V3_NXP01416]
-symbol=.sym
-value=BZB84-B3V3
-modelname=BZB84-B3V3
-file=BZB84-B3V3.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B3V6_NXP01417]
-symbol=.sym
-value=BZB84-B3V6
-modelname=BZB84-B3V6
-file=BZB84-B3V6.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B3V9_NXP01418]
-symbol=.sym
-value=BZB84-B3V9
-modelname=BZB84-B3V9
-file=BZB84-B3V9.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B4V3_NXP01419]
-symbol=.sym
-value=BZB84-B4V3
-modelname=BZB84-B4V3
-file=BZB84-B4V3.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B4V7_NXP01420]
-symbol=.sym
-value=BZB84-B4V7
-modelname=BZB84-B4V7
-file=BZB84-B4V7.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B5V1_NXP01421]
-symbol=.sym
-value=BZB84-B5V1
-modelname=BZB84-B5V1
-file=BZB84-B5V1.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B5V6_NXP01422]
-symbol=.sym
-value=BZB84-B5V6
-modelname=BZB84-B5V6
-file=BZB84-B5V6.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B6V2_NXP01423]
-symbol=.sym
-value=BZB84-B6V2
-modelname=BZB84-B6V2
-file=BZB84-B6V2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B6V8_NXP01424]
-symbol=.sym
-value=BZB84-B6V8
-modelname=BZB84-B6V8
-file=BZB84-B6V8.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B7V5_NXP01425]
-symbol=.sym
-value=BZB84-B7V5
-modelname=BZB84-B7V5
-file=BZB84-B7V5.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B8V2_NXP01426]
-symbol=.sym
-value=BZB84-B8V2
-modelname=BZB84-B8V2
-file=BZB84-B8V2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZB84-B9V1_NXP01427]
-symbol=.sym
-value=BZB84-B9V1
-modelname=BZB84-B9V1
-file=BZB84-B9V1.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
+model_status=good
 
 
 # Subcircuit with 3 connections
@@ -7799,7 +7450,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7817,7 +7469,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7835,7 +7488,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7853,7 +7507,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7871,7 +7526,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7889,7 +7545,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7907,7 +7564,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7925,7 +7583,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7943,7 +7602,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7961,7 +7621,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7979,7 +7640,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -7997,7 +7659,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8015,7 +7678,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8033,7 +7697,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8051,7 +7716,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8069,7 +7735,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8087,7 +7754,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8105,7 +7773,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8123,7 +7792,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8141,7 +7811,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8159,7 +7830,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8177,7 +7849,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8195,7 +7868,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8213,7 +7887,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8231,7 +7906,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8249,7 +7925,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8267,7 +7944,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8285,7 +7963,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8303,7 +7982,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -8321,7 +8001,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8339,7 +8020,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8357,7 +8039,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8375,7 +8058,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8393,7 +8077,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8411,7 +8096,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8429,7 +8115,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8447,25 +8134,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-# Subcircuit with 3 connections
-[BZV49-C12_NXP01465]
-symbol=.sym
-value=BZV49-C12
-modelname=BZV49-C12
-file=BZV49-C12.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8483,7 +8153,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Voltage regulator diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZV49_SERIES_4.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -8501,644 +8172,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Voltage regulator diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZV49_SERIES_4.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
-[BZX384B10_NXP01468]
-symbol=.sym
-value=BZX384B10
-modelname=BZX384B10
-file=BZX384B10.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B11_NXP01469]
-symbol=.sym
-value=BZX384B11
-modelname=BZX384B11
-file=BZX384B11.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B12_NXP01470]
-symbol=.sym
-value=BZX384B12
-modelname=BZX384B12
-file=BZX384B12.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B13_NXP01471]
-symbol=.sym
-value=BZX384B13
-modelname=BZX384B13
-file=BZX384B13.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B15_NXP01472]
-symbol=.sym
-value=BZX384B15
-modelname=BZX384B15
-file=BZX384B15.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B16_NXP01473]
-symbol=.sym
-value=BZX384B16
-modelname=BZX384B16
-file=BZX384B16.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B18_NXP01474]
-symbol=.sym
-value=BZX384B18
-modelname=BZX384B18
-file=BZX384B18.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B20_NXP01475]
-symbol=.sym
-value=BZX384B20
-modelname=BZX384B20
-file=BZX384B20.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B22_NXP01476]
-symbol=.sym
-value=BZX384B22
-modelname=BZX384B22
-file=BZX384B22.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B24_NXP01477]
-symbol=.sym
-value=BZX384B24
-modelname=BZX384B24
-file=BZX384B24.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B27_NXP01478]
-symbol=.sym
-value=BZX384B27
-modelname=BZX384B27
-file=BZX384B27.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B2V4_NXP01479]
-symbol=.sym
-value=BZX384B2V4
-modelname=BZX384B2V4
-file=BZX384B2V4.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B2V7_NXP01480]
-symbol=.sym
-value=BZX384B2V7
-modelname=BZX384B2V7
-file=BZX384B2V7.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B30_NXP01481]
-symbol=.sym
-value=BZX384B30
-modelname=BZX384B30
-file=BZX384B30.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B33_NXP01482]
-symbol=.sym
-value=BZX384B33
-modelname=BZX384B33
-file=BZX384B33.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B36_NXP01483]
-symbol=.sym
-value=BZX384B36
-modelname=BZX384B36
-file=BZX384B36.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B39_NXP01484]
-symbol=.sym
-value=BZX384B39
-modelname=BZX384B39
-file=BZX384B39.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B3V0_NXP01485]
-symbol=.sym
-value=BZX384B3V0
-modelname=BZX384B3V0
-file=BZX384B3V0.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B3V3_NXP01486]
-symbol=.sym
-value=BZX384B3V3
-modelname=BZX384B3V3
-file=BZX384B3V3.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B3V6_NXP01487]
-symbol=.sym
-value=BZX384B3V6
-modelname=BZX384B3V6
-file=BZX384B3V6.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B3V9_NXP01488]
-symbol=.sym
-value=BZX384B3V9
-modelname=BZX384B3V9
-file=BZX384B3V9.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B43_NXP01489]
-symbol=.sym
-value=BZX384B43
-modelname=BZX384B43
-file=BZX384B43.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B47_NXP01490]
-symbol=.sym
-value=BZX384B47
-modelname=BZX384B47
-file=BZX384B47.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B4V3_NXP01491]
-symbol=.sym
-value=BZX384B4V3
-modelname=BZX384B4V3
-file=BZX384B4V3.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B4V7_NXP01492]
-symbol=.sym
-value=BZX384B4V7
-modelname=BZX384B4V7
-file=BZX384B4V7.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B51_NXP01493]
-symbol=.sym
-value=BZX384B51
-modelname=BZX384B51
-file=BZX384B51.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B56_NXP01494]
-symbol=.sym
-value=BZX384B56
-modelname=BZX384B56
-file=BZX384B56.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B5V1_NXP01495]
-symbol=.sym
-value=BZX384B5V1
-modelname=BZX384B5V1
-file=BZX384B5V1.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B5V6_NXP01496]
-symbol=.sym
-value=BZX384B5V6
-modelname=BZX384B5V6
-file=BZX384B5V6.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B62_NXP01497]
-symbol=.sym
-value=BZX384B62
-modelname=BZX384B62
-file=BZX384B62.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B68_NXP01498]
-symbol=.sym
-value=BZX384B68
-modelname=BZX384B68
-file=BZX384B68.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B6V2_NXP01499]
-symbol=.sym
-value=BZX384B6V2
-modelname=BZX384B6V2
-file=BZX384B6V2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B6V8_NXP01500]
-symbol=.sym
-value=BZX384B6V8
-modelname=BZX384B6V8
-file=BZX384B6V8.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B75_NXP01501]
-symbol=.sym
-value=BZX384B75
-modelname=BZX384B75
-file=BZX384B75.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B7V5_NXP01502]
-symbol=.sym
-value=BZX384B7V5
-modelname=BZX384B7V5
-file=BZX384B7V5.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B8V2_NXP01503]
-symbol=.sym
-value=BZX384B8V2
-modelname=BZX384B8V2
-file=BZX384B8V2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[BZX384B9V1_NXP01504]
-symbol=.sym
-value=BZX384B9V1
-modelname=BZX384B9V1
-file=BZX384B9V1.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-# Subcircuit with 1 connections
 [BZX84JB10_NXP01505]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB10
 modelname=BZX84JB10
 file=BZX84J-B10.prm
@@ -9148,15 +8190,16 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
+
 [BZX84JB11_NXP01506]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB11
 modelname=BZX84JB11
 file=BZX84J-B11.prm
@@ -9166,15 +8209,16 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
+
 [BZX84JB12_NXP01507]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB12
 modelname=BZX84JB12
 file=BZX84J-B12.prm
@@ -9184,15 +8228,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB13_NXP01508]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB13
 modelname=BZX84JB13
 file=BZX84J-B13.prm
@@ -9202,15 +8246,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB15_NXP01509]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB15
 modelname=BZX84JB15
 file=BZX84J-B15.prm
@@ -9220,15 +8264,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB16_NXP01510]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB16
 modelname=BZX84JB16
 file=BZX84J-B16.prm
@@ -9238,15 +8282,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB18_NXP01511]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB18
 modelname=BZX84JB18
 file=BZX84J-B18.prm
@@ -9256,15 +8300,16 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
+
 [BZX84JB20_NXP01512]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB20
 modelname=BZX84JB20
 file=BZX84J-B20.prm
@@ -9274,15 +8319,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB22_NXP01513]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB22
 modelname=BZX84JB22
 file=BZX84J-B22.prm
@@ -9292,15 +8337,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB24_NXP01514]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB24
 modelname=BZX84JB24
 file=BZX84J-B24.prm
@@ -9310,15 +8355,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB27_NXP01515]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB27
 modelname=BZX84JB27
 file=BZX84J-B27.prm
@@ -9328,15 +8373,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB2V4_NXP01516]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB2V4
 modelname=BZX84JB2V4
 file=BZX84J-B2V4.prm
@@ -9346,15 +8391,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB2V7_NXP01517]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB2V7
 modelname=BZX84JB2V7
 file=BZX84J-B2V7.prm
@@ -9364,15 +8409,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB30_NXP01518]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB30
 modelname=BZX84JB30
 file=BZX84J-B30.prm
@@ -9382,15 +8427,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB33_NXP01519]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB33
 modelname=BZX84JB33
 file=BZX84J-B33.prm
@@ -9400,15 +8445,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB36_NXP01520]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB36
 modelname=BZX84JB36
 file=BZX84J-B36.prm
@@ -9418,15 +8463,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB39_NXP01521]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB39
 modelname=BZX84JB39
 file=BZX84J-B39.prm
@@ -9436,15 +8481,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB3V0_NXP01522]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB3V0
 modelname=BZX84JB3V0
 file=BZX84J-B3V0.prm
@@ -9454,15 +8499,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB3V3_NXP01523]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB3V3
 modelname=BZX84JB3V3
 file=BZX84J-B3V3.prm
@@ -9472,15 +8517,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB3V6_NXP01524]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB3V6
 modelname=BZX84JB3V6
 file=BZX84J-B3V6.prm
@@ -9490,15 +8535,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB3V9_NXP01525]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB3V9
 modelname=BZX84JB3V9
 file=BZX84J-B3V9.prm
@@ -9508,15 +8553,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB43_NXP01526]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB43
 modelname=BZX84JB43
 file=BZX84J-B43.prm
@@ -9526,15 +8571,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB47_NXP01527]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB47
 modelname=BZX84JB47
 file=BZX84J-B47.prm
@@ -9544,15 +8589,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB4V3_NXP01528]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB4V3
 modelname=BZX84JB4V3
 file=BZX84J-B4V3.prm
@@ -9562,15 +8607,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB4V7_NXP01529]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB4V7
 modelname=BZX84JB4V7
 file=BZX84J-B4V7.prm
@@ -9580,15 +8625,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB51_NXP01530]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB51
 modelname=BZX84JB51
 file=BZX84J-B51.prm
@@ -9598,15 +8643,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB56_NXP01531]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB56
 modelname=BZX84JB56
 file=BZX84J-B56.prm
@@ -9616,15 +8661,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB5V1_NXP01532]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB5V1
 modelname=BZX84JB5V1
 file=BZX84J-B5V1.prm
@@ -9634,15 +8679,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB5V6_NXP01533]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB5V6
 modelname=BZX84JB5V6
 file=BZX84J-B5V6.prm
@@ -9652,15 +8697,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB62_NXP01534]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB62
 modelname=BZX84JB62
 file=BZX84J-B62.prm
@@ -9670,15 +8715,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB68_NXP01535]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB68
 modelname=BZX84JB68
 file=BZX84J-B68.prm
@@ -9688,15 +8733,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB6V2_NXP01536]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB6V2
 modelname=BZX84JB6V2
 file=BZX84J-B6V2.prm
@@ -9706,15 +8751,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB6V8_NXP01537]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB6V8
 modelname=BZX84JB6V8
 file=BZX84J-B6V8.prm
@@ -9724,15 +8769,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB75_NXP01538]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB75
 modelname=BZX84JB75
 file=BZX84J-B75.prm
@@ -9742,15 +8787,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB7V5_NXP01539]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB7V5
 modelname=BZX84JB7V5
 file=BZX84J-B7V5.prm
@@ -9760,15 +8805,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB8V2_NXP01540]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB8V2
 modelname=BZX84JB8V2
 file=BZX84J-B8V2.prm
@@ -9778,15 +8823,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [BZX84JB9V1_NXP01541]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZX84JB9V1
 modelname=BZX84JB9V1
 file=BZX84J-B9V1.prm
@@ -9796,9 +8841,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
@@ -9814,7 +8860,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Double ESD protection diodes for transient overvoltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -9832,7 +8879,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Double ESD protection diodes for transient overvoltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -9850,7 +8898,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Double ESD protection diodes for transient overvoltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -9868,7 +8917,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Double ESD protection diodes for transient overvoltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -9886,7 +8936,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Double ESD protection diodes for transient overvoltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -9904,7 +8955,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Double ESD protection diodes for transient overvoltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -9922,7 +8974,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Double ESD protection diodes for transient overvoltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -9940,7 +8993,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Double ESD protection diodes for transient overvoltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -9958,7 +9012,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Double ESD protection diodes for transient overvoltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -9976,7 +9031,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Double ESD protection diodes for transient overvoltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -9994,7 +9050,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Double ESD protection diodes for transient overvoltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -10012,32 +9069,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Double ESD protection diodes for transient overvoltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
-[PDZ4V7B_NXP01554]
-symbol=.sym
-value=PDZ4V7B
-modelname=PDZ4V7B
-file=PDZ4V7B.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-# Subcircuit with 1 connections
 [PDZ6V2B_NXP01555]
-symbol=.sym
+symbol=zener_diode.sym
 value=PDZ6V2B
 modelname=PDZ6V2B
 file=PDZ6.2B.prm
@@ -10047,26 +9087,28 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Voltage regulator diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PESD12VS1UA_NXP01556]
-symbol=.sym
+symbol=zener_diode.sym
 value=PESD12VS1UA
 modelname=PESD12VS1UA
 file=PESD12VS1UA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Unidirectional ESD protection for transient voltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1UA_PESD12VS1UA_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -10082,7 +9124,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=FlexRay bus ESD protection diode
+documentation=http://www.nxp.com/acrobat/datasheets/PESD1FLEX_2.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -10100,7 +9143,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=CAN bus ESD protection diode
+documentation=http://www.nxp.com/acrobat/datasheets/PESD2CAN_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -10118,7 +9162,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Low capacitance unidirectional quadruple ESD protection diode arrays
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXL4UF_G_W_4.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -10136,7 +9181,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Low capacitance unidirectional fivefold ESD protection diode arrays
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXL5UF_V_Y_2.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -10154,7 +9200,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Unidirectional quadruple ESD protection diode arrays
+documentation=http://www.nxp.com/acrobat/datasheets/PESD3V3S4UF_PESD5V0S4UF_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -10172,7 +9219,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Very low capacitance unidirectional quadruple ESD protection diode arrays
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXV4UF_G_W_3.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -10190,26 +9238,28 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Low capacitance unidirectional quadruple ESD protection diode arrays
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXL4UF_G_W_4.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PESD5V0S1UA_NXP01564]
-symbol=.sym
+symbol=zener_diode.sym
 value=PESD5V0S1UA
 modelname=PESD5V0S1UA
 file=PESD5V0S1UA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Unidirectional ESD protection for transient voltage suppression
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1UA_PESD12VS1UA_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -10225,14 +9275,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Unidirectional quadruple ESD protection diode arrays
+documentation=http://www.nxp.com/acrobat/datasheets/PESD3V3S4UF_PESD5V0S4UF_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PESD5V0U1BA_NXP01566]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=PESD5V0U1BA
 modelname=PESD5V0U1BA
 file=PESD5V0U1BA.prm
@@ -10242,14 +9293,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Ultra low capacitance bidirectional ESD protection diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1BA_BB_BL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
 [PESD5V0U1BB_NXP01567]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=PESD5V0U1BB
 modelname=PESD5V0U1BB
 file=PESD5V0U1BB.prm
@@ -10259,14 +9311,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Ultra low capacitance bidirectional ESD protection diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1BA_BB_BL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
 [PESD5V0U1BL_NXP01568]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=PESD5V0U1BL
 modelname=PESD5V0U1BL
 file=PESD5V0U1BL.prm
@@ -10276,60 +9329,64 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Ultra low capacitance bidirectional ESD protection diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1BA_BB_BL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
 [PESD5V0U1UA_NXP01569]
-symbol=.sym
+symbol=zener_diode.sym
 value=PESD5V0U1UA
 modelname=PESD5V0U1UA
 file=PESD5V0U1UA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Ultra low capacitance unidirectional ESD protection diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1UA_UB_UL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PESD5V0U1UB_NXP01570]
-symbol=.sym
+symbol=zener_diode.sym
 value=PESD5V0U1UB
 modelname=PESD5V0U1UB
 file=PESD5V0U1UB.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Ultra low capacitance unidirectional ESD protection diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1UA_UB_UL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PESD5V0U1UL_NXP01571]
-symbol=.sym
+symbol=zener_diode.sym
 value=PESD5V0U1UL
 modelname=PESD5V0U1UL
 file=PESD5V0U1UL.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Ultra low capacitance unidirectional ESD protection diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1UA_UB_UL_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -10345,7 +9402,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Ultra low capacitance bidirectional double ESD protection diode
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U2BT_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -10363,14 +9421,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Very low capacitance unidirectional quadruple ESD protection diode arrays
+documentation=http://www.nxp.com/acrobat/datasheets/PESDXV4UF_G_W_3.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PESD5V0X1BL_NXP01574]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=PESD5V0X1BL
 modelname=PESD5V0X1BL
 file=PESD5V0X1BL.prm
@@ -10380,9 +9439,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Ultra low capacitance bidirectional ESD protection diode
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0X1BL_2.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -10398,7 +9458,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Ultra low capacitance bidirectional ESD protection diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0X1BQ_PESD5V0X1BT_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -10416,14 +9477,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Ultra low capacitance bidirectional ESD protection diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0X1BQ_PESD5V0X1BT_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PMLL4148L_NXP01577]
-symbol=.sym
+symbol=diode.sym
 value=PMLL4148L
 modelname=PMLL4148L
 file=PMLL4148L.prm
@@ -10433,315 +9495,334 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=High-speed switching diode
+documentation=http://www.nxp.com/acrobat/datasheets/PMLL4148L_PMLL4448_7.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS10VS1UR_NXP01578]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS10VS1UR
 modelname=PTVS10VS1UR
 file=PTVS10VS1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS11VS1UR_NXP01579]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS11VS1UR
 modelname=PTVS11VS1UR
 file=PTVS11VS1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS12VS1UR_NXP01580]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS12VS1UR
 modelname=PTVS12VS1UR
 file=PTVS12VS1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS13VS1UR_NXP01581]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS13VS1UR
 modelname=PTVS13VS1UR
 file=PTVS13VS1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS14VS1UR_NXP01582]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS14VS1UR
 modelname=PTVS14VS1UR
 file=PTVS14VS1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS15VS1UR_NXP01583]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS15VS1UR
 modelname=PTVS15VS1UR
 file=PTVS15VS1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS16VS1UR_NXP01584]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS16VS1UR
 modelname=PTVS16VS1UR
 file=PTVS16VS1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS17VS1UR_NXP01585]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS17VS1UR
 modelname=PTVS17VS1UR
 file=PTVS17VS1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS18VS1UR_NXP01586]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS18VS1UR
 modelname=PTVS18VS1UR
 file=PTVS18VS1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS3V3S1UR_NXP01587]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS3V3S1UR
 modelname=PTVS3V3S1UR
 file=PTVS3V3S1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS5V0S1UR_NXP01588]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS5V0S1UR
 modelname=PTVS5V0S1UR
 file=PTVS5V0S1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS6V0S1UR_NXP01589]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS6V0S1UR
 modelname=PTVS6V0S1UR
 file=PTVS6V0S1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS6V5S1UR_NXP01590]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS6V5S1UR
 modelname=PTVS6V5S1UR
 file=PTVS6V5S1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS7V0S1UR_NXP01591]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS7V0S1UR
 modelname=PTVS7V0S1UR
 file=PTVS7V0S1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS7V5S1UR_NXP01592]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS7V5S1UR
 modelname=PTVS7V5S1UR
 file=PTVS7V5S1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS8V0S1UR_NXP01593]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS8V0S1UR
 modelname=PTVS8V0S1UR
 file=PTVS8V0S1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS8V5S1UR_NXP01594]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS8V5S1UR
 modelname=PTVS8V5S1UR
 file=PTVS8V5S1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
 [PTVS9V0S1UR_NXP01595]
-symbol=.sym
+symbol=zener_diode.sym
 value=PTVS9V0S1UR
 modelname=PTVS9V0S1UR
 file=PTVS9V0S1UR.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=400 W Transient Voltage Suppressor
+documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -10756,9 +9837,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=Single Zener diode
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -10773,9 +9855,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -10791,7 +9874,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -10808,9 +9892,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -10825,9 +9910,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -10843,7 +9929,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -10861,7 +9948,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -10878,9 +9966,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -10895,9 +9984,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -10913,7 +10003,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -10930,9 +10021,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -10947,9 +10039,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -10965,7 +10058,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -10983,7 +10077,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -11000,9 +10095,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11017,9 +10113,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11035,7 +10132,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11052,9 +10150,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11069,9 +10168,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11087,7 +10187,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11105,7 +10206,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -11122,9 +10224,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11139,9 +10242,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11157,7 +10261,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11174,9 +10279,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11191,9 +10297,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11209,7 +10316,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11227,7 +10335,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -11244,9 +10353,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11262,7 +10372,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11280,7 +10391,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -11297,9 +10409,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11314,9 +10427,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11332,7 +10446,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11349,9 +10464,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11366,9 +10482,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11384,7 +10501,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11402,7 +10520,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -11419,9 +10538,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11436,9 +10556,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11454,7 +10575,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11471,9 +10593,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11488,9 +10611,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11506,7 +10630,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11524,7 +10649,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -11541,9 +10667,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11558,9 +10685,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11576,7 +10704,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11593,9 +10722,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11610,9 +10740,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11628,7 +10759,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11646,144 +10778,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-[PZU2.4BA_NXP01648]
-symbol=.sym
-value=PZU2.4BA
-modelname=PZU2.4BA
-file=PZU2.4BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU2.4BL_NXP01649]
-symbol=.sym
-value=PZU2.4BL
-modelname=PZU2.4BL
-file=PZU2.4BL.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU2.7B1A_NXP01650]
-symbol=.sym
-value=PZU2.7B1A
-modelname=PZU2.7B1A
-file=PZU2.7B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU2.7B2A_NXP01651]
-symbol=.sym
-value=PZU2.7B2A
-modelname=PZU2.7B2A
-file=PZU2.7B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU2.7B2L_NXP01652]
-symbol=.sym
-value=PZU2.7B2L
-modelname=PZU2.7B2L
-file=PZU2.7B2L.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU2.7BA_NXP01653]
-symbol=.sym
-value=PZU2.7BA
-modelname=PZU2.7BA
-file=PZU2.7BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU2.7BL_NXP01654]
-symbol=.sym
-value=PZU2.7BL
-modelname=PZU2.7BL
-file=PZU2.7BL.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-# Subcircuit with 5 connections
-[PZU2.7DB2_NXP01655]
-symbol=.sym
-value=PZU2.7DB2
-modelname=PZU2.7DB2
-file=PZU2.7DB2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -11800,9 +10796,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11817,9 +10814,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11835,7 +10833,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11852,9 +10851,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11869,9 +10869,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11887,7 +10888,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11905,7 +10907,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -11922,9 +10925,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11939,9 +10943,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11957,7 +10962,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -11974,9 +10980,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -11991,9 +10998,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12009,7 +11017,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -12027,7 +11036,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -12044,9 +11054,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12061,9 +11072,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12079,7 +11091,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -12096,9 +11109,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12113,9 +11127,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12131,7 +11146,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -12149,7 +11165,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -12166,9 +11183,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12184,26 +11202,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
-
-
-
-[PZU2V4B_NXP01679]
-symbol=.sym
-value=PZU2V4B
-modelname=PZU2V4B
-file=PZU2V4B.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -12218,9 +11220,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12235,43 +11238,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
-
-
-
-[PZU2V7B_NXP01682]
-symbol=.sym
-value=PZU2V7B
-modelname=PZU2V7B
-file=PZU2V7B.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU2V7B1_NXP01683]
-symbol=.sym
-value=PZU2V7B1
-modelname=PZU2V7B1
-file=PZU2V7B1.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12286,26 +11256,11 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
-
-
-[PZU2V7B2_NXP01685]
-symbol=.sym
-value=PZU2V7B2
-modelname=PZU2V7B2
-file=PZU2V7B2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -12320,9 +11275,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12337,9 +11293,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12354,9 +11311,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12371,9 +11329,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12389,419 +11348,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-[PZU3.0B1A_NXP01691]
-symbol=.sym
-value=PZU3.0B1A
-modelname=PZU3.0B1A
-file=PZU3.0B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.0B2A_NXP01692]
-symbol=.sym
-value=PZU3.0B2A
-modelname=PZU3.0B2A
-file=PZU3.0B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.0B2L_NXP01693]
-symbol=.sym
-value=PZU3.0B2L
-modelname=PZU3.0B2L
-file=PZU3.0B2L.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.0BA_NXP01694]
-symbol=.sym
-value=PZU3.0BA
-modelname=PZU3.0BA
-file=PZU3.0BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.0BL_NXP01695]
-symbol=.sym
-value=PZU3.0BL
-modelname=PZU3.0BL
-file=PZU3.0BL.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-# Subcircuit with 5 connections
-[PZU3.0DB2_NXP01696]
-symbol=.sym
-value=PZU3.0DB2
-modelname=PZU3.0DB2
-file=PZU3.0DB2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-[PZU3.3B1A_NXP01697]
-symbol=.sym
-value=PZU3.3B1A
-modelname=PZU3.3B1A
-file=PZU3.3B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.3B2A_NXP01698]
-symbol=.sym
-value=PZU3.3B2A
-modelname=PZU3.3B2A
-file=PZU3.3B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.3B2L_NXP01699]
-symbol=.sym
-value=PZU3.3B2L
-modelname=PZU3.3B2L
-file=PZU3.3B2L.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.3BA_NXP01700]
-symbol=.sym
-value=PZU3.3BA
-modelname=PZU3.3BA
-file=PZU3.3BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.3BL_NXP01701]
-symbol=.sym
-value=PZU3.3BL
-modelname=PZU3.3BL
-file=PZU3.3BL.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-# Subcircuit with 5 connections
-[PZU3.3DB2_NXP01702]
-symbol=.sym
-value=PZU3.3DB2
-modelname=PZU3.3DB2
-file=PZU3.3DB2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-[PZU3.6B1A_NXP01703]
-symbol=.sym
-value=PZU3.6B1A
-modelname=PZU3.6B1A
-file=PZU3.6B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.6B2A_NXP01704]
-symbol=.sym
-value=PZU3.6B2A
-modelname=PZU3.6B2A
-file=PZU3.6B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.6B2L_NXP01705]
-symbol=.sym
-value=PZU3.6B2L
-modelname=PZU3.6B2L
-file=PZU3.6B2L.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.6BA_NXP01706]
-symbol=.sym
-value=PZU3.6BA
-modelname=PZU3.6BA
-file=PZU3.6BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.6BL_NXP01707]
-symbol=.sym
-value=PZU3.6BL
-modelname=PZU3.6BL
-file=PZU3.6BL.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-# Subcircuit with 5 connections
-[PZU3.6DB2_NXP01708]
-symbol=.sym
-value=PZU3.6DB2
-modelname=PZU3.6DB2
-file=PZU3.6DB2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-[PZU3.9B1A_NXP01709]
-symbol=.sym
-value=PZU3.9B1A
-modelname=PZU3.9B1A
-file=PZU3.9B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.9B2A_NXP01710]
-symbol=.sym
-value=PZU3.9B2A
-modelname=PZU3.9B2A
-file=PZU3.9B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.9B2L_NXP01711]
-symbol=.sym
-value=PZU3.9B2L
-modelname=PZU3.9B2L
-file=PZU3.9B2L.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.9BA_NXP01712]
-symbol=.sym
-value=PZU3.9BA
-modelname=PZU3.9BA
-file=PZU3.9BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3.9BL_NXP01713]
-symbol=.sym
-value=PZU3.9BL
-modelname=PZU3.9BL
-file=PZU3.9BL.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-# Subcircuit with 5 connections
-[PZU3.9DB2_NXP01714]
-symbol=.sym
-value=PZU3.9DB2
-modelname=PZU3.9DB2
-file=PZU3.9DB2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -12818,9 +11366,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12836,7 +11385,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -12853,9 +11403,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12871,7 +11422,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -12888,9 +11440,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12906,43 +11459,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
-
-
-
-[PZU3V0B_NXP01721]
-symbol=.sym
-value=PZU3V0B
-modelname=PZU3V0B
-file=PZU3V0B.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3V0B1_NXP01722]
-symbol=.sym
-value=PZU3V0B1
-modelname=PZU3V0B1
-file=PZU3V0B1.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -12957,26 +11477,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
-
-
-
-[PZU3V0B2_NXP01724]
-symbol=.sym
-value=PZU3V0B2
-modelname=PZU3V0B2
-file=PZU3V0B2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -12991,9 +11495,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13008,9 +11513,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13025,9 +11531,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13042,9 +11549,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13060,43 +11568,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
-
-
-
-[PZU3V3B_NXP01730]
-symbol=.sym
-value=PZU3V3B
-modelname=PZU3V3B
-file=PZU3V3B.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3V3B1_NXP01731]
-symbol=.sym
-value=PZU3V3B1
-modelname=PZU3V3B1
-file=PZU3V3B1.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -13111,26 +11586,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
-
-
-
-[PZU3V3B2_NXP01733]
-symbol=.sym
-value=PZU3V3B2
-modelname=PZU3V3B2
-file=PZU3V3B2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13145,9 +11604,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13162,9 +11622,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13179,9 +11640,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13196,9 +11658,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13214,43 +11677,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
-
-
-
-[PZU3V6B_NXP01739]
-symbol=.sym
-value=PZU3V6B
-modelname=PZU3V6B
-file=PZU3V6B.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3V6B1_NXP01740]
-symbol=.sym
-value=PZU3V6B1
-modelname=PZU3V6B1
-file=PZU3V6B1.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -13265,26 +11695,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
-
-
-
-[PZU3V6B2_NXP01742]
-symbol=.sym
-value=PZU3V6B2
-modelname=PZU3V6B2
-file=PZU3V6B2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13299,9 +11713,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13316,9 +11731,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13333,9 +11749,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13350,9 +11767,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13368,43 +11786,11 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
-
-
-[PZU3V9B_NXP01748]
-symbol=.sym
-value=PZU3V9B
-modelname=PZU3V9B
-file=PZU3V9B.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU3V9B1_NXP01749]
-symbol=.sym
-value=PZU3V9B1
-modelname=PZU3V9B1
-file=PZU3V9B1.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -13419,26 +11805,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
-
-
-
-[PZU3V9B2_NXP01751]
-symbol=.sym
-value=PZU3V9B2
-modelname=PZU3V9B2
-file=PZU3V9B2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13453,9 +11823,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13470,9 +11841,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13487,9 +11859,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13504,9 +11877,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13522,283 +11896,11 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
-
-
-[PZU4.3B1A_NXP01757]
-symbol=.sym
-value=PZU4.3B1A
-modelname=PZU4.3B1A
-file=PZU4.3B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU4.3B2A_NXP01758]
-symbol=.sym
-value=PZU4.3B2A
-modelname=PZU4.3B2A
-file=PZU4.3B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU4.3B2L_NXP01759]
-symbol=.sym
-value=PZU4.3B2L
-modelname=PZU4.3B2L
-file=PZU4.3B2L.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU4.3B3A_NXP01760]
-symbol=.sym
-value=PZU4.3B3A
-modelname=PZU4.3B3A
-file=PZU4.3B3A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU4.3BA_NXP01761]
-symbol=.sym
-value=PZU4.3BA
-modelname=PZU4.3BA
-file=PZU4.3BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU4.3BL_NXP01762]
-symbol=.sym
-value=PZU4.3BL
-modelname=PZU4.3BL
-file=PZU4.3BL.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-# Subcircuit with 5 connections
-[PZU4.3DB2_NXP01763]
-symbol=.sym
-value=PZU4.3DB2
-modelname=PZU4.3DB2
-file=PZU4.3DB2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-[PZU4.7B1A_NXP01764]
-symbol=.sym
-value=PZU4.7B1A
-modelname=PZU4.7B1A
-file=PZU4.7B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU4.7B2A_NXP01765]
-symbol=.sym
-value=PZU4.7B2A
-modelname=PZU4.7B2A
-file=PZU4.7B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU4.7B2L_NXP01766]
-symbol=.sym
-value=PZU4.7B2L
-modelname=PZU4.7B2L
-file=PZU4.7B2L.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU4.7B3A_NXP01767]
-symbol=.sym
-value=PZU4.7B3A
-modelname=PZU4.7B3A
-file=PZU4.7B3A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU4.7BA_NXP01768]
-symbol=.sym
-value=PZU4.7BA
-modelname=PZU4.7BA
-file=PZU4.7BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU4.7BL_NXP01769]
-symbol=.sym
-value=PZU4.7BL
-modelname=PZU4.7BL
-file=PZU4.7BL.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-# Subcircuit with 5 connections
-[PZU4.7DB2_NXP01770]
-symbol=.sym
-value=PZU4.7DB2
-modelname=PZU4.7DB2
-file=PZU4.7DB2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-[PZU4V3B_NXP01771]
-symbol=.sym
-value=PZU4V3B
-modelname=PZU4V3B
-file=PZU4V3B.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU4V3B1_NXP01772]
-symbol=.sym
-value=PZU4V3B1
-modelname=PZU4V3B1
-file=PZU4V3B1.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -13813,26 +11915,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
-
-
-
-[PZU4V3B2_NXP01774]
-symbol=.sym
-value=PZU4V3B2
-modelname=PZU4V3B2
-file=PZU4V3B2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13847,9 +11933,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13864,26 +11951,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
-
-
-
-[PZU4V3B3_NXP01777]
-symbol=.sym
-value=PZU4V3B3
-modelname=PZU4V3B3
-file=PZU4V3B3.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13898,9 +11969,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13915,9 +11987,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13932,9 +12005,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -13950,43 +12024,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
-
-
-
-[PZU4V7B_NXP01782]
-symbol=.sym
-value=PZU4V7B
-modelname=PZU4V7B
-file=PZU4V7B.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU4V7B1_NXP01783]
-symbol=.sym
-value=PZU4V7B1
-modelname=PZU4V7B1
-file=PZU4V7B1.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -14001,26 +12042,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
-
-
-
-[PZU4V7B2_NXP01785]
-symbol=.sym
-value=PZU4V7B2
-modelname=PZU4V7B2
-file=PZU4V7B2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14035,9 +12060,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14052,26 +12078,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
-
-
-
-[PZU4V7B3_NXP01788]
-symbol=.sym
-value=PZU4V7B3
-modelname=PZU4V7B3
-file=PZU4V7B3.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14086,9 +12096,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14103,9 +12114,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14120,9 +12132,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14138,43 +12151,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
-
-
-
-[PZU5.1B1A_NXP01793]
-symbol=.sym
-value=PZU5.1B1A
-modelname=PZU5.1B1A
-file=PZU5.1B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU5.1B2A_NXP01794]
-symbol=.sym
-value=PZU5.1B2A
-modelname=PZU5.1B2A
-file=PZU5.1B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -14190,43 +12170,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
-
-
-
-[PZU5.1B3A_NXP01796]
-symbol=.sym
-value=PZU5.1B3A
-modelname=PZU5.1B3A
-file=PZU5.1B3A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU5.1BA_NXP01797]
-symbol=.sym
-value=PZU5.1BA
-modelname=PZU5.1BA
-file=PZU5.1BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -14242,61 +12189,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
-
-
-
-# Subcircuit with 5 connections
-[PZU5.1DB2_NXP01799]
-symbol=.sym
-value=PZU5.1DB2
-modelname=PZU5.1DB2
-file=PZU5.1DB2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-[PZU5.6B1A_NXP01800]
-symbol=.sym
-value=PZU5.6B1A
-modelname=PZU5.6B1A
-file=PZU5.6B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU5.6B2A_NXP01801]
-symbol=.sym
-value=PZU5.6B2A
-modelname=PZU5.6B2A
-file=PZU5.6B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -14312,43 +12208,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
-
-
-
-[PZU5.6B3A_NXP01803]
-symbol=.sym
-value=PZU5.6B3A
-modelname=PZU5.6B3A
-file=PZU5.6B3A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU5.6BA_NXP01804]
-symbol=.sym
-value=PZU5.6BA
-modelname=PZU5.6BA
-file=PZU5.6BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -14364,26 +12227,9 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
-model_status=undefined
-
-
-
-# Subcircuit with 5 connections
-[PZU5.6DB2_NXP01806]
-symbol=.sym
-value=PZU5.6DB2
-modelname=PZU5.6DB2
-file=PZU5.6DB2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
 model_status=undefined
 
 
@@ -14399,9 +12245,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14416,9 +12263,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14433,9 +12281,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14450,9 +12299,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14468,7 +12318,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -14485,9 +12336,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14502,9 +12354,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14519,9 +12372,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14536,9 +12390,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14554,43 +12409,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
-
-
-
-[PZU6.2B1A_NXP01817]
-symbol=.sym
-value=PZU6.2B1A
-modelname=PZU6.2B1A
-file=PZU6.2B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU6.2B2A_NXP01818]
-symbol=.sym
-value=PZU6.2B2A
-modelname=PZU6.2B2A
-file=PZU6.2B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -14606,43 +12428,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
-
-
-
-[PZU6.2B3A_NXP01820]
-symbol=.sym
-value=PZU6.2B3A
-modelname=PZU6.2B3A
-file=PZU6.2B3A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU6.2BA_NXP01821]
-symbol=.sym
-value=PZU6.2BA
-modelname=PZU6.2BA
-file=PZU6.2BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -14658,61 +12447,11 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
-
-
-# Subcircuit with 5 connections
-[PZU6.2DB2_NXP01823]
-symbol=.sym
-value=PZU6.2DB2
-modelname=PZU6.2DB2
-file=PZU6.2DB2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
-
-
-
-[PZU6.8B1A_NXP01824]
-symbol=.sym
-value=PZU6.8B1A
-modelname=PZU6.8B1A
-file=PZU6.8B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU6.8B2A_NXP01825]
-symbol=.sym
-value=PZU6.8B2A
-modelname=PZU6.8B2A
-file=PZU6.8B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -14728,43 +12467,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
-
-
-
-[PZU6.8B3A_NXP01827]
-symbol=.sym
-value=PZU6.8B3A
-modelname=PZU6.8B3A
-file=PZU6.8B3A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU6.8BA_NXP01828]
-symbol=.sym
-value=PZU6.8BA
-modelname=PZU6.8BA
-file=PZU6.8BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -14780,27 +12486,11 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
-
-
-# Subcircuit with 5 connections
-[PZU6.8DB2_NXP01830]
-symbol=.sym
-value=PZU6.8DB2
-modelname=PZU6.8DB2
-file=PZU6.8DB2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
 
 
 
@@ -14815,9 +12505,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14832,9 +12523,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14849,9 +12541,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14866,9 +12559,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14884,7 +12578,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
 
@@ -14901,9 +12596,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14918,9 +12614,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14935,9 +12632,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14952,9 +12650,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -14970,43 +12669,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
-
-
-
-[PZU7.5B1A_NXP01841]
-symbol=.sym
-value=PZU7.5B1A
-modelname=PZU7.5B1A
-file=PZU7.5B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU7.5B2A_NXP01842]
-symbol=.sym
-value=PZU7.5B2A
-modelname=PZU7.5B2A
-file=PZU7.5B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -15022,43 +12688,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
-
-
-
-[PZU7.5B3A_NXP01844]
-symbol=.sym
-value=PZU7.5B3A
-modelname=PZU7.5B3A
-file=PZU7.5B3A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU7.5BA_NXP01845]
-symbol=.sym
-value=PZU7.5BA
-modelname=PZU7.5BA
-file=PZU7.5BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -15074,27 +12707,11 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
-
-
-# Subcircuit with 5 connections
-[PZU7.5DB2_NXP01847]
-symbol=.sym
-value=PZU7.5DB2
-modelname=PZU7.5DB2
-file=PZU7.5DB2.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=undefined
 
 
 
@@ -15109,9 +12726,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -15126,9 +12744,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -15143,9 +12762,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -15160,9 +12780,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -15178,43 +12799,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
 model_status=undefined
-
-
-
-[PZU8.2B1A_NXP01853]
-symbol=.sym
-value=PZU8.2B1A
-modelname=PZU8.2B1A
-file=PZU8.2B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU8.2B2A_NXP01854]
-symbol=.sym
-value=PZU8.2B2A
-modelname=PZU8.2B2A
-file=PZU8.2B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -15230,43 +12818,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
-
-
-
-[PZU8.2B3A_NXP01856]
-symbol=.sym
-value=PZU8.2B3A
-modelname=PZU8.2B3A
-file=PZU8.2B3A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU8.2BA_NXP01857]
-symbol=.sym
-value=PZU8.2BA
-modelname=PZU8.2BA
-file=PZU8.2BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -15282,7 +12837,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -15299,9 +12855,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -15316,9 +12873,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -15333,9 +12891,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -15350,43 +12909,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
-
-
-
-[PZU9.1B1A_NXP01863]
-symbol=.sym
-value=PZU9.1B1A
-modelname=PZU9.1B1A
-file=PZU9.1B1A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU9.1B2A_NXP01864]
-symbol=.sym
-value=PZU9.1B2A
-modelname=PZU9.1B2A
-file=PZU9.1B2A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -15402,43 +12928,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
-
-
-
-[PZU9.1B3A_NXP01866]
-symbol=.sym
-value=PZU9.1B3A
-modelname=PZU9.1B3A
-file=PZU9.1B3A.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
-
-
-
-[PZU9.1BA_NXP01867]
-symbol=.sym
-value=PZU9.1BA
-modelname=PZU9.1BA
-file=PZU9.1BA.prm
-refdes=X?
-pinseq_a=1
-pinseq_k=2
-pinnr_a=A
-pinnr_k=K
-footprint=none
-description=TBD
-test_refdes=X1
-model_status=test
 
 
 
@@ -15454,7 +12947,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=D1
 model_status=undefined
 
@@ -15471,9 +12965,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -15488,9 +12983,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -15505,9 +13001,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 
 
 
@@ -15522,7 +13019,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=TBD
+description=
+documentation=
 test_refdes=X1
-model_status=test
+model_status=test1
 

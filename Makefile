@@ -112,8 +112,47 @@ create_nxp_diodes:
 	rm -rf $(MODEL_LIBDIR)/nxp/diodes
 	mkdir -p $(MODEL_LIBDIR)/nxp/diodes
 	cp $(TEMPDIR)/nxp/diodes/* $(MODEL_LIBDIR)/nxp/diodes
+	## remove duplicate model files
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/BZX384-B*prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/BZB84-B*prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/BZV49-C12.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PDZ4V7B.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU2.4*.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU2.7*.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU3.0*.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU3.3*.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU3.6*.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU3.9*.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU4.3*.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU4.7*.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU5.1B*A.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU5.1DB2.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU5.6B*A.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU5.6DB2.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU6.2B*A.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU6.2DB2.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU6.8B*A.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU6.8DB2.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU7.5B*A.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU7.5DB2.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU8.2B*A.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU8.2DB2.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU9.1B*A.prm
+	rm -rf $(MODEL_LIBDIR)/nxp/diodes/PZU9.1DB2.prm
+
+	## individual file fixes
+	scripts/replace_string.py "*.MODEL" ".MODEL" $(MODEL_LIBDIR)/nxp/diodes/PESD3V3L1BA.prm
+	scripts/replace_string.py ".END" ".ENDS" $(MODEL_LIBDIR)/nxp/diodes/1N4148.prm
+	scripts/replace_string.py ".MODEL BZX100A" ".MODEL BZX100A D" $(MODEL_LIBDIR)/nxp/diodes/BZX100A.prm
+
+
+
+	## general newline fix for the End of the file
 	scripts/fix_trailing_newline.py $(MODEL_LIBDIR)/nxp/diodes/*
-	scripts/replace_string.py BZX384-B BZX384B $(MODEL_LIBDIR)/nxp/diodes/BZX384-B*.prm
+	## general fix for wrong .ENDS statements
+	scripts/fix_ends_without_subcircuit.py $(MODEL_LIBDIR)/nxp/diodes/*
+
+	## md5sums for the created models
 	md5sum $(MODEL_LIBDIR)/nxp/diodes/* >$(MODEL_SIGDIR)/nxp_diodes_lib.md5sum
 
 test_nxp_bipolar:
