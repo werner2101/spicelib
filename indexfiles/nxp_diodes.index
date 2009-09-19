@@ -7439,7 +7439,7 @@ model_status=good
 
 
 # Subcircuit with 3 connections
-[BZB84B10_NXP01428]
+[BZB84B10_NXP01408]
 symbol=.sym
 value=BZB84B10
 modelname=BZB84B10
@@ -7458,7 +7458,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B11_NXP01429]
+[BZB84B11_NXP01409]
 symbol=.sym
 value=BZB84B11
 modelname=BZB84B11
@@ -7477,7 +7477,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B12_NXP01430]
+[BZB84B12_NXP01410]
 symbol=.sym
 value=BZB84B12
 modelname=BZB84B12
@@ -7496,7 +7496,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B13_NXP01431]
+[BZB84B13_NXP01411]
 symbol=.sym
 value=BZB84B13
 modelname=BZB84B13
@@ -7515,7 +7515,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B15_NXP01432]
+[BZB84B15_NXP01412]
 symbol=.sym
 value=BZB84B15
 modelname=BZB84B15
@@ -7534,7 +7534,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B16_NXP01433]
+[BZB84B16_NXP01413]
 symbol=.sym
 value=BZB84B16
 modelname=BZB84B16
@@ -7553,7 +7553,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B18_NXP01434]
+[BZB84B18_NXP01414]
 symbol=.sym
 value=BZB84B18
 modelname=BZB84B18
@@ -7572,7 +7572,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B20_NXP01435]
+[BZB84B20_NXP01415]
 symbol=.sym
 value=BZB84B20
 modelname=BZB84B20
@@ -7591,7 +7591,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B22_NXP01436]
+[BZB84B22_NXP01416]
 symbol=.sym
 value=BZB84B22
 modelname=BZB84B22
@@ -7610,7 +7610,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B24_NXP01437]
+[BZB84B24_NXP01417]
 symbol=.sym
 value=BZB84B24
 modelname=BZB84B24
@@ -7629,7 +7629,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B27_NXP01438]
+[BZB84B27_NXP01418]
 symbol=.sym
 value=BZB84B27
 modelname=BZB84B27
@@ -7648,7 +7648,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B2V4_NXP01439]
+[BZB84B2V4_NXP01419]
 symbol=.sym
 value=BZB84B2V4
 modelname=BZB84B2V4
@@ -7667,7 +7667,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B2V7_NXP01440]
+[BZB84B2V7_NXP01420]
 symbol=.sym
 value=BZB84B2V7
 modelname=BZB84B2V7
@@ -7686,7 +7686,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B30_NXP01441]
+[BZB84B30_NXP01421]
 symbol=.sym
 value=BZB84B30
 modelname=BZB84B30
@@ -7705,7 +7705,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B33_NXP01442]
+[BZB84B33_NXP01422]
 symbol=.sym
 value=BZB84B33
 modelname=BZB84B33
@@ -7724,7 +7724,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B36_NXP01443]
+[BZB84B36_NXP01423]
 symbol=.sym
 value=BZB84B36
 modelname=BZB84B36
@@ -7743,7 +7743,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B39_NXP01444]
+[BZB84B39_NXP01424]
 symbol=.sym
 value=BZB84B39
 modelname=BZB84B39
@@ -7762,7 +7762,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B3V0_NXP01445]
+[BZB84B3V0_NXP01425]
 symbol=.sym
 value=BZB84B3V0
 modelname=BZB84B3V0
@@ -7781,7 +7781,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B3V3_NXP01446]
+[BZB84B3V3_NXP01426]
 symbol=.sym
 value=BZB84B3V3
 modelname=BZB84B3V3
@@ -7800,7 +7800,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B3V6_NXP01447]
+[BZB84B3V6_NXP01427]
 symbol=.sym
 value=BZB84B3V6
 modelname=BZB84B3V6
@@ -7819,7 +7819,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B3V9_NXP01448]
+[BZB84B3V9_NXP01428]
 symbol=.sym
 value=BZB84B3V9
 modelname=BZB84B3V9
@@ -7838,7 +7838,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B43_NXP01449]
+[BZB84B43_NXP01429]
 symbol=.sym
 value=BZB84B43
 modelname=BZB84B43
@@ -7857,7 +7857,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B47_NXP01450]
+[BZB84B47_NXP01430]
 symbol=.sym
 value=BZB84B47
 modelname=BZB84B47
@@ -7876,7 +7876,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B4V3_NXP01451]
+[BZB84B4V3_NXP01431]
 symbol=.sym
 value=BZB84B4V3
 modelname=BZB84B4V3
@@ -7895,7 +7895,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B4V7_NXP01452]
+[BZB84B4V7_NXP01432]
 symbol=.sym
 value=BZB84B4V7
 modelname=BZB84B4V7
@@ -7914,7 +7914,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B51_NXP01453]
+[BZB84B51_NXP01433]
 symbol=.sym
 value=BZB84B51
 modelname=BZB84B51
@@ -7933,7 +7933,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B56_NXP01454]
+[BZB84B56_NXP01434]
 symbol=.sym
 value=BZB84B56
 modelname=BZB84B56
@@ -7952,7 +7952,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B5V1_NXP01455]
+[BZB84B5V1_NXP01435]
 symbol=.sym
 value=BZB84B5V1
 modelname=BZB84B5V1
@@ -7971,7 +7971,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B5V6_NXP01456]
+[BZB84B5V6_NXP01436]
 symbol=.sym
 value=BZB84B5V6
 modelname=BZB84B5V6
@@ -7990,7 +7990,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B62_NXP01457]
+[BZB84B62_NXP01437]
 symbol=.sym
 value=BZB84B62
 modelname=BZB84B62
@@ -8009,7 +8009,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B68_NXP01458]
+[BZB84B68_NXP01438]
 symbol=.sym
 value=BZB84B68
 modelname=BZB84B68
@@ -8028,7 +8028,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B6V2_NXP01459]
+[BZB84B6V2_NXP01439]
 symbol=.sym
 value=BZB84B6V2
 modelname=BZB84B6V2
@@ -8047,7 +8047,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B6V8_NXP01460]
+[BZB84B6V8_NXP01440]
 symbol=.sym
 value=BZB84B6V8
 modelname=BZB84B6V8
@@ -8066,7 +8066,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B75_NXP01461]
+[BZB84B75_NXP01441]
 symbol=.sym
 value=BZB84B75
 modelname=BZB84B75
@@ -8085,7 +8085,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B7V5_NXP01462]
+[BZB84B7V5_NXP01442]
 symbol=.sym
 value=BZB84B7V5
 modelname=BZB84B7V5
@@ -8104,7 +8104,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B8V2_NXP01463]
+[BZB84B8V2_NXP01443]
 symbol=.sym
 value=BZB84B8V2
 modelname=BZB84B8V2
@@ -8123,7 +8123,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZB84B9V1_NXP01464]
+[BZB84B9V1_NXP01444]
 symbol=.sym
 value=BZB84B9V1
 modelname=BZB84B9V1
@@ -8142,7 +8142,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZV49C12_NXP01466]
+[BZV49C12_NXP01445]
 symbol=.sym
 value=BZV49C12
 modelname=BZV49C12
@@ -8161,7 +8161,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[BZV49C16_NXP01467]
+[BZV49C16_NXP01446]
 symbol=.sym
 value=BZV49C16
 modelname=BZV49C16
@@ -8179,7 +8179,7 @@ model_status=undefined
 
 
 
-[BZX84JB10_NXP01505]
+[BZX84JB10_NXP01447]
 symbol=zener_diode.sym
 value=BZX84JB10
 modelname=BZX84JB10
@@ -8198,7 +8198,7 @@ model_status=good
 
 
 
-[BZX84JB11_NXP01506]
+[BZX84JB11_NXP01448]
 symbol=zener_diode.sym
 value=BZX84JB11
 modelname=BZX84JB11
@@ -8217,7 +8217,7 @@ model_status=good
 
 
 
-[BZX84JB12_NXP01507]
+[BZX84JB12_NXP01449]
 symbol=zener_diode.sym
 value=BZX84JB12
 modelname=BZX84JB12
@@ -8235,7 +8235,7 @@ model_status=good
 
 
 
-[BZX84JB13_NXP01508]
+[BZX84JB13_NXP01450]
 symbol=zener_diode.sym
 value=BZX84JB13
 modelname=BZX84JB13
@@ -8253,7 +8253,7 @@ model_status=good
 
 
 
-[BZX84JB15_NXP01509]
+[BZX84JB15_NXP01451]
 symbol=zener_diode.sym
 value=BZX84JB15
 modelname=BZX84JB15
@@ -8271,7 +8271,7 @@ model_status=good
 
 
 
-[BZX84JB16_NXP01510]
+[BZX84JB16_NXP01452]
 symbol=zener_diode.sym
 value=BZX84JB16
 modelname=BZX84JB16
@@ -8289,7 +8289,7 @@ model_status=good
 
 
 
-[BZX84JB18_NXP01511]
+[BZX84JB18_NXP01453]
 symbol=zener_diode.sym
 value=BZX84JB18
 modelname=BZX84JB18
@@ -8308,7 +8308,7 @@ model_status=good
 
 
 
-[BZX84JB20_NXP01512]
+[BZX84JB20_NXP01454]
 symbol=zener_diode.sym
 value=BZX84JB20
 modelname=BZX84JB20
@@ -8326,7 +8326,7 @@ model_status=good
 
 
 
-[BZX84JB22_NXP01513]
+[BZX84JB22_NXP01455]
 symbol=zener_diode.sym
 value=BZX84JB22
 modelname=BZX84JB22
@@ -8344,7 +8344,7 @@ model_status=good
 
 
 
-[BZX84JB24_NXP01514]
+[BZX84JB24_NXP01456]
 symbol=zener_diode.sym
 value=BZX84JB24
 modelname=BZX84JB24
@@ -8362,7 +8362,7 @@ model_status=good
 
 
 
-[BZX84JB27_NXP01515]
+[BZX84JB27_NXP01457]
 symbol=zener_diode.sym
 value=BZX84JB27
 modelname=BZX84JB27
@@ -8380,7 +8380,7 @@ model_status=good
 
 
 
-[BZX84JB2V4_NXP01516]
+[BZX84JB2V4_NXP01458]
 symbol=zener_diode.sym
 value=BZX84JB2V4
 modelname=BZX84JB2V4
@@ -8398,7 +8398,7 @@ model_status=good
 
 
 
-[BZX84JB2V7_NXP01517]
+[BZX84JB2V7_NXP01459]
 symbol=zener_diode.sym
 value=BZX84JB2V7
 modelname=BZX84JB2V7
@@ -8416,7 +8416,7 @@ model_status=good
 
 
 
-[BZX84JB30_NXP01518]
+[BZX84JB30_NXP01460]
 symbol=zener_diode.sym
 value=BZX84JB30
 modelname=BZX84JB30
@@ -8434,7 +8434,7 @@ model_status=good
 
 
 
-[BZX84JB33_NXP01519]
+[BZX84JB33_NXP01461]
 symbol=zener_diode.sym
 value=BZX84JB33
 modelname=BZX84JB33
@@ -8452,7 +8452,7 @@ model_status=good
 
 
 
-[BZX84JB36_NXP01520]
+[BZX84JB36_NXP01462]
 symbol=zener_diode.sym
 value=BZX84JB36
 modelname=BZX84JB36
@@ -8470,7 +8470,7 @@ model_status=good
 
 
 
-[BZX84JB39_NXP01521]
+[BZX84JB39_NXP01463]
 symbol=zener_diode.sym
 value=BZX84JB39
 modelname=BZX84JB39
@@ -8488,7 +8488,7 @@ model_status=good
 
 
 
-[BZX84JB3V0_NXP01522]
+[BZX84JB3V0_NXP01464]
 symbol=zener_diode.sym
 value=BZX84JB3V0
 modelname=BZX84JB3V0
@@ -8506,7 +8506,7 @@ model_status=good
 
 
 
-[BZX84JB3V3_NXP01523]
+[BZX84JB3V3_NXP01465]
 symbol=zener_diode.sym
 value=BZX84JB3V3
 modelname=BZX84JB3V3
@@ -8524,7 +8524,7 @@ model_status=good
 
 
 
-[BZX84JB3V6_NXP01524]
+[BZX84JB3V6_NXP01466]
 symbol=zener_diode.sym
 value=BZX84JB3V6
 modelname=BZX84JB3V6
@@ -8542,7 +8542,7 @@ model_status=good
 
 
 
-[BZX84JB3V9_NXP01525]
+[BZX84JB3V9_NXP01467]
 symbol=zener_diode.sym
 value=BZX84JB3V9
 modelname=BZX84JB3V9
@@ -8560,7 +8560,7 @@ model_status=good
 
 
 
-[BZX84JB43_NXP01526]
+[BZX84JB43_NXP01468]
 symbol=zener_diode.sym
 value=BZX84JB43
 modelname=BZX84JB43
@@ -8578,7 +8578,7 @@ model_status=good
 
 
 
-[BZX84JB47_NXP01527]
+[BZX84JB47_NXP01469]
 symbol=zener_diode.sym
 value=BZX84JB47
 modelname=BZX84JB47
@@ -8596,7 +8596,7 @@ model_status=good
 
 
 
-[BZX84JB4V3_NXP01528]
+[BZX84JB4V3_NXP01470]
 symbol=zener_diode.sym
 value=BZX84JB4V3
 modelname=BZX84JB4V3
@@ -8614,7 +8614,7 @@ model_status=good
 
 
 
-[BZX84JB4V7_NXP01529]
+[BZX84JB4V7_NXP01471]
 symbol=zener_diode.sym
 value=BZX84JB4V7
 modelname=BZX84JB4V7
@@ -8632,7 +8632,7 @@ model_status=good
 
 
 
-[BZX84JB51_NXP01530]
+[BZX84JB51_NXP01472]
 symbol=zener_diode.sym
 value=BZX84JB51
 modelname=BZX84JB51
@@ -8650,7 +8650,7 @@ model_status=good
 
 
 
-[BZX84JB56_NXP01531]
+[BZX84JB56_NXP01473]
 symbol=zener_diode.sym
 value=BZX84JB56
 modelname=BZX84JB56
@@ -8668,7 +8668,7 @@ model_status=good
 
 
 
-[BZX84JB5V1_NXP01532]
+[BZX84JB5V1_NXP01474]
 symbol=zener_diode.sym
 value=BZX84JB5V1
 modelname=BZX84JB5V1
@@ -8686,7 +8686,7 @@ model_status=good
 
 
 
-[BZX84JB5V6_NXP01533]
+[BZX84JB5V6_NXP01475]
 symbol=zener_diode.sym
 value=BZX84JB5V6
 modelname=BZX84JB5V6
@@ -8704,7 +8704,7 @@ model_status=good
 
 
 
-[BZX84JB62_NXP01534]
+[BZX84JB62_NXP01476]
 symbol=zener_diode.sym
 value=BZX84JB62
 modelname=BZX84JB62
@@ -8722,7 +8722,7 @@ model_status=good
 
 
 
-[BZX84JB68_NXP01535]
+[BZX84JB68_NXP01477]
 symbol=zener_diode.sym
 value=BZX84JB68
 modelname=BZX84JB68
@@ -8740,7 +8740,7 @@ model_status=good
 
 
 
-[BZX84JB6V2_NXP01536]
+[BZX84JB6V2_NXP01478]
 symbol=zener_diode.sym
 value=BZX84JB6V2
 modelname=BZX84JB6V2
@@ -8758,7 +8758,7 @@ model_status=good
 
 
 
-[BZX84JB6V8_NXP01537]
+[BZX84JB6V8_NXP01479]
 symbol=zener_diode.sym
 value=BZX84JB6V8
 modelname=BZX84JB6V8
@@ -8776,7 +8776,7 @@ model_status=good
 
 
 
-[BZX84JB75_NXP01538]
+[BZX84JB75_NXP01480]
 symbol=zener_diode.sym
 value=BZX84JB75
 modelname=BZX84JB75
@@ -8794,7 +8794,7 @@ model_status=good
 
 
 
-[BZX84JB7V5_NXP01539]
+[BZX84JB7V5_NXP01481]
 symbol=zener_diode.sym
 value=BZX84JB7V5
 modelname=BZX84JB7V5
@@ -8812,7 +8812,7 @@ model_status=good
 
 
 
-[BZX84JB8V2_NXP01540]
+[BZX84JB8V2_NXP01482]
 symbol=zener_diode.sym
 value=BZX84JB8V2
 modelname=BZX84JB8V2
@@ -8830,7 +8830,7 @@ model_status=good
 
 
 
-[BZX84JB9V1_NXP01541]
+[BZX84JB9V1_NXP01483]
 symbol=zener_diode.sym
 value=BZX84JB9V1
 modelname=BZX84JB9V1
@@ -8849,7 +8849,7 @@ model_status=good
 
 
 # Subcircuit with 3 connections
-[MMBZ12VAL_NXP01542]
+[MMBZ12VAL_NXP01484]
 symbol=.sym
 value=MMBZ12VAL
 modelname=MMBZ12VAL
@@ -8868,7 +8868,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[MMBZ12VDL_NXP01543]
+[MMBZ12VDL_NXP01485]
 symbol=.sym
 value=MMBZ12VDL
 modelname=MMBZ12VDL
@@ -8887,7 +8887,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[MMBZ15VAL_NXP01544]
+[MMBZ15VAL_NXP01486]
 symbol=.sym
 value=MMBZ15VAL
 modelname=MMBZ15VAL
@@ -8906,7 +8906,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[MMBZ15VDL_NXP01545]
+[MMBZ15VDL_NXP01487]
 symbol=.sym
 value=MMBZ15VDL
 modelname=MMBZ15VDL
@@ -8925,7 +8925,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[MMBZ18VAL_NXP01546]
+[MMBZ18VAL_NXP01488]
 symbol=.sym
 value=MMBZ18VAL
 modelname=MMBZ18VAL
@@ -8944,7 +8944,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[MMBZ18VCL_NXP01547]
+[MMBZ18VCL_NXP01489]
 symbol=.sym
 value=MMBZ18VCL
 modelname=MMBZ18VCL
@@ -8963,7 +8963,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[MMBZ20VAL_NXP01548]
+[MMBZ20VAL_NXP01490]
 symbol=.sym
 value=MMBZ20VAL
 modelname=MMBZ20VAL
@@ -8982,7 +8982,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[MMBZ20VCL_NXP01549]
+[MMBZ20VCL_NXP01491]
 symbol=.sym
 value=MMBZ20VCL
 modelname=MMBZ20VCL
@@ -9001,7 +9001,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[MMBZ27VAL_NXP01550]
+[MMBZ27VAL_NXP01492]
 symbol=.sym
 value=MMBZ27VAL
 modelname=MMBZ27VAL
@@ -9020,7 +9020,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[MMBZ27VCL_NXP01551]
+[MMBZ27VCL_NXP01493]
 symbol=.sym
 value=MMBZ27VCL
 modelname=MMBZ27VCL
@@ -9039,7 +9039,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[MMBZ33VAL_NXP01552]
+[MMBZ33VAL_NXP01494]
 symbol=.sym
 value=MMBZ33VAL
 modelname=MMBZ33VAL
@@ -9058,7 +9058,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[MMBZ33VCL_NXP01553]
+[MMBZ33VCL_NXP01495]
 symbol=.sym
 value=MMBZ33VCL
 modelname=MMBZ33VCL
@@ -9076,7 +9076,7 @@ model_status=undefined
 
 
 
-[PDZ6V2B_NXP01555]
+[PDZ6V2B_NXP01496]
 symbol=zener_diode.sym
 value=PDZ6V2B
 modelname=PDZ6V2B
@@ -9094,7 +9094,7 @@ model_status=good
 
 
 
-[PESD12VS1UA_NXP01556]
+[PESD12VS1UA_NXP01497]
 symbol=zener_diode.sym
 value=PESD12VS1UA
 modelname=PESD12VS1UA
@@ -9113,7 +9113,7 @@ model_status=good
 
 
 # Subcircuit with 3 connections
-[PESD1FLEX_NXP01557]
+[PESD1FLEX_NXP01498]
 symbol=.sym
 value=PESD1FLEX
 modelname=PESD1FLEX
@@ -9132,7 +9132,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[PESD2CAN_NXP01558]
+[PESD2CAN_NXP01499]
 symbol=.sym
 value=PESD2CAN
 modelname=PESD2CAN
@@ -9151,7 +9151,7 @@ model_status=undefined
 
 
 # Subcircuit with 6 connections
-[PESD3V3L4UF_NXP01559]
+[PESD3V3L4UF_NXP01500]
 symbol=.sym
 value=PESD3V3L4UF
 modelname=PESD3V3L4UF
@@ -9170,7 +9170,7 @@ model_status=undefined
 
 
 # Subcircuit with 6 connections
-[PESD3V3L5UF_NXP01560]
+[PESD3V3L5UF_NXP01501]
 symbol=.sym
 value=PESD3V3L5UF
 modelname=PESD3V3L5UF
@@ -9189,7 +9189,7 @@ model_status=undefined
 
 
 # Subcircuit with 6 connections
-[PESD3V3S4UF_NXP01561]
+[PESD3V3S4UF_NXP01502]
 symbol=.sym
 value=PESD3V3S4UF
 modelname=PESD3V3S4UF
@@ -9208,7 +9208,7 @@ model_status=undefined
 
 
 # Subcircuit with 6 connections
-[PESD3V3V4UF_NXP01562]
+[PESD3V3V4UF_NXP01503]
 symbol=.sym
 value=PESD3V3V4UF
 modelname=PESD3V3V4UF
@@ -9227,7 +9227,7 @@ model_status=undefined
 
 
 # Subcircuit with 6 connections
-[PESD5V0L4UF_NXP01563]
+[PESD5V0L4UF_NXP01504]
 symbol=.sym
 value=PESD5V0L4UF
 modelname=PESD5V0L4UF
@@ -9245,7 +9245,7 @@ model_status=undefined
 
 
 
-[PESD5V0S1UA_NXP01564]
+[PESD5V0S1UA_NXP01505]
 symbol=zener_diode.sym
 value=PESD5V0S1UA
 modelname=PESD5V0S1UA
@@ -9264,7 +9264,7 @@ model_status=good
 
 
 # Subcircuit with 6 connections
-[PESD5V0S4UF_NXP01565]
+[PESD5V0S4UF_NXP01506]
 symbol=.sym
 value=PESD5V0S4UF
 modelname=PESD5V0S4UF
@@ -9282,7 +9282,7 @@ model_status=undefined
 
 
 
-[PESD5V0U1BA_NXP01566]
+[PESD5V0U1BA_NXP01507]
 symbol=zener_bidirectional.sym
 value=PESD5V0U1BA
 modelname=PESD5V0U1BA
@@ -9300,7 +9300,7 @@ model_status=broken
 
 
 
-[PESD5V0U1BB_NXP01567]
+[PESD5V0U1BB_NXP01508]
 symbol=zener_bidirectional.sym
 value=PESD5V0U1BB
 modelname=PESD5V0U1BB
@@ -9318,7 +9318,7 @@ model_status=broken
 
 
 
-[PESD5V0U1BL_NXP01568]
+[PESD5V0U1BL_NXP01509]
 symbol=zener_bidirectional.sym
 value=PESD5V0U1BL
 modelname=PESD5V0U1BL
@@ -9336,7 +9336,7 @@ model_status=broken
 
 
 
-[PESD5V0U1UA_NXP01569]
+[PESD5V0U1UA_NXP01510]
 symbol=zener_diode.sym
 value=PESD5V0U1UA
 modelname=PESD5V0U1UA
@@ -9354,7 +9354,7 @@ model_status=good
 
 
 
-[PESD5V0U1UB_NXP01570]
+[PESD5V0U1UB_NXP01511]
 symbol=zener_diode.sym
 value=PESD5V0U1UB
 modelname=PESD5V0U1UB
@@ -9372,7 +9372,7 @@ model_status=good
 
 
 
-[PESD5V0U1UL_NXP01571]
+[PESD5V0U1UL_NXP01512]
 symbol=zener_diode.sym
 value=PESD5V0U1UL
 modelname=PESD5V0U1UL
@@ -9391,7 +9391,7 @@ model_status=good
 
 
 # Subcircuit with 3 connections
-[PESD5V0U2BT_NXP01572]
+[PESD5V0U2BT_NXP01513]
 symbol=.sym
 value=PESD5V0U2BT
 modelname=PESD5V0U2BT
@@ -9410,7 +9410,7 @@ model_status=undefined
 
 
 # Subcircuit with 6 connections
-[PESD5V0V4UF_NXP01573]
+[PESD5V0V4UF_NXP01514]
 symbol=.sym
 value=PESD5V0V4UF
 modelname=PESD5V0V4UF
@@ -9428,7 +9428,7 @@ model_status=undefined
 
 
 
-[PESD5V0X1BL_NXP01574]
+[PESD5V0X1BL_NXP01515]
 symbol=zener_bidirectional.sym
 value=PESD5V0X1BL
 modelname=PESD5V0X1BL
@@ -9447,7 +9447,7 @@ model_status=broken
 
 
 # Subcircuit with 3 connections
-[PESD5V0X1BQ_NXP01575]
+[PESD5V0X1BQ_NXP01516]
 symbol=.sym
 value=PESD5V0X1BQ
 modelname=PESD5V0X1BQ
@@ -9466,7 +9466,7 @@ model_status=undefined
 
 
 # Subcircuit with 3 connections
-[PESD5V0X1BT_NXP01576]
+[PESD5V0X1BT_NXP01517]
 symbol=.sym
 value=PESD5V0X1BT
 modelname=PESD5V0X1BT
@@ -9484,7 +9484,7 @@ model_status=undefined
 
 
 
-[PMLL4148L_NXP01577]
+[PMLL4148L_NXP01518]
 symbol=diode.sym
 value=PMLL4148L
 modelname=PMLL4148L
@@ -9502,7 +9502,7 @@ model_status=good
 
 
 
-[PTVS10VS1UR_NXP01578]
+[PTVS10VS1UR_NXP01519]
 symbol=zener_diode.sym
 value=PTVS10VS1UR
 modelname=PTVS10VS1UR
@@ -9520,7 +9520,7 @@ model_status=good
 
 
 
-[PTVS11VS1UR_NXP01579]
+[PTVS11VS1UR_NXP01520]
 symbol=zener_diode.sym
 value=PTVS11VS1UR
 modelname=PTVS11VS1UR
@@ -9538,7 +9538,7 @@ model_status=good
 
 
 
-[PTVS12VS1UR_NXP01580]
+[PTVS12VS1UR_NXP01521]
 symbol=zener_diode.sym
 value=PTVS12VS1UR
 modelname=PTVS12VS1UR
@@ -9556,7 +9556,7 @@ model_status=good
 
 
 
-[PTVS13VS1UR_NXP01581]
+[PTVS13VS1UR_NXP01522]
 symbol=zener_diode.sym
 value=PTVS13VS1UR
 modelname=PTVS13VS1UR
@@ -9574,7 +9574,7 @@ model_status=good
 
 
 
-[PTVS14VS1UR_NXP01582]
+[PTVS14VS1UR_NXP01523]
 symbol=zener_diode.sym
 value=PTVS14VS1UR
 modelname=PTVS14VS1UR
@@ -9592,7 +9592,7 @@ model_status=good
 
 
 
-[PTVS15VS1UR_NXP01583]
+[PTVS15VS1UR_NXP01524]
 symbol=zener_diode.sym
 value=PTVS15VS1UR
 modelname=PTVS15VS1UR
@@ -9610,7 +9610,7 @@ model_status=good
 
 
 
-[PTVS16VS1UR_NXP01584]
+[PTVS16VS1UR_NXP01525]
 symbol=zener_diode.sym
 value=PTVS16VS1UR
 modelname=PTVS16VS1UR
@@ -9628,7 +9628,7 @@ model_status=good
 
 
 
-[PTVS17VS1UR_NXP01585]
+[PTVS17VS1UR_NXP01526]
 symbol=zener_diode.sym
 value=PTVS17VS1UR
 modelname=PTVS17VS1UR
@@ -9646,7 +9646,7 @@ model_status=good
 
 
 
-[PTVS18VS1UR_NXP01586]
+[PTVS18VS1UR_NXP01527]
 symbol=zener_diode.sym
 value=PTVS18VS1UR
 modelname=PTVS18VS1UR
@@ -9664,7 +9664,7 @@ model_status=good
 
 
 
-[PTVS3V3S1UR_NXP01587]
+[PTVS3V3S1UR_NXP01528]
 symbol=zener_diode.sym
 value=PTVS3V3S1UR
 modelname=PTVS3V3S1UR
@@ -9682,7 +9682,7 @@ model_status=good
 
 
 
-[PTVS5V0S1UR_NXP01588]
+[PTVS5V0S1UR_NXP01529]
 symbol=zener_diode.sym
 value=PTVS5V0S1UR
 modelname=PTVS5V0S1UR
@@ -9700,7 +9700,7 @@ model_status=good
 
 
 
-[PTVS6V0S1UR_NXP01589]
+[PTVS6V0S1UR_NXP01530]
 symbol=zener_diode.sym
 value=PTVS6V0S1UR
 modelname=PTVS6V0S1UR
@@ -9718,7 +9718,7 @@ model_status=good
 
 
 
-[PTVS6V5S1UR_NXP01590]
+[PTVS6V5S1UR_NXP01531]
 symbol=zener_diode.sym
 value=PTVS6V5S1UR
 modelname=PTVS6V5S1UR
@@ -9736,7 +9736,7 @@ model_status=good
 
 
 
-[PTVS7V0S1UR_NXP01591]
+[PTVS7V0S1UR_NXP01532]
 symbol=zener_diode.sym
 value=PTVS7V0S1UR
 modelname=PTVS7V0S1UR
@@ -9754,7 +9754,7 @@ model_status=good
 
 
 
-[PTVS7V5S1UR_NXP01592]
+[PTVS7V5S1UR_NXP01533]
 symbol=zener_diode.sym
 value=PTVS7V5S1UR
 modelname=PTVS7V5S1UR
@@ -9772,7 +9772,7 @@ model_status=good
 
 
 
-[PTVS8V0S1UR_NXP01593]
+[PTVS8V0S1UR_NXP01534]
 symbol=zener_diode.sym
 value=PTVS8V0S1UR
 modelname=PTVS8V0S1UR
@@ -9790,7 +9790,7 @@ model_status=good
 
 
 
-[PTVS8V5S1UR_NXP01594]
+[PTVS8V5S1UR_NXP01535]
 symbol=zener_diode.sym
 value=PTVS8V5S1UR
 modelname=PTVS8V5S1UR
@@ -9808,7 +9808,7 @@ model_status=good
 
 
 
-[PTVS9V0S1UR_NXP01595]
+[PTVS9V0S1UR_NXP01536]
 symbol=zener_diode.sym
 value=PTVS9V0S1UR
 modelname=PTVS9V0S1UR
@@ -9826,7 +9826,7 @@ model_status=good
 
 
 
-[PZU10B1A_NXP01596]
+[PZU10B1A_NXP01537]
 symbol=zener_diode.sym
 value=PZU10B1A
 modelname=PZU10B1A
@@ -9844,7 +9844,7 @@ model_status=good
 
 
 
-[PZU10B2A_NXP01597]
+[PZU10B2A_NXP01538]
 symbol=zener_diode.sym
 value=PZU10B2A
 modelname=PZU10B2A
@@ -9862,7 +9862,7 @@ model_status=good
 
 
 
-[PZU10B2L_NXP01598]
+[PZU10B2L_NXP01539]
 symbol=zener_diode.sym
 value=PZU10B2L
 modelname=PZU10B2L
@@ -9880,7 +9880,7 @@ model_status=good
 
 
 
-[PZU10B3A_NXP01599]
+[PZU10B3A_NXP01540]
 symbol=zener_diode.sym
 value=PZU10B3A
 modelname=PZU10B3A
@@ -9898,7 +9898,7 @@ model_status=good
 
 
 
-[PZU10BA_NXP01600]
+[PZU10BA_NXP01541]
 symbol=zener_diode.sym
 value=PZU10BA
 modelname=PZU10BA
@@ -9916,7 +9916,7 @@ model_status=good
 
 
 
-[PZU10BL_NXP01601]
+[PZU10BL_NXP01542]
 symbol=zener_diode.sym
 value=PZU10BL
 modelname=PZU10BL
@@ -9935,7 +9935,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU10DB2_NXP01602]
+[PZU10DB2_NXP01543]
 symbol=.sym
 value=PZU10DB2
 modelname=PZU10DB2
@@ -9953,7 +9953,7 @@ model_status=undefined
 
 
 
-[PZU11B1A_NXP01603]
+[PZU11B1A_NXP01544]
 symbol=zener_diode.sym
 value=PZU11B1A
 modelname=PZU11B1A
@@ -9971,7 +9971,7 @@ model_status=good
 
 
 
-[PZU11B2A_NXP01604]
+[PZU11B2A_NXP01545]
 symbol=zener_diode.sym
 value=PZU11B2A
 modelname=PZU11B2A
@@ -9990,7 +9990,7 @@ model_status=good
 
 
 
-[PZU11B2L_NXP01605]
+[PZU11B2L_NXP01546]
 symbol=zener_diode.sym
 value=PZU11B2L
 modelname=PZU11B2L
@@ -10008,7 +10008,7 @@ model_status=good
 
 
 
-[PZU11B3A_NXP01606]
+[PZU11B3A_NXP01547]
 symbol=zener_diode.sym
 value=PZU11B3A
 modelname=PZU11B3A
@@ -10026,7 +10026,7 @@ model_status=good
 
 
 
-[PZU11BA_NXP01607]
+[PZU11BA_NXP01548]
 symbol=zener_diode.sym
 value=PZU11BA
 modelname=PZU11BA
@@ -10044,7 +10044,7 @@ model_status=good
 
 
 
-[PZU11BL_NXP01608]
+[PZU11BL_NXP01549]
 symbol=zener_diode.sym
 value=PZU11BL
 modelname=PZU11BL
@@ -10063,7 +10063,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU11DB2_NXP01609]
+[PZU11DB2_NXP01550]
 symbol=.sym
 value=PZU11DB2
 modelname=PZU11DB2
@@ -10081,7 +10081,7 @@ model_status=undefined
 
 
 
-[PZU12B1A_NXP01610]
+[PZU12B1A_NXP01551]
 symbol=zener_diode.sym
 value=PZU12B1A
 modelname=PZU12B1A
@@ -10099,7 +10099,7 @@ model_status=good
 
 
 
-[PZU12B2A_NXP01611]
+[PZU12B2A_NXP01552]
 symbol=zener_diode.sym
 value=PZU12B2A
 modelname=PZU12B2A
@@ -10117,7 +10117,7 @@ model_status=good
 
 
 
-[PZU12B2L_NXP01612]
+[PZU12B2L_NXP01553]
 symbol=zener_diode.sym
 value=PZU12B2L
 modelname=PZU12B2L
@@ -10135,7 +10135,7 @@ model_status=good
 
 
 
-[PZU12B3A_NXP01613]
+[PZU12B3A_NXP01554]
 symbol=zener_diode.sym
 value=PZU12B3A
 modelname=PZU12B3A
@@ -10153,7 +10153,7 @@ model_status=good
 
 
 
-[PZU12BA_NXP01614]
+[PZU12BA_NXP01555]
 symbol=zener_diode.sym
 value=PZU12BA
 modelname=PZU12BA
@@ -10171,7 +10171,7 @@ model_status=good
 
 
 
-[PZU12BL_NXP01615]
+[PZU12BL_NXP01556]
 symbol=zener_diode.sym
 value=PZU12BL
 modelname=PZU12BL
@@ -10190,7 +10190,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU12DB2_NXP01616]
+[PZU12DB2_NXP01557]
 symbol=.sym
 value=PZU12DB2
 modelname=PZU12DB2
@@ -10208,7 +10208,7 @@ model_status=undefined
 
 
 
-[PZU13B1A_NXP01617]
+[PZU13B1A_NXP01558]
 symbol=zener_diode.sym
 value=PZU13B1A
 modelname=PZU13B1A
@@ -10226,7 +10226,7 @@ model_status=good
 
 
 
-[PZU13B2A_NXP01618]
+[PZU13B2A_NXP01559]
 symbol=zener_diode.sym
 value=PZU13B2A
 modelname=PZU13B2A
@@ -10244,7 +10244,7 @@ model_status=good
 
 
 
-[PZU13B2L_NXP01619]
+[PZU13B2L_NXP01560]
 symbol=zener_diode.sym
 value=PZU13B2L
 modelname=PZU13B2L
@@ -10262,7 +10262,7 @@ model_status=good
 
 
 
-[PZU13B3A_NXP01620]
+[PZU13B3A_NXP01561]
 symbol=zener_diode.sym
 value=PZU13B3A
 modelname=PZU13B3A
@@ -10280,7 +10280,7 @@ model_status=good
 
 
 
-[PZU13BA_NXP01621]
+[PZU13BA_NXP01562]
 symbol=zener_diode.sym
 value=PZU13BA
 modelname=PZU13BA
@@ -10298,7 +10298,7 @@ model_status=good
 
 
 
-[PZU13BL_NXP01622]
+[PZU13BL_NXP01563]
 symbol=zener_diode.sym
 value=PZU13BL
 modelname=PZU13BL
@@ -10317,7 +10317,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU13DB2_NXP01623]
+[PZU13DB2_NXP01564]
 symbol=.sym
 value=PZU13DB2
 modelname=PZU13DB2
@@ -10335,7 +10335,7 @@ model_status=undefined
 
 
 
-[PZU14B2A_NXP01624]
+[PZU14B2A_NXP01565]
 symbol=zener_diode.sym
 value=PZU14B2A
 modelname=PZU14B2A
@@ -10354,7 +10354,7 @@ model_status=good
 
 
 
-[PZU14B2L_NXP01625]
+[PZU14B2L_NXP01566]
 symbol=zener_diode.sym
 value=PZU14B2L
 modelname=PZU14B2L
@@ -10373,7 +10373,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU14DB2_NXP01626]
+[PZU14DB2_NXP01567]
 symbol=.sym
 value=PZU14DB2
 modelname=PZU14DB2
@@ -10391,7 +10391,7 @@ model_status=undefined
 
 
 
-[PZU15B1A_NXP01627]
+[PZU15B1A_NXP01568]
 symbol=zener_diode.sym
 value=PZU15B1A
 modelname=PZU15B1A
@@ -10409,7 +10409,7 @@ model_status=good
 
 
 
-[PZU15B2A_NXP01628]
+[PZU15B2A_NXP01569]
 symbol=zener_diode.sym
 value=PZU15B2A
 modelname=PZU15B2A
@@ -10428,7 +10428,7 @@ model_status=good
 
 
 
-[PZU15B2L_NXP01629]
+[PZU15B2L_NXP01570]
 symbol=zener_diode.sym
 value=PZU15B2L
 modelname=PZU15B2L
@@ -10446,7 +10446,7 @@ model_status=good
 
 
 
-[PZU15B3A_NXP01630]
+[PZU15B3A_NXP01571]
 symbol=zener_diode.sym
 value=PZU15B3A
 modelname=PZU15B3A
@@ -10464,7 +10464,7 @@ model_status=good
 
 
 
-[PZU15BA_NXP01631]
+[PZU15BA_NXP01572]
 symbol=zener_diode.sym
 value=PZU15BA
 modelname=PZU15BA
@@ -10483,7 +10483,7 @@ model_status=good
 
 
 
-[PZU15BL_NXP01632]
+[PZU15BL_NXP01573]
 symbol=zener_diode.sym
 value=PZU15BL
 modelname=PZU15BL
@@ -10502,7 +10502,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU15DB2_NXP01633]
+[PZU15DB2_NXP01574]
 symbol=.sym
 value=PZU15DB2
 modelname=PZU15DB2
@@ -10520,7 +10520,7 @@ model_status=undefined
 
 
 
-[PZU16B1A_NXP01634]
+[PZU16B1A_NXP01575]
 symbol=zener_diode.sym
 value=PZU16B1A
 modelname=PZU16B1A
@@ -10538,7 +10538,7 @@ model_status=good
 
 
 
-[PZU16B2A_NXP01635]
+[PZU16B2A_NXP01576]
 symbol=zener_diode.sym
 value=PZU16B2A
 modelname=PZU16B2A
@@ -10556,7 +10556,7 @@ model_status=good
 
 
 
-[PZU16B2L_NXP01636]
+[PZU16B2L_NXP01577]
 symbol=zener_diode.sym
 value=PZU16B2L
 modelname=PZU16B2L
@@ -10574,7 +10574,7 @@ model_status=good
 
 
 
-[PZU16B3A_NXP01637]
+[PZU16B3A_NXP01578]
 symbol=zener_diode.sym
 value=PZU16B3A
 modelname=PZU16B3A
@@ -10592,7 +10592,7 @@ model_status=good
 
 
 
-[PZU16BA_NXP01638]
+[PZU16BA_NXP01579]
 symbol=zener_diode.sym
 value=PZU16BA
 modelname=PZU16BA
@@ -10610,7 +10610,7 @@ model_status=good
 
 
 
-[PZU16BL_NXP01639]
+[PZU16BL_NXP01580]
 symbol=zener_diode.sym
 value=PZU16BL
 modelname=PZU16BL
@@ -10629,7 +10629,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU16DB2_NXP01640]
+[PZU16DB2_NXP01581]
 symbol=.sym
 value=PZU16DB2
 modelname=PZU16DB2
@@ -10647,7 +10647,7 @@ model_status=undefined
 
 
 
-[PZU18B1A_NXP01641]
+[PZU18B1A_NXP01582]
 symbol=zener_diode.sym
 value=PZU18B1A
 modelname=PZU18B1A
@@ -10665,7 +10665,7 @@ model_status=good
 
 
 
-[PZU18B2A_NXP01642]
+[PZU18B2A_NXP01583]
 symbol=zener_diode.sym
 value=PZU18B2A
 modelname=PZU18B2A
@@ -10684,7 +10684,7 @@ model_status=good
 
 
 
-[PZU18B2L_NXP01643]
+[PZU18B2L_NXP01584]
 symbol=zener_diode.sym
 value=PZU18B2L
 modelname=PZU18B2L
@@ -10702,7 +10702,7 @@ model_status=good
 
 
 
-[PZU18B3A_NXP01644]
+[PZU18B3A_NXP01585]
 symbol=zener_diode.sym
 value=PZU18B3A
 modelname=PZU18B3A
@@ -10720,7 +10720,7 @@ model_status=good
 
 
 
-[PZU18BA_NXP01645]
+[PZU18BA_NXP01586]
 symbol=zener_diode.sym
 value=PZU18BA
 modelname=PZU18BA
@@ -10738,7 +10738,7 @@ model_status=good
 
 
 
-[PZU18BL_NXP01646]
+[PZU18BL_NXP01587]
 symbol=zener_diode.sym
 value=PZU18BL
 modelname=PZU18BL
@@ -10757,7 +10757,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU18DB2_NXP01647]
+[PZU18DB2_NXP01588]
 symbol=.sym
 value=PZU18DB2
 modelname=PZU18DB2
@@ -10775,7 +10775,7 @@ model_status=undefined
 
 
 
-[PZU20B1A_NXP01656]
+[PZU20B1A_NXP01589]
 symbol=zener_diode.sym
 value=PZU20B1A
 modelname=PZU20B1A
@@ -10793,7 +10793,7 @@ model_status=good
 
 
 
-[PZU20B2A_NXP01657]
+[PZU20B2A_NXP01590]
 symbol=zener_diode.sym
 value=PZU20B2A
 modelname=PZU20B2A
@@ -10811,7 +10811,7 @@ model_status=good
 
 
 
-[PZU20B2L_NXP01658]
+[PZU20B2L_NXP01591]
 symbol=zener_diode.sym
 value=PZU20B2L
 modelname=PZU20B2L
@@ -10829,7 +10829,7 @@ model_status=good
 
 
 
-[PZU20B3A_NXP01659]
+[PZU20B3A_NXP01592]
 symbol=zener_diode.sym
 value=PZU20B3A
 modelname=PZU20B3A
@@ -10847,7 +10847,7 @@ model_status=good
 
 
 
-[PZU20BA_NXP01660]
+[PZU20BA_NXP01593]
 symbol=zener_diode.sym
 value=PZU20BA
 modelname=PZU20BA
@@ -10865,7 +10865,7 @@ model_status=good
 
 
 
-[PZU20BL_NXP01661]
+[PZU20BL_NXP01594]
 symbol=zener_diode.sym
 value=PZU20BL
 modelname=PZU20BL
@@ -10884,7 +10884,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU20DB2_NXP01662]
+[PZU20DB2_NXP01595]
 symbol=.sym
 value=PZU20DB2
 modelname=PZU20DB2
@@ -10902,7 +10902,7 @@ model_status=undefined
 
 
 
-[PZU22B1A_NXP01663]
+[PZU22B1A_NXP01596]
 symbol=zener_diode.sym
 value=PZU22B1A
 modelname=PZU22B1A
@@ -10920,7 +10920,7 @@ model_status=good
 
 
 
-[PZU22B2A_NXP01664]
+[PZU22B2A_NXP01597]
 symbol=zener_diode.sym
 value=PZU22B2A
 modelname=PZU22B2A
@@ -10938,7 +10938,7 @@ model_status=good
 
 
 
-[PZU22B2L_NXP01665]
+[PZU22B2L_NXP01598]
 symbol=zener_diode.sym
 value=PZU22B2L
 modelname=PZU22B2L
@@ -10956,7 +10956,7 @@ model_status=good
 
 
 
-[PZU22B3A_NXP01666]
+[PZU22B3A_NXP01599]
 symbol=zener_diode.sym
 value=PZU22B3A
 modelname=PZU22B3A
@@ -10974,7 +10974,7 @@ model_status=good
 
 
 
-[PZU22BA_NXP01667]
+[PZU22BA_NXP01600]
 symbol=zener_diode.sym
 value=PZU22BA
 modelname=PZU22BA
@@ -10993,7 +10993,7 @@ model_status=good
 
 
 
-[PZU22BL_NXP01668]
+[PZU22BL_NXP01601]
 symbol=zener_diode.sym
 value=PZU22BL
 modelname=PZU22BL
@@ -11012,7 +11012,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU22DB2_NXP01669]
+[PZU22DB2_NXP01602]
 symbol=.sym
 value=PZU22DB2
 modelname=PZU22DB2
@@ -11030,7 +11030,7 @@ model_status=undefined
 
 
 
-[PZU24B1A_NXP01670]
+[PZU24B1A_NXP01603]
 symbol=zener_diode.sym
 value=PZU24B1A
 modelname=PZU24B1A
@@ -11048,7 +11048,7 @@ model_status=good
 
 
 
-[PZU24B2A_NXP01671]
+[PZU24B2A_NXP01604]
 symbol=zener_diode.sym
 value=PZU24B2A
 modelname=PZU24B2A
@@ -11066,7 +11066,7 @@ model_status=good
 
 
 
-[PZU24B2L_NXP01672]
+[PZU24B2L_NXP01605]
 symbol=zener_diode.sym
 value=PZU24B2L
 modelname=PZU24B2L
@@ -11084,7 +11084,7 @@ model_status=good
 
 
 
-[PZU24B3A_NXP01673]
+[PZU24B3A_NXP01606]
 symbol=zener_diode.sym
 value=PZU24B3A
 modelname=PZU24B3A
@@ -11102,7 +11102,7 @@ model_status=good
 
 
 
-[PZU24BA_NXP01674]
+[PZU24BA_NXP01607]
 symbol=zener_diode.sym
 value=PZU24BA
 modelname=PZU24BA
@@ -11120,7 +11120,7 @@ model_status=good
 
 
 
-[PZU24BL_NXP01675]
+[PZU24BL_NXP01608]
 symbol=zener_diode.sym
 value=PZU24BL
 modelname=PZU24BL
@@ -11139,7 +11139,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU24DB2_NXP01676]
+[PZU24DB2_NXP01609]
 symbol=.sym
 value=PZU24DB2
 modelname=PZU24DB2
@@ -11157,7 +11157,7 @@ model_status=undefined
 
 
 
-[PZU27BA_NXP01677]
+[PZU27BA_NXP01610]
 symbol=zener_diode.sym
 value=PZU27BA
 modelname=PZU27BA
@@ -11175,7 +11175,7 @@ model_status=good
 
 
 
-[PZU27BL_NXP01678]
+[PZU27BL_NXP01611]
 symbol=zener_diode.sym
 value=PZU27BL
 modelname=PZU27BL
@@ -11193,7 +11193,7 @@ model_status=undefined
 
 
 
-[PZU2V4BA_NXP01680]
+[PZU2V4BA_NXP01612]
 symbol=zener_diode.sym
 value=PZU2V4BA
 modelname=PZU2V4BA
@@ -11211,7 +11211,7 @@ model_status=good
 
 
 
-[PZU2V4BL_NXP01681]
+[PZU2V4BL_NXP01613]
 symbol=zener_diode.sym
 value=PZU2V4BL
 modelname=PZU2V4BL
@@ -11229,7 +11229,7 @@ model_status=good
 
 
 
-[PZU2V7B1A_NXP01684]
+[PZU2V7B1A_NXP01614]
 symbol=zener_diode.sym
 value=PZU2V7B1A
 modelname=PZU2V7B1A
@@ -11248,7 +11248,7 @@ model_status=good
 
 
 
-[PZU2V7B2A_NXP01686]
+[PZU2V7B2A_NXP01615]
 symbol=zener_diode.sym
 value=PZU2V7B2A
 modelname=PZU2V7B2A
@@ -11266,7 +11266,7 @@ model_status=good
 
 
 
-[PZU2V7B2L_NXP01687]
+[PZU2V7B2L_NXP01616]
 symbol=zener_diode.sym
 value=PZU2V7B2L
 modelname=PZU2V7B2L
@@ -11284,7 +11284,7 @@ model_status=good
 
 
 
-[PZU2V7BA_NXP01688]
+[PZU2V7BA_NXP01617]
 symbol=zener_diode.sym
 value=PZU2V7BA
 modelname=PZU2V7BA
@@ -11302,7 +11302,7 @@ model_status=good
 
 
 
-[PZU2V7BL_NXP01689]
+[PZU2V7BL_NXP01618]
 symbol=zener_diode.sym
 value=PZU2V7BL
 modelname=PZU2V7BL
@@ -11321,7 +11321,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU2V7DB2_NXP01690]
+[PZU2V7DB2_NXP01619]
 symbol=.sym
 value=PZU2V7DB2
 modelname=PZU2V7DB2
@@ -11339,7 +11339,7 @@ model_status=undefined
 
 
 
-[PZU30BA_NXP01715]
+[PZU30BA_NXP01620]
 symbol=zener_diode.sym
 value=PZU30BA
 modelname=PZU30BA
@@ -11357,7 +11357,7 @@ model_status=good
 
 
 
-[PZU30BL_NXP01716]
+[PZU30BL_NXP01621]
 symbol=zener_diode.sym
 value=PZU30BL
 modelname=PZU30BL
@@ -11375,7 +11375,7 @@ model_status=good
 
 
 
-[PZU33BA_NXP01717]
+[PZU33BA_NXP01622]
 symbol=zener_diode.sym
 value=PZU33BA
 modelname=PZU33BA
@@ -11393,7 +11393,7 @@ model_status=good
 
 
 
-[PZU33BL_NXP01718]
+[PZU33BL_NXP01623]
 symbol=zener_diode.sym
 value=PZU33BL
 modelname=PZU33BL
@@ -11411,7 +11411,7 @@ model_status=good
 
 
 
-[PZU36BA_NXP01719]
+[PZU36BA_NXP01624]
 symbol=zener_diode.sym
 value=PZU36BA
 modelname=PZU36BA
@@ -11429,7 +11429,7 @@ model_status=good
 
 
 
-[PZU36BL_NXP01720]
+[PZU36BL_NXP01625]
 symbol=zener_diode.sym
 value=PZU36BL
 modelname=PZU36BL
@@ -11447,7 +11447,7 @@ model_status=good
 
 
 
-[PZU3V0B1A_NXP01723]
+[PZU3V0B1A_NXP01626]
 symbol=zener_diode.sym
 value=PZU3V0B1A
 modelname=PZU3V0B1A
@@ -11465,7 +11465,7 @@ model_status=good
 
 
 
-[PZU3V0B2A_NXP01725]
+[PZU3V0B2A_NXP01627]
 symbol=zener_diode.sym
 value=PZU3V0B2A
 modelname=PZU3V0B2A
@@ -11483,7 +11483,7 @@ model_status=good
 
 
 
-[PZU3V0B2L_NXP01726]
+[PZU3V0B2L_NXP01628]
 symbol=zener_diode.sym
 value=PZU3V0B2L
 modelname=PZU3V0B2L
@@ -11501,7 +11501,7 @@ model_status=good
 
 
 
-[PZU3V0BA_NXP01727]
+[PZU3V0BA_NXP01629]
 symbol=zener_diode.sym
 value=PZU3V0BA
 modelname=PZU3V0BA
@@ -11519,7 +11519,7 @@ model_status=good
 
 
 
-[PZU3V0BL_NXP01728]
+[PZU3V0BL_NXP01630]
 symbol=zener_diode.sym
 value=PZU3V0BL
 modelname=PZU3V0BL
@@ -11538,7 +11538,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU3V0DB2_NXP01729]
+[PZU3V0DB2_NXP01631]
 symbol=.sym
 value=PZU3V0DB2
 modelname=PZU3V0DB2
@@ -11556,7 +11556,7 @@ model_status=undefined
 
 
 
-[PZU3V3B1A_NXP01732]
+[PZU3V3B1A_NXP01632]
 symbol=zener_diode.sym
 value=PZU3V3B1A
 modelname=PZU3V3B1A
@@ -11574,7 +11574,7 @@ model_status=good
 
 
 
-[PZU3V3B2A_NXP01734]
+[PZU3V3B2A_NXP01633]
 symbol=zener_diode.sym
 value=PZU3V3B2A
 modelname=PZU3V3B2A
@@ -11592,7 +11592,7 @@ model_status=good
 
 
 
-[PZU3V3B2L_NXP01735]
+[PZU3V3B2L_NXP01634]
 symbol=zener_diode.sym
 value=PZU3V3B2L
 modelname=PZU3V3B2L
@@ -11610,7 +11610,7 @@ model_status=good
 
 
 
-[PZU3V3BA_NXP01736]
+[PZU3V3BA_NXP01635]
 symbol=zener_diode.sym
 value=PZU3V3BA
 modelname=PZU3V3BA
@@ -11628,7 +11628,7 @@ model_status=good
 
 
 
-[PZU3V3BL_NXP01737]
+[PZU3V3BL_NXP01636]
 symbol=zener_diode.sym
 value=PZU3V3BL
 modelname=PZU3V3BL
@@ -11647,7 +11647,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU3V3DB2_NXP01738]
+[PZU3V3DB2_NXP01637]
 symbol=.sym
 value=PZU3V3DB2
 modelname=PZU3V3DB2
@@ -11665,7 +11665,7 @@ model_status=undefined
 
 
 
-[PZU3V6B1A_NXP01741]
+[PZU3V6B1A_NXP01638]
 symbol=zener_diode.sym
 value=PZU3V6B1A
 modelname=PZU3V6B1A
@@ -11683,7 +11683,7 @@ model_status=good
 
 
 
-[PZU3V6B2A_NXP01743]
+[PZU3V6B2A_NXP01639]
 symbol=zener_diode.sym
 value=PZU3V6B2A
 modelname=PZU3V6B2A
@@ -11701,7 +11701,7 @@ model_status=good
 
 
 
-[PZU3V6B2L_NXP01744]
+[PZU3V6B2L_NXP01640]
 symbol=zener_diode.sym
 value=PZU3V6B2L
 modelname=PZU3V6B2L
@@ -11719,7 +11719,7 @@ model_status=good
 
 
 
-[PZU3V6BA_NXP01745]
+[PZU3V6BA_NXP01641]
 symbol=zener_diode.sym
 value=PZU3V6BA
 modelname=PZU3V6BA
@@ -11737,7 +11737,7 @@ model_status=good
 
 
 
-[PZU3V6BL_NXP01746]
+[PZU3V6BL_NXP01642]
 symbol=zener_diode.sym
 value=PZU3V6BL
 modelname=PZU3V6BL
@@ -11756,7 +11756,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU3V6DB2_NXP01747]
+[PZU3V6DB2_NXP01643]
 symbol=.sym
 value=PZU3V6DB2
 modelname=PZU3V6DB2
@@ -11775,7 +11775,7 @@ model_status=undefined
 
 
 
-[PZU3V9B1A_NXP01750]
+[PZU3V9B1A_NXP01644]
 symbol=zener_diode.sym
 value=PZU3V9B1A
 modelname=PZU3V9B1A
@@ -11793,7 +11793,7 @@ model_status=good
 
 
 
-[PZU3V9B2A_NXP01752]
+[PZU3V9B2A_NXP01645]
 symbol=zener_diode.sym
 value=PZU3V9B2A
 modelname=PZU3V9B2A
@@ -11811,7 +11811,7 @@ model_status=good
 
 
 
-[PZU3V9B2L_NXP01753]
+[PZU3V9B2L_NXP01646]
 symbol=zener_diode.sym
 value=PZU3V9B2L
 modelname=PZU3V9B2L
@@ -11829,7 +11829,7 @@ model_status=good
 
 
 
-[PZU3V9BA_NXP01754]
+[PZU3V9BA_NXP01647]
 symbol=zener_diode.sym
 value=PZU3V9BA
 modelname=PZU3V9BA
@@ -11847,7 +11847,7 @@ model_status=good
 
 
 
-[PZU3V9BL_NXP01755]
+[PZU3V9BL_NXP01648]
 symbol=zener_diode.sym
 value=PZU3V9BL
 modelname=PZU3V9BL
@@ -11866,7 +11866,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU3V9DB2_NXP01756]
+[PZU3V9DB2_NXP01649]
 symbol=.sym
 value=PZU3V9DB2
 modelname=PZU3V9DB2
@@ -11885,7 +11885,7 @@ model_status=undefined
 
 
 
-[PZU4V3B1A_NXP01773]
+[PZU4V3B1A_NXP01650]
 symbol=zener_diode.sym
 value=PZU4V3B1A
 modelname=PZU4V3B1A
@@ -11903,7 +11903,7 @@ model_status=good
 
 
 
-[PZU4V3B2A_NXP01775]
+[PZU4V3B2A_NXP01651]
 symbol=zener_diode.sym
 value=PZU4V3B2A
 modelname=PZU4V3B2A
@@ -11921,7 +11921,7 @@ model_status=good
 
 
 
-[PZU4V3B2L_NXP01776]
+[PZU4V3B2L_NXP01652]
 symbol=zener_diode.sym
 value=PZU4V3B2L
 modelname=PZU4V3B2L
@@ -11939,7 +11939,7 @@ model_status=good
 
 
 
-[PZU4V3B3A_NXP01778]
+[PZU4V3B3A_NXP01653]
 symbol=zener_diode.sym
 value=PZU4V3B3A
 modelname=PZU4V3B3A
@@ -11957,7 +11957,7 @@ model_status=good
 
 
 
-[PZU4V3BA_NXP01779]
+[PZU4V3BA_NXP01654]
 symbol=zener_diode.sym
 value=PZU4V3BA
 modelname=PZU4V3BA
@@ -11975,7 +11975,7 @@ model_status=good
 
 
 
-[PZU4V3BL_NXP01780]
+[PZU4V3BL_NXP01655]
 symbol=zener_diode.sym
 value=PZU4V3BL
 modelname=PZU4V3BL
@@ -11994,7 +11994,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU4V3DB2_NXP01781]
+[PZU4V3DB2_NXP01656]
 symbol=.sym
 value=PZU4V3DB2
 modelname=PZU4V3DB2
@@ -12012,7 +12012,7 @@ model_status=undefined
 
 
 
-[PZU4V7B1A_NXP01784]
+[PZU4V7B1A_NXP01657]
 symbol=zener_diode.sym
 value=PZU4V7B1A
 modelname=PZU4V7B1A
@@ -12030,7 +12030,7 @@ model_status=good
 
 
 
-[PZU4V7B2A_NXP01786]
+[PZU4V7B2A_NXP01658]
 symbol=zener_diode.sym
 value=PZU4V7B2A
 modelname=PZU4V7B2A
@@ -12048,7 +12048,7 @@ model_status=good
 
 
 
-[PZU4V7B2L_NXP01787]
+[PZU4V7B2L_NXP01659]
 symbol=zener_diode.sym
 value=PZU4V7B2L
 modelname=PZU4V7B2L
@@ -12066,7 +12066,7 @@ model_status=good
 
 
 
-[PZU4V7B3A_NXP01789]
+[PZU4V7B3A_NXP01660]
 symbol=zener_diode.sym
 value=PZU4V7B3A
 modelname=PZU4V7B3A
@@ -12084,7 +12084,7 @@ model_status=good
 
 
 
-[PZU4V7BA_NXP01790]
+[PZU4V7BA_NXP01661]
 symbol=zener_diode.sym
 value=PZU4V7BA
 modelname=PZU4V7BA
@@ -12102,7 +12102,7 @@ model_status=good
 
 
 
-[PZU4V7BL_NXP01791]
+[PZU4V7BL_NXP01662]
 symbol=zener_diode.sym
 value=PZU4V7BL
 modelname=PZU4V7BL
@@ -12121,7 +12121,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU4V7DB2_NXP01792]
+[PZU4V7DB2_NXP01663]
 symbol=.sym
 value=PZU4V7DB2
 modelname=PZU4V7DB2
@@ -12139,7 +12139,7 @@ model_status=undefined
 
 
 
-[PZU5V1B2L_NXP01795]
+[PZU5V1B2L_NXP01664]
 symbol=zener_diode.sym
 value=PZU5V1B2L
 modelname=PZU5V1B2L
@@ -12157,7 +12157,7 @@ model_status=good
 
 
 
-[PZU5V1BL_NXP01798]
+[PZU5V1BL_NXP01665]
 symbol=zener_diode.sym
 value=PZU5V1BL
 modelname=PZU5V1BL
@@ -12175,7 +12175,7 @@ model_status=good
 
 
 
-[PZU5V6B2L_NXP01802]
+[PZU5V6B2L_NXP01666]
 symbol=zener_diode.sym
 value=PZU5V6B2L
 modelname=PZU5V6B2L
@@ -12193,7 +12193,7 @@ model_status=good
 
 
 
-[PZU5V6BL_NXP01805]
+[PZU5V6BL_NXP01667]
 symbol=zener_diode.sym
 value=PZU5V6BL
 modelname=PZU5V6BL
@@ -12211,7 +12211,7 @@ model_status=good
 
 
 
-[PZU5V1B1A_NXP01807]
+[PZU5V1B1A_NXP01668]
 symbol=zener_diode.sym
 value=PZU5V1B1A
 modelname=PZU5V1B1A
@@ -12229,7 +12229,7 @@ model_status=good
 
 
 
-[PZU5V1B2A_NXP01808]
+[PZU5V1B2A_NXP01669]
 symbol=zener_diode.sym
 value=PZU5V1B2A
 modelname=PZU5V1B2A
@@ -12247,7 +12247,7 @@ model_status=good
 
 
 
-[PZU5V1B3A_NXP01809]
+[PZU5V1B3A_NXP01670]
 symbol=zener_diode.sym
 value=PZU5V1B3A
 modelname=PZU5V1B3A
@@ -12265,7 +12265,7 @@ model_status=good
 
 
 
-[PZU5V1BA_NXP01810]
+[PZU5V1BA_NXP01671]
 symbol=zener_diode.sym
 value=PZU5V1BA
 modelname=PZU5V1BA
@@ -12284,7 +12284,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU5V1DB2_NXP01811]
+[PZU5V1DB2_NXP01672]
 symbol=zener_diode.sym
 value=PZU5V1DB2
 modelname=PZU5V1DB2
@@ -12302,7 +12302,7 @@ model_status=undefined
 
 
 
-[PZU5V6B1A_NXP01812]
+[PZU5V6B1A_NXP01673]
 symbol=zener_diode.sym
 value=PZU5V6B1A
 modelname=PZU5V6B1A
@@ -12320,7 +12320,7 @@ model_status=good
 
 
 
-[PZU5V6B2A_NXP01813]
+[PZU5V6B2A_NXP01674]
 symbol=zener_diode.sym
 value=PZU5V6B2A
 modelname=PZU5V6B2A
@@ -12338,7 +12338,7 @@ model_status=good
 
 
 
-[PZU5V6B3A_NXP01814]
+[PZU5V6B3A_NXP01675]
 symbol=zener_diode.sym
 value=PZU5V6B3A
 modelname=PZU5V6B3A
@@ -12356,7 +12356,7 @@ model_status=good
 
 
 
-[PZU5V6BA_NXP01815]
+[PZU5V6BA_NXP01676]
 symbol=zener_diode.sym
 value=PZU5V6BA
 modelname=PZU5V6BA
@@ -12375,7 +12375,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU5V6DB2_NXP01816]
+[PZU5V6DB2_NXP01677]
 symbol=zener_diode.sym
 value=PZU5V6DB2
 modelname=PZU5V6DB2
@@ -12394,7 +12394,7 @@ model_status=undefined
 
 
 
-[PZU6V2B2L_NXP01819]
+[PZU6V2B2L_NXP01678]
 symbol=zener_diode.sym
 value=PZU6V2B2L
 modelname=PZU6V2B2L
@@ -12412,7 +12412,7 @@ model_status=good
 
 
 
-[PZU6V2BL_NXP01822]
+[PZU6V2BL_NXP01679]
 symbol=zener_diode.sym
 value=PZU6V2BL
 modelname=PZU6V2BL
@@ -12431,7 +12431,7 @@ model_status=good
 
 
 
-[PZU6V8B2L_NXP01826]
+[PZU6V8B2L_NXP01680]
 symbol=zener_diode.sym
 value=PZU6V8B2L
 modelname=PZU6V8B2L
@@ -12449,7 +12449,7 @@ model_status=good
 
 
 
-[PZU6V8BL_NXP01829]
+[PZU6V8BL_NXP01681]
 symbol=zener_diode.sym
 value=PZU6V8BL
 modelname=PZU6V8BL
@@ -12468,7 +12468,7 @@ model_status=good
 
 
 
-[PZU6V2B1A_NXP01831]
+[PZU6V2B1A_NXP01682]
 symbol=zener_diode.sym
 value=PZU6V2B1A
 modelname=PZU6V2B1A
@@ -12486,7 +12486,7 @@ model_status=good
 
 
 
-[PZU6V2B2A_NXP01832]
+[PZU6V2B2A_NXP01683]
 symbol=zener_diode.sym
 value=PZU6V2B2A
 modelname=PZU6V2B2A
@@ -12504,7 +12504,7 @@ model_status=good
 
 
 
-[PZU6V2B3A_NXP01833]
+[PZU6V2B3A_NXP01684]
 symbol=zener_diode.sym
 value=PZU6V2B3A
 modelname=PZU6V2B3A
@@ -12522,7 +12522,7 @@ model_status=good
 
 
 
-[PZU6V2BA_NXP01834]
+[PZU6V2BA_NXP01685]
 symbol=zener_diode.sym
 value=PZU6V2BA
 modelname=PZU6V2BA
@@ -12541,7 +12541,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU6V2DB2_NXP01835]
+[PZU6V2DB2_NXP01686]
 symbol=zener_diode.sym
 value=PZU6V2DB2
 modelname=PZU6V2DB2
@@ -12559,7 +12559,7 @@ model_status=undefined
 
 
 
-[PZU6V8B1A_NXP01836]
+[PZU6V8B1A_NXP01687]
 symbol=zener_diode.sym
 value=PZU6V8B1A
 modelname=PZU6V8B1A
@@ -12577,7 +12577,7 @@ model_status=good
 
 
 
-[PZU6V8B2A_NXP01837]
+[PZU6V8B2A_NXP01688]
 symbol=zener_diode.sym
 value=PZU6V8B2A
 modelname=PZU6V8B2A
@@ -12595,7 +12595,7 @@ model_status=good
 
 
 
-[PZU6V8B3A_NXP01838]
+[PZU6V8B3A_NXP01689]
 symbol=zener_diode.sym
 value=PZU6V8B3A
 modelname=PZU6V8B3A
@@ -12613,7 +12613,7 @@ model_status=good
 
 
 
-[PZU6V8BA_NXP01839]
+[PZU6V8BA_NXP01690]
 symbol=zener_diode.sym
 value=PZU6V8BA
 modelname=PZU6V8BA
@@ -12632,7 +12632,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU6V8DB2_NXP01840]
+[PZU6V8DB2_NXP01691]
 symbol=zener_diode.sym
 value=PZU6V8DB2
 modelname=PZU6V8DB2
@@ -12650,7 +12650,7 @@ model_status=undefined
 
 
 
-[PZU7V5B2L_NXP01843]
+[PZU7V5B2L_NXP01692]
 symbol=zener_diode.sym
 value=PZU7V5B2L
 modelname=PZU7V5B2L
@@ -12668,7 +12668,7 @@ model_status=good
 
 
 
-[PZU7V5BL_NXP01846]
+[PZU7V5BL_NXP01693]
 symbol=zener_diode.sym
 value=PZU7V5BL
 modelname=PZU7V5BL
@@ -12687,7 +12687,7 @@ model_status=good
 
 
 
-[PZU7V5B1A_NXP01848]
+[PZU7V5B1A_NXP01694]
 symbol=zener_diode.sym
 value=PZU7V5B1A
 modelname=PZU7V5B1A
@@ -12705,7 +12705,7 @@ model_status=good
 
 
 
-[PZU7V5B2A_NXP01849]
+[PZU7V5B2A_NXP01695]
 symbol=zener_diode.sym
 value=PZU7V5B2A
 modelname=PZU7V5B2A
@@ -12723,7 +12723,7 @@ model_status=good
 
 
 
-[PZU7V5B3A_NXP01850]
+[PZU7V5B3A_NXP01696]
 symbol=zener_diode.sym
 value=PZU7V5B3A
 modelname=PZU7V5B3A
@@ -12741,7 +12741,7 @@ model_status=good
 
 
 
-[PZU7V5BA_NXP01851]
+[PZU7V5BA_NXP01697]
 symbol=zener_diode.sym
 value=PZU7V5BA
 modelname=PZU7V5BA
@@ -12760,7 +12760,7 @@ model_status=good
 
 
 # Subcircuit with 5 connections
-[PZU7V5DB2_NXP01852]
+[PZU7V5DB2_NXP01698]
 symbol=zener_diode.sym
 value=PZU7V5DB2
 modelname=PZU7V5DB2
@@ -12778,7 +12778,7 @@ model_status=undefined
 
 
 
-[PZU8V2B2L_NXP01855]
+[PZU8V2B2L_NXP01699]
 symbol=zener_diode.sym
 value=PZU8V2B2L
 modelname=PZU8V2B2L
@@ -12796,7 +12796,7 @@ model_status=good
 
 
 
-[PZU8V2BL_NXP01858]
+[PZU8V2BL_NXP01700]
 symbol=zener_diode.sym
 value=PZU8V2BL
 modelname=PZU8V2BL
@@ -12814,7 +12814,7 @@ model_status=good
 
 
 
-[PZU8V2B1A_NXP01859]
+[PZU8V2B1A_NXP01701]
 symbol=zener_diode.sym
 value=PZU8V2B1A
 modelname=PZU8V2B1A
@@ -12832,7 +12832,7 @@ model_status=good
 
 
 
-[PZU8V2B2A_NXP01860]
+[PZU8V2B2A_NXP01702]
 symbol=zener_diode.sym
 value=PZU8V2B2A
 modelname=PZU8V2B2A
@@ -12850,7 +12850,7 @@ model_status=good
 
 
 
-[PZU8V2B3A_NXP01861]
+[PZU8V2B3A_NXP01703]
 symbol=zener_diode.sym
 value=PZU8V2B3A
 modelname=PZU8V2B3A
@@ -12868,7 +12868,7 @@ model_status=good
 
 
 
-[PZU8V2BA_NXP01862]
+[PZU8V2BA_NXP01704]
 symbol=zener_diode.sym
 value=PZU8V2BA
 modelname=PZU8V2BA
@@ -12886,7 +12886,7 @@ model_status=good
 
 
 
-[PZU9V1B2L_NXP01865]
+[PZU9V1B2L_NXP01705]
 symbol=zener_diode.sym
 value=PZU9V1B2L
 modelname=PZU9V1B2L
@@ -12904,7 +12904,7 @@ model_status=good
 
 
 
-[PZU9V1BL_NXP01868]
+[PZU9V1BL_NXP01706]
 symbol=zener_diode.sym
 value=PZU9V1BL
 modelname=PZU9V1BL
@@ -12922,7 +12922,7 @@ model_status=good
 
 
 
-[PZU9V1B1A_NXP01869]
+[PZU9V1B1A_NXP01707]
 symbol=zener_diode.sym
 value=PZU9V1B1A
 modelname=PZU9V1B1A
@@ -12940,7 +12940,7 @@ model_status=good
 
 
 
-[PZU9V1B2A_NXP01870]
+[PZU9V1B2A_NXP01708]
 symbol=zener_diode.sym
 value=PZU9V1B2A
 modelname=PZU9V1B2A
@@ -12958,7 +12958,7 @@ model_status=good
 
 
 
-[PZU9V1B3A_NXP01871]
+[PZU9V1B3A_NXP01709]
 symbol=zener_diode.sym
 value=PZU9V1B3A
 modelname=PZU9V1B3A
@@ -12976,7 +12976,7 @@ model_status=good
 
 
 
-[PZU9V1BA_NXP01872]
+[PZU9V1BA_NXP01710]
 symbol=zener_diode.sym
 value=PZU9V1BA
 modelname=PZU9V1BA
