@@ -9827,44 +9827,43 @@ model_status=good
 
 
 [PZU10B1A_NXP01596]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU10B1A
 modelname=PZU10B1A
 file=PZU10B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
 description=Single Zener diode
-documentation=
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU10B2A_NXP01597]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU10B2A
 modelname=PZU10B2A
 file=PZU10B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU10B2L_NXP01598]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU10B2L
 modelname=PZU10B2L
 file=PZU10B2L.prm
@@ -9874,52 +9873,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU10B3A_NXP01599]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU10B3A
 modelname=PZU10B3A
 file=PZU10B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU10BA_NXP01600]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU10BA
 modelname=PZU10BA
 file=PZU10BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU10BL_NXP01601]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU10BL
 modelname=PZU10BL
 file=PZU10BL.prm
@@ -9929,10 +9927,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
@@ -9948,52 +9946,52 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU11B1A_NXP01603]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU11B1A
 modelname=PZU11B1A
 file=PZU11B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU11B2A_NXP01604]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU11B2A
 modelname=PZU11B2A
 file=PZU11B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
+
 [PZU11B2L_NXP01605]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU11B2L
 modelname=PZU11B2L
 file=PZU11B2L.prm
@@ -10003,52 +10001,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU11B3A_NXP01606]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU11B3A
 modelname=PZU11B3A
 file=PZU11B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU11BA_NXP01607]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU11BA
 modelname=PZU11BA
 file=PZU11BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU11BL_NXP01608]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU11BL
 modelname=PZU11BL
 file=PZU11BL.prm
@@ -10058,10 +10055,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
@@ -10077,52 +10074,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU12B1A_NXP01610]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU12B1A
 modelname=PZU12B1A
 file=PZU12B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU12B2A_NXP01611]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU12B2A
 modelname=PZU12B2A
 file=PZU12B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU12B2L_NXP01612]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU12B2L
 modelname=PZU12B2L
 file=PZU12B2L.prm
@@ -10132,52 +10128,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU12B3A_NXP01613]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU12B3A
 modelname=PZU12B3A
 file=PZU12B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU12BA_NXP01614]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU12BA
 modelname=PZU12BA
 file=PZU12BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU12BL_NXP01615]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU12BL
 modelname=PZU12BL
 file=PZU12BL.prm
@@ -10187,10 +10182,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
@@ -10206,52 +10201,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU13B1A_NXP01617]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU13B1A
 modelname=PZU13B1A
 file=PZU13B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU13B2A_NXP01618]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU13B2A
 modelname=PZU13B2A
 file=PZU13B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU13B2L_NXP01619]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU13B2L
 modelname=PZU13B2L
 file=PZU13B2L.prm
@@ -10261,52 +10255,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU13B3A_NXP01620]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU13B3A
 modelname=PZU13B3A
 file=PZU13B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU13BA_NXP01621]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU13BA
 modelname=PZU13BA
 file=PZU13BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU13BL_NXP01622]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU13BL
 modelname=PZU13BL
 file=PZU13BL.prm
@@ -10316,10 +10309,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
@@ -10335,34 +10328,34 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diodes
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU14B2A_NXP01624]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU14B2A
 modelname=PZU14B2A
 file=PZU14B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
+
 [PZU14B2L_NXP01625]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU14B2L
 modelname=PZU14B2L
 file=PZU14B2L.prm
@@ -10372,10 +10365,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
@@ -10391,52 +10384,52 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU15B1A_NXP01627]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU15B1A
 modelname=PZU15B1A
 file=PZU15B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU15B2A_NXP01628]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU15B2A
 modelname=PZU15B2A
 file=PZU15B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
+
 [PZU15B2L_NXP01629]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU15B2L
 modelname=PZU15B2L
 file=PZU15B2L.prm
@@ -10446,52 +10439,52 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU15B3A_NXP01630]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU15B3A
 modelname=PZU15B3A
 file=PZU15B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU15BA_NXP01631]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU15BA
 modelname=PZU15BA
 file=PZU15BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
+
 [PZU15BL_NXP01632]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU15BL
 modelname=PZU15BL
 file=PZU15BL.prm
@@ -10501,10 +10494,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
@@ -10520,52 +10513,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU16B1A_NXP01634]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU16B1A
 modelname=PZU16B1A
 file=PZU16B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU16B2A_NXP01635]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU16B2A
 modelname=PZU16B2A
 file=PZU16B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU16B2L_NXP01636]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU16B2L
 modelname=PZU16B2L
 file=PZU16B2L.prm
@@ -10575,52 +10567,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU16B3A_NXP01637]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU16B3A
 modelname=PZU16B3A
 file=PZU16B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU16BA_NXP01638]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU16BA
 modelname=PZU16BA
 file=PZU16BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU16BL_NXP01639]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU16BL
 modelname=PZU16BL
 file=PZU16BL.prm
@@ -10630,10 +10621,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
@@ -10649,52 +10640,52 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU18B1A_NXP01641]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU18B1A
 modelname=PZU18B1A
 file=PZU18B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU18B2A_NXP01642]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU18B2A
 modelname=PZU18B2A
 file=PZU18B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
+
 [PZU18B2L_NXP01643]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU18B2L
 modelname=PZU18B2L
 file=PZU18B2L.prm
@@ -10704,52 +10695,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU18B3A_NXP01644]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU18B3A
 modelname=PZU18B3A
 file=PZU18B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU18BA_NXP01645]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU18BA
 modelname=PZU18BA
 file=PZU18BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU18BL_NXP01646]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU18BL
 modelname=PZU18BL
 file=PZU18BL.prm
@@ -10759,10 +10749,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
@@ -10778,52 +10768,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU20B1A_NXP01656]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU20B1A
 modelname=PZU20B1A
 file=PZU20B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU20B2A_NXP01657]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU20B2A
 modelname=PZU20B2A
 file=PZU20B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU20B2L_NXP01658]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU20B2L
 modelname=PZU20B2L
 file=PZU20B2L.prm
@@ -10833,52 +10822,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU20B3A_NXP01659]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU20B3A
 modelname=PZU20B3A
 file=PZU20B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU20BA_NXP01660]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU20BA
 modelname=PZU20BA
 file=PZU20BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU20BL_NXP01661]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU20BL
 modelname=PZU20BL
 file=PZU20BL.prm
@@ -10888,10 +10876,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
@@ -10907,52 +10895,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU22B1A_NXP01663]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU22B1A
 modelname=PZU22B1A
 file=PZU22B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU22B2A_NXP01664]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU22B2A
 modelname=PZU22B2A
 file=PZU22B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU22B2L_NXP01665]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU22B2L
 modelname=PZU22B2L
 file=PZU22B2L.prm
@@ -10962,52 +10949,52 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
+description=Single Zener diode
 documentation=
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU22B3A_NXP01666]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU22B3A
 modelname=PZU22B3A
 file=PZU22B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU22BA_NXP01667]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU22BA
 modelname=PZU22BA
 file=PZU22BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
+
 [PZU22BL_NXP01668]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU22BL
 modelname=PZU22BL
 file=PZU22BL.prm
@@ -11017,10 +11004,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
@@ -11036,52 +11023,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU24B1A_NXP01670]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU24B1A
 modelname=PZU24B1A
 file=PZU24B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU24B2A_NXP01671]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU24B2A
 modelname=PZU24B2A
 file=PZU24B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU24B2L_NXP01672]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU24B2L
 modelname=PZU24B2L
 file=PZU24B2L.prm
@@ -11091,52 +11077,51 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU24B3A_NXP01673]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU24B3A
 modelname=PZU24B3A
 file=PZU24B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU24BA_NXP01674]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU24BA
 modelname=PZU24BA
 file=PZU24BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU24BL_NXP01675]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU24BL
 modelname=PZU24BL
 file=PZU24BL.prm
@@ -11146,10 +11131,10 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
@@ -11165,34 +11150,33 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU27BA_NXP01677]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU27BA
 modelname=PZU27BA
 file=PZU27BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU27BL_NXP01678]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU27BL
 modelname=PZU27BL
 file=PZU27BL.prm
@@ -11202,137 +11186,137 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
 model_status=undefined
 
 
 
 [PZU2V4BA_NXP01680]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU2V4BA
 modelname=PZU2V4BA
 file=PZU2V4BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU2V4BL_NXP01681]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU2V4BL
 modelname=PZU2V4BL
 file=PZU2V4BL.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU2V7B1A_NXP01684]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU2V7B1A
 modelname=PZU2V7B1A
 file=PZU2V7B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 
 [PZU2V7B2A_NXP01686]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU2V7B2A
 modelname=PZU2V7B2A
 file=PZU2V7B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU2V7B2L_NXP01687]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU2V7B2L
 modelname=PZU2V7B2L
 file=PZU2V7B2L.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU2V7BA_NXP01688]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU2V7BA
 modelname=PZU2V7BA
 file=PZU2V7BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU2V7BL_NXP01689]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU2V7BL
 modelname=PZU2V7BL
 file=PZU2V7BL.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
@@ -11348,34 +11332,33 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU30BA_NXP01715]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU30BA
 modelname=PZU30BA
 file=PZU30BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU30BL_NXP01716]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU30BL
 modelname=PZU30BL
 file=PZU30BL.prm
@@ -11385,34 +11368,33 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU33BA_NXP01717]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU33BA
 modelname=PZU33BA
 file=PZU33BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU33BL_NXP01718]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU33BL
 modelname=PZU33BL
 file=PZU33BL.prm
@@ -11422,34 +11404,33 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU36BA_NXP01719]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU36BA
 modelname=PZU36BA
 file=PZU36BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU36BL_NXP01720]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU36BL
 modelname=PZU36BL
 file=PZU36BL.prm
@@ -11459,100 +11440,100 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU3V0B1A_NXP01723]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V0B1A
 modelname=PZU3V0B1A
 file=PZU3V0B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V0B2A_NXP01725]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V0B2A
 modelname=PZU3V0B2A
 file=PZU3V0B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V0B2L_NXP01726]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V0B2L
 modelname=PZU3V0B2L
 file=PZU3V0B2L.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V0BA_NXP01727]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V0BA
 modelname=PZU3V0BA
 file=PZU3V0BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V0BL_NXP01728]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V0BL
 modelname=PZU3V0BL
 file=PZU3V0BL.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
@@ -11568,100 +11549,100 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU3V3B1A_NXP01732]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V3B1A
 modelname=PZU3V3B1A
 file=PZU3V3B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V3B2A_NXP01734]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V3B2A
 modelname=PZU3V3B2A
 file=PZU3V3B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V3B2L_NXP01735]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V3B2L
 modelname=PZU3V3B2L
 file=PZU3V3B2L.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V3BA_NXP01736]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V3BA
 modelname=PZU3V3BA
 file=PZU3V3BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V3BL_NXP01737]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V3BL
 modelname=PZU3V3BL
 file=PZU3V3BL.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
@@ -11677,100 +11658,100 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU3V6B1A_NXP01741]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V6B1A
 modelname=PZU3V6B1A
 file=PZU3V6B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V6B2A_NXP01743]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V6B2A
 modelname=PZU3V6B2A
 file=PZU3V6B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V6B2L_NXP01744]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V6B2L
 modelname=PZU3V6B2L
 file=PZU3V6B2L.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V6BA_NXP01745]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V6BA
 modelname=PZU3V6BA
 file=PZU3V6BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V6BL_NXP01746]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V6BL
 modelname=PZU3V6BL
 file=PZU3V6BL.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
@@ -11786,8 +11767,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -11795,92 +11776,92 @@ model_status=undefined
 
 
 [PZU3V9B1A_NXP01750]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V9B1A
 modelname=PZU3V9B1A
 file=PZU3V9B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V9B2A_NXP01752]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V9B2A
 modelname=PZU3V9B2A
 file=PZU3V9B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V9B2L_NXP01753]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V9B2L
 modelname=PZU3V9B2L
 file=PZU3V9B2L.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V9BA_NXP01754]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V9BA
 modelname=PZU3V9BA
 file=PZU3V9BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU3V9BL_NXP01755]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU3V9BL
 modelname=PZU3V9BL
 file=PZU3V9BL.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
@@ -11896,8 +11877,8 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -11905,110 +11886,110 @@ model_status=undefined
 
 
 [PZU4V3B1A_NXP01773]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4V3B1A
 modelname=PZU4V3B1A
 file=PZU4V3B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU4V3B2A_NXP01775]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4V3B2A
 modelname=PZU4V3B2A
 file=PZU4V3B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU4V3B2L_NXP01776]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4V3B2L
 modelname=PZU4V3B2L
 file=PZU4V3B2L.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU4V3B3A_NXP01778]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4V3B3A
 modelname=PZU4V3B3A
 file=PZU4V3B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU4V3BA_NXP01779]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4V3BA
 modelname=PZU4V3BA
 file=PZU4V3BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU4V3BL_NXP01780]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4V3BL
 modelname=PZU4V3BL
 file=PZU4V3BL.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
@@ -12024,118 +12005,118 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU4V7B1A_NXP01784]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4V7B1A
 modelname=PZU4V7B1A
 file=PZU4V7B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU4V7B2A_NXP01786]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4V7B2A
 modelname=PZU4V7B2A
 file=PZU4V7B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU4V7B2L_NXP01787]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4V7B2L
 modelname=PZU4V7B2L
 file=PZU4V7B2L.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU4V7B3A_NXP01789]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4V7B3A
 modelname=PZU4V7B3A
 file=PZU4V7B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU4V7BA_NXP01790]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4V7BA
 modelname=PZU4V7BA
 file=PZU4V7BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU4V7BL_NXP01791]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU4V7BL
 modelname=PZU4V7BL
 file=PZU4V7BL.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
@@ -12151,16 +12132,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
-# Subcircuit with 1 connections
 [PZU5V1B2L_NXP01795]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V1B2L
 modelname=PZU5V1B2L
 file=PZU5.1B2L.prm
@@ -12170,16 +12150,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU5V1BL_NXP01798]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V1BL
 modelname=PZU5V1BL
 file=PZU5.1BL.prm
@@ -12189,16 +12168,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU5V6B2L_NXP01802]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V6B2L
 modelname=PZU5V6B2L
 file=PZU5.6B2L.prm
@@ -12208,16 +12186,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU5V6BL_NXP01805]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V6BL
 modelname=PZU5V6BL
 file=PZU5.6BL.prm
@@ -12227,88 +12204,88 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU5V1B1A_NXP01807]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V1B1A
 modelname=PZU5V1B1A
 file=PZU5V1B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU5V1B2A_NXP01808]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V1B2A
 modelname=PZU5V1B2A
 file=PZU5V1B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU5V1B3A_NXP01809]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V1B3A
 modelname=PZU5V1B3A
 file=PZU5V1B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU5V1BA_NXP01810]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V1BA
 modelname=PZU5V1BA
 file=PZU5V1BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 # Subcircuit with 5 connections
 [PZU5V1DB2_NXP01811]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V1DB2
 modelname=PZU5V1DB2
 file=PZU5V1DB2.prm
@@ -12318,88 +12295,88 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU5V6B1A_NXP01812]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V6B1A
 modelname=PZU5V6B1A
 file=PZU5V6B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU5V6B2A_NXP01813]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V6B2A
 modelname=PZU5V6B2A
 file=PZU5V6B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU5V6B3A_NXP01814]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V6B3A
 modelname=PZU5V6B3A
 file=PZU5V6B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU5V6BA_NXP01815]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V6BA
 modelname=PZU5V6BA
 file=PZU5V6BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 # Subcircuit with 5 connections
 [PZU5V6DB2_NXP01816]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU5V6DB2
 modelname=PZU5V6DB2
 file=PZU5V6DB2.prm
@@ -12409,16 +12386,16 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
-# Subcircuit with 1 connections
+
 [PZU6V2B2L_NXP01819]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V2B2L
 modelname=PZU6V2B2L
 file=PZU6.2B2L.prm
@@ -12428,16 +12405,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU6V2BL_NXP01822]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V2BL
 modelname=PZU6V2BL
 file=PZU6.2BL.prm
@@ -12447,17 +12423,16 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 
-# Subcircuit with 1 connections
 [PZU6V8B2L_NXP01826]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V8B2L
 modelname=PZU6V8B2L
 file=PZU6.8B2L.prm
@@ -12467,16 +12442,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU6V8BL_NXP01829]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V8BL
 modelname=PZU6V8BL
 file=PZU6.8BL.prm
@@ -12486,89 +12460,89 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 
 [PZU6V2B1A_NXP01831]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V2B1A
 modelname=PZU6V2B1A
 file=PZU6V2B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU6V2B2A_NXP01832]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V2B2A
 modelname=PZU6V2B2A
 file=PZU6V2B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU6V2B3A_NXP01833]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V2B3A
 modelname=PZU6V2B3A
 file=PZU6V2B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU6V2BA_NXP01834]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V2BA
 modelname=PZU6V2BA
 file=PZU6V2BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 # Subcircuit with 5 connections
 [PZU6V2DB2_NXP01835]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V2DB2
 modelname=PZU6V2DB2
 file=PZU6V2DB2.prm
@@ -12578,88 +12552,88 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
 [PZU6V8B1A_NXP01836]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V8B1A
 modelname=PZU6V8B1A
 file=PZU6V8B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU6V8B2A_NXP01837]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V8B2A
 modelname=PZU6V8B2A
 file=PZU6V8B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU6V8B3A_NXP01838]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V8B3A
 modelname=PZU6V8B3A
 file=PZU6V8B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU6V8BA_NXP01839]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V8BA
 modelname=PZU6V8BA
 file=PZU6V8BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 # Subcircuit with 5 connections
 [PZU6V8DB2_NXP01840]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU6V8DB2
 modelname=PZU6V8DB2
 file=PZU6V8DB2.prm
@@ -12669,16 +12643,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
-# Subcircuit with 1 connections
 [PZU7V5B2L_NXP01843]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU7V5B2L
 modelname=PZU7V5B2L
 file=PZU7.5B2L.prm
@@ -12688,16 +12661,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU7V5BL_NXP01846]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU7V5BL
 modelname=PZU7V5BL
 file=PZU7.5BL.prm
@@ -12707,89 +12679,89 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 
 [PZU7V5B1A_NXP01848]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU7V5B1A
 modelname=PZU7V5B1A
 file=PZU7V5B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU7V5B2A_NXP01849]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU7V5B2A
 modelname=PZU7V5B2A
 file=PZU7V5B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU7V5B3A_NXP01850]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU7V5B3A
 modelname=PZU7V5B3A
 file=PZU7V5B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU7V5BA_NXP01851]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU7V5BA
 modelname=PZU7V5BA
 file=PZU7V5BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 # Subcircuit with 5 connections
 [PZU7V5DB2_NXP01852]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU7V5DB2
 modelname=PZU7V5DB2
 file=PZU7V5DB2.prm
@@ -12799,16 +12771,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Dual Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status=undefined
 
 
 
-# Subcircuit with 1 connections
 [PZU8V2B2L_NXP01855]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU8V2B2L
 modelname=PZU8V2B2L
 file=PZU8.2B2L.prm
@@ -12818,16 +12789,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU8V2BL_NXP01858]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU8V2BL
 modelname=PZU8V2BL
 file=PZU8.2BL.prm
@@ -12837,88 +12807,87 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU8V2B1A_NXP01859]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU8V2B1A
 modelname=PZU8V2B1A
 file=PZU8V2B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU8V2B2A_NXP01860]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU8V2B2A
 modelname=PZU8V2B2A
 file=PZU8V2B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU8V2B3A_NXP01861]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU8V2B3A
 modelname=PZU8V2B3A
 file=PZU8V2B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU8V2BA_NXP01862]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU8V2BA
 modelname=PZU8V2BA
 file=PZU8V2BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU9V1B2L_NXP01865]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU9V1B2L
 modelname=PZU9V1B2L
 file=PZU9.1B2L.prm
@@ -12928,16 +12897,15 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
-# Subcircuit with 1 connections
 [PZU9V1BL_NXP01868]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU9V1BL
 modelname=PZU9V1BL
 file=PZU9.1BL.prm
@@ -12947,80 +12915,80 @@ pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status=good
 
 
 
 [PZU9V1B1A_NXP01869]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU9V1B1A
 modelname=PZU9V1B1A
 file=PZU9V1B1A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU9V1B2A_NXP01870]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU9V1B2A
 modelname=PZU9V1B2A
 file=PZU9V1B2A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU9V1B3A_NXP01871]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU9V1B3A
 modelname=PZU9V1B3A
 file=PZU9V1B3A.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
 
 
 [PZU9V1BA_NXP01872]
-symbol=.sym
+symbol=zener_diode.sym
 value=PZU9V1BA
 modelname=PZU9V1BA
 file=PZU9V1BA.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
-description=
-documentation=
+description=Single Zener diode
+documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=test1
+model_status=good
 
