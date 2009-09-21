@@ -31,7 +31,7 @@ test:
 	scripts/testlibrary.py -t indexfiles/*index
 
 release:
-	git archive --format=tar $(VERSION) |gzip >s$(NAME)-$(VERSION).tar.gz
+	git archive --format=tar --prefix=$(NAME)-$(VERSION)/ $(VERSION) |gzip >$(NAME)-$(VERSION).tar.gz
 
 # nxp models downloaded from URL:
 # http://www.nxp.com/models/index.html  --> Spice and S-parameters
