@@ -15,13 +15,12 @@ def plot_forward_voltage():
 
     plots = spice_read.spice_read("forward_voltage.data").get_plots()
     for n,pl in enumerate(plots):
-        x = pl.get_scalevector().get_data()
-        yv =pl.get_datavectors()[0]
-        y = yv.get_data()
-        if numpy.any(y<0.0) or numpy.any(y>3.0):
+        If = -pl.get_scalevector().get_data()
+        Uf = pl.get_datavectors()[0].get_data()
+        if numpy.any(Uf<0.0) or numpy.any(Uf>3.0):
             print "forward voltage out of expected range [0.0, 3.0]"
             ret = 1
-        pylab.semilogy(y,-x*1000.0,label = labels[n])
+        pylab.semilogy(Uf, If*1000.0,label = labels[n])
     pylab.ylabel("If [mA]")
     pylab.xlabel("Uf [V]")
     pylab.grid()
