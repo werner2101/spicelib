@@ -34,7 +34,7 @@ def plot_dc_current():
 
 #################### MAIN
 
-os.system("gnetlist -g spice-sdb -o dc_current.net dc_current.sch")
+os.system("gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o dc_current.net dc_current.sch")
 
 os.system("gnucap -b simulate.gnucap")
 plot_dc_current()

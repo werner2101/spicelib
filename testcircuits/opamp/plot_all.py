@@ -37,7 +37,7 @@ def plot_dc_amplifier():
 
 ME = sys.argv[0] + ": "
 
-command = "gnetlist -g spice-sdb -o dc_amplifier.net dc_amplifier.sch"
+command = "gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o dc_amplifier.net dc_amplifier.sch"
 print ME, "\n creating nestlist: ",  command
 os.system(command)
 

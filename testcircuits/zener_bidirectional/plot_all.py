@@ -50,7 +50,7 @@ def plot_voltages():
 
 ME = sys.argv[0] + ": "
 
-command = "gnetlist -g spice-sdb -o dc_current.net dc_current.sch"
+command = "gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o dc_current.net dc_current.sch"
 
 print ME, "creating netlist: ", command
 pop = popen2.Popen4(command)
