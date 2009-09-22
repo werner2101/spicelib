@@ -9,6 +9,7 @@ MODEL_SIGDIR=model_checksums
 MODEL_PATCHDIR=model_patches
 TESTDIR=model_tests
 TEMPDIR=unpack
+SYMBOLDIR=symbol_library
 
 
 
@@ -205,6 +206,15 @@ test_ti_opamps:
 	rm -rf $(TESTDIR)/ti/opamps
 	mkdir -p $(TESTDIR)/ti/opamps
 	scripts/testlibrary.py -t indexfiles/ti_opamps.index
+
+
+### dump all symbols to a directory. This creates a static symbol library
+dump_symbols:
+	rm -rf $(SYMBOLDIR)
+	mkdir -p $(SYMBOLDIR)
+	scripts/gedaparts -d $(SYMBOLDIR) -s ti_opamps.index
+	scripts/gedaparts -d $(SYMBOLDIR) -s nxp_diodes.index
+	scripts/gedaparts -d $(SYMBOLDIR) -s nxp_bipolar.index
 
 
 
