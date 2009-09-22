@@ -216,3 +216,6 @@ install:
 	cp -a doc $(INSTALLDIR)/$(NAME)
 	cp -a testcircuits $(INSTALLDIR)/$(NAME)
 
+#### Clean out all downloaded and generated files
+clean:
+	rm -rf downloads unpack model_library model_checksums
