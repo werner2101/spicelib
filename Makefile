@@ -191,8 +191,8 @@ create_ti_opamps:
 	find $(TEMPDIR)/ti/pspice_models/opa* -type f -name "*txt" -exec cp {} $(MODEL_LIBDIR)/ti/opamps \;
 	find $(TEMPDIR)/ti/pspice_models/opa* -type f -name "*sub" -exec cp {} $(MODEL_LIBDIR)/ti/opamps \;
 	# remove the accidently copied Readme and disclaimer file
-	rm $(MODEL_LIBDIR)/ti/opamps/Readme.txt $(MODEL_LIBDIR)/ti/opamps/disclaimer.txt
-	md5sum $(MODEL_LIBDIR)/ti/opamps/* >$(MODEL_SIGDIR)/ti_opamps_lib.md5sum
+	rm -f $(MODEL_LIBDIR)/ti/opamps/Readme.txt $(MODEL_LIBDIR)/ti/opamps/disclaimer.txt
+	if test ! -z `ls $(MODEL_LIBDIR)/ti/opamps` ; then md5sum $(MODEL_LIBDIR)/ti/opamps/* >$(MODEL_SIGDIR)/ti_opamps_lib.md5sum; fi
 
 test_ti_opamps:
 	rm -rf $(TESTDIR)/ti/opamps
