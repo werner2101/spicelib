@@ -35,20 +35,11 @@ release:
 
 # nxp models downloaded from URL:
 # http://www.nxp.com/models/index.html  --> Spice and S-parameters
-download_nxp:
-	rm -rf downloads/nxp
-	mkdir -p downloads/nxp
-	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/fet.zip
-	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/power.zip
-	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/wideband.zip
-	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/SBD.zip
-	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/SST.zip
-	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/diodes.zip
-	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/mmics.zip
-	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/varicap.zip
-	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/basestations.zip
-	wget -P downloads/nxp http://www.nxp.com/models/spicespar/zip/complex_discretes.zip
-
+NXP_FILES=fet.zip power.zip wideband.zip SBD.zip SST.zip diodes.zip mmics.zip varicap.zip basestations.zip complex_discretes.zip
+NXP_DOWNLOADS=$(foreach file,$(NXP_FILES), downloads/nxp/$(file))
+download_nxp: $(NXP_DOWNLOADS)
+$(NXP_DOWNLOADS):
+	wget -P `dirname $@` http://www.nxp.com/models/spicespar/zip/`basename $@`
 
 unpack_nxp: unpack_nxp_bipolar unpack_nxp_diodes
 
@@ -172,11 +163,13 @@ test_nxp_diodes:
 
 create_ti: create_ti_opamps
 
-download_ti:
-	rm -rf downloads/ti
-	mkdir -p downloads/ti
-	wget -P downloads/ti http://focus.ti.com/packaged_lits/pspice_files/ti_pspice_models.zip
-	wget -P downloads/ti http://focus.ti.com/packaged_lits/pspice_files/ti_pspice_models_index.txt
+download_ti: downloads/ti/ti_pspice_models.zip downloads/ti/ti_pspice_models_index.txt
+
+downloads/ti/ti_pspice_models.zip:
+	wget -P `dirname $@` http://focus.ti.com/packaged_lits/pspice_files/ti_pspice_models.zip
+
+downloads/ti/ti_pspice_models_index.txt:
+	wget -P `dirname $@` http://focus.ti.com/packaged_lits/pspice_files/ti_pspice_models_index.txt
 
 unpack_ti:
 	rm -rf $(TEMPDIR)/ti
