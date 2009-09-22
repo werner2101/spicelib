@@ -18,9 +18,9 @@ all:	mkdirs download unpack create index
 mkdirs:
 	mkdir -p $(MODEL_SIGDIR)
 
-download: download_nxp download_ti
+download: download_nxp download_ti download_ltc
 
-unpack: unpack_nxp unpack_ti
+unpack: unpack_nxp unpack_ti unpack_ltc
 
 create: create_nxp create_ti
 
@@ -198,6 +198,19 @@ test_ti_opamps:
 	rm -rf $(TESTDIR)/ti/opamps
 	mkdir -p $(TESTDIR)/ti/opamps
 	scripts/testlibrary.py -t indexfiles/ti_opamps.index
+
+
+## Linear Technology models from http://www.linear.com/designtools/software/spice_models.jsp
+download_ltc: downloads/ltc/LTC.zip
+downloads/ltc/LTC.zip:
+	wget -P `dirname $@` http://ltspice.linear.com/software/LTC.zip
+
+unpack_ltc:
+	rm -rf $(TEMPDIR)/ltc
+	mkdir -p $(TEMPDIR)/ltc
+	md5sum downloads/ltc/LTC.zip > $(MODEL_SIGDIR)/ltc_all.md5sum
+	unzip -d $(TEMPDIR)/ltc downloads/ltc/LTC.zip
+	scripts/ltcsplit.py -d $(TEMPDIR)/ltc $(TEMPDIR)/ltc/LTC.lib
 
 
 
