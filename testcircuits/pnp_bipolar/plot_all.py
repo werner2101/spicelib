@@ -1,7 +1,8 @@
 #!/usr/bin/python
 # -*- coding: iso-8859-1 -*-
 
-import pylab
+import Gnuplot
+import pylab  #TODO: replace pylab.load function
 import os
 
 
@@ -15,23 +16,27 @@ def plot_dc_current_gain():
     mm.append(("75 C",pylab.load("dc_current_gain_t75.data")))
     mm.append(("100 C",pylab.load("dc_current_gain_t100.data")))
 
+    g = Gnuplot.Gnuplot()
+    g('set data style lines')
+    g('set logscale x')
+    g('set terminal png')
+    g('set output "dc_current_gain.png"')
+    g.xlabel("Ic [mA]")
+    g.ylabel("hfe")
+    g('set grid')
+    datasets = []
     for t,m in mm:
-        pylab.semilogx(-m[:,1]*1000,m[:,1]/m[:,2],label=t)
-    pylab.xlabel("Ic [mA]")
-    pylab.ylabel("hfe")
-    pylab.grid()
-    pylab.legend(loc="best")
-    pylab.savefig("dc_current_gain.png",dpi=80)
-    pylab.close()
+        datasets.append(Gnuplot.Data(-m[:,1]*1000, m[:,1]/m[:,2], title = t))
+    g.plot(*datasets)
 
+
+    g('set output "base_emitter_voltage.png"')
+    g.ylabel("V BE [mV]")
+    g('set key left top')
+    datasets = []
     for t,m in mm:
-        pylab.semilogx(-m[:,1]*1000,-m[:,3]*1000,label=t)
-    pylab.xlabel("Ic [mA]")
-    pylab.ylabel("V BE [mV]")
-    pylab.grid()
-    pylab.legend(loc='best')
-    pylab.savefig("base_emitter_voltage.png",dpi=80)
-    pylab.close()
+        datasets.append(Gnuplot.Data(-m[:,1]*1000, -m[:,3]*1000, title = t))
+    g.plot(*datasets)
 
 def plot_saturation_voltages():
     mm=[]
@@ -42,25 +47,29 @@ def plot_saturation_voltages():
     mm.append(("75 C",pylab.load("saturation_voltages_t75.data")))
     mm.append(("100 C",pylab.load("saturation_voltages_t100.data")))
 
+    g = Gnuplot.Gnuplot()
+    g('set data style lines')
+    g('set logscale xy')
+    g('set terminal png')
+    g('set output "vce_saturation_voltage.png"')
+    g.xlabel("Ic [mA]")
+    g.ylabel("VCE sat [mV]")
+    g('set grid')
+    g('set key left top')
+    datasets = []
     for t,m in mm:
         ## only plot the values where Vce sat is smaller 1.00
         firstind = pylab.find(m[:,3] > -1.0)[0]
-        pylab.loglog(-m[firstind:,1]*1000,-m[firstind:,3]*1000,label=t)
-    pylab.xlabel("Ic [mA]")
-    pylab.ylabel("VCE sat [mV]")
-    pylab.grid()
-    pylab.legend(loc='best')
-    pylab.savefig("vce_saturation_voltage.png",dpi=80)
-    pylab.close()
+        datasets.append(Gnuplot.Data(-m[firstind:,1]*1000, -m[firstind:,3]*1000, title = t))
+    g.plot(*datasets)
 
+    g('set logscale x')
+    g('set output "vbe_saturation_voltage.png"')
+    g.ylabel("V BE sat [mV]")
+    datasets = []
     for t,m in mm:
-        pylab.semilogx(-m[:,1]*1000,-m[:,2]*1000,label=t)
-    pylab.xlabel("Ic [mA]")
-    pylab.ylabel("V BE [mV]")
-    pylab.grid()
-    pylab.legend(loc='best')
-    pylab.savefig("vbe_saturation_voltage.png",dpi=80)
-    pylab.close()
+        datasets.append(Gnuplot.Data(-m[:,1]*1000, -m[:,2]*1000, title = t))
+    g.plot(*datasets)
 
 
 #################### MAIN

@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: iso-8859-1 -*-
 
-import pylab
+import Gnuplot
 import os
 import sys
 import numpy
@@ -15,14 +15,17 @@ def plot_dc_amplifier():
     vin = plots[0].get_datavectors()[0].get_data()
     vout = plots[0].get_datavectors()[1].get_data()
     
-    pylab.plot(x, vin, label="v(in)")
-    pylab.plot(x, vout, label="v(out)")
-    pylab.xlabel("Uin [V]")
-    pylab.ylabel("U [V]")
-    pylab.grid()
-    pylab.legend(loc="best")
-    pylab.savefig("dc_amplifier.png",dpi=80)
-    pylab.close()
+    g = Gnuplot.Gnuplot()
+    g('set data style lines')
+    g('set terminal png')
+    g('set output "dc_amplifier.png"')
+    g.xlabel("Uin [V]")
+    g.ylabel("U [V]")
+    g('set grid')
+    g('set key left top')
+    d1 = Gnuplot.Data(x, vin, title="v(in)")
+    d2 = Gnuplot.Data(x, vin, title="v(in)")
+    g.plot(d1, d2)
 
 #    for t,m in mm:
 #        pylab.plot(m[:,0], -m[:,2]*1000,label=t)
