@@ -1,7 +1,8 @@
 #!/usr/bin/python
 # -*- coding: iso-8859-1 -*-
 
-import pylab
+import Gnuplot
+import pylab  #TODO: replace pylab.load function
 import popen2
 import sys
 import numpy
@@ -17,29 +18,31 @@ def plot_dc_current():
     mm.append(("75 C",pylab.load("dc_current_t75.data")))
     mm.append(("100 C",pylab.load("dc_current_t100.data")))
 
+    g = Gnuplot.Gnuplot()
+    g('set data style lines')
+    g('set terminal png')
+    g('set output "dc_IB.png"')
+    g.xlabel("Uin [V]")
+    g.ylabel("Iin [mA]")
+    g('set grid')
+    g('set key left top')
+    datasets = []
     for t,m in mm:
         if numpy.any(-m[:,1] < -0.001) or numpy.any(-m[:,1]>1.0):
             print "Input current out of expected range [-0.001, 1.0]"
             ret = 1
-        pylab.plot(m[:,0], -m[:,1]*1000,label=t)
-    pylab.xlabel("Uin [V]")
-    pylab.ylabel("Iin [mA]")
-    pylab.grid()
-    pylab.legend(loc="best")
-    pylab.savefig("dc_IB.png",dpi=80)
-    pylab.close()
+        datasets.append(Gnuplot.Data(m[:,0], -m[:,1]*1000, title = t))
+    g.plot(*datasets)
 
+    g('set output "dc_IC.png"')
+    g.ylabel("IC [mA]")
+    datasets = []
     for t,m in mm:
         if numpy.any(-m[:,2] < -0.001) or numpy.any(-m[:,2]>100.0):
             print "Collector current out of expected range [-0.001, 100.0]"
             ret = 1
-        pylab.plot(m[:,0], -m[:,2]*1000,label=t)
-    pylab.xlabel("Uin [V]")
-    pylab.ylabel("IC [mA]")
-    pylab.grid()
-    pylab.legend(loc='best')
-    pylab.savefig("dc_IC.png",dpi=80)
-    pylab.close()
+        datasets.append(Gnuplot.Data(m[:,0], -m[:,2]*1000, title = t))
+    g.plot(*datasets)
 
     return ret
 
