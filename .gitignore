@@ -3,6 +3,7 @@ model_checksums
 model_tests
 downloads
 unpack
+symbol_library
 *~
 *.pyc
 *.log
