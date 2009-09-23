@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: iso-8859-1 -*-
 
-import pylab
+import Gnuplot
 import popen2
 import sys
 import numpy
@@ -14,20 +14,28 @@ def plot_voltages():
     ret = 0
 
     plots = spice_read.spice_read("forward_voltage.data").get_plots()
+    g = Gnuplot.Gnuplot()
+    g('set data style lines')
+    g('set logscale y')
+    g('set terminal png')
+    g('set output "dc_forward_voltage.png"')
+    g.ylabel("If [mA]")
+    g.xlabel("Uf [V]")
+    g('set key left top')
+    g('set grid')
+    datasets = []
     for n,pl in enumerate(plots):
         If = -pl.get_scalevector().get_data()
         Uf = pl.get_datavectors()[0].get_data()
         if numpy.any(Uf<0.5) or numpy.any(Uf>200.0):
             print "forward voltage out of expected range [0.5, 200.0]"
             ret = 1
-        pylab.semilogy(Uf, If*1000.0,label=labels[n])
-    pylab.ylabel("If [mA]")
-    pylab.xlabel("Uf [V]")
-    pylab.grid()
-    pylab.legend(loc="best")
-    pylab.savefig("dc_forward_voltage.png",dpi=80)
-    pylab.close()
+        datasets.append(Gnuplot.Data(Uf, If * 1000., title = labels[n]))
+    g.plot(*datasets)
 
+    g('set output "dc_reverse_voltage.png"')
+    g.xlabel("Ur [V]")
+    datasets = []
     plots = spice_read.spice_read("reverse_voltage.data").get_plots()
     for n,pl in enumerate(plots):
         Ir = pl.get_scalevector().get_data()
@@ -36,13 +44,8 @@ def plot_voltages():
         if numpy.any(Ur<0.5) or numpy.any(Ur>200.0):
             print "reverse voltage out of expected range [0.5, 200.0]"
             ret = 2
-        pylab.semilogy(Ur, Ir*1000.0, label=labels[n])
-    pylab.ylabel("Ir [mA]")
-    pylab.xlabel("Ur [V]")
-    pylab.grid()
-    pylab.legend(loc="best")
-    pylab.savefig("dc_reverse_voltage.png",dpi=80)
-    pylab.close()
+        datasets.append(Gnuplot.Data(Ur, If * 1000., title = labels[n]))
+    g.plot(*datasets)
 
     return ret
 

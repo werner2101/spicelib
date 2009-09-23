@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: iso-8859-1 -*-
 
-import pylab
+import Gnuplot
 import popen2
 import sys
 import numpy
@@ -14,6 +14,16 @@ def plot_forward_voltage():
     ret = 0
 
     plots = spice_read.spice_read("forward_voltage.data").get_plots()
+    g = Gnuplot.Gnuplot()
+    g('set data style lines')
+    g('set logscale y')
+    g('set terminal png')
+    g('set output "dc_forward_voltage.png"')
+    g.ylabel("If [mA]")
+    g.xlabel("Uf [V]")
+    g('set key left top')
+    g('set grid')
+    datasets = []
     for n,pl in enumerate(plots):
         If = -pl.get_scalevector().get_data()
         Uf = pl.get_datavectors()[0].get_data()
@@ -22,14 +32,12 @@ def plot_forward_voltage():
         if numpy.any(Uf[ind] < 0.0) or numpy.any(Uf[ind]>2.0):
             print "forward voltage out of expected range [0.0, 2.0]"
             ret = 1
-        pylab.semilogy(Uf,If*1000.0,label = labels[n])
-    pylab.ylabel("If [mA]")
-    pylab.xlabel("Uf [V]")
-    pylab.grid()
-    pylab.legend(loc="best")
-    pylab.savefig("dc_forward_voltage.png",dpi=80)
-    pylab.close()
+        datasets.append(Gnuplot.Data(Uf, If * 1000., title = labels[n]))
+    g.plot(*datasets)
 
+    g('set output "dc_reverse_voltage.png"')
+    g.xlabel("Ur [V]")
+    datasets = []
     plots = spice_read.spice_read("reverse_voltage.data").get_plots()
     for n,pl in enumerate(plots):
         x = pl.get_scalevector().get_data()
@@ -38,13 +46,8 @@ def plot_forward_voltage():
         if numpy.any(-y<0.0) or numpy.any(-y>200.0):
             print "reverse voltage out of expected range [0.5, 200.0]"
             ret = 2
-        pylab.semilogy(-y,x*1000.0,label = labels[n])
-    pylab.ylabel("Ir [mA]")
-    pylab.xlabel("Ur [V]")
-    pylab.grid()
-    pylab.legend(loc="best")
-    pylab.savefig("dc_reverse_voltage.png",dpi=80)
-    pylab.close()
+        datasets.append(Gnuplot.Data(-y, x*1000.0, title = labels[n]))
+    g.plot(*datasets)
 
     return ret
 
@@ -52,7 +55,7 @@ def plot_forward_voltage():
 
 ME = sys.argv[0] + ": "
 
-command = "gnetlist -g spice-sdb -o dc_current.net dc_current.sch"
+command = "gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o dc_current.net dc_current.sch"
 
 print ME, "creating netlist: ", command
 pop = popen2.Popen4(command)
