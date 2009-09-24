@@ -44,7 +44,7 @@ command = "gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o dc_amp
 print ME, "\n creating nestlist: ",  command
 os.system(command)
 
-command = "ngspice -b simulate.ngspice"
+command = "ngspice -b ../../../../testcircuits/opamp/simulate.ngspice"
 print ME, "\n\n running simulation: ", command
 os.system(command)
 

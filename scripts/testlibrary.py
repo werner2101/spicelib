@@ -118,7 +118,7 @@ def test_model(param):
         ## copy all test files and the controller to dest
         if not os.path.isdir(testdir):
             os.makedirs(testdir)
-        for f in (test["files"] + [test["controller"]]):
+        for f in [test["controller"]]:
             shutil.copy(test["dir"] + f, testdir)
         ## apply the params to all schematic files
         for f in test["schematics"]:

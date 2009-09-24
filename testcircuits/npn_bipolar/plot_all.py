@@ -127,7 +127,7 @@ def plot_saturation_voltages():
 
 os.system("gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o dc_current_gain.net dc_current_gain.sch")
 os.system("gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o saturation_voltages.net saturation_voltages.sch")
-os.system("gnucap -b simulate.gnucap")
+os.system("gnucap -b ../../../../testcircuits/npn_bipolar/simulate.gnucap")
 plot_dc_current_gain()
 plot_saturation_voltages()
 

@@ -51,7 +51,7 @@ if ret_gnetlist != 0:
 else:
     print ME, "netlist creation was successful"
 
-command = "ngspice -b simulate.ngspice"
+command = "ngspice -b ../../../../testcircuits/diode/simulate.ngspice"
 print ME, "running simulation: ", command
 pop = popen2.Popen4(command)
 print pop.fromchild.read()

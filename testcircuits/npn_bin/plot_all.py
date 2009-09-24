@@ -113,7 +113,7 @@ if ret_gnetlist != 0:
 else:
     print ME, "netlist creation was successful"
 
-command = "gnucap -b simulate.gnucap"
+command = "gnucap -b ../../../../testcircuits/npn_bin/simulate.gnucap"
 print ME, "running simulation: ", command
 pop = popen2.Popen4(command)
 print pop.fromchild.read()

@@ -91,7 +91,7 @@ def plot_dc_current():
 
 os.system("gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o dc_current.net dc_current.sch")
 
-os.system("gnucap -b simulate.gnucap")
+os.system("gnucap -b ../../../../testcircuits/npn_rbase/simulate.gnucap")
 plot_dc_current()
 
 
