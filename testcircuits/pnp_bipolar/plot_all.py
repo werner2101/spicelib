@@ -13,6 +13,7 @@ from plotutils import load, plotter
 def plot_dc_current_gain():
     pp = plotter()
     mm=[]
+
     mm.append(("0 C", load("dc_current_gain_t0.data")))
     mm.append(("25 C",load("dc_current_gain_t25.data")))
     mm.append(("50 C",load("dc_current_gain_t50.data")))
@@ -40,6 +41,7 @@ def plot_dc_current_gain():
 def plot_saturation_voltages():
     pp = plotter()
     mm=[]
+
     mm.append(("0 C", load("saturation_voltages_t0.data")))
     mm.append(("25 C",load("saturation_voltages_t25.data")))
     mm.append(("50 C",load("saturation_voltages_t50.data")))
@@ -60,7 +62,7 @@ def plot_saturation_voltages():
     for t,m in mm:
         pp.semilogx(-m[:,1]*1000,-m[:,2]*1000,label=t)
     pp.xlabel("Ic [mA]")
-    pp.ylabel("V BE [mV]")
+    pp.ylabel("V BE sat [mV]")
     pp.grid()
     pp.legend(loc='best')
     pp.savefig("vbe_saturation_voltage.png",dpi=80)
