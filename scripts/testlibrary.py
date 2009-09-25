@@ -105,6 +105,13 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "testcircuits/npn_bipolar/",
             }
 
 
+#################### FUNCTIONS
+def make_doc_hyperlink(repl, docname=None):
+    if docname == None:
+      docname = repl['documentation']
+    if re.match('http://', repl.get('documentation', '')):
+        repl["documentation"] = '<a href="'+ repl["documentation"] +'">' + docname + '</a>'
+
 #################### CLASSES
 
 class modelpart:
@@ -153,6 +160,7 @@ class modelpart:
 
             ## create the html file with the test results
             repl['test_result'] = self.test_message
+            make_doc_hyperlink(repl)
             html = string.Template(open(test["dir"] + test["htmltemplate"], "rt").read())
             open(os.path.join(self.testdir, "index.html"),"wt").write(html.safe_substitute(repl))
 
@@ -185,8 +193,7 @@ class modelpart:
         else:
             repl["partname"] = self.name
 
-        if re.match('http://', repl.get('documentation', '')):
-            repl["documentation"] = '<a href="'+ repl["documentation"] +'">(d) </a>'
+        make_doc_hyperlink(repl, docname='(d) ')
 
         repl["model_url"] = '<a href="../../../' + self.modeldir +'/'+repl["file"]+'">'+repl["file"]+'</a>'
         repl["model_status_color"] = color(repl["model_status"])
