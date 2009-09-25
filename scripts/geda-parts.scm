@@ -3,17 +3,20 @@
 ; Syntax:
 ; (component-library-command "[listcommand]" "[getcommand]" "[name]")
 ;
+
+(define gedaparts "/home/somers/spicelib/trunk/scripts/gedaparts")
+
 (component-library-command 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts -l nxp_bipolar.index" 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts -p nxp_bipolar.index" 
+ (string-append gedaparts " -l nxp_bipolar.index")
+ (string-append gedaparts " -p nxp_bipolar.index" )
  "NXP bipolar transistors")
 (component-library-command 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts -l nxp_diodes.index" 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts -p nxp_diodes.index" 
+ (string-append gedaparts " -l nxp_diodes.index" )
+ (string-append gedaparts " -p nxp_diodes.index" )
  "NXP diodes")
 (component-library-command 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts -l ti_opamps.index" 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts -p ti_opamps.index" 
+ (string-append gedaparts " -l ti_opamps.index" )
+ (string-append gedaparts " -p ti_opamps.index" )
  "TI opamps")
 
 ;(component-library-command 
