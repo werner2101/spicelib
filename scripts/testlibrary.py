@@ -37,7 +37,7 @@ COLORS = {"broken": "#FF3F3F",
           "missing1": "#FFFF7F",
           "missing2": "#FFFF7F",
           "failed": "#FF3F3F",
-          "succeded": "#7FFF7F",
+          "succeeded": "#7FFF7F",
           "NIY": "#CFCFCF",
           "undefined": "#CFCFCF",
           "default": "#FFFFFF"}
@@ -117,18 +117,18 @@ class modelpart(object):
     section = os.path.splitext(d['symbol'])[0]
     class_ = {'diode': modelDiode,
       'zener_diode': modelZenerDiode,
-      'zener_bidirectional': modelZenerBidirectional}.get(section, modelDiode)
+      'zener_bidirectional': modelZenerBidirectional,
+      'npn': modelNPNBipolar,
+      'pnp': modelPNPBipolar}.get(section, modelpartBase)
     return class_(name, testdir, modeldir, properties)
 
 class modelpartBase(object):
+    section = 'undefined'
     def __init__(self, name, testdir, modeldir, properties):
         self.name = name
         self.testdir = testdir
         self.modeldir = modeldir
         self.properties = dict(properties)
-        self.section = os.path.splitext(self.properties['symbol'])[0]
-        if not self.section:
-          self.section = 'undefined'
 
         self.golden_checksum = None
         self.current_checksum = None
@@ -160,7 +160,7 @@ class modelpartBase(object):
             os.chdir(save_cwd)
 
             if result == 0:
-                self.test_status = 'succeded'
+                self.test_status = 'succeeded'
             else:
                 self.test_status = 'failed'
 
@@ -210,6 +210,10 @@ class modelpartBase(object):
 
         row_template = string.Template(ROW_TEMPLATE)
         return row_template.safe_substitute(repl)
+
+    def plot_all(self):
+      return "", 0  #stub function: must be overridden by child classes
+
 
 class modelDiode(modelpartBase):
   section = 'diode'
@@ -346,6 +350,101 @@ class modelZenerBidirectional(modelZenerDiode):
       return False
     else:
       return True
+
+
+class modelTransistor(modelpartBase):
+  pass
+
+class modelBipolar(modelTransistor):
+  def plot_dc_current_gain(self):
+    pp = plotter()
+    mm=[]
+    mm.append(("0 C", load("dc_current_gain_t0.data")))
+    mm.append(("25 C",load("dc_current_gain_t25.data")))
+    mm.append(("50 C",load("dc_current_gain_t50.data")))
+    mm.append(("75 C",load("dc_current_gain_t75.data")))
+    mm.append(("100 C",load("dc_current_gain_t100.data")))
+
+    for t,m in mm:
+        pp.semilogx(-m[:,1]*1000,m[:,1]/m[:,2],label=t)
+    pp.xlabel("Ic [mA]")
+    pp.ylabel("hfe")
+    pp.grid()
+    pp.legend(loc="best")
+    pp.savefig("dc_current_gain.png",dpi=80)
+    pp.close()
+
+    for t,m in mm:
+        pp.semilogx(-m[:,1]*1000, self.icc_sign * m[:,3]*1000,label=t)
+    pp.xlabel("Ic [mA]")
+    pp.ylabel("V BE [mV]")
+    pp.grid()
+    pp.legend(loc='best')
+    pp.savefig("base_emitter_voltage.png",dpi=80)
+    pp.close()
+    return 0
+
+  def plot_saturation_voltages(self):
+    pp = plotter()
+    mm=[]
+    mm.append(("0 C", load("saturation_voltages_t0.data")))
+    mm.append(("25 C",load("saturation_voltages_t25.data")))
+    mm.append(("50 C",load("saturation_voltages_t50.data")))
+    mm.append(("75 C",load("saturation_voltages_t75.data")))
+    mm.append(("100 C",load("saturation_voltages_t100.data")))
+
+    for t,m in mm:
+        ## only plot the values where Vce sat is smaller 1.00
+        firstind = numpy.where(self.icc_sign * m[:,3] < 1.0)[0][0]
+        pp.loglog(-m[firstind:,1]*1000, self.icc_sign * m[firstind:,3]*1000,label=t)
+    pp.xlabel("Ic [mA]")
+    pp.ylabel("VCE sat [mV]")
+    pp.grid()
+    pp.legend(loc='best')
+    pp.savefig("vce_saturation_voltage.png",dpi=80)
+    pp.close()
+
+    for t,m in mm:
+        pp.semilogx(-m[:,1]*1000, self.icc_sign * m[:,2]*1000,label=t)
+    pp.xlabel("Ic [mA]")
+    pp.ylabel("V BE sat [mV]")
+    pp.grid()
+    pp.legend(loc='best')
+    pp.savefig("vbe_saturation_voltage.png",dpi=80)
+    pp.close()
+    return 0
+
+  def plot_all(self):
+    ME = __name__ + ": "
+    longmsg = StringIO.StringIO()
+    result = 0
+    os.system("gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o dc_current_gain.net dc_current_gain.sch")
+    os.system("gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o saturation_voltages.net saturation_voltages.sch")
+    os.system("gnucap -b ../../../../testcircuits/" + self.section + "/simulate.gnucap")
+    try:
+      self.plot_dc_current_gain()
+    except Exception, data:
+      print >>longmsg, ME, "plotting function died:"
+      print >>longmsg, data
+      result = 1
+    try:
+      self.plot_saturation_voltages()
+    except Exception, data:
+      print >>longmsg, ME, "plotting function died:"
+      print >>longmsg, data
+      result = 2
+    #TODO: return output of above procedure calls
+    #TODO: check for errors in simulation data
+    return longmsg.getvalue(), result
+
+
+class modelNPNBipolar(modelBipolar):
+  section = 'npn_bipolar'
+  icc_sign = 1. #Sign of the collector current
+
+class modelPNPBipolar(modelBipolar):
+  section = 'pnp_bipolar'
+  icc_sign = -1. #Sign of the collector current
 
 
 
