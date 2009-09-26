@@ -7,5 +7,3 @@
  * code cleanup of the testlibrary.py
  * more automated model tests
  * finaly a GUI for testlibrary
- * Replace all os.system calls in testcircuits/*/plot_all.py with popen calls
-   to prevent race conditions
