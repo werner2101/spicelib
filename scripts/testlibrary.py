@@ -119,7 +119,14 @@ class modelpart(object):
       'zener_diode': modelZenerDiode,
       'zener_bidirectional': modelZenerBidirectional,
       'npn': modelNPNBipolar,
-      'pnp': modelPNPBipolar}.get(section, modelpartBase)
+      'pnp': modelPNPBipolar,
+      'pnp_rbase': modelPNPRbase,
+      'npn_rbase': modelNPNRbase,
+      'pnp_bin': modelPNPBin,
+      'npn_bin': modelNPNBin,
+      'npn_darlington': modelNPNDarlington,
+      'pnp_darlington': modelPNPDarlington,
+      'opamp': modelOpamp}.get(section, modelpartBase)
     return class_(name, testdir, modeldir, properties)
 
 class modelpartBase(object):
@@ -215,8 +222,55 @@ class modelpartBase(object):
       return "", 0  #stub function: must be overridden by child classes
 
 
-class modelDiode(modelpartBase):
+class modelPopen(object):
+  """Temporary base class for models that use popen2 for plotting"""
+  def plot_all(self):
+    ME = __name__ + ": "
+    result = 0
+
+    command = "gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o dc_current.net dc_current.sch"
+    longmsg = StringIO.StringIO()
+
+    print >>longmsg, ME, "creating netlist: ", command
+    pop = popen2.Popen4(command)
+    print >>longmsg, pop.fromchild.read()
+    ret_gnetlist = pop.wait()
+    if ret_gnetlist != 0:
+        print >>longmsg, ME, "netlist creation failed with errorcode:", ret_gnetlist
+    else:
+        print >>longmsg, ME, "netlist creation was successful"
+
+    command = self.simulator + " -b ../../../../testcircuits/" + self.section + "/simulate." + self.simulator
+    print >>longmsg, ME, "running simulation: ", command
+    pop = popen2.Popen4(command)
+    print >>longmsg, pop.fromchild.read()
+    ret_simulation = pop.wait()
+    if ret_simulation != 0:
+        print >>longmsg, ME, "simulation failed with errorcode:", ret_simulation
+    else:
+        print >>longmsg, ME, "simulation run was successful"
+
+    print >>longmsg, ME, "testing and plotting"
+    for meth in self.plot_methods:
+      try:
+        ret_plot = getattr(self, meth)()
+      except Exception, data:
+        print >>longmsg, ME, "plotting function died:"
+        print >>longmsg, data
+        result = 1
+      else:
+        if ret_plot != 0:
+          print >>longmsg, ME, "testing or plotting failed"
+          result = 2
+    if result == 0:
+      print >>longmsg, ME, "finished testing and plotting successfully"
+    return longmsg.getvalue(), result
+
+
+class modelDiode(modelPopen, modelpartBase):
   section = 'diode'
+  plot_methods = ['plot_forward_voltage', 'plot_reverse_voltage']
+  simulator = 'ngspice'
   def forward_voltage_ok(self, If, Uf):
     if numpy.any(Uf<0.0) or numpy.any(Uf>3.0):
       print "forward voltage out of expected range [0.0, 3.0]"
@@ -247,55 +301,6 @@ class modelDiode(modelpartBase):
   def plot_reverse_voltage(self):
     #Basic diode has no reverse voltage plot
     return 0
-
-  def plot_all(self):
-    ME = __name__ + ": "
-
-    command = "gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o dc_current.net dc_current.sch"
-    longmsg = StringIO.StringIO()
-
-    print >>longmsg, ME, "creating netlist: ", command
-    pop = popen2.Popen4(command)
-    print >>longmsg, pop.fromchild.read()
-    ret_gnetlist = pop.wait()
-    if ret_gnetlist != 0:
-        print >>longmsg, ME, "netlist creation failed with errorcode:", ret_gnetlist
-    else:
-        print >>longmsg, ME, "netlist creation was successful"
-
-    command = "ngspice -b ../../../../testcircuits/" + self.section + "/simulate.ngspice"
-    print >>longmsg, ME, "running simulation: ", command
-    pop = popen2.Popen4(command)
-    print >>longmsg, pop.fromchild.read()
-    ret_simulation = pop.wait()
-    if ret_simulation != 0:
-        print >>longmsg, ME, "simulation failed with errorcode:", ret_simulation
-    else:
-        print >>longmsg, ME, "simulation run was successful"
-
-    print >>longmsg, ME, "testing and plotting"
-    try:
-        ret_plot = self.plot_forward_voltage()
-    except Exception, data:
-        print >>longmsg, ME, "plotting function died:"
-        print >>longmsg, data
-        result = 1
-    try:
-        ret_plot = self.plot_reverse_voltage()
-    except Exception, data:
-        print >>longmsg, ME, "plotting function died:"
-        print >>longmsg, data
-        result = 1
-
-    else:
-      if ret_plot == 0:
-          print >>longmsg, ME, "finished testing and plotting successfully"
-          result = 0
-      else:
-          print >>longmsg, ME, "testing or plotting failed"
-          result = 2
-      
-    return longmsg.getvalue(), result
 
 
 class modelZenerDiode(modelDiode):
@@ -394,8 +399,8 @@ class modelBipolar(modelTransistor):
     mm.append(("100 C",load("saturation_voltages_t100.data")))
 
     for t,m in mm:
-        ## only plot the values where Vce sat is smaller 1.00
-        firstind = numpy.where(self.icc_sign * m[:,3] < 1.0)[0][0]
+        ## only plot the values where Vce sat is smaller than a limit
+        firstind = numpy.where(self.icc_sign * m[:,3] < self.VCEsat_plot_limit)[0][0]
         pp.loglog(-m[firstind:,1]*1000, self.icc_sign * m[firstind:,3]*1000,label=t)
     pp.xlabel("Ic [mA]")
     pp.ylabel("VCE sat [mV]")
@@ -433,18 +438,155 @@ class modelBipolar(modelTransistor):
       print >>longmsg, ME, "plotting function died:"
       print >>longmsg, data
       result = 2
-    #TODO: return output of above procedure calls
     #TODO: check for errors in simulation data
     return longmsg.getvalue(), result
 
 
 class modelNPNBipolar(modelBipolar):
+  VCEsat_plot_limit = 1.0  #amps
   section = 'npn_bipolar'
   icc_sign = 1. #Sign of the collector current
 
+class modelNPNDarlington(modelBipolar):
+  VCEsat_plot_limit = 2.0  #amps
+  section = 'npn_darlington'
+  icc_sign = 1. #Sign of the collector current
+
 class modelPNPBipolar(modelBipolar):
+  VCEsat_plot_limit = 1.0  #amps
   section = 'pnp_bipolar'
   icc_sign = -1. #Sign of the collector current
+
+class modelPNPDarlington(modelBipolar):
+  VCEsat_plot_limit = 2.0  #amps
+  section = 'pnp_darlington'
+  icc_sign = -1. #Sign of the collector current
+
+class modelResistorEquippedTransistor(modelBipolar):
+  """Base class transistors with base and/or collector resistors"""
+  def base_current_ok(self, Uin, Iin):
+    return True #stub function, must be overridden by child classes
+  def collector_current_ok(self, Uin, Ic):
+    return True #stub function, must be overridden by child classes
+  def plot_dc_current(self):
+    ret = 0
+    pp = plotter()
+    mm=[]
+
+    mm.append(("0 C", load("dc_current_t0.data")))
+    mm.append(("25 C",load("dc_current_t25.data")))
+    mm.append(("50 C",load("dc_current_t50.data")))
+    mm.append(("75 C",load("dc_current_t75.data")))
+    mm.append(("100 C",load("dc_current_t100.data")))
+
+    for t,m in mm:
+      Uin = m[:,0]
+      Iin = -m[:,1]
+      if not self.base_current_ok(Uin, Iin):
+        ret = 1
+      pp.plot(Uin, Iin * 1000,label=t)
+    pp.xlabel("Uin [V]")
+    pp.ylabel("IB [mA]")
+    pp.grid()
+    pp.legend(loc="best")
+    pp.savefig("dc_IB.png",dpi=80)
+    pp.close()
+
+    for t,m in mm:
+      Uin = m[:,0]
+      Ic = -m[:,2]
+      if not self.collector_current_ok(Uin, Ic):
+        ret = 1
+      pp.plot(Uin, Ic * 1000,label=t)
+    pp.xlabel("Uin [V]")
+    pp.ylabel("IC [mA]")
+    pp.grid()
+    pp.legend(loc='best')
+    pp.savefig("dc_IC.png",dpi=80)
+    pp.close()
+    return ret
+
+  def plot_all(self):
+    ME = __name__ + ": "
+    longmsg = StringIO.StringIO()
+    result = 0
+    os.system("gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o dc_current.net dc_current.sch")
+
+    os.system("gnucap -b ../../../../testcircuits/" + self.section + "/simulate.gnucap")
+    try:
+      self.plot_dc_current()
+    except Exception, data:
+      print >>longmsg, ME, "plotting function died:"
+      print >>longmsg, data
+      result = 1
+    #TODO: check for errors in simulation data
+    return longmsg.getvalue(), result
+
+
+class modelPNPRbase(modelResistorEquippedTransistor):
+  section = 'pnp_rbase'
+
+class modelNPNRbase(modelResistorEquippedTransistor):
+  section = 'npn_rbase'
+
+
+class modelBipolarBin(modelPopen, modelResistorEquippedTransistor):
+  plot_methods = ['plot_dc_current']
+  simulator = 'gnucap'
+  def base_current_ok(self, Uin, Iin):
+    if numpy.any(Iin < -.001) or numpy.any(Iin > 1.0):
+      print "input current out of expected range [-0.001, 1.0]"
+      return False
+    else:
+      return True
+  def collector_current_ok(self, Uin, Ic):
+    if numpy.any(Ic < -.001) or numpy.any(Ic > 100.0):
+      print "collector current out of expected range [-0.001, 100.0]"
+      return False
+    else:
+      return True
+
+class modelPNPBin(modelBipolarBin):
+  section = 'pnp_bin'
+
+class modelNPNBin(modelBipolarBin):
+  section = 'npn_bin'
+
+class modelOpamp(modelpartBase):
+  section = 'opamp'
+  def plot_dc_amplifier(self):
+    pp = plotter()
+    
+    plots = spice_read.spice_read("dc_amplifier.data").get_plots()
+    x = plots[0].get_scalevector().get_data()
+    vin = plots[0].get_datavectors()[0].get_data()
+    vout = plots[0].get_datavectors()[1].get_data()
+    
+    pp.plot(x, vin, label="v(in)")
+    pp.plot(x, vout, label="v(out)")
+    pp.xlabel("Uin [V]")
+    pp.ylabel("U [V]")
+    pp.grid()
+    pp.legend(loc="best")
+    pp.savefig("dc_amplifier.png",dpi=80)
+    pp.close()
+    return 0
+  def plot_all(self):
+    ME = __name__ + ": "
+    longmsg = StringIO.StringIO()
+    result = 0
+    os.system("gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o dc_amplifier.net dc_amplifier.sch")
+
+    os.system("ngspice -b ../../../../testcircuits/" + self.section + "/simulate.ngspice")
+    try:
+      self.plot_dc_amplifier()
+    except Exception, data:
+      print >>longmsg, ME, "plotting function died:"
+      print >>longmsg, data
+      result = 1
+    #TODO: check for errors in simulation data
+    return longmsg.getvalue(), result
+
 
 
 
