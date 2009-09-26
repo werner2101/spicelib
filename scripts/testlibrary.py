@@ -3,7 +3,11 @@
 import sys, re, string, os
 import shutil
 import popen2
+import StringIO
 import ConfigParser
+import numpy
+import spice_read
+from plotutils import load, plotter
 
 #################### SETUP VARS
 TEMPLATE_FILE = "testcircuits/index_template.html"
@@ -105,21 +109,26 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "testcircuits/npn_bipolar/",
             }
 
 
-#################### FUNCTIONS
-def make_doc_hyperlink(repl, docname=None):
-    if docname == None:
-      docname = repl['documentation']
-    if re.match('http://', repl.get('documentation', '')):
-        repl["documentation"] = '<a href="'+ repl["documentation"] +'">' + docname + '</a>'
-
 #################### CLASSES
 
-class modelpart:
+class modelpart(object):
+  def __new__(cls, name, testdir, modeldir, properties):
+    d = dict(properties)
+    section = os.path.splitext(d['symbol'])[0]
+    class_ = {'diode': modelDiode,
+      'zener_diode': modelZenerDiode,
+      'zener_bidirectional': modelZenerBidirectional}.get(section, modelDiode)
+    return class_(name, testdir, modeldir, properties)
+
+class modelpartBase(object):
     def __init__(self, name, testdir, modeldir, properties):
         self.name = name
         self.testdir = testdir
         self.modeldir = modeldir
         self.properties = dict(properties)
+        self.section = os.path.splitext(self.properties['symbol'])[0]
+        if not self.section:
+          self.section = 'undefined'
 
         self.golden_checksum = None
         self.current_checksum = None
@@ -134,7 +143,6 @@ class modelpart:
             ## copy all test files and the controller to dest
             if not os.path.isdir(self.testdir):
                 os.makedirs(self.testdir)
-            shutil.copy(os.path.join(test['dir'], test['controller']), self.testdir)
 
             repl = {}
             repl.update(self.properties)
@@ -148,9 +156,7 @@ class modelpart:
             ## run the tests
             save_cwd = os.getcwd()
             os.chdir(self.testdir)
-            pop = popen2.Popen4("./"+test["controller"])
-            self.test_message = pop.fromchild.read()
-            result = pop.wait()
+            self.test_message, result = self.plot_all()
             os.chdir(save_cwd)
 
             if result == 0:
@@ -205,9 +211,145 @@ class modelpart:
         row_template = string.Template(ROW_TEMPLATE)
         return row_template.safe_substitute(repl)
 
+class modelDiode(modelpartBase):
+  section = 'diode'
+  def forward_voltage_ok(self, If, Uf):
+    if numpy.any(Uf<0.0) or numpy.any(Uf>3.0):
+      print "forward voltage out of expected range [0.0, 3.0]"
+      return False
+    else:
+      return True
+
+  def plot_forward_voltage(self):
+    pp = plotter()
+    labels = ["0C", "25C", "50C", "75C", "100C"]
+    ret = 0
+    plots = spice_read.spice_read("forward_voltage.data").get_plots()
+    for n,pl in enumerate(plots):
+      If = -pl.get_scalevector().get_data()
+      Uf = pl.get_datavectors()[0].get_data()
+      if not self.forward_voltage_ok(If, Uf):
+        ret = 1
+      if not numpy.any(numpy.isnan(If)) and not numpy.any(numpy.isnan(Uf)):
+        pp.semilogy(Uf, If*1000.0,label = labels[n])
+    pp.ylabel("If [mA]")
+    pp.xlabel("Uf [V]")
+    pp.grid()
+    pp.legend(loc="best")
+    pp.savefig("dc_forward_voltage.png",dpi=80)
+    pp.close()
+    return ret
+
+  def plot_reverse_voltage(self):
+    #Basic diode has no reverse voltage plot
+    return 0
+
+  def plot_all(self):
+    ME = __name__ + ": "
+
+    command = "gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o dc_current.net dc_current.sch"
+    longmsg = StringIO.StringIO()
+
+    print >>longmsg, ME, "creating netlist: ", command
+    pop = popen2.Popen4(command)
+    print >>longmsg, pop.fromchild.read()
+    ret_gnetlist = pop.wait()
+    if ret_gnetlist != 0:
+        print >>longmsg, ME, "netlist creation failed with errorcode:", ret_gnetlist
+    else:
+        print >>longmsg, ME, "netlist creation was successful"
+
+    command = "ngspice -b ../../../../testcircuits/" + self.section + "/simulate.ngspice"
+    print >>longmsg, ME, "running simulation: ", command
+    pop = popen2.Popen4(command)
+    print >>longmsg, pop.fromchild.read()
+    ret_simulation = pop.wait()
+    if ret_simulation != 0:
+        print >>longmsg, ME, "simulation failed with errorcode:", ret_simulation
+    else:
+        print >>longmsg, ME, "simulation run was successful"
+
+    print >>longmsg, ME, "testing and plotting"
+    try:
+        ret_plot = self.plot_forward_voltage()
+    except Exception, data:
+        print >>longmsg, ME, "plotting function died:"
+        print >>longmsg, data
+        result = 1
+    try:
+        ret_plot = self.plot_reverse_voltage()
+    except Exception, data:
+        print >>longmsg, ME, "plotting function died:"
+        print >>longmsg, data
+        result = 1
+
+    else:
+      if ret_plot == 0:
+          print >>longmsg, ME, "finished testing and plotting successfully"
+          result = 0
+      else:
+          print >>longmsg, ME, "testing or plotting failed"
+          result = 2
+      
+    return longmsg.getvalue(), result
 
 
-class modellibrary:
+class modelZenerDiode(modelDiode):
+  section = 'zener_diode'
+  def forward_voltage_ok(self, If, Uf):
+    ind = numpy.where(If < 0.2)[0]
+    if numpy.any(Uf[ind] < 0.0) or numpy.any(Uf[ind] > 2.0):
+      print "forward voltage out of expected range [0.0, 2.0]"
+      return False
+    else:
+      return True
+
+  def reverse_voltage_ok(self, Ir, Ur):
+    if numpy.any(-Ur < 0.0) or numpy.any(-Ur > 200.0):
+      print "reverse voltage out of expected range [0.0, 200.0]"
+      return False
+    else:
+      return True
+
+  def plot_reverse_voltage(self):
+    pp = plotter()
+    labels = ["0C", "25C", "50C", "75C", "100C"]
+    ret = 0
+    plots = spice_read.spice_read("reverse_voltage.data").get_plots()
+    for n,pl in enumerate(plots):
+      Ir = pl.get_scalevector().get_data()
+      Ur = pl.get_datavectors()[0].get_data()
+      if not self.reverse_voltage_ok(Ir, Ur):
+        ret = 2
+      if not numpy.any(numpy.isnan(Ir)) and not numpy.any(numpy.isnan(Ur)):
+        pp.semilogy(-Ur, Ir * 1000.0, label = labels[n])
+    pp.ylabel("Ir [mA]")
+    pp.xlabel("Ur [V]")
+    pp.grid()
+    pp.legend(loc="best")
+    pp.savefig("dc_reverse_voltage.png",dpi=80)
+    pp.close()
+    return ret
+
+
+class modelZenerBidirectional(modelZenerDiode):
+  section = 'zener_bidirectional'
+  def forward_voltage_ok(self, If, Uf):
+    if numpy.any(Uf < 0.5) or numpy.any(Uf > 200.0):
+      print "forward voltage out of expected range [0.5, 200.0]"
+      return False
+    else:
+      return True
+  def reverse_voltage_ok(self, Ir, Ur):
+    if numpy.any(Ur < -200.) or numpy.any(Ur > -0.5):
+      print "reverse voltage out of expected range [0.5, 200]"
+      return False
+    else:
+      return True
+
+
+
+class modellibrary(object):
 
     def __init__(self, indexfilename):
         self.indexfilename = indexfilename
@@ -309,6 +451,12 @@ def color(text):
         return COLORS[text]
     else:
         return COLORS["default"]
+
+def make_doc_hyperlink(repl, docname=None):
+    if docname == None:
+      docname = repl['documentation']
+    if re.match('http://', repl.get('documentation', '')):
+        repl["documentation"] = '<a href="'+ repl["documentation"] +'">' + docname + '</a>'
 
 def sort_modelnumber(a,b):
     aa = string.split(a,"_")[-1]
