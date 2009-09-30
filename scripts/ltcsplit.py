@@ -29,15 +29,15 @@ FILESEP = '^\*\*\*$'
 #The following syntaxes are not compatible with gnucap and should signal a
 #fatal error in conversion
 FATAL_STRINGS = [
-  '^\\s*J',                 #JFETs not implemented in Gnucap 0.35
-  '^[^*]*\.model .*vswitch',#VSwitch element is not documented in LTspice manual
-  '^\\s*[EFGH].*POLY',      #POLY syntax is undocumented in LTspice manual
-  '^[^*]*\\WTANH\\W',       #TANH command is different than gnucap's, but could
+#  '^\\s*J',                 #JFETs not implemented in Gnucap 0.35
+#  '^[^*]*\.model .*vswitch',#VSwitch element is not documented in LTspice manual
+#  '^\\s*[EFGH].*POLY',      #POLY syntax is undocumented in LTspice manual
+#  '^[^*]*\\WTANH\\W',       #TANH command is different than gnucap's, but could
                             #probably be converted with some work
-  '^[^*]*VALUE.*[IV]\(',    #Action at a distance: An element's value depends 
+#  '^[^*]*VALUE.*[IV]\(',    #Action at a distance: An element's value depends 
                             #on a probe at some other node.  Gnucap can't do
                             #this.  
-  '^\\s*\.MODEL.*NPN\(.* NK\\s*=' #Gnucap does not support the NK model param
+#  '^\\s*\.MODEL.*NPN\(.* NK\\s*=' #Gnucap does not support the NK model param
 ]
 
 DELETED = set([])
