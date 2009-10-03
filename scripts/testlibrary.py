@@ -164,6 +164,7 @@ class modelpartBase(object):
 
             ## create the html file with the test results
             repl['test_result'] = self.test_message
+            repl['modelpath'] = os.path.join('../../../../', self.modeldir, self.properties['file'])
             make_doc_hyperlink(repl)
             html = string.Template(open(test["dir"] + test["htmltemplate"], "rt").read())
             open(os.path.join(self.testdir, "index.html"),"wt").write(html.safe_substitute(repl))
