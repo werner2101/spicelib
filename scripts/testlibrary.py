@@ -366,7 +366,9 @@ class modelBipolar(modelTransistor):
         mm.append(("100 C",load("dc_current_gain_t100.data")))
 
         for t,m in mm:
-            pp.semilogx(-m[:,1]*1000,m[:,1]/m[:,2],label=t)
+            hfe = m[:,1] / m[:,2]
+            Ic = -m[:,1]
+            pp.semilogx(Ic * 1000, hfe, label=t)
         pp.xlabel("Ic [mA]")
         pp.ylabel("hfe")
         pp.grid()
@@ -396,7 +398,8 @@ class modelBipolar(modelTransistor):
         for t,m in mm:
             ## only plot the values where Vce sat is smaller than a limit
             firstind = numpy.where(self.icc_sign * m[:,3] < self.VCEsat_plot_limit)[0][0]
-            pp.loglog(-m[firstind:,1]*1000, self.icc_sign * m[firstind:,3]*1000,label=t)
+            Ic = -m[firstind:,1]
+            pp.loglog(Ic * 1000, self.icc_sign * m[firstind:,3]*1000,label=t)
         pp.xlabel("Ic [mA]")
         pp.ylabel("VCE sat [mV]")
         pp.grid()

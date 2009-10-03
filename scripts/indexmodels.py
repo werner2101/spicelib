@@ -9,7 +9,7 @@ import ConfigParser
 #################### CONSTANTS
 TRANSISTOR_TEMPLATE="""
 $headline
-[$part _$number]
+[$part_$number]
 symbol=.sym
 value=$part
 modelname=$part
@@ -29,7 +29,7 @@ model_status=test
 
 DIODE_TEMPLATE="""
 $headline
-[$part _$number]
+[$part_$number]
 symbol=.sym
 value=$part
 modelname=$part
@@ -47,7 +47,7 @@ model_status=$status
 
 OPAMP_TEMPLATE="""
 $headline
-[$part _$number]
+[$partnumber]
 symbol=opamp.sym
 value=$part
 modelname=$part
@@ -97,14 +97,14 @@ def read_index(filename):
 
 
 #################### MAIN
-tt = string.Template(TRANSISTOR_TEMPLATE)
+#tt = string.Template(TRANSISTOR_TEMPLATE)
 #tt = string.Template(DIODE_TEMPLATE)
-#tt = string.Template(OPAMP_TEMPLATE)
+tt = string.Template(OPAMP_TEMPLATE)
 PINCOUNT = 3
-MODEL_REFDES = "Q"
-PREFIX="NXP"
-NUMBER=100734
-INDEX_FILE = 'indexfiles/nxp_bipolar.index'
+MODEL_REFDES = "X"
+PREFIX="LTC"
+NUMBER=100001
+INDEX_FILE = 'indexfiles/ltc_opamps.index'
 
 #usedfiles = set([])
 usedfiles = read_index(INDEX_FILE)
@@ -125,6 +125,7 @@ for f in files:
             v["part"] = toks[1]
             v["filename"] = modelname
             v["number"] = PREFIX + str(NUMBER)[1:]
+            v["partnumber"] = v["part"] + '_' + v["number"]
             NUMBER = NUMBER + 1
             if re.match(".MODEL",l):            
                 v["refdes"] = MODEL_REFDES + "?"

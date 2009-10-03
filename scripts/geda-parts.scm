@@ -18,6 +18,10 @@
  (string-append gedaparts " -l ti_opamps.index" )
  (string-append gedaparts " -p ti_opamps.index" )
  "TI opamps")
+(component-library-command 
+ (string-append gedaparts " -l ltc_opamps.index" )
+ (string-append gedaparts " -p ltc_opamps.index" )
+ "LTC opamps")
 
 ;(component-library-command 
 ; "/store/spicelib/scripts/gedaparts nxp_bipolar.index" 

@@ -2233,7 +2233,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCP68_4.pdf
 description=NPN medium power transistor; 20V, 1A
 test_refdes=X1
-model_status=undefined
+model_status=good
 
 
 [BCP69_NXP00114]
