@@ -26,7 +26,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Precision, Fast CM to V-
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/12134fa.pdf
 test_refdes=X1
 model_status=broken
 
@@ -49,7 +49,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Low Bias Current, external compensation
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1008fb.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -72,9 +72,9 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Low cost high voltage CFA, shutdown
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/12596fas.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LT1056_LTC00005]
@@ -95,7 +95,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Low offset JFET
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/10556fc.pdf
 test_refdes=X1
 model_status=test
 
@@ -118,7 +118,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Zero-Drift Op Amp, 3V, 5V Operation
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/2050fc.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -141,7 +141,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Zero-Drift RRIO IA
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/6800fas.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -164,7 +164,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=CFA with gain control
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1228fc.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -187,9 +187,9 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=High voltage dual video amp
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/lt1253.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LTC1050_LTC00039]
@@ -210,7 +210,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Zero drift no external capacitors
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/lt1253.pdf
 test_refdes=X1
 model_status=good
 
@@ -233,7 +233,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Precision, Fast, CM to V-
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/12156fb.pdf
 test_refdes=X1
 model_status=broken
 
@@ -256,9 +256,9 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Low Power CFA
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/lt1217.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LT1497_LTC00033]
@@ -279,9 +279,9 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=125mA Output CFA
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1497f.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LT1212_LTC00015]
@@ -302,7 +302,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Precision, Single Supply, Wide Vsupply
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/12112fb.pdf
 test_refdes=X1
 model_status=broken
 
@@ -325,9 +325,9 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=High voltage quad video amp
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/lt1253.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LT1227_LTC00022]
@@ -348,9 +348,9 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=High Voltage CFA
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1227fb.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LT1097_LTC00006]
@@ -371,9 +371,9 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Low cost, Cload stable
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1097fas.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LT1189_LTC00010]
@@ -394,7 +394,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Low Power Video Diff. Amplifier
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/lt1189.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -417,7 +417,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Video fader control
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/12516fa.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -440,7 +440,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=1A Output Current
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1210fa.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -463,7 +463,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=63dB AC CMRR at 1MHz
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1193fb.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -486,7 +486,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Zero-Drift IA
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/2053syncfb_web.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -509,9 +509,9 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=General purpose high voltage CFA
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/122930fa.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LT1260_LTC00032]
@@ -532,9 +532,9 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Low cost high voltage CFA, shutdown
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/12596fas.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LT1187_LTC00009]
@@ -555,7 +555,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Low Power Video Diff. Amplifier
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1187fa.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -578,7 +578,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Setting guaranteed to 0.01%, FET input
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/lt1122.pdf
 test_refdes=X1
 model_status=test
 
@@ -601,9 +601,9 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=+/-5V Supply Color Video
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1192fa.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LT1256_LTC00030]
@@ -624,7 +624,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Video fader control
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/12516fa.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -647,7 +647,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Precision, High Side Current Sense
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1787fc.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -670,7 +670,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Precision, Fast, CM to V-
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/12134fa.pdf
 test_refdes=X1
 model_status=broken
 
@@ -693,7 +693,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Zero drift no external capacitors
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/10513fa.pdf
 test_refdes=X1
 model_status=good
 
@@ -716,7 +716,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Precision, Fast, CM to V-
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/12156fb.pdf
 test_refdes=X1
 model_status=broken
 
@@ -739,9 +739,9 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=High voltage video amp
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/lt1252.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LTC1047_LTC00037]
@@ -762,7 +762,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Zero drift no external capacitors
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1047fa.pdf
 test_refdes=X1
 model_status=good
 
@@ -785,7 +785,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Low Noise JFET
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1169fa.pdf
 test_refdes=X1
 model_status=test
 
@@ -808,7 +808,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=High Iout, High Speed
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1795fa.pdf
 test_refdes=X1
 model_status=undefined
 
@@ -832,7 +832,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Single supply precision op amp
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1006fa.pdf
 test_refdes=X1
 model_status=broken
 
@@ -855,7 +855,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Zero drift no external capacitors
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1049fb.pdf
 test_refdes=X1
 model_status=good
 
@@ -878,9 +878,9 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=High Slew Rate, High Iout
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/1223fb.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LT1229_LTC00024]
@@ -901,9 +901,9 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=General purpose high voltage CFA
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/122930fa.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LT1211_LTC00014]
@@ -924,7 +924,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Precision, Single Supply, Wide Vsupply
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/12112fb.pdf
 test_refdes=X1
 model_status=broken
 
@@ -947,7 +947,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=High speed JFET input
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/lt1022fa.pdf
 test_refdes=X1
 model_status=test
 
@@ -970,7 +970,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Low offset JFET
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/10556fc.pdf
 test_refdes=X1
 model_status=test
 
@@ -993,7 +993,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=Precision, Gain Selectable Current Sense
-documentation=TBD2
+documentation=http://cds.linear.com/docs/Datasheet/6100fb.pdf
 test_refdes=X1
 model_status=undefined
 
