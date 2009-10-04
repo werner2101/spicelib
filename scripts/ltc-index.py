@@ -73,16 +73,12 @@ def main(argv):
   csv_data = {}
   csv_reader = csv.reader(open(csvfn))
   for rownum, row in enumerate(csv_reader):
-    if rownum != 0:
-      csv_data[row[0]] = {
-          'Channels': to_int(row[1]),
-          'Vos': to_float(row[2].replace(',', '')),
-          'GBW': to_float(row[3].replace(',', '')),
-          'SR': to_float(row[4].replace(',', '')),
-          'Is': to_float(row[5]),
-          'RailToRailOut': row[6],
-          'Type': row[7],
-          'Packages': row[8]}
+    if rownum == 0:
+      rowkeys = dict([(b, a) for a, b in enumerate(row)])
+    else:
+      csv_data[row[rowkeys['Part Number']]] = {
+          #other fields can be added as needed
+          'description' : row[rowkeys['Comments']]}
 
   index = ConfigParser.ConfigParser()
   index.read(indexfn)
@@ -109,16 +105,10 @@ def main(argv):
               v['symbol'] = '.sym'
               v['model_status'] = 'undefined'
             break
-        if csv_row in csv_data:
-          if csv_data[csv_row]['RailToRailOut'].lower() == 'yes':
-            railtorail = 'Rail to Rail Ouput '
-          else:
-            railtorail = ''
-          if v['description'] == 'TBD2':
-            v['description'] = '%d channel %s%s opamp' % (
-                csv_data[csv_row]['Channels'],
-                railtorail,
-                csv_data[csv_row]['Type'])
+        part_number = v['modelname']
+        if part_number in csv_data:
+          if v['description'] == 'TBD1':
+            v['description'] = csv_data[part_number]['description']
       print tt.safe_substitute(v)
 
 if __name__ == '__main__':
