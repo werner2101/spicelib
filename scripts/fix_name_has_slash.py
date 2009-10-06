@@ -13,7 +13,7 @@ SUBCKT_PAT = '^(\s*\.SUBCKT\s+)(\w+)/NS'
 def fix(files):
     for fn in files:
         f = open(fn, 'r')
-        tfd, tfn = tempfile.mkstemp(text=True)
+        tfd, tfn = tempfile.mkstemp(dir=os.path.dirname(fn), text=True)
         for line in f:
             match = re.search(SUBCKT_PAT, line)
             if match:

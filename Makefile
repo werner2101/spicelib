@@ -205,7 +205,8 @@ test_ti_opamps:
 
 ## National semiconductor models from http://www.national.com/analog/amplifiers/spice_models
 download_national: download_national_opamps
-download_national_opamps: 
+download_national_opamps: downloads/national/opamps/spice_models
+downloads/national/opamps/spice_models:
 	mkdir -p downloads/national/opamps
 	cd downloads/national/opamps ;\
   wget http://www.national.com/analog/amplifiers/spice_models ;\
@@ -215,13 +216,17 @@ download_national_opamps:
 
 unpack_national: unpack_national_opamps
 unpack_national_opamps:
-	md5sum downloads/national/opamps/*.MOD >> $(MODEL_SIGDIR)/national_all.md5sum
-	find downloads/national/opamps -name '*.MOD' -exec md5sum '{}' \+ >> $(MODEL_SIGDIR)/national_all.md5sum
+	rm -rf $(TEMPDIR)/national/opamps
+	mkdir -p $(TEMPDIR)/national/opamps
+	md5sum downloads/national/opamps/*.MOD > $(MODEL_SIGDIR)/national_opamps.md5sum
+	cp downloads/national/opamps/*.MOD $(TEMPDIR)/national/opamps/
+	md5sum $(TEMPDIR)/national/opamps/* >> $(MODEL_SIGDIR)/national_opamps.md5sum
 
 create_national: create_national_opamps
 create_national_opamps:
+	rm -rf $(MODEL_LIBDIR)/national/opamps
 	mkdir -p $(MODEL_LIBDIR)/national/opamps
-	cp downloads/national/opamps/*.MOD $(MODEL_LIBDIR)/national/opamps
+	cp $(TEMPDIR)/national/opamps/*.MOD $(MODEL_LIBDIR)/national/opamps
 	scripts/fix_name_has_slash.py $(MODEL_LIBDIR)/national/opamps/*.MOD
 	md5sum $(MODEL_LIBDIR)/national/opamps/* >$(MODEL_SIGDIR)/national_opamps_lib.md5sum
 
