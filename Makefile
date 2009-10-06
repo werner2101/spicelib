@@ -19,9 +19,9 @@ all:	mkdirs download unpack create index
 mkdirs:
 	mkdir -p $(MODEL_SIGDIR)
 
-download: download_nxp download_ti download_ltc
+download: download_nxp download_ti download_ltc download_national
 
-unpack: unpack_nxp unpack_ti unpack_ltc
+unpack: unpack_nxp unpack_ti unpack_ltc unpack_national
 
 create: create_nxp create_ti
 
@@ -201,6 +201,39 @@ test_ti_opamps:
 	mkdir -p $(TESTDIR)/ti/opamps
 	scripts/testlibrary.py -t indexfiles/ti_opamps.index
 
+
+
+## National semiconductor models from http://www.national.com/analog/amplifiers/spice_models
+download_national: download_national_opamps
+download_national_opamps: downloads/national/opamps/spice_models
+downloads/national/opamps/spice_models:
+	mkdir -p downloads/national/opamps
+	cd downloads/national/opamps ;\
+  wget http://www.national.com/analog/amplifiers/spice_models ;\
+	for url in `awk -F '"' '/href.*javascript.*href.*\.MOD/ {print $$6; next} /href.*\.MOD/ {print $$4}' spice_models | sort | uniq ` ;\
+	do wget $$url ;\
+	done
+
+unpack_national: unpack_national_opamps
+unpack_national_opamps:
+	rm -rf $(TEMPDIR)/national/opamps
+	mkdir -p $(TEMPDIR)/national/opamps
+	md5sum downloads/national/opamps/*.MOD > $(MODEL_SIGDIR)/national_opamps.md5sum
+	cp downloads/national/opamps/*.MOD $(TEMPDIR)/national/opamps/
+	md5sum $(TEMPDIR)/national/opamps/* >> $(MODEL_SIGDIR)/national_opamps.md5sum
+
+create_national: create_national_opamps
+create_national_opamps:
+	rm -rf $(MODEL_LIBDIR)/national/opamps
+	mkdir -p $(MODEL_LIBDIR)/national/opamps
+	cp $(TEMPDIR)/national/opamps/*.MOD $(MODEL_LIBDIR)/national/opamps
+	scripts/fix_name_has_slash.py $(MODEL_LIBDIR)/national/opamps/*.MOD
+	md5sum $(MODEL_LIBDIR)/national/opamps/* >$(MODEL_SIGDIR)/national_opamps_lib.md5sum
+
+test_national_opamps:
+	rm -rf $(TESTDIR)/national/opamps
+	mkdir -p $(TESTDIR)/national/opamps
+	scripts/testlibrary.py -t indexfiles/national_opamps.index
 
 
 ## Linear Technology models from http://www.linear.com/designtools/software/spice_models.jsp
