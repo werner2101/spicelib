@@ -553,9 +553,10 @@ class modellibrary(object):
 
     def __init__(self, indexfilename):
         self.indexfilename = indexfilename
-        self.load_files()
+        self.load_library_index()
+        self.test_library_index()
 
-    def load_files(self):
+    def load_library_index(self):
         self.index = ConfigParser.ConfigParser()
         self.index.read(self.indexfilename)
         self.testdir = self.index.get("GLOBAL","TESTDIR")
@@ -575,6 +576,27 @@ class modellibrary(object):
             modelpath = self.modeldir + part.properties['file']
             part.checksums(self.golden_md5.get(modelpath, False),
                            self.current_md5.get(modelpath, False))
+
+    def test_library_index(self):
+        """
+        test the used model files against the files in the index
+        """
+        files_index = set()
+        self.modelfiles_used_twice = set()
+
+        for sec in self.index.sections():
+            if sec == "GLOBAL":
+                continue
+            modelfile = self.index.get(sec, 'file')
+            if modelfile in files_index:
+                self.modelfiles_used_twice.add(modelfile)
+            else:
+                files_index.add(modelfile)
+
+        modeldir = self.index.get('GLOBAL', 'MODELDIR')
+        files_directory = set(os.listdir(modeldir))
+        self.modelfiles_unused = files_directory - files_index
+        self.modelfiles_not_found = files_index - files_directory
             
     def load_md5sums(self, filename):
         lines = open(filename, "rt").readlines()
@@ -619,13 +641,20 @@ class modellibrary(object):
                "testdir": self.testdir,
                "modeldir": self.modeldir,
                "title": self.description,
-               "model_rows": string.join(rows,"\n")}
+               "model_rows": '\n'.join(rows),
+               "modelfiles_not_found": ', '.join(list(self.modelfiles_not_found)),
+               "modelfiles_used_twice": ', '.join([self.model_url(s) for s in self.modelfiles_used_twice]),
+               "modelfiles_unused": ', '.join([self.model_url(s) for s in self.modelfiles_unused])}
 
         if not os.path.isdir(self.testdir):
             os.makedirs(self.testdir)
 
         html_template = string.Template(open(BASE_DIR + TEMPLATE_FILE).read())
         open(self.testdir + "index.html", "wt").write(html_template.safe_substitute(lib))
+
+    def model_url(self, modelname):
+        modeldir = self.index.get('GLOBAL','MODELDIR')
+        return '<a href="%s">%s</a>' % (os.path.join('../../../', modeldir, modelname), modelname)
 
     def test_single(self, partname):
         part = self.modelparts.get(partname, None)
