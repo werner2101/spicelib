@@ -1,6 +1,6 @@
 #! /usr/bin/python
-# vim: ts=4
-# vim: sw=4
+# vim: ts=4 :
+# vim: sw=4 :
 
 #     Copyright (C) 2009 Alan Somers
 #

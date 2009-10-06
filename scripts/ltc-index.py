@@ -1,6 +1,6 @@
 #! /usr/bin/python
-# vim: ts=4
-# vim: sw=4
+# vim: ts=4 :
+# vim: sw=4 :
 
 #From the CSV list of linear tech op-amps, fill in the data for parts in
 #ltc_opamps.index for parts that are marked as

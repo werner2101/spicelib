@@ -102,9 +102,9 @@ def read_index(filename):
 tt = string.Template(OPAMP_TEMPLATE)
 PINCOUNT = 3
 MODEL_REFDES = "X"
-PREFIX="LTC"
+PREFIX="LM"
 NUMBER=100001
-INDEX_FILE = 'indexfiles/ltc_opamps.index'
+INDEX_FILE = 'indexfiles/national_opamps.index'
 
 #usedfiles = set([])
 usedfiles = read_index(INDEX_FILE)
@@ -120,14 +120,14 @@ for f in files:
     lines = open(f,"rt").readlines()
     v = values.copy()
     for l in lines:
-        if re.match(".subckt",l.lower()) or re.match(".MODEL",l):
+        if re.match("\.subckt",l.lower()) or re.match("\.MODEL",l):
             toks = string.split(string.strip(l))
             v["part"] = toks[1]
             v["filename"] = modelname
             v["number"] = PREFIX + str(NUMBER)[1:]
             v["partnumber"] = v["part"] + '_' + v["number"]
             NUMBER = NUMBER + 1
-            if re.match(".MODEL",l):            
+            if re.match("\.MODEL",l):            
                 v["refdes"] = MODEL_REFDES + "?"
                 v["test_refdes"] = MODEL_REFDES + "1"
             else:

@@ -222,6 +222,7 @@ create_national: create_national_opamps
 create_national_opamps:
 	mkdir -p $(MODEL_LIBDIR)/national/opamps
 	cp downloads/national/opamps/*.MOD $(MODEL_LIBDIR)/national/opamps
+	scripts/fix_name_has_slash.py $(MODEL_LIBDIR)/national/opamps/*.MOD
 	md5sum $(MODEL_LIBDIR)/national/opamps/* >$(MODEL_SIGDIR)/national_opamps_lib.md5sum
 
 test_national_opamps:
