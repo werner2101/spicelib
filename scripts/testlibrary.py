@@ -14,9 +14,10 @@ from plotutils import load, plotter
 TEMPLATE_FILE = "testcircuits/index_template.html"
 REL_DIR = "../"   # relation between this script and the BASE_DIR
 
-BASE_DIR = os.path.join(os.getcwd(),
-                        os.path.dirname(sys.argv[0]),
-                        REL_DIR)
+BASE_DIR='/home/somers/spicelib/scons/'
+#BASE_DIR = os.path.join(os.getcwd(),
+#                        os.path.dirname(sys.argv[0]),
+#                        REL_DIR)
 
 #################### GLOBAL DEFINITIONS
 
@@ -170,7 +171,7 @@ class modelpartBase(object):
             open(os.path.join(self.testdir, "index.html"),"wt").write(html.safe_substitute(repl))
 
         else:
-            longmsg = "no test definition available"
+            self.test_message = "no test definition available"
             return False, self.test_message
 
     def checksums(self, golden, current):
