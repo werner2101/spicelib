@@ -2722,10 +2722,10 @@ test_refdes=X1
 model_status=good
 
 
-[LMH6618_LM00119]
+[LMH6619_LM00119]
 symbol=opamp.sym
-value=LMH6618
-modelname=LMH6618
+value=LMH6619
+modelname=LMH6619
 file=LMH6619.MOD
 refdes=X?
 pinseq_inp=1
@@ -2740,7 +2740,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=TBD1
-documentation=http://www.national.com/ds/LM/LMH6618.pdf
+documentation=http://www.national.com/ds/LM/LMH6619.pdf
 test_refdes=X1
 model_status=good
 

@@ -228,6 +228,11 @@ create_national_opamps:
 	mkdir -p $(MODEL_LIBDIR)/national/opamps
 	cp $(TEMPDIR)/national/opamps/*.MOD $(MODEL_LIBDIR)/national/opamps
 	scripts/fix_name_has_slash.py $(MODEL_LIBDIR)/national/opamps/*.MOD
+	#Individual file fixes
+	FILE=$(MODEL_LIBDIR)/national/opamps/LMH6619.MOD ;\
+	TMPFILE=`mktemp -p $$(dirname $$FILE)` ;\
+	sed s/LMH6618/LMH6619/ $$FILE > $$TMPFILE;\
+	mv $$TMPFILE $$FILE
 	md5sum $(MODEL_LIBDIR)/national/opamps/* >$(MODEL_SIGDIR)/national_opamps_lib.md5sum
 
 test_national_opamps:
