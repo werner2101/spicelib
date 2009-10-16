@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# vim: ts=4 :
+# vim: sw=4 :
 
 import sys, re, string, os
 import shutil
@@ -208,7 +210,11 @@ class modelpartBase(object):
         repl["checksum_test_color"] = color(self.checksum_status)
 
         row_template = string.Template(ROW_TEMPLATE)
-        return row_template.safe_substitute(repl)
+        if not os.path.isdir(self.testdir):
+            os.makedirs(self.testdir)
+        status = row_template.safe_substitute(repl)
+        open(os.path.join(self.testdir, 'status.htm'), 'w').write(status)
+        return status
 
     def plot_all(self):
         ME = os.path.split(__file__)[1]
@@ -628,6 +634,7 @@ class modellibrary(object):
             print "\n" + "*"*75
             print "Testing part: " + part.name + "  model: " + self.modeldir + part.properties["file"]
             part.test()
+            part.html_status()
             print "Result: ", part.test_status
 
     def htmlindex(self):
@@ -636,7 +643,10 @@ class modellibrary(object):
         partnames.sort(sort_modelnumber)
 
         for part in partnames:
-            rows.append(self.modelparts[part].html_status())
+            try:
+                rows.append(open(os.path.join(self.modelparts[part].testdir, 'status.htm')).read())
+            except IOError:
+                rows.append(self.modelparts[part].html_status())
         
         lib = {"indexfile": self.indexfilename,
                "testdir": self.testdir,
@@ -651,7 +661,7 @@ class modellibrary(object):
             os.makedirs(self.testdir)
 
         html_template = string.Template(open(BASE_DIR + TEMPLATE_FILE).read())
-        open(self.testdir + "index.html", "wt").write(html_template.safe_substitute(lib))
+        open(self.testdir + "index.html", "w").write(html_template.safe_substitute(lib))
 
     def model_url(self, modelname):
         modeldir = self.index.get('GLOBAL','MODELDIR')
@@ -665,6 +675,7 @@ class modellibrary(object):
         print "\n" + "*"*75
         print "Testing part: " + part.name + "  model: " + self.modeldir + part.properties["file"]
         part.test()
+        part.html_status()
         print "Result: ", part.test_status
         
 

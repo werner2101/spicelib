@@ -134,6 +134,17 @@ def test_single(target, source, env):
 bld = Builder(action = test_single)
 env.Append(BUILDERS = {'TestSingle': bld})
 
+def html_index(target, source, env):
+    """Build the test index html file.  source is the parts.index file followed
+    by every TestSingle node on which it depends"""
+    filename = str(source[0])
+    library = testlibrary.modellibrary(filename)
+    library.htmlindex()
+    return None
+bld = Builder(action = html_index)
+env.Append(BUILDERS = {'HtmlIndex': bld})
+
+
 test_ltc_opamps = []
 library = testlibrary.modellibrary('indexfiles/ltc_opamps.index')
 for node in create_ltc_opamps:
@@ -142,11 +153,12 @@ for node in create_ltc_opamps:
     pop = popen2.Popen4('''awk '/\[%s/ {print $1}' indexfiles/ltc_opamps.index | sed 's/[][]//g' ''' % partname)
     pop.wait()
     partid = pop.fromchild.read().rstrip('\n')
-    target = os.path.join(TESTDIR, 'ltc', 'opamps', partid, 'index.html')
-#    bfunc = lambda target, source, env: library.test_single(partid)
-#    import pdb
-#    pdb.set_trace()
+    target = os.path.join(TESTDIR, 'ltc', 'opamps', partid, 'status.htm')
     test_ltc_opamps.append( env.TestSingle(target, node))
-#    test_ltc_opamps.append( env.Command(target, node, 'scripts/testlibrary.py -p indexfiles/ltc_opamps.index %s' % partid))
 
-env.Alias('test_ltc_opamps', test_ltc_opamps)
+ltc_opamps_test_index = env.HtmlIndex(os.path.join(
+    'model_tests', 'ltc', 'opamps', 'index.html'), 
+    [os.path.join('indexfiles', 'ltc_opamps.index')] + test_ltc_opamps)
+
+env.Alias('test_ltc_opamps', ltc_opamps_test_index)
+

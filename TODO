@@ -7,3 +7,14 @@
  * code cleanup of the testlibrary.py
  * more automated model tests
  * finaly a GUI for testlibrary
+
+ * Scons tasks
+ [*]Parts that have no tests should generate an output file so they don't get 
+    rerun
+ [*]model_tests/*/*/index.html should be generated after all test targets.
+    It should be based on result files, not results held in memory
+ [ ]Every vendor should have its own subdirectory
+ [ ]make test_single take the vendor, partname tuple as argument instead of
+    partname_vendorXXXXX.  This will make SConstruct easier
+ [ ]remove unneeded parts of testlibrary.py
+ [ ]cleanup SConstruct
