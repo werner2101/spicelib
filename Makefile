@@ -229,10 +229,18 @@ create_national_opamps:
 	cp $(TEMPDIR)/national/opamps/*.MOD $(MODEL_LIBDIR)/national/opamps
 	scripts/fix_name_has_slash.py $(MODEL_LIBDIR)/national/opamps/*.MOD
 	#Individual file fixes
-	FILE=$(MODEL_LIBDIR)/national/opamps/LMH6619.MOD ;\
-	TMPFILE=`mktemp -p $$(dirname $$FILE)` ;\
-	sed s/LMH6618/LMH6619/ $$FILE > $$TMPFILE;\
-	mv $$TMPFILE $$FILE
+	subckt_rename() { \
+		#Rename '.SUBCKT $2' to '.SUBCKT $3' in file $1 \
+		TMPFILE=`mktemp -p $$(dirname $$1)` ;\
+		sed "s/\.SUBCKT *$$2/.SUBCKT $$3/" $$1 > $$TMPFILE;\
+		mv $$TMPFILE $$1 ; } ;\
+	subckt_rename $(MODEL_LIBDIR)/national/opamps/LMH6619.MOD LMH6618 LMH6619;\
+	subckt_rename $(MODEL_LIBDIR)/national/opamps/LMP7702.MOD LMP7701 LMP7702;\
+	subckt_rename $(MODEL_LIBDIR)/national/opamps/LMP7704.MOD LMP7701 LMP7704;\
+	subckt_rename $(MODEL_LIBDIR)/national/opamps/LMP7709.MOD LMP7707 LMP7709;\
+	subckt_rename $(MODEL_LIBDIR)/national/opamps/LMP7712.MOD LMP7711 LMP7712;\
+	subckt_rename $(MODEL_LIBDIR)/national/opamps/LMV552.MOD LMV551 LMV552;\
+	subckt_rename $(MODEL_LIBDIR)/national/opamps/LMV652.MOD LMV651 LMV652;\
 	md5sum $(MODEL_LIBDIR)/national/opamps/* >$(MODEL_SIGDIR)/national_opamps_lib.md5sum
 
 test_national_opamps:

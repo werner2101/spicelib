@@ -3573,10 +3573,10 @@ test_refdes=X1
 model_status=good
 
 
-[LMP7701_LM00156]
+[LMP7702_LM00156]
 symbol=opamp.sym
-value=LMP7701
-modelname=LMP7701
+value=LMP7702
+modelname=LMP7702
 file=LMP7702.MOD
 refdes=X?
 pinseq_inp=1
@@ -3591,15 +3591,15 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=TBD1
-documentation=http://www.national.com/ds/LM/LMP7701.pdf
+documentation=http://www.national.com/ds/LM/LMP7702.pdf
 test_refdes=X1
 model_status=good
 
 
-[LMP7701_LM00157]
+[LMP7704_LM00157]
 symbol=opamp.sym
-value=LMP7701
-modelname=LMP7701
+value=LMP7704
+modelname=LMP7704
 file=LMP7704.MOD
 refdes=X?
 pinseq_inp=1
@@ -3614,7 +3614,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=TBD1
-documentation=http://www.national.com/ds/LM/LMP7701.pdf
+documentation=http://www.national.com/ds/LM/LMP7704.pdf
 test_refdes=X1
 model_status=good
 
@@ -3665,10 +3665,10 @@ test_refdes=X1
 model_status=good
 
 
-[LMP7707_LM00160]
+[LMP7709_LM00160]
 symbol=opamp.sym
-value=LMP7707
-modelname=LMP7707
+value=LMP7709
+modelname=LMP7709
 file=LMP7709.MOD
 refdes=X?
 pinseq_inp=1
@@ -3683,7 +3683,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=TBD1
-documentation=http://www.national.com/ds/LM/LMP7707.pdf
+documentation=http://www.national.com/ds/LM/LMP7709.pdf
 test_refdes=X1
 model_status=good
 
@@ -3711,10 +3711,10 @@ test_refdes=X1
 model_status=test
 
 
-[LMP7711_LM00162]
+[LMP7712_LM00162]
 symbol=opamp.sym
-value=LMP7711
-modelname=LMP7711
+value=LMP7712
+modelname=LMP7712
 file=LMP7712.MOD
 refdes=X?
 pinseq_inp=1
@@ -3729,7 +3729,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=TBD1
-documentation=http://www.national.com/ds/LM/LMP7711.pdf
+documentation=http://www.national.com/ds/LM/LMP7712.pdf
 test_refdes=X1
 model_status=test
 
@@ -4263,10 +4263,10 @@ test_refdes=X1
 model_status=good
 
 
-[LMV551_LM00186]
+[LMV552_LM00186]
 symbol=opamp.sym
-value=LMV551
-modelname=LMV551
+value=LMV552
+modelname=LMV552
 file=LMV552.MOD
 refdes=X?
 pinseq_inp=1
@@ -4281,7 +4281,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=TBD1
-documentation=http://www.national.com/ds/LM/LMV551.pdf
+documentation=http://www.national.com/ds/LM/LMV552.pdf
 test_refdes=X1
 model_status=good
 
@@ -4355,10 +4355,10 @@ test_refdes=X1
 model_status=good
 
 
-[LMV651_LM00190]
+[LMV652_LM00190]
 symbol=opamp.sym
-value=LMV651
-modelname=LMV651
+value=LMV652
+modelname=LMV652
 file=LMV652.MOD
 refdes=X?
 pinseq_inp=1
@@ -4373,7 +4373,7 @@ pinnr_pn=V-
 pinnr_out=out
 footprint=none
 description=TBD1
-documentation=http://www.national.com/ds/LM/LMV651.pdf
+documentation=http://www.national.com/ds/LM/LMV652.pdf
 test_refdes=X1
 model_status=good
 
