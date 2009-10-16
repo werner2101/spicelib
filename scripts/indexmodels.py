@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# vim: ts=4
+# vim: sw=4
 
 import sys,re,string
 import ConfigParser
@@ -9,7 +11,7 @@ import ConfigParser
 #################### CONSTANTS
 TRANSISTOR_TEMPLATE="""
 $headline
-[$part_$number]
+[$partnumber]
 symbol=.sym
 value=$part
 modelname=$part
@@ -22,14 +24,15 @@ pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
-description=TBD
+documentation=TBD2
+description=TBD1
 test_refdes=$test_refdes
 model_status=test
 """
 
 DIODE_TEMPLATE="""
 $headline
-[$part_$number]
+[$partnumber]
 symbol=.sym
 value=$part
 modelname=$part
@@ -97,14 +100,14 @@ def read_index(filename):
 
 
 #################### MAIN
-#tt = string.Template(TRANSISTOR_TEMPLATE)
+tt = string.Template(TRANSISTOR_TEMPLATE)
 #tt = string.Template(DIODE_TEMPLATE)
-tt = string.Template(OPAMP_TEMPLATE)
+#tt = string.Template(OPAMP_TEMPLATE)
 PINCOUNT = 3
-MODEL_REFDES = "X"
-PREFIX="LM"
+MODEL_REFDES = "Q"
+PREFIX="NXP"
 NUMBER=100001
-INDEX_FILE = 'indexfiles/national_opamps.index'
+INDEX_FILE = 'indexfiles/nxp_bipolar.index1'
 
 #usedfiles = set([])
 usedfiles = read_index(INDEX_FILE)
@@ -120,8 +123,14 @@ for f in files:
     lines = open(f,"rt").readlines()
     v = values.copy()
     for l in lines:
-        if re.match("\.subckt",l.lower()) or re.match("\.MODEL",l):
+        subckt_match = re.match("\.subckt",l.lower())
+        model_match = re.match("\.MODEL",l)
+        if  subckt_match or model_match:
             toks = string.split(string.strip(l))
+            if subckt_match:
+                model_refdex = "X"
+            else:
+                model_refdes = MODEL_REFDES
             v["part"] = toks[1]
             v["filename"] = modelname
             v["number"] = PREFIX + str(NUMBER)[1:]

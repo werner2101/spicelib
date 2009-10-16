@@ -4,6 +4,7 @@
  * create some mos symbols 
  * get some mos models
  * get more models
+ * fix line endings in model files
  * code cleanup of the testlibrary.py
  * more automated model tests
  * finaly a GUI for testlibrary

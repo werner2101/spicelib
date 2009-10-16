@@ -12833,12 +12833,12 @@ model_status=undefined
 
 
 
-[TR1_NXP00638]
+[PEMX1_NXP00638]
 symbol=.sym
-value=QTR1
-modelname=QTR1
+value=PEMX1
+modelname=PEMX1
 file=PEMX1.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12848,17 +12848,17 @@ pinnr_e=E
 footprint=none
 documentation=
 description=
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
 
-[TR1_NXP00639]
+[PEMZ1_NXP00639]
 symbol=.sym
-value=QTR1
-modelname=QTR1
+value=PEMZ1
+modelname=PEMZ1
 file=PEMZ1.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12868,7 +12868,7 @@ pinnr_e=E
 footprint=none
 documentation=
 description=
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
@@ -14112,12 +14112,12 @@ model_status=undefined
 
 
 
-[TR1_NXP00700]
-symbol=pnp.sym
-value=QTR1
-modelname=QTR1
+[PUMT1_NXP00700]
+symbol=.sym
+value=PUMT1
+modelname=PUMT1
 file=PUMT1.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -14127,17 +14127,17 @@ pinnr_e=E
 footprint=none
 documentation=
 description=2 PNP Transistors in SC-88
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
 
-[TR1_NXP00701]
-symbol=npn.sym
-value=QTR1
-modelname=QTR1
+[PUMX1_NXP00701]
+symbol=.sym
+value=PUMX1
+modelname=PUMX1
 file=PUMX1.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -14147,7 +14147,7 @@ pinnr_e=E
 footprint=none
 documentation=
 description=2 NPN Transistors in SC-88
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
@@ -14173,12 +14173,12 @@ model_status=undefined
 
 
 
-[TR1_NXP00703]
+[PUMZ1_NXP00703]
 symbol=.sym
-value=QTR1
-modelname=QTR1
+value=PUMZ1
+modelname=PUMZ1
 file=PUMZ1.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -14188,7 +14188,7 @@ pinnr_e=E
 footprint=none
 documentation=
 description=npn/pnp transistor
-test_refdes=Q1
+test_refdes=X1
 model_status=undefined
 
 
