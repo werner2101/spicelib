@@ -222,6 +222,46 @@ class LinearTechnology(Vendor):
         return nodes
 
 
+class TexasInstruments(Vendor):
+    abbrev = 'ti'
+    download_urls = [
+        'http://focus.ti.com/packaged_lits/pspice_files/ti_pspice_models.zip',
+        'http://focus.ti.com/packaged_lits/pspice_files/ti_pspice_models_index.txt']
+    sections = ['opamps']
+    def unpack_opamps(self):
+        return env.Command(None, self.download_all_node,
+            """
+            unzip -o -d %(TEMPDIR)s $SOURCE
+            find %(TEMPDIR)s -type f -exec md5sum {} \; | \
+                sort -k 2 >>%(SIGFILE)s
+            find %(TEMPDIR)s -name '*.zip' -exec unzip -o -d {}_d {} \;
+            """ % {'TEMPDIR': os.path.join(TEMPDIR, 'ti'),
+                   'SIGFILE': os.path.join(MODEL_SIGDIR, 'ti_all.md5sum')})
+    def create_opamps(self):
+        #TODO: create ti opamps based on ti_pspice_models_index.txt
+        dir_ = os.path.join(MODEL_LIBDIR, self.abbrev, 'opamps')
+        if not os.path.isdir(dir_):
+            Execute(Mkdir(dir_))
+        # copy models, don't copy TINA models and test circuits, 
+        #don't copy PSpice libs and schematics
+        nodes = []
+        unpack_dir = os.path.join(TEMPDIR, self.abbrev, 'pspice_models')
+        target_files = set([])
+        for opadir in os.listdir(unpack_dir):
+            if opadir[0:3] == 'opa':
+                for root, dirs, files in os.walk(os.path.join(unpack_dir, opadir)):
+                    for f in files:
+                        if os.path.splitext(f)[1] in ['.mod', '.MOD', '.txt', '.sub']:
+                            source = os.path.join(root, f)
+                            target = os.path.join(dir_, f)
+                            if not target in target_files and f not in ['Readme.txt', 'disclaimer.txt']:
+                                target_files.add(target)
+                                nodes.append(env.Command(target, source,
+                                    """
+                                    cp $SOURCE $TARGET
+                                    md5sum $TARGET >> %(MODEL_SIGDIR)s/ti_opamps_lib.md5sum
+                                    """ % {'MODEL_SIGDIR': MODEL_SIGDIR}))
+        return nodes
 
 ltc = LinearTechnology()
-
+ti = TexasInstruments()
