@@ -15,7 +15,7 @@
  [*]model_tests/*/*/index.html should be generated after all test targets.
     It should be based on result files, not results held in memory
  [ ]Every vendor should have its own subdirectory
- [ ]make test_single take the vendor, partname tuple as argument instead of
-    partname_vendorXXXXX.  This will make SConstruct easier
  [ ]remove unneeded parts of testlibrary.py
- [ ]cleanup SConstruct
+ [*]cleanup SConstruct
+ [ ]Use pickle or database for checksums, so an individual file's checksum can
+    be overridden by scons

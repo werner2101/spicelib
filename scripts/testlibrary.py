@@ -606,7 +606,10 @@ class modellibrary(object):
         self.modelfiles_not_found = files_index - files_directory
             
     def load_md5sums(self, filename):
-        lines = open(filename, "rt").readlines()
+        try:
+            lines = open(filename, "rt").readlines()
+        except IOError:
+            lines = []
         md5 = {}
         for l in lines:
             tok = string.split(string.strip(l),"  ")
