@@ -124,11 +124,10 @@ env.Alias('create_ltc_opamps', create_ltc_opamps)
 
 #Generate test targets
 def test_single(target, source, env):
-    filename = os.path.basename(str(source[0]))
-    partname = filename[0:-4]
-    pop = popen2.Popen4('''awk '/\[%s/ {print $1}' indexfiles/ltc_opamps.index | sed 's/[][]//g' ''' % partname)
-    pop.wait()
-    partid = pop.fromchild.read().rstrip('\n')
+    #target should be the status.htm file
+    #source should be all dependent files
+    #env.partid should be the section from the index file eg LM741_LM0001
+    partid = env.partid
     library.test_single(partid)
     return None
 bld = Builder(action = test_single)
@@ -147,14 +146,14 @@ env.Append(BUILDERS = {'HtmlIndex': bld})
 
 test_ltc_opamps = []
 library = testlibrary.modellibrary('indexfiles/ltc_opamps.index')
-for node in create_ltc_opamps:
-    filename = os.path.basename(str(node))
-    partname = filename[0:-6]
-    pop = popen2.Popen4('''awk '/\[%s/ {print $1}' indexfiles/ltc_opamps.index | sed 's/[][]//g' ''' % partname)
-    pop.wait()
-    partid = pop.fromchild.read().rstrip('\n')
-    target = os.path.join(TESTDIR, 'ltc', 'opamps', partid, 'status.htm')
-    test_ltc_opamps.append( env.TestSingle(target, node))
+for name in library.modelparts:
+    sources = ['indexfiles/ltc_opamps.index', 
+            os.path.join(MODEL_LIBDIR, 'ltc', 'opamps', 
+                library.modelparts[name].properties['file'])]
+    target = os.path.join(TESTDIR, 'ltc', 'opamps', name, 'status.htm')
+    tempenv = env.Clone()
+    tempenv.partid = name
+    test_ltc_opamps.append( tempenv.TestSingle(target, sources))
 
 ltc_opamps_test_index = env.HtmlIndex(os.path.join(
     'model_tests', 'ltc', 'opamps', 'index.html'), 
