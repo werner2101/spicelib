@@ -6,8 +6,10 @@ import os
 import popen2
 import sys
 import copy
+
 sys.path.append('scripts')
 import testlibrary
+import fix_name_has_slash
 
 TEMPDIR='unpack'
 MODEL_SIGDIR='model_checksums'
@@ -66,7 +68,7 @@ class Vendor(object):
                                          self.abbrev + '_all.md5sum')
             nodes.append(env.Command(os.path.join(basedir, file), None, 
                 """
-                wget -P `dirname $TARGET` %s
+                wget -N -P `dirname $TARGET` %s
                 md5sum $TARGET > %s
                 """
                 % (url, checksum_file)))
@@ -263,5 +265,81 @@ class TexasInstruments(Vendor):
                                     """ % {'MODEL_SIGDIR': MODEL_SIGDIR}))
         return nodes
 
+
+class NationalSemiconductor(Vendor):
+    abbrev = 'national'
+    download_urls = ['http://www.national.com/analog/amplifiers/spice_models']
+    sections = ['opamps']
+    def download_all(self):
+        url = self.download_urls[0]
+        basedir = os.path.join('downloads', self.abbrev)
+        file = os.path.join(basedir, url.split('/')[-1])
+        csfile = os.path.join(MODEL_SIGDIR, self.abbrev + '_all.md5sum')
+        #Really, this command has many more targets than just the initial
+        #download.  However, they are not known until the initial download
+        #has happened.  The downside to this is that if a target file 
+        #dissapears, scons won't know to redownload it
+        node = env.Command(file, None,
+            """
+            wget -N -P `dirname %(file)s` %(url)s
+            md5sum %(file)s > %(csfile)s
+            wget -N -P %(ddir)s `awk -F '"' '/href.*javascript.*href.*\.MOD/ {print $6; next} /href.*\.MOD/ {print $4}' %(file)s | sort | uniq`
+            """ % {'ddir' : os.path.join(basedir, 'opamps'),
+                'file': file, 'url': url, 'csfile': csfile})
+        return node
+    def unpack_opamps(self):
+        #Really, this command has many more targets than just LM741.MOD
+        #However, they are not known until the initial download
+        #has happened.  The downside to this is that if a target file 
+        #dissapears, scons won't know to rebuild it
+        example_target = os.path.join(TEMPDIR, 'national', 'opamps', 'LM741.MOD')
+        return env.Command(example_target, self.download_all_node,
+            """
+            md5sum downloads/national/opamps/*.MOD > %(sigfile)s
+            cp downloads/national/opamps/*.MOD %(tempdir)s
+            md5sum downloads/national/opamps/*.MOD >> %(sigfile)s
+            """ % 
+            {'sigfile': os.path.join(MODEL_SIGDIR, 'national_opamps.md5sum'),
+             'tempdir': os.path.join(TEMPDIR, 'national', 'opamps')})
+    def create_opamps(self):
+        ddir = os.path.join(MODEL_LIBDIR, self.abbrev, 'opamps')
+        if not os.path.isdir(ddir):
+            Execute(Mkdir(ddir))
+        nodes = []
+        subckt_renames = {
+                'LMH6619.MOD': ('LMH6618', 'LMH6619'),
+                'LMP7702.MOD': ('LMP7701', 'LMP7702'),
+                'LMP7704.MOD': ('LMP7701', 'LMP7704'),
+                'LMP7709.MOD': ('LMP7707', 'LMP7709'),
+                'LMP7712.MOD': ('LMP7711', 'LMP7712'),
+                'LMV552.MOD': ('LMV551', 'LMV552'),
+                'LMV652.MOD': ('LMV651', 'LMV652')
+                }
+        sdir = os.path.join(TEMPDIR, self.abbrev, 'opamps') 
+        for file in os.listdir(sdir):
+            if file[-4:] == '.MOD':
+                source = os.path.join(sdir, file)
+                target = os.path.join(MODEL_LIBDIR, 'national', 'opamps', file)
+                if file in subckt_renames:
+                    tfn = os.path.join(sdir, file + '.tmp')
+                    nodes.append(env.Command(tfn, source, 
+                        fix_name_has_slash.fix))
+                    oldsubckt, newsubckt = subckt_renames[file]
+                    nodes.append(env.Command(target, tfn,
+                        """
+                        sed "s/\.SUBCKT *%s/.SUBCKT %s/" $SOURCE > $TARGET
+                        """ % (oldsubckt, newsubckt)))
+                else:
+                    nodes.append(env.Command(target, source, 
+                        fix_name_has_slash.fix))
+                AddPostAction(target, 'md5sum $TARGET >> %s' % 
+                    os.path.join(MODEL_SIGDIR, 'national_opamps_lib.md5sum'))
+        return nodes
+
+        
+
+
+
 ltc = LinearTechnology()
 ti = TexasInstruments()
+national = NationalSemiconductor()
