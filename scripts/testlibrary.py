@@ -156,9 +156,7 @@ class modelpartBase(object):
 
             ## run the tests
             save_cwd = os.getcwd()
-            os.chdir(self.testdir)
-            self.test_message, result = self.plot_all()
-            os.chdir(save_cwd)
+            self.test_message, result = self.plot_all(self.testdir)
 
             if result == 0:
                 self.test_status = 'succeeded'
@@ -171,6 +169,8 @@ class modelpartBase(object):
             make_doc_hyperlink(repl)
             html = string.Template(open(test["dir"] + test["htmltemplate"], "rt").read())
             open(os.path.join(self.testdir, "index.html"),"wt").write(html.safe_substitute(repl))
+            #TODO: use the return value, or eliminate it
+            return True, self.test_message
 
         else:
             self.test_message = "no test definition available"
@@ -216,15 +216,16 @@ class modelpartBase(object):
         open(os.path.join(self.testdir, 'status.htm'), 'w').write(status)
         return status
 
-    def plot_all(self):
+    def plot_all(self, dir):
+        #Generate all plots in directory dir
         ME = os.path.split(__file__)[1]
         longmsg = StringIO.StringIO()
         result = 0
 
         for sch in TESTDEFS[self.properties['symbol']]['schematics']:
             net = os.path.splitext(sch)[0] + '.net'
-            command = "gnetlist -g spice-sdb -l ../../../../scripts/geda-parts.scm -o %s %s" \
-                      %(net, sch)
+            command="gnetlist -g spice-sdb -l scripts/geda-parts.scm -o %s %s" \
+                      %(os.path.join(dir, net), os.path.join(dir, sch))
             print >>longmsg, ME, "creating netlist: ", command
             pop = popen2.Popen4(command)
             ret_gnetlist = pop.wait()
@@ -234,7 +235,7 @@ class modelpartBase(object):
             else:
                 print >>longmsg, ME, "netlist creation was successful"
 
-        command = self.simulator + " -b ../../../../testcircuits/" + self.section + "/simulate." + self.simulator
+        command = ("cd %s ; " % dir) + self.simulator + " -b ../../../../testcircuits/" + self.section + "/simulate." + self.simulator
         print >>longmsg, ME, "running simulation: ", command
         pop = popen2.Popen4(command)
         print >>longmsg, pop.fromchild.read()
@@ -247,7 +248,7 @@ class modelpartBase(object):
         print >>longmsg, ME, "testing and plotting"
         for meth in self.plot_methods:
             try:
-                ret_plot = getattr(self, meth)()
+                ret_plot = getattr(self, meth)(dir)
             except Exception, data:
                 print >>longmsg, ME, "plotting function died:"
                 print >>longmsg, data
@@ -537,10 +538,11 @@ class modelOpamp(modelpartBase):
     section = 'opamp'
     plot_methods = ['plot_dc_amplifier']
     simulator = 'ngspice'
-    def plot_dc_amplifier(self):
+    def plot_dc_amplifier(self, dir):
         pp = plotter()
         
-        plots = spice_read.spice_read("dc_amplifier.data").get_plots()
+        plots = spice_read.spice_read(os.path.join(dir, "dc_amplifier.data")
+                ).get_plots()
         x = plots[0].get_scalevector().get_data()
         vin = plots[0].get_datavectors()[0].get_data()
         vout = plots[0].get_datavectors()[1].get_data()
@@ -551,7 +553,7 @@ class modelOpamp(modelpartBase):
         pp.ylabel("U [V]")
         pp.grid()
         pp.legend(loc="best")
-        pp.savefig("dc_amplifier.png",dpi=80)
+        pp.savefig(os.path.join(dir, "dc_amplifier.png"), dpi=80)
         pp.close()
         return 0
 
