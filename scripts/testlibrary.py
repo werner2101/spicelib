@@ -274,11 +274,12 @@ class modelDiode(modelpartBase):
         else:
             return True
 
-    def plot_forward_voltage(self):
+    def plot_forward_voltage(self, dir):
         pp = plotter()
         labels = ["0C", "25C", "50C", "75C", "100C"]
         ret = 0
-        plots = spice_read.spice_read("forward_voltage.data").get_plots()
+        plots = spice_read.spice_read(
+                os.path.join(dir, "forward_voltage.data")).get_plots()
         for n,pl in enumerate(plots):
             If = -pl.get_scalevector().get_data()
             Uf = pl.get_datavectors()[0].get_data()
@@ -290,7 +291,7 @@ class modelDiode(modelpartBase):
         pp.xlabel("Uf [V]")
         pp.grid()
         pp.legend(loc="best")
-        pp.savefig("dc_forward_voltage.png",dpi=80)
+        pp.savefig(os.path.join(dir, "dc_forward_voltage.png"),dpi=80)
         pp.close()
         return ret
   
@@ -317,11 +318,12 @@ class modelZenerDiode(modelDiode):
         else:
             return True
 
-    def plot_reverse_voltage(self):
+    def plot_reverse_voltage(self, dir):
         pp = plotter()
         labels = ["0C", "25C", "50C", "75C", "100C"]
         ret = 0
-        plots = spice_read.spice_read("reverse_voltage.data").get_plots()
+        plots = spice_read.spice_read(
+                os.path.join(dir, "reverse_voltage.data")).get_plots()
         for n,pl in enumerate(plots):
             Ir = pl.get_scalevector().get_data()
             Ur = pl.get_datavectors()[0].get_data()
@@ -333,7 +335,7 @@ class modelZenerDiode(modelDiode):
         pp.xlabel("Ur [V]")
         pp.grid()
         pp.legend(loc="best")
-        pp.savefig("dc_reverse_voltage.png",dpi=80)
+        pp.savefig(os.path.join(dir, "dc_reverse_voltage.png"),dpi=80)
         pp.close()
         return ret
 
@@ -364,14 +366,14 @@ class modelBipolar(modelTransistor):
     plot_methods = ['plot_dc_current_gain', 'plot_saturation_voltages']
     simulator = 'gnucap'
 
-    def plot_dc_current_gain(self):
+    def plot_dc_current_gain(self, dir):
         pp = plotter()
         mm=[]
-        mm.append(("0 C", load("dc_current_gain_t0.data")))
-        mm.append(("25 C",load("dc_current_gain_t25.data")))
-        mm.append(("50 C",load("dc_current_gain_t50.data")))
-        mm.append(("75 C",load("dc_current_gain_t75.data")))
-        mm.append(("100 C",load("dc_current_gain_t100.data")))
+        mm.append(("0 C", load(os.path.join(dir, "dc_current_gain_t0.data"))))
+        mm.append(("25 C",load(os.path.join(dir, "dc_current_gain_t25.data"))))
+        mm.append(("50 C",load(os.path.join(dir, "dc_current_gain_t50.data"))))
+        mm.append(("75 C",load(os.path.join(dir, "dc_current_gain_t75.data"))))
+        mm.append(("100 C",load(os.path.join(dir,"dc_current_gain_t100.data"))))
 
         for t,m in mm:
             hfe = m[:,1] / m[:,2]
@@ -381,7 +383,7 @@ class modelBipolar(modelTransistor):
         pp.ylabel("hfe")
         pp.grid()
         pp.legend(loc="best")
-        pp.savefig("dc_current_gain.png",dpi=80)
+        pp.savefig(os.path.join(dir, "dc_current_gain.png"),dpi=80)
         pp.close()
 
         for t,m in mm:
@@ -390,18 +392,23 @@ class modelBipolar(modelTransistor):
         pp.ylabel("V BE [mV]")
         pp.grid()
         pp.legend(loc='best')
-        pp.savefig("base_emitter_voltage.png",dpi=80)
+        pp.savefig(os.path.join(dir, "base_emitter_voltage.png"),dpi=80)
         pp.close()
         return 0
 
-    def plot_saturation_voltages(self):
+    def plot_saturation_voltages(self, dir):
         pp = plotter()
         mm=[]
-        mm.append(("0 C", load("saturation_voltages_t0.data")))
-        mm.append(("25 C",load("saturation_voltages_t25.data")))
-        mm.append(("50 C",load("saturation_voltages_t50.data")))
-        mm.append(("75 C",load("saturation_voltages_t75.data")))
-        mm.append(("100 C",load("saturation_voltages_t100.data")))
+        mm.append(("0 C", load(
+            os.path.join(dir, "saturation_voltages_t0.data"))))
+        mm.append(("25 C",load(
+            os.path.join(dir, "saturation_voltages_t25.data"))))
+        mm.append(("50 C",load(
+            os.path.join(dir, "saturation_voltages_t50.data"))))
+        mm.append(("75 C",load(
+            os.path.join(dir, "saturation_voltages_t75.data"))))
+        mm.append(("100 C",load(
+            os.path.join(dir, "saturation_voltages_t100.data"))))
 
         for t,m in mm:
             ## only plot the values where Vce sat is smaller than a limit
@@ -412,7 +419,7 @@ class modelBipolar(modelTransistor):
         pp.ylabel("VCE sat [mV]")
         pp.grid()
         pp.legend(loc='best')
-        pp.savefig("vce_saturation_voltage.png",dpi=80)
+        pp.savefig(os.path.join(dir, "vce_saturation_voltage.png"),dpi=80)
         pp.close()
 
         for t,m in mm:
@@ -421,7 +428,7 @@ class modelBipolar(modelTransistor):
         pp.ylabel("V BE sat [mV]")
         pp.grid()
         pp.legend(loc='best')
-        pp.savefig("vbe_saturation_voltage.png",dpi=80)
+        pp.savefig(os.path.join(dir, "vbe_saturation_voltage.png"),dpi=80)
         pp.close()
         return 0
 
@@ -460,16 +467,16 @@ class modelResistorEquippedTransistor(modelBipolar):
     def collector_current_ok(self, Uin, Ic):
         return True #stub function, must be overridden by child classes
 
-    def plot_dc_current(self):
+    def plot_dc_current(self, dir):
         ret = 0
         pp = plotter()
         mm=[]
 
-        mm.append(("0 C", load("dc_current_t0.data")))
-        mm.append(("25 C",load("dc_current_t25.data")))
-        mm.append(("50 C",load("dc_current_t50.data")))
-        mm.append(("75 C",load("dc_current_t75.data")))
-        mm.append(("100 C",load("dc_current_t100.data")))
+        mm.append(("0 C", load(os.path.join(dir, "dc_current_t0.data"))))
+        mm.append(("25 C",load(os.path.join(dir, "dc_current_t25.data"))))
+        mm.append(("50 C",load(os.path.join(dir, "dc_current_t50.data"))))
+        mm.append(("75 C",load(os.path.join(dir, "dc_current_t75.data"))))
+        mm.append(("100 C",load(os.path.join(dir, "dc_current_t100.data"))))
 
         for t,m in mm:
             Uin = m[:,0]
@@ -481,7 +488,7 @@ class modelResistorEquippedTransistor(modelBipolar):
         pp.ylabel("IB [mA]")
         pp.grid()
         pp.legend(loc="best")
-        pp.savefig("dc_IB.png",dpi=80)
+        pp.savefig(os.path.join(dir, "dc_IB.png"), dpi=80)
         pp.close()
 
         for t,m in mm:
@@ -494,7 +501,7 @@ class modelResistorEquippedTransistor(modelBipolar):
         pp.ylabel("IC [mA]")
         pp.grid()
         pp.legend(loc='best')
-        pp.savefig("dc_IC.png",dpi=80)
+        pp.savefig(os.path.join(dir, "dc_IC.png"), dpi=80)
         pp.close()
         return ret
 
@@ -541,8 +548,8 @@ class modelOpamp(modelpartBase):
     def plot_dc_amplifier(self, dir):
         pp = plotter()
         
-        plots = spice_read.spice_read(os.path.join(dir, "dc_amplifier.data")
-                ).get_plots()
+        plots = spice_read.spice_read(
+                os.path.join(dir, "dc_amplifier.data")).get_plots()
         x = plots[0].get_scalevector().get_data()
         vin = plots[0].get_datavectors()[0].get_data()
         vout = plots[0].get_datavectors()[1].get_data()
