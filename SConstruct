@@ -10,6 +10,7 @@ import copy
 sys.path.append('scripts')
 import testlibrary
 import fix_name_has_slash
+import fixups
 
 TEMPDIR='unpack'
 MODEL_SIGDIR='model_checksums'
@@ -107,8 +108,8 @@ class Vendor(object):
             tempenv.partid = partid
             tempenv.library = library
             nodes.append(tempenv.TestSingle(target, sources))
-        self.test_opamps = \
-                env.Alias(''.join(['test_', self.abbrev, '_', section]), nodes)
+        setattr(self, 'test_' + section, 
+                env.Alias(''.join(['test_', self.abbrev, '_', section]), nodes))
         return nodes
     def test_index_all(self):
         nodes = []
@@ -337,9 +338,99 @@ class NationalSemiconductor(Vendor):
         return nodes
 
         
+class NXP(Vendor):
+    abbrev = 'nxp'
+    sections = ['diodes', 'bipolar']
+    download_urls = ['http://www.nxp.com/models/spicespar/zip/' + file
+            for file in ['fet.zip', 'power.zip', 'wideband.zip', 'SBD.zip', 
+            'SST.zip', 'diodes.zip', 'mmics.zip', 'varicap.zip',
+            'basestations.zip', 'complex_discretes.zip']]
+    def unpack_diodes(self):
+        return env.Command(None, os.path.join('downloads', 'nxp', 'diodes.zip'),
+                """
+                - unzip -d %(tempdir)s $SOURCE
+                md5sum %(tempdir)s/* >> %(csfile)s
+                """ % {'tempdir': os.path.join(TEMPDIR, 'nxp', 'diodes'),
+                    'csfile': os.path.join(MODEL_SIGDIR, 'nxp_diodes.md5sum')})
+    def unpack_bipolar(self):
+        return env.Command(None, os.path.join('downloads', 'nxp', 'SST.zip'),
+                """
+                - unzip -d %(tempdir)s $SOURCE
+                md5sum %(tempdir)s/* >> %(csfile)s
+                """ % {'tempdir': os.path.join(TEMPDIR, 'nxp', 'bipolar'),
+                    'csfile': os.path.join(MODEL_SIGDIR, 'nxp_bipolar.md5sum')})
+    def create_diodes(self):
+        section = 'diodes'
+        nodes = []
+        unpack_dir = os.path.join(TEMPDIR, self.abbrev, section)
+        create_dir = os.path.join(MODEL_LIBDIR, self.abbrev, section)
+        if not os.path.isdir(create_dir):
+            Execute(Mkdir(create_dir))
+        for model in os.listdir(unpack_dir):
+            flist = self.diode_fixups(model)
+            source = os.path.join(unpack_dir, model)
+            target = os.path.join(create_dir, model)
+            #XXX: env.Clone is SLOW
+            #TODO: find another way to do this
+            envtemp = env.Clone()
+            envtemp.flist = flist
+            def builder(target, source, env):
+                read = fixups.read(source[0])
+                fixups.write(target[0], reduce(lambda x, y: y(x), env.flist, read))
+            node = envtemp.Command(target, source, builder)
+            AddPostAction(target, 'md5sum $TARGET >> %s' % os.path.join(MODEL_SIGDIR, self.abbrev + '_' + section + '_lib.md5sum'))
+            nodes.append(node)
+        return nodes
+            
+
+    def diode_fixups(self, modelname):
+        ignore_patterns = [
+                'BZX384-B*prm',
+                'BZB84-B*prm',
+                'BZV49-C12.prm',
+                'PDZ4V7B.prm',
+                'PZU2.4*.prm',
+                'PZU2.7*.prm',
+                'PZU3.0*.prm',
+                'PZU3.3*.prm',
+                'PZU3.6*.prm',
+                'PZU3.9*.prm',
+                'PZU4.3*.prm',
+                'PZU4.7*.prm',
+                'PZU5.1B*A.prm',
+                'PZU5.1DB2.prm',
+                'PZU5.6B*A.prm',
+                'PZU5.6DB2.prm',
+                'PZU6.2B*A.prm',
+                'PZU6.2DB2.prm',
+                'PZU6.8B*A.prm',
+                'PZU6.8DB2.prm',
+                'PZU7.5B*A.prm',
+                'PZU7.5DB2.prm',
+                'PZU8.2B*A.prm',
+                'PZU8.2DB2.prm',
+                'PZU9.1B*A.prm',
+                'PZU9.1DB2.prm']
+        string_replacements = {
+                'PESD3V3L1BA.prm': ("*.MODEL", ".MODEL" ),
+	            '1N4148.prm': (".END", ".ENDS"),
+	            'BZX100A.prm': (".MODEL BZX100A", ".MODEL BZX100A D")}
+        #TODO: deal with ignore patterns
+        if modelname in string_replacements:
+            query, repl = string_replacements[modelname]
+            def f(gen):
+                return fixups.replace_string(query, repl, gen)
+            return [f, fixups.trailing_newline, fixups.ends_without_subcircuit]
+        else:
+            return [fixups.trailing_newline, fixups.ends_without_subcircuit]
 
 
+    def create_bipolar(self):
+        dir_ = os.path.join(MODEL_LIBDIR, self.abbrev, 'bipolar')
+        if not os.path.isdir(dir_):
+            Execute(Mkdir(dir_))
 
 ltc = LinearTechnology()
 ti = TexasInstruments()
 national = NationalSemiconductor()
+nxp = NXP()
