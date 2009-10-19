@@ -16,6 +16,7 @@ TEMPDIR='unpack'
 MODEL_SIGDIR='model_checksums'
 MODEL_LIBDIR='model_library'
 TESTDIR='model_tests'
+PATCHDIR='model_patches'
 
 
 env = Environment(ENV = {'PATH': os.environ["PATH"]})
@@ -364,14 +365,19 @@ class NXP(Vendor):
                 """ % {'tempdir': os.path.join(TEMPDIR, 'nxp', 'bipolar'),
                     'csfile': os.path.join(MODEL_SIGDIR, 'nxp_bipolar.md5sum')})
     def create_diodes(self):
-        section = 'diodes'
+        return self.create_section('diodes')
+    def create_bipolar(self):
+        return self.create_section('bipolar')
+    
+    def create_section(self, section):
         nodes = []
         unpack_dir = os.path.join(TEMPDIR, self.abbrev, section)
         create_dir = os.path.join(MODEL_LIBDIR, self.abbrev, section)
+        csfile = os.path.join(MODEL_SIGDIR, self.abbrev + '_' + section + '_lib.md5sum')
         if not os.path.isdir(create_dir):
             Execute(Mkdir(create_dir))
         for model in os.listdir(unpack_dir):
-            flist = self.diode_fixups(model)
+            flist, patch = getattr(self, section + '_fixups')(model)
             if flist != None:
                 source = os.path.join(unpack_dir, model)
                 target = os.path.join(create_dir, model)
@@ -381,12 +387,13 @@ class NXP(Vendor):
                     read = fixups.read(source[0])
                     fixups.write(target[0], reduce(lambda x, y: y(x), env.flist, read))
                 node = envtemp.Command(target, source, builder)
-                AddPostAction(target, 'md5sum $TARGET >> %s' % os.path.join(MODEL_SIGDIR, self.abbrev + '_' + section + '_lib.md5sum'))
+                AddPostAction(target, 'md5sum $TARGET >> %s' % csfile)
+                if patch != None:
+                    AddPostAction(target, 'patch -d %s -p1 < %s' % (create_dir, os.path.join(PATCHDIR, patch)))
                 nodes.append(node)
         return nodes
             
-
-    def diode_fixups(self, modelname):
+    def diodes_fixups(self, modelname):
         ignore_patterns = [
                 'BZX384-B.*prm',
                 'BZB84-B.*prm',
@@ -423,7 +430,7 @@ class NXP(Vendor):
                 'BZX84C75.prm']
         for pat in ignore_patterns:
             if re.match(pat, modelname):
-                return None #these files are duplicate models.  Not needed
+                return None, None #these files are duplicate models.  Not needed
         fixes = []
         if modelname in string_replacements:
             query, repl = string_replacements[modelname]
@@ -433,13 +440,50 @@ class NXP(Vendor):
         if modelname in bzx_3pin:
             fixes.append(fixups.bzx_pin_renumber)
         fixes += [fixups.trailing_newline, fixups.ends_without_subcircuit]
-        return fixes
+        patch = None
+        return fixes, patch
 
-
-    def create_bipolar(self):
-        dir_ = os.path.join(MODEL_LIBDIR, self.abbrev, 'bipolar')
-        if not os.path.isdir(dir_):
-            Execute(Mkdir(dir_))
+    def bipolar_fixups(self, modelname):
+        string_replacements = {
+            "BC327-25.prm": ("BC327-25", "BC327_25"),
+            "BC327-40.prm": ("BC327-40", "BC327_40"),
+            "BC337-16.prm": ("QBC337-16", "QBC337_16"),
+            "BC337-25.prm": ("QBC337-25", "QBC337_25"),
+            "BC337-40.prm": ("QBC337-40", "QBC337_40"),
+            "BC807-25.prm": ("QBC807-25", "QBC807_25"),
+            "BC807-25W.prm": ("QBC807-25W", "QBC807_25W"),
+            "BC807-40.prm": ("QBC807-40", "QBC807_40"),
+            "BC807-40W.prm": ("QBC807-40W", "QBC807_40W"),
+            "BC817-16.prm": ("QBC817-16", "QBC817_16"),
+            "BC817-16W.prm": ("QBC817-16W", "QBC817_16W"),
+            "BC817-25.prm": ("QBC817-25", "QBC817_25"),
+            "BC817-25W.prm": ("QBC817-25W", "QBC817_25W"),
+            "BC817-40.prm": ("QBC817-40", "QBC817_40"),
+            "BC817-40W.prm": ("QBC817-40W", "QBC817_40W"),
+            "BCP52-16.prm": ("QBCP52-16", "QBCP52_16"),
+            "BCP53-16.prm": ("QBCP53-16", "QBCP53_16"),
+            "BCP54-16.prm": ("QBCP54-16", "QBCP54_16"),
+            "BCP55-16.prm": ("QBCP55-16", "QBCP55_16"),
+            "BCP56-16.prm": ("QBCP56-16", "QBCP56_16"),
+            "2PB709ART.prm": ("QTR1", "TR1"),
+            "BCX56.prm": ("1 BCX56 NPN", "1 BCX56" ),
+            "PBSS8110AS.prm": ("*.SUBCKT", ".SUBCKT" ),
+            "BCV47.prm": ("LE 3 333", "LE 3 33" ),
+            "PBSS4540X.prm": ("1 PBSS4540X", "1 PB4540X" ),
+            "PBSS5160K.prm": ("*.MODEL", ".MODEL" ),
+            "PBSS5160U.prm": ("*.MODEL", ".MODEL" ),
+            "PDTC123YT.prm": ("TC2233Y", "TC223Y" ),
+            "PXTA14.prm": ("LE 3 333", "LE 3 33" )}
+        patches = {'BCP68.prm': 'BCP68.patch'}
+        fixes = []
+        if modelname in string_replacements:
+            query, repl = string_replacements[modelname]
+            def f(gen):
+                return fixups.replace_string(query, repl, gen)
+            fixes.append(f)
+        fixes += [fixups.trailing_newline, fixups.ends_without_subcircuit]
+        patch = patches.get(modelname, None)
+        return fixes, patch
 
 ltc = LinearTechnology()
 ti = TexasInstruments()

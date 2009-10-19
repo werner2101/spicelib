@@ -64,7 +64,7 @@ create_nxp_bipolar:
 	rm -rf $(MODEL_LIBDIR)/nxp/bipolar
 	mkdir -p $(MODEL_LIBDIR)/nxp/bipolar
 	cp $(TEMPDIR)/nxp/bipolar/* $(MODEL_LIBDIR)/nxp/bipolar
-	patch -d $(MODEL_LIBDIR)/nxp/bipolar/ -p1 < $(MODEL_PATCHDIR)/nxp_bipolar.patch
+	patch -d $(MODEL_LIBDIR)/nxp/bipolar/ -p1 < $(MODEL_PATCHDIR)/BCP68.patch
 	## individual file fixes
 	scripts/replace_string.py BC327-25 BC327_25 $(MODEL_LIBDIR)/nxp/bipolar/BC327-25.prm
 	scripts/replace_string.py BC327-40 BC327_40 $(MODEL_LIBDIR)/nxp/bipolar/BC327-40.prm
