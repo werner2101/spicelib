@@ -295,7 +295,7 @@ class modelDiode(modelpartBase):
         pp.close()
         return ret
   
-    def plot_reverse_voltage(self):
+    def plot_reverse_voltage(self, dir):
         #Basic diode has no reverse voltage plot
         return 0
 

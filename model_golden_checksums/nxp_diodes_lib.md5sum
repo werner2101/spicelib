@@ -205,12 +205,12 @@ bbe989144f27921718f38f976ded8b24  model_library/nxp/diodes/BZX84-C33.prm
 9ecf91ef256f62acd8c91d2e7584d371  model_library/nxp/diodes/BZX84-C36.prm
 88223f78f3882615015e6beb013fd6a2  model_library/nxp/diodes/BZX84-C39.prm
 b2d014519f2a362506c6db7ac06a7103  model_library/nxp/diodes/BZX84-C3V0.prm
-c5e66695bdc124a59c6da59380bc4a8b  model_library/nxp/diodes/BZX84C3V3.prm
+e28b107a26e986677394405da93598a8  model_library/nxp/diodes/BZX84C3V3.prm
 bf9b1ec4137d478cad050def7590c59d  model_library/nxp/diodes/BZX84-C3V6.prm
 9fc3bc7643221e63cd32f5e75f50357e  model_library/nxp/diodes/BZX84-C3V9.prm
 60faa5f31268337501b32e45ef6acbd1  model_library/nxp/diodes/BZX84-C43.prm
 a0f1fec598b1360530de83c69f1b83bb  model_library/nxp/diodes/BZX84-C47.prm
-a2d0fd1e1c751830a06f47421c91f309  model_library/nxp/diodes/BZX84C4V3.prm
+7cfbde689ab21635d16e6061e6a816f5  model_library/nxp/diodes/BZX84C4V3.prm
 013632c4935277aaa51242c40fa32551  model_library/nxp/diodes/BZX84-C4V7.prm
 7cf8783ce8b1daa7e007439a7d94621a  model_library/nxp/diodes/BZX84-C51.prm
 ab3979f4916cc2e7ee5fadcd3a8e94c5  model_library/nxp/diodes/BZX84-C56.prm
@@ -220,7 +220,7 @@ d2d6fdb9e355ee8f08a381fbb7225ba1  model_library/nxp/diodes/BZX84-C5V6.prm
 9dd17e2122642bf43a89b5cfdc9b03ff  model_library/nxp/diodes/BZX84-C68.prm
 6aafedcf3e562c2981d0d7aecfe9c480  model_library/nxp/diodes/BZX84-C6V2.prm
 e6614d044e8adc1fcd63ef1d3b94376f  model_library/nxp/diodes/BZX84-C6V8.prm
-8f91ff96abb785ee6999ac1ec1ed3bd6  model_library/nxp/diodes/BZX84C75.prm
+3991d6594a1c36ae01f52d9c9dee4f4f  model_library/nxp/diodes/BZX84C75.prm
 9c98d1203ae7bbd60ba51601ef4f64fd  model_library/nxp/diodes/BZX84-C7V5.prm
 6af1d3e87435418751b4abb41fdb09fa  model_library/nxp/diodes/BZX84-C8V2.prm
 a0fb25655ae4cbacbd3077825ed515a6  model_library/nxp/diodes/BZX84-C9V1.prm

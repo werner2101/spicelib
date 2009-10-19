@@ -89,3 +89,22 @@ def replace_string(query, repl, gen):
     for line in gen:
         line = line.replace(query, repl)
         yield line
+
+def bzx_pin_renumber(gen):
+    #Some NXP diodes come in 3 pin packages, with 1 NC pin.
+    #Most of the models model a 2-pin part, but some model 3-pin parts
+    #Change the 3-pin models into 2-pin models
+    SUBCKT_PAT = '^(\s*\.SUBCKT\s+\w+)( \w+ \w+ \w+)(.*)$'
+    DIODE_PAT = '^(\s*\w+\s+)(\w+\s+\w+)(\s*.*)$'
+    threepins = False
+    for line in gen:
+        smatch = re.search(SUBCKT_PAT, line)
+        if smatch:
+            line = smatch.groups()[0] + ' 1 2' + smatch.groups()[2] + os.linesep
+            threepins = True
+        if threepins:
+            dmatch = re.search(DIODE_PAT, line)
+            if dmatch:
+                line = dmatch.groups()[0] + '2 1 ' + dmatch.groups()[2] + os.linesep
+        yield line
+        

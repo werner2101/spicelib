@@ -2758,15 +2758,15 @@ value=BZX84C3V3
 modelname=BZX84C3V3
 file=BZX84C3V3.prm
 refdes=X?
-pinseq_a=1
-pinseq_k=2
+pinseq_a=2
+pinseq_k=1
 pinnr_a=A
 pinnr_k=K
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=3.3V zener diode
 test_refdes=X1
-model_status=undefined
+model_status=good
 
 
 

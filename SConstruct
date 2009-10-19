@@ -5,7 +5,7 @@
 import os
 import popen2
 import sys
-import copy
+import re
 
 sys.path.append('scripts')
 import testlibrary
@@ -98,8 +98,12 @@ class Vendor(object):
                                  ''.join([self.abbrev, '_', section, '.index']))
         library = testlibrary.modellibrary(indexfile)
         for name in library.modelparts:
+            ignore_status = ['undefined', 'new']
             partid = name
-            file = library.modelparts[name].properties['file']
+            status = library.modelparts[partid].properties['model_status']
+            if status in ignore_status:
+                continue
+            file = library.modelparts[partid].properties['file']
             sources = [indexfile,
                 os.path.join(MODEL_LIBDIR, self.abbrev, section, file)]
             dir_ = os.path.join(TESTDIR, self.abbrev, section, partid)
@@ -368,61 +372,68 @@ class NXP(Vendor):
             Execute(Mkdir(create_dir))
         for model in os.listdir(unpack_dir):
             flist = self.diode_fixups(model)
-            source = os.path.join(unpack_dir, model)
-            target = os.path.join(create_dir, model)
-            #XXX: env.Clone is SLOW
-            #TODO: find another way to do this
-            envtemp = env.Clone()
-            envtemp.flist = flist
-            def builder(target, source, env):
-                read = fixups.read(source[0])
-                fixups.write(target[0], reduce(lambda x, y: y(x), env.flist, read))
-            node = envtemp.Command(target, source, builder)
-            AddPostAction(target, 'md5sum $TARGET >> %s' % os.path.join(MODEL_SIGDIR, self.abbrev + '_' + section + '_lib.md5sum'))
-            nodes.append(node)
+            if flist != None:
+                source = os.path.join(unpack_dir, model)
+                target = os.path.join(create_dir, model)
+                envtemp = env.Clone()
+                envtemp.flist = flist
+                def builder(target, source, env):
+                    read = fixups.read(source[0])
+                    fixups.write(target[0], reduce(lambda x, y: y(x), env.flist, read))
+                node = envtemp.Command(target, source, builder)
+                AddPostAction(target, 'md5sum $TARGET >> %s' % os.path.join(MODEL_SIGDIR, self.abbrev + '_' + section + '_lib.md5sum'))
+                nodes.append(node)
         return nodes
             
 
     def diode_fixups(self, modelname):
         ignore_patterns = [
-                'BZX384-B*prm',
-                'BZB84-B*prm',
-                'BZV49-C12.prm',
-                'PDZ4V7B.prm',
-                'PZU2.4*.prm',
-                'PZU2.7*.prm',
-                'PZU3.0*.prm',
-                'PZU3.3*.prm',
-                'PZU3.6*.prm',
-                'PZU3.9*.prm',
-                'PZU4.3*.prm',
-                'PZU4.7*.prm',
-                'PZU5.1B*A.prm',
-                'PZU5.1DB2.prm',
-                'PZU5.6B*A.prm',
-                'PZU5.6DB2.prm',
-                'PZU6.2B*A.prm',
-                'PZU6.2DB2.prm',
-                'PZU6.8B*A.prm',
-                'PZU6.8DB2.prm',
-                'PZU7.5B*A.prm',
-                'PZU7.5DB2.prm',
-                'PZU8.2B*A.prm',
-                'PZU8.2DB2.prm',
-                'PZU9.1B*A.prm',
-                'PZU9.1DB2.prm']
+                'BZX384-B.*prm',
+                'BZB84-B.*prm',
+                'BZV49-C12\.prm',
+                'PDZ4V7B\.prm',
+                'PZU2\.4.*\.prm',
+                'PZU2\.7.*\.prm',
+                'PZU3\.0.*\.prm',
+                'PZU3\.3.*\.prm',
+                'PZU3\.6.*\.prm',
+                'PZU3\.9.*\.prm',
+                'PZU4\.3.*\.prm',
+                'PZU4\.7.*\.prm',
+                'PZU5\.1B.*A\.prm',
+                'PZU5\.1DB2\.prm',
+                'PZU5\.6B.*A\.prm',
+                'PZU5\.6DB2\.prm',
+                'PZU6\.2B.*A\.prm',
+                'PZU6\.2DB2\.prm',
+                'PZU6\.8B.*A\.prm',
+                'PZU6\.8DB2\.prm',
+                'PZU7\.5B.*A\.prm',
+                'PZU7\.5DB2\.prm',
+                'PZU8\.2B.*A\.prm',
+                'PZU8\.2DB2\.prm',
+                'PZU9\.1B.*A\.prm',
+                'PZU9\.1DB2\.prm']
         string_replacements = {
                 'PESD3V3L1BA.prm': ("*.MODEL", ".MODEL" ),
 	            '1N4148.prm': (".END", ".ENDS"),
 	            'BZX100A.prm': (".MODEL BZX100A", ".MODEL BZX100A D")}
-        #TODO: deal with ignore patterns
+        bzx_3pin = ['BZX84C3V3.prm',
+                'BZX84C4V3.prm',
+                'BZX84C75.prm']
+        for pat in ignore_patterns:
+            if re.match(pat, modelname):
+                return None #these files are duplicate models.  Not needed
+        fixes = []
         if modelname in string_replacements:
             query, repl = string_replacements[modelname]
             def f(gen):
                 return fixups.replace_string(query, repl, gen)
-            return [f, fixups.trailing_newline, fixups.ends_without_subcircuit]
-        else:
-            return [fixups.trailing_newline, fixups.ends_without_subcircuit]
+            fixes.append(f)
+        if modelname in bzx_3pin:
+            fixes.append(fixups.bzx_pin_renumber)
+        fixes += [fixups.trailing_newline, fixups.ends_without_subcircuit]
+        return fixes
 
 
     def create_bipolar(self):
