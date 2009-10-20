@@ -2,6 +2,25 @@
 # vim: sw=4 :
 # vim: ts=4 :
 
+#HOW TO ADD VENDORS
+#
+#Inherit from Vendor
+#Define these attributes
+#   abbrev: short abbreviation for your vendor's name
+#   download_urls: url(s) for the primary file(s) that need downloading
+#   sections:   list of sections for which we are preparing files
+#           valid sections are 'diodes', 'bipolar', 'opamps', etc
+#   unpack_by_section: True if your files unpack by category
+#           e.g. bipolar, opamps, etc
+#Define these methods
+#   unpack_<section>: define for all sections present
+#   <section>_fixups: define for all sections present.  This method determines
+#           what fixes and patches need to be applied for which model
+#If neccessary, overload any methods of Vendor
+#New fixups, if needed, should be added to scripts/fixups.py as coroutines
+#New fixups are preferable to new patches
+
+
 import os
 import popen2
 import sys
@@ -50,6 +69,11 @@ if not os.path.isdir(MODEL_SIGDIR):
     Execute(Mkdir(MODEL_SIGDIR))
 
 
+def mk_aliases(*args):
+    for phase in ['download', 'unpack', 'create', 'test']:
+        env.Alias(phase, [phase + '_' + arg.abbrev for arg in args])
+
+
 class Vendor(object):
     def __init__(self):
         self.download_all_node = self.download_all()
@@ -86,7 +110,42 @@ class Vendor(object):
     def create_all(self):
         nodes = []
         for sec in self.sections:
-            nodes.append(getattr(self, 'create_' + sec)())
+            node = self.create_section(sec)
+            env.Alias('create_' + self.abbrev + '_' + sec, node)
+            nodes.append(node)
+        return nodes
+    def create_section(self, section):
+        nodes = []
+        if self.unpack_by_section:
+            unpack_dir = os.path.join(TEMPDIR, self.abbrev, section)
+        else:
+            unpack_dir = os.path.join(TEMPDIR, self.abbrev)
+        create_dir = os.path.join(MODEL_LIBDIR, self.abbrev, section)
+        csfile = os.path.join(MODEL_SIGDIR, self.abbrev + '_' + section + '_lib.md5sum')
+        if not os.path.isdir(create_dir):
+            Execute(Mkdir(create_dir))
+        targets = set([])
+        for root, dirs, files in os.walk(unpack_dir):
+            try:
+                reldir = os.path.join(*(root.split(os.sep)[2:]))
+            except TypeError:
+                reldir = '.'
+            for model in files:
+                flist, patch = getattr(self, section + '_fixups')(model, reldir)
+                if flist != None and model not in targets:
+                    source = os.path.join(root, model)
+                    target = os.path.join(create_dir, model)
+                    envtemp = env.Clone()
+                    envtemp.flist = flist
+                    def builder(target, source, env):
+                        read = fixups.read(source[0])
+                        fixups.write(target[0], reduce(lambda x, y: y(x), env.flist, read))
+                    node = envtemp.Command(target, source, builder)
+                    targets.add(model)
+                    AddPostAction(target, 'md5sum $TARGET >> %s' % csfile)
+                    if patch != None:
+                        AddPostAction(target, 'patch -d %s -p1 < %s' % (create_dir, os.path.join(PATCHDIR, patch)))
+                    nodes.append(node)
         return nodes
     def test_all(self):
         nodes = []
@@ -131,6 +190,7 @@ class Vendor(object):
 
 class LinearTechnology(Vendor):
     abbrev = 'ltc'
+    unpack_by_section = False
     download_urls = ['http://ltspice.linear.com/software/LTC.zip']
     sections = ['opamps']
     all_ltc_opamps = [  #{{{1
@@ -213,25 +273,18 @@ class LinearTechnology(Vendor):
             unzip -o -d %(TEMPDIR)s $SOURCE
             scripts/ltcsplit.py -d %(TEMPDIR)s %(TEMPDIR)s/LTC.lib
             """ % { 'TEMPDIR': os.path.join(TEMPDIR, 'ltc')})
-    def create_opamps(self):
-        nodes = []
-        dir_ = os.path.join(MODEL_LIBDIR, self.abbrev, 'opamps')
-        if not os.path.isdir(dir_):
-            Execute(Mkdir(dir_))
-        for fn in self.all_ltc_opamps:
-            source = os.path.join(TEMPDIR, self.abbrev, fn)
-            if os.path.isfile(source):
-                target = os.path.join(dir_, fn)
-                nodes.append(env.Command(target, source,
-                    """
-                    cp $SOURCE $TARGET
-                    md5sum $TARGET >> %(MODEL_SIGDIR)s/ltc_opamps_lib.md5sum
-                    """ % {'MODEL_SIGDIR': MODEL_SIGDIR}))
-        return nodes
+    def opamps_fixups(self, modelname, dir):
+        patch = None
+        fixes = []
+        if not modelname in self.all_ltc_opamps:
+            return None, None
+        else:
+            return fixes, None
 
 
 class TexasInstruments(Vendor):
     abbrev = 'ti'
+    unpack_by_section = False
     download_urls = [
         'http://focus.ti.com/packaged_lits/pspice_files/ti_pspice_models.zip',
         'http://focus.ti.com/packaged_lits/pspice_files/ti_pspice_models_index.txt']
@@ -245,35 +298,21 @@ class TexasInstruments(Vendor):
             find %(TEMPDIR)s -name '*.zip' -exec unzip -o -d {}_d {} \;
             """ % {'TEMPDIR': os.path.join(TEMPDIR, 'ti'),
                    'SIGFILE': os.path.join(MODEL_SIGDIR, 'ti_all.md5sum')})
-    def create_opamps(self):
+    def opamps_fixups(self, model, dir):
         #TODO: create ti opamps based on ti_pspice_models_index.txt
-        dir_ = os.path.join(MODEL_LIBDIR, self.abbrev, 'opamps')
-        if not os.path.isdir(dir_):
-            Execute(Mkdir(dir_))
-        # copy models, don't copy TINA models and test circuits, 
-        #don't copy PSpice libs and schematics
-        nodes = []
-        unpack_dir = os.path.join(TEMPDIR, self.abbrev, 'pspice_models')
-        target_files = set([])
-        for opadir in os.listdir(unpack_dir):
-            if opadir[0:3] == 'opa':
-                for root, dirs, files in os.walk(os.path.join(unpack_dir, opadir)):
-                    for f in files:
-                        if os.path.splitext(f)[1] in ['.mod', '.MOD', '.txt', '.sub']:
-                            source = os.path.join(root, f)
-                            target = os.path.join(dir_, f)
-                            if not target in target_files and f not in ['Readme.txt', 'disclaimer.txt']:
-                                target_files.add(target)
-                                nodes.append(env.Command(target, source,
-                                    """
-                                    cp $SOURCE $TARGET
-                                    md5sum $TARGET >> %(MODEL_SIGDIR)s/ti_opamps_lib.md5sum
-                                    """ % {'MODEL_SIGDIR': MODEL_SIGDIR}))
-        return nodes
+        firstdir = dir.split(os.sep)[1]
+        if 'opa' != firstdir[0:3] or \
+                os.path.splitext(model)[1] not in \
+                    ['.mod', '.MOD', '.txt', '.sub'] or \
+                model in ['Readme.txt', 'disclaimer.txt']:
+            return None, None
+        else:
+            return [], None
 
 
 class NationalSemiconductor(Vendor):
     abbrev = 'national'
+    unpack_by_section = True
     download_urls = ['http://www.national.com/analog/amplifiers/spice_models']
     sections = ['opamps']
     def download_all(self):
@@ -307,12 +346,8 @@ class NationalSemiconductor(Vendor):
             """ % 
             {'sigfile': os.path.join(MODEL_SIGDIR, 'national_opamps.md5sum'),
              'tempdir': os.path.join(TEMPDIR, 'national', 'opamps')})
-    def create_opamps(self):
-        ddir = os.path.join(MODEL_LIBDIR, self.abbrev, 'opamps')
-        if not os.path.isdir(ddir):
-            Execute(Mkdir(ddir))
-        nodes = []
-        subckt_renames = {
+    def opamps_fixups(self, modelname, dir):
+        string_replacements = {
                 'LMH6619.MOD': ('LMH6618', 'LMH6619'),
                 'LMP7702.MOD': ('LMP7701', 'LMP7702'),
                 'LMP7704.MOD': ('LMP7701', 'LMP7704'),
@@ -321,31 +356,21 @@ class NationalSemiconductor(Vendor):
                 'LMV552.MOD': ('LMV551', 'LMV552'),
                 'LMV652.MOD': ('LMV651', 'LMV652')
                 }
-        sdir = os.path.join(TEMPDIR, self.abbrev, 'opamps') 
-        for file in os.listdir(sdir):
-            if file[-4:] == '.MOD':
-                source = os.path.join(sdir, file)
-                target = os.path.join(MODEL_LIBDIR, 'national', 'opamps', file)
-                if file in subckt_renames:
-                    tfn = os.path.join(sdir, file + '.tmp')
-                    nodes.append(env.Command(tfn, source, 
-                        fix_name_has_slash.fix))
-                    oldsubckt, newsubckt = subckt_renames[file]
-                    nodes.append(env.Command(target, tfn,
-                        """
-                        sed "s/\.SUBCKT *%s/.SUBCKT %s/" $SOURCE > $TARGET
-                        """ % (oldsubckt, newsubckt)))
-                else:
-                    nodes.append(env.Command(target, source, 
-                        fix_name_has_slash.fix))
-                AddPostAction(target, 'md5sum $TARGET >> %s' % 
-                    os.path.join(MODEL_SIGDIR, 'national_opamps_lib.md5sum'))
-        return nodes
+        patch = None
+        fixes = []
+        if modelname in string_replacements:
+            query, repl = string_replacements[modelname]
+            def f(gen):
+                return fixups.replace_string(query, repl, gen)
+            fixes.append(f)
+        fixes.append(fixups.name_has_slash)
+        return fixes, patch
 
-        
+       
 class NXP(Vendor):
     abbrev = 'nxp'
     sections = ['diodes', 'bipolar']
+    unpack_by_section = True
     download_urls = ['http://www.nxp.com/models/spicespar/zip/' + file
             for file in ['fet.zip', 'power.zip', 'wideband.zip', 'SBD.zip', 
             'SST.zip', 'diodes.zip', 'mmics.zip', 'varicap.zip',
@@ -364,36 +389,9 @@ class NXP(Vendor):
                 md5sum %(tempdir)s/* >> %(csfile)s
                 """ % {'tempdir': os.path.join(TEMPDIR, 'nxp', 'bipolar'),
                     'csfile': os.path.join(MODEL_SIGDIR, 'nxp_bipolar.md5sum')})
-    def create_diodes(self):
-        return self.create_section('diodes')
-    def create_bipolar(self):
-        return self.create_section('bipolar')
     
-    def create_section(self, section):
-        nodes = []
-        unpack_dir = os.path.join(TEMPDIR, self.abbrev, section)
-        create_dir = os.path.join(MODEL_LIBDIR, self.abbrev, section)
-        csfile = os.path.join(MODEL_SIGDIR, self.abbrev + '_' + section + '_lib.md5sum')
-        if not os.path.isdir(create_dir):
-            Execute(Mkdir(create_dir))
-        for model in os.listdir(unpack_dir):
-            flist, patch = getattr(self, section + '_fixups')(model)
-            if flist != None:
-                source = os.path.join(unpack_dir, model)
-                target = os.path.join(create_dir, model)
-                envtemp = env.Clone()
-                envtemp.flist = flist
-                def builder(target, source, env):
-                    read = fixups.read(source[0])
-                    fixups.write(target[0], reduce(lambda x, y: y(x), env.flist, read))
-                node = envtemp.Command(target, source, builder)
-                AddPostAction(target, 'md5sum $TARGET >> %s' % csfile)
-                if patch != None:
-                    AddPostAction(target, 'patch -d %s -p1 < %s' % (create_dir, os.path.join(PATCHDIR, patch)))
-                nodes.append(node)
-        return nodes
-            
-    def diodes_fixups(self, modelname):
+           
+    def diodes_fixups(self, modelname, dir):
         ignore_patterns = [
                 'BZX384-B.*prm',
                 'BZB84-B.*prm',
@@ -443,7 +441,7 @@ class NXP(Vendor):
         patch = None
         return fixes, patch
 
-    def bipolar_fixups(self, modelname):
+    def bipolar_fixups(self, modelname, dir):
         string_replacements = {
             "BC327-25.prm": ("BC327-25", "BC327_25"),
             "BC327-40.prm": ("BC327-40", "BC327_40"),
@@ -489,3 +487,5 @@ ltc = LinearTechnology()
 ti = TexasInstruments()
 national = NationalSemiconductor()
 nxp = NXP()
+
+mk_aliases(ltc, ti, national, nxp)
