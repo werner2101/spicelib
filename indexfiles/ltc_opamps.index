@@ -97,11 +97,12 @@ footprint=none
 description=Low offset JFET
 documentation=http://cds.linear.com/docs/Datasheet/10556fc.pdf
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 [LTC2050_LTC00041]
-symbol=.sym
+symbol=opamp.sym
 value=LTC2050
 modelname=LTC2050
 file=LTC2050.MOD
@@ -258,6 +259,7 @@ footprint=none
 description=Low Power CFA
 documentation=http://cds.linear.com/docs/Datasheet/lt1217.pdf
 test_refdes=X1
+test_vsupply=18
 model_status=undefined
 
 
@@ -419,6 +421,7 @@ footprint=none
 description=Video fader control
 documentation=http://cds.linear.com/docs/Datasheet/12516fa.pdf
 test_refdes=X1
+test_vsupply=10
 model_status=undefined
 
 
@@ -442,6 +445,7 @@ footprint=none
 description=1A Output Current
 documentation=http://cds.linear.com/docs/Datasheet/1210fa.pdf
 test_refdes=X1
+test_vsupply=10
 model_status=undefined
 
 
@@ -580,7 +584,8 @@ footprint=none
 description=Setting guaranteed to 0.01%, FET input
 documentation=http://cds.linear.com/docs/Datasheet/lt1122.pdf
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 [LT1192_LTC00011]
@@ -626,6 +631,7 @@ footprint=none
 description=Video fader control
 documentation=http://cds.linear.com/docs/Datasheet/12516fa.pdf
 test_refdes=X1
+test_vsupply=10
 model_status=undefined
 
 
@@ -695,6 +701,7 @@ footprint=none
 description=Zero drift no external capacitors
 documentation=http://cds.linear.com/docs/Datasheet/10513fa.pdf
 test_refdes=X1
+test_vsupply=10
 model_status=good
 
 
@@ -764,6 +771,7 @@ footprint=none
 description=Zero drift no external capacitors
 documentation=http://cds.linear.com/docs/Datasheet/1047fa.pdf
 test_refdes=X1
+test_vsupply=10
 model_status=good
 
 
@@ -788,7 +796,7 @@ description=Low Noise JFET
 documentation=http://cds.linear.com/docs/Datasheet/1169fa.pdf
 test_refdes=X1
 test_vsupply=10
-model_status=test
+model_status=good
 
 
 [LT1795_LTC00035]
@@ -811,6 +819,7 @@ footprint=none
 description=High Iout, High Speed
 documentation=http://cds.linear.com/docs/Datasheet/1795fa.pdf
 test_refdes=X1
+test_vsupply=18
 model_status=undefined
 
 
@@ -858,6 +867,7 @@ footprint=none
 description=Zero drift no external capacitors
 documentation=http://cds.linear.com/docs/Datasheet/1049fb.pdf
 test_refdes=X1
+test_vsupply=10
 model_status=good
 
 
@@ -881,6 +891,7 @@ footprint=none
 description=High Slew Rate, High Iout
 documentation=http://cds.linear.com/docs/Datasheet/1223fb.pdf
 test_refdes=X1
+test_vsupply=10
 model_status=undefined
 
 
@@ -950,7 +961,8 @@ footprint=none
 description=High speed JFET input
 documentation=http://cds.linear.com/docs/Datasheet/lt1022fa.pdf
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 [LT1055_LTC00004]
@@ -973,7 +985,8 @@ footprint=none
 description=Low offset JFET
 documentation=http://cds.linear.com/docs/Datasheet/10556fc.pdf
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 [LT6100_LTC00036]

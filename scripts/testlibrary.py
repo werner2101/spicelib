@@ -640,9 +640,12 @@ class modelOpamp(modelpartBase):
         vstart = -0.5
         vend = vsupply + 0.5
         vstep = (vend - vstart) / 200.
-        return ["alter v2 %fV" % vsupply,
+        return ['.include dc_amplifier.net',
+                '.control',
+                "alter v2 %fV" % vsupply,
                 "dc v1 %f %f %f" % (vstart, vend, vstep),
-                "write dc_amplifier.data dc1.V(in) dc1.V(out)"]
+                "write dc_amplifier.data dc1.V(in) dc1.V(out)",
+                '.endc']
 
 
 class modellibrary(object):
