@@ -14,12 +14,7 @@ from plotutils import load, plotter
 
 #################### SETUP VARS
 TEMPLATE_FILE = "testcircuits/index_template.html"
-REL_DIR = "../"   # relation between this script and the BASE_DIR
-
-BASE_DIR='/home/somers/spicelib/scons/'
-#BASE_DIR = os.path.join(os.getcwd(),
-#                        os.path.dirname(sys.argv[0]),
-#                        REL_DIR)
+BASE_DIR = os.path.join(os.path.dirname(__file__), '../')
 
 #################### GLOBAL DEFINITIONS
 
