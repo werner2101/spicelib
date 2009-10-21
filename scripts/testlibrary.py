@@ -248,7 +248,7 @@ class modelpartBase(object):
         print >>longmsg, ME, "testing and plotting"
         for meth in self.plot_methods:
             try:
-                ret_plot = getattr(self, meth)(dir)
+                ret_plot = getattr(self, meth)(dir, longmsg)
             except Exception, data:
                 print >>longmsg, ME, "plotting function died:"
                 print >>longmsg, data
@@ -267,14 +267,14 @@ class modelDiode(modelpartBase):
     plot_methods = ['plot_forward_voltage', 'plot_reverse_voltage']
     simulator = 'ngspice'
 
-    def forward_voltage_ok(self, If, Uf):
+    def forward_voltage_ok(self, If, Uf, longmsg):
         if numpy.any(Uf<0.0) or numpy.any(Uf>3.0):
-            print "forward voltage out of expected range [0.0, 3.0]"
+            print >>longmsg, "forward voltage out of expected range [0.0, 3.0]"
             return False
         else:
             return True
 
-    def plot_forward_voltage(self, dir):
+    def plot_forward_voltage(self, dir, longmsg):
         pp = plotter()
         labels = ["0C", "25C", "50C", "75C", "100C"]
         ret = 0
@@ -283,7 +283,7 @@ class modelDiode(modelpartBase):
         for n,pl in enumerate(plots):
             If = -pl.get_scalevector().get_data()
             Uf = pl.get_datavectors()[0].get_data()
-            if not self.forward_voltage_ok(If, Uf):
+            if not self.forward_voltage_ok(If, Uf, longmsg):
                 ret = 1
             if not numpy.any(numpy.isnan(If)) and not numpy.any(numpy.isnan(Uf)):
                 pp.semilogy(Uf, If*1000.0,label = labels[n])
@@ -295,7 +295,7 @@ class modelDiode(modelpartBase):
         pp.close()
         return ret
   
-    def plot_reverse_voltage(self, dir):
+    def plot_reverse_voltage(self, dir, longmsg):
         #Basic diode has no reverse voltage plot
         return 0
 
@@ -316,22 +316,22 @@ class modelDiode(modelpartBase):
 class modelZenerDiode(modelDiode):
     section = 'zener_diode'
 
-    def forward_voltage_ok(self, If, Uf):
+    def forward_voltage_ok(self, If, Uf, longmsg):
         ind = numpy.where(If < 0.2)[0]
         if numpy.any(Uf[ind] < 0.0) or numpy.any(Uf[ind] > 2.0):
-            print "forward voltage out of expected range [0.0, 2.0]"
+            print >>longmsg, "forward voltage out of expected range [0.0, 2.0]"
             return False
         else:
             return True
 
-    def reverse_voltage_ok(self, Ir, Ur):
+    def reverse_voltage_ok(self, Ir, Ur, longmsg):
         if numpy.any(-Ur < 0.0) or numpy.any(-Ur > 200.0):
-            print "reverse voltage out of expected range [0.0, 200.0]"
+            print >>longmsg, "reverse voltage out of expected range [0.0, 200.0]"
             return False
         else:
             return True
 
-    def plot_reverse_voltage(self, dir):
+    def plot_reverse_voltage(self, dir, longmsg):
         pp = plotter()
         labels = ["0C", "25C", "50C", "75C", "100C"]
         ret = 0
@@ -340,7 +340,7 @@ class modelZenerDiode(modelDiode):
         for n,pl in enumerate(plots):
             Ir = pl.get_scalevector().get_data()
             Ur = pl.get_datavectors()[0].get_data()
-            if not self.reverse_voltage_ok(Ir, Ur):
+            if not self.reverse_voltage_ok(Ir, Ur, longmsg):
                 ret = 2
             if not numpy.any(numpy.isnan(Ir)) and not numpy.any(numpy.isnan(Ur)):
                 pp.semilogy(-Ur, Ir * 1000.0, label = labels[n])
@@ -372,16 +372,16 @@ class modelZenerDiode(modelDiode):
 class modelZenerBidirectional(modelZenerDiode):
     section = 'zener_bidirectional'
 
-    def forward_voltage_ok(self, If, Uf):
+    def forward_voltage_ok(self, If, Uf, longmsg):
         if numpy.any(Uf < 0.5) or numpy.any(Uf > 200.0):
-            print "forward voltage out of expected range [0.5, 200.0]"
+            print >>longmsg, "forward voltage out of expected range [0.5, 200.0]"
             return False
         else:
             return True
 
-    def reverse_voltage_ok(self, Ir, Ur):
+    def reverse_voltage_ok(self, Ir, Ur, longmsg):
         if numpy.any(Ur < -200.) or numpy.any(Ur > -0.5):
-            print "reverse voltage out of expected range [0.5, 200]"
+            print >>longmsg, "reverse voltage out of expected range [0.5, 200]"
             return False
         else:
           return True
@@ -395,7 +395,7 @@ class modelBipolar(modelTransistor):
     plot_methods = ['plot_dc_current_gain', 'plot_saturation_voltages']
     simulator = 'gnucap'
 
-    def plot_dc_current_gain(self, dir):
+    def plot_dc_current_gain(self, dir, longmsg):
         pp = plotter()
         mm=[]
         mm.append(("0 C", load(os.path.join(dir, "dc_current_gain_t0.data"))))
@@ -425,7 +425,7 @@ class modelBipolar(modelTransistor):
         pp.close()
         return 0
 
-    def plot_saturation_voltages(self, dir):
+    def plot_saturation_voltages(self, dir, longmsg):
         pp = plotter()
         mm=[]
         mm.append(("0 C", load(
@@ -523,13 +523,13 @@ class modelResistorEquippedTransistor(modelBipolar):
     """Base class transistors with base and/or collector resistors"""
     plot_methods = ['plot_dc_current']
 
-    def base_current_ok(self, Uin, Iin):
+    def base_current_ok(self, Uin, Iin, longmsg):
         return True #stub function, must be overridden by child classes
 
-    def collector_current_ok(self, Uin, Ic):
+    def collector_current_ok(self, Uin, Ic, longmsg):
         return True #stub function, must be overridden by child classes
 
-    def plot_dc_current(self, dir):
+    def plot_dc_current(self, dir, longmsg):
         ret = 0
         pp = plotter()
         mm=[]
@@ -543,7 +543,7 @@ class modelResistorEquippedTransistor(modelBipolar):
         for t,m in mm:
             Uin = m[:,0]
             Iin = -m[:,1]
-            if not self.base_current_ok(Uin, Iin):
+            if not self.base_current_ok(Uin, Iin, longmsg):
                 ret = 1
             pp.plot(Uin, Iin * 1000,label=t)
         pp.xlabel("Uin [V]")
@@ -556,7 +556,7 @@ class modelResistorEquippedTransistor(modelBipolar):
         for t,m in mm:
             Uin = m[:,0]
             Ic = -m[:,2]
-            if not self.collector_current_ok(Uin, Ic):
+            if not self.collector_current_ok(Uin, Ic, longmsg):
                 ret = 1
             pp.plot(Uin, Ic * 1000,label=t)
         pp.xlabel("Uin [V]")
@@ -589,16 +589,16 @@ class modelBipolarBin(modelResistorEquippedTransistor):
     plot_methods = ['plot_dc_current']
     simulator = 'gnucap'
 
-    def base_current_ok(self, Uin, Iin):
+    def base_current_ok(self, Uin, Iin, longmsg):
         if numpy.any(Iin < -.001) or numpy.any(Iin > 1.0):
-            print "input current out of expected range [-0.001, 1.0]"
+            print >>longmsg, "input current out of expected range [-0.001, 1.0]"
             return False
         else:
             return True
 
-    def collector_current_ok(self, Uin, Ic):
+    def collector_current_ok(self, Uin, Ic, longmsg):
         if numpy.any(Ic < -.001) or numpy.any(Ic > 100.0):
-            print "collector current out of expected range [-0.001, 100.0]"
+            print >>longmsg, "collector current out of expected range [-0.001, 100.0]"
             return False
         else:
             return True
@@ -616,7 +616,8 @@ class modelOpamp(modelpartBase):
     section = 'opamp'
     plot_methods = ['plot_dc_amplifier']
     simulator = 'ngspice'
-    def plot_dc_amplifier(self, dir):
+    def plot_dc_amplifier(self, dir, longmsg):
+        ret = 0
         pp = plotter()
         
         plots = spice_read.spice_read(
@@ -624,6 +625,8 @@ class modelOpamp(modelpartBase):
         x = plots[0].get_scalevector().get_data()
         vin = plots[0].get_datavectors()[0].get_data()
         vout = plots[0].get_datavectors()[1].get_data()
+        if not self.voltage_ok(vin, vout, longmsg):
+            ret = 1
         
         pp.plot(x, vin, label="v(in)")
         pp.plot(x, vout, label="v(out)")
@@ -633,10 +636,10 @@ class modelOpamp(modelpartBase):
         pp.legend(loc="best")
         pp.savefig(os.path.join(dir, "dc_amplifier.png"), dpi=80)
         pp.close()
-        return 0
+        return ret
     def simulate_cmd_lines(self, simulator):
         """Returns a list of lines that form the simulator command"""
-        vsupply = float(self.properties.get('test_vsupply', 5))
+        vsupply = self.vsupply()
         vstart = -0.5
         vend = vsupply + 0.5
         vstep = (vend - vstart) / 200.
@@ -646,6 +649,35 @@ class modelOpamp(modelpartBase):
                 "dc v1 %f %f %f" % (vstart, vend, vstep),
                 "write dc_amplifier.data dc1.V(in) dc1.V(out)",
                 '.endc']
+    def voltage_ok(self, vin, vout, longmsg):
+        success = True
+        vs = self.vsupply()
+        vmax = vs + 0.5
+        vmin = 0 - 0.5
+        if numpy.any(numpy.isnan(vin)) or numpy.any(numpy.isnan(vout)):
+            print >>longmsg, "NaN in data"
+            success = False
+        if numpy.any(vin > vmax) or numpy.any(vin < vmin):
+            print >>longmsg, "input voltage out of expected range [%f, %f]" % (vmin, vmax)
+            success = False
+        if numpy.any(vout > vmax) or numpy.any(vout < vmin):
+            print >>longmsg, "output voltage out of expected range [%f, %f]" % (vmin, vmax)
+            success = False
+        if max(vout) - min(vout) < vs / 100.:
+            print >>longmsg, 'output voltage is not a function of input voltage'
+            success = False
+        t = len(vin) / 4
+        amp = vout[t] / vin[t]
+        if not numpy.allclose(amp, 2., rtol=.01):
+            print >>longmsg, 'Circuit does not acheive correct amplification'
+            print >>longmsg, "Amplification at %fV input is %f" % (vin[t], amp)
+            success = False
+        return success
+
+
+    def vsupply(self):
+        return float(self.properties.get('test_vsupply', 5))
+          
 
 
 class modellibrary(object):

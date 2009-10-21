@@ -74,7 +74,8 @@ footprint=none
 description=Low cost high voltage CFA, shutdown
 documentation=http://cds.linear.com/docs/Datasheet/12596fas.pdf
 test_refdes=X1
-model_status=undefined
+test_vsupply=30
+model_status=test
 
 
 [LT1056_LTC00005]
@@ -102,7 +103,7 @@ model_status=good
 
 
 [LTC2050_LTC00041]
-symbol=opamp.sym
+symbol=.sym
 value=LTC2050
 modelname=LTC2050
 file=LTC2050.MOD
@@ -190,7 +191,8 @@ footprint=none
 description=High voltage dual video amp
 documentation=http://cds.linear.com/docs/Datasheet/lt1253.pdf
 test_refdes=X1
-model_status=undefined
+test_vsupply=24
+model_status=test
 
 
 [LTC1050_LTC00039]
@@ -259,8 +261,8 @@ footprint=none
 description=Low Power CFA
 documentation=http://cds.linear.com/docs/Datasheet/lt1217.pdf
 test_refdes=X1
-test_vsupply=18
-model_status=undefined
+test_vsupply=30
+model_status=good
 
 
 [LT1497_LTC00033]
@@ -283,7 +285,8 @@ footprint=none
 description=125mA Output CFA
 documentation=http://cds.linear.com/docs/Datasheet/1497f.pdf
 test_refdes=X1
-model_status=undefined
+test_vsupply=30
+model_status=good
 
 
 [LT1212_LTC00015]
@@ -329,7 +332,8 @@ footprint=none
 description=High voltage quad video amp
 documentation=http://cds.linear.com/docs/Datasheet/lt1253.pdf
 test_refdes=X1
-model_status=undefined
+test_vsupply=24
+model_status=test
 
 
 [LT1227_LTC00022]
@@ -352,7 +356,8 @@ footprint=none
 description=High Voltage CFA
 documentation=http://cds.linear.com/docs/Datasheet/1227fb.pdf
 test_refdes=X1
-model_status=undefined
+test_vsupply=30
+model_status=test
 
 
 [LT1097_LTC00006]
@@ -515,7 +520,8 @@ footprint=none
 description=General purpose high voltage CFA
 documentation=http://cds.linear.com/docs/Datasheet/122930fa.pdf
 test_refdes=X1
-model_status=undefined
+test_vsupply=30
+model_status=test
 
 
 [LT1260_LTC00032]
@@ -538,7 +544,8 @@ footprint=none
 description=Low cost high voltage CFA, shutdown
 documentation=http://cds.linear.com/docs/Datasheet/12596fas.pdf
 test_refdes=X1
-model_status=undefined
+test_vsupply=30
+model_status=test
 
 
 [LT1187_LTC00009]
@@ -748,7 +755,8 @@ footprint=none
 description=High voltage video amp
 documentation=http://cds.linear.com/docs/Datasheet/lt1252.pdf
 test_refdes=X1
-model_status=undefined
+test_vsupply=24
+model_status=test
 
 
 [LTC1047_LTC00037]
@@ -891,8 +899,8 @@ footprint=none
 description=High Slew Rate, High Iout
 documentation=http://cds.linear.com/docs/Datasheet/1223fb.pdf
 test_refdes=X1
-test_vsupply=10
-model_status=undefined
+test_vsupply=30
+model_status=good
 
 
 [LT1229_LTC00024]
@@ -915,7 +923,8 @@ footprint=none
 description=General purpose high voltage CFA
 documentation=http://cds.linear.com/docs/Datasheet/122930fa.pdf
 test_refdes=X1
-model_status=undefined
+test_vsupply=30
+model_status=test
 
 
 [LT1211_LTC00014]
