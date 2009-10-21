@@ -138,6 +138,9 @@ class modelpartBase(object):
         self.checksum_status = None
         self.test_status = None
 
+    def simulate_cmd(self, simulator):
+        """Returns the string to be passed to simulator"""
+        return os.linesep.join(['*'] + self.simulate_cmd_lines(simulator))
     def test(self):
         if TESTDEFS.has_key(self.properties["symbol"]):
             test = TESTDEFS[self.properties["symbol"]]
@@ -155,7 +158,6 @@ class modelpartBase(object):
                 open(os.path.join(self.testdir, f), "wt").write(sch.safe_substitute(repl))
 
             ## run the tests
-            save_cwd = os.getcwd()
             self.test_message, result = self.plot_all(self.testdir)
 
             if result == 0:
@@ -224,8 +226,9 @@ class modelpartBase(object):
 
         for sch in TESTDEFS[self.properties['symbol']]['schematics']:
             net = os.path.splitext(sch)[0] + '.net'
-            command="gnetlist -g spice-sdb -l scripts/geda-parts.scm -o %s %s" \
-                      %(os.path.join(dir, net), os.path.join(dir, sch))
+            command="gnetlist -g spice-sdb -l scripts/geda-parts.scm -o %(netfile)s %(schfile)s" \
+                    % {'netfile': os.path.join(dir, net), 
+                       'schfile': os.path.join(dir, sch)}
             print >>longmsg, ME, "creating netlist: ", command
             pop = popen2.Popen4(command)
             ret_gnetlist = pop.wait()
@@ -235,7 +238,9 @@ class modelpartBase(object):
             else:
                 print >>longmsg, ME, "netlist creation was successful"
 
-        command = ("cd %s ; " % dir) + self.simulator + " -b ../../../../testcircuits/" + self.section + "/simulate." + self.simulator
+        simfile = 'simulate.' + self.simulator
+        f = open(os.path.join(dir, simfile), 'w').write(self.simulate_cmd(self.simulator))
+        command = ("cd %s ; " % dir) + self.simulator + " -b " + simfile
         print >>longmsg, ME, "running simulation: ", command
         pop = popen2.Popen4(command)
         print >>longmsg, pop.fromchild.read()
@@ -299,6 +304,19 @@ class modelDiode(modelpartBase):
         #Basic diode has no reverse voltage plot
         return 0
 
+    def simulate_cmd_lines(self, simulator):
+        """Returns a list of lines that form the simulator command"""
+        return ['.include dc_current.net',
+                '.control',
+                'foreach t 0 25 50 75 100',
+                '  set temp =  $t',
+                '  dc i1 -10uA -1A -1mA',
+                'end',
+                'write forward_voltage.data dc1.V(in) dc2.V(in) dc3.V(in) dc4.V(in) dc5.V(in)',
+                '.endc']
+
+
+
 
 class modelZenerDiode(modelDiode):
     section = 'zener_diode'
@@ -338,6 +356,22 @@ class modelZenerDiode(modelDiode):
         pp.savefig(os.path.join(dir, "dc_reverse_voltage.png"),dpi=80)
         pp.close()
         return ret
+
+    def simulate_cmd_lines(self, simulator):
+        """Returns a list of lines that form the simulator command"""
+        return ['.include dc_current.net',
+                '.control',
+                'foreach t 0 25 50 75 100',
+                '  set temp =  $t',
+                '  dc i1 -10uA -1A -1mA',
+                'end',
+                'write forward_voltage.data dc1.V(in) dc2.V(in) dc3.V(in) dc4.V(in) dc5.V(in)',
+                'foreach t 0 25 50 75 100',
+                '  set temp =  $t',
+                '  dc i1 10uA 1A 1mA',
+                'end',
+                'write reverse_voltage.data dc6.V(in) dc7.V(in) dc8.V(in) dc9.V(in) dc10.V(in)',
+                '.endc']
 
 
 class modelZenerBidirectional(modelZenerDiode):
@@ -431,7 +465,42 @@ class modelBipolar(modelTransistor):
         pp.savefig(os.path.join(dir, "vbe_saturation_voltage.png"),dpi=80)
         pp.close()
         return 0
+    def simulate_cmd_lines(self, simulator):
+        """Returns a list of lines that form the simulator command"""
+        return ['.get dc_current_gain.net',
+                '.pr dc I(V1) I(I1) V(in)',
+                '.dc i1 -1m -10n *0.8 temperature=0 >dc_current_gain_t0.data',
+                '.dc i1 -1m -10n *0.8 temperature=25 >dc_current_gain_t25.data',
+                '.dc i1 -1m -10n *0.8 temperature=50 >dc_current_gain_t50.data',
+                '.dc i1 -1m -10n *0.8 temperature=75 >dc_current_gain_t75.data',
+                '.dc i1 -1m -10n *0.8 temperature=100 >dc_current_gain_t100.data',
+                '.get saturation_voltages.net',
+                '.pr dc I(V1) V(in) V(out)',
+                '.dc i1 -50m -10n *0.8 temperature=0 >saturation_voltages_t0.data',
+                '.dc i1 -50m -10n *0.8 temperature=25 >saturation_voltages_t25.data',
+                '.dc i1 -50m -10n *0.8 temperature=50 >saturation_voltages_t50.data',
+                '.dc i1 -50m -10n *0.8 temperature=75 >saturation_voltages_t75.data',
+                '.dc i1 -50m -10n *0.8 temperature=100 >saturation_voltages_t100.data']
 
+
+class modelDarlington(modelBipolar):
+    VCEsat_plot_limit = 2.0  #amps
+    def simulate_cmd_lines(self, simulator):
+        """Returns a list of lines that form the simulator command"""
+        return ['.get dc_current_gain.net',
+                '.pr dc I(V1) I(I1) V(in)',
+                '.dc i1 -10u -100p *0.8 temperature=0 >dc_current_gain_t0.data',
+                '.dc i1 -10u -100p *0.8 temperature=25 >dc_current_gain_t25.data',
+                '.dc i1 -10u -100p *0.8 temperature=50 >dc_current_gain_t50.data',
+                '.dc i1 -10u -100p *0.8 temperature=75 >dc_current_gain_t75.data',
+                '.dc i1 -10u -100p *0.8 temperature=100 >dc_current_gain_t100.data',
+                '.get saturation_voltages.net',
+                '.pr dc I(V1) V(in) V(out)',
+                '.dc i1 -2m -500p *0.8 temperature=0 >saturation_voltages_t0.data',
+                '.dc i1 -2m -500p *0.8 temperature=25 >saturation_voltages_t25.data',
+                '.dc i1 -2m -500p *0.8 temperature=50 >saturation_voltages_t50.data',
+                '.dc i1 -2m -500p *0.8 temperature=75 >saturation_voltages_t75.data',
+                '.dc i1 -2m -500p *0.8 temperature=100 >saturation_voltages_t100.data']
 
 class modelNPNBipolar(modelBipolar):
     VCEsat_plot_limit = 1.0  #amps
@@ -439,8 +508,7 @@ class modelNPNBipolar(modelBipolar):
     icc_sign = 1. #Sign of the collector current
 
 
-class modelNPNDarlington(modelBipolar):
-    VCEsat_plot_limit = 2.0  #amps
+class modelNPNDarlington(modelDarlington):
     section = 'npn_darlington'
     icc_sign = 1. #Sign of the collector current
 
@@ -451,8 +519,7 @@ class modelPNPBipolar(modelBipolar):
     icc_sign = -1. #Sign of the collector current
 
 
-class modelPNPDarlington(modelBipolar):
-    VCEsat_plot_limit = 2.0  #amps
+class modelPNPDarlington(modelDarlington):
     section = 'pnp_darlington'
     icc_sign = -1. #Sign of the collector current
 
@@ -504,6 +571,15 @@ class modelResistorEquippedTransistor(modelBipolar):
         pp.savefig(os.path.join(dir, "dc_IC.png"), dpi=80)
         pp.close()
         return ret
+
+    def simulate_cmd_lines(self, simulator):
+        return ['.get dc_current.net',
+                '.pr dc I(V1) I(V2) V(in)',
+                '.dc v1 0 5 0.1 temperature=0 >dc_current_t0.data',
+                '.dc v1 0 5 0.1 temperature=25 >dc_current_t25.data',
+                '.dc v1 0 5 0.1 temperature=50 >dc_current_t50.data',
+                '.dc v1 0 5 0.1 temperature=75 >dc_current_t75.data',
+                '.dc v1 0 5 0.1 temperature=100 >dc_current_t100.data']
 
 
 class modelPNPRbase(modelResistorEquippedTransistor):
@@ -563,6 +639,15 @@ class modelOpamp(modelpartBase):
         pp.savefig(os.path.join(dir, "dc_amplifier.png"), dpi=80)
         pp.close()
         return 0
+    def simulate_cmd_lines(self, simulator):
+        """Returns a list of lines that form the simulator command"""
+        vsupply = float(self.properties.get('test_vsupply', 5))
+        vstart = -0.5
+        vend = vsupply + 0.5
+        vstep = (vend - vstart) / 200.
+        return ["alter v2 %fV" % vsupply,
+                "dc v1 %f %f %f" % (vstart, vend, vstep),
+                "write dc_amplifier.data dc1.V(in) dc1.V(out)"]
 
 
 class modellibrary(object):
