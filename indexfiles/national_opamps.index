@@ -28,6 +28,7 @@ footprint=none
 description=Monolithic JFET-Input OP-AMP 
 documentation=http://www.national.com/ds/LF/LF156.pdf
 test_refdes=X1
+test_vsupply=30
 model_status=test
 
 
@@ -51,6 +52,7 @@ footprint=none
 description=Monolithic JFET-Input OP-AMP 
 documentation=http://www.national.com/ds/LF/LF256.pdf
 test_refdes=X1
+test_vsupply=30
 model_status=test
 
 
@@ -97,6 +99,7 @@ footprint=none
 description=Monolithic JFET-Input OP-AMP 
 documentation=http://www.national.com/ds/LF/LF356.pdf
 test_refdes=X1
+test_vsupply=30
 model_status=test
 
 
@@ -120,6 +123,7 @@ footprint=none
 description=LOW OFFSET, LOW DRIFT JFET INPUT OP-AMP 
 documentation=http://www.national.com/ds/LF/LF411.pdf
 test_refdes=X1
+test_vsupply=30
 model_status=test
 
 
@@ -143,6 +147,7 @@ footprint=none
 description=LOW OFFSET, LOW DRIFT DUAL JFET INPUT OP-AMP MODEL
 documentation=http://www.national.com/ds/LF/LF412.pdf
 test_refdes=X1
+test_vsupply=30
 model_status=test
 
 
@@ -166,6 +171,7 @@ footprint=none
 description=Dual Low Power JFET Input Operational Amplifier
 documentation=http://www.national.com/ds/LF/LF442.pdf
 test_refdes=X1
+test_vsupply=40
 model_status=test
 
 
@@ -189,6 +195,7 @@ footprint=none
 description=Dual Low Power JFET Input Operational Amplifier
 documentation=http://www.national.com/ds/LF/LF442.pdf
 test_refdes=X1
+test_vsupply=30
 model_status=test
 
 
@@ -212,6 +219,7 @@ footprint=none
 description=Quad Low Power JFET Input Operational Amplifier   
 documentation=http://www.national.com/ds/LF/LF444.pdf
 test_refdes=X1
+test_vsupply=40
 model_status=test
 
 
@@ -235,11 +243,12 @@ footprint=none
 description=Quad Low Power JFET Input Operational Amplifier   
 documentation=http://www.national.com/ds/LF/LF444.pdf
 test_refdes=X1
+test_vsupply=30
 model_status=test
 
 
 [LM111_LM00011]
-symbol=opamp.sym
+symbol=.sym
 value=LM111
 modelname=LM111
 file=LM111.MOD
@@ -258,7 +267,7 @@ footprint=none
 description=Voltage Comparator
 documentation=http://www.national.com/ds/LM/LM111.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LM118_LM00012]
@@ -2079,7 +2088,7 @@ model_status=test
 
 
 [LMC6762A_LM00091]
-symbol=opamp.sym
+symbol=.sym
 value=LMC6762A
 modelname=LMC6762A
 file=LMC6762A.MOD
@@ -2098,11 +2107,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6762.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMC6762B_LM00092]
-symbol=opamp.sym
+symbol=.sym
 value=LMC6762B
 modelname=LMC6762B
 file=LMC6762B.MOD
@@ -2121,11 +2130,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6762.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMC6772A_LM00093]
-symbol=opamp.sym
+symbol=.sym
 value=LMC6772A
 modelname=LMC6772A
 file=LMC6772A.MOD
@@ -2144,11 +2153,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6772.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMC6772B_LM00094]
-symbol=opamp.sym
+symbol=.sym
 value=LMC6772B
 modelname=LMC6772B
 file=LMC6772B.MOD
@@ -2167,7 +2176,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6772.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMC7101A_LM00095]
@@ -2240,7 +2249,7 @@ model_status=test
 
 
 [LMC7211A_LM00098]
-symbol=opamp.sym
+symbol=.sym
 value=LMC7211A
 modelname=LMC7211A
 file=LMC7211A.MOD
@@ -2259,11 +2268,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7211.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMC7211B_LM00099]
-symbol=opamp.sym
+symbol=.sym
 value=LMC7211B
 modelname=LMC7211B
 file=LMC7211B.MOD
@@ -2282,11 +2291,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7211.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMC7215_LM00100]
-symbol=opamp.sym
+symbol=.sym
 value=LMC7215
 modelname=LMC7215
 file=LMC7215.MOD
@@ -2305,11 +2314,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7215.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMC7221A_LM00101]
-symbol=opamp.sym
+symbol=.sym
 value=LMC7221A
 modelname=LMC7221A
 file=LMC7221A.MOD
@@ -2328,11 +2337,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7221.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMC7221B_LM00102]
-symbol=opamp.sym
+symbol=.sym
 value=LMC7221B
 modelname=LMC7221B
 file=LMC7221B.MOD
@@ -2351,11 +2360,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7221.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMC7225_LM00103]
-symbol=opamp.sym
+symbol=.sym
 value=LMC7225
 modelname=LMC7225
 file=LMC7225.MOD
@@ -2374,7 +2383,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7225.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [lmc8101_LM00104]
@@ -2742,7 +2751,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6619.pdf
 test_refdes=X1
-model_status=good
+model_status=broken
 
 
 [LMH6622_LM00120]
@@ -2751,8 +2760,8 @@ value=LMH6622
 modelname=LMH6622
 file=LMH6622.MOD
 refdes=X?
-pinseq_inp=1
-pinseq_inn=2
+pinseq_inp=2
+pinseq_inn=1
 pinseq_pp=3
 pinseq_pn=4
 pinseq_out=5
@@ -2762,10 +2771,11 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
+description=Dual Wideband, Low Noise, 160MHz, Operational Amplifiers
 documentation=http://www.national.com/ds/LM/LMH6622.pdf
 test_refdes=X1
-model_status=broken
+test_vsupply=12
+model_status=good
 
 
 [LMH6624_LM00121]
@@ -2808,10 +2818,11 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
+description=Dual Wideband, Low Noise, Voltage Feedback Op Amp
 documentation=http://www.national.com/ds/LM/LMH6628.pdf
 test_refdes=X1
-model_status=test
+test_vsupply=10
+model_status=good
 
 
 [LMH6639_LM00123]
@@ -3383,7 +3394,7 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=SPICE MODEL PERFORMANCE
+description=High Precision, Rail-to-Rail Output Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMP2015.pdf
 test_refdes=X1
 model_status=good
@@ -3406,7 +3417,7 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=SPICE MODEL PERFORMANCE
+description=High Precision, Rail-to-Rail Output Dual Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMP2016.pdf
 test_refdes=X1
 model_status=good
@@ -3521,7 +3532,7 @@ pinnr_pp=V+
 pinnr_pn=V-
 pinnr_out=out
 footprint=none
-description=TBD1
+description=Quad Micropower, 1.6V, Precision, Operational Amplifier with CMOS Input
 documentation=http://www.national.com/ds/LM/LMP2234.pdf
 test_refdes=X1
 model_status=good
@@ -3754,7 +3765,8 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7715.pdf
 test_refdes=X1
-model_status=broken
+test_vsupply=5
+model_status=good
 
 
 [LMP7716_LM00164]
@@ -3777,7 +3789,8 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7716.pdf
 test_refdes=X1
-model_status=broken
+test_vsupply=5
+model_status=good
 
 
 [LMP7717_LM00165]
@@ -4126,7 +4139,7 @@ model_status=broken
 
 
 [lmv331_LM00180]
-symbol=opamp.sym
+symbol=.sym
 value=lmv331
 modelname=lmv331
 file=LMV331.MOD
@@ -4145,11 +4158,11 @@ footprint=none
 description=Low Voltage General Purpose Comparator
 documentation=http://www.national.com/ds/LM/LMV331.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [lmv339_LM00181]
-symbol=opamp.sym
+symbol=.sym
 value=lmv339
 modelname=lmv339
 file=LMV339.MOD
@@ -4168,7 +4181,7 @@ footprint=none
 description=Quad  Low Voltage General Purpose Comparator
 documentation=http://www.national.com/ds/LM/LMV339.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMV342_LM00182]
@@ -4218,7 +4231,7 @@ model_status=broken
 
 
 [lmv393_LM00184]
-symbol=opamp.sym
+symbol=.sym
 value=lmv393
 modelname=lmv393
 file=LMV393.MOD
@@ -4237,7 +4250,7 @@ footprint=none
 description=Dual Low Voltage General Purpose Comparator
 documentation=http://www.national.com/ds/LM/LMV393.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMV551_LM00185]
@@ -4448,7 +4461,7 @@ model_status=good
 
 
 [LMV7219_LM00194]
-symbol=opamp.sym
+symbol=.sym
 value=LMV7219
 modelname=LMV7219
 file=LMV7219.MOD
@@ -4467,7 +4480,7 @@ footprint=none
 description=7nsec 2.7 to 5V Comparator with Rail-to-Rail Output
 documentation=http://www.national.com/ds/LM/LMV7219.pdf
 test_refdes=X1
-model_status=good
+model_status=undefined
 
 
 [LMV7271_LM00195]

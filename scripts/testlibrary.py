@@ -654,10 +654,11 @@ class modelOpamp(modelpartBase):
         vs = self.vsupply()
         vmax = vs + 0.5
         vmin = 0 - 0.5
+        vmargin = .001
         if numpy.any(numpy.isnan(vin)) or numpy.any(numpy.isnan(vout)):
             print >>longmsg, "NaN in data"
             success = False
-        if numpy.any(vin > vmax) or numpy.any(vin < vmin):
+        if numpy.any(vin > vmax + vmargin) or numpy.any(vin < vmin - vmargin):
             print >>longmsg, "input voltage out of expected range [%f, %f]" % (vmin, vmax)
             success = False
         if numpy.any(vout > vmax) or numpy.any(vout < vmin):
