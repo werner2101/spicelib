@@ -800,7 +800,7 @@ model_status=test
 
 
 [LM6181_LM00035]
-symbol=opamp.sym
+symbol=cfa.sym
 value=LM6181
 modelname=LM6181
 file=LM6181.MOD
@@ -819,7 +819,7 @@ footprint=none
 description=CURRENT FEEDBACK OP-AMP 
 documentation=http://www.national.com/ds/LM/LM6181.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 [LM6211_LM00036]
