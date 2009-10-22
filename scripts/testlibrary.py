@@ -92,6 +92,10 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "testcircuits/npn_bipolar/",
             "opamp.sym": { "dir" : BASE_DIR + "testcircuits/opamp/",
                                     "schematics" : ["dc_amplifier.sch"],
                                     "htmltemplate": "index.html",
+                                    "files": ["simulate.ngspice"]},
+            "cfa.sym": { "dir" : BASE_DIR + "testcircuits/cfa/",
+                                    "schematics" : ["dc_amplifier.sch"],
+                                    "htmltemplate": "index.html",
                                     "files": ["simulate.ngspice"]}
             }
 
@@ -114,7 +118,8 @@ class modelpart(object):
                   'npn_bin': modelNPNBin,
                   'npn_darlington': modelNPNDarlington,
                   'pnp_darlington': modelPNPDarlington,
-                  'opamp': modelOpamp}.get(section, modelpartBase)
+                  'opamp': modelOpamp,
+                  'cfa': modelCFA}.get(section, modelpartBase)
 
         return class_(name, testdir, modeldir, properties)
 
@@ -679,6 +684,9 @@ class modelOpamp(modelpartBase):
     def vsupply(self):
         return float(self.properties.get('test_vsupply', 5))
           
+
+class modelCFA(modelOpamp):
+    section = 'cfa'
 
 
 class modellibrary(object):
