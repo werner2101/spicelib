@@ -2790,7 +2790,7 @@ model_status=broken
 
 # Subcircuit with 6 connections
 [OPA681_TI00116]
-symbol=opamp.sym
+symbol=.sym
 value=OPA681
 modelname=OPA681
 file=OPA681.mod
@@ -2839,7 +2839,7 @@ model_status=undefined
 
 
 [OPA694_TI00118]
-symbol=opamp.sym
+symbol=cfa.sym
 value=OPA694
 modelname=OPA694
 file=OPA694.txt
@@ -2858,14 +2858,14 @@ footprint=none
 description=Wideband, Low Power, Current Feedback Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa694
 test_refdes=X1
-model_status=test
+model_status=broken
 # ngspice patches required
 # what is a "V" device
 
 
 # Subcircuit with 6 connections
 [OPA695_TI00119]
-symbol=opamp.sym
+symbol=.sym
 value=OPA695
 modelname=OPA695
 file=OPA695_PSPICE_MODEL.txt
@@ -3305,7 +3305,7 @@ model_status=undefined
 
 # Subcircuit with 6 connections
 [OPAx691_TI00137]
-symbol=opamp.sym
+symbol=.sym
 value=OPAx691_Model
 modelname=OPAx691_Model
 file=OPAx691_Model.sub
