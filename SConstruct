@@ -378,14 +378,14 @@ class NXP(Vendor):
     def unpack_diodes(self):
         return env.Command(None, os.path.join('downloads', 'nxp', 'diodes.zip'),
                 """
-                - unzip -d -o %(tempdir)s $SOURCE
+                - unzip -o -d %(tempdir)s $SOURCE
                 md5sum %(tempdir)s/* >> %(csfile)s
                 """ % {'tempdir': os.path.join(TEMPDIR, 'nxp', 'diodes'),
                     'csfile': os.path.join(MODEL_SIGDIR, 'nxp_diodes.md5sum')})
     def unpack_bipolar(self):
         return env.Command(None, os.path.join('downloads', 'nxp', 'SST.zip'),
                 """
-                - unzip -d -o %(tempdir)s $SOURCE
+                - unzip -o -d %(tempdir)s $SOURCE
                 md5sum %(tempdir)s/* >> %(csfile)s
                 """ % {'tempdir': os.path.join(TEMPDIR, 'nxp', 'bipolar'),
                     'csfile': os.path.join(MODEL_SIGDIR, 'nxp_bipolar.md5sum')})

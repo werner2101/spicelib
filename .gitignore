@@ -4,6 +4,7 @@ model_tests
 downloads
 unpack
 symbol_library
+.sconsign.dblite
 *~
 *.pyc
 *.log
