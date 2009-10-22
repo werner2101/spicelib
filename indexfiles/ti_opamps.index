@@ -843,7 +843,7 @@ footprint=none
 description=Single-Supply Operational Amplifiers MicroAmplifier
 documentation=http://www.ti.com/lit/gpn/opa237
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -918,7 +918,7 @@ footprint=none
 description=MicroPower Single-Supply Operational Amplifier MicroAmplifier
 documentation=http://www.ti.com/lit/gpn/opa244
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -1281,7 +1281,7 @@ footprint=none
 description=1.8V, microPOWER CMOS Operational Amplifiers Zero-Drift Series
 documentation=http://www.ti.com/lit/gpn/opa333
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1305,7 +1305,7 @@ footprint=none
 description=Single-Supply CMOS Op Amps Zero-Drift
 documentation=http://www.ti.com/lit/gpn/opa335
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1475,7 +1475,7 @@ footprint=none
 description=Low Power, Single-Supply, Rail-To-Rail Operational MicroAmplifier
 documentation=http://www.ti.com/lit/gpn/opa344
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1499,7 +1499,7 @@ footprint=none
 description=Low Power, Single-Supply, Rail-To-Rail Operational MicroAmplifier
 documentation=http://www.ti.com/lit/gpn/opa345
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1523,7 +1523,7 @@ footprint=none
 description=microPower Rail-To-Rail Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa347
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1547,7 +1547,7 @@ footprint=none
 description=1MHz, 45µA, CMOS Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa348
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1571,7 +1571,7 @@ footprint=none
 description=1uA, Rail-to-Rail, I/O, CMOS Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa349
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1643,7 +1643,7 @@ footprint=none
 description=250MHz, Rail-to-Rail I/O, CMOS Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa354
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1792,7 +1792,7 @@ footprint=none
 description=1.8V, 7MHz, 90dB CMRR, Single-Supply Rail-to-Rail I/O Op Amp
 documentation=http://www.ti.com/lit/gpn/opa364
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1816,7 +1816,7 @@ footprint=none
 description=2.2V, 50MHz, Low-Noise Single-Supply Rail-to-Rail Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa365
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1840,7 +1840,7 @@ footprint=none
 description=Ultra-Low Noise, Precision Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa37
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -1864,7 +1864,7 @@ footprint=none
 description=1.8V, 2.9µA, 90kHz, Rail-to-Rail I/O Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa379
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1888,7 +1888,7 @@ footprint=none
 description=Ultra-Low Noise, Precision Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa37
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1912,7 +1912,7 @@ footprint=none
 description=Precision, High-Speed Transimpedance Amplifier
 documentation=http://www.ti.com/lit/gpn/opa380
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1936,7 +1936,7 @@ footprint=none
 description=Precision, Low Power, 18MHz Transimpedance Amplifier
 documentation=http://www.ti.com/lit/gpn/opa381
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1960,7 +1960,7 @@ footprint=none
 description=Quad High Speed Precision Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa404
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -1984,7 +1984,7 @@ footprint=none
 description=Quad High Speed Precision Difet® Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa404
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2008,7 +2008,7 @@ footprint=none
 description=Low Power, Precision FET-Input Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa4130
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2032,7 +2032,7 @@ footprint=none
 description=General Purpose FET-Input Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa4131
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2056,7 +2056,7 @@ footprint=none
 description=General Purpose FET-Input Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa4131
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2790,7 +2790,7 @@ model_status=broken
 
 # Subcircuit with 6 connections
 [OPA681_TI00116]
-symbol=opamp.sym
+symbol=.sym
 value=OPA681
 modelname=OPA681
 file=OPA681.mod
@@ -2839,7 +2839,7 @@ model_status=undefined
 
 
 [OPA694_TI00118]
-symbol=opamp.sym
+symbol=cfa.sym
 value=OPA694
 modelname=OPA694
 file=OPA694.txt
@@ -2858,14 +2858,14 @@ footprint=none
 description=Wideband, Low Power, Current Feedback Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa694
 test_refdes=X1
-model_status=test
+model_status=broken
 # ngspice patches required
 # what is a "V" device
 
 
 # Subcircuit with 6 connections
 [OPA695_TI00119]
-symbol=opamp.sym
+symbol=.sym
 value=OPA695
 modelname=OPA695
 file=OPA695_PSPICE_MODEL.txt
@@ -3305,7 +3305,7 @@ model_status=undefined
 
 # Subcircuit with 6 connections
 [OPAx691_TI00137]
-symbol=opamp.sym
+symbol=.sym
 value=OPAx691_Model
 modelname=OPAx691_Model
 file=OPAx691_Model.sub
@@ -3671,7 +3671,7 @@ footprint=none
 description=Wideband, Unity Gain Stable, FET-Input Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa656
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -3820,6 +3820,7 @@ footprint=none
 description=Dual, 700MHz, Voltage-Feedback Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa2652
 test_refdes=X1
+test_vsupply=10
 model_status=good
 
 

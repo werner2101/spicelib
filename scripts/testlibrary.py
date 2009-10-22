@@ -92,6 +92,10 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "testcircuits/npn_bipolar/",
             "opamp.sym": { "dir" : BASE_DIR + "testcircuits/opamp/",
                                     "schematics" : ["dc_amplifier.sch"],
                                     "htmltemplate": "index.html",
+                                    "files": ["simulate.ngspice"]},
+            "cfa.sym": { "dir" : BASE_DIR + "testcircuits/cfa/",
+                                    "schematics" : ["dc_amplifier.sch"],
+                                    "htmltemplate": "index.html",
                                     "files": ["simulate.ngspice"]}
             }
 
@@ -114,7 +118,8 @@ class modelpart(object):
                   'npn_bin': modelNPNBin,
                   'npn_darlington': modelNPNDarlington,
                   'pnp_darlington': modelPNPDarlington,
-                  'opamp': modelOpamp}.get(section, modelpartBase)
+                  'opamp': modelOpamp,
+                  'cfa': modelCFA}.get(section, modelpartBase)
 
         return class_(name, testdir, modeldir, properties)
 
@@ -133,6 +138,9 @@ class modelpartBase(object):
         self.checksum_status = None
         self.test_status = None
 
+    def simulate_cmd(self, simulator):
+        """Returns the string to be passed to simulator"""
+        return os.linesep.join(['*'] + self.simulate_cmd_lines(simulator))
     def test(self):
         if TESTDEFS.has_key(self.properties["symbol"]):
             test = TESTDEFS[self.properties["symbol"]]
@@ -150,7 +158,6 @@ class modelpartBase(object):
                 open(os.path.join(self.testdir, f), "wt").write(sch.safe_substitute(repl))
 
             ## run the tests
-            save_cwd = os.getcwd()
             self.test_message, result = self.plot_all(self.testdir)
 
             if result == 0:
@@ -219,8 +226,9 @@ class modelpartBase(object):
 
         for sch in TESTDEFS[self.properties['symbol']]['schematics']:
             net = os.path.splitext(sch)[0] + '.net'
-            command="gnetlist -g spice-sdb -l scripts/geda-parts.scm -o %s %s" \
-                      %(os.path.join(dir, net), os.path.join(dir, sch))
+            command="gnetlist -g spice-sdb -l scripts/geda-parts.scm -o %(netfile)s %(schfile)s" \
+                    % {'netfile': os.path.join(dir, net), 
+                       'schfile': os.path.join(dir, sch)}
             print >>longmsg, ME, "creating netlist: ", command
             pop = popen2.Popen4(command)
             ret_gnetlist = pop.wait()
@@ -230,7 +238,9 @@ class modelpartBase(object):
             else:
                 print >>longmsg, ME, "netlist creation was successful"
 
-        command = ("cd %s ; " % dir) + self.simulator + " -b ../../../../testcircuits/" + self.section + "/simulate." + self.simulator
+        simfile = 'simulate.' + self.simulator
+        f = open(os.path.join(dir, simfile), 'w').write(self.simulate_cmd(self.simulator))
+        command = ("cd %s ; " % dir) + self.simulator + " -b " + simfile
         print >>longmsg, ME, "running simulation: ", command
         pop = popen2.Popen4(command)
         print >>longmsg, pop.fromchild.read()
@@ -243,7 +253,7 @@ class modelpartBase(object):
         print >>longmsg, ME, "testing and plotting"
         for meth in self.plot_methods:
             try:
-                ret_plot = getattr(self, meth)(dir)
+                ret_plot = getattr(self, meth)(dir, longmsg)
             except Exception, data:
                 print >>longmsg, ME, "plotting function died:"
                 print >>longmsg, data
@@ -262,14 +272,14 @@ class modelDiode(modelpartBase):
     plot_methods = ['plot_forward_voltage', 'plot_reverse_voltage']
     simulator = 'ngspice'
 
-    def forward_voltage_ok(self, If, Uf):
+    def forward_voltage_ok(self, If, Uf, longmsg):
         if numpy.any(Uf<0.0) or numpy.any(Uf>3.0):
-            print "forward voltage out of expected range [0.0, 3.0]"
+            print >>longmsg, "forward voltage out of expected range [0.0, 3.0]"
             return False
         else:
             return True
 
-    def plot_forward_voltage(self, dir):
+    def plot_forward_voltage(self, dir, longmsg):
         pp = plotter()
         labels = ["0C", "25C", "50C", "75C", "100C"]
         ret = 0
@@ -278,7 +288,7 @@ class modelDiode(modelpartBase):
         for n,pl in enumerate(plots):
             If = -pl.get_scalevector().get_data()
             Uf = pl.get_datavectors()[0].get_data()
-            if not self.forward_voltage_ok(If, Uf):
+            if not self.forward_voltage_ok(If, Uf, longmsg):
                 ret = 1
             if not numpy.any(numpy.isnan(If)) and not numpy.any(numpy.isnan(Uf)):
                 pp.semilogy(Uf, If*1000.0,label = labels[n])
@@ -290,30 +300,43 @@ class modelDiode(modelpartBase):
         pp.close()
         return ret
   
-    def plot_reverse_voltage(self, dir):
+    def plot_reverse_voltage(self, dir, longmsg):
         #Basic diode has no reverse voltage plot
         return 0
+
+    def simulate_cmd_lines(self, simulator):
+        """Returns a list of lines that form the simulator command"""
+        return ['.include dc_current.net',
+                '.control',
+                'foreach t 0 25 50 75 100',
+                '  set temp =  $t',
+                '  dc i1 -10uA -1A -1mA',
+                'end',
+                'write forward_voltage.data dc1.V(in) dc2.V(in) dc3.V(in) dc4.V(in) dc5.V(in)',
+                '.endc']
+
+
 
 
 class modelZenerDiode(modelDiode):
     section = 'zener_diode'
 
-    def forward_voltage_ok(self, If, Uf):
+    def forward_voltage_ok(self, If, Uf, longmsg):
         ind = numpy.where(If < 0.2)[0]
         if numpy.any(Uf[ind] < 0.0) or numpy.any(Uf[ind] > 2.0):
-            print "forward voltage out of expected range [0.0, 2.0]"
+            print >>longmsg, "forward voltage out of expected range [0.0, 2.0]"
             return False
         else:
             return True
 
-    def reverse_voltage_ok(self, Ir, Ur):
+    def reverse_voltage_ok(self, Ir, Ur, longmsg):
         if numpy.any(-Ur < 0.0) or numpy.any(-Ur > 200.0):
-            print "reverse voltage out of expected range [0.0, 200.0]"
+            print >>longmsg, "reverse voltage out of expected range [0.0, 200.0]"
             return False
         else:
             return True
 
-    def plot_reverse_voltage(self, dir):
+    def plot_reverse_voltage(self, dir, longmsg):
         pp = plotter()
         labels = ["0C", "25C", "50C", "75C", "100C"]
         ret = 0
@@ -322,7 +345,7 @@ class modelZenerDiode(modelDiode):
         for n,pl in enumerate(plots):
             Ir = pl.get_scalevector().get_data()
             Ur = pl.get_datavectors()[0].get_data()
-            if not self.reverse_voltage_ok(Ir, Ur):
+            if not self.reverse_voltage_ok(Ir, Ur, longmsg):
                 ret = 2
             if not numpy.any(numpy.isnan(Ir)) and not numpy.any(numpy.isnan(Ur)):
                 pp.semilogy(-Ur, Ir * 1000.0, label = labels[n])
@@ -334,20 +357,36 @@ class modelZenerDiode(modelDiode):
         pp.close()
         return ret
 
+    def simulate_cmd_lines(self, simulator):
+        """Returns a list of lines that form the simulator command"""
+        return ['.include dc_current.net',
+                '.control',
+                'foreach t 0 25 50 75 100',
+                '  set temp =  $t',
+                '  dc i1 -10uA -1A -1mA',
+                'end',
+                'write forward_voltage.data dc1.V(in) dc2.V(in) dc3.V(in) dc4.V(in) dc5.V(in)',
+                'foreach t 0 25 50 75 100',
+                '  set temp =  $t',
+                '  dc i1 10uA 1A 1mA',
+                'end',
+                'write reverse_voltage.data dc6.V(in) dc7.V(in) dc8.V(in) dc9.V(in) dc10.V(in)',
+                '.endc']
+
 
 class modelZenerBidirectional(modelZenerDiode):
     section = 'zener_bidirectional'
 
-    def forward_voltage_ok(self, If, Uf):
+    def forward_voltage_ok(self, If, Uf, longmsg):
         if numpy.any(Uf < 0.5) or numpy.any(Uf > 200.0):
-            print "forward voltage out of expected range [0.5, 200.0]"
+            print >>longmsg, "forward voltage out of expected range [0.5, 200.0]"
             return False
         else:
             return True
 
-    def reverse_voltage_ok(self, Ir, Ur):
+    def reverse_voltage_ok(self, Ir, Ur, longmsg):
         if numpy.any(Ur < -200.) or numpy.any(Ur > -0.5):
-            print "reverse voltage out of expected range [0.5, 200]"
+            print >>longmsg, "reverse voltage out of expected range [0.5, 200]"
             return False
         else:
           return True
@@ -361,7 +400,7 @@ class modelBipolar(modelTransistor):
     plot_methods = ['plot_dc_current_gain', 'plot_saturation_voltages']
     simulator = 'gnucap'
 
-    def plot_dc_current_gain(self, dir):
+    def plot_dc_current_gain(self, dir, longmsg):
         pp = plotter()
         mm=[]
         mm.append(("0 C", load(os.path.join(dir, "dc_current_gain_t0.data"))))
@@ -391,7 +430,7 @@ class modelBipolar(modelTransistor):
         pp.close()
         return 0
 
-    def plot_saturation_voltages(self, dir):
+    def plot_saturation_voltages(self, dir, longmsg):
         pp = plotter()
         mm=[]
         mm.append(("0 C", load(
@@ -426,7 +465,42 @@ class modelBipolar(modelTransistor):
         pp.savefig(os.path.join(dir, "vbe_saturation_voltage.png"),dpi=80)
         pp.close()
         return 0
+    def simulate_cmd_lines(self, simulator):
+        """Returns a list of lines that form the simulator command"""
+        return ['.get dc_current_gain.net',
+                '.pr dc I(V1) I(I1) V(in)',
+                '.dc i1 -1m -10n *0.8 temperature=0 >dc_current_gain_t0.data',
+                '.dc i1 -1m -10n *0.8 temperature=25 >dc_current_gain_t25.data',
+                '.dc i1 -1m -10n *0.8 temperature=50 >dc_current_gain_t50.data',
+                '.dc i1 -1m -10n *0.8 temperature=75 >dc_current_gain_t75.data',
+                '.dc i1 -1m -10n *0.8 temperature=100 >dc_current_gain_t100.data',
+                '.get saturation_voltages.net',
+                '.pr dc I(V1) V(in) V(out)',
+                '.dc i1 -50m -10n *0.8 temperature=0 >saturation_voltages_t0.data',
+                '.dc i1 -50m -10n *0.8 temperature=25 >saturation_voltages_t25.data',
+                '.dc i1 -50m -10n *0.8 temperature=50 >saturation_voltages_t50.data',
+                '.dc i1 -50m -10n *0.8 temperature=75 >saturation_voltages_t75.data',
+                '.dc i1 -50m -10n *0.8 temperature=100 >saturation_voltages_t100.data']
 
+
+class modelDarlington(modelBipolar):
+    VCEsat_plot_limit = 2.0  #amps
+    def simulate_cmd_lines(self, simulator):
+        """Returns a list of lines that form the simulator command"""
+        return ['.get dc_current_gain.net',
+                '.pr dc I(V1) I(I1) V(in)',
+                '.dc i1 -10u -100p *0.8 temperature=0 >dc_current_gain_t0.data',
+                '.dc i1 -10u -100p *0.8 temperature=25 >dc_current_gain_t25.data',
+                '.dc i1 -10u -100p *0.8 temperature=50 >dc_current_gain_t50.data',
+                '.dc i1 -10u -100p *0.8 temperature=75 >dc_current_gain_t75.data',
+                '.dc i1 -10u -100p *0.8 temperature=100 >dc_current_gain_t100.data',
+                '.get saturation_voltages.net',
+                '.pr dc I(V1) V(in) V(out)',
+                '.dc i1 -2m -500p *0.8 temperature=0 >saturation_voltages_t0.data',
+                '.dc i1 -2m -500p *0.8 temperature=25 >saturation_voltages_t25.data',
+                '.dc i1 -2m -500p *0.8 temperature=50 >saturation_voltages_t50.data',
+                '.dc i1 -2m -500p *0.8 temperature=75 >saturation_voltages_t75.data',
+                '.dc i1 -2m -500p *0.8 temperature=100 >saturation_voltages_t100.data']
 
 class modelNPNBipolar(modelBipolar):
     VCEsat_plot_limit = 1.0  #amps
@@ -434,8 +508,7 @@ class modelNPNBipolar(modelBipolar):
     icc_sign = 1. #Sign of the collector current
 
 
-class modelNPNDarlington(modelBipolar):
-    VCEsat_plot_limit = 2.0  #amps
+class modelNPNDarlington(modelDarlington):
     section = 'npn_darlington'
     icc_sign = 1. #Sign of the collector current
 
@@ -446,8 +519,7 @@ class modelPNPBipolar(modelBipolar):
     icc_sign = -1. #Sign of the collector current
 
 
-class modelPNPDarlington(modelBipolar):
-    VCEsat_plot_limit = 2.0  #amps
+class modelPNPDarlington(modelDarlington):
     section = 'pnp_darlington'
     icc_sign = -1. #Sign of the collector current
 
@@ -456,13 +528,13 @@ class modelResistorEquippedTransistor(modelBipolar):
     """Base class transistors with base and/or collector resistors"""
     plot_methods = ['plot_dc_current']
 
-    def base_current_ok(self, Uin, Iin):
+    def base_current_ok(self, Uin, Iin, longmsg):
         return True #stub function, must be overridden by child classes
 
-    def collector_current_ok(self, Uin, Ic):
+    def collector_current_ok(self, Uin, Ic, longmsg):
         return True #stub function, must be overridden by child classes
 
-    def plot_dc_current(self, dir):
+    def plot_dc_current(self, dir, longmsg):
         ret = 0
         pp = plotter()
         mm=[]
@@ -476,7 +548,7 @@ class modelResistorEquippedTransistor(modelBipolar):
         for t,m in mm:
             Uin = m[:,0]
             Iin = -m[:,1]
-            if not self.base_current_ok(Uin, Iin):
+            if not self.base_current_ok(Uin, Iin, longmsg):
                 ret = 1
             pp.plot(Uin, Iin * 1000,label=t)
         pp.xlabel("Uin [V]")
@@ -489,7 +561,7 @@ class modelResistorEquippedTransistor(modelBipolar):
         for t,m in mm:
             Uin = m[:,0]
             Ic = -m[:,2]
-            if not self.collector_current_ok(Uin, Ic):
+            if not self.collector_current_ok(Uin, Ic, longmsg):
                 ret = 1
             pp.plot(Uin, Ic * 1000,label=t)
         pp.xlabel("Uin [V]")
@@ -499,6 +571,15 @@ class modelResistorEquippedTransistor(modelBipolar):
         pp.savefig(os.path.join(dir, "dc_IC.png"), dpi=80)
         pp.close()
         return ret
+
+    def simulate_cmd_lines(self, simulator):
+        return ['.get dc_current.net',
+                '.pr dc I(V1) I(V2) V(in)',
+                '.dc v1 0 5 0.1 temperature=0 >dc_current_t0.data',
+                '.dc v1 0 5 0.1 temperature=25 >dc_current_t25.data',
+                '.dc v1 0 5 0.1 temperature=50 >dc_current_t50.data',
+                '.dc v1 0 5 0.1 temperature=75 >dc_current_t75.data',
+                '.dc v1 0 5 0.1 temperature=100 >dc_current_t100.data']
 
 
 class modelPNPRbase(modelResistorEquippedTransistor):
@@ -513,16 +594,16 @@ class modelBipolarBin(modelResistorEquippedTransistor):
     plot_methods = ['plot_dc_current']
     simulator = 'gnucap'
 
-    def base_current_ok(self, Uin, Iin):
+    def base_current_ok(self, Uin, Iin, longmsg):
         if numpy.any(Iin < -.001) or numpy.any(Iin > 1.0):
-            print "input current out of expected range [-0.001, 1.0]"
+            print >>longmsg, "input current out of expected range [-0.001, 1.0]"
             return False
         else:
             return True
 
-    def collector_current_ok(self, Uin, Ic):
+    def collector_current_ok(self, Uin, Ic, longmsg):
         if numpy.any(Ic < -.001) or numpy.any(Ic > 100.0):
-            print "collector current out of expected range [-0.001, 100.0]"
+            print >>longmsg, "collector current out of expected range [-0.001, 100.0]"
             return False
         else:
             return True
@@ -540,7 +621,8 @@ class modelOpamp(modelpartBase):
     section = 'opamp'
     plot_methods = ['plot_dc_amplifier']
     simulator = 'ngspice'
-    def plot_dc_amplifier(self, dir):
+    def plot_dc_amplifier(self, dir, longmsg):
+        ret = 0
         pp = plotter()
         
         plots = spice_read.spice_read(
@@ -548,6 +630,8 @@ class modelOpamp(modelpartBase):
         x = plots[0].get_scalevector().get_data()
         vin = plots[0].get_datavectors()[0].get_data()
         vout = plots[0].get_datavectors()[1].get_data()
+        if not self.voltage_ok(vin, vout, longmsg):
+            ret = 1
         
         pp.plot(x, vin, label="v(in)")
         pp.plot(x, vout, label="v(out)")
@@ -557,7 +641,52 @@ class modelOpamp(modelpartBase):
         pp.legend(loc="best")
         pp.savefig(os.path.join(dir, "dc_amplifier.png"), dpi=80)
         pp.close()
-        return 0
+        return ret
+    def simulate_cmd_lines(self, simulator):
+        """Returns a list of lines that form the simulator command"""
+        vsupply = self.vsupply()
+        vstart = -0.5
+        vend = vsupply + 0.5
+        vstep = (vend - vstart) / 200.
+        return ['.include dc_amplifier.net',
+                '.control',
+                "alter v2 %fV" % vsupply,
+                "dc v1 %f %f %f" % (vstart, vend, vstep),
+                "write dc_amplifier.data dc1.V(in) dc1.V(out)",
+                '.endc']
+    def voltage_ok(self, vin, vout, longmsg):
+        success = True
+        vs = self.vsupply()
+        vmax = vs + 0.5
+        vmin = 0 - 0.5
+        vmargin = .001
+        if numpy.any(numpy.isnan(vin)) or numpy.any(numpy.isnan(vout)):
+            print >>longmsg, "NaN in data"
+            success = False
+        if numpy.any(vin > vmax + vmargin) or numpy.any(vin < vmin - vmargin):
+            print >>longmsg, "input voltage out of expected range [%f, %f]" % (vmin, vmax)
+            success = False
+        if numpy.any(vout > vmax) or numpy.any(vout < vmin):
+            print >>longmsg, "output voltage out of expected range [%f, %f]" % (vmin, vmax)
+            success = False
+        if max(vout) - min(vout) < vs / 100.:
+            print >>longmsg, 'output voltage is not a function of input voltage'
+            success = False
+        t = len(vin) / 4
+        amp = vout[t] / vin[t]
+        if not numpy.allclose(amp, 2., rtol=.01):
+            print >>longmsg, 'Circuit does not acheive correct amplification'
+            print >>longmsg, "Amplification at %fV input is %f" % (vin[t], amp)
+            success = False
+        return success
+
+
+    def vsupply(self):
+        return float(self.properties.get('test_vsupply', 5))
+          
+
+class modelCFA(modelOpamp):
+    section = 'cfa'
 
 
 class modellibrary(object):
