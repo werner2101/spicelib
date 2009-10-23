@@ -301,13 +301,20 @@ class TexasInstruments(Vendor):
     def opamps_fixups(self, model, dir):
         #TODO: create ti opamps based on ti_pspice_models_index.txt
         firstdir = dir.split(os.sep)[1]
+        fixes = []
+        misplaced_ends = ['OPA243.mod', 'OPA251.mod', 'OPA336.mod',
+                    'OPA241.mod']
         if 'opa' != firstdir[0:3] or \
                 os.path.splitext(model)[1] not in \
                     ['.mod', '.MOD', '.txt', '.sub'] or \
                 model in ['Readme.txt', 'disclaimer.txt']:
             return None, None
         else:
-            return [], None
+            if model in misplaced_ends:
+                fixes.append(fixups.misplaced_ends)
+            #Many TI files contain the inprintable ASCII \032
+            fixes.append(fixups.ascii_032)
+            return fixes, None
 
 
 class NationalSemiconductor(Vendor):

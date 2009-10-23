@@ -27,7 +27,7 @@ footprint=none
 description=Precision, Single-Supply Dual Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa1013
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -51,7 +51,7 @@ footprint=none
 description=Precision, Single-Supply Dual Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa1013
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -75,7 +75,8 @@ footprint=none
 description=Low Noise Precision Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa111
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -99,7 +100,8 @@ footprint=none
 description=Low Noise Precision Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa111
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -123,7 +125,8 @@ footprint=none
 description=Low Cost Precision Difet Operational Amplifier 
 documentation=http://www.ti.com/lit/gpn/opa121
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -147,7 +150,8 @@ footprint=none
 description=Low Cost Precision Difet Operational Amplifier 
 documentation=http://www.ti.com/lit/gpn/opa121
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -171,7 +175,8 @@ footprint=none
 description=Low Noise Precision Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa124
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -195,7 +200,8 @@ footprint=none
 description=Low Noise Precision Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa124
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -219,7 +225,7 @@ footprint=none
 description=Difet Electrometer-Grade Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa128
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -243,7 +249,7 @@ footprint=none
 description=Difet Electrometer-Grade Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa128
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -267,7 +273,7 @@ footprint=none
 description=Ultra-Low Bias Current Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa129
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -291,7 +297,7 @@ footprint=none
 description=Ultra-Low Bias Current Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa129
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -315,7 +321,7 @@ footprint=none
 description=Low Power, Precision FET-Input Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa130
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -339,7 +345,8 @@ footprint=none
 description=General Purpose FET-Input Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa131
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -363,7 +370,8 @@ footprint=none
 description=General Purpose FET-Input Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa131
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -387,7 +395,7 @@ footprint=none
 description=High Speed FET-Input Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa132
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -411,7 +419,7 @@ footprint=none
 description=High Performance Audio Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa134
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -435,7 +443,7 @@ footprint=none
 description=Low Cost FET-Input Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa137
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -459,7 +467,7 @@ footprint=none
 description=Precision Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa177
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -483,7 +491,7 @@ footprint=none
 description=Precision Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa177
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -507,7 +515,8 @@ footprint=none
 description=Precision Dual Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa2107
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -531,7 +540,8 @@ footprint=none
 description=Precision Dual Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa2107
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -603,7 +613,7 @@ footprint=none
 description=Low Power, Precision FET-Input Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa2130
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -627,7 +637,8 @@ footprint=none
 description=General Purpose FET-Input Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa2131
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -651,7 +662,8 @@ footprint=none
 description=General Purpose FET-Input Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa2131
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -675,7 +687,7 @@ footprint=none
 description=High Speed FET-Input Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa2132
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -699,7 +711,7 @@ footprint=none
 description=Low Power, Precision Single-Supply Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa2234
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -723,7 +735,7 @@ footprint=none
 description=Low Power, Precision Single-Supply Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa2234
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -747,7 +759,8 @@ footprint=none
 description=High Precision, Low Noise Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa227
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -771,7 +784,8 @@ footprint=none
 description=High Precision, Low Noise Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa228
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -795,7 +809,7 @@ footprint=none
 description=Low Power, Precision Single-Supply Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa234
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -819,7 +833,7 @@ footprint=none
 description=Low Power, Precision Single-Supply Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa234
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -868,7 +882,6 @@ description=Single-Supply, MicroPower Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa241
 test_refdes=X1
 model_status=broken
-# missplaced .ends statements
 
 
 
@@ -892,8 +905,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=broken
-# missplaced .ends statements
+model_status=good
 # TI homepage does not know this device
 
 
@@ -918,7 +930,7 @@ footprint=none
 description=MicroPower Single-Supply Operational Amplifier MicroAmplifier
 documentation=http://www.ti.com/lit/gpn/opa244
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 
@@ -943,7 +955,6 @@ description=Single-Supply, MicroPower Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa251
 test_refdes=X1
 model_status=broken
-# missplaced .ends statements
 
 
 
@@ -967,7 +978,7 @@ footprint=none
 description=Dual High Power Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa2541
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -991,7 +1002,7 @@ footprint=none
 description=Dual High Power Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa2541
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -1015,7 +1026,7 @@ footprint=none
 description=High-Voltage, High-Current Dual Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa2544
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -1039,7 +1050,8 @@ footprint=none
 description=Dual FET-Input, Low Distortion Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa2604
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -1063,7 +1075,8 @@ footprint=none
 description=Dual FET-Input, Low Distortion Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa2604
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -1087,7 +1100,8 @@ footprint=none
 description=Dual FET-Input, Low Distortion Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa2604
 test_refdes=X1
-model_status=broken
+test_vsupply=30
+model_status=good
 # test results differ from the OPA2604E and OPA2604 models
 
 
@@ -1136,7 +1150,7 @@ footprint=none
 description=Dual, High Gain Bandwidth, High Output Current, Op Amp with Current Limit
 documentation=http://www.ti.com/lit/gpn/opa2614
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1185,7 +1199,7 @@ footprint=none
 description=Ultra-Low Noise, Precision Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa27
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1209,7 +1223,7 @@ footprint=none
 description=High Precision Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa277
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1233,7 +1247,7 @@ footprint=none
 description=Ultra-Low Noise, Precision Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa27
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1257,7 +1271,7 @@ footprint=none
 description=Ultra-Low Noise, Precision Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa27
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -1331,6 +1345,8 @@ documentation=http://www.ti.com/lit/gpn/opa336
 test_refdes=X1
 model_status=broken
 # missplaced .ends statements
+# Problem with CAP and RES models
+# unknown paramters in PMOS model
 
 
 
@@ -1840,7 +1856,7 @@ footprint=none
 description=Ultra-Low Noise, Precision Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa37
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 
@@ -1960,7 +1976,7 @@ footprint=none
 description=Quad High Speed Precision Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa404
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 
@@ -1984,7 +2000,7 @@ footprint=none
 description=Quad High Speed Precision Difet® Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa404
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 
@@ -2008,7 +2024,7 @@ footprint=none
 description=Low Power, Precision FET-Input Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa4130
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 
@@ -2032,7 +2048,8 @@ footprint=none
 description=General Purpose FET-Input Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa4131
 test_refdes=X1
-model_status=broken
+test_vsupply=30
+model_status=good
 
 
 
@@ -2056,7 +2073,8 @@ footprint=none
 description=General Purpose FET-Input Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa4131
 test_refdes=X1
-model_status=broken
+test_vsupply=30
+model_status=good
 
 
 
@@ -2080,7 +2098,7 @@ footprint=none
 description=High Speed FET-Input Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa4132
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -2104,7 +2122,7 @@ footprint=none
 description=Low Power, Precision Single-Supply Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa4234
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -2128,7 +2146,7 @@ footprint=none
 description=Low Power, Precision Single-Supply Operational Amplifiers
 documentation=http://www.ti.com/lit/gpn/opa4234
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 
@@ -2152,7 +2170,7 @@ footprint=none
 description=High Voltage FET-Input Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa445
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2176,7 +2194,7 @@ footprint=none
 description=High Voltage FET-Input Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa445
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2200,7 +2218,7 @@ footprint=none
 description=High Current, High Power Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa501
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2224,7 +2242,7 @@ footprint=none
 description=High Current, High Power Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa501
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2248,7 +2266,7 @@ footprint=none
 description=Very High Current, High Power Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa512
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2272,7 +2290,7 @@ footprint=none
 description=Very High Current, High Power Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa512
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2296,7 +2314,7 @@ footprint=none
 description=High Power Monolithic Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa541
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2320,7 +2338,7 @@ footprint=none
 description=High Power Monolithic Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa541
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2344,7 +2362,7 @@ footprint=none
 description=High-Voltage, High-Current Operational Amplifier 
 documentation=http://www.ti.com/lit/gpn/opa544
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2493,7 +2511,7 @@ footprint=none
 description=High-Speed Precision Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa602
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2517,7 +2535,7 @@ footprint=none
 description=High-Speed Precision Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa602
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 
@@ -2541,7 +2559,8 @@ footprint=none
 description=FET-Input, Low Distortion Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa604
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -2565,7 +2584,8 @@ footprint=none
 description=FET-Input, Low Distortion Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa604
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -2614,7 +2634,8 @@ footprint=none
 description=Wide-Bandwidth Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa606
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -2638,7 +2659,8 @@ footprint=none
 description=Wide-Bandwidth Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa606
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -2687,7 +2709,8 @@ footprint=none
 description=Precision High-Speed Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa627
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -2711,7 +2734,8 @@ footprint=none
 description=Precision High-Speed Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa627
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -2735,7 +2759,8 @@ footprint=none
 description=recision High-Speed Difet Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa637
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -2759,7 +2784,8 @@ footprint=none
 description=recision High-Speed Difet® Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa637
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 
@@ -3177,6 +3203,7 @@ footprint=none
 description=Unity-Gain Stable, Low-Noise, Voltage-Feedback Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa820
 test_refdes=X1
+test_vsupply=10
 model_status=good
 
 
@@ -3201,6 +3228,7 @@ footprint=none
 description=Wideband Low Distortion Unity-Gain Stable Voltage-Feedback Op Amp
 documentation=http://www.ti.com/lit/gpn/opa842
 test_refdes=X1
+test_vsupply=10
 model_status=good
 
 
@@ -3225,12 +3253,13 @@ footprint=none
 description=Wideband, Low Distortion, Medium Gain, Voltage-Feedback Operational Amp
 documentation=http://www.ti.com/lit/gpn/opa843
 test_refdes=X1
+test_vsupply=10
 model_status=good
 
 
 
 [OPA846_TI00134]
-symbol=opamp.sym
+symbol=.sym
 value=OPA846_Model
 modelname=OPA846_Model
 file=OPA846_Model.sub
@@ -3249,7 +3278,7 @@ footprint=none
 description=Wideband, Low Noise, Voltage-Feedback Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa846
 test_refdes=X1
-model_status=good
+model_status=broken
 
 
 
@@ -3671,7 +3700,8 @@ footprint=none
 description=Wideband, Unity Gain Stable, FET-Input Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa656
 test_refdes=X1
-model_status=broken
+test_vsupply=10
+model_status=good
 
 
 
@@ -3845,5 +3875,5 @@ footprint=none
 description=Dual Wideband, Low-Noise Operational Amplifier
 documentation=http://www.ti.com/lit/gpn/opa2822
 test_refdes=X1
-model_status=test
+model_status=broken
 
