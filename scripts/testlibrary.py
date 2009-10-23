@@ -93,6 +93,10 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "testcircuits/npn_bipolar/",
                                     "schematics" : ["dc_amplifier.sch"],
                                     "htmltemplate": "index.html",
                                     "files": ["simulate.ngspice"]},
+            "comparator.sym": { "dir" : BASE_DIR + "testcircuits/comparator/",
+                                    "schematics" : ["switching.sch"],
+                                    "htmltemplate": "index.html",
+                                    "files": ["simulate.ngspice"]},
             "cfa.sym": { "dir" : BASE_DIR + "testcircuits/cfa/",
                                     "schematics" : ["dc_amplifier.sch"],
                                     "htmltemplate": "index.html",
@@ -119,6 +123,7 @@ class modelpart(object):
                   'npn_darlington': modelNPNDarlington,
                   'pnp_darlington': modelPNPDarlington,
                   'opamp': modelOpamp,
+                  'comparator': modelComparator,
                   'cfa': modelCFA}.get(section, modelpartBase)
 
         return class_(name, testdir, modeldir, properties)
@@ -684,6 +689,48 @@ class modelOpamp(modelpartBase):
     def vsupply(self):
         return float(self.properties.get('test_vsupply', 5))
           
+
+class modelComparator(modelOpamp):
+    section = 'comparator'
+    plot_methods = ['plot_transient']
+    simulator='ngspice'
+    def plot_transient(self, dir, longmsg):
+        #TODO: verify simulation results
+        pp = plotter()
+        plots = spice_read.spice_read(
+                os.path.join(dir, 'switching.data')).get_plots()
+        x = plots[0].get_scalevector().get_data()
+        vin = plots[0].get_datavectors()[0].get_data()
+        vout = plots[0].get_datavectors()[1].get_data()
+        pp.plot(x, vin, label="v(in)")
+        pp.plot(x, vout, label="v(out)")
+        pp.xlabel("Uin [V]")
+        pp.ylabel("U [V]")
+        pp.grid()
+        pp.legend(loc="best")
+        pp.savefig(os.path.join(dir, "dc_amplifier.png"), dpi=80)
+        pp.close()
+        return 0
+
+    def simulate_cmd_lines(self, simulator):
+        vsupply = self.vsupply()
+        vstart = -0.5
+        vend = vsupply + 0.5
+        twidth = 1e-6   #convenient value for typical comparator
+        period = 10 * twidth
+        trise = twidth / 2
+        tfall = trise
+        tstep = period / 200
+        return ['.include switching.net',
+                '.control',
+                'alter v2 %fV' % vsupply,
+                #VPULSE parameters: V1 V2 TD TR TF PW PER
+                'alter v1 [ %e %e 0 %e %e %e %e  ]' % (vstart, vend, trise, tfall, twidth, period),
+                'tran %e %e' % (tstep, twidth),
+                'write switching.data tran1.V(in) tran1.V(out) tran1.V(vsource)',
+                '.endc']
+
+
 
 class modelCFA(modelOpamp):
     section = 'cfa'
