@@ -5,8 +5,8 @@
 import numpy
 
 
-PLOTTER = 'gnuplot'
-#PLOTTER = 'matplotlib'
+#PLOTTER = 'gnuplot'
+PLOTTER = 'matplotlib'
 
 
 if PLOTTER == 'gnuplot':
@@ -15,7 +15,24 @@ else:
     import matplotlib.pyplot
 
 
-class gnuplot_wrapper:
+class plot_wrapper_base(object):
+    def __init__(self):
+        self.mplot_cnt = -1 #-1 is flag meaning 'not in multiplot mode'
+        self.layout = 1,1
+    def _mplot_idx(self):
+        if self.mplot_cnt > 0:
+            idx = self.mplot_cnt
+        else:
+            idx = 0
+        return idx
+    def multiplot(self, rows, cols):
+        self.mplot_cnt = rows * cols
+        self.layout = rows, cols
+
+
+
+
+class gnuplot_wrapper(plot_wrapper_base):
     def __init__(self):
         self.g = Gnuplot.Gnuplot()
         self.g('set data style line')
@@ -25,27 +42,26 @@ class gnuplot_wrapper:
         self.xlabels = [None]
         self.ylabels = [None]
         self.logscales = ['']
-        self.mplot_cnt = -1 #-1 is flag meaning 'not in multiplot mode'
-        self.layout = 1,1
+        super(gnuplot_wrapper, self).__init__()
 
     def plot(self,x,y,label=None, mplot_idx = None):
         if self.mplot_cnt == 0:
             print >>sys.stderr, "Error, more plots requested than the multiplot layout can hold"
         elif self.mplot_cnt > 0:
             self.mplot_cnt -= 1
-        self.dataset[self.__mplot_idx()].append(Gnuplot.Data(x, y, title=label))
+        self.dataset[self._mplot_idx()].append(Gnuplot.Data(x, y, title=label))
 
     def semilogx(self,x,y,label=None):
         self.plot(x,y,label)
-        self.logscales[self.__mplot_idx()] = 'x'
+        self.logscales[self._mplot_idx()] = 'x'
 
     def semilogy(self,x,y,label=None):
         self.plot(x,y,label)
-        self.logscales[self.__mplot_idx()] = 'y'
+        self.logscales[self._mplot_idx()] = 'y'
 
     def loglog(self,x,y,label=None):
         self.plot(x,y,label)
-        self.logscales[self.__mplot_idx()] = 'xy'
+        self.logscales[self._mplot_idx()] = 'xy'
 
     def savefig(self, filename, **kwargs):
         self.g('set output "%s"' % filename)
@@ -71,35 +87,35 @@ class gnuplot_wrapper:
     def grid(self, loc=None):
         self.g('set grid')
     
-    def __mplot_idx(self):
-        if self.mplot_cnt > 0:
-            idx = self.mplot_cnt
-        else:
-            idx = 0
-        return idx
-
     def close(self):
         self.dataset = []
 
     def xlabel(self, label):
-        self.xlabels[self.__mplot_idx()] = label
+        self.xlabels[self._mplot_idx()] = label
         
     def ylabel(self, label):
-        self.ylabels[self.__mplot_idx()] = label
+        self.ylabels[self._mplot_idx()] = label
 
     def multiplot(self, rows, cols):
-        self.mplot_cnt = rows * cols
         self.dataset = [[] for i in range(rows * cols)]
         self.xlabels = rows * cols * [None]
         self.ylabels = rows * cols * [None]
         self.logscales = rows * cols * ['']
-        self.layout = rows, cols
+        super(gnuplot_wrapper, self).multiplot(rows, cols)
+
+    def subplot(self, x, y, i):
+        pass    #Not needed for gnuplot backend
+
 
 def plotter():
     if PLOTTER == 'gnuplot':
         return gnuplot_wrapper()
     else:
-        return matplotlib.pyplot
+        def dummy(rows, cols):
+            pass
+        pp = matplotlib.pyplot
+        pp.multiplot = dummy
+        return pp
 
 
 def load(fname,comments='#',delimiter=None, skiprows=0,

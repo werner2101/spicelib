@@ -637,9 +637,12 @@ class modelOpamp(modelpartBase):
         vout = plots[0].get_datavectors()[1].get_data()
         
         pp.multiplot(2, 1)
+        pp.subplot(2,1,1)
         pp.loglog(x, numpy.abs(vout / vin), label="magnitude v(out)")
         pp.xlabel("Frequency [Hz]")
         pp.ylabel("U [V]")
+        pp.grid()
+        pp.subplot(2,1,2)
         pp.semilogx(x, 180. / numpy.pi * numpy.angle(vout), label="theta v(out)")
         pp.xlabel("Frequency [Hz]")
         pp.ylabel("theta (degrees)")
@@ -660,6 +663,7 @@ class modelOpamp(modelpartBase):
         if not self.voltage_ok(vin, vout, longmsg):
             ret = 1
         
+        pp.subplot(1,1,1)
         pp.plot(x, vin, label="v(in)")
         pp.plot(x, vout, label="v(out)")
         pp.xlabel("Uin [V]")
