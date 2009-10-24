@@ -88,7 +88,7 @@ class gnuplot_wrapper(plot_wrapper_base):
         self.g('set grid')
     
     def close(self):
-        self.dataset = []
+        self.dataset = [[]]
 
     def xlabel(self, label):
         self.xlabels[self._mplot_idx()] = label
