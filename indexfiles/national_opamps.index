@@ -2088,7 +2088,7 @@ model_status=test
 
 
 [LMC6762A_LM00091]
-symbol=.sym
+symbol=comparator.sym
 value=LMC6762A
 modelname=LMC6762A
 file=LMC6762A.MOD
@@ -2107,11 +2107,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6762.pdf
 test_refdes=X1
-model_status=undefined
+model_status=test
 
 
 [LMC6762B_LM00092]
-symbol=.sym
+symbol=comparator.sym
 value=LMC6762B
 modelname=LMC6762B
 file=LMC6762B.MOD
@@ -2130,11 +2130,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6762.pdf
 test_refdes=X1
-model_status=undefined
+model_status=test
 
 
 [LMC6772A_LM00093]
-symbol=.sym
+symbol=comparator.sym
 value=LMC6772A
 modelname=LMC6772A
 file=LMC6772A.MOD
@@ -2153,11 +2153,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6772.pdf
 test_refdes=X1
-model_status=undefined
+model_status=test
 
 
 [LMC6772B_LM00094]
-symbol=.sym
+symbol=comparator.sym
 value=LMC6772B
 modelname=LMC6772B
 file=LMC6772B.MOD
@@ -2176,7 +2176,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6772.pdf
 test_refdes=X1
-model_status=undefined
+model_status=test
 
 
 [LMC7101A_LM00095]
@@ -2249,7 +2249,7 @@ model_status=test
 
 
 [LMC7211A_LM00098]
-symbol=.sym
+symbol=comparator.sym
 value=LMC7211A
 modelname=LMC7211A
 file=LMC7211A.MOD
@@ -2268,11 +2268,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7211.pdf
 test_refdes=X1
-model_status=undefined
+model_status=test
 
 
 [LMC7211B_LM00099]
-symbol=.sym
+symbol=comparator.sym
 value=LMC7211B
 modelname=LMC7211B
 file=LMC7211B.MOD
@@ -2291,11 +2291,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7211.pdf
 test_refdes=X1
-model_status=undefined
+model_status=test
 
 
 [LMC7215_LM00100]
-symbol=.sym
+symbol=comparator.sym
 value=LMC7215
 modelname=LMC7215
 file=LMC7215.MOD
@@ -2314,11 +2314,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7215.pdf
 test_refdes=X1
-model_status=undefined
+model_status=test
 
 
 [LMC7221A_LM00101]
-symbol=.sym
+symbol=comparator.sym
 value=LMC7221A
 modelname=LMC7221A
 file=LMC7221A.MOD
@@ -2337,11 +2337,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7221.pdf
 test_refdes=X1
-model_status=undefined
+model_status=test
 
 
 [LMC7221B_LM00102]
-symbol=.sym
+symbol=comparator.sym
 value=LMC7221B
 modelname=LMC7221B
 file=LMC7221B.MOD
@@ -2360,11 +2360,11 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7221.pdf
 test_refdes=X1
-model_status=undefined
+model_status=test
 
 
 [LMC7225_LM00103]
-symbol=.sym
+symbol=comparator.sym
 value=LMC7225
 modelname=LMC7225
 file=LMC7225.MOD
@@ -2383,7 +2383,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7225.pdf
 test_refdes=X1
-model_status=undefined
+model_status=test
 
 
 [lmc8101_LM00104]
@@ -4139,7 +4139,7 @@ model_status=broken
 
 
 [lmv331_LM00180]
-symbol=.sym
+symbol=comparator.sym
 value=lmv331
 modelname=lmv331
 file=LMV331.MOD
@@ -4158,11 +4158,11 @@ footprint=none
 description=Low Voltage General Purpose Comparator
 documentation=http://www.national.com/ds/LM/LMV331.pdf
 test_refdes=X1
-model_status=undefined
+model_status=test
 
 
 [lmv339_LM00181]
-symbol=.sym
+symbol=comparator.sym
 value=lmv339
 modelname=lmv339
 file=LMV339.MOD
@@ -4181,7 +4181,7 @@ footprint=none
 description=Quad  Low Voltage General Purpose Comparator
 documentation=http://www.national.com/ds/LM/LMV339.pdf
 test_refdes=X1
-model_status=undefined
+model_status=test
 
 
 [LMV342_LM00182]
@@ -4231,7 +4231,7 @@ model_status=broken
 
 
 [lmv393_LM00184]
-symbol=.sym
+symbol=comparator.sym
 value=lmv393
 modelname=lmv393
 file=LMV393.MOD
@@ -4250,7 +4250,7 @@ footprint=none
 description=Dual Low Voltage General Purpose Comparator
 documentation=http://www.national.com/ds/LM/LMV393.pdf
 test_refdes=X1
-model_status=undefined
+model_status=test
 
 
 [LMV551_LM00185]
@@ -4461,7 +4461,7 @@ model_status=good
 
 
 [LMV7219_LM00194]
-symbol=.sym
+symbol=comparator.sym
 value=LMV7219
 modelname=LMV7219
 file=LMV7219.MOD
@@ -4480,7 +4480,7 @@ footprint=none
 description=7nsec 2.7 to 5V Comparator with Rail-to-Rail Output
 documentation=http://www.national.com/ds/LM/LMV7219.pdf
 test_refdes=X1
-model_status=undefined
+model_status=good
 
 
 [LMV7271_LM00195]

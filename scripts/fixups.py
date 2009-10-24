@@ -55,6 +55,30 @@ def trailing_newline(gen):
             raise StopIteration
 
 
+def ascii_032(gen):
+    #Removes the unprintable ASCII \032 character
+    for line in gen:
+        yield line.replace('\032', '')
+
+
+def misplaced_ends(gen):
+    #Removes excessive .ENDS statements
+    SUBCKT_PAT = '^(\s*\.SUBCKT\s+)'
+    ENDS_PAT = '^(\s*\.ENDS)'
+    subckt_levels = 0
+    for line in gen:
+        if re.search(SUBCKT_PAT, line.upper()):
+            subckt_levels += 1
+        elif re.search(ENDS_PAT, line.upper()):
+            if subckt_levels > 0:
+                subckt_levels -= 1
+            else:
+                #excessive .ENDS detected: remove it
+                line = '* Excessive .ENDS detected *' + line
+        yield line
+
+
+
 def ends_without_subcircuit(gen):
     # some models have a .ENDS statement even if there is no
     # subcircuit definition.
