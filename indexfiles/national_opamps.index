@@ -704,7 +704,7 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LM6152.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LM6152B_LM00031]
@@ -819,7 +819,7 @@ footprint=none
 description=CURRENT FEEDBACK OP-AMP 
 documentation=http://www.national.com/ds/LM/LM6181.pdf
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 [LM6211_LM00036]
@@ -989,8 +989,8 @@ value=LM7372
 modelname=LM7372
 file=LM7372.MOD
 refdes=X?
-pinseq_inp=1
-pinseq_inn=2
+pinseq_inp=2
+pinseq_inn=1
 pinseq_pp=3
 pinseq_pn=4
 pinseq_out=5
@@ -1003,7 +1003,8 @@ footprint=none
 description=SPICE MODEL
 documentation=http://www.national.com/ds/LM/LM7372.pdf
 test_refdes=X1
-model_status=test
+test_vsupply=30
+model_status=good
 
 
 [LM741_LM00044]
@@ -1233,7 +1234,7 @@ footprint=none
 description=Dual OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6035.pdf
 test_refdes=X1
-model_status=good
+model_status=broken
 
 
 [LMC6036_LM00054]
@@ -1256,7 +1257,7 @@ footprint=none
 description=Quad OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6036.pdf
 test_refdes=X1
-model_status=good
+model_status=broken
 
 
 [LMC6041A_LM00055]
@@ -1348,7 +1349,7 @@ footprint=none
 description=CMOS Dual Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6042.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 [LMC6044A_LM00059]
@@ -1371,7 +1372,7 @@ footprint=none
 description=CMOS Quad Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6044.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LMC6044B_LM00060]
@@ -2095,9 +2096,9 @@ file=LMC6762A.MOD
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
@@ -2107,7 +2108,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6762.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LMC6762B_LM00092]
@@ -2118,9 +2119,9 @@ file=LMC6762B.MOD
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
@@ -2130,7 +2131,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6762.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LMC6772A_LM00093]
@@ -2141,9 +2142,9 @@ file=LMC6772A.MOD
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
@@ -2153,7 +2154,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6772.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LMC6772B_LM00094]
@@ -2164,9 +2165,9 @@ file=LMC6772B.MOD
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
@@ -2176,7 +2177,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6772.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LMC7101A_LM00095]
@@ -2245,7 +2246,7 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LM7111.pdf
 test_refdes=X1
-model_status=test
+model_status=broken
 
 
 [LMC7211A_LM00098]
@@ -2256,9 +2257,9 @@ file=LMC7211A.MOD
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
@@ -2268,7 +2269,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7211.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LMC7211B_LM00099]
@@ -2279,9 +2280,9 @@ file=LMC7211B.MOD
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
@@ -2291,7 +2292,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7211.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LMC7215_LM00100]
@@ -2302,9 +2303,9 @@ file=LMC7215.MOD
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
@@ -2314,7 +2315,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7215.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LMC7221A_LM00101]
@@ -2325,9 +2326,9 @@ file=LMC7221A.MOD
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
@@ -2337,7 +2338,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7221.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LMC7221B_LM00102]
@@ -2348,9 +2349,9 @@ file=LMC7221B.MOD
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
@@ -2360,7 +2361,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7221.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LMC7225_LM00103]
@@ -2371,9 +2372,9 @@ file=LMC7225.MOD
 refdes=X?
 pinseq_inp=1
 pinseq_inn=2
-pinseq_pp=3
-pinseq_pn=4
-pinseq_out=5
+pinseq_pp=4
+pinseq_pn=5
+pinseq_out=3
 pinnr_inp=in+
 pinnr_inn=in-
 pinnr_pp=V+
@@ -2383,7 +2384,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7225.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [lmc8101_LM00104]
@@ -2751,7 +2752,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6619.pdf
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 [LMH6622_LM00120]
@@ -2826,7 +2827,7 @@ model_status=good
 
 
 [LMH6639_LM00123]
-symbol=opamp.sym
+symbol=.sym
 value=LMH6639
 modelname=LMH6639
 file=LMH6639.MOD
@@ -2845,7 +2846,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6639.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMH6642_LM00124]
@@ -3259,7 +3260,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6723.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LMH6733_LM00142]
@@ -3282,7 +3283,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6733.pdf
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 [LMH6734_LM00143]
@@ -3539,7 +3540,7 @@ model_status=good
 
 
 [LMP7300_LM00154]
-symbol=opamp.sym
+symbol=.sym
 value=LMP7300
 modelname=LMP7300
 file=LMP7300.MOD
@@ -3558,7 +3559,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7300.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMP7701_LM00155]
@@ -3700,7 +3701,7 @@ model_status=good
 
 
 [LMP7711_LM00161]
-symbol=opamp.sym
+symbol=.sym
 value=LMP7711
 modelname=LMP7711
 file=LMP7711.MOD
@@ -3719,11 +3720,11 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7711.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMP7712_LM00162]
-symbol=opamp.sym
+symbol=.sym
 value=LMP7712
 modelname=LMP7712
 file=LMP7712.MOD
@@ -3742,7 +3743,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7712.pdf
 test_refdes=X1
-model_status=test
+model_status=undefined
 
 
 [LMP7715_LM00163]
@@ -3813,7 +3814,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7717.pdf
 test_refdes=X1
-model_status=broken
+model_status=good
 
 
 [LMP7718_LM00166]
@@ -4158,7 +4159,7 @@ footprint=none
 description=Low Voltage General Purpose Comparator
 documentation=http://www.national.com/ds/LM/LMV331.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [lmv339_LM00181]
@@ -4181,7 +4182,7 @@ footprint=none
 description=Quad  Low Voltage General Purpose Comparator
 documentation=http://www.national.com/ds/LM/LMV339.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LMV342_LM00182]
@@ -4250,7 +4251,7 @@ footprint=none
 description=Dual Low Voltage General Purpose Comparator
 documentation=http://www.national.com/ds/LM/LMV393.pdf
 test_refdes=X1
-model_status=test
+model_status=good
 
 
 [LMV551_LM00185]

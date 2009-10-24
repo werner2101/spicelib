@@ -363,6 +363,44 @@ class NationalSemiconductor(Vendor):
                 'LMV552.MOD': ('LMV551', 'LMV552'),
                 'LMV652.MOD': ('LMV651', 'LMV652')
                 }
+        misplaced_ends = ['LMC6042B.MOD']
+        fix_rc = ['LMC6762B.MOD',
+                'LM6152A.MOD',
+                'LM6152B.MOD',
+                'LM6171A.MOD',
+                'LM6171B.MOD',
+                'LM6172.MOD',
+                'LM7121.MOD',
+                'LM7131A.MOD',
+                'LM7171A.MOD',
+                'LM7171B.MOD',
+                'LM7301.MOD',
+                'LMC6035.MOD',
+                'LMC6036.MOD',
+                'LMC6442A.MOD',
+                'LMC6442B.MOD',
+                'LMC6572A.MOD',
+                'LMC6572B.MOD',
+                'LMC6762A.MOD',
+                'LMC6772A.MOD',
+                'LMC6772B.MOD',
+                'LMC7111B.MOD',
+                'LMC7211A.MOD',
+                'LMC7211B.MOD',
+                'LMC7215.MOD',
+                'LMC7221A.MOD',
+                'LMC7221B.MOD',
+                'LMC7225.MOD',
+                'LMC8101.MOD',
+                'LMV321.MOD',
+                'LMV324.MOD',
+                'LMV358.MOD',
+                'LMV821.MOD',
+                'LMV822.MOD',
+                'LMV824.MOD',
+                'LPV321.MOD',
+                'LPV324.MOD',
+                'LPV358.MOD']
         patch = None
         fixes = []
         if modelname in string_replacements:
@@ -370,6 +408,10 @@ class NationalSemiconductor(Vendor):
             def f(gen):
                 return fixups.replace_string(query, repl, gen)
             fixes.append(f)
+        if modelname in fix_rc:
+            fixes.append(fixups.rename_RES_and_CAP)
+        if modelname in misplaced_ends:
+            fixes.append(fixups.misplaced_ends)
         fixes.append(fixups.name_has_slash)
         return fixes, patch
 

@@ -132,3 +132,16 @@ def bzx_pin_renumber(gen):
                 line = dmatch.groups()[0] + '2 1 ' + dmatch.groups()[2] + os.linesep
         yield line
         
+def rename_RES_and_CAP(gen):
+    #Some National files include '.MODEL .* RES' or '.MODEL .* CAP'
+    #models.  But ngspice only recongizes 'R' and 'C', not 'RES' and 'CAP'
+    RES_PAT = '^(\s*\.MODEL\s+\w+\s+)RES(.*$)'   
+    CAP_PAT = '^(\s*\.MODEL\s+\w+\s+)CAP(.*$)'   
+    for line in gen:
+        rmatch = re.match(RES_PAT, line)
+        if rmatch:
+            line = rmatch.groups()[0] + 'R' + rmatch.groups()[1] + os.linesep
+        cmatch = re.match(CAP_PAT, line)
+        if cmatch:
+            line = cmatch.groups()[0] + 'C' + cmatch.groups()[1] + os.linesep
+        yield line

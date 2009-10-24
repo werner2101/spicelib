@@ -728,13 +728,15 @@ class modelComparator(modelOpamp):
     plot_methods = ['plot_transient']
     simulator='ngspice'
     def plot_transient(self, dir, longmsg):
-        #TODO: verify simulation results
+        ret = 0
         pp = plotter()
         plots = spice_read.spice_read(
                 os.path.join(dir, 'switching.data')).get_plots()
         x = plots[0].get_scalevector().get_data()
         vin = plots[0].get_datavectors()[0].get_data()
         vout = plots[0].get_datavectors()[1].get_data()
+        if not self.trans_voltage_ok(vin, vout, longmsg):
+            ret = 1
         pp.plot(x, vin, label="v(in)")
         pp.plot(x, vout, label="v(out)")
         pp.xlabel("Uin [V]")
@@ -743,13 +745,13 @@ class modelComparator(modelOpamp):
         pp.legend(loc="best")
         pp.savefig(os.path.join(dir, "dc_amplifier.png"), dpi=80)
         pp.close()
-        return 0
+        return ret
 
     def simulate_cmd_lines(self, simulator):
         vsupply = self.vsupply()
         vstart = -0.5
         vend = vsupply + 0.5
-        twidth = 1e-6   #convenient value for typical comparator
+        twidth = 50e-6   #convenient value for typical comparator
         period = 10 * twidth
         trise = twidth / 2
         tfall = trise
@@ -758,11 +760,25 @@ class modelComparator(modelOpamp):
                 '.control',
                 'alter v2 %fV' % vsupply,
                 #VPULSE parameters: V1 V2 TD TR TF PW PER
-                'alter v1 [ %e %e 0 %e %e %e %e  ]' % (vstart, vend, trise, tfall, twidth, period),
+                #XXX: the alter command does not seem to work for PULSE sources
+                #in ngspice
+                'alter v1 [ %e %e 0 %e %e %e %e  ]' % (vstart, vend, trise, tfall, 1e-10, period),
                 'tran %e %e' % (tstep, twidth),
                 'write switching.data tran1.V(in) tran1.V(out) tran1.V(vsource)',
                 '.endc']
 
+    def trans_voltage_ok(self, vin, vout, longmsg):
+        success = True
+        vss = 0
+        vdd = self.vsupply()
+        vmargin = 0.5
+        if vout[0] > vss + vmargin or vout[-1] > vss + vmargin:
+            print >>longmsg, "Circuit does not output low"
+            success = False
+        if max(vout) < vdd - vmargin:
+            print >>longmsg, "Circuit does not output high"
+            success = False
+        return success
 
 
 class modelCFA(modelOpamp):

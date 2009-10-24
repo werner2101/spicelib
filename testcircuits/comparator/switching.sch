@@ -89,5 +89,5 @@ device=vpulse
 T 46400 48350 5 10 0 0 0 0 1
 footprint=none
 T 46400 47750 5 10 0 1 0 0 1
-value=pulse 0 5 0 5e-7 5e-7 1e-10 1e-5
+value=pulse 0 5 0 25e-6 25e-6 1e-10 50e-5
 }
