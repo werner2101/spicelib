@@ -90,7 +90,7 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "testcircuits/npn_bipolar/",
                                     "htmltemplate": "index.html",
                                     "files": ["simulate.ngspice"]},
             "opamp.sym": { "dir" : BASE_DIR + "testcircuits/opamp/",
-                                    "schematics" : ["dc_amplifier.sch"],
+                                    "schematics" : ["ac_amplifier.sch"],
                                     "htmltemplate": "index.html",
                                     "files": ["simulate.ngspice"]},
             "comparator.sym": { "dir" : BASE_DIR + "testcircuits/comparator/",
@@ -98,7 +98,7 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "testcircuits/npn_bipolar/",
                                     "htmltemplate": "index.html",
                                     "files": ["simulate.ngspice"]},
             "cfa.sym": { "dir" : BASE_DIR + "testcircuits/cfa/",
-                                    "schematics" : ["dc_amplifier.sch"],
+                                    "schematics" : ["ac_amplifier.sch"],
                                     "htmltemplate": "index.html",
                                     "files": ["simulate.ngspice"]}
             }
@@ -624,8 +624,30 @@ class modelNPNBin(modelBipolarBin):
 
 class modelOpamp(modelpartBase):
     section = 'opamp'
-    plot_methods = ['plot_dc_amplifier']
+    plot_methods = ['plot_dc_amplifier', 'plot_ac_amplifier']
     simulator = 'ngspice'
+    def plot_ac_amplifier(self, dir, longmsg):
+        ret = 0
+        pp = plotter()
+        
+        plots = spice_read.spice_read(
+                os.path.join(dir, "ac_amplifier.data")).get_plots()
+        x = plots[0].get_scalevector().get_data()
+        vin = plots[0].get_datavectors()[0].get_data()
+        vout = plots[0].get_datavectors()[1].get_data()
+        
+        pp.multiplot(2, 1)
+        pp.loglog(x, numpy.abs(vout / vin), label="magnitude v(out)")
+        pp.xlabel("Frequency [Hz]")
+        pp.ylabel("U [V]")
+        pp.semilogx(x, 180. / numpy.pi * numpy.angle(vout), label="theta v(out)")
+        pp.xlabel("Frequency [Hz]")
+        pp.ylabel("theta (degrees)")
+        pp.grid()
+        pp.legend(loc="best")
+        pp.savefig(os.path.join(dir, "ac_amplifier.png"), dpi=80)
+        pp.close()
+        return ret
     def plot_dc_amplifier(self, dir, longmsg):
         ret = 0
         pp = plotter()
@@ -649,21 +671,27 @@ class modelOpamp(modelpartBase):
         return ret
     def simulate_cmd_lines(self, simulator):
         """Returns a list of lines that form the simulator command"""
-        vsupply = self.vsupply()
-        vstart = -0.5
+        vsupply = self.vsupply() / 2.
+        vstart = - vsupply - 0.5
         vend = vsupply + 0.5
         vstep = (vend - vstart) / 200.
-        return ['.include dc_amplifier.net',
+        return ['.include ac_amplifier.net',
                 '.control',
                 "alter v2 %fV" % vsupply,
+                "alter v3 %fV" % vsupply,
                 "dc v1 %f %f %f" % (vstart, vend, vstep),
                 "write dc_amplifier.data dc1.V(in) dc1.V(out)",
+                '*.endc',
+                "*.source ac_amplifier.net",
+                '*.control',
+                'ac DEC 25 10 1000000000',
+                'write ac_amplifier.data ac1.V(in) ac1.V(out)',
                 '.endc']
     def voltage_ok(self, vin, vout, longmsg):
         success = True
-        vs = self.vsupply()
+        vs = self.vsupply() / 2.
         vmax = vs + 0.5
-        vmin = 0 - 0.5
+        vmin = -vs - 0.5
         vmargin = .1
         if numpy.any(numpy.isnan(vin)) or numpy.any(numpy.isnan(vout)):
             print >>longmsg, "NaN in data"
@@ -677,11 +705,12 @@ class modelOpamp(modelpartBase):
         if max(vout) - min(vout) < vs / 100.:
             print >>longmsg, 'output voltage is not a function of input voltage'
             success = False
-        t = len(vin) / 4
-        amp = vout[t] / vin[t]
-        if not numpy.allclose(amp, 2., rtol=.01):
+        t1 = len(vin) / 2 - 10
+        t2 = len(vin) / 2 + 10
+        if not numpy.allclose(2 * vin[t1:t2], vout[t1:t2], rtol=.01, atol=.1):
+            #We can't have a very tight tolerance here because input offset 
+            #voltages have a large effect when the voltage is near 0
             print >>longmsg, 'Circuit does not acheive correct amplification'
-            print >>longmsg, "Amplification at %fV input is %f" % (vin[t], amp)
             success = False
         return success
 
