@@ -94,7 +94,7 @@ class Vendor(object):
                                          self.abbrev + '_all.md5sum')
             nodes.append(env.Command(os.path.join(basedir, file), None, 
                 """
-                wget -N -P `dirname $TARGET` %s
+                wget -N -P `dirname  $TARGET  ` '%s'
                 md5sum $TARGET > %s
                 """
                 % (url, checksum_file)))
@@ -532,9 +532,106 @@ class NXP(Vendor):
         patch = patches.get(modelname, None)
         return fixes, patch
 
+
+class AnalogDevices(Vendor):
+    download_urls = ["http://www.analog.com/static/imported-files/spice_models/Spice Models.zip"]
+    sections = ['opamps']
+    unpack_by_section = False
+    abbrev = 'adi'
+    all_adi_opamps = [  #{{{1
+        "AD549.cir", "AD704.cir", "AD706.cir", "AD708.cir", "AD711.cir",
+        "AD712.cir", "AD713.cir", "AD743.cir", "AD745.cir", "AD746.cir",
+        "AD795.cir", "AD797.cir", "AD8000.cir", "AD8001.cir", "AD8002.cir",
+        "AD8003.cir", "AD8004.cir", "AD8005.cir", "AD8007.cir", "AD8008.cir",
+        "AD8009.cir", "AD8010.cir", "AD8011.cir", "AD8012.cir", "AD8013.cir",
+        "AD8014.cir", "AD8016.cir", "AD8017.cir", "AD8018.cir", "AD8019.cir",
+        "AD8021.cir", "AD8022.cir", "AD8023.cir", "AD8024.cir", "AD8027.cir",
+        "AD8028.cir", "AD8029.cir", "AD8030.cir", "AD8031.cir", "AD8032.cir",
+        "AD8033.cir", "AD8034.cir", "AD8036.cir", "AD8037.cir", "AD8038.cir",
+        "AD8039.cir", "AD8040.cir", "AD8041.cir", "AD8042.cir", "AD8044.cir",
+        "AD8045.cir", "AD8047.cir", "AD8048.cir", "AD8051.cir", "AD8052.cir",
+        "AD8054.cir", "AD8055.cir", "AD8056.cir", "AD8057.cir", "AD8058.cir",
+        "AD8061.cir", "AD8062.cir", "AD8063.cir", "AD8065.cir", "AD8066.cir",
+        "AD8067.cir", "AD8072.cir", "AD8073.cir", "AD8074.cir", "AD8075.cir",
+        "AD8079.cir", "AD8091.cir", "AD8092.cir", "AD8099.cir", "AD810.cir",
+        "AD811.cir", "AD812.cir", "AD813.cir", "AD815.cir", "AD817.cir",
+        "AD818.cir", "AD820.cir", "AD822.cir", "AD823.cir", "AD824.cir",
+        "AD825.cir", "AD826.cir", "AD827.cir", "AD828.cir", "AD829.cir",
+        "AD8397.cir", "AD847.cir", "AD8500.cir", "AD8502.cir", "AD8504.cir",
+        "AD8506.cir", "AD8510.cir", "AD8512.cir", "AD8513.cir", "AD8515.cir",
+        "AD8517.cir", "AD8519.cir", "AD8527.cir", "AD8529.cir", "AD8531.cir",
+        "AD8532.cir", "AD8534.cir", "AD8538.cir", "AD8539.cir", "AD8541.cir",
+        "AD8542.cir", "AD8544.cir", "AD8551.cir", "AD8552.cir", "AD8554.cir",
+        "AD8560.cir", "AD8565.cir", "AD8566.cir", "AD8567.cir", "AD8568.cir",
+        "AD8569.cir", "AD8570.cir", "AD8571.cir", "AD8572.cir", "AD8574.cir",
+        "AD8591.cir", "AD8592.cir", "AD8594.cir", "AD8599.cir", "AD8601.cir",
+        "AD8602.cir", "AD8603.cir", "AD8604.cir", "AD8605.cir", "AD8606.cir",
+        "AD8607.cir", "AD8608.cir", "AD8609.cir", "AD8610.cir", "AD8613.cir",
+        "AD8614.cir", "AD8615.cir", "AD8616.cir", "AD8617.cir", "AD8618.cir",
+        "AD8619.cir", "AD8620.cir", "AD8625.cir", "AD8626.cir", "AD8627.cir",
+        "AD8628.cir", "AD8629.cir", "AD8630.cir", "AD8631.cir", "AD8632.cir",
+        "AD8638.cir", "AD8639.cir", "AD8641.cir", "AD8642.cir", "AD8643.cir",
+        "AD8644.cir", "AD8646.cir", "AD8647.cir", "AD8648.cir", "AD8651.cir",
+        "AD8652.cir", "AD8655.cir", "AD8656.cir", "AD8661.cir", "AD8662.cir",
+        "AD8663.cir", "AD8664.cir", "AD8665.cir", "AD8666.cir", "AD8667.cir",
+        "AD8668.cir", "AD8669.cir", "AD8671.cir", "AD8672.cir", "AD8674.cir",
+        "AD8675.cir", "AD8676.cir", "AD8677.cir", "AD8682.cir", "AD8684.cir",
+        "AD8691.cir", "AD8692.cir", "AD8694.cir", "AD8698.cir", "AD9631.cir",
+        "ADA4000-1.cir", "ADA4000-2.cir", "ADA4000-4.cir", "ADA4004-4.cir",
+        "ADA4051-2.cir", "ADA4505-1.cir", "ADA4505-2.cir", "ADA4505-4.cir",
+        "ADA4691-2.cir", "ADA4692-2.cir", "ADA4692-4.cir", "ADA4817-1.cir",
+        "ADA4817-2.cir", "ADA4841-1.cir", "ADA4841-2.cir", "ADA4850-1.cir",
+        "ADA4850-2.cir", "ADA4851-1.cir", "ADA4851-2.cir", "ADA4851-4.cir",
+        "ADA4853-1.cir", "ADA4853-2.cir", "ADA4855-3.cir", "ADA4857-1.cir",
+        "ADA4857-2.cir", "ADA4858-3.cir", "ADA4860-1.cir", "ADA4861-3.cir",
+        "ADA4862-3.cir", "ADA4898-1.cir", "ADA4899-1.cir", "ADD8504.cir",
+        "ADD8505.cir", "ADD8704.cir", "ADR821.cir", "ADR827.cir",
+        "ADTL082.cir", "ADTL084.cir", "OP07.cir", "OP07D.cir", "OP113.cir",
+        "OP1177.cir", "OP162.cir", "OP177.cir", "OP179.cir", "OP183.cir",
+        "OP184.cir", "OP191.cir", "OP193.cir", "OP196.cir", "OP200.cir",
+        "OP213.cir", "OP2177.cir", "OP249.cir", "OP262.cir", "OP27.cir",
+        "OP270.cir", "OP275.cir", "OP279.cir", "OP281.cir", "OP282.cir",
+        "OP284.cir", "OP285.cir", "OP290.cir", "OP291.cir", "OP292.cir",
+        "OP293.cir", "OP295.cir", "OP296.cir", "OP297.cir", "OP37.cir",
+        "OP400.cir", "OP413.cir", "OP4177.cir", "OP42.cir", "OP462.cir",
+        "OP467.cir", "OP470.cir", "OP471.cir", "OP481.cir", "OP482.cir",
+        "OP484.cir", "OP490.cir", "OP491.cir", "OP492.cir", "OP495.cir",
+        "OP496.cir", "OP497.cir", "OP727.cir", "OP747.cir", "OP77.cir",
+        "OP777.cir", "OP97.cir", "SSM2135.cir"]  #}}}
+    def unpack_opamps(self):
+        return env.Command(None, self.download_all_node,
+                """
+                unzip -o -d %(TEMPDIR)s $SOURCE
+                find %(TEMPDIR)s -type f -exec md5sum {} \; | \
+                        sort -k 2 >> %(SIGFILE)s
+                """ % {'TEMPDIR': os.path.join(TEMPDIR, 'adi'),
+                       'SIGFILE': os.path.join(MODEL_SIGDIR, 'adi_all.md5sum')})
+    def opamps_fixups(self, modelname, dir):
+        fix_rc = ['AD8067.cir']
+        string_replacements = {
+                'AD8572.cir': ('..SUBCKT AD8572', '.SUBCKT AD8572'),
+                'AD8698.cir': ('^AD8698 SPICE Macro-model', '*AD8698 SPICE Macro-model')
+                }
+        patch = None
+        fixes = []
+        if not modelname in self.all_adi_opamps:
+            return None, None
+        fixes.append(fixups.comma_lambda)
+        if modelname in fix_rc:
+            fixes.append(fixups.rename_RES_and_CAP)
+        if modelname in string_replacements:
+            query, repl = string_replacements[modelname]
+            def f(gen):
+                return fixups.replace_string(query, repl, gen)
+            fixes.append(f)
+        return fixes, None
+
+
+
 ltc = LinearTechnology()
 ti = TexasInstruments()
 national = NationalSemiconductor()
 nxp = NXP()
+adi = AnalogDevices()
 
-mk_aliases(ltc, ti, national, nxp)
+mk_aliases(ltc, ti, national, nxp, adi)

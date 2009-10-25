@@ -138,10 +138,21 @@ def rename_RES_and_CAP(gen):
     RES_PAT = '^(\s*\.MODEL\s+\w+\s+)RES(.*$)'   
     CAP_PAT = '^(\s*\.MODEL\s+\w+\s+)CAP(.*$)'   
     for line in gen:
-        rmatch = re.match(RES_PAT, line)
+        rmatch = re.match(RES_PAT, line, re.I)
         if rmatch:
             line = rmatch.groups()[0] + 'R' + rmatch.groups()[1] + os.linesep
-        cmatch = re.match(CAP_PAT, line)
+        cmatch = re.match(CAP_PAT, line, re.I)
         if cmatch:
             line = cmatch.groups()[0] + 'C' + cmatch.groups()[1] + os.linesep
+        yield line
+
+def comma_lambda(gen):
+    #For some unknown reason, ngspice doesn't like to see a comma before a
+    #lambda parameter in NMOS and PMOS models
+    PAT="(^\s*\.MODEL.*),LAMBDA=(.*$)"
+    for line in gen:
+        match = re.match(PAT, line, re.I)
+        if match:
+            line = match.groups()[0] + ' LAMBDA=' + match.groups()[1] + \
+                    os.linesep
         yield line
