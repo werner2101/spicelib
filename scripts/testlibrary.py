@@ -8,6 +8,7 @@ import popen2
 import StringIO
 import ConfigParser
 import numpy
+import md5          ## not sure if hashlib.md5 would be better
 
 import spice_read
 from plotutils import load, plotter
@@ -146,6 +147,7 @@ class modelpartBase(object):
     def simulate_cmd(self, simulator):
         """Returns the string to be passed to simulator"""
         return os.linesep.join(['*'] + self.simulate_cmd_lines(simulator))
+
     def test(self):
         if TESTDEFS.has_key(self.properties["symbol"]):
             test = TESTDEFS[self.properties["symbol"]]
@@ -183,20 +185,30 @@ class modelpartBase(object):
             self.test_message = "no test definition available"
             return False, self.test_message
 
-    def checksums(self, golden, current):
-        if golden == False and current == False:
-            self.checksum_status = 'neither'
-        elif golden != False and current == False:
-            self.checksum_status = 'missing1'
-        elif golden == False and current != False:
-            self.checksum_status = 'missing2'
-        elif golden == current:
-            self.checksum_status = 'good'
-        else:
-            self.checksum_status = 'failed'
+    def update_checksum(self):
+        golden = self.golden_checksum
 
-        self.golden_checksum = golden
+        modelpath = os.path.join(self.modeldir, self.properties['file'])
+        if os.path.exists(modelpath):
+            m = md5.new()
+            m.update(open(modelpath).read())
+            current = m.hexdigest()
+        else:
+            current = False
+
+        if golden == False and current == False:
+            checksum_status = 'neither'
+        elif golden != False and current == False:
+            checksum_status = 'missing1'
+        elif golden == False and current != False:
+            checksum_status = 'missing2'
+        elif golden == current:
+            checksum_status = 'good'
+        else:
+            checksum_status = 'failed'
+
         self.current_checksum = current
+        self.checksum_status = checksum_status
 
     def html_status(self):
         repl = {}
@@ -208,6 +220,8 @@ class modelpartBase(object):
             repl["partname"] = self.name
 
         make_doc_hyperlink(repl, docname='(d) ')
+
+        self.update_checksum()
 
         repl["model_url"] = '<a href="../../../' + self.modeldir +'/'+repl["file"]+'">'+repl["file"]+'</a>'
         repl["model_status_color"] = color(repl["model_status"])
@@ -319,8 +333,6 @@ class modelDiode(modelpartBase):
                 'end',
                 'write forward_voltage.data dc1.V(in) dc2.V(in) dc3.V(in) dc4.V(in) dc5.V(in)',
                 '.endc']
-
-
 
 
 class modelZenerDiode(modelDiode):
@@ -799,7 +811,6 @@ class modellibrary(object):
         self.modeldir = self.index.get("GLOBAL","MODELDIR")
         self.description = self.index.get("GLOBAL","DESCRIPTION")
         self.golden_md5 = self.load_md5sums(BASE_DIR + self.index.get("GLOBAL","GOLDEN_CHECKSUMS"))
-        self.current_md5 = self.load_md5sums(BASE_DIR + self.index.get("GLOBAL","CURRENT_CHECKSUMS"))
 
         self.modelparts = {}
 
@@ -807,11 +818,9 @@ class modellibrary(object):
             if sec == "GLOBAL":
                 continue
             part = modelpart(sec, self.testdir + sec, self.modeldir, self.index.items(sec))
-            self.modelparts[part.name] = part
-
             modelpath = self.modeldir + part.properties['file']
-            part.checksums(self.golden_md5.get(modelpath, False),
-                           self.current_md5.get(modelpath, False))
+            part.golden_checksum = self.golden_md5.get(modelpath, False)
+            self.modelparts[part.name] = part
 
     def test_library_index(self):
         """
