@@ -13,6 +13,8 @@ import md5          ## not sure if hashlib.md5 would be better
 import spice_read
 from plotutils import load, plotter
 
+from spicelibconf import *
+
 #################### SETUP VARS
 TEMPLATE_FILE = "testcircuits/index_template.html"
 BASE_DIR = os.path.join(os.path.dirname(__file__), '../')
