@@ -3,10 +3,7 @@
 # vim: sw=4
 
 import numpy
-
-
-#PLOTTER = 'gnuplot'
-PLOTTER = 'matplotlib'
+from spicelibconf import *
 
 
 if PLOTTER == 'gnuplot':

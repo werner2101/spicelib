@@ -121,7 +121,6 @@ class Vendor(object):
         else:
             unpack_dir = os.path.join(TEMPDIR, self.abbrev)
         create_dir = os.path.join(MODEL_LIBDIR, self.abbrev, section)
-        csfile = os.path.join(MODEL_SIGDIR, self.abbrev + '_' + section + '_lib.md5sum')
         if not os.path.isdir(create_dir):
             Execute(Mkdir(create_dir))
         targets = set([])
@@ -142,7 +141,6 @@ class Vendor(object):
                         fixups.write(target[0], reduce(lambda x, y: y(x), env.flist, read))
                     node = envtemp.Command(target, source, builder)
                     targets.add(model)
-                    AddPostAction(target, 'md5sum $TARGET >> %s' % csfile)
                     if patch != None:
                         AddPostAction(target, 'patch -d %s -p1 < %s' % (create_dir, os.path.join(PATCHDIR, patch)))
                     nodes.append(node)
@@ -427,14 +425,14 @@ class NXP(Vendor):
     def unpack_diodes(self):
         return env.Command(None, os.path.join('downloads', 'nxp', 'diodes.zip'),
                 """
-                - unzip -d -o %(tempdir)s $SOURCE
+                - unzip -o -d %(tempdir)s $SOURCE
                 md5sum %(tempdir)s/* >> %(csfile)s
                 """ % {'tempdir': os.path.join(TEMPDIR, 'nxp', 'diodes'),
                     'csfile': os.path.join(MODEL_SIGDIR, 'nxp_diodes.md5sum')})
     def unpack_bipolar(self):
         return env.Command(None, os.path.join('downloads', 'nxp', 'SST.zip'),
                 """
-                - unzip -d -o %(tempdir)s $SOURCE
+                - unzip -o -d %(tempdir)s $SOURCE
                 md5sum %(tempdir)s/* >> %(csfile)s
                 """ % {'tempdir': os.path.join(TEMPDIR, 'nxp', 'bipolar'),
                     'csfile': os.path.join(MODEL_SIGDIR, 'nxp_bipolar.md5sum')})
