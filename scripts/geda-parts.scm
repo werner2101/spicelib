@@ -4,7 +4,7 @@
 ; (component-library-command "[listcommand]" "[getcommand]" "[name]")
 ;
 
-(define gedaparts "/home/somers/spicelib/trunk/scripts/gedaparts")
+(define gedaparts "/home/somers/spicelib/scons/scripts/gedaparts")
 
 (component-library-command 
  (string-append gedaparts " -l nxp_bipolar.index")
@@ -26,6 +26,10 @@
  (string-append gedaparts " -l national_opamps.index" )
  (string-append gedaparts " -p national_opamps.index" )
  "National opamps")
+(component-library-command 
+ (string-append gedaparts " -l adi_opamps.index" )
+ (string-append gedaparts " -p adi_opamps.index" )
+ "ADI opamps")
 
 ;(component-library-command 
 ; "/store/spicelib/scripts/gedaparts nxp_bipolar.index" 

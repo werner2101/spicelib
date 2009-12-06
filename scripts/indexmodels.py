@@ -4,6 +4,7 @@
 
 import sys,re,string
 import ConfigParser
+import os.path
 
 
 
@@ -100,14 +101,14 @@ def read_index(filename):
 
 
 #################### MAIN
-tt = string.Template(TRANSISTOR_TEMPLATE)
+#tt = string.Template(TRANSISTOR_TEMPLATE)
 #tt = string.Template(DIODE_TEMPLATE)
-#tt = string.Template(OPAMP_TEMPLATE)
+tt = string.Template(OPAMP_TEMPLATE)
 PINCOUNT = 3
-MODEL_REFDES = "Q"
-PREFIX="NXP"
+MODEL_REFDES = "X"
+PREFIX="ADI"
 NUMBER=100001
-INDEX_FILE = 'indexfiles/nxp_bipolar.index1'
+INDEX_FILE = 'indexfiles/adi_opamps.index'
 
 #usedfiles = set([])
 usedfiles = read_index(INDEX_FILE)
@@ -131,7 +132,8 @@ for f in files:
                 model_refdex = "X"
             else:
                 model_refdes = MODEL_REFDES
-            v["part"] = toks[1]
+            v["part"] = os.path.splitext(os.path.basename(f))[0]
+#            v["part"] = toks[1]
             v["filename"] = modelname
             v["number"] = PREFIX + str(NUMBER)[1:]
             v["partnumber"] = v["part"] + '_' + v["number"]
