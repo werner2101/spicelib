@@ -3,7 +3,7 @@ Proposal to add support for multiple simulators
 I propose to extend the tests performed by spicelib to test every
 model with any number of simulators. Here are the details:
 
-    * All user-configurable settings will be stored in conf.py . These
+    * All user-configurable settings will be stored in spicelibconf.py . These
       will include both the plotting backend and which simulators to
       use
 
@@ -16,7 +16,6 @@ model with any number of simulators. Here are the details:
     * Gnucap and NGspice will be the first simulators targeted, but
       testlibrary should be well abstracted so other simulators can be
       easily added, eg Qucs
-
 
     * The per-section html reports (eg
       model_tests/adi/opamps/index.html) shall automatically create
