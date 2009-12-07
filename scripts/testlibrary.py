@@ -107,6 +107,12 @@ TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "testcircuits/npn_bipolar/",
             }
 
 
+#################### EXCEPTIONS
+
+class SimulatorError(Exception):
+    #module-specific exception for problems with simulators
+    pass
+
 #################### CLASSES
 
 class modelpart(object):
@@ -140,23 +146,35 @@ class modelpartBase(object):
         self.testdir = testdir
         self.modeldir = modeldir
         self.properties = dict(properties)
+        if not 'model_status_good' in self.properties:
+            self.properties['model_status_good'] = ""
+        if not 'model_status_bad' in self.properties:
+            self.properties['model_status_bad'] = ""
 
         self.golden_checksum = None
         self.current_checksum = None
         self.checksum_status = None
         self.test_status = None
 
-    def simulate_cmd(self, simulator):
-        """Returns the string to be passed to simulator"""
-        return os.linesep.join(['*'] + self.simulate_cmd_lines(simulator))
+    def simulate_cmd(self, sim_family):
+        """Returns the string to be passed to the simulator"""
+        return os.linesep.join(['*'] + self.simulate_cmd_lines(sim_family))
 
     def test(self):
+        ignore_status = ['undefined', 'new']
+        for sim in SIMULATORS:
+            if self.model_status(sim) not in ignore_status:
+                self.test_simulator(sim)
+
+    def test_simulator(self, simulator):
+        """Test self with the given simulator"""
         if TESTDEFS.has_key(self.properties["symbol"]):
             test = TESTDEFS[self.properties["symbol"]]
             ## copy all test files and the controller to dest
-            if not os.path.isdir(self.testdir):
-                os.makedirs(self.testdir)
-
+            # TODO: do not copy files unneeded for this simulator
+            testdir = os.path.join(self.testdir, SIMULATORS[simulator]['folder'])
+            if not os.path.isdir(testdir):
+                os.makedirs(testdir)
             repl = {}
             repl.update(self.properties)
             repl['partname'] = self.name
@@ -164,11 +182,12 @@ class modelpartBase(object):
             ## apply the properties to all schematic files
             for f in test["schematics"]:
                 sch = string.Template(open(test["dir"] + f,"rt").read())
-                open(os.path.join(self.testdir, f), "wt").write(sch.safe_substitute(repl))
+                open(os.path.join(testdir, f), "wt").write(sch.safe_substitute(repl))
 
             ## run the tests
-            self.test_message, result = self.plot_all(self.testdir)
+            self.test_message, result = self.plot_all(testdir, simulator)
 
+            #TODO: make self.test_status per-simulator
             if result == 0:
                 self.test_status = 'succeeded'
             else:
@@ -179,7 +198,7 @@ class modelpartBase(object):
             repl['modelpath'] = os.path.join('../../../../', self.modeldir, self.properties['file'])
             make_doc_hyperlink(repl)
             html = string.Template(open(test["dir"] + test["htmltemplate"], "rt").read())
-            open(os.path.join(self.testdir, "index.html"),"wt").write(html.safe_substitute(repl))
+            open(os.path.join(testdir, "index.html"),"wt").write(html.safe_substitute(repl))
             #TODO: use the return value, or eliminate it
             return True, self.test_message
 
@@ -239,8 +258,8 @@ class modelpartBase(object):
         open(os.path.join(self.testdir, 'status.htm'), 'w').write(status)
         return status
 
-    def plot_all(self, dir):
-        #Generate all plots in directory dir
+    def plot_all(self, dir, simulator):
+        """Generate all plots in directory dir, based on simulator"""
         ME = os.path.split(__file__)[1]
         longmsg = StringIO.StringIO()
         result = 0
@@ -259,33 +278,56 @@ class modelpartBase(object):
             else:
                 print >>longmsg, ME, "netlist creation was successful"
 
-        simfile = 'simulate.' + self.simulator
-        f = open(os.path.join(dir, simfile), 'w').write(self.simulate_cmd(self.simulator))
-        command = ("cd %s ; " % dir) + self.simulator + " -b " + simfile
-        print >>longmsg, ME, "running simulation: ", command
-        pop = popen2.Popen4(command)
-        print >>longmsg, pop.fromchild.read()
-        ret_simulation = pop.wait()
-        if ret_simulation != 0:
-            print >>longmsg, ME, "simulation failed with errorcode:", ret_simulation
+        sim_family = SIMULATORS[simulator]['simulator']
+        simfile = 'simulate.' + sim_family
+        try:
+            f = open(os.path.join(dir, simfile), 'w').write(self.simulate_cmd(sim_family))
+        except SimulatorError: 
+            print >>longmsg, ME, "Error: no test definitions for %s" % sim_family
         else:
-            print >>longmsg, ME, "simulation run was successful"
-  
-        print >>longmsg, ME, "testing and plotting"
-        for meth in self.plot_methods:
-            try:
-                ret_plot = getattr(self, meth)(dir, longmsg)
-            except Exception, data:
-                print >>longmsg, ME, "plotting function died:"
-                print >>longmsg, data
-                result = 1
+            #TODO: allow for simulators' command line invocations to be 
+            #different than their families
+            command = ("cd %s ; " % dir) + SIMULATORS[simulator]['simulator'] + " -b " + simfile
+            print >>longmsg, ME, "running simulation: ", command
+            pop = popen2.Popen4(command)
+            print >>longmsg, pop.fromchild.read()
+            ret_simulation = pop.wait()
+            if ret_simulation != 0:
+                print >>longmsg, ME, "simulation failed with errorcode:", ret_simulation
             else:
-                if ret_plot != 0:
-                    print >>longmsg, ME, "testing or plotting failed"
-                    result = 2
-        if result == 0:
-            print >>longmsg, ME, "finished testing and plotting successfully"
+                print >>longmsg, ME, "simulation run was successful"
+      
+            print >>longmsg, ME, "testing and plotting"
+            for meth in self.plot_methods:
+                try:
+                    ret_plot = getattr(self, meth)(dir, longmsg)
+                except Exception, data:
+                    print >>longmsg, ME, "plotting function died:"
+                    print >>longmsg, data
+                    result = 1
+                else:
+                    if ret_plot != 0:
+                        print >>longmsg, ME, "testing or plotting failed"
+                        result = 2
+            if result == 0:
+                print >>longmsg, ME, "finished testing and plotting successfully"
         return longmsg.getvalue(), result
+  
+    def model_status(self, simulator):
+        """Return the status of the part for the given simulator"""
+        sim_family = SIMULATORS[simulator]['simulator']
+        if sim_family in self.properties['model_status_good'] and \
+                sim_family in self.properties['model_status_bad']:
+            raise ValueError, "%s status listed as both good and bad for %s" % \
+                    (sim_family, self.name)
+        if 'model_status_undefined' in self.properties:
+            return 'undefined'
+        elif sim_family in self.properties['model_status_good']:
+            return 'good'
+        elif sim_family in self.properties['model_status_bad']:
+            return 'broken'
+        else:
+            return 'test'
 
 
 class modelDiode(modelpartBase):
@@ -325,16 +367,19 @@ class modelDiode(modelpartBase):
         #Basic diode has no reverse voltage plot
         return 0
 
-    def simulate_cmd_lines(self, simulator):
+    def simulate_cmd_lines(self, sim_family):
         """Returns a list of lines that form the simulator command"""
-        return ['.include dc_current.net',
-                '.control',
-                'foreach t 0 25 50 75 100',
-                '  set temp =  $t',
-                '  dc i1 -10uA -1A -1mA',
-                'end',
-                'write forward_voltage.data dc1.V(in) dc2.V(in) dc3.V(in) dc4.V(in) dc5.V(in)',
-                '.endc']
+        if sim_family == 'ngspice':
+            return ['.include dc_current.net',
+                    '.control',
+                    'foreach t 0 25 50 75 100',
+                    '  set temp =  $t',
+                    '  dc i1 -10uA -1A -1mA',
+                    'end',
+                    'write forward_voltage.data dc1.V(in) dc2.V(in) dc3.V(in) dc4.V(in) dc5.V(in)',
+                    '.endc']
+        else:
+            raise SimulatorError
 
 
 class modelZenerDiode(modelDiode):
@@ -687,24 +732,27 @@ class modelOpamp(modelpartBase):
         pp.savefig(os.path.join(dir, "dc_amplifier.png"), dpi=80)
         pp.close()
         return ret
-    def simulate_cmd_lines(self, simulator):
+    def simulate_cmd_lines(self, sim_family):
         """Returns a list of lines that form the simulator command"""
         vsupply = self.vsupply() / 2.
         vstart = - vsupply - 0.5
         vend = vsupply + 0.5
         vstep = (vend - vstart) / 200.
-        return ['.include ac_amplifier.net',
-                '.control',
-                "alter v2 %fV" % vsupply,
-                "alter v3 %fV" % vsupply,
-                "dc v1 %f %f %f" % (vstart, vend, vstep),
-                "write dc_amplifier.data dc1.V(in) dc1.V(out)",
-                '*.endc',
-                "*.source ac_amplifier.net",
-                '*.control',
-                'ac DEC 25 10 1000000000',
-                'write ac_amplifier.data ac1.V(in) ac1.V(out)',
-                '.endc']
+        if sim_family == 'ngspice':
+            return ['.include ac_amplifier.net',
+                    '.control',
+                    "alter v2 %fV" % vsupply,
+                    "alter v3 %fV" % vsupply,
+                    "dc v1 %f %f %f" % (vstart, vend, vstep),
+                    "write dc_amplifier.data dc1.V(in) dc1.V(out)",
+                    '*.endc',
+                    "*.source ac_amplifier.net",
+                    '*.control',
+                    'ac DEC 25 10 1000000000',
+                    'write ac_amplifier.data ac1.V(in) ac1.V(out)',
+                    '.endc']
+        else:
+            raise SimulatorError
     def voltage_ok(self, vin, vout, longmsg):
         success = True
         vs = self.vsupply() / 2.
@@ -731,7 +779,6 @@ class modelOpamp(modelpartBase):
             print >>longmsg, 'Circuit does not acheive correct amplification'
             success = False
         return success
-
 
     def vsupply(self):
         return float(self.properties.get('test_vsupply', 5))
@@ -857,16 +904,12 @@ class modellibrary(object):
         return md5
 
     def test(self, status=None, checksum=None):
-        ignore_status = ['undefined', 'new']
-
         partnames = self.modelparts.keys()
         partnames.sort(sort_modelnumber)
 
         for partname in partnames:
             part = self.modelparts[partname]
 
-            if part.properties['model_status'] in ignore_status:
-                continue
             if status != None:
                 if status != part.properties['model_status']:
                     continue
