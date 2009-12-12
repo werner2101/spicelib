@@ -55,7 +55,7 @@ description=TBD1
 documentation=TBD2
 test_refdes=X1
 model_status_good=ngspice_19 ngspice_18
-model_status_bad=gnucap_.35
+model_status_broken=gnucap_.35
 
 
 # Subcircuit with 5 connections
@@ -80,4 +80,4 @@ description=TBD1
 documentation=TBD2
 test_refdes=X1
 model_status_good=
-model_status_bad=ngspice_19
+model_status_broken=ngspice_19

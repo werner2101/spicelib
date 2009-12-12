@@ -30,19 +30,19 @@ model with any number of simulators. Here are the details:
     * If model_status_undefined is defined for a part, then that
       part’s status will be ‘undefined’ for all simulators and the
       tests will not be run. In this case, model_status_good and
-      model_status_bad will be ignored
+      model_status_broken will be ignored
 
           o model_status_good will contain a space separated list of
             simulator_version identifiers under which the model has
             tested good
 
-          o model_status_bad will contain a space separated list of
+          o model_status_broken will contain a space separated list of
             simulator_version identifiers under which the model has
             tested bad
 
           o if a simulator_version identifier is mentioned in neither
-            model_status_good nor model_status_bad, the part’s status
+            model_status_good nor model_status_broken, the part’s status
             will be “test” for that simulator_version
 
           o It is an error for the same simulator_version identifier
-            to be present in both model_status_good and model_status_bad
+            to be present in both model_status_good and model_status_broken

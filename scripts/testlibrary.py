@@ -8,7 +8,7 @@ import popen2
 import StringIO
 import ConfigParser
 import numpy
-import md5          ## not sure if hashlib.md5 would be better
+import md5          ##Do not use hashlib.md5 as RedHat is stuck on python 2.4
 
 import spice_read
 from plotutils import load, plotter
@@ -155,8 +155,8 @@ class modelpartBase(object):
         self.properties = dict(properties)
         if not 'model_status_good' in self.properties:
             self.properties['model_status_good'] = ""
-        if not 'model_status_bad' in self.properties:
-            self.properties['model_status_bad'] = ""
+        if not 'model_status_broken' in self.properties:
+            self.properties['model_status_broken'] = ""
 
         self.golden_checksum = None
         self.current_checksum = None
@@ -340,14 +340,14 @@ class modelpartBase(object):
         """Return the status of the part for the given simulator"""
         sim_family = SIMULATORS[simulator]['simulator']
         if sim_family in self.properties['model_status_good'] and \
-                sim_family in self.properties['model_status_bad']:
+                sim_family in self.properties['model_status_broken']:
             raise ValueError, "%s status listed as both good and bad for %s" % \
                     (sim_family, self.name)
         if 'model_status_undefined' in self.properties:
             return 'undefined'
         elif sim_family in self.properties['model_status_good']:
             return 'good'
-        elif sim_family in self.properties['model_status_bad']:
+        elif sim_family in self.properties['model_status_broken']:
             return 'broken'
         else:
             return 'test'

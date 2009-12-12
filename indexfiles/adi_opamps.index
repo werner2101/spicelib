@@ -29,8 +29,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good #TODO: eliminate this property
-#model_status_good=ngspice_19
+model_status_good=ngspice_19
 
 
 
@@ -55,7 +54,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -80,7 +79,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -106,7 +105,7 @@ description=Very Low Cost High-Speed FASTFET Op Amp
 documentation=http://www.analog.com/static/imported-files/data_sheets/AD8033_8034.pdf
 test_refdes=X1
 test_vsupply=10
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -132,7 +131,7 @@ description=High Gain Bandwidth Product, Precision FASTFET OP AMP
 documentation=http://www.analog.com/static/imported-files/data_sheets/AD8067.pdf
 test_refdes=X1
 test_vsupply=10
-model_status=broken
+model_status_broken=ngspice_19
 
 
 
@@ -157,7 +156,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -182,7 +181,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 
@@ -207,7 +206,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19=ngspice_19
 
 
 
@@ -232,7 +231,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -257,7 +256,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -282,7 +281,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -307,7 +306,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -332,7 +331,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -357,7 +356,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -382,7 +381,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -408,7 +407,7 @@ description=Dual, Ultra Low Distortion, Ultra Low Noise Op Amp
 documentation=http://www.analog.com/static/imported-files/data_sheets/AD8597_8599.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -433,7 +432,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -458,7 +457,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -483,7 +482,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -508,7 +507,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -533,7 +532,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -558,7 +557,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -583,7 +582,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -608,7 +607,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -633,7 +632,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -659,7 +658,7 @@ description=16V Auto-Zero, Rail-to-Rail Output Operational Amplifier
 documentation=http://www.analog.com/static/imported-files/data_sheets/AD8638_8639.pdf
 test_refdes=X1
 test_vsupply=10
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -684,7 +683,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -710,7 +709,7 @@ description=Low Noise, Precision, 16 V, CMOS, Rail-to-Rail Operational Amplifier
 documentation=http://www.analog.com/static/imported-files/data_sheets/AD8663_8667_8669.pdf
 test_refdes=X1
 test_vsupply=10
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -735,7 +734,7 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -760,7 +759,7 @@ footprint=none
 description=Precision Rail-to-Rail Output Operational Amplifier
 documentation=http://www.analog.com/static/imported-files/data_sheets/AD8698.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 #Test result shows huge input offset voltage even though the part is specced
 #for 100uV offset voltage max
 
@@ -787,5 +786,5 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 

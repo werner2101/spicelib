@@ -20,7 +20,7 @@ def list_parts(filename):
     ind.read(PARTDB_DIR + filename)
     parts = []
     for part in ind.sections():
-        if ind.get(part,"model_status") not in  ["undefined"]:
+        if not ind.has_option(part, 'model_status_undefined'):
             parts.append(part)
     return parts
 
@@ -44,7 +44,7 @@ def dumplibrary(directory, library):
     ind = ConfigParser.ConfigParser()
     ind.read(os.path.join(PARTDB_DIR,library))
     for part in ind.sections():
-        if ind.get(part,"model_status") not in  ["undefined"]:
+        if not ind.has_option(part, 'model_status_undefined'):
             symbol = ind.get(part, "symbol")
             symbol_template = string.Template(open(SYMBOLTEMPLATE_DIR + symbol).read())
             repl = dict(ind.items(part))
