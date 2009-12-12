@@ -28,7 +28,7 @@ footprint=none
 description=Precision, Fast CM to V-
 documentation=http://cds.linear.com/docs/Datasheet/12134fa.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LT1008_LTC00002]
@@ -51,7 +51,7 @@ footprint=none
 description=Low Bias Current, external compensation
 documentation=http://cds.linear.com/docs/Datasheet/1008fb.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LT1259_LTC00031]
@@ -75,7 +75,7 @@ description=Low cost high voltage CFA, shutdown
 documentation=http://cds.linear.com/docs/Datasheet/12596fas.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1056_LTC00005]
@@ -99,7 +99,7 @@ description=Low offset JFET
 documentation=http://cds.linear.com/docs/Datasheet/10556fc.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 [LTC2050_LTC00041]
@@ -122,7 +122,7 @@ footprint=none
 description=Zero-Drift Op Amp, 3V, 5V Operation
 documentation=http://cds.linear.com/docs/Datasheet/2050fc.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LTC6800_LTC00043]
@@ -145,7 +145,7 @@ footprint=none
 description=Zero-Drift RRIO IA
 documentation=http://cds.linear.com/docs/Datasheet/6800fas.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LT1228_LTC00023]
@@ -168,7 +168,7 @@ footprint=none
 description=CFA with gain control
 documentation=http://cds.linear.com/docs/Datasheet/1228fc.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LT1253_LTC00028]
@@ -192,7 +192,6 @@ description=High voltage dual video amp
 documentation=http://cds.linear.com/docs/Datasheet/lt1253.pdf
 test_refdes=X1
 test_vsupply=24
-model_status=test
 
 
 [LTC1050_LTC00039]
@@ -215,7 +214,7 @@ footprint=none
 description=Zero drift no external capacitors
 documentation=http://cds.linear.com/docs/Datasheet/lt1253.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1215_LTC00018]
@@ -238,7 +237,7 @@ footprint=none
 description=Precision, Fast, CM to V-
 documentation=http://cds.linear.com/docs/Datasheet/12156fb.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LT1217_LTC00020]
@@ -262,7 +261,7 @@ description=Low Power CFA
 documentation=http://cds.linear.com/docs/Datasheet/lt1217.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1497_LTC00033]
@@ -286,7 +285,7 @@ description=125mA Output CFA
 documentation=http://cds.linear.com/docs/Datasheet/1497f.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1212_LTC00015]
@@ -309,7 +308,7 @@ footprint=none
 description=Precision, Single Supply, Wide Vsupply
 documentation=http://cds.linear.com/docs/Datasheet/12112fb.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LT1254_LTC00029]
@@ -333,7 +332,6 @@ description=High voltage quad video amp
 documentation=http://cds.linear.com/docs/Datasheet/lt1253.pdf
 test_refdes=X1
 test_vsupply=24
-model_status=test
 
 
 [LT1227_LTC00022]
@@ -357,7 +355,7 @@ description=High Voltage CFA
 documentation=http://cds.linear.com/docs/Datasheet/1227fb.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1097_LTC00006]
@@ -380,7 +378,7 @@ footprint=none
 description=Low cost, Cload stable
 documentation=http://cds.linear.com/docs/Datasheet/1097fas.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1189_LTC00010]
@@ -403,7 +401,7 @@ footprint=none
 description=Low Power Video Diff. Amplifier
 documentation=http://cds.linear.com/docs/Datasheet/lt1189.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LT1251_LTC00026]
@@ -427,7 +425,7 @@ description=Video fader control
 documentation=http://cds.linear.com/docs/Datasheet/12516fa.pdf
 test_refdes=X1
 test_vsupply=10
-model_status=undefined
+model_status_undefined=
 
 
 [LT1210_LTC00013]
@@ -451,7 +449,7 @@ description=1A Output Current
 documentation=http://cds.linear.com/docs/Datasheet/1210fa.pdf
 test_refdes=X1
 test_vsupply=10
-model_status=undefined
+model_status_undefined=
 
 
 [LT1193_LTC00012]
@@ -474,7 +472,7 @@ footprint=none
 description=63dB AC CMRR at 1MHz
 documentation=http://cds.linear.com/docs/Datasheet/1193fb.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LTC2053_LTC00042]
@@ -497,7 +495,7 @@ footprint=none
 description=Zero-Drift IA
 documentation=http://cds.linear.com/docs/Datasheet/2053syncfb_web.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LT1230_LTC00025]
@@ -521,7 +519,7 @@ description=General purpose high voltage CFA
 documentation=http://cds.linear.com/docs/Datasheet/122930fa.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1260_LTC00032]
@@ -545,7 +543,7 @@ description=Low cost high voltage CFA, shutdown
 documentation=http://cds.linear.com/docs/Datasheet/12596fas.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1187_LTC00009]
@@ -568,7 +566,7 @@ footprint=none
 description=Low Power Video Diff. Amplifier
 documentation=http://cds.linear.com/docs/Datasheet/1187fa.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LT1122_LTC00007]
@@ -592,7 +590,7 @@ description=Setting guaranteed to 0.01%, FET input
 documentation=http://cds.linear.com/docs/Datasheet/lt1122.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1192_LTC00011]
@@ -615,7 +613,7 @@ footprint=none
 description=+/-5V Supply Color Video
 documentation=http://cds.linear.com/docs/Datasheet/1192fa.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1256_LTC00030]
@@ -639,7 +637,7 @@ description=Video fader control
 documentation=http://cds.linear.com/docs/Datasheet/12516fa.pdf
 test_refdes=X1
 test_vsupply=10
-model_status=undefined
+model_status_undefined=
 
 
 [LT1787_LTC00034]
@@ -662,7 +660,7 @@ footprint=none
 description=Precision, High Side Current Sense
 documentation=http://cds.linear.com/docs/Datasheet/1787fc.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LT1213_LTC00016]
@@ -685,7 +683,7 @@ footprint=none
 description=Precision, Fast, CM to V-
 documentation=http://cds.linear.com/docs/Datasheet/12134fa.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LTC1053_LTC00040]
@@ -709,7 +707,7 @@ description=Zero drift no external capacitors
 documentation=http://cds.linear.com/docs/Datasheet/10513fa.pdf
 test_refdes=X1
 test_vsupply=10
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1216_LTC00019]
@@ -732,7 +730,7 @@ footprint=none
 description=Precision, Fast, CM to V-
 documentation=http://cds.linear.com/docs/Datasheet/12156fb.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LT1252_LTC00027]
@@ -756,7 +754,6 @@ description=High voltage video amp
 documentation=http://cds.linear.com/docs/Datasheet/lt1252.pdf
 test_refdes=X1
 test_vsupply=24
-model_status=test
 
 
 [LTC1047_LTC00037]
@@ -780,7 +777,7 @@ description=Zero drift no external capacitors
 documentation=http://cds.linear.com/docs/Datasheet/1047fa.pdf
 test_refdes=X1
 test_vsupply=10
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1169_LTC00008]
@@ -804,7 +801,7 @@ description=Low Noise JFET
 documentation=http://cds.linear.com/docs/Datasheet/1169fa.pdf
 test_refdes=X1
 test_vsupply=10
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1795_LTC00035]
@@ -828,7 +825,7 @@ description=High Iout, High Speed
 documentation=http://cds.linear.com/docs/Datasheet/1795fa.pdf
 test_refdes=X1
 test_vsupply=18
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -852,7 +849,7 @@ footprint=none
 description=Single supply precision op amp
 documentation=http://cds.linear.com/docs/Datasheet/1006fa.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LTC1049_LTC00038]
@@ -876,7 +873,7 @@ description=Zero drift no external capacitors
 documentation=http://cds.linear.com/docs/Datasheet/1049fb.pdf
 test_refdes=X1
 test_vsupply=10
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1223_LTC00021]
@@ -900,7 +897,7 @@ description=High Slew Rate, High Iout
 documentation=http://cds.linear.com/docs/Datasheet/1223fb.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1229_LTC00024]
@@ -924,7 +921,7 @@ description=General purpose high voltage CFA
 documentation=http://cds.linear.com/docs/Datasheet/122930fa.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1211_LTC00014]
@@ -947,7 +944,7 @@ footprint=none
 description=Precision, Single Supply, Wide Vsupply
 documentation=http://cds.linear.com/docs/Datasheet/12112fb.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LT1022_LTC00003]
@@ -971,7 +968,7 @@ description=High speed JFET input
 documentation=http://cds.linear.com/docs/Datasheet/lt1022fa.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT1055_LTC00004]
@@ -995,7 +992,7 @@ description=Low offset JFET
 documentation=http://cds.linear.com/docs/Datasheet/10556fc.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 [LT6100_LTC00036]
@@ -1018,5 +1015,5 @@ footprint=none
 description=Precision, Gain Selectable Current Sense
 documentation=http://cds.linear.com/docs/Datasheet/6100fb.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 

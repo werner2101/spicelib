@@ -4,7 +4,7 @@ TESTDIR=model_tests/nxp/diodes/
 DESCRIPTION=NXP diode models
 GOLDEN_CHECKSUMS=model_golden_checksums/nxp_diodes_lib.md5sum
 CURRENT_CHECKSUMS=model_checksums/nxp_diodes_lib.md5sum
-model_status=undefined
+model_status_undefined=
 
 
 [1N4735A_NXP01001]
@@ -21,7 +21,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/1N4728A_1.pdf
 description=6.2V zener diode 
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 
@@ -40,7 +40,7 @@ footprint=none
 documentation=none
 description=high-speed double diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -59,7 +59,7 @@ footprint=none
 documentation=none
 description=high-speed double diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -77,7 +77,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS116H_1.pdf
 description=low-leakage diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -95,7 +95,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS116_4.pdf
 description=low-leakage diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -113,7 +113,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS16H_1.pdf
 description=high-speed switching diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -132,7 +132,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS16L_1.pdf
 description=high-speed diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -150,7 +150,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS16_4.pdf
 description=high-speed diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -169,7 +169,7 @@ footprint=none
 documentation=none
 description=3 diodes in one package
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -188,7 +188,7 @@ footprint=none
 documentation=none
 description=3 diodes in one package
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -206,7 +206,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS216_5.pdf
 description=high-speed switching diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -224,7 +224,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS21H_2.pdf
 description=high voltage switching diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -243,7 +243,7 @@ footprint=none
 documentation=none
 description=diode with 3 pins
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -262,7 +262,7 @@ footprint=none
 documentation=none
 description=3 diodes in one package
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -280,7 +280,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS28_2.pdf
 description=High-speed double diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -298,7 +298,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS321_2.pdf
 description=general purpose diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -316,7 +316,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS32L_4.pdf
 description=high-speed switching diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -334,7 +334,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS416_2.pdf
 description=low-leackage diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -352,7 +352,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS45A_2.pdf
 description=low-leakage diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -370,7 +370,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS516_1.pdf
 description=high-speed diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -388,7 +388,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS521_1.pdf
 description=high voltage switching diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -406,7 +406,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS56_2.pdf
 description=high-speed double diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -424,7 +424,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS716_1.pdf
 description=low-leakage diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -442,7 +442,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV102_BAV103_3.pdf
 description=general-purpose switching diodes
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -460,7 +460,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV199_4.pdf
 description=low-leakage double diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -479,7 +479,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV23_2.pdf
 description=general purpose double diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -498,7 +498,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV23S_5.pdf
 description=general purpose double diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -517,7 +517,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV70_6.pdf
 description=high-speed double diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -535,7 +535,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV99S_3.pdf
 description=high-speed switching diode array
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -554,7 +554,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW101_1.pdf
 description=high voltage double diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -573,7 +573,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW101S_1.pdf
 description=high voltage double diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -592,7 +592,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW56_4.pdf
 description=high-speed double diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -611,7 +611,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW56S_2.pdf
 description=high-speed double diode array
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 # duplicate usage of refdes in the subckt
 
 
@@ -630,7 +630,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW56T_2.pdf
 description=high-speed double diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -649,7 +649,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW56W_4.pdf
 description=high-speed double diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -667,7 +667,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW62_2.pdf
 description=high-speed diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -686,7 +686,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -705,7 +705,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA408B_2.pdf
 description=Quadruple bidirectional ESD transient voltage suppressor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -723,7 +723,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BZA800A_SERIES_3.pdf
 description=20V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -741,7 +741,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BZA800A_SERIES_3.pdf
 description=5.6V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -760,7 +760,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA800AVL_SERIES_2.pdf
 description=5.6V quadruple low capacitance ESD suppressor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -778,7 +778,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BZA800A_SERIES_3.pdf
 description=6.2V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -797,7 +797,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA800AVL_SERIES_2.pdf
 description=6.2V quadruple low capacitance ESD suppressor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -815,7 +815,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BZA800A_SERIES_3.pdf
 description=6.8V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -834,7 +834,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA800AVL_SERIES_2.pdf
 description=6.8V quadruple low capacitance ESD suppressor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -852,7 +852,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA900A_SERIES_1.pdf
 description=5.6V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -871,7 +871,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA900AVL_SERIES_3.pdf
 description=5.6V quadruple low capacitance ESD suppressor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -889,7 +889,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA900A_SERIES_1.pdf
 description=6.2V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -908,7 +908,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA900AVL_SERIES_3.pdf
 description=6.2V quadruple low capacitance ESD suppressor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -926,7 +926,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA900A_SERIES_1.pdf
 description=6.8V quadruple ESD transient voltage suppressor
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -945,7 +945,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA900AVL_SERIES_3.pdf
 description=6.8V quadruple low capacitance ESD suppressor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -963,7 +963,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZV85_2.pdf
 description=33V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -981,7 +981,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZV85_2.pdf
 description=3.6V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -999,7 +999,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZV90_3.pdf
 description=30V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1017,7 +1017,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX100A_1.pdf
 description=100V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 ## Model has no Devicetype
 
 
@@ -1036,7 +1036,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX284_4.pdf
 description=6.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1054,7 +1054,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX284_4.pdf
 description=7.5V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1072,7 +1072,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX284_4.pdf
 description=8.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1090,7 +1090,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=10V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1108,7 +1108,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=11V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1126,7 +1126,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=12V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1144,7 +1144,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=13V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1162,7 +1162,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=15V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1180,7 +1180,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=16V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1198,7 +1198,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=18V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1216,7 +1216,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=20V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1234,7 +1234,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=22V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1252,7 +1252,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=24V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1270,7 +1270,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=27V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1288,7 +1288,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=2.4V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1306,7 +1306,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=2.7V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1324,7 +1324,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=30V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1342,7 +1342,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=33V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1360,7 +1360,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=36V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1378,7 +1378,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=39V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1396,7 +1396,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=3.0V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1414,7 +1414,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=3.3V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1432,7 +1432,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=3.6V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1450,7 +1450,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=3.9V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1468,7 +1468,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=43V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1486,7 +1486,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=47V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1504,7 +1504,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=4.3V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1522,7 +1522,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=4.7V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1540,7 +1540,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=51V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1558,7 +1558,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=56V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1576,7 +1576,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=5.1V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1594,7 +1594,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=5.6V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1612,7 +1612,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=62V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1630,7 +1630,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=68V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1648,7 +1648,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=6.2V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1666,7 +1666,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=6.8V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1684,7 +1684,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=75V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1702,7 +1702,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=7.5V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1720,7 +1720,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=8.2V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1738,7 +1738,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=9.1V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1756,7 +1756,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1774,7 +1774,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1792,7 +1792,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=12V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1810,7 +1810,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=13V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1828,7 +1828,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=15V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1846,7 +1846,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=16V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1864,7 +1864,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=18V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1882,7 +1882,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1900,7 +1900,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=22V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1918,7 +1918,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=24V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1936,7 +1936,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=27V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1954,7 +1954,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=2.4V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1972,7 +1972,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=2.7V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -1990,7 +1990,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=30V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2008,7 +2008,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=33V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2026,7 +2026,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=36V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2044,7 +2044,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=39V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2062,7 +2062,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=3.0V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2080,7 +2080,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=3.3V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2098,7 +2098,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=3.6V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2116,7 +2116,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=3.9V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2134,7 +2134,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=43V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2152,7 +2152,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=47V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2170,7 +2170,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=4.3V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2188,7 +2188,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=4.7V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2206,7 +2206,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=51V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2224,7 +2224,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=56V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2242,7 +2242,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=5.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2260,7 +2260,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2278,7 +2278,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=62V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2296,7 +2296,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=68V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2314,7 +2314,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=6.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2332,7 +2332,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2350,7 +2350,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=75V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2368,7 +2368,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=7.5V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2386,7 +2386,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=8.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2404,7 +2404,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2422,7 +2422,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX79_3.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2441,7 +2441,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2459,7 +2459,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2477,7 +2477,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=12V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2495,7 +2495,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=13V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2513,7 +2513,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=15V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2531,7 +2531,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=16V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2549,7 +2549,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=18V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2567,7 +2567,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2585,7 +2585,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=22V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2603,7 +2603,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=24V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2621,7 +2621,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=27V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2639,7 +2639,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=2.4V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2657,7 +2657,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=2.7V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2675,7 +2675,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2693,7 +2693,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=33V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2711,7 +2711,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=36V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2729,7 +2729,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=39V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2747,7 +2747,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=3.0V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2766,7 +2766,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=3.3V zener diode
 test_refdes=X1
-model_status=good
+model_status_broken=ngspice_19
 
 
 
@@ -2784,7 +2784,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=3.6V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2802,7 +2802,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=3.9V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2820,7 +2820,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=43V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2838,7 +2838,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=47V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2857,7 +2857,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=4.3V zener diode
 test_refdes=X1
-model_status=good
+model_status_broken=ngspice_19
 
 
 
@@ -2875,7 +2875,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=4.7V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2893,7 +2893,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=51V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2911,7 +2911,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=56V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2929,7 +2929,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=5.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2947,7 +2947,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2965,7 +2965,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=62V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -2983,7 +2983,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=68V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3001,7 +3001,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=6.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3019,7 +3019,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3038,7 +3038,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=75V zener diode
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 
@@ -3056,7 +3056,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=7.5V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3074,7 +3074,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=8.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3092,7 +3092,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3110,7 +3110,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3128,7 +3128,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3146,7 +3146,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=12V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3164,7 +3164,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=13V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3182,7 +3182,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=15V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3200,7 +3200,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=16V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3218,7 +3218,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=18V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3236,7 +3236,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3254,7 +3254,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=22V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3272,7 +3272,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=24V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3290,7 +3290,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=27V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3308,7 +3308,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=2.4V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3326,7 +3326,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=2.7V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3344,7 +3344,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=30V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3362,7 +3362,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=33V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3380,7 +3380,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=36V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3398,7 +3398,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=39V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3416,7 +3416,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=3.0V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3434,7 +3434,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=3.3V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3452,7 +3452,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=3.6V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3470,7 +3470,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=3.9V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3488,7 +3488,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=43V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3506,7 +3506,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=47V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3524,7 +3524,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=4.3V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3542,7 +3542,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=4.7V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3560,7 +3560,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=51V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3578,7 +3578,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=56V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3596,7 +3596,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=5.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3614,7 +3614,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3632,7 +3632,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=62V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3650,7 +3650,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=68V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3668,7 +3668,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=6.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3686,7 +3686,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3704,7 +3704,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=75V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3722,7 +3722,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=7.5V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3740,7 +3740,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=8.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3758,7 +3758,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3776,7 +3776,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3794,7 +3794,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3812,7 +3812,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 description=4.7V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3831,7 +3831,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3849,7 +3849,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3868,7 +3868,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
 description=12V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3887,7 +3887,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -3905,7 +3905,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
 description=12V ESD protection diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3923,7 +3923,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
 description=12V ESD protection diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -3942,7 +3942,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -3961,7 +3961,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -3980,7 +3980,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -3999,7 +3999,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4018,7 +4018,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4037,7 +4037,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4055,7 +4055,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
 description=15V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -4074,7 +4074,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4092,7 +4092,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
 description=15V ESD protection diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -4110,7 +4110,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
 description=15V ESD protection diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -4129,7 +4129,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4148,7 +4148,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4167,7 +4167,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4186,7 +4186,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4205,7 +4205,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4224,7 +4224,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4243,7 +4243,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4261,7 +4261,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESD1LIN_1.pdf
 description=15/24V LIN bus protection diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -4279,7 +4279,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
 description=24V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -4298,7 +4298,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4316,7 +4316,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
 description=24V ESD protection diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -4334,7 +4334,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
 description=24V ESD protection diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -4353,7 +4353,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4372,7 +4372,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4391,7 +4391,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4410,7 +4410,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4429,7 +4429,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4448,7 +4448,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4466,7 +4466,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
 description=3.3V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 # asterisk * in front of the model statement
 
 
@@ -4486,7 +4486,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4505,7 +4505,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4524,7 +4524,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4543,7 +4543,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4562,7 +4562,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4581,7 +4581,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4599,7 +4599,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
 description=3.3V ESD protection diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -4617,7 +4617,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
 description=3.3V ESD protection diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -4636,7 +4636,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4655,7 +4655,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4674,7 +4674,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4693,7 +4693,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4712,7 +4712,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4731,7 +4731,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4750,7 +4750,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4769,7 +4769,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4787,7 +4787,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
 description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -4806,7 +4806,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4825,7 +4825,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4844,7 +4844,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4863,7 +4863,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4882,7 +4882,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4901,7 +4901,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4920,7 +4920,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4939,7 +4939,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4958,7 +4958,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4977,7 +4977,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4995,7 +4995,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1BA_BB_BL_3.pdf
 description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 # model parameter N much to low
 
 
@@ -5014,7 +5014,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1BA_BB_BL_3.pdf
 description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 # model parameter N much to low
 
 
@@ -5033,7 +5033,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1BA_BB_BL_3.pdf
 description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 # model parameter N much to low
 
 
@@ -5052,7 +5052,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UB_SERIES_1.pdf
 description=5.0V ESD protection diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5070,7 +5070,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXS1UL_SER_1.pdf
 description=5.0V ESD protection diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5089,7 +5089,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5108,7 +5108,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5127,7 +5127,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5146,7 +5146,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5165,7 +5165,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5184,7 +5184,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5203,7 +5203,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5222,7 +5222,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5241,7 +5241,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5260,7 +5260,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5278,7 +5278,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/PLVA2600A_SERIES_4.pdf
 description=5.6V low-voltage avalanche regulator double diodes
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5296,7 +5296,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PLVA6XXA_SERIES_3.pdf
 description=5.0V low-voltage avalanche regulator diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5314,7 +5314,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBD6050_4.pdf
 description=high-speed diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5333,7 +5333,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5351,7 +5351,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBD7000_3.pdf
 description=high-speed double diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5370,7 +5370,7 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5388,7 +5388,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5406,7 +5406,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5424,7 +5424,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5442,7 +5442,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=10V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5460,7 +5460,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5478,7 +5478,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5496,7 +5496,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5514,7 +5514,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=11V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5532,7 +5532,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=12V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5550,7 +5550,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=12V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5568,7 +5568,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=12V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5586,7 +5586,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=12V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5604,7 +5604,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=13V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5622,7 +5622,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=13V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5640,7 +5640,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=13V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5658,7 +5658,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=13V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5676,7 +5676,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=14V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5694,7 +5694,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=15V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5712,7 +5712,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=15V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5730,7 +5730,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=15V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5748,7 +5748,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=15V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5766,7 +5766,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=16V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5784,7 +5784,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=16V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5802,7 +5802,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=16V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5820,7 +5820,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=16V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5838,7 +5838,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=18V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5856,7 +5856,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=18V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5874,7 +5874,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=18V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5892,7 +5892,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=18V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5910,7 +5910,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5928,7 +5928,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5946,7 +5946,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5964,7 +5964,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=20V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -5982,7 +5982,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=22V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6000,7 +6000,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=22V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6018,7 +6018,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=22V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6036,7 +6036,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=22V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6054,7 +6054,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=24V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6072,7 +6072,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=24V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6090,7 +6090,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=24V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6108,7 +6108,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=2.4V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6126,7 +6126,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=24V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6144,7 +6144,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=2.7V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6162,7 +6162,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=2.7V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6180,7 +6180,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=2.7V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6198,7 +6198,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=27V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6216,7 +6216,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.0V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6234,7 +6234,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.0V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6252,7 +6252,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.0V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6270,7 +6270,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=30V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6288,7 +6288,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.3V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6306,7 +6306,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.3V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6324,7 +6324,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.3V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6342,7 +6342,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=33V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6360,7 +6360,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.6V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6378,7 +6378,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.6V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6396,7 +6396,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.6V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6414,7 +6414,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=36V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6432,7 +6432,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.9V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6450,7 +6450,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.9V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6468,7 +6468,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.9V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6486,7 +6486,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.3V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6504,7 +6504,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.3V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6522,7 +6522,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.3V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6540,7 +6540,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.3V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6558,7 +6558,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.7V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6576,7 +6576,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.7V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6594,7 +6594,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.7V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6612,7 +6612,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.7V zener diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6630,7 +6630,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6648,7 +6648,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6666,7 +6666,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6684,7 +6684,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6702,7 +6702,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6720,7 +6720,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6738,7 +6738,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6756,7 +6756,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6774,7 +6774,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.6V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6792,7 +6792,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6810,7 +6810,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6828,7 +6828,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6846,7 +6846,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6864,7 +6864,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6882,7 +6882,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6900,7 +6900,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.8V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6918,7 +6918,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=7.5V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6936,7 +6936,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=7.5V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6954,7 +6954,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=7.5V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6972,7 +6972,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=7.5V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -6990,7 +6990,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=8.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -7008,7 +7008,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=8.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -7026,7 +7026,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=8.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -7044,7 +7044,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=8.2V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -7062,7 +7062,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -7080,7 +7080,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -7098,7 +7098,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -7116,7 +7116,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=9.1V zener diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -7134,7 +7134,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/1N4148_1N4448_5.pdf
 description=High-speed diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 ## ENDS missing
 
 
@@ -7153,7 +7153,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS101_BAS101S_1.pdf
 description=High-voltage switching diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 ## contains two diodes
@@ -7171,7 +7171,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS101_BAS101S_1.pdf
 description=High-voltage switching diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7189,7 +7189,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS16_SER_5.pdf
 description=High-speed switching diode
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 ## .ENDS in a Model
 
 
@@ -7207,7 +7207,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS21J_1.pdf
 description=Single high-speed switching diode
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -7227,7 +7227,7 @@ footprint=none
 description=Dual high-voltage switching diodes
 documentation=http://www.nxp.com/acrobat_download/datasheets/BAV23_SER_6.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7246,7 +7246,7 @@ footprint=none
 description=Dual high-voltage switching diodes
 documentation=http://www.nxp.com/acrobat_download/datasheets/BAV23_SER_6.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7265,7 +7265,7 @@ footprint=none
 description=High-speed switching diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BAV70_SER_7.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7284,7 +7284,7 @@ footprint=none
 description=High-speed switching diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BAV99_SER_5.pdf
 test_refdes=D1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7303,7 +7303,7 @@ footprint=none
 description=High-speed switching diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BAV756S_BAW56_SER_5.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7322,7 +7322,7 @@ footprint=none
 description=Quadruple ESD transient voltage suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/BZA420A_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7341,7 +7341,7 @@ footprint=none
 description=Quadruple ESD transient voltage suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/BZA456A_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7360,7 +7360,7 @@ footprint=none
 description=Quadruple ESD transient voltage suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/BZA462A_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7379,7 +7379,7 @@ footprint=none
 description=Quadruple ESD transient voltage suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/BZA800AL_SERIES_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7398,7 +7398,7 @@ footprint=none
 description=Quadruple ESD transient voltage suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/BZA800AL_SERIES_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7417,7 +7417,7 @@ footprint=none
 description=Quadruple ESD transient voltage suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/BZA800AL_SERIES_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7435,7 +7435,7 @@ footprint=none
 description=100V bidirectional Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZB100A_2.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 # Subcircuit with 3 connections
@@ -7453,7 +7453,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7472,7 +7472,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7491,7 +7491,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7510,7 +7510,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7529,7 +7529,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7548,7 +7548,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7567,7 +7567,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7586,7 +7586,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7605,7 +7605,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7624,7 +7624,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7643,7 +7643,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7662,7 +7662,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7681,7 +7681,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7700,7 +7700,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7719,7 +7719,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7738,7 +7738,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7757,7 +7757,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7776,7 +7776,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7795,7 +7795,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7814,7 +7814,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7833,7 +7833,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7852,7 +7852,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7871,7 +7871,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7890,7 +7890,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7909,7 +7909,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7928,7 +7928,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7947,7 +7947,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7966,7 +7966,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -7985,7 +7985,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8004,7 +8004,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8023,7 +8023,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8042,7 +8042,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8061,7 +8061,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8080,7 +8080,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8099,7 +8099,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8118,7 +8118,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8137,7 +8137,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZB84_SER_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8156,7 +8156,7 @@ footprint=none
 description=Voltage regulator diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZV49_SERIES_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8175,7 +8175,7 @@ footprint=none
 description=Voltage regulator diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZV49_SERIES_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8193,7 +8193,7 @@ footprint=none
 description=Single Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8212,7 +8212,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8231,7 +8231,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8249,7 +8249,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8267,7 +8267,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8285,7 +8285,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8303,7 +8303,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8322,7 +8322,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8340,7 +8340,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8358,7 +8358,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8376,7 +8376,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8394,7 +8394,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8412,7 +8412,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8430,7 +8430,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8448,7 +8448,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8466,7 +8466,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8484,7 +8484,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8502,7 +8502,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8520,7 +8520,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8538,7 +8538,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8556,7 +8556,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8574,7 +8574,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8592,7 +8592,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8610,7 +8610,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8628,7 +8628,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8646,7 +8646,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8664,7 +8664,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8682,7 +8682,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8700,7 +8700,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8718,7 +8718,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8736,7 +8736,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8754,7 +8754,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8772,7 +8772,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8790,7 +8790,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8808,7 +8808,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8826,7 +8826,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8844,7 +8844,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -8863,7 +8863,7 @@ footprint=none
 description=Double ESD protection diodes for transient overvoltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8882,7 +8882,7 @@ footprint=none
 description=Double ESD protection diodes for transient overvoltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8901,7 +8901,7 @@ footprint=none
 description=Double ESD protection diodes for transient overvoltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8920,7 +8920,7 @@ footprint=none
 description=Double ESD protection diodes for transient overvoltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8939,7 +8939,7 @@ footprint=none
 description=Double ESD protection diodes for transient overvoltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8958,7 +8958,7 @@ footprint=none
 description=Double ESD protection diodes for transient overvoltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8977,7 +8977,7 @@ footprint=none
 description=Double ESD protection diodes for transient overvoltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -8996,7 +8996,7 @@ footprint=none
 description=Double ESD protection diodes for transient overvoltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9015,7 +9015,7 @@ footprint=none
 description=Double ESD protection diodes for transient overvoltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9034,7 +9034,7 @@ footprint=none
 description=Double ESD protection diodes for transient overvoltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9053,7 +9053,7 @@ footprint=none
 description=Double ESD protection diodes for transient overvoltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9072,7 +9072,7 @@ footprint=none
 description=Double ESD protection diodes for transient overvoltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9090,7 +9090,7 @@ footprint=none
 description=Voltage regulator diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9108,7 +9108,7 @@ footprint=none
 description=Unidirectional ESD protection for transient voltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1UA_PESD12VS1UA_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9127,7 +9127,7 @@ footprint=none
 description=FlexRay bus ESD protection diode
 documentation=http://www.nxp.com/acrobat/datasheets/PESD1FLEX_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9146,7 +9146,7 @@ footprint=none
 description=CAN bus ESD protection diode
 documentation=http://www.nxp.com/acrobat/datasheets/PESD2CAN_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9165,7 +9165,7 @@ footprint=none
 description=Low capacitance unidirectional quadruple ESD protection diode arrays
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXL4UF_G_W_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9184,7 +9184,7 @@ footprint=none
 description=Low capacitance unidirectional fivefold ESD protection diode arrays
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXL5UF_V_Y_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9203,7 +9203,7 @@ footprint=none
 description=Unidirectional quadruple ESD protection diode arrays
 documentation=http://www.nxp.com/acrobat/datasheets/PESD3V3S4UF_PESD5V0S4UF_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9222,7 +9222,7 @@ footprint=none
 description=Very low capacitance unidirectional quadruple ESD protection diode arrays
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXV4UF_G_W_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9241,7 +9241,7 @@ footprint=none
 description=Low capacitance unidirectional quadruple ESD protection diode arrays
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXL4UF_G_W_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9259,7 +9259,7 @@ footprint=none
 description=Unidirectional ESD protection for transient voltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1UA_PESD12VS1UA_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9278,7 +9278,7 @@ footprint=none
 description=Unidirectional quadruple ESD protection diode arrays
 documentation=http://www.nxp.com/acrobat/datasheets/PESD3V3S4UF_PESD5V0S4UF_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9296,7 +9296,7 @@ footprint=none
 description=Ultra low capacitance bidirectional ESD protection diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1BA_BB_BL_1.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 
@@ -9314,7 +9314,7 @@ footprint=none
 description=Ultra low capacitance bidirectional ESD protection diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1BA_BB_BL_1.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 
@@ -9332,7 +9332,7 @@ footprint=none
 description=Ultra low capacitance bidirectional ESD protection diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1BA_BB_BL_1.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 
@@ -9350,7 +9350,7 @@ footprint=none
 description=Ultra low capacitance unidirectional ESD protection diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1UA_UB_UL_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9368,7 +9368,7 @@ footprint=none
 description=Ultra low capacitance unidirectional ESD protection diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1UA_UB_UL_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9386,7 +9386,7 @@ footprint=none
 description=Ultra low capacitance unidirectional ESD protection diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1UA_UB_UL_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9405,7 +9405,7 @@ footprint=none
 description=Ultra low capacitance bidirectional double ESD protection diode
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U2BT_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9424,7 +9424,7 @@ footprint=none
 description=Very low capacitance unidirectional quadruple ESD protection diode arrays
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXV4UF_G_W_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9442,7 +9442,7 @@ footprint=none
 description=Ultra low capacitance bidirectional ESD protection diode
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0X1BL_2.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 
@@ -9461,7 +9461,7 @@ footprint=none
 description=Ultra low capacitance bidirectional ESD protection diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0X1BQ_PESD5V0X1BT_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9480,7 +9480,7 @@ footprint=none
 description=Ultra low capacitance bidirectional ESD protection diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0X1BQ_PESD5V0X1BT_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9498,7 +9498,7 @@ footprint=none
 description=High-speed switching diode
 documentation=http://www.nxp.com/acrobat/datasheets/PMLL4148L_PMLL4448_7.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9516,7 +9516,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9534,7 +9534,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9552,7 +9552,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9570,7 +9570,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9588,7 +9588,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9606,7 +9606,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9624,7 +9624,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9642,7 +9642,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9660,7 +9660,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9678,7 +9678,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9696,7 +9696,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9714,7 +9714,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9732,7 +9732,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9750,7 +9750,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9768,7 +9768,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9786,7 +9786,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9804,7 +9804,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9822,7 +9822,7 @@ footprint=none
 description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9840,7 +9840,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9858,7 +9858,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9876,7 +9876,7 @@ footprint=none
 description=Single Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9894,7 +9894,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9912,7 +9912,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9930,7 +9930,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9949,7 +9949,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -9967,7 +9967,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -9985,7 +9985,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10004,7 +10004,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10022,7 +10022,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10040,7 +10040,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10058,7 +10058,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10077,7 +10077,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -10095,7 +10095,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10113,7 +10113,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10131,7 +10131,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10149,7 +10149,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10167,7 +10167,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10185,7 +10185,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10204,7 +10204,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -10222,7 +10222,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10240,7 +10240,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10258,7 +10258,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10276,7 +10276,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10294,7 +10294,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10312,7 +10312,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10331,7 +10331,7 @@ footprint=none
 description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -10349,7 +10349,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10368,7 +10368,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10387,7 +10387,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -10405,7 +10405,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10423,7 +10423,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10442,7 +10442,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10460,7 +10460,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10478,7 +10478,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10497,7 +10497,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10516,7 +10516,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -10534,7 +10534,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10552,7 +10552,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10570,7 +10570,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10588,7 +10588,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10606,7 +10606,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10624,7 +10624,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10643,7 +10643,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -10661,7 +10661,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10679,7 +10679,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10698,7 +10698,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10716,7 +10716,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10734,7 +10734,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10752,7 +10752,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10771,7 +10771,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -10789,7 +10789,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10807,7 +10807,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10825,7 +10825,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10843,7 +10843,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10861,7 +10861,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10879,7 +10879,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10898,7 +10898,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -10916,7 +10916,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10934,7 +10934,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10952,7 +10952,7 @@ footprint=none
 description=Single Zener diode
 documentation=
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10970,7 +10970,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -10988,7 +10988,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11007,7 +11007,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11026,7 +11026,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11044,7 +11044,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11062,7 +11062,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11080,7 +11080,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11098,7 +11098,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11116,7 +11116,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11134,7 +11134,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11153,7 +11153,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11171,7 +11171,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11189,7 +11189,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11207,7 +11207,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11225,7 +11225,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11243,7 +11243,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11262,7 +11262,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11280,7 +11280,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11298,7 +11298,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11316,7 +11316,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11335,7 +11335,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11353,7 +11353,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11371,7 +11371,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11389,7 +11389,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11407,7 +11407,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11425,7 +11425,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11443,7 +11443,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11461,7 +11461,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11479,7 +11479,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11497,7 +11497,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11515,7 +11515,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11533,7 +11533,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11552,7 +11552,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11570,7 +11570,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11588,7 +11588,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11606,7 +11606,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11624,7 +11624,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11642,7 +11642,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11661,7 +11661,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11679,7 +11679,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11697,7 +11697,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11715,7 +11715,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11733,7 +11733,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11751,7 +11751,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11770,7 +11770,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11789,7 +11789,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11807,7 +11807,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11825,7 +11825,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11843,7 +11843,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11861,7 +11861,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11880,7 +11880,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11899,7 +11899,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11917,7 +11917,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11935,7 +11935,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11953,7 +11953,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11971,7 +11971,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -11989,7 +11989,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12008,7 +12008,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12026,7 +12026,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12044,7 +12044,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12062,7 +12062,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12080,7 +12080,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12098,7 +12098,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12116,7 +12116,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12135,7 +12135,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12153,7 +12153,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12171,7 +12171,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12189,7 +12189,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12207,7 +12207,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12225,7 +12225,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12243,7 +12243,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12261,7 +12261,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12279,7 +12279,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12298,7 +12298,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12316,7 +12316,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12334,7 +12334,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12352,7 +12352,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12370,7 +12370,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12389,7 +12389,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12408,7 +12408,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12426,7 +12426,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12445,7 +12445,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12463,7 +12463,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12482,7 +12482,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12500,7 +12500,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12518,7 +12518,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12536,7 +12536,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12555,7 +12555,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12573,7 +12573,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12591,7 +12591,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12609,7 +12609,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12627,7 +12627,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12646,7 +12646,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12664,7 +12664,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12682,7 +12682,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12701,7 +12701,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12719,7 +12719,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12737,7 +12737,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12755,7 +12755,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12774,7 +12774,7 @@ footprint=none
 description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12792,7 +12792,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12810,7 +12810,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12828,7 +12828,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12846,7 +12846,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12864,7 +12864,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12882,7 +12882,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12900,7 +12900,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12918,7 +12918,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12936,7 +12936,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12954,7 +12954,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12972,7 +12972,7 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 
@@ -12990,5 +12990,5 @@ footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 

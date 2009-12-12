@@ -5,7 +5,7 @@ TESTDIR=model_tests/nxp/bipolar/
 DESCRIPTION=NXP bipolar models
 GOLDEN_CHECKSUMS=model_golden_checksums/nxp_bipolar_lib.md5sum
 CURRENT_CHECKSUMS=model_checksums/nxp_bipolar_lib.md5sum
-model_status=undefined
+model_status_undefined=
 
 [2PA1576Q_NXP00001]
 symbol=pnp.sym
@@ -23,7 +23,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1576_5.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -43,7 +43,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1576_5.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -63,7 +63,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1576_5.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -83,7 +83,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1774M_SERIES_1.pdf
 description=PNP general purpose transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [2PA1774Q_NXP00005]
@@ -102,7 +102,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1774_4.pdf
 description=PNP general-purpose transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [2PA1774RM_NXP00006]
@@ -121,7 +121,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1774M_SERIES_1.pdf
 description=PNP general purpose transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [2PA1774R_NXP00007]
@@ -140,7 +140,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1774_4.pdf
 description=PNP general-purpose transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [2PA1774SM_NXP00008]
@@ -159,7 +159,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1774M_SERIES_1.pdf
 description=PNP general purpose transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [2PA1774S_NXP00009]
@@ -178,7 +178,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1774_4.pdf
 description=PNP general-purpose transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [2PB1424_NXP00010]
@@ -197,7 +197,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PB1424_2.pdf
 description=20 V, 3 A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [2PB709AR_NXP00011]
@@ -216,7 +216,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/2PB709A_4.pdf
 description=45 V, 100 mA PNP general-purpose transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [2PB709ART_NXP00012]
@@ -235,7 +235,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PB709ART_1.pdf
 description=45 V, 100 mA PNP general-purpose transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 # name of modelnames of Q1 wrong
 # pin picture does not match the Q1 configuration
 
@@ -256,7 +256,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PB709AXW_SERIES_1.pdf
 description=PNP general purpose transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [2PC4081Q_NXP00014]
@@ -275,7 +275,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PC4081_5.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -295,7 +295,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PC4081_5.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -315,7 +315,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PC4081_5.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -335,7 +335,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/2PC4617_4.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -355,7 +355,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/2PC4617_4.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -375,7 +375,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PD2150_2.pdf
 description=20V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [2PD601AR_NXP00020]
@@ -394,7 +394,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PD601A_SER_6.pdf
 description=NPN general purpose transistors; 50 V, 100 mA
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [2PD601ART_NXP00021]
@@ -413,7 +413,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PD601ART_1.pdf
 description=50V, 100mA NPN general-purpose transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [2PD601ARW_NXP00022]
@@ -432,7 +432,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PD601A_SER_6.pdf
 description=NPN general purpose transistors; 50V, 100mA
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC327-25_NXP00023]
@@ -451,7 +451,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45V, 500mA PNP general purpose transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC327-40_NXP00024]
@@ -470,7 +470,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45V, 500mA PNP general purpose transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC327_NXP00025]
@@ -489,7 +489,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45V, 500mA PNP general purpose transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC337-16_NXP00026]
@@ -508,7 +508,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC337-25_NXP00027]
@@ -527,7 +527,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45V, 500mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC337-40_NXP00028]
@@ -546,7 +546,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45V, 500mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC368_NXP00029]
@@ -565,7 +565,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCP68_4.pdf
 description=NPN medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC369_NXP00030]
@@ -584,7 +584,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC369_5.pdf
 description=PNP medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC546A_NXP00031]
@@ -603,7 +603,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC846_BC546_SER_6.pdf
 description=65V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC546B_NXP00032]
@@ -622,7 +622,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC846_BC546_SER_6.pdf
 description=65V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC547B_NXP00033]
@@ -641,7 +641,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC848_SER_6.pdf
 description=30V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC547C_NXP00034]
@@ -660,7 +660,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC556A_NXP00035]
@@ -679,7 +679,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC556_557_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC556B_NXP00036]
@@ -698,7 +698,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC556_557_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC557B_NXP00037]
@@ -717,7 +717,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC556_557_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC557C_NXP00038]
@@ -736,7 +736,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC556_557_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC807-25_NXP00039]
@@ -755,7 +755,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -775,7 +775,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -795,7 +795,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -815,7 +815,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -835,7 +835,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -855,7 +855,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -875,7 +875,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -895,7 +895,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -915,7 +915,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -935,7 +935,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -955,7 +955,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -975,7 +975,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -995,7 +995,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1015,7 +1015,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1035,7 +1035,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1055,7 +1055,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1075,7 +1075,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1095,7 +1095,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1115,7 +1115,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1135,7 +1135,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1155,7 +1155,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC846_BC546_SER_6.pdf
 description=65V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1175,7 +1175,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846S_2.pdf
 description=NPN general purpose double transistor
 test_refdes=Q1
-model_status=undefined
+model_status_undefined=
 
 
 [BC846W_NXP00061]
@@ -1194,7 +1194,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC846_BC546_SER_6.pdf
 description=65V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1214,7 +1214,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1234,7 +1234,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1254,7 +1254,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1274,7 +1274,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 # contains 2 models but no subcircuit
@@ -1294,7 +1294,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847BPN_3.pdf
 description=NPN/PNP general purpose transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -1314,7 +1314,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1335,7 +1335,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847BS_2.pdf
 description=NPN general purpose double transistor
 test_refdes=Q1
-model_status=undefined
+model_status_undefined=
 
 
 [BC847BT_NXP00069]
@@ -1354,7 +1354,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1375,7 +1375,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847BVN_2.pdf
 description=NPN/PNP general purpose transistor
 test_refdes=Q1
-model_status=undefined
+model_status_undefined=
 
 
 [BC847BV_NXP00071]
@@ -1394,7 +1394,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847BV_1.pdf
 description=NPN general purpose double transistor
 test_refdes=Q1
-model_status=undefined
+model_status_undefined=
 
 
 [BC847BW_NXP00072]
@@ -1413,7 +1413,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1433,7 +1433,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1453,7 +1453,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1473,7 +1473,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=broken
+model_status_broken=gnucap_0.35
 # .ENDS statement in model without subcircuit
 # no circuit elements, only models
 
@@ -1494,7 +1494,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1514,7 +1514,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1534,7 +1534,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC848_SER_6.pdf
 description=30V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1554,7 +1554,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC848_SER_6.pdf
 description=30V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1574,7 +1574,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC856AT_NXP00081]
@@ -1593,7 +1593,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 ## typo in model name
 
@@ -1614,7 +1614,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1634,7 +1634,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1654,7 +1654,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1674,7 +1674,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1694,7 +1694,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1715,7 +1715,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856S_1.pdf
 description=PNP general purpose double transistor
 test_refdes=Q1
-model_status=undefined
+model_status_undefined=
 
 
 [BC856W_NXP00088]
@@ -1734,7 +1734,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1754,7 +1754,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1774,7 +1774,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1794,7 +1794,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1814,7 +1814,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC857M_SERIES_2.pdf
 description=PNP general purpose transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BC857B_NXP00093]
@@ -1833,7 +1833,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1853,7 +1853,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC857BS_2.pdf
 description=PNP general purpose double transistor
 test_refdes=Q1
-model_status=undefined
+model_status_undefined=
 
 
 [BC857BT_NXP00095]
@@ -1872,7 +1872,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1893,7 +1893,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC857BV_2.pdf
 description=PNP general purpose double transistor
 test_refdes=Q1
-model_status=undefined
+model_status_undefined=
 
 
 [BC857BW_NXP00097]
@@ -1912,7 +1912,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1932,7 +1932,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1952,7 +1952,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1972,7 +1972,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -1992,7 +1992,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2012,7 +2012,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2032,7 +2032,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2052,7 +2052,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2072,7 +2072,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC868_7.pdf
 description=NPN medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2092,7 +2092,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC869_6.pdf
 description=PNP medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2112,7 +2112,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC636_BCP51_BCX51_7.pdf
 description=45V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2132,7 +2132,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC638_BCP52_BCX52_7.pdf
 description=60V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS card
 
 
@@ -2152,7 +2152,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC640_BCP53_BCX53_7.pdf
 description=80V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS card
 
 
@@ -2172,7 +2172,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC635_BCP54_BCX54_7.pdf
 description=45V, 1A NPN medium power transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2192,7 +2192,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC637_BCP55_BCX55_7.pdf
 description=60V, 1A NPN medium power transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2212,7 +2212,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC639_BCP56_BCX56_8.pdf
 description=80V, 1A NPN medium power transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2233,7 +2233,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCP68_4.pdf
 description=NPN medium power transistor; 20V, 1A
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BCP69_NXP00114]
@@ -2252,7 +2252,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCP69_5.pdf
 description=PNP medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2272,7 +2272,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV26_BCV46_5.pdf
 description=PNP Darlington transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BCV27_NXP00116]
@@ -2291,7 +2291,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV27_BCV47_5.pdf
 description=NPN Darlington transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BCV28_NXP00117]
@@ -2310,7 +2310,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV28_48_5.pdf
 description=PNP Darlington transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BCV29_NXP00118]
@@ -2329,7 +2329,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV29_49_6.pdf
 description=NPN Darlington transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BCV46_NXP00119]
@@ -2348,7 +2348,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV26_BCV46_5.pdf
 description=PNP Darlington transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 # LE connected to the open node 333
@@ -2368,7 +2368,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV27_BCV47_5.pdf
 description=NPN Darlington transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BCV48_NXP00121]
@@ -2387,7 +2387,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV28_48_5.pdf
 description=PNP Darlington transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [BCV49_NXP00122]
@@ -2406,7 +2406,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV29_49_6.pdf
 description=NPN Darlington transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -2427,7 +2427,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV61_3.pdf
 description=NPN general purpose double transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -2448,7 +2448,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV61_3.pdf
 description=NPN general purpose double transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -2469,7 +2469,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV61_3.pdf
 description=NPN general purpose double transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -2490,7 +2490,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
 description=PNP general purpose double transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -2511,7 +2511,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
 description=PNP general purpose double transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -2532,7 +2532,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
 description=PNP general purpose double transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -2553,7 +2553,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV65_3.pdf
 description=NPN/PNP general purpose transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -2573,7 +2573,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCW29_BCW30_5.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2594,7 +2594,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCW29_BCW30_5.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2615,7 +2615,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX17_BCX18_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2636,7 +2636,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX17_BCX18_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2657,7 +2657,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX19_5.pdf
 description=NPN general purpose transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2678,7 +2678,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC636_BCP51_BCX51_7.pdf
 description=45V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2699,7 +2699,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC639_BCP56_BCX56_8.pdf
 description=80V, 1A NPN medium power transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 # trailing NPN at the Q1 definition wrong
 
 
@@ -2719,7 +2719,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2740,7 +2740,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2761,7 +2761,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2782,7 +2782,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -2803,7 +2803,7 @@ footprint=none
 documentation=x
 description=x
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -2823,7 +2823,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF240_5.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -2843,7 +2843,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF324_3.pdf
 description=PNP medium frequency transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -2863,7 +2863,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF370_4.pdf
 description=NPN medium frequency transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -2883,7 +2883,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF420_422_3.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -2903,7 +2903,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF421_423_3.pdf
 description=PNP high voltage transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -2923,7 +2923,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF420_422_3.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -2943,7 +2943,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF421_423_3.pdf
 description=PNP high voltage transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -2963,7 +2963,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF450_3.pdf
 description=PNP medium frequency transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -2983,7 +2983,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF550_4.pdf
 description=PNP medium frequency transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3004,7 +3004,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF570_4.pdf
 description=NPN medium frequency transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3024,7 +3024,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF620_622_4.pdf
 description=NPN high-voltage transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3045,7 +3045,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF621_623_4.pdf
 description=PNP high-voltage transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3065,7 +3065,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF620_622_4.pdf
 description=NPN high-voltage transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3086,7 +3086,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF621_623_4.pdf
 description=PNP high-voltage transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3107,7 +3107,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF723_3.pdf
 description=PNP high-voltage transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -3127,7 +3127,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF820_BF822_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3148,7 +3148,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF820W_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3169,7 +3169,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF821_BF823_4.pdf
 description=PNP high voltage transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3189,7 +3189,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF820_BF822_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3210,7 +3210,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF821_BF823_4.pdf
 description=PNP high voltage transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3230,7 +3230,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF824_4.pdf
 description=PNP medium frequency transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3250,7 +3250,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF824W_3.pdf
 description=PNP medium frequency transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3271,7 +3271,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF840_5.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3292,7 +3292,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BFS19_4.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3313,7 +3313,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BFS20_5.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3334,7 +3334,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP19_20_3.pdf
 description=NPN high-voltage transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3354,7 +3354,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP31_32_33_3.pdf
 description=PNP medium power transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3374,7 +3374,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP31_32_33_3.pdf
 description=PNP medium power transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3394,7 +3394,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP41_43_4.pdf
 description=NPN medium power transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3414,7 +3414,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP41_43_4.pdf
 description=NPN medium power transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3434,7 +3434,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP50_51_52_3.pdf
 description=NPN Darlington transistors with resistor and diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -3454,7 +3454,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP60_61_62_5.pdf
 description=PNP Darlington transistors with resistor and diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -3474,7 +3474,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR13_BSR14_4.pdf
 description=NPN switching transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3495,7 +3495,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR15_BSR16_4.pdf
 description=PNP switching transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3515,7 +3515,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR19_BSR19A_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3536,7 +3536,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR30_31_33_4.pdf
 description=PNP medium power transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3556,7 +3556,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR30_31_33_4.pdf
 description=PNP medium power transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3576,7 +3576,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR40_41_42_43_4.pdf
 description=NPN medium power transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3596,7 +3596,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR40_41_42_43_4.pdf
 description=NPN medium power transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3616,7 +3616,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BST39-40_5.pdf
 description=NPN high-voltage transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3636,7 +3636,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BST50_51_52_5.pdf
 description=NPN Darlington transistor with resistor and diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -3656,7 +3656,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BST60_61_62_5.pdf
 description=PNP Darlington transistor with resistor and diode
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -3676,7 +3676,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSV52_4.pdf
 description=NPN switching transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3696,7 +3696,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBT2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3717,7 +3717,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBT3904_4.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3738,7 +3738,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBT3906_2.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -3759,7 +3759,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBTA42_1.pdf
 description=NPN high-voltage transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3779,7 +3779,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBTA92_2.pdf
 description=PNP high-voltage transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3799,7 +3799,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MPSA42_43_5.pdf
 description=NPN high-voltage transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3819,7 +3819,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MPSA56_5.pdf
 description=PNP general purpose transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3839,7 +3839,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MPSA92_5.pdf
 description=PNP high-voltage transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3859,7 +3859,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN113E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3879,7 +3879,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN113E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3899,7 +3899,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN113E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3919,7 +3919,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN113Z_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3939,7 +3939,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN113Z_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3959,7 +3959,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN113Z_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -3979,7 +3979,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN123E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 [PBRN123ES_NXP00200]
@@ -3998,7 +3998,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN123E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4018,7 +4018,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN123E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4038,7 +4038,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN123Y_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4058,7 +4058,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN123Y_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4078,7 +4078,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN123Y_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4098,7 +4098,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515E_1.pdf
 description=15V, 0.5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4118,7 +4118,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515M_3.pdf
 description=15V, 0.5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4139,7 +4139,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515VPN_3.pdf
 description=15V low VCEsat NPN/PNP transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4160,7 +4160,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515VS_3.pdf
 description=15V low VCEsat NPN double transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4181,7 +4181,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515YPN_3.pdf
 description=15V low VCEsat NPN/PNP transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4201,7 +4201,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS2540E_1.pdf
 description=40V, 500mA NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4221,7 +4221,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS301NX_1.pdf
 description=12V, 5.3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4241,7 +4241,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS301PX_1.pdf
 description=12V, 5.3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4262,7 +4262,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS302ND_1.pdf
 description=40V NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4282,7 +4282,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS302NX_1.pdf
 description=20V, 5.3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4303,7 +4303,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS302PD_1.pdf
 description=40V PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4323,7 +4323,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS302PX_1.pdf
 description=20V, 5.1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4344,7 +4344,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS303ND_1.pdf
 description=60V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4364,7 +4364,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS303NX_1.pdf
 description=30V, 5.1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4385,7 +4385,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS303PD_1.pdf
 description=60V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4405,7 +4405,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS303PX_1.pdf
 description=30V, 5.1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4426,7 +4426,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS304ND_1.pdf
 description=80V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4446,7 +4446,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS304NX_1.pdf
 description=60V, 4.7A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4467,7 +4467,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS304PD_1.pdf
 description=80V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4487,7 +4487,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS304PX_1.pdf
 description=60V, 4.2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4508,7 +4508,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS305ND_1.pdf
 description=100V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4528,7 +4528,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS305NX_1.pdf
 description=80V, 4.6A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4549,7 +4549,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS305PD_1.pdf
 description=100V, 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4569,7 +4569,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS305PX_1.pdf
 description=80V, 4.0A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4589,7 +4589,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS306NX_1.pdf
 description=100V, 4.5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4609,7 +4609,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS306PX_1.pdf
 description=100V, 3.7A PNP low VCEsat(BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4629,7 +4629,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS3515E_1.pdf
 description=15V, 0.5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4649,7 +4649,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS3515M_1.pdf
 description=15V, 0.5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4670,7 +4670,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS3515VS_3.pdf
 description=15V low VCEsat PNP double transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4690,7 +4690,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4120T_1.pdf
 description=20V; 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4710,7 +4710,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4130T_1.pdf
 description=30V; 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4731,7 +4731,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140DPN_1.pdf
 description=40V low VCEsat NPN/PNP transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4751,7 +4751,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140S_2.pdf
 description=40V low VCEsat NPN transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4771,7 +4771,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140T_5.pdf
 description=40V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4791,7 +4791,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140U_2.pdf
 description=40V Low VCEsat NPN Transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4812,7 +4812,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140V_2.pdf
 description=40V low VCEsat NPN transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4833,7 +4833,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140DPN_1.pdf
 description=40V low VCEsat NPN/PNP transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4854,7 +4854,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160DS_3.pdf
 description=60V, 1A NPN/NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4874,7 +4874,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160K_2.pdf
 description=60V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4894,7 +4894,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160T_2.pdf
 description=60V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4914,7 +4914,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160U_2.pdf
 description=60V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4935,7 +4935,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4220V_1.pdf
 description=20V, 2A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4955,7 +4955,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4230T_1.pdf
 description=30V; 2A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -4976,7 +4976,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240DPN_1.pdf
 description=40V low VCEsat NPN/PNP transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -4996,7 +4996,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240T_2.pdf
 description=40V; 2A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5017,7 +5017,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240V_1.pdf
 description=40V low VCEsat NPN transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5038,7 +5038,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240Y_1.pdf
 description=40V low VCEsat NPN transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5058,7 +5058,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4320T_2.pdf
 description=20V NPN low VCEsat transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5078,7 +5078,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4320X_3.pdf
 description=20V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5098,7 +5098,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4330X_3.pdf
 description=30V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5119,7 +5119,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350D_3.pdf
 description=50V low VCEsat NPN transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5139,7 +5139,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350S_2.pdf
 description=50V low VCEsat NPN transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5159,7 +5159,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350T_2.pdf
 description=50V; 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5180,7 +5180,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350Z_3.pdf
 description=50V low VCEsat NPN transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5201,7 +5201,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4420D_1.pdf
 description=20V, 4A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5222,7 +5222,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4440D_1.pdf
 description=40V NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5242,7 +5242,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4540X_3.pdf
 description=40V, 5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 # model call does not match model definitions
 
 
@@ -5262,7 +5262,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4540Z_3.pdf
 description=40V low VCEsat NPN transistor
 test_refdes=Q1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5282,7 +5282,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5120T_1.pdf
 description=20V; 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5302,7 +5302,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5130T_1.pdf
 description=30V; 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5322,7 +5322,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140S_2.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5342,7 +5342,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140T_3.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5362,7 +5362,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140U_2.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5383,7 +5383,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140V_2.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5404,7 +5404,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160DS_2.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5424,7 +5424,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160K_2.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 # model statement has leading Asterisk "*"
 
 
@@ -5445,7 +5445,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160T_2.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5465,7 +5465,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160U_3.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 # model definition has leading asterisk "*"
 
 
@@ -5487,7 +5487,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160V_2.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5507,7 +5507,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5220T_1.pdf
 description=20V; 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5528,7 +5528,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5220V_2.pdf
 description=20V, 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5548,7 +5548,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5230T_1.pdf
 description=30V; 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5568,7 +5568,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5240T_2.pdf
 description=40V, 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5589,7 +5589,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5240V_1.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5610,7 +5610,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5240Y_2.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5630,7 +5630,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5250T_1.pdf
 description=50V; 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5650,7 +5650,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5250X_2.pdf
 description=50V, 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5671,7 +5671,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5320D_1.pdf
 description=20V low VCEsat PNP transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5691,7 +5691,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5320T_2.pdf
 description=20V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5711,7 +5711,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5320X_3.pdf
 description=20V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5732,7 +5732,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350D_4.pdf
 description=50V low VCEsat PNP transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5752,7 +5752,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350S_2.pdf
 description=50V low VCEsat PNP transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5772,7 +5772,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350T_2.pdf
 description=50V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5792,7 +5792,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350X_3.pdf
 description=50V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5812,7 +5812,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350Z_4.pdf
 description=50V low VCEsat PNP transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5833,7 +5833,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5420D_1.pdf
 description=20V, 4A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5854,7 +5854,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5440D_1.pdf
 description=40V PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5874,7 +5874,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5540X_3.pdf
 description=40V, 5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5895,7 +5895,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5540Z_4.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5915,7 +5915,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110AS_3.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 # asterisk in front of the subckt definition
 
 
@@ -5937,7 +5937,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110D_1.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -5957,7 +5957,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110T_2.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5977,7 +5977,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110X_1.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -5999,7 +5999,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110Y_1.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 # npn transistor with 4 connections
@@ -6019,7 +6019,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110Z_2.pdf
 description=100V, 1A NPN low VCesat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -6039,7 +6039,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110AS_2.pdf
 description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6060,7 +6060,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110D_2.pdf
 description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -6080,7 +6080,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110S_2.pdf
 description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6100,7 +6100,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110T_3.pdf
 description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6120,7 +6120,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110X_1.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6141,7 +6141,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110Y_1.pdf
 description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 # subckt has 4 pins
@@ -6161,7 +6161,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110Z_2.pdf
 description=100V, 1A NPN low VCesat (BISS) transistor
 test_refdes=Q1
-model_status=undefined
+model_status_undefined=
 # asterisk in front of the subckt definition
 
 
@@ -6182,7 +6182,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6202,7 +6202,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6222,7 +6222,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6242,7 +6242,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6262,7 +6262,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6282,7 +6282,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6302,7 +6302,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6322,7 +6322,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6342,7 +6342,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6362,7 +6362,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6382,7 +6382,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6402,7 +6402,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6422,7 +6422,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6442,7 +6442,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6462,7 +6462,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6482,7 +6482,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6502,7 +6502,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6522,7 +6522,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6542,7 +6542,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6562,7 +6562,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6582,7 +6582,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6602,7 +6602,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6622,7 +6622,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6642,7 +6642,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6662,7 +6662,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6682,7 +6682,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6702,7 +6702,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6722,7 +6722,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6742,7 +6742,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6762,7 +6762,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6782,7 +6782,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6802,7 +6802,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6822,7 +6822,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6842,7 +6842,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6862,7 +6862,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6882,7 +6882,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6902,7 +6902,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6922,7 +6922,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6942,7 +6942,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6962,7 +6962,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -6982,7 +6982,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7002,7 +7002,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7022,7 +7022,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7042,7 +7042,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7062,7 +7062,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7082,7 +7082,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7102,7 +7102,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7122,7 +7122,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7142,7 +7142,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7162,7 +7162,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7182,7 +7182,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7202,7 +7202,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7222,7 +7222,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7242,7 +7242,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7262,7 +7262,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7282,7 +7282,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7302,7 +7302,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7322,7 +7322,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7342,7 +7342,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7362,7 +7362,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7382,7 +7382,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7402,7 +7402,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7422,7 +7422,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7442,7 +7442,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7462,7 +7462,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7482,7 +7482,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7502,7 +7502,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7522,7 +7522,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7542,7 +7542,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7562,7 +7562,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7582,7 +7582,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7602,7 +7602,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7622,7 +7622,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7642,7 +7642,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7662,7 +7662,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7682,7 +7682,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7702,7 +7702,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7722,7 +7722,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7742,7 +7742,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7762,7 +7762,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7782,7 +7782,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7802,7 +7802,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7822,7 +7822,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7842,7 +7842,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7862,7 +7862,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7882,7 +7882,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7902,7 +7902,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7922,7 +7922,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7942,7 +7942,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7962,7 +7962,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -7982,7 +7982,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8002,7 +8002,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8022,7 +8022,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8043,7 +8043,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8063,7 +8063,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8083,7 +8083,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8103,7 +8103,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8123,7 +8123,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8143,7 +8143,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8163,7 +8163,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8183,7 +8183,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8203,7 +8203,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8223,7 +8223,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8243,7 +8243,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8263,7 +8263,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8283,7 +8283,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8303,7 +8303,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8323,7 +8323,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8343,7 +8343,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8363,7 +8363,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8383,7 +8383,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8403,7 +8403,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8423,7 +8423,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8443,7 +8443,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8463,7 +8463,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8483,7 +8483,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8503,7 +8503,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8523,7 +8523,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8543,7 +8543,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8563,7 +8563,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8583,7 +8583,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8603,7 +8603,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8623,7 +8623,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8643,7 +8643,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8663,7 +8663,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8683,7 +8683,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8703,7 +8703,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8723,7 +8723,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8743,7 +8743,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA323TK_1.pdf
 description=PNP 500 mA, 15 V resistor-equipped transistor; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8763,7 +8763,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB113E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8783,7 +8783,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB113E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8803,7 +8803,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB113E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8823,7 +8823,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB113Z_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8843,7 +8843,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB113Z_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8863,7 +8863,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB113Z_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8883,7 +8883,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB123E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8903,7 +8903,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB123E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8923,7 +8923,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB123E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8943,7 +8943,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB123T_SER_2.pdf
 description=PNP 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8963,7 +8963,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB123T_SER_2.pdf
 description=PNP 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -8983,7 +8983,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB123T_SER_2.pdf
 description=PNP 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9003,7 +9003,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9023,7 +9023,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9043,7 +9043,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9063,7 +9063,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9083,7 +9083,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9103,7 +9103,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9123,7 +9123,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9143,7 +9143,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9163,7 +9163,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9183,7 +9183,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9203,7 +9203,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9223,7 +9223,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9243,7 +9243,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9263,7 +9263,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9283,7 +9283,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9303,7 +9303,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9323,7 +9323,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9343,7 +9343,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9363,7 +9363,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9383,7 +9383,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9403,7 +9403,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9423,7 +9423,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9443,7 +9443,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9463,7 +9463,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9483,7 +9483,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9503,7 +9503,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9523,7 +9523,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9543,7 +9543,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9563,7 +9563,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9583,7 +9583,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9603,7 +9603,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9623,7 +9623,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9643,7 +9643,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9663,7 +9663,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9683,7 +9683,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9703,7 +9703,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9723,7 +9723,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9743,7 +9743,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9763,7 +9763,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9783,7 +9783,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9803,7 +9803,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9823,7 +9823,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9843,7 +9843,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9863,7 +9863,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9883,7 +9883,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9903,7 +9903,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9923,7 +9923,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9943,7 +9943,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9963,7 +9963,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -9983,7 +9983,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10003,7 +10003,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10023,7 +10023,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10043,7 +10043,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10063,7 +10063,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10083,7 +10083,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10103,7 +10103,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10123,7 +10123,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10143,7 +10143,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10163,7 +10163,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 # model definition name different from usage
 
 
@@ -10184,7 +10184,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10204,7 +10204,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10224,7 +10224,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10244,7 +10244,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10264,7 +10264,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -10284,7 +10284,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10304,7 +10304,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10324,7 +10324,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10344,7 +10344,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10364,7 +10364,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10384,7 +10384,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10404,7 +10404,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10424,7 +10424,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10444,7 +10444,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10464,7 +10464,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10484,7 +10484,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10504,7 +10504,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10524,7 +10524,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10544,7 +10544,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10564,7 +10564,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10584,7 +10584,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10604,7 +10604,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10624,7 +10624,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10644,7 +10644,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10664,7 +10664,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10684,7 +10684,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10704,7 +10704,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10724,7 +10724,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10744,7 +10744,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10764,7 +10764,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10784,7 +10784,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10804,7 +10804,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10824,7 +10824,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10844,7 +10844,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10864,7 +10864,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10884,7 +10884,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10904,7 +10904,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10924,7 +10924,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10944,7 +10944,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10964,7 +10964,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -10984,7 +10984,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11004,7 +11004,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11024,7 +11024,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11044,7 +11044,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11064,7 +11064,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11084,7 +11084,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11104,7 +11104,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11124,7 +11124,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11144,7 +11144,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11164,7 +11164,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11184,7 +11184,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11204,7 +11204,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11224,7 +11224,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11244,7 +11244,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11264,7 +11264,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11284,7 +11284,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11304,7 +11304,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11324,7 +11324,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11344,7 +11344,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11364,7 +11364,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11384,7 +11384,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11404,7 +11404,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11424,7 +11424,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11444,7 +11444,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11464,7 +11464,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11484,7 +11484,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11504,7 +11504,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11524,7 +11524,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11544,7 +11544,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11564,7 +11564,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11584,7 +11584,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC323TK_1.pdf
 description=NPN 500mA, 15V resistor-equipped transistor; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11604,7 +11604,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD113E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11624,7 +11624,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD113E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11644,7 +11644,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD113E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11664,7 +11664,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD113Z_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11684,7 +11684,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD113Z_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11704,7 +11704,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD113Z_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11724,7 +11724,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11744,7 +11744,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11764,7 +11764,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11784,7 +11784,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123T_SER_2.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11804,7 +11804,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123T_SER_2.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11824,7 +11824,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123T_SER_2.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11844,7 +11844,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11864,7 +11864,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11884,7 +11884,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -11905,7 +11905,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11926,7 +11926,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11947,7 +11947,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11968,7 +11968,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -11989,7 +11989,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12010,7 +12010,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12031,7 +12031,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12052,7 +12052,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12073,7 +12073,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12094,7 +12094,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12115,7 +12115,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12136,7 +12136,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12157,7 +12157,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12178,7 +12178,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12199,7 +12199,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12220,7 +12220,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12241,7 +12241,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12262,7 +12262,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12283,7 +12283,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12304,7 +12304,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12325,7 +12325,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12346,7 +12346,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12367,7 +12367,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12388,7 +12388,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12409,7 +12409,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12430,7 +12430,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12451,7 +12451,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12472,7 +12472,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12493,7 +12493,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12514,7 +12514,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12535,7 +12535,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12556,7 +12556,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12577,7 +12577,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12598,7 +12598,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12619,7 +12619,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12640,7 +12640,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12661,7 +12661,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12682,7 +12682,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12703,7 +12703,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12724,7 +12724,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12745,7 +12745,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12766,7 +12766,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12787,7 +12787,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12808,7 +12808,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12829,7 +12829,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12849,7 +12849,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12869,7 +12869,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12890,7 +12890,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12910,7 +12910,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PH2369_4.pdf
 description=NPN switching transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -12931,7 +12931,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12952,7 +12952,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12973,7 +12973,7 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -12993,7 +12993,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2222_2222A_5.pdf
 description=NPN switching transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -13014,7 +13014,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2222_2222A_5.pdf
 description=NPN switching transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -13035,7 +13035,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2369_4.pdf
 description=NPN switching transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13055,7 +13055,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2907_PMBT2907A_5.pdf
 description=PNP switching transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -13076,7 +13076,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2907_PMBT2907A_5.pdf
 description=PNP switching transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
@@ -13097,7 +13097,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3904_4.pdf
 description=NPN switching transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13118,7 +13118,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3906_N_5.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=broken
+model_status_broken=gnucap_0.35
 # unknown parameter B=1
 
 
@@ -13139,7 +13139,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT4401_4.pdf
 description=NPN switching transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13159,7 +13159,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT4403_4.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS statement
 
 
@@ -13179,7 +13179,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT5401_4.pdf
 description=PNP high-voltage transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13199,7 +13199,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT5550_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS statement
 
 
@@ -13219,7 +13219,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS statement
 
 
@@ -13239,7 +13239,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT6428_PMBT6429_4.pdf
 description=NPN general purpose transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13259,7 +13259,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA06_5.pdf
 description=NPN general purpose transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13279,7 +13279,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA13_PMBTA14_5.pdf
 description=NPN Darlington transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13299,7 +13299,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA13_PMBTA14_5.pdf
 description=NPN Darlington transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13320,7 +13320,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA42DS_1.pdf
 description=NPN/NPN high-voltage double transistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -13340,7 +13340,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA42_4.pdf
 description=NPN high-voltage transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13360,7 +13360,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA64_6.pdf
 description=PNP Darlington transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13380,7 +13380,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA92_5.pdf
 description=PNP high-voltage transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13400,7 +13400,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMMT491A_5.pdf
 description=NPN BISS transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13420,7 +13420,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMMT591A_5.pdf
 description=PNP BISS transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13440,7 +13440,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMSS3906_4.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS statement
 
 
@@ -13461,7 +13461,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2222_2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS statement
 
 
@@ -13482,7 +13482,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2222_2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS statement
 
 
@@ -13503,7 +13503,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2369_3.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS statement
 
 
@@ -13524,7 +13524,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2907A_3.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS statement
 
 
@@ -13545,7 +13545,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST4403_3.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS statement
 
 
@@ -13566,7 +13566,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5088_5089_3.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS statement
 
 
@@ -13587,7 +13587,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5088_5089_3.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS statement
 
 
@@ -13608,7 +13608,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5401_3.pdf
 description=PNP high-voltage transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13628,7 +13628,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5550_5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS statement
 
 
@@ -13649,7 +13649,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5550_5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status=good
+model_status_good=gnucap_0.35
 # wrong .ENDS statement
 
 
@@ -13670,7 +13670,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST6428_6429_3.pdf
 description=NPN general purpose transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13690,7 +13690,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMSTA42_43_2.pdf
 description=NPN high-voltage transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13710,7 +13710,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMSTA92_3.pdf
 description=PNP high-voltage transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -13731,7 +13731,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PSSI2021SAY_2.pdf
 description=constant current source in SOT353
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -13751,7 +13751,7 @@ footprint=none
 documentation=
 description=PECL termination
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -13772,7 +13772,7 @@ footprint=none
 documentation=
 description=2 pnp transistors with buildin resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -13793,7 +13793,7 @@ footprint=none
 documentation=
 description=2 pnp transistors with base resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -13814,7 +13814,7 @@ footprint=none
 documentation=
 description=2 pnp transistors with base resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -13835,7 +13835,7 @@ footprint=none
 documentation=
 description=2 pnp transistors with buildin resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -13856,7 +13856,7 @@ footprint=none
 documentation=
 description=2 pnp transistors with buildin resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -13877,7 +13877,7 @@ footprint=none
 documentation=
 description=2 pnp transistors with base resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -13898,7 +13898,7 @@ footprint=none
 documentation=
 description=2 pnp transistors with buildin resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -13919,7 +13919,7 @@ footprint=none
 documentation=
 description=2 pnp transistors with base resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -13940,7 +13940,7 @@ footprint=none
 documentation=
 description=2 pnp transistors with buildin resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -13961,7 +13961,7 @@ footprint=none
 documentation=
 description=2 pnp transistors with base resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -13982,7 +13982,7 @@ footprint=none
 documentation=
 description=2 npn transistors with buildin resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14003,7 +14003,7 @@ footprint=none
 documentation=
 description=2 npn transistors with buildin resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14024,7 +14024,7 @@ footprint=none
 documentation=
 description=2 npn transistors with buildin resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14045,7 +14045,7 @@ footprint=none
 documentation=
 description=2 npn transistors with base resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14066,7 +14066,7 @@ footprint=none
 documentation=
 description=pnp transistor and npn transistor with resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14087,7 +14087,7 @@ footprint=none
 documentation=
 description=2 npn transistors with buildin resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14108,7 +14108,7 @@ footprint=none
 documentation=
 description=2 npn transistors with base resistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14128,7 +14128,7 @@ footprint=none
 documentation=
 description=2 PNP Transistors in SC-88
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14148,7 +14148,7 @@ footprint=none
 documentation=
 description=2 NPN Transistors in SC-88
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14169,7 +14169,7 @@ footprint=none
 documentation=
 description=2 npn transistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14189,7 +14189,7 @@ footprint=none
 documentation=
 description=npn/pnp transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14210,7 +14210,7 @@ footprint=none
 documentation=
 description=npn/pnp transistors
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14230,7 +14230,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PXTA14_4.pdf
 description=NPN Darlington transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 # missing connection between nodes 33 and 333
 
 
@@ -14251,7 +14251,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PXTA42_4.pdf
 description=NPN high-voltage transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14271,7 +14271,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PXTA92_4.pdf
 description=PNP high-voltage transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14291,7 +14291,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZTA14_4.pdf
 description=NPN Darlington transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14311,7 +14311,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZTA42_3.pdf
 description=NPN high-voltage transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14332,7 +14332,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZTA44_4.pdf
 description=NPN high-voltage transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14353,7 +14353,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZTA92_3.pdf
 description=PNP high-voltage transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14373,7 +14373,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4520X_3.pdf
 description=20V, 5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14394,7 +14394,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV8115T_1.pdf
 description=150V, 1A NPN high-voltage low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=broken
+model_status_broken=gnucap_0.35
 #node 333 is not connected
 
 
@@ -14415,7 +14415,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV8115Z_1.pdf
 description=150V, 1A NPN high-voltage low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14435,7 +14435,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV8540T_1.pdf
 description=500V, 0.5A NPN high-voltage low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=broken
+model_status_broken=gnucap_0.35
 #node 333 is not connected
 
 
@@ -14456,7 +14456,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV8540Z_1.pdf
 description=500V, 0.5A NPN high-voltage low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14476,7 +14476,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV9040T_1.pdf
 description=500V, 0.25A PNP high-voltage low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=broken
+model_status_broken=gnucap_0.35
 # node 333 is not connected
 
 
@@ -14497,7 +14497,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRP113ET_1.pdf
 description=PNP 800mA, 40V BISS RET; R1=1kOhm, R2=1kOhm
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14517,7 +14517,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRP113ZT_1.pdf
 description=PNP 800mA, 40V BISS RET; R1=1kOhm, R2=10kOhm
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14537,7 +14537,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRP123ET_1.pdf
 description=PNP 800mA, 40V BISS RET; R1=2.2kOhm, R2=2.2kOhm
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14557,7 +14557,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRP123YT_1.pdf
 description=PNP 800mA, 40V BISS RET; R1=2.2kOhm, R2=10kOhm
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14577,7 +14577,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS301NZ_1.pdf
 description=12V, 5.8A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14597,7 +14597,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS301PZ_1.pdf
 description=12V, 5.7A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14617,7 +14617,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS302NZ_1.pdf
 description=20V, 5.8A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14637,7 +14637,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS302PZ_1.pdf
 description=20V, 5.5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14657,7 +14657,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS303NZ_1.pdf
 description=30V, 5.5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14677,7 +14677,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS303PZ_1.pdf
 description=30V, 5.3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14697,7 +14697,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS304NZ_1.pdf
 description=60V, 5.2A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14717,7 +14717,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS304PZ_1.pdf
 description=60V, 4.5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14737,7 +14737,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS305NZ_1.pdf
 description=80V, 5.1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14757,7 +14757,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS305PZ_1.pdf
 description=80V, 4.5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14777,7 +14777,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS306NZ_1.pdf
 description=100V, 5.1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14797,7 +14797,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS306PZ_1.pdf
 description=100V, 4.1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -14818,7 +14818,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PB709AXL_1.pdf
 description=45 V, 100 mA PNP general-purpose transistors
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14838,7 +14838,7 @@ footprint=none
 description=45 V, 100 mA PNP general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PB709AXL_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14858,7 +14858,7 @@ footprint=none
 description=50 V, 500 mA PNP general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PB710AXL_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14878,7 +14878,7 @@ footprint=none
 description=50 V, 500 mA PNP general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PB710AXL_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14898,7 +14898,7 @@ footprint=none
 description=50 V, 100 mA NPN general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PD601AXL_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14918,7 +14918,7 @@ footprint=none
 description=50 V, 100 mA NPN general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PD601AXL_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14938,7 +14938,7 @@ footprint=none
 description=50 V, 500 mA NPN general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PD602AXL_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14958,7 +14958,7 @@ footprint=none
 description=50 V, 500 mA NPN general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PD602AXL_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14978,7 +14978,7 @@ footprint=none
 description=50 V, 500 mA NPN general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PD602AXL_1.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -14999,7 +14999,7 @@ footprint=none
 description=NPN/PNP general purpose transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BC817DPN_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15020,7 +15020,7 @@ footprint=none
 description=NPN general purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BC817DS_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15040,7 +15040,7 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BC859W_860W_4.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15060,7 +15060,7 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BC859W_860W_4.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15080,7 +15080,7 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BC859_BC860_5.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15101,7 +15101,7 @@ footprint=none
 description=PNP general purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15122,7 +15122,7 @@ footprint=none
 description=PNP general purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BCV64B_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15142,7 +15142,7 @@ footprint=none
 description=General purpose PNP transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BCW61_3.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15162,7 +15162,7 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BCW61_3.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15182,7 +15182,7 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BCW61_3.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15202,7 +15202,7 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BCW69_BCW70_4.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15222,7 +15222,7 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BCW69_BCW70_4.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15242,7 +15242,7 @@ footprint=none
 description=General purpose PNP transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BCW89_3.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15262,7 +15262,7 @@ footprint=none
 description=NPN high voltage transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BF720_722_3.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=gnucap_0.35
 # model parameter without leading "+"
 
 
@@ -15283,7 +15283,7 @@ footprint=none
 description=NPN high voltage transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BF720_722_3.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=gnucap_0.35
 # model parameter without leading "+"
 
 
@@ -15305,7 +15305,7 @@ footprint=none
 description=500 V, 0.25 A PNP high-voltage low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV9040Z_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15325,7 +15325,7 @@ footprint=none
 description=150 V, 1 A PNP high-voltage low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV9115T_2.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=gnucap_0.35
 # nodes 22 and 222 not connected?
 
 
@@ -15347,7 +15347,7 @@ footprint=none
 description=150 V, 1 A PNP high-voltage low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV9115Z_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15368,7 +15368,7 @@ footprint=none
 description=30 V, 3 A PNP low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5330X_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15388,7 +15388,7 @@ footprint=none
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15408,7 +15408,7 @@ footprint=none
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15428,7 +15428,7 @@ footprint=none
 description=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15449,7 +15449,7 @@ footprint=none
 description=PNP/PNP resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB2_PUMB2_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15470,7 +15470,7 @@ footprint=none
 description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD12_PUMD12_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15491,7 +15491,7 @@ footprint=none
 description=NPN/PNP resistor-equipped transistors; R1=10k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD3_PIMD3_PUMD3_9.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15512,7 +15512,7 @@ footprint=none
 description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k and R1=2.2k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD48_PUMD48_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15533,7 +15533,7 @@ footprint=none
 description=NPN/PNP resistor-equipped transistors; R1=4.7k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD6_PUMD6_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15554,7 +15554,7 @@ footprint=none
 description=NPN/PNP resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD9_PUMD9_5.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15575,7 +15575,7 @@ footprint=none
 description=NPN/NPN resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PIMH9_PUMH9_PEMH9_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15596,7 +15596,7 @@ footprint=none
 description=PNP general purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PEMT1_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15617,7 +15617,7 @@ footprint=none
 description=NPN/NPN resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PIMH9_PUMH9_PEMH9_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15637,7 +15637,7 @@ footprint=none
 description=NPN general purpose transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBS3904_5.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15657,7 +15657,7 @@ footprint=none
 description=PNP general purpose transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBS3906_5.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=gnucap_0.35
 # model parameter "+" missing
 
 
@@ -15679,7 +15679,7 @@ footprint=none
 description=40 V, 200 mA NPN/NPN general-purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3904YS_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15700,7 +15700,7 @@ footprint=none
 description=40 V, 200 mA PNP/PNP general-purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3906YS_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15721,7 +15721,7 @@ footprint=none
 description=40 V, 200 mA NPN/PNP general-purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3946YPN_1.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15741,7 +15741,7 @@ footprint=none
 description=400 V, 0.3 A NPN high-voltage low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA44_1.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=gnucap_0.35
 # nodes 222 and 22 not connected?
 
 
@@ -15762,7 +15762,7 @@ footprint=none
 description=NPN switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMST3904_4.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15782,7 +15782,7 @@ footprint=none
 description=40 V, 200 mA PNP switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMST3906_5.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15802,7 +15802,7 @@ footprint=none
 description=NPN switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMST4401_3.pdf
 test_refdes=X1
-model_status=good
+model_status_good=gnucap_0.35
 
 
 
@@ -15823,7 +15823,7 @@ footprint=none
 description=PNP/PNP resistor-equipped transistors; R1 = 10 kOhm, R2 = 10 kOhm
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB11_PUMB11_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15844,7 +15844,7 @@ footprint=none
 description=PNP/PNP resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB2_PUMB2_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15865,7 +15865,7 @@ footprint=none
 description=PNP/PNP resistor-equipped transistors; R1=4.7k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB3_PUMB3_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15886,7 +15886,7 @@ footprint=none
 description=PNP/PNP resistor-equipped transistors; R1=10k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB4_PUMB4_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15907,7 +15907,7 @@ footprint=none
 description=NPN/PNP resistor-equipped transistors; R1=2.2k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD10_PUMD10_5.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15928,7 +15928,7 @@ footprint=none
 description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD12_PUMD12_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15949,7 +15949,7 @@ footprint=none
 description=NPN/PNP resistor-equipped transistors; R1=4.7k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD13_PUMD13_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15970,7 +15970,7 @@ footprint=none
 description=NPN/PNP resistor-equipped transistors; R1=10k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD3_PIMD3_PUMD3_9.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -15991,7 +15991,7 @@ footprint=none
 description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k and R1=2.2k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD48_PUMD48_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -16012,7 +16012,7 @@ footprint=none
 description=NPN/PNP resistor-equipped transistors; R1=4.7k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD6_PUMD6_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -16033,7 +16033,7 @@ footprint=none
 description=NPN/PNP resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD9_PUMD9_5.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -16054,7 +16054,7 @@ footprint=none
 description=NPN/NPN resistor-equipped transistors; R1=22k, R2=22k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH1_PUMH1_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -16075,7 +16075,7 @@ footprint=none
 description=NPN/NPN resistor-equipped transistors; R1=2.2k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH10_PUMH10_2.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -16096,7 +16096,7 @@ footprint=none
 description=NPN/NPN resistor-equipped transistors; R1=10k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH11_PUMH11_5.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -16117,7 +16117,7 @@ footprint=none
 description=NPN/NPN resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH2_PUMH2_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -16138,7 +16138,7 @@ footprint=none
 description=NPN/NPN resistor-equipped transistors; R1=10k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH4_PUMH4_5.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -16159,7 +16159,7 @@ footprint=none
 description=NPN/NPN resistor-equipped transistors; R1=4.7k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH7_PUMH7_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -16180,7 +16180,7 @@ footprint=none
 description=NPN/NPN resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PIMH9_PUMH9_PEMH9_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -16201,7 +16201,7 @@ footprint=none
 description=NPN switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PXT4401_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -16222,7 +16222,7 @@ footprint=none
 description=PNP switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PXT4403_4.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -16243,7 +16243,7 @@ footprint=none
 description=NPN switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PZT2222A_3.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 
@@ -16263,7 +16263,7 @@ footprint=none
 description=PNP switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PZT2907A_3.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=gnucap_0.35
 # model parameter "+" missing
 
 
@@ -16284,7 +16284,7 @@ footprint=none
 description=NPN switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PZT4401_1.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=gnucap_0.35
 # model parameter "+" missing
 
 
@@ -16305,6 +16305,6 @@ footprint=none
 description=PNP switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PZT4403_N_2.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=gnucap_0.35
 # model parameter "+" missing
 

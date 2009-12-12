@@ -5,7 +5,7 @@ TESTDIR=model_tests/national/opamps/
 DESCRIPTION=National Semiconductor operational amplifier models
 GOLDEN_CHECKSUMS=model_golden_checksums/national_opamps_lib.md5sum
 CURRENT_CHECKSUMS=model_checksums/national_opamps_lib.md5sum
-model_status=undefined
+model_status_undefined=
 
 
 [LF156_LM00001]
@@ -29,7 +29,7 @@ description=Monolithic JFET-Input OP-AMP
 documentation=http://www.national.com/ds/LF/LF156.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=test
+
 
 
 [LF256_LM00002]
@@ -53,7 +53,6 @@ description=Monolithic JFET-Input OP-AMP
 documentation=http://www.national.com/ds/LF/LF256.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=test
 
 
 [LF353_LM00003]
@@ -76,7 +75,6 @@ footprint=none
 description=Wide Bandwidth Dual JFET-Input OP-AMP 
 documentation=http://www.national.com/ds/LF/LF353.pdf
 test_refdes=X1
-model_status=test
 
 
 [LF356_LM00004]
@@ -100,7 +98,6 @@ description=Monolithic JFET-Input OP-AMP
 documentation=http://www.national.com/ds/LF/LF356.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=test
 
 
 [LF411_LM00005]
@@ -124,7 +121,6 @@ description=LOW OFFSET, LOW DRIFT JFET INPUT OP-AMP
 documentation=http://www.national.com/ds/LF/LF411.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=test
 
 
 [LF412_LM00006]
@@ -148,7 +144,6 @@ description=LOW OFFSET, LOW DRIFT DUAL JFET INPUT OP-AMP MODEL
 documentation=http://www.national.com/ds/LF/LF412.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=test
 
 
 [LF442A_LM00007]
@@ -172,7 +167,6 @@ description=Dual Low Power JFET Input Operational Amplifier
 documentation=http://www.national.com/ds/LF/LF442.pdf
 test_refdes=X1
 test_vsupply=40
-model_status=test
 
 
 [LF442B_LM00008]
@@ -196,7 +190,6 @@ description=Dual Low Power JFET Input Operational Amplifier
 documentation=http://www.national.com/ds/LF/LF442.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=test
 
 
 [LF444A_LM00009]
@@ -220,7 +213,6 @@ description=Quad Low Power JFET Input Operational Amplifier
 documentation=http://www.national.com/ds/LF/LF444.pdf
 test_refdes=X1
 test_vsupply=40
-model_status=test
 
 
 [LF444B_LM00010]
@@ -244,7 +236,6 @@ description=Quad Low Power JFET Input Operational Amplifier
 documentation=http://www.national.com/ds/LF/LF444.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=test
 
 
 [LM111_LM00011]
@@ -267,7 +258,7 @@ footprint=none
 description=Voltage Comparator
 documentation=http://www.national.com/ds/LM/LM111.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LM118_LM00012]
@@ -290,7 +281,6 @@ footprint=none
 description=OPERATIONAL AMPLIFIER 
 documentation=http://www.national.com/ds/LM/LM118.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM124_LM00013]
@@ -313,7 +303,6 @@ footprint=none
 description=Low Power Quad OPERATIONAL AMPLIFIER 
 documentation=http://www.national.com/ds/LM/LM124.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM13700_LM00014]
@@ -336,7 +325,6 @@ footprint=none
 description=Dual Operational Transconductance Amplifier                 
 documentation=http://www.national.com/ds/LM/LM13700.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM158_LM00015]
@@ -359,7 +347,6 @@ footprint=none
 description=DUAL OPERATIONAL AMPLIFIER 
 documentation=http://www.national.com/ds/LM/LM158.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM218_LM00016]
@@ -382,7 +369,6 @@ footprint=none
 description=OPERATIONAL AMPLIFIER 
 documentation=http://www.national.com/ds/LM/LM218.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM224_LM00017]
@@ -405,7 +391,6 @@ footprint=none
 description=Low Power Quad OPERATIONAL AMPLIFIER 
 documentation=http://www.national.com/ds/LM/LM224.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM258_LM00018]
@@ -428,7 +413,6 @@ footprint=none
 description=DUAL OPERATIONAL AMPLIFIER 
 documentation=http://www.national.com/ds/LM/LM258.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM2902_LM00019]
@@ -451,7 +435,6 @@ footprint=none
 description=QUAD OPERATIONAL AMPLIFIER 
 documentation=http://www.national.com/ds/LM/LM2902.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM2904_LM00020]
@@ -474,7 +457,6 @@ footprint=none
 description=DUAL OPERATIONAL AMPLIFIER 
 documentation=http://www.national.com/ds/LM/LM2904.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM318_LM00021]
@@ -497,7 +479,6 @@ footprint=none
 description=OPERATIONAL AMPLIFIER 
 documentation=http://www.national.com/ds/LM/LM318.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM324_LM00022]
@@ -520,7 +501,6 @@ footprint=none
 description=Low Power Quad OPERATIONAL AMPLIFIER 
 documentation=http://www.national.com/ds/LM/LM324.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM358_LM00023]
@@ -543,7 +523,6 @@ footprint=none
 description=DUAL OPERATIONAL AMPLIFIER 
 documentation=http://www.national.com/ds/LM/LM358.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM359_LM00024]
@@ -566,7 +545,6 @@ footprint=none
 description=DUAL HIGH-SPEED NORTON AMPLIFIER 
 documentation=http://www.national.com/ds/LM/LM359.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM4250_LM00025]
@@ -589,7 +567,6 @@ footprint=none
 description=Programmable Operational Amplifier
 documentation=http://www.national.com/ds/LM/LM4250.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM6132A_LM00026]
@@ -612,7 +589,6 @@ footprint=none
 description=OP-AMP 
 documentation=http://www.national.com/ds/LM/LM6132.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM6132B_LM00027]
@@ -635,7 +611,6 @@ footprint=none
 description=OP-AMP 
 documentation=http://www.national.com/ds/LM/LM6132.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM6142A_LM00028]
@@ -658,7 +633,6 @@ footprint=none
 description=OP-AMP 
 documentation=http://www.national.com/ds/LM/LM6142.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM6142B_LM00029]
@@ -681,7 +655,6 @@ footprint=none
 description=OP-AMP 
 documentation=http://www.national.com/ds/LM/LM6142.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM6152A_LM00030]
@@ -704,7 +677,7 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LM6152.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LM6152B_LM00031]
@@ -727,7 +700,7 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LM6152.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LM6171A_LM00032]
@@ -750,7 +723,6 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LM6171.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM6171B_LM00033]
@@ -773,7 +745,6 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LM6171.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM6172_LM00034]
@@ -796,7 +767,6 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LM6172.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM6181_LM00035]
@@ -819,7 +789,7 @@ footprint=none
 description=CURRENT FEEDBACK OP-AMP 
 documentation=http://www.national.com/ds/LM/LM6181.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LM6211_LM00036]
@@ -842,7 +812,7 @@ footprint=none
 description=SPICE MODEL PERFROMANCE
 documentation=http://www.national.com/ds/LM/LM6211.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LM7121_LM00037]
@@ -865,7 +835,7 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LM7121.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LM7131A_LM00038]
@@ -888,7 +858,7 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LM7131.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LM7171A_LM00039]
@@ -911,7 +881,7 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LM7171.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LM7171B_LM00040]
@@ -934,7 +904,7 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LM7171.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LM7301_LM00041]
@@ -957,7 +927,7 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LM7301.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LM7341_LM00042]
@@ -980,7 +950,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LM7341.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LM7372_LM00043]
@@ -1004,7 +974,7 @@ description=SPICE MODEL
 documentation=http://www.national.com/ds/LM/LM7372.pdf
 test_refdes=X1
 test_vsupply=30
-model_status=good
+model_status_good=ngspice_19
 
 
 [LM741_LM00044]
@@ -1027,7 +997,6 @@ footprint=none
 description=OPERATIONAL AMPLIFIER 
 documentation=http://www.national.com/ds/LM/LM741.pdf
 test_refdes=X1
-model_status=test
 
 
 [LM8261_LM00045]
@@ -1050,7 +1019,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LM8261.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LM8272_LM00046]
@@ -1073,7 +1042,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LM8272.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMC6001A_LM00047]
@@ -1096,7 +1065,6 @@ footprint=none
 description=Precision CMOS Single Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6001.pdf
 test_refdes=X1
-model_status=test
 
 
 [LMC6001B_LM00048]
@@ -1119,7 +1087,6 @@ footprint=none
 description=Precision CMOS Single Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6001.pdf
 test_refdes=X1
-model_status=test
 
 
 [LMC6022_LM00049]
@@ -1142,7 +1109,6 @@ footprint=none
 description=Low Power CMOS Dual Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6022.pdf
 test_refdes=X1
-model_status=test
 
 
 [LMC6024_LM00050]
@@ -1165,7 +1131,6 @@ footprint=none
 description=Low Power CMOS Quad Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6024.pdf
 test_refdes=X1
-model_status=test
 
 
 [LMC6032_LM00051]
@@ -1188,7 +1153,6 @@ footprint=none
 description=CMOS Dual Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6032.pdf
 test_refdes=X1
-model_status=test
 
 
 [LMC6034_LM00052]
@@ -1211,7 +1175,7 @@ footprint=none
 description=CMOS Quad Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6034.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6035_LM00053]
@@ -1234,7 +1198,7 @@ footprint=none
 description=Dual OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6035.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMC6036_LM00054]
@@ -1257,7 +1221,7 @@ footprint=none
 description=Quad OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6036.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMC6041A_LM00055]
@@ -1280,7 +1244,7 @@ footprint=none
 description=CMOS Single Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6041.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6041B_LM00056]
@@ -1303,7 +1267,7 @@ footprint=none
 description=CMOS Single Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6041.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6042A_LM00057]
@@ -1326,7 +1290,7 @@ footprint=none
 description=CMOS Dual Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6042.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6042B_LM00058]
@@ -1349,7 +1313,7 @@ footprint=none
 description=CMOS Dual Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6042.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMC6044A_LM00059]
@@ -1372,7 +1336,7 @@ footprint=none
 description=CMOS Quad Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6044.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMC6044B_LM00060]
@@ -1395,7 +1359,6 @@ footprint=none
 description=CMOS Quad Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6044.pdf
 test_refdes=X1
-model_status=test
 
 
 [LMC6061A_LM00061]
@@ -1418,7 +1381,7 @@ footprint=none
 description=Precision CMOS Single Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6061.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6061B_LM00062]
@@ -1441,7 +1404,7 @@ footprint=none
 description=Precision CMOS Single Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6061.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6062A_LM00063]
@@ -1464,7 +1427,7 @@ footprint=none
 description=Precision CMOS Dual Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6062.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6062B_LM00064]
@@ -1487,7 +1450,7 @@ footprint=none
 description=Precision CMOS Dual Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6062.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6064A_LM00065]
@@ -1510,7 +1473,7 @@ footprint=none
 description=Precision CMOS Quad Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6064.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6064B_LM00066]
@@ -1533,7 +1496,7 @@ footprint=none
 description=Precision CMOS Quad Micropower Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6064.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6081A_LM00067]
@@ -1556,7 +1519,7 @@ footprint=none
 description=Precision CMOS Single Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6081.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6081B_LM00068]
@@ -1579,7 +1542,7 @@ footprint=none
 description=Precision CMOS Single Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6081.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6082A_LM00069]
@@ -1602,7 +1565,7 @@ footprint=none
 description=Precision CMOS Dual Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6082.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6082B_LM00070]
@@ -1625,7 +1588,7 @@ footprint=none
 description=Precision CMOS Dual Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6082.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6084A_LM00071]
@@ -1648,7 +1611,7 @@ footprint=none
 description=Precision CMOS Quad Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6084.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6084B_LM00072]
@@ -1671,7 +1634,7 @@ footprint=none
 description=Precision CMOS Quad Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6084.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [lmc6442a_LM00073]
@@ -1694,7 +1657,7 @@ footprint=none
 description=CMOS Dual Micro-Power Op Amp 
 documentation=http://www.national.com/ds/LM/LMC6442.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [lmc6442b_LM00074]
@@ -1717,7 +1680,7 @@ footprint=none
 description=CMOS Dual Micro-Power Op Amp 
 documentation=http://www.national.com/ds/LM/LMC6442.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMC6462A_LM00075]
@@ -1740,7 +1703,7 @@ footprint=none
 description=CMOS Dual OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6462.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6462B_LM00076]
@@ -1763,7 +1726,7 @@ footprint=none
 description=CMOS Dual OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6462.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6464A_LM00077]
@@ -1786,7 +1749,7 @@ footprint=none
 description=CMOS Quad OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6464.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6464B_LM00078]
@@ -1809,7 +1772,7 @@ footprint=none
 description=CMOS Quad OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6464.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6482A_LM00079]
@@ -1832,7 +1795,7 @@ footprint=none
 description=CMOS Dual OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6482.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6484A_LM00080]
@@ -1855,7 +1818,7 @@ footprint=none
 description=CMOS Quad OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6484.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6492A_LM00081]
@@ -1878,7 +1841,7 @@ footprint=none
 description=CMOS Dual OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6492.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6492B_LM00082]
@@ -1901,7 +1864,7 @@ footprint=none
 description=CMOS Dual OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6492.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6494A_LM00083]
@@ -1924,7 +1887,7 @@ footprint=none
 description=CMOS Quad OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6494.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6494B_LM00084]
@@ -1947,7 +1910,7 @@ footprint=none
 description=CMOS Quad OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC6494.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6572A_LM00085]
@@ -1970,7 +1933,7 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LMC6572.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6572B_LM00086]
@@ -1993,7 +1956,7 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LMC6572.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6574A_LM00087]
@@ -2016,7 +1979,7 @@ footprint=none
 description=Low Power CMOS Quad Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6574.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6574B_LM00088]
@@ -2039,7 +2002,7 @@ footprint=none
 description=Low Power CMOS Quad Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMC6574.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC660A_LM00089]
@@ -2062,7 +2025,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMC660.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC662A_LM00090]
@@ -2085,7 +2048,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMC662.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC6762A_LM00091]
@@ -2108,7 +2071,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6762.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMC6762B_LM00092]
@@ -2131,7 +2094,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6762.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMC6772A_LM00093]
@@ -2154,7 +2117,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6772.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMC6772B_LM00094]
@@ -2177,7 +2140,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC6772.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMC7101A_LM00095]
@@ -2200,7 +2163,7 @@ footprint=none
 description=CMOS OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC7101.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMC7101B_LM00096]
@@ -2223,7 +2186,7 @@ footprint=none
 description=CMOS OP-AMP 
 documentation=http://www.national.com/ds/LM/LMC7101.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LM7111B_LM00097]
@@ -2246,7 +2209,7 @@ footprint=none
 description=Operational Amplifier 
 documentation=http://www.national.com/ds/LM/LM7111.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMC7211A_LM00098]
@@ -2269,7 +2232,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7211.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMC7211B_LM00099]
@@ -2292,7 +2255,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7211.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMC7215_LM00100]
@@ -2315,7 +2278,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7215.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMC7221A_LM00101]
@@ -2338,7 +2301,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7221.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMC7221B_LM00102]
@@ -2361,7 +2324,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7221.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMC7225_LM00103]
@@ -2384,7 +2347,7 @@ footprint=none
 description=CMOS Comparator 
 documentation=http://www.national.com/ds/LM/LMC7225.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [lmc8101_LM00104]
@@ -2407,7 +2370,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMC8101.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6321_LM00105]
@@ -2430,7 +2393,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6321.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6502_LM00106]
@@ -2453,7 +2416,7 @@ footprint=none
 description=SPICE MODEL
 documentation=http://www.national.com/ds/LM/LMH6502.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6503_LM00107]
@@ -2476,7 +2439,7 @@ footprint=none
 description=SPICE MODEL
 documentation=http://www.national.com/ds/LM/LMH6503.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6505_LM00108]
@@ -2499,7 +2462,7 @@ footprint=none
 description=SPICE MODEL
 documentation=http://www.national.com/ds/LM/LMH6505.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6550_LM00109]
@@ -2522,7 +2485,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6550.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6551_LM00110]
@@ -2545,7 +2508,7 @@ footprint=none
 description=SPICE MODEL
 documentation=http://www.national.com/ds/LM/LMH6551.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [lmh6552_LM00111]
@@ -2568,7 +2531,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6552.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6555_LM00112]
@@ -2591,7 +2554,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6555.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6559_LM00113]
@@ -2614,7 +2577,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6559.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6601_LM00114]
@@ -2637,7 +2600,7 @@ footprint=none
 description=SPICE MODLE PERFORMANCE
 documentation=http://www.national.com/ds/LM/LMH6601.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMH6609_LM00115]
@@ -2660,7 +2623,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6609.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6611_LM00116]
@@ -2683,7 +2646,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6611.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6612_LM00117]
@@ -2706,7 +2669,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6612.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMH6618_LM00118]
@@ -2729,7 +2692,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6618.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMH6619_LM00119]
@@ -2752,7 +2715,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6619.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMH6622_LM00120]
@@ -2776,7 +2739,7 @@ description=Dual Wideband, Low Noise, 160MHz, Operational Amplifiers
 documentation=http://www.national.com/ds/LM/LMH6622.pdf
 test_refdes=X1
 test_vsupply=12
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMH6624_LM00121]
@@ -2799,7 +2762,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6624.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6628_LM00122]
@@ -2823,7 +2786,7 @@ description=Dual Wideband, Low Noise, Voltage Feedback Op Amp
 documentation=http://www.national.com/ds/LM/LMH6628.pdf
 test_refdes=X1
 test_vsupply=10
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMH6639_LM00123]
@@ -2846,7 +2809,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6639.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LMH6642_LM00124]
@@ -2869,7 +2832,7 @@ footprint=none
 description=SPICE MODEL rev 10-MAY-05
 documentation=http://www.national.com/ds/LM/LMH6642.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6643_LM00125]
@@ -2892,7 +2855,7 @@ footprint=none
 description=SPICE MODEL rev 10-MAY-05
 documentation=http://www.national.com/ds/LM/LMH6643.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6644_LM00126]
@@ -2915,7 +2878,7 @@ footprint=none
 description=SPICE MODEL rev 10-MAY-05
 documentation=http://www.national.com/ds/LM/LMH6644.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6645_LM00127]
@@ -2938,7 +2901,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6645.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6646_LM00128]
@@ -2961,7 +2924,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6646.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6647_LM00129]
@@ -2984,7 +2947,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6647.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6655_LM00130]
@@ -3007,7 +2970,7 @@ footprint=none
 description=SUBCIRCUIT
 documentation=http://www.national.com/ds/LM/LMH6655.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6657_LM00131]
@@ -3030,7 +2993,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6657.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMH6672_LM00132]
@@ -3053,7 +3016,7 @@ footprint=none
 description=SUBCIRCUIT
 documentation=http://www.national.com/ds/LM/LMH6672.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6702_LM00133]
@@ -3076,7 +3039,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6702.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6703C_LM00134]
@@ -3099,7 +3062,7 @@ footprint=none
 description=SPICE MODEL PERFORMANCE
 documentation=http://www.national.com/ds/LM/LMH6703.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6703T_LM00135]
@@ -3122,7 +3085,7 @@ footprint=none
 description=SPICE MODEL PERFORMANCE
 documentation=http://www.national.com/ds/LM/LMH6703.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6714_LM00136]
@@ -3145,7 +3108,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6714.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6715_LM00137]
@@ -3168,7 +3131,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6715.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6718_LM00138]
@@ -3191,7 +3154,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6718.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6720_LM00139]
@@ -3214,7 +3177,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6720.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6722_LM00140]
@@ -3237,7 +3200,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6722.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6723_LM00141]
@@ -3260,7 +3223,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6723.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMH6733_LM00142]
@@ -3283,7 +3246,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6733.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMH6734_LM00143]
@@ -3306,7 +3269,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6734.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMH6738_LM00144]
@@ -3329,7 +3292,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6738.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMH6739_LM00145]
@@ -3352,7 +3315,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMH6739.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMP2011_LM00146]
@@ -3375,7 +3338,7 @@ footprint=none
 description=SPICE MODEL PERFORMANCE
 documentation=http://www.national.com/ds/LM/LMP2011.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP2015_LM00147]
@@ -3398,7 +3361,7 @@ footprint=none
 description=High Precision, Rail-to-Rail Output Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMP2015.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP2016_LM00148]
@@ -3421,7 +3384,7 @@ footprint=none
 description=High Precision, Rail-to-Rail Output Dual Operational Amplifier
 documentation=http://www.national.com/ds/LM/LMP2016.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP2021_LM00149]
@@ -3444,7 +3407,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP2021.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP2022_LM00150]
@@ -3467,7 +3430,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP2022.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP2231_LM00151]
@@ -3490,7 +3453,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP2231.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP2232_LM00152]
@@ -3513,7 +3476,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP2232.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP2234_LM00153]
@@ -3536,7 +3499,7 @@ footprint=none
 description=Quad Micropower, 1.6V, Precision, Operational Amplifier with CMOS Input
 documentation=http://www.national.com/ds/LM/LMP2234.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP7300_LM00154]
@@ -3559,7 +3522,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7300.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LMP7701_LM00155]
@@ -3582,7 +3545,7 @@ footprint=none
 description=SPICE MODEL PERFORMANCE
 documentation=http://www.national.com/ds/LM/LMP7701.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP7702_LM00156]
@@ -3605,7 +3568,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7702.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP7704_LM00157]
@@ -3628,7 +3591,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7704.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP7707_LM00158]
@@ -3651,7 +3614,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7707.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP7708_LM00159]
@@ -3674,7 +3637,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7708.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP7709_LM00160]
@@ -3697,7 +3660,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7709.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP7711_LM00161]
@@ -3720,7 +3683,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7711.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LMP7712_LM00162]
@@ -3743,7 +3706,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7712.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LMP7715_LM00163]
@@ -3767,7 +3730,7 @@ description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7715.pdf
 test_refdes=X1
 test_vsupply=5
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP7716_LM00164]
@@ -3791,7 +3754,7 @@ description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7716.pdf
 test_refdes=X1
 test_vsupply=5
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP7717_LM00165]
@@ -3814,7 +3777,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7717.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMP7718_LM00166]
@@ -3837,7 +3800,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7718.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMP7721_LM00167]
@@ -3860,7 +3823,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7721.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMP7731_LM00168]
@@ -3883,7 +3846,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7731.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMP7732_LM00169]
@@ -3906,7 +3869,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP7732.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [LMP8270_LM00170]
@@ -3929,7 +3892,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP8270.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMP8271_LM00171]
@@ -3952,7 +3915,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP8271.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMP8272_LM00172]
@@ -3975,7 +3938,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP8272.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMP8275_LM00173]
@@ -3998,7 +3961,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP8275.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMP8276_LM00174]
@@ -4021,7 +3984,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP8276.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMP8277_LM00175]
@@ -4044,7 +4007,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP8277.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMP8601_LM00176]
@@ -4067,7 +4030,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMP8601.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMV2011_LM00177]
@@ -4090,7 +4053,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV2011.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [lMV321_LM00178]
@@ -4113,7 +4076,7 @@ footprint=none
 description=BICMOS  Low Voltage General Purpose Op Amp
 documentation=http://www.national.com/ds/LM/LMV321.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [lmv324_LM00179]
@@ -4136,7 +4099,7 @@ footprint=none
 description=BICMOS  Low Voltage General Purpose Op Amp
 documentation=http://www.national.com/ds/LM/LMV324.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [lmv331_LM00180]
@@ -4159,7 +4122,7 @@ footprint=none
 description=Low Voltage General Purpose Comparator
 documentation=http://www.national.com/ds/LM/LMV331.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [lmv339_LM00181]
@@ -4182,7 +4145,7 @@ footprint=none
 description=Quad  Low Voltage General Purpose Comparator
 documentation=http://www.national.com/ds/LM/LMV339.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV342_LM00182]
@@ -4205,7 +4168,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV342.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [lmv358_LM00183]
@@ -4228,7 +4191,7 @@ footprint=none
 description=BICMOS  Low Voltage General Purpose Op Amp
 documentation=http://www.national.com/ds/LM/LMV358.pdf
 test_refdes=X1
-model_status=broken
+model_status_broken=ngspice_19
 
 
 [lmv393_LM00184]
@@ -4251,7 +4214,7 @@ footprint=none
 description=Dual Low Voltage General Purpose Comparator
 documentation=http://www.national.com/ds/LM/LMV393.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV551_LM00185]
@@ -4274,7 +4237,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV551.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV552_LM00186]
@@ -4297,7 +4260,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV552.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV554_LM00187]
@@ -4320,7 +4283,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV554.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV641_LM00188]
@@ -4343,7 +4306,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV641.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMV651_LM00189]
@@ -4366,7 +4329,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV651.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV652_LM00190]
@@ -4389,7 +4352,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV652.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV654_LM00191]
@@ -4412,7 +4375,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV654.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV711_LM00192]
@@ -4435,7 +4398,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV711.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMV716_LM00193]
@@ -4458,7 +4421,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV716.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV7219_LM00194]
@@ -4481,7 +4444,7 @@ footprint=none
 description=7nsec 2.7 to 5V Comparator with Rail-to-Rail Output
 documentation=http://www.national.com/ds/LM/LMV7219.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV7271_LM00195]
@@ -4504,7 +4467,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV7271.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV771_LM00196]
@@ -4527,7 +4490,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV771.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV791_LM00197]
@@ -4550,7 +4513,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV791.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMV792_LM00198]
@@ -4573,7 +4536,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV792.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LMV793_LM00199]
@@ -4596,7 +4559,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV793.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV794_LM00200]
@@ -4619,7 +4582,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV794.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV796_LM00201]
@@ -4642,7 +4605,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV796.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV797_LM00202]
@@ -4665,7 +4628,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV797.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [lmv821_LM00203]
@@ -4688,7 +4651,7 @@ footprint=none
 description=Low Voltage  Rail-to-Rail Output  5MHz Op Amp
 documentation=http://www.national.com/ds/LM/LMV821.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [lmv822_LM00204]
@@ -4711,7 +4674,7 @@ footprint=none
 description=Dual Low Voltage  Rail-to-Rail Output  5MHz Op Amp
 documentation=http://www.national.com/ds/LM/LMV822.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [lmv824_LM00205]
@@ -4734,7 +4697,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV824.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV831_LM00206]
@@ -4757,7 +4720,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV831.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV832_LM00207]
@@ -4780,7 +4743,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV832.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV834_LM00208]
@@ -4803,7 +4766,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV834.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV841_LM00209]
@@ -4826,7 +4789,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV841.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LMV842_LM00210]
@@ -4849,7 +4812,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV842.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LMV844_LM00211]
@@ -4872,7 +4835,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV844.pdf
 test_refdes=X1
-model_status=undefined
+model_status_undefined=
 
 
 [LMV851_LM00212]
@@ -4895,7 +4858,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV851.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV852_LM00213]
@@ -4918,7 +4881,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV852.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV854_LM00214]
@@ -4941,7 +4904,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV854.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV861_LM00215]
@@ -4964,7 +4927,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV861.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV862_LM00216]
@@ -4987,7 +4950,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV862.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV951_LM00217]
@@ -5010,7 +4973,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV951.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
 
 [LMV981_LM00218]
@@ -5033,7 +4996,7 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LM/LMV981.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LPC660B_LM00219]
@@ -5056,7 +5019,7 @@ footprint=none
 description=Low Power CMOS Quad Operational Amplifier
 documentation=http://www.national.com/ds/LP/LPC660.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LPC661B_LM00220]
@@ -5079,7 +5042,7 @@ footprint=none
 description=Low Power CMOS Single Operational Amplifier
 documentation=http://www.national.com/ds/LP/LPC661.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LPC662A_LM00221]
@@ -5102,7 +5065,7 @@ footprint=none
 description=Low Power CMOS Dual Operational Amplifier
 documentation=http://www.national.com/ds/LP/LPC662.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LPC662B_LM00222]
@@ -5125,7 +5088,7 @@ footprint=none
 description=Low Power CMOS Dual Operational Amplifier
 documentation=http://www.national.com/ds/LP/LPC662.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [lpv321_LM00223]
@@ -5148,7 +5111,7 @@ footprint=none
 description=BICMOS  Low Voltage General Purpose Op Amp
 documentation=http://www.national.com/ds/LP/LPV321.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [lpv324_LM00224]
@@ -5171,7 +5134,7 @@ footprint=none
 description=BICMOS  Low Voltage General Purpose Op Amp
 documentation=http://www.national.com/ds/LP/LPV324.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [lpv358_LM00225]
@@ -5194,7 +5157,7 @@ footprint=none
 description=BICMOS  Low Voltage General Purpose Op Amp
 documentation=http://www.national.com/ds/LP/LPV358.pdf
 test_refdes=X1
-model_status=test
+
 
 
 [LPV511_LM00226]
@@ -5217,5 +5180,5 @@ footprint=none
 description=TBD1
 documentation=http://www.national.com/ds/LP/LPV511.pdf
 test_refdes=X1
-model_status=good
+model_status_good=ngspice_19
 
