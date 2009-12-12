@@ -29,7 +29,8 @@ footprint=none
 description=TBD1
 documentation=TBD2
 test_refdes=X1
-model_status=good
+model_status=good #TODO: eliminate this property
+#model_status_good=ngspice_19
 
 
 

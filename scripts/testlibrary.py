@@ -21,16 +21,23 @@ BASE_DIR = os.path.join(os.path.dirname(__file__), '../')
 
 #################### GLOBAL DEFINITIONS
 
-ROW_TEMPLATE = """
-<tr><td>$partname</td>
-    <td>$value</td>
-    <td>$model_url</td>
-    <td>$symbol</td>
-    <td bgcolor="$checksum_test_color">$checksum_test</td>
-    <td bgcolor="$model_status_color">$model_status</td>
-    <td bgcolor="$model_test_color">$model_test</td>
-    <td>$description $documentation</td>
-</tr> """
+ROW_TEMPLATES = {
+        'base': """
+<tr><td rowspan="2">$partname</td>
+    <td rowspan="2">$value</td>
+    <td rowspan="2">$model_url</td>
+    <td rowspan="2">$symbol</td>
+    <td bgcolor="$checksum_test_color" rowspan="2">$checksum_test</td>
+    $sim_test_columns
+    <td rowspan="2">$description $documentation</td>
+    </tr> <tr>
+    $sim_status_columns
+</tr> """,
+'model_test': """
+<td bgcolor="$model_test_color">$model_test</td>""",
+'model_status': """
+<td bgcolor="$model_status_color">$model_status</td>"""
+}
 
 COLORS = {"broken": "#FF3F3F",
           "good": "#7FFF7F",
@@ -154,7 +161,7 @@ class modelpartBase(object):
         self.golden_checksum = None
         self.current_checksum = None
         self.checksum_status = None
-        self.test_status = None
+        self.test_status = {}
 
     def simulate_cmd(self, sim_family):
         """Returns the string to be passed to the simulator"""
@@ -187,11 +194,10 @@ class modelpartBase(object):
             ## run the tests
             self.test_message, result = self.plot_all(testdir, simulator)
 
-            #TODO: make self.test_status per-simulator
             if result == 0:
-                self.test_status = 'succeeded'
+                self.test_status[simulator] = 'succeeded'
             else:
-                self.test_status = 'failed'
+                self.test_status[simulator] = 'failed'
 
             ## create the html file with the test results
             repl['test_result'] = self.test_message
@@ -234,27 +240,43 @@ class modelpartBase(object):
     def html_status(self):
         repl = {}
         repl.update(self.properties)
-
-        if os.path.exists(os.path.join(self.testdir, 'index.html')):
-            repl['partname'] = '<a href="%s">%s</a>' % (os.path.join(self.name, 'index.html'), self.name)
-        else:
-            repl["partname"] = self.name
+        repl["partname"] = self.name
 
         make_doc_hyperlink(repl, docname='(d) ')
 
         self.update_checksum()
 
         repl["model_url"] = '<a href="../../../' + self.modeldir +'/'+repl["file"]+'">'+repl["file"]+'</a>'
-        repl["model_status_color"] = color(repl["model_status"])
-        repl["model_test"] = self.test_status
-        repl["model_test_color"] = color(self.test_status)
         repl["checksum_test"] = self.checksum_status
         repl["checksum_test_color"] = color(self.checksum_status)
 
-        row_template = string.Template(ROW_TEMPLATE)
+        base_tmpl = string.Template(ROW_TEMPLATES['base'])
+        test_tmpl = string.Template(ROW_TEMPLATES['model_test'])
+        status_tmpl = string.Template(ROW_TEMPLATES['model_status'])
+        sim_test_columns = ""
+        sim_status_columns = ""
+        for sim in SIMULATORS:
+            testdir = os.path.join(self.testdir, SIMULATORS[sim]['folder'])
+            if os.path.exists(os.path.join(testdir, 'index.html')):
+                status = self.test_status[sim]
+                test_repl = {'model_test_color': COLORS[status]}
+                test_repl['model_test'] = '<a href="%s">%s</a>' % \
+                        (os.path.join(self.name, SIMULATORS[sim]['folder'],
+                                'index.html'), status)
+            else:
+                test_repl = {'model_test': 'None',
+                             'model_test_color': COLORS['default']}
+            model_status = self.model_status(sim)
+            status_repl = {'model_status_color': COLORS[model_status],
+                'model_status': model_status}
+            sim_test_columns += test_tmpl.safe_substitute(test_repl)
+            sim_status_columns += status_tmpl.safe_substitute(status_repl)
+
+        repl['sim_status_columns'] = sim_status_columns
+        repl['sim_test_columns'] = sim_test_columns
+        status = base_tmpl.safe_substitute(repl)
         if not os.path.isdir(self.testdir):
             os.makedirs(self.testdir)
-        status = row_template.safe_substitute(repl)
         open(os.path.join(self.testdir, 'status.htm'), 'w').write(status)
         return status
 
@@ -284,6 +306,7 @@ class modelpartBase(object):
             f = open(os.path.join(dir, simfile), 'w').write(self.simulate_cmd(sim_family))
         except SimulatorError: 
             print >>longmsg, ME, "Error: no test definitions for %s" % sim_family
+            result = 3
         else:
             #TODO: allow for simulators' command line invocations to be 
             #different than their families
@@ -947,6 +970,10 @@ class modellibrary(object):
             os.makedirs(self.testdir)
 
         html_template = string.Template(open(BASE_DIR + TEMPLATE_FILE).read())
+        simulator_headers = ''
+        for sim in SIMULATORS:
+            simulator_headers += "<th>%s</th>\n" % sim
+        lib['simulator_headers'] = simulator_headers
         open(self.testdir + "index.html", "w").write(html_template.safe_substitute(lib))
 
     def model_url(self, modelname):
