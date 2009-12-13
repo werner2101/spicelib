@@ -156,10 +156,8 @@ class Vendor(object):
                                  ''.join([self.abbrev, '_', section, '.index']))
         library = testlibrary.modellibrary(indexfile)
         for name in library.modelparts:
-            ignore_status = ['undefined', 'new']
             partid = name
-            status = library.modelparts[partid].properties['model_status']
-            if status in ignore_status:
+            if 'model_status_undefined' in library.modelparts[partid].properties:
                 continue
             file = library.modelparts[partid].properties['file']
             sources = [indexfile,
