@@ -8,6 +8,7 @@
  * code cleanup of the testlibrary.py
  * more automated model tests
  * finaly a GUI for testlibrary
+ * Implement time limit on simulators that kills hung simulators
 
  * Scons tasks
  [*]Parts that have no tests should generate an output file so they don't get 

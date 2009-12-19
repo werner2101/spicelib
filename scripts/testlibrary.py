@@ -823,7 +823,7 @@ class modelComparator(modelOpamp):
     def plot_transient(self, dir, longmsg):
         ret = 0
         pp = plotter()
-        plots = spice_read.spice_read(
+        plots = spice_read.auto_read(
                 os.path.join(dir, 'switching.data')).get_plots()
         x = plots[0].get_scalevector().get_data()
         vin = plots[0].get_datavectors()[0].get_data()
@@ -840,7 +840,7 @@ class modelComparator(modelOpamp):
         pp.close()
         return ret
 
-    def simulate_cmd_lines(self, simulator):
+    def simulate_cmd_lines(self, sim_family):
         vsupply = self.vsupply()
         vstart = -0.5
         vend = vsupply + 0.5
@@ -849,7 +849,8 @@ class modelComparator(modelOpamp):
         trise = twidth / 2
         tfall = trise
         tstep = period / 200
-        return ['.include switching.net',
+        if sim_family == 'ngspice':
+            return ['.include switching.net',
                 '.control',
                 'alter v2 %fV' % vsupply,
                 #VPULSE parameters: V1 V2 TD TR TF PW PER
@@ -859,6 +860,18 @@ class modelComparator(modelOpamp):
                 'tran %e %e' % (tstep, twidth),
                 'write switching.data tran1.V(in) tran1.V(out) tran1.V(vsource)',
                 '.endc']
+        elif sim_family == 'gnucap':
+            return  ['.include switching.net',
+                '.alter v2 %fV' % vsupply,
+                #VPULSE parameters: V1 V2 TD TR TF PW PER
+                '.alter v1 [ %e %e 0 %e %e %e %e  ]' % 
+                    (vstart, vend, trise, tfall, 1e-10, period),
+                '.print tran V(in) V(out) V(vsource)',
+                '.tran %e %e' % (tstep, twidth),
+                ]
+
+        else:
+            raise SimulatorError
 
     def trans_voltage_ok(self, vin, vout, longmsg):
         success = True
@@ -879,7 +892,6 @@ class modelCFA(modelOpamp):
 
 
 class modellibrary(object):
-
     def __init__(self, indexfilename):
         self.indexfilename = indexfilename
         self.load_library_index()
