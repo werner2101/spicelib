@@ -712,7 +712,7 @@ class modelOpamp(modelpartBase):
         ret = 0
         pp = plotter()
         
-        plots = spice_read.spice_read(
+        plots = spice_read.auto_read(
                 os.path.join(dir, "ac_amplifier.data")).get_plots()
         x = plots[0].get_scalevector().get_data()
         vin = plots[0].get_datavectors()[0].get_data()
@@ -737,11 +737,11 @@ class modelOpamp(modelpartBase):
         ret = 0
         pp = plotter()
         
-        plots = spice_read.spice_read(
+        plots = spice_read.auto_read(
                 os.path.join(dir, "dc_amplifier.data")).get_plots()
         x = plots[0].get_scalevector().get_data()
-        vin = plots[0].get_datavectors()[0].get_data()
-        vout = plots[0].get_datavectors()[1].get_data()
+        vin = plots[0].get_datavector(0).get_data()
+        vout = plots[0].get_datavector(1).get_data()
         if not self.voltage_ok(vin, vout, longmsg):
             ret = 1
         
@@ -774,6 +774,15 @@ class modelOpamp(modelpartBase):
                     'ac DEC 25 10 1000000000',
                     'write ac_amplifier.data ac1.V(in) ac1.V(out)',
                     '.endc']
+        elif sim_family == 'gnucap':
+            return ['.include ac_amplifier.net',
+                    '.alter v2 2.500000V',
+                    '.alter v3 2.500000V',
+                    '.print dc V(in) V(out)',
+                    '.dc v1 -3.000000 3.000000 0.030000 > dc_amplifier.data',
+                    '.print ac Vr(in) Vi(in) Vr(out) Vi(out)',
+                    '.op',
+                    '.ac DEC 25 10 1000000000 > ac_amplifier.data']
         else:
             raise SimulatorError
     def voltage_ok(self, vin, vout, longmsg):
@@ -878,6 +887,7 @@ class modellibrary(object):
 
     def load_library_index(self):
         self.index = ConfigParser.ConfigParser()
+        #TODO: check that indexfilename exists
         self.index.read(self.indexfilename)
         self.testdir = self.index.get("GLOBAL","TESTDIR")
         self.modeldir = self.index.get("GLOBAL","MODELDIR")
