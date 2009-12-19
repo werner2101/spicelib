@@ -436,7 +436,7 @@ class modelZenerDiode(modelDiode):
         pp = plotter()
         labels = ["0C", "25C", "50C", "75C", "100C"]
         ret = 0
-        plots = spice_read.spice_read(
+        plots = spice_read.auto_read(
                 os.path.join(dir, "reverse_voltage.data")).get_plots()
         for n,pl in enumerate(plots):
             Ir = pl.get_scalevector().get_data()
@@ -453,21 +453,38 @@ class modelZenerDiode(modelDiode):
         pp.close()
         return ret
 
-    def simulate_cmd_lines(self, simulator):
+    def simulate_cmd_lines(self, sim_family):
         """Returns a list of lines that form the simulator command"""
-        return ['.include dc_current.net',
-                '.control',
-                'foreach t 0 25 50 75 100',
-                '  set temp =  $t',
-                '  dc i1 -10uA -1A -1mA',
-                'end',
-                'write forward_voltage.data dc1.V(in) dc2.V(in) dc3.V(in) dc4.V(in) dc5.V(in)',
-                'foreach t 0 25 50 75 100',
-                '  set temp =  $t',
-                '  dc i1 10uA 1A 1mA',
-                'end',
-                'write reverse_voltage.data dc6.V(in) dc7.V(in) dc8.V(in) dc9.V(in) dc10.V(in)',
-                '.endc']
+        if sim_family == 'ngspice':
+            return ['.include dc_current.net',
+                    '.control',
+                    'foreach t 0 25 50 75 100',
+                    '  set temp =  $t',
+                    '  dc i1 -10uA -1A -1mA',
+                    'end',
+                    'write forward_voltage.data dc1.V(in) dc2.V(in) dc3.V(in) dc4.V(in) dc5.V(in)',
+                    'foreach t 0 25 50 75 100',
+                    '  set temp =  $t',
+                    '  dc i1 10uA 1A 1mA',
+                    'end',
+                    'write reverse_voltage.data dc6.V(in) dc7.V(in) dc8.V(in) dc9.V(in) dc10.V(in)',
+                    '.endc']
+        elif sim_family == 'gnucap':
+            return ['.include dc_current.net',
+                    '.print dc V(in)',
+                    '.dc i1 -10uA -1A -1mA temp 0 > forward_voltage.data',
+                    '.dc i1 -10uA -1A -1mA temp 25 >> forward_voltage.data',
+                    '.dc i1 -10uA -1A -1mA temp 50 >> forward_voltage.data',
+                    '.dc i1 -10uA -1A -1mA temp 75 >> forward_voltage.data',
+                    '.dc i1 -10uA -1A -1mA temp 100 >> forward_voltage.data',
+                    '.dc i1 10uA 1A 1mA temp 0 > reverse_voltage.data',
+                    '.dc i1 10uA 1A 1mA temp 25 >> reverse_voltage.data',
+                    '.dc i1 10uA 1A 1mA temp 50 >> reverse_voltage.data',
+                    '.dc i1 10uA 1A 1mA temp 75 >> reverse_voltage.data',
+                    '.dc i1 10uA 1A 1mA temp 100 >> reverse_voltage.data' ]
+
+        else:
+            raise SimulatorError
 
 
 class modelZenerBidirectional(modelZenerDiode):
@@ -561,9 +578,12 @@ class modelBipolar(modelTransistor):
         pp.savefig(os.path.join(dir, "vbe_saturation_voltage.png"),dpi=80)
         pp.close()
         return 0
-    def simulate_cmd_lines(self, simulator):
+    def simulate_cmd_lines(self, sim_family):
         """Returns a list of lines that form the simulator command"""
-        return ['.get dc_current_gain.net',
+        if sim_family == 'ngspice':
+            raise SimulatorError
+        elif sim_family == 'gnucap':
+            return ['.get dc_current_gain.net',
                 '.pr dc I(V1) I(I1) V(in)',
                 '.dc i1 -1m -10n *0.8 temperature=0 >dc_current_gain_t0.data',
                 '.dc i1 -1m -10n *0.8 temperature=25 >dc_current_gain_t25.data',
@@ -577,6 +597,8 @@ class modelBipolar(modelTransistor):
                 '.dc i1 -50m -10n *0.8 temperature=50 >saturation_voltages_t50.data',
                 '.dc i1 -50m -10n *0.8 temperature=75 >saturation_voltages_t75.data',
                 '.dc i1 -50m -10n *0.8 temperature=100 >saturation_voltages_t100.data']
+        else:
+            raise SimulatorError
 
 
 class modelDarlington(modelBipolar):
