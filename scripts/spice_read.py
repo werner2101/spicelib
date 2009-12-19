@@ -315,36 +315,38 @@ class gnucap_read(spice_read):
     __toksep = None
     def readfile(self, filename):
         f = open(filename, self.__filemode)
-        line = f.readline()
-        if line == "":
-          return
-        tokens = [t.strip() for t in line.split()]
-        ivarname = tokens[0][1:]
-        if ivarname == '':
-          ivarname = 'U'
-        dvarnames = tokens[1:]
-        nvars = 1 + len(dvarnames)
-        vartype = {'F': 'frequency', 'V': 'voltage', 'I': 'current', 
-            'U': 'unknown'}
-        for d in [ivarname] + dvarnames:
-          self.vectors.append(spice_vector(name=d, type=vartype[d[0]]))
-        #Now read the data
-        A = numpy.fromfile(f, sep=' ')
-        A.resize(len(A) / nvars, nvars)
-        for i in range(nvars):
-          self.vectors[i].set_data(A[:, i])
-        self.current_plot.set_scalevector(self.vectors[0])
-        if dvarnames[0][0:2] == 'Vr' and dvarnames[1][0:2] == 'Vi':
-            #Complex-valued data detected
-            for i in range(0, len(dvarnames), 2):
-                self.vectors[i+1].set_data(self.vectors[i+1].get_data() +
-                1j * self.vectors[i+2].get_data())
-                self.current_plot.append_datavector(self.vectors[i+1])
-        else:
-            for i in range(len(dvarnames)):
-                self.current_plot.append_datavector(self.vectors[i + 1])
-        self.plots = [self.current_plot]
-        return
+        self.plots = []
+        while True:
+            line = f.readline()
+            if line == "":
+              return
+            tokens = [t.strip() for t in line.split()]
+            ivarname = tokens[0][1:]
+            if ivarname == '':
+              ivarname = 'U'
+            dvarnames = tokens[1:]
+            nvars = 1 + len(dvarnames)
+            vartype = {'F': 'frequency', 'V': 'voltage', 'I': 'current', 
+                'U': 'unknown'}
+            for d in [ivarname] + dvarnames:
+              self.vectors.append(spice_vector(name=d, type=vartype[d[0]]))
+            #Now read the data
+            A = numpy.fromfile(f, sep=' ')
+            A.resize(len(A) / nvars, nvars)
+            for i in range(nvars):
+              self.vectors[i].set_data(A[:, i])
+            self.current_plot.set_scalevector(self.vectors[0])
+            if dvarnames[0][0:2] == 'Vr' and dvarnames[1][0:2] == 'Vi':
+                #Complex-valued data detected
+                for i in range(0, len(dvarnames), 2):
+                    self.vectors[i+1].set_data(self.vectors[i+1].get_data() +
+                    1j * self.vectors[i+2].get_data())
+                    self.current_plot.append_datavector(self.vectors[i+1])
+            else:
+                for i in range(len(dvarnames)):
+                    self.current_plot.append_datavector(self.vectors[i + 1])
+            self.plots.append(self.current_plot)
+            self.set_default_values()
 
 
 

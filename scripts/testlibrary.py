@@ -369,7 +369,7 @@ class modelDiode(modelpartBase):
         pp = plotter()
         labels = ["0C", "25C", "50C", "75C", "100C"]
         ret = 0
-        plots = spice_read.spice_read(
+        plots = spice_read.auto_read(
                 os.path.join(dir, "forward_voltage.data")).get_plots()
         for n,pl in enumerate(plots):
             If = -pl.get_scalevector().get_data()
@@ -401,6 +401,15 @@ class modelDiode(modelpartBase):
                     'end',
                     'write forward_voltage.data dc1.V(in) dc2.V(in) dc3.V(in) dc4.V(in) dc5.V(in)',
                     '.endc']
+        elif sim_family == 'gnucap':
+            return ['.include dc_current.net',
+                    '.print dc V(in)',
+                    '.dc i1 -10uA -1A -1mA temp 0 > forward_voltage.data',
+                    '.dc i1 -10uA -1A -1mA temp 25 >> forward_voltage.data',
+                    '.dc i1 -10uA -1A -1mA temp 50 >> forward_voltage.data',
+                    '.dc i1 -10uA -1A -1mA temp 75 >> forward_voltage.data',
+                    '.dc i1 -10uA -1A -1mA temp 100 >> forward_voltage.data']
+
         else:
             raise SimulatorError
 
