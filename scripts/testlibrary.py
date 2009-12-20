@@ -308,9 +308,10 @@ class modelpartBase(object):
             print >>longmsg, ME, "Error: no test definitions for %s" % sim_family
             result = 3
         else:
-            #TODO: allow for simulators' command line invocations to be 
-            #different than their families
-            command = ("cd %s ; " % dir) + SIMULATORS[simulator]['simulator'] + " -b " + simfile
+            command = "cd %s ; %s %s %s" % (dir,
+                                            SIMULATORS[simulator]['command'],
+                                            SIMULATORS[simulator]['options'],
+                                            simfile)
             print >>longmsg, ME, "running simulation: ", command
             pop = popen2.Popen4(command)
             print >>longmsg, pop.fromchild.read()
@@ -1038,11 +1039,10 @@ class modellibrary(object):
         if part == None:
             raise KeyError
 
-        print "\n" + "*"*75
         print "Testing part: " + part.name + "  model: " + self.modeldir + part.properties["file"]
         part.test()
         part.html_status()
-        print "Result: ", part.test_status
+        print "Result: ", part.test_status, "\n"
         
 
 #################### FUNCTIONS

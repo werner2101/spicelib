@@ -17,10 +17,10 @@ PLOTTER='matplotlib'
 SIMULATORS = {
     'ngspice_19': {'simulator':'ngspice',
                    'command': 'ngspice',
-                   'folder': 'ng17'},
+                   'options': '-r X -b',  ## -r X suppresses the "no plot" error
+                   'folder': 'ng19'},
     'gnucap_0.35': {'simulator':'gnucap',
                     'command': '/usr/bin/gnucap',
-                   'folder': 'gc0.35'}
-    #'gnucap_': '/opt/gnucap/bin/gnucap',
-    #'qucs', ''
+                    'options': '-b',
+                    'folder': 'gc0.35'}
     }
