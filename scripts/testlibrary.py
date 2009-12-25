@@ -516,17 +516,17 @@ class modelBipolar(modelTransistor):
 
     def plot_dc_current_gain(self, dir, longmsg):
         pp = plotter()
-        mm=[]
-        mm.append(("0 C", load(os.path.join(dir, "dc_current_gain_t0.data"))))
-        mm.append(("25 C",load(os.path.join(dir, "dc_current_gain_t25.data"))))
-        mm.append(("50 C",load(os.path.join(dir, "dc_current_gain_t50.data"))))
-        mm.append(("75 C",load(os.path.join(dir, "dc_current_gain_t75.data"))))
-        mm.append(("100 C",load(os.path.join(dir,"dc_current_gain_t100.data"))))
-
-        for t,m in mm:
-            hfe = m[:,1] / m[:,2]
-            Ic = -m[:,1]
+        plots = spice_read.auto_read(
+                os.path.join(dir, "dc_current_gain.data")).get_plots()
+        for n, pl in enumerate(plots):
+            #TODO: DRY.  Move this table as far up the object hierarchy as 
+            #possible
+            t = {0: '0 C', 1: '25 C', 2: '50 C', 3: '75 C', 4: '100 C'}[n]
+            Ib = pl.get_scalevector().get_data()
+            Ic = -pl.get_datavector(0).get_data()
+            hfe = -Ic / Ib
             pp.semilogx(Ic * 1000, hfe, label=t)
+
         pp.xlabel("Ic [mA]")
         pp.ylabel("hfe")
         pp.grid()
@@ -534,8 +534,11 @@ class modelBipolar(modelTransistor):
         pp.savefig(os.path.join(dir, "dc_current_gain.png"),dpi=80)
         pp.close()
 
-        for t,m in mm:
-            pp.semilogx(-m[:,1]*1000, self.icc_sign * m[:,3]*1000,label=t)
+        for n, pl in enumerate(plots):
+            t = {0: '0 C', 1: '25 C', 2: '50 C', 3: '75 C', 4: '100 C'}[n]
+            Ic = -pl.get_datavector(0).get_data()
+            Vbe = pl.get_datavector(1).get_data()
+            pp.semilogx(Ic * 1000, self.icc_sign * Vbe * 1000, label = t)
         pp.xlabel("Ic [mA]")
         pp.ylabel("V BE [mV]")
         pp.grid()
@@ -546,23 +549,19 @@ class modelBipolar(modelTransistor):
 
     def plot_saturation_voltages(self, dir, longmsg):
         pp = plotter()
-        mm=[]
-        mm.append(("0 C", load(
-            os.path.join(dir, "saturation_voltages_t0.data"))))
-        mm.append(("25 C",load(
-            os.path.join(dir, "saturation_voltages_t25.data"))))
-        mm.append(("50 C",load(
-            os.path.join(dir, "saturation_voltages_t50.data"))))
-        mm.append(("75 C",load(
-            os.path.join(dir, "saturation_voltages_t75.data"))))
-        mm.append(("100 C",load(
-            os.path.join(dir, "saturation_voltages_t100.data"))))
+        plots = spice_read.auto_read(
+                os.path.join(dir, "saturation_voltages.data")).get_plots()
 
-        for t,m in mm:
+        for n, pl in enumerate(plots):
+            t = {0: '0 C', 1: '25 C', 2: '50 C', 3: '75 C', 4: '100 C'}[n]
+            Ib = pl.get_scalevector().get_data()
+            Ic = -pl.get_datavector(0).get_data()
+            Vbe = pl.get_datavector(1).get_data()
+            Vce = pl.get_datavector(2).get_data()
             ## only plot the values where Vce sat is smaller than a limit
-            firstind = numpy.where(self.icc_sign * m[:,3] < self.VCEsat_plot_limit)[0][0]
-            Ic = -m[firstind:,1]
-            pp.loglog(Ic * 1000, self.icc_sign * m[firstind:,3]*1000,label=t)
+            firstind = numpy.where(self.icc_sign * Vce < self.VCEsat_plot_limit)[0][0]
+            Ic_plot = Ic
+            pp.loglog(Ic[firstind:] * 1000, self.icc_sign * Vce[firstind:]*1000, label=t)
         pp.xlabel("Ic [mA]")
         pp.ylabel("VCE sat [mV]")
         pp.grid()
@@ -570,8 +569,13 @@ class modelBipolar(modelTransistor):
         pp.savefig(os.path.join(dir, "vce_saturation_voltage.png"),dpi=80)
         pp.close()
 
-        for t,m in mm:
-            pp.semilogx(-m[:,1]*1000, self.icc_sign * m[:,2]*1000,label=t)
+        for n, pl in enumerate(plots):
+            t = {0: '0 C', 1: '25 C', 2: '50 C', 3: '75 C', 4: '100 C'}[n]
+            Ib = pl.get_scalevector().get_data()
+            Ic = -pl.get_datavector(0).get_data()
+            Vbe = pl.get_datavector(1).get_data()
+            Vce = pl.get_datavector(2).get_data()
+            pp.semilogx(Ic * 1000, self.icc_sign * Vbe * 1000, label = t)
         pp.xlabel("Ic [mA]")
         pp.ylabel("V BE sat [mV]")
         pp.grid()
@@ -583,21 +587,28 @@ class modelBipolar(modelTransistor):
         """Returns a list of lines that form the simulator command"""
         if sim_family == 'ngspice':
             raise SimulatorError
+#            return ['.include dc_current.net',
+#                '.control',
+#                'foreach t 0 25 50 75 100',
+#                '  set temp = $t',
+#                '  dc i1 -1m -10n *0.8'
+#                'end'
+#                'write dc_current_gain.data dc1'
         elif sim_family == 'gnucap':
             return ['.get dc_current_gain.net',
-                '.pr dc I(V1) I(I1) V(in)',
-                '.dc i1 -1m -10n *0.8 temperature=0 >dc_current_gain_t0.data',
-                '.dc i1 -1m -10n *0.8 temperature=25 >dc_current_gain_t25.data',
-                '.dc i1 -1m -10n *0.8 temperature=50 >dc_current_gain_t50.data',
-                '.dc i1 -1m -10n *0.8 temperature=75 >dc_current_gain_t75.data',
-                '.dc i1 -1m -10n *0.8 temperature=100 >dc_current_gain_t100.data',
+                '.pr dc I(V1) V(in)',
+                '.dc i1 -1m -10n *0.8 temp=0 > dc_current_gain.data',
+                '.dc i1 -1m -10n *0.8 temp=25 >> dc_current_gain.data',
+                '.dc i1 -1m -10n *0.8 temp=50 >> dc_current_gain.data',
+                '.dc i1 -1m -10n *0.8 temp=75 >> dc_current_gain.data',
+                '.dc i1 -1m -10n *0.8 temp=100 >> dc_current_gain.data',
                 '.get saturation_voltages.net',
                 '.pr dc I(V1) V(in) V(out)',
-                '.dc i1 -50m -10n *0.8 temperature=0 >saturation_voltages_t0.data',
-                '.dc i1 -50m -10n *0.8 temperature=25 >saturation_voltages_t25.data',
-                '.dc i1 -50m -10n *0.8 temperature=50 >saturation_voltages_t50.data',
-                '.dc i1 -50m -10n *0.8 temperature=75 >saturation_voltages_t75.data',
-                '.dc i1 -50m -10n *0.8 temperature=100 >saturation_voltages_t100.data']
+                '.dc i1 -50m -10n *0.8 temp=0 > saturation_voltages.data',
+                '.dc i1 -50m -10n *0.8 temp=25 >> saturation_voltages.data',
+                '.dc i1 -50m -10n *0.8 temp=50 >> saturation_voltages.data',
+                '.dc i1 -50m -10n *0.8 temp=75 >> saturation_voltages.data',
+                '.dc i1 -50m -10n *0.8 temp=100 >> saturation_voltages.data']
         else:
             raise SimulatorError
 
