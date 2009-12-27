@@ -12910,6 +12910,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PH2369_4.pdf
 description=NPN switching transistor
 test_refdes=X1
+model_status_undefined=ngspice_19 #this model hangs ngspice
 model_status_good=gnucap_0.35
 
 

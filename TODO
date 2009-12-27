@@ -9,6 +9,8 @@
  * more automated model tests
  * finaly a GUI for testlibrary
  * Implement time limit on simulators that kills hung simulators
+ * Figure out how to make ngspice to logarithmic DC sweeps
+    eg for bipolar transistor tests
 
  * Scons tasks
  [*]Parts that have no tests should generate an output file so they don't get 
@@ -18,5 +20,3 @@
  [ ]Every vendor should have its own subdirectory
  [ ]remove unneeded parts of testlibrary.py
  [*]cleanup SConstruct
- [ ]Use pickle or database for checksums, so an individual file's checksum can
-    be overridden by scons
