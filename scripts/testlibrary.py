@@ -257,7 +257,8 @@ class modelpartBase(object):
         sim_status_columns = ""
         for sim in SIMULATORS:
             testdir = os.path.join(self.testdir, SIMULATORS[sim]['folder'])
-            if os.path.exists(os.path.join(testdir, 'index.html')):
+            if os.path.exists(os.path.join(testdir, 'index.html')) and \
+                    sim in self.test_status:
                 status = self.test_status[sim]
                 test_repl = {'model_test_color': COLORS[status]}
                 test_repl['model_test'] = '<a href="%s">%s</a>' % \
@@ -586,14 +587,22 @@ class modelBipolar(modelTransistor):
     def simulate_cmd_lines(self, sim_family):
         """Returns a list of lines that form the simulator command"""
         if sim_family == 'ngspice':
-            raise SimulatorError
-#            return ['.include dc_current.net',
-#                '.control',
-#                'foreach t 0 25 50 75 100',
-#                '  set temp = $t',
-#                '  dc i1 -1m -10n *0.8'
-#                'end'
-#                'write dc_current_gain.data dc1'
+            return [ '.include dc_current_gain.net',
+                '.control',
+                'foreach t 0 25 50 75 100',
+                '  set temp = $t',
+                '  dc i1 -1m -10n 1u',
+                'end',
+                'write dc_current_gain.data dc1.I(V1) dc1.V(in) dc2.I(V1) dc2.V(in) dc3.I(V1) dc3.V(in) dc4.I(V1) dc4.V(in) dc5.I(V1) dc5.V(in)',
+                '.endc',
+                '.control',
+                'source saturation_voltages.net',
+                'foreach t 0 25 50 75 100',
+                '  set temp = $t',
+                '  dc i1 -50m -10n 1u',
+                'end',
+                'write saturation_voltages.data dc6.I(V1) dc6.V(in) dc6.V(out) dc7.I(V1) dc7.V(in) dc7.V(out) dc8.I(V1) dc8.V(in) dc8.V(out) dc9.I(V1) dc9.V(in) dc9.V(out) dc10.I(V1) dc10.V(in) dc10.V(out)',
+                '.endc']
         elif sim_family == 'gnucap':
             return ['.get dc_current_gain.net',
                 '.pr dc I(V1) V(in)',
@@ -615,22 +624,42 @@ class modelBipolar(modelTransistor):
 
 class modelDarlington(modelBipolar):
     VCEsat_plot_limit = 2.0  #amps
-    def simulate_cmd_lines(self, simulator):
+    def simulate_cmd_lines(self, sim_family):
         """Returns a list of lines that form the simulator command"""
-        return ['.get dc_current_gain.net',
-                '.pr dc I(V1) I(I1) V(in)',
-                '.dc i1 -10u -100p *0.8 temperature=0 >dc_current_gain_t0.data',
-                '.dc i1 -10u -100p *0.8 temperature=25 >dc_current_gain_t25.data',
-                '.dc i1 -10u -100p *0.8 temperature=50 >dc_current_gain_t50.data',
-                '.dc i1 -10u -100p *0.8 temperature=75 >dc_current_gain_t75.data',
-                '.dc i1 -10u -100p *0.8 temperature=100 >dc_current_gain_t100.data',
+        if sim_family == 'ngspice':
+            return ['.include dc_current_gain.net',
+                '.control',
+                'foreach t 0 25 50 75 100',
+                '  set temp = $t',
+                '  dc i1 -10u -100p 10n',
+                'end',
+                'write dc_current_gain.data dc1.I(V1) dc1.V(in) dc2.I(V1) dc2.V(in) dc3.I(V1) dc3.V(in) dc4.I(V1) dc4.V(in) dc5.I(V1) dc5.V(in)',
+                '.endc',
+                '.control',
+                'source saturation_voltages.net',
+                'foreach t 0 25 50 75 100',
+                '  set temp = $t',
+                '  dc i1 -2m -500p 2e-6',
+                'end',
+                'write saturation_voltages.data dc6.I(V1) dc6.V(in) dc6.V(out) dc7.I(V1) dc7.V(in) dc7.V(out) dc8.I(V1) dc8.V(in) dc8.V(out) dc9.I(V1) dc9.V(in) dc9.V(out) dc10.I(V1) dc10.V(in) dc10.V(out)',
+                '.endc']
+        elif sim_family == 'gnucap':
+            return ['.get dc_current_gain.net',
+                '.pr dc I(V1) V(in)',
+                '.dc i1 -10u -100p *0.8 temp=0 > dc_current_gain.data',
+                '.dc i1 -10u -100p *0.8 temp=25 >> dc_current_gain.data',
+                '.dc i1 -10u -100p *0.8 temp=50 >> dc_current_gain.data',
+                '.dc i1 -10u -100p *0.8 temp=75 >> dc_current_gain.data',
+                '.dc i1 -10u -100p *0.8 temp=100 >> dc_current_gain.data',
                 '.get saturation_voltages.net',
                 '.pr dc I(V1) V(in) V(out)',
-                '.dc i1 -2m -500p *0.8 temperature=0 >saturation_voltages_t0.data',
-                '.dc i1 -2m -500p *0.8 temperature=25 >saturation_voltages_t25.data',
-                '.dc i1 -2m -500p *0.8 temperature=50 >saturation_voltages_t50.data',
-                '.dc i1 -2m -500p *0.8 temperature=75 >saturation_voltages_t75.data',
-                '.dc i1 -2m -500p *0.8 temperature=100 >saturation_voltages_t100.data']
+                '.dc i1 -2m -500p *0.8 temp=0 > saturation_voltages.data',
+                '.dc i1 -2m -500p *0.8 temp=25 >> saturation_voltages.data',
+                '.dc i1 -2m -500p *0.8 temp=50 >> saturation_voltages.data',
+                '.dc i1 -2m -500p *0.8 temp=75 >> saturation_voltages.data',
+                '.dc i1 -2m -500p *0.8 temp=100 >> saturation_voltages.data']
+        else:
+            raise SimulatorError
 
 class modelNPNBipolar(modelBipolar):
     VCEsat_plot_limit = 1.0  #amps
@@ -667,34 +696,33 @@ class modelResistorEquippedTransistor(modelBipolar):
     def plot_dc_current(self, dir, longmsg):
         ret = 0
         pp = plotter()
-        mm=[]
+        plots = spice_read.auto_read(os.path.join(dir, "dc_current.data")
+                ).get_plots()
 
-        mm.append(("0 C", load(os.path.join(dir, "dc_current_t0.data"))))
-        mm.append(("25 C",load(os.path.join(dir, "dc_current_t25.data"))))
-        mm.append(("50 C",load(os.path.join(dir, "dc_current_t50.data"))))
-        mm.append(("75 C",load(os.path.join(dir, "dc_current_t75.data"))))
-        mm.append(("100 C",load(os.path.join(dir, "dc_current_t100.data"))))
-
-        for t,m in mm:
-            Uin = m[:,0]
-            Iin = -m[:,1]
-            if not self.base_current_ok(Uin, Iin, longmsg):
+        for n, pl in enumerate(plots):
+            t = {0: '0 C', 1: '25 C', 2: '50 C', 3: '75 C', 4: '100 C'}[n]
+            Vbe  = pl.get_scalevector().get_data()
+            Ib = -pl.get_datavector(0).get_data()
+            if not self.base_current_ok(Vbe, Ib, longmsg):
                 ret = 1
-            pp.plot(Uin, Iin * 1000,label=t)
-        pp.xlabel("Uin [V]")
+            pp.plot(Vbe, Ib * 1000, label=t)
+
+        pp.xlabel("Vin [V]")
         pp.ylabel("IB [mA]")
         pp.grid()
         pp.legend(loc="best")
         pp.savefig(os.path.join(dir, "dc_IB.png"), dpi=80)
         pp.close()
 
-        for t,m in mm:
-            Uin = m[:,0]
-            Ic = -m[:,2]
-            if not self.collector_current_ok(Uin, Ic, longmsg):
+        for n, pl in enumerate(plots):
+            t = {0: '0 C', 1: '25 C', 2: '50 C', 3: '75 C', 4: '100 C'}[n]
+            Vbe  = pl.get_scalevector().get_data()
+            Ib = pl.get_datavector(0).get_data()
+            Ic = -pl.get_datavector(1).get_data()
+            if not self.collector_current_ok(Vbe, Ic, longmsg):
                 ret = 1
-            pp.plot(Uin, Ic * 1000,label=t)
-        pp.xlabel("Uin [V]")
+            pp.plot(Vbe, Ic * 1000,label=t)
+        pp.xlabel("Vin [V]")
         pp.ylabel("IC [mA]")
         pp.grid()
         pp.legend(loc='best')
@@ -702,14 +730,26 @@ class modelResistorEquippedTransistor(modelBipolar):
         pp.close()
         return ret
 
-    def simulate_cmd_lines(self, simulator):
-        return ['.get dc_current.net',
-                '.pr dc I(V1) I(V2) V(in)',
-                '.dc v1 0 5 0.1 temperature=0 >dc_current_t0.data',
-                '.dc v1 0 5 0.1 temperature=25 >dc_current_t25.data',
-                '.dc v1 0 5 0.1 temperature=50 >dc_current_t50.data',
-                '.dc v1 0 5 0.1 temperature=75 >dc_current_t75.data',
-                '.dc v1 0 5 0.1 temperature=100 >dc_current_t100.data']
+    def simulate_cmd_lines(self, sim_family):
+        if sim_family == 'ngspice':
+            return ['.include dc_current.net',
+                '.control',
+                'foreach t 0 25 50 75 100',
+                '  set temp = $t',
+                '  dc v1 0 5 0.1',
+                'end',
+                'write dc_current.data dc1.I(V1) dc1.I(V2) dc2.I(V1) dc2.I(V2) dc3.I(V1) dc3.I(V2) dc4.I(V1) dc4.I(V2) dc5.I(V1) dc5.I(V2)',
+                '.endc', ]
+        elif sim_family == 'gnucap':
+            return ['.get dc_current.net',
+                '.pr dc I(V1) I(V2)',
+                '.dc v1 0 5 0.1 temp=0 > dc_current.data',
+                '.dc v1 0 5 0.1 temp=25 >> dc_current.data',
+                '.dc v1 0 5 0.1 temp=50 >> dc_current.data',
+                '.dc v1 0 5 0.1 temp=75 >> dc_current.data',
+                '.dc v1 0 5 0.1 temp=100 >> dc_current.data', ]
+        else:
+            raise SimulatorError
 
 
 class modelPNPRbase(modelResistorEquippedTransistor):
