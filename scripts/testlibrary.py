@@ -555,7 +555,6 @@ class modelBipolar(modelTransistor):
 
         for n, pl in enumerate(plots):
             t = {0: '0 C', 1: '25 C', 2: '50 C', 3: '75 C', 4: '100 C'}[n]
-            Ib = pl.get_scalevector().get_data()
             Ic = -pl.get_datavector(0).get_data()
             Vbe = pl.get_datavector(1).get_data()
             Vce = pl.get_datavector(2).get_data()
@@ -572,7 +571,6 @@ class modelBipolar(modelTransistor):
 
         for n, pl in enumerate(plots):
             t = {0: '0 C', 1: '25 C', 2: '50 C', 3: '75 C', 4: '100 C'}[n]
-            Ib = pl.get_scalevector().get_data()
             Ic = -pl.get_datavector(0).get_data()
             Vbe = pl.get_datavector(1).get_data()
             Vce = pl.get_datavector(2).get_data()
@@ -599,9 +597,9 @@ class modelBipolar(modelTransistor):
                 'source saturation_voltages.net',
                 'foreach t 0 25 50 75 100',
                 '  set temp = $t',
-                '  dc i1 -50m -10n 1u',
+                '  dc V2 0.45 1.0 0.05',
                 'end',
-                'write saturation_voltages.data dc6.I(V1) dc6.V(in) dc6.V(out) dc7.I(V1) dc7.V(in) dc7.V(out) dc8.I(V1) dc8.V(in) dc8.V(out) dc9.I(V1) dc9.V(in) dc9.V(out) dc10.I(V1) dc10.V(in) dc10.V(out)',
+                'write saturation_voltages.data dc6.I(V1) dc6.V(in) dc6.V(out)  dc7.I(V1) dc7.V(in) dc7.V(out)  dc8.I(V1) dc8.V(in) dc8.V(out)  dc9.I(V1) dc9.V(in) dc9.V(out)  dc10.I(V1) dc10.V(in) dc10.V(out)',
                 '.endc']
         elif sim_family == 'gnucap':
             return ['.get dc_current_gain.net',
@@ -613,11 +611,11 @@ class modelBipolar(modelTransistor):
                 '.dc i1 -1m -10n *0.8 temp=100 >> dc_current_gain.data',
                 '.get saturation_voltages.net',
                 '.pr dc I(V1) V(in) V(out)',
-                '.dc i1 -50m -10n *0.8 temp=0 > saturation_voltages.data',
-                '.dc i1 -50m -10n *0.8 temp=25 >> saturation_voltages.data',
-                '.dc i1 -50m -10n *0.8 temp=50 >> saturation_voltages.data',
-                '.dc i1 -50m -10n *0.8 temp=75 >> saturation_voltages.data',
-                '.dc i1 -50m -10n *0.8 temp=100 >> saturation_voltages.data']
+                '.dc V2 0.45 1.0 by 0.05 temp=0 > saturation_voltages.data',
+                '.dc V2 0.45 1.0 by 0.05 temp=25 >> saturation_voltages.data',
+                '.dc V2 0.45 1.0 by 0.05 temp=50 >> saturation_voltages.data',
+                '.dc V2 0.45 1.0 by 0.05 temp=75 >> saturation_voltages.data',
+                '.dc V2 0.45 1.0 by 0.05 temp=100 >> saturation_voltages.data']
         else:
             raise SimulatorError
 
@@ -639,7 +637,7 @@ class modelDarlington(modelBipolar):
                 'source saturation_voltages.net',
                 'foreach t 0 25 50 75 100',
                 '  set temp = $t',
-                '  dc i1 -2m -500p 2e-6',
+                '  dc V2 0.9 2.0 0.1',
                 'end',
                 'write saturation_voltages.data dc6.I(V1) dc6.V(in) dc6.V(out) dc7.I(V1) dc7.V(in) dc7.V(out) dc8.I(V1) dc8.V(in) dc8.V(out) dc9.I(V1) dc9.V(in) dc9.V(out) dc10.I(V1) dc10.V(in) dc10.V(out)',
                 '.endc']
@@ -653,11 +651,11 @@ class modelDarlington(modelBipolar):
                 '.dc i1 -10u -100p *0.8 temp=100 >> dc_current_gain.data',
                 '.get saturation_voltages.net',
                 '.pr dc I(V1) V(in) V(out)',
-                '.dc i1 -2m -500p *0.8 temp=0 > saturation_voltages.data',
-                '.dc i1 -2m -500p *0.8 temp=25 >> saturation_voltages.data',
-                '.dc i1 -2m -500p *0.8 temp=50 >> saturation_voltages.data',
-                '.dc i1 -2m -500p *0.8 temp=75 >> saturation_voltages.data',
-                '.dc i1 -2m -500p *0.8 temp=100 >> saturation_voltages.data']
+                '.dc V2 0.9 2.0 by 0.1 temp=0 > saturation_voltages.data',
+                '.dc V2 0.9 2.0 by 0.1 temp=25 >> saturation_voltages.data',
+                '.dc V2 0.9 2.0 by 0.1 temp=50 >> saturation_voltages.data',
+                '.dc V2 0.9 2.0 by 0.1 temp=75 >> saturation_voltages.data',
+                '.dc V2 0.9 2.0 by 0.1 temp=100 >> saturation_voltages.data']
         else:
             raise SimulatorError
 

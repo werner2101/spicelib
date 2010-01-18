@@ -1,4 +1,4 @@
-v 20070818 1
+v 20081231 1
 C 40000 40000 0 0 0 title-B.sym
 C 50200 45600 1 0 0 vdc-1.sym
 {
@@ -10,17 +10,6 @@ T 50900 46650 5 10 0 0 0 0 1
 footprint=none
 T 50900 46050 5 10 1 1 0 0 1
 value=DC 5V
-}
-C 46200 45900 1 0 0 idc-1.sym
-{
-T 46900 46550 5 10 1 1 0 0 1
-refdes=I1
-T 46900 46750 5 10 0 0 0 0 1
-device=CURRENT_SOURCE
-T 46900 46950 5 10 0 0 0 0 1
-footprint=none
-T 46900 46350 5 10 1 1 0 0 1
-value=DC 1uA
 }
 C 49700 46800 1 0 0 gnd-1.sym
 N 46500 47100 50500 47100 4
@@ -56,4 +45,15 @@ C 48200 46100 1 0 0 $partname
 {
 T 48900 46750 5 10 1 1 0 0 1
 refdes=$test_refdes
+}
+C 46800 45900 1 0 1 vdc-1.sym
+{
+T 46100 46550 5 10 1 1 0 6 1
+refdes=V2
+T 46100 46750 5 10 0 0 0 6 1
+device=VOLTAGE_SOURCE
+T 46100 46950 5 10 0 0 0 6 1
+footprint=none
+T 46100 46350 5 10 1 1 0 6 1
+value=DC 1.3V
 }
