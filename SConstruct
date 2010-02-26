@@ -331,7 +331,7 @@ class NationalSemiconductor(Vendor):
             """
             wget -N -P `dirname %(file)s` %(url)s
             md5sum %(file)s > %(csfile)s
-            wget -N -P %(ddir)s `awk -F '"' '/href.*javascript.*href.*\.MOD/ {print $6; next} /href.*\.MOD/ {print $4}' %(file)s | sort | uniq`
+            wget -N -P %(ddir)s `grep -o 'http://www.national.com/models/spice[^"]*\.MOD' %(file)s | sort | uniq`
             """ % {'ddir' : os.path.join(basedir, 'opamps'),
                 'file': file, 'url': url, 'csfile': csfile})
         return node

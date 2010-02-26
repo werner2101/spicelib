@@ -1,6 +1,5 @@
 
  * base path for model library
- * ngspice and gnucap tests (combined or selectable)
  * create some mos symbols 
  * get some mos models
  * get more models
@@ -9,8 +8,6 @@
  * more automated model tests
  * finaly a GUI for testlibrary
  * Implement time limit on simulators that kills hung simulators
- * Figure out how to make ngspice to logarithmic DC sweeps
-    eg for bipolar transistor tests
 
  * Scons tasks
  [*]Parts that have no tests should generate an output file so they don't get 
