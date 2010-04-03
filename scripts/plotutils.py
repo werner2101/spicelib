@@ -86,7 +86,15 @@ class gnuplot_wrapper(plot_wrapper_base):
         self.g('set grid')
     
     def close(self):
-        self.dataset = [[]]
+        #XXX We should empty the dataset here, as shown below.
+        #However, Gnuplot.plot returns before the plotting is complete,
+        #creating a race condition.  If we delete the dataset here, it leads
+        #to plotting errors because Gnuplot's data dissappears before it
+        #can be used.  So we do nothing.  This means that this object
+        #cannot be reused, and it is a memory leak, but the cyclic garbage
+        #collector should be able to handle that.
+        #self.dataset = [[]]
+        pass
 
     def xlabel(self, label):
         self.xlabels[self._mplot_idx()] = label
