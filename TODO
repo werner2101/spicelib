@@ -8,6 +8,7 @@
  * more automated model tests
  * finaly a GUI for testlibrary
  * Implement time limit on simulators that kills hung simulators
+ * Make numpy a dependency of testing but not downloading or creating
 
  * Scons tasks
  [*]Parts that have no tests should generate an output file so they don't get 
