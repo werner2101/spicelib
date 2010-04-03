@@ -63,6 +63,11 @@ def html_index(target, source, env):
 bld = Builder(action = html_index)
 env.Append(BUILDERS = {'HtmlIndex': bld})
 
+def fixup_model(target, source, env):
+    read = fixups.read(source[0])
+    fixups.write(target[0], reduce(lambda x, y: y(x), env['flist'], read))
+bld = Builder(action = fixup_model)
+env.Append(BUILDERS = {'Fixup': bld})
 
 #Make necessary directories
 if not os.path.isdir(MODEL_SIGDIR):
@@ -134,10 +139,7 @@ class Vendor(object):
                 if flist != None and model not in targets:
                     source = os.path.join(root, model)
                     target = os.path.join(create_dir, model)
-                    def builder(target, source, env):
-                        read = fixups.read(source[0])
-                        fixups.write(target[0], reduce(lambda x, y: y(x), env['flist'], read))
-                    node = env.Command(target, source, builder, flist=flist)
+                    node = env.Fixup(target, source, flist=flist)
                     targets.add(model)
                     if patch != None:
                         AddPostAction(target, 'patch -d %s -p1 < %s' % (create_dir, os.path.join(PATCHDIR, patch)))
