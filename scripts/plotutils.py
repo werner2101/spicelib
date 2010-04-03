@@ -8,6 +8,7 @@ from spicelibconf import *
 
 if PLOTTER == 'gnuplot':
     import Gnuplot
+    Gnuplot.GnuplotOpts.default_term = "png"
 else:
     import matplotlib.pyplot
 

@@ -21,7 +21,7 @@ import numpy
 import string
 import sys
 
-class spice_vector():
+class spice_vector(object):
     """
     Contains a single spice vector with it's data and it's attributes.
     The vector is numpy.array, either real or complex.
@@ -63,7 +63,7 @@ class spice_vector():
         return self.data
     
 
-class spice_plot():
+class spice_plot(object):
     """
     This class holds a single spice plot
     It contains one scale vector and a list of several data vectors.
@@ -147,7 +147,7 @@ class spice_plot():
         return self.data_vectors
 
 
-class spice_read():
+class spice_read(object):
     """
     This class is reads a spice data file and returns a list of spice_plot
     objects.
