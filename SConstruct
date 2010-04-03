@@ -134,12 +134,10 @@ class Vendor(object):
                 if flist != None and model not in targets:
                     source = os.path.join(root, model)
                     target = os.path.join(create_dir, model)
-                    envtemp = env.Clone()
-                    envtemp.flist = flist
                     def builder(target, source, env):
                         read = fixups.read(source[0])
-                        fixups.write(target[0], reduce(lambda x, y: y(x), env.flist, read))
-                    node = envtemp.Command(target, source, builder)
+                        fixups.write(target[0], reduce(lambda x, y: y(x), env['flist'], read))
+                    node = env.Command(target, source, builder, flist=flist)
                     targets.add(model)
                     if patch != None:
                         AddPostAction(target, 'patch -d %s -p1 < %s' % (create_dir, os.path.join(PATCHDIR, patch)))
