@@ -47,8 +47,8 @@ def test_single(target, source, env):
     #source should be all dependent files
     #env.library should be a testlibrary.modellibrary
     #env.partid should be the section from the index file eg LM741_LM0001
-    partid = env.partid
-    env.library.test_single(partid)
+    partid = env['partid']
+    env['library'].test_single(partid)
     return None
 bld = Builder(action = test_single)
 env.Append(BUILDERS = {'TestSingle': bld})
@@ -164,10 +164,7 @@ class Vendor(object):
                 os.path.join(MODEL_LIBDIR, self.abbrev, section, file)]
             dir_ = os.path.join(TESTDIR, self.abbrev, section, partid)
             target = os.path.join(dir_, 'status.htm')
-            tempenv = env.Clone()
-            tempenv.partid = partid
-            tempenv.library = library
-            nodes.append(tempenv.TestSingle(target, sources))
+            nodes.append(env.TestSingle(target, sources, partid=partid, library=library))
         setattr(self, 'test_' + section, 
                 env.Alias(''.join(['test_', self.abbrev, '_', section]), nodes))
         return nodes
