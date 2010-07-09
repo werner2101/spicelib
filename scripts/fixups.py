@@ -2,18 +2,20 @@
 # vim: ts=4 :
 # vim: sw=4 :
 
-#Contains various functions for fixing spice files
-#replaces the old replace_string.py and fix_*.py
+"""
+Contains various functions for fixing spice files.
+All fixup functions are writen as generators that take
+a generator. Thus many fixups can be chained together.
 
+The read function acts as the first generator and the write function
+is the final collector that eats a generator.
 
-#usage: open a file with read
-#chain any number of fixups in a row
-#write a file with write
-#example
-#write('output.MOD', 
-#   name_has_slash(
-#       replace_string('old', 'new', 
-#           read('input.MOD'))))
+Example:
+  write('output.MOD', 
+     name_has_slash(
+         replace_string('old', 'new', 
+             read('input.MOD'))))
+"""
 
 import re
 import os
@@ -26,14 +28,17 @@ def read(filename):
 
 
 def write(filename, gen):
+    """Write all lines from the generator into a file"""
     f = open(str(filename), 'w')
     for line in gen:
         f.write(line)
 
 
 def trailing_newline(gen):
-    # add a headline with asterisk if missing
-    # add trailing newline if missing
+    """
+    add a headline with asterisk if missing
+    add trailing newline if missing
+    """
     try:
         first_line = gen.next()
         if first_line[0] != '*':
@@ -56,13 +61,13 @@ def trailing_newline(gen):
 
 
 def ascii_032(gen):
-    #Removes the unprintable ASCII \032 character
+    """Removes the unprintable ASCII \032 character"""
     for line in gen:
         yield line.replace('\032', '')
 
 
 def misplaced_ends(gen):
-    #Removes excessive .ENDS statements
+    """Removes excessive .ENDS statements"""
     SUBCKT_PAT = '^(\s*\.SUBCKT\s+)'
     ENDS_PAT = '^(\s*\.ENDS)'
     subckt_levels = 0
@@ -80,9 +85,11 @@ def misplaced_ends(gen):
 
 
 def ends_without_subcircuit(gen):
-    # some models have a .ENDS statement even if there is no
-    # subcircuit definition.
-    # comment out the wrong .ENDS statement
+    """
+    some models have a .ENDS statement even if there is no
+    subcircuit definition.
+    comment out the wrong .ENDS statement
+    """
     in_subckt = False
     for line in gen:
         if line[0] != '*':  #skip comment lines
@@ -96,7 +103,7 @@ def ends_without_subcircuit(gen):
 
  
 def name_has_slash(gen):
-    #removes a slash in the subcircuit's name, if present
+    """removes a slash in the subcircuit's name, if present"""
     SUBCKT_PAT = '^(\s*\.SUBCKT\s+)(\w+)/NS'
     for line in gen:
         match = re.search(SUBCKT_PAT, line)
@@ -108,16 +115,20 @@ def name_has_slash(gen):
             yield line
 
 def replace_string(query, repl, gen):
-    #Replaces all occurences of query with repl
-    #query may NOT include a newline
+    """
+    Replaces all occurences of query with repl
+    query may NOT include a newline
+    """
     for line in gen:
         line = line.replace(query, repl)
         yield line
 
 def bzx_pin_renumber(gen):
-    #Some NXP diodes come in 3 pin packages, with 1 NC pin.
-    #Most of the models model a 2-pin part, but some model 3-pin parts
-    #Change the 3-pin models into 2-pin models
+    """
+    Some NXP diodes come in 3 pin packages, with 1 NC pin.
+    Most of the models model a 2-pin part, but some model 3-pin parts
+    Change the 3-pin models into 2-pin models
+    """
     SUBCKT_PAT = '^(\s*\.SUBCKT\s+\w+)( \w+ \w+ \w+)(.*)$'
     DIODE_PAT = '^(\s*\w+\s+)(\w+\s+\w+)(\s*.*)$'
     threepins = False
@@ -133,8 +144,10 @@ def bzx_pin_renumber(gen):
         yield line
         
 def rename_RES_and_CAP(gen):
-    #Some National files include '.MODEL .* RES' or '.MODEL .* CAP'
-    #models.  But ngspice only recongizes 'R' and 'C', not 'RES' and 'CAP'
+    """
+    Some National files include '.MODEL .* RES' or '.MODEL .* CAP'
+    models.  But ngspice only recongizes 'R' and 'C', not 'RES' and 'CAP'
+    """
     RES_PAT = '^(\s*\.MODEL\s+\w+\s+)RES(.*$)'   
     CAP_PAT = '^(\s*\.MODEL\s+\w+\s+)CAP(.*$)'   
     for line in gen:
@@ -147,8 +160,10 @@ def rename_RES_and_CAP(gen):
         yield line
 
 def comma_lambda(gen):
-    #For some unknown reason, ngspice doesn't like to see a comma before a
-    #lambda parameter in NMOS and PMOS models
+    """
+    For some unknown reason, ngspice doesn't like to see a comma before a
+    lambda parameter in NMOS and PMOS models
+    """
     PAT="(^\s*\.MODEL.*),LAMBDA=(.*$)"
     for line in gen:
         match = re.match(PAT, line, re.I)
