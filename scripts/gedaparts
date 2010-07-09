@@ -59,13 +59,14 @@ def log(x):
     open("gedaparts.log","at").write(str(x) + "\n")
 
 def usage():
-    print "usage: " +  sys.argv[0] + """ [options], ...
+    sys.stderr.write("usage: " +  sys.argv[0] + """ [options], ...
   -h --help: print help information
   -v --verbose: print debug messages to stderr
   -s --symbols library [library, ...]: dump symbol files to a directory
   -d --symboldir dirname: set destination dir for the symbols
   -l --list library: list symbol of one library file
-  -p --part library part: get a single part of a library"""
+  -p --part library part: get a single part of a library
+  """)
 
 
 #################### MAIN
@@ -102,6 +103,10 @@ for o, a in opts:
     elif o in ("-p", "--part"):
         printpart = True
         libraryfile = a
+        if len(args) != 1:
+            sys.stderr.write('Error: No partname given\n')
+            usage()
+            sys.exit(2)
         symbolfile = args[0]
     else:
         assert False, "unhandled option"
