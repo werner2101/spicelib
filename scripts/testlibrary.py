@@ -11,7 +11,7 @@ import numpy
 import md5          ##Do not use hashlib.md5 as RedHat is stuck on python 2.4
 
 import spice_read
-from plotutils import load, plotter
+from plotutils import plotter
 
 from spicelibconf import *
 
@@ -20,7 +20,6 @@ TEMPLATE_FILE = "testcircuits/index_template.html"
 BASE_DIR = os.path.join(os.path.dirname(__file__), '../')
 
 #################### GLOBAL DEFINITIONS
-
 ROW_TEMPLATES = {
         'base': """
 <tr><td rowspan="2">$partname</td>
@@ -582,6 +581,7 @@ class modelBipolar(modelTransistor):
         pp.savefig(os.path.join(dir, "vbe_saturation_voltage.png"),dpi=80)
         pp.close()
         return 0
+
     def simulate_cmd_lines(self, sim_family):
         """Returns a list of lines that form the simulator command"""
         if sim_family == 'ngspice':
@@ -789,6 +789,7 @@ class modelOpamp(modelpartBase):
     section = 'opamp'
     plot_methods = ['plot_dc_amplifier', 'plot_ac_amplifier']
     simulator = 'ngspice'
+
     def plot_ac_amplifier(self, dir, longmsg):
         ret = 0
         pp = plotter()
@@ -799,7 +800,6 @@ class modelOpamp(modelpartBase):
         vin = plots[0].get_datavectors()[0].get_data()
         vout = plots[0].get_datavectors()[1].get_data()
         
-        pp.multiplot(2, 1)
         pp.subplot(2,1,1)
         pp.loglog(x, numpy.abs(vout / vin), label="magnitude v(out)")
         pp.xlabel("Frequency [Hz]")
@@ -814,6 +814,7 @@ class modelOpamp(modelpartBase):
         pp.savefig(os.path.join(dir, "ac_amplifier.png"), dpi=80)
         pp.close()
         return ret
+
     def plot_dc_amplifier(self, dir, longmsg):
         ret = 0
         pp = plotter()
@@ -836,6 +837,7 @@ class modelOpamp(modelpartBase):
         pp.savefig(os.path.join(dir, "dc_amplifier.png"), dpi=80)
         pp.close()
         return ret
+
     def simulate_cmd_lines(self, sim_family):
         """Returns a list of lines that form the simulator command"""
         vsupply = self.vsupply() / 2.
@@ -866,6 +868,7 @@ class modelOpamp(modelpartBase):
                     '.ac DEC 25 10 1000000000 > ac_amplifier.data']
         else:
             raise SimulatorError
+
     def voltage_ok(self, vin, vout, longmsg):
         success = True
         vs = self.vsupply() / 2.
@@ -901,6 +904,7 @@ class modelComparator(modelOpamp):
     section = 'comparator'
     plot_methods = ['plot_transient']
     simulator='ngspice'
+
     def plot_transient(self, dir, longmsg):
         ret = 0
         pp = plotter()
@@ -1157,7 +1161,6 @@ if __name__ == "__main__":
             status = a
         if o in ("-c", "--checksum"):
             checksum = a
-
 
     if mode == "undefined":
         usage()
