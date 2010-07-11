@@ -28,7 +28,6 @@ import re
 
 sys.path.append('scripts')
 import testlibrary
-import fix_name_has_slash
 import fixups
 
 TEMPDIR='unpack'

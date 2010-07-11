@@ -1,7 +1,7 @@
-#! /usr/bin/python
+#!/usr/bin/python
 
-PLOTTER='matplotlib'
-#PLOTTER='gnuplot'
+#PLOTTER='matplotlib'
+PLOTTER='gnuplot'
 
 # The format of simulators is a dict of dictionaries.
 # The keys are the simulator identification's name. This is a unique
@@ -15,10 +15,10 @@ PLOTTER='matplotlib'
 # The folder value defines the storage of the result files
 # e.g. [PARTNAME]/[folder]/index.html
 SIMULATORS = {
-    'ngspice_19': {'simulator':'ngspice',
+    'ngspice_21': {'simulator':'ngspice',
                    'command': 'ngspice',
                    'options': '-r X -b',  ## -r X suppresses the "no plot" error
-                   'folder': 'ng19'},
+                   'folder': 'ng21'},
     'gnucap_0.35': {'simulator':'gnucap',
                     'command': '/usr/bin/gnucap',
                     'options': '-b',
