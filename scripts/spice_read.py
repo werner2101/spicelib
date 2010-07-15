@@ -313,41 +313,57 @@ class gnucap_read(spice_read):
     __format = 'gnucap'
     __filemode = 'r'
     __toksep = None
+    vartype = {'F': 'frequency', 'V': 'voltage', 'I': 'current'}
+
     def readfile(self, filename):
         f = open(filename, self.__filemode)
         self.plots = []
-        while True:
-            line = f.readline()
-            if line == "":
-              return
-            tokens = [t.strip() for t in line.split()]
-            ivarname = tokens[0][1:]
-            if ivarname == '':
-              ivarname = 'U'
-            dvarnames = tokens[1:]
-            nvars = 1 + len(dvarnames)
-            vartype = {'F': 'frequency', 'V': 'voltage', 'I': 'current', 
-                'U': 'unknown'}
-            for d in [ivarname] + dvarnames:
-              self.vectors.append(spice_vector(name=d, type=vartype[d[0]]))
-            #Now read the data
-            A = numpy.fromfile(f, sep=' ')
-            A.resize(len(A) / nvars, nvars)
-            for i in range(nvars):
-              self.vectors[i].set_data(A[:, i])
-            self.current_plot.set_scalevector(self.vectors[0])
-            if dvarnames[0][0:2] == 'Vr' and dvarnames[1][0:2] == 'Vi':
-                #Complex-valued data detected
-                for i in range(0, len(dvarnames), 2):
-                    self.vectors[i+1].set_data(self.vectors[i+1].get_data() +
-                    1j * self.vectors[i+2].get_data())
-                    self.current_plot.append_datavector(self.vectors[i+1])
-            else:
-                for i in range(len(dvarnames)):
-                    self.current_plot.append_datavector(self.vectors[i + 1])
-            self.plots.append(self.current_plot)
-            self.set_default_values()
 
+        state = 'nextplot'
+        lines = f.readlines()
+        for linenr in xrange(len(lines)):
+            line = lines[linenr].strip()
+
+            if state == 'data':
+                if line[0] == '#':
+                    state = 'store_data'
+                else:
+                    for i,f in enumerate([float(t.strip()) for t in line.split()]):
+                        rows[i].append(f)
+
+            if state == 'store_data' or linenr == (len(lines)-1) or line == '':
+                for i in range(nvars):
+                    self.vectors[i].set_data(numpy.array(rows[i]))
+                self.current_plot.set_scalevector(self.vectors[0])
+                if dvarnames[0][0:2] == 'Vr' and dvarnames[1][0:2] == 'Vi':
+                    #Complex-valued data detected
+                    for i in range(0, len(dvarnames), 2):
+                        self.vectors[i+1].set_data(self.vectors[i+1].get_data() + \
+                                                   1j * self.vectors[i+2].get_data())
+                        self.current_plot.append_datavector(self.vectors[i+1])
+                else:
+                    for i in range(len(dvarnames)):
+                        self.current_plot.append_datavector(self.vectors[i + 1])
+                self.plots.append(self.current_plot)
+                self.set_default_values()
+                state = 'nextplot'
+
+                if linenr == len(lines)-1:
+                    break
+
+            if state == 'nextplot':
+                tokens = [t.strip() for t in line.split()]
+                ivarname = tokens[0][1:]
+                if ivarname == '':
+                    ivarname = 'U'
+                dvarnames = tokens[1:]
+                nvars = 1 + len(dvarnames)
+                rows = []
+                for d in [ivarname] + dvarnames:
+                    self.vectors.append(spice_vector(name=d, type=self.vartype.get(d, 'unknown')))
+                    rows.append([])
+                    
+                state = 'data'
 
 
 
@@ -368,7 +384,7 @@ if __name__ == "__main__":
     ## plot out some informations about the spice files given by commandline
     for f in sys.argv[1:]:
         print 'The file: "' + f + '" contains the following plots:' 
-        for i,p in enumerate(spice_read(f).get_plots()):
+        for i,p in enumerate(auto_read(f).get_plots()):
             print '  Plot', i, 'with the attributes'
             print '    Title: ' , p.title
             print '    Date: ', p.date
