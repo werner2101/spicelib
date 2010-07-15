@@ -86,15 +86,16 @@ class gnuplot_wrapper(object):
             self.g.plot(*sub.data)
 
     def close(self):
-        #XXX We should empty the dataset here, as shown below.
-        #However, Gnuplot.plot returns before the plotting is complete,
-        #creating a race condition.  If we delete the dataset here, it leads
-        #to plotting errors because Gnuplot's data dissappears before it
-        #can be used.  So we do nothing.  This means that this object
-        #cannot be reused, and it is a memory leak, but the cyclic garbage
-        #collector should be able to handle that.
-        #self.subplots = []
-        pass
+        """
+        clean out all subplots, thus the instance can create a new plot.
+        Note:
+        If I don't clear the plots, gnuplots writes the data of
+        two plots into one.
+        If I create an extra plotting instance, then gnuplot doesn't return.
+        """
+        self.subplots = [ gnuplot_subplot() ]
+        self.current_subplot = self.subplots[0]
+        self.layout = (1,1)
 
 
 def plotter():
