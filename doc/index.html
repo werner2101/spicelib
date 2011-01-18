@@ -7,59 +7,11 @@
   <body>
     <h1>spicelib: modellibrary for gEDA</h1>
     
-
-    <h2>Connecting the spicelib to libgeda with gedaparts</h2>
-    <b>gedaparts</b> is a python script that connects the spice library to libgeda.<p></p>
-   
-    <table>
-      <tbody>
-	<tr>
-	  <td>
-	    <img alt="spicelib/gEDA overview sketch" src="bitmaps/spicelib_overview.png" hspace="20">
-	  </td>
-	  <td valign="top">
-	    The spicelib is connected to gEDA with a scm script. The
-	    script defines how libgeda has to call gedaparts
-	    script. The geda-parts.scm script is located in the
-	    <i>$INSTALLDIR/share/gEDA/gafrc.d/</i> directory. libgeda
-	    calls all scripts inside that directory at startup. <br>
-	    There are two command to access the spicelib through the geda-parts.scm:
-	    <ul>
-	      <li> <b> list command:</b> When calling this command,
-	      gedaparts returns a list off all parts inside a given
-	      library. The list is extracted out of a given indexfiles.
-	      </li>
-	      <li>
-		<b> part command: </b> When calling this command with
-		a partname option, gedaparts will lookup that part in
-		a additionally given library indexfile. Inside the
-		indexfiles is a variable that defines which symbol
-		template gets used. The gedapart script combines the
-		symbol template and a set of variables to a valid gEDA
-		symbol and returns the symbol to libgeda.
-	  </td>
-	</tr>
-      </tbody>
-    </table>
-    <br>
-    <table>
-      <tbody>
-	<tr>
-	  <td>
-	    <img alt="component selector with the spicelib" src="bitmaps/component_selector.png" hspace="20">
-	  </td>
-	  <td valign="top">
-	    The connected spicelib files can be used with gschem
-	    now. <br> libgeda loads the libraries at startup and
-	    you'll be able to select the parts from the component
-	    chooser.
-	  </td>
-	</tr>
-      </tbody>
-    </table>
+    spicelib is a collector and testing framework to get models from
+    vendors and create a tested spice model library.
     
     
-    <h2>Downloading the spice models with the Makefile</h2> 
+    <h2>Downloading the spice models</h2> 
 
     Some vendors provide spicemodels in the internet. Usually you are
     allowed to use them but your not allowed to distribute them. Thus
@@ -114,6 +66,56 @@
 	      you can manually verify the fix and move the new checksum
 	      to your SCM or golden checksum storage.
 	      </li>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+
+    <h2>Connecting the spicelib to libgeda with gedaparts</h2>
+    <b>gedaparts</b> is a python script that connects the spice library to libgeda.<p></p>
+   
+    <table>
+      <tbody>
+	<tr>
+	  <td>
+	    <img alt="spicelib/gEDA overview sketch" src="bitmaps/spicelib_overview.png" hspace="20">
+	  </td>
+	  <td valign="top">
+	    The spicelib is connected to gEDA with a scm script. The
+	    script defines how libgeda has to call gedaparts
+	    script. The geda-parts.scm script is located in the
+	    <i>$INSTALLDIR/share/gEDA/gafrc.d/</i> directory. libgeda
+	    calls all scripts inside that directory at startup. <br>
+	    There are two command to access the spicelib through the geda-parts.scm:
+	    <ul>
+	      <li> <b> list command:</b> When calling this command,
+	      gedaparts returns a list off all parts inside a given
+	      library. The list is extracted out of a given indexfiles.
+	      </li>
+	      <li>
+		<b> part command: </b> When calling this command with
+		a partname option, gedaparts will lookup that part in
+		a additionally given library indexfile. Inside the
+		indexfiles is a variable that defines which symbol
+		template gets used. The gedapart script combines the
+		symbol template and a set of variables to a valid gEDA
+		symbol and returns the symbol to libgeda.
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+    <br>
+    <table>
+      <tbody>
+	<tr>
+	  <td>
+	    <img alt="component selector with the spicelib" src="bitmaps/component_selector.png" hspace="20">
+	  </td>
+	  <td valign="top">
+	    The connected spicelib files can be used with gschem
+	    now. <br> libgeda loads the libraries at startup and
+	    you'll be able to select the parts from the component
+	    chooser.
 	  </td>
 	</tr>
       </tbody>
@@ -190,13 +192,16 @@
     the <a href="../model_tests/spicelib.html">toplevel file</a> in the
     test directory.
     
+    <h2> Development</h2>
+    The development of spicelib is hosted at github: <a href="https://github.com/werner2101/spicelib/">github.com/werner2101/spicelib</a>.
+    
     
 
     <hr>
     <address><a href="mailto:werner.ho@gmx.de">Werner Hoch</a></address>
 <!-- Created: Sat Dec 29 09:54:35 CET 2007 -->
 <!-- hhmts start -->
-Last modified: Sat Dec 29 17:54:33 CET 2007
+Last modified: Tue Jan 18 08:20:52 CET 2011
 <!-- hhmts end -->
   </body>
 </html>
