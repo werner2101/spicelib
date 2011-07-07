@@ -1,3 +1,8 @@
+spicelib Usage
+==========================================
+* scons download (or scons download[vendor])
+* scons create (or scons create[vendor])
+* scons test (scons test[vendor][libraryname])
 
 Building and testing a spice model library
 ==========================================
@@ -24,12 +29,14 @@ The second problem is that distributing models may not be allowed.
 
 Thus I propose to distribute the building rules and not the model
 files itself. This building rules may be stored in and SCM tool
-somewhere in the web. 
+somewhere in the web.
 Note: This is the way openSUSE distributes proprietary font packages, ...
 
-Most of the steps below may be part of a Makefile, others can be done
-with scripting.
+Most of the steps below may be part of a SCons config file, others can
+be done with scripting.
 
+Note: This project now uses SCons (http://www.scons.org) instead of
+Make.
 
 1. Download spice models
 ==============================
@@ -42,8 +49,8 @@ downloaded files are stored in a specified directory structure:
 
   download/[vendor]/[files]
 
-Downloading is splitted from all tasks below. Thus you can apply the 
-steps below again and again. 
+Downloading is splitted from all tasks below. Thus you can apply the
+steps below again and again.
 
 
 2. Unpacking the models
@@ -54,7 +61,7 @@ directory structure. In this step the models gets unpacked.
 
 In this step all files gets a md5 checksum. The checksum files are
 stored in:
-  
+
   model_checksums/[vendor_category].md5sum
 
 This checksum may help to track changes in the model files when
@@ -124,7 +131,7 @@ generated symbols will be uniq. (important for gschem, ...)
 
 "symbol" contains a pointer to the symbol template file to use.
 
-"value" to "footprint" are variables that will replace placeholders 
+"value" to "footprint" are variables that will replace placeholders
 in the symbol template files.
 
 "test_refdes" is currently required for testing.
@@ -138,11 +145,11 @@ is good, broken, untested or undefined.
 
 It's important to get tested models. The tests are applied by a
 library testing script. The script:
-  
+
   * walks through all symbol definitions in a given index file
   * generates a test schematic
   * creates a netlist using gnetlist
-  * runs the circuit simulator 
+  * runs the circuit simulator
   * reads the simulation results and creats plots
   * combines the plots to a html file
   * gives some messages about the success/failure of the simulation.
@@ -150,7 +157,7 @@ library testing script. The script:
 With these steps the whole tool chain is tested for every model.
 
 A human tester can watch the simulation result with a browser and
-doublecheck the simulation results. This results can also provide 
+doublecheck the simulation results. This results can also provide
 a quick view for the users of that model.
 The test result can be written to the model_status in the index file.
 
@@ -158,7 +165,7 @@ If the simulation fails, then either the description in the index file
 is wrong or there's something wrong with the model.
 
 If the model is wrong you can either write a patch, fix it with a
-script in th Makefile or just mark the model as broken.
+script in the config file or just mark the model as broken.
 
 
 6. Use the models with gEDA
@@ -173,9 +180,9 @@ Only few lines are required in share/gEDA/scheme/geda-clib.scm:
 ; Syntax:
 ; (component-library-command "[listcommand]" "[getcommand]" "[name]")
 ;
-(component-library-command 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts nxp_bipolar.index" 
- "/home/werner/oss/geda/spicelib/scripts/gedaparts nxp_bipolar.index" 
+(component-library-command
+ "/home/werner/oss/geda/spicelib/scripts/gedaparts nxp_bipolar.index"
+ "/home/werner/oss/geda/spicelib/scripts/gedaparts nxp_bipolar.index"
  "NXP_bipolar_transistors")
 --------
 
