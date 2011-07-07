@@ -94,9 +94,9 @@ class Vendor(object):
         nodes = []
         for url in self.download_urls:
             file = url.split('/')[-1]
-            checksum_file = os.path.join(MODEL_SIGDIR, 
+            checksum_file = os.path.join(MODEL_SIGDIR,
                                          self.abbrev + '_all.md5sum')
-            nodes.append(env.Command(os.path.join(basedir, file), None, 
+            nodes.append(env.Command(os.path.join(basedir, file), None,
                 """
                 wget -N -P `dirname  $TARGET  ` '%s'
                 md5sum $TARGET > %s
@@ -151,7 +151,7 @@ class Vendor(object):
         return nodes
     def test_section(self, section):
         nodes = []
-        indexfile = os.path.join('indexfiles', 
+        indexfile = os.path.join('indexfiles',
                                  ''.join([self.abbrev, '_', section, '.index']))
         library = testlibrary.modellibrary(indexfile)
         for name in library.modelparts:
@@ -164,7 +164,7 @@ class Vendor(object):
             dir_ = os.path.join(TESTDIR, self.abbrev, section, partid)
             target = os.path.join(dir_, 'status.htm')
             nodes.append(env.TestSingle(target, sources, partid=partid, library=library))
-        setattr(self, 'test_' + section, 
+        setattr(self, 'test_' + section,
                 env.Alias(''.join(['test_', self.abbrev, '_', section]), nodes))
         return nodes
     def test_index_all(self):
@@ -174,7 +174,7 @@ class Vendor(object):
         return nodes
     def test_index_section(self, section):
         return env.HtmlIndex(os.path.join(TESTDIR, self.abbrev, section, 'index.html'),
-            [os.path.join('indexfiles', 
+            [os.path.join('indexfiles',
                 ''.join([self.abbrev, '_', section, '.index'])),
              getattr(self, ''.join(['test_', section]))])
 
@@ -312,7 +312,7 @@ class TexasInstruments(Vendor):
 class NationalSemiconductor(Vendor):
     abbrev = 'national'
     unpack_by_section = True
-    download_urls = ['http://www.national.com/analog/amplifiers/spice_models']
+    download_urls = ['http://www.national.com/rdr.jsp?url=/en/amplifiers/software.html']
     sections = ['opamps']
     def download_all(self):
         url = self.download_urls[0]
@@ -321,20 +321,20 @@ class NationalSemiconductor(Vendor):
         csfile = os.path.join(MODEL_SIGDIR, self.abbrev + '_all.md5sum')
         #Really, this command has many more targets than just the initial
         #download.  However, they are not known until the initial download
-        #has happened.  The downside to this is that if a target file 
+        #has happened.  The downside to this is that if a target file
         #dissapears, scons won't know to redownload it
         node = env.Command(file, None,
             """
             wget -N -P `dirname %(file)s` %(url)s
             md5sum %(file)s > %(csfile)s
-            wget -N -P %(ddir)s `grep -o 'http://www.national.com/models/spice[^"]*\.MOD' %(file)s | sort | uniq`
+            wget -N -P %(ddir)s `grep -o 'http://www.national.com/assets/en/tools/spice[^"]*\.MOD' %(file)s | sort | uniq`
             """ % {'ddir' : os.path.join(basedir, 'opamps'),
                 'file': file, 'url': url, 'csfile': csfile})
         return node
     def unpack_opamps(self):
         #Really, this command has many more targets than just LM741.MOD
         #However, they are not known until the initial download
-        #has happened.  The downside to this is that if a target file 
+        #has happened.  The downside to this is that if a target file
         #dissapears, scons won't know to rebuild it
         example_target = os.path.join(TEMPDIR, 'national', 'opamps', 'LM741.MOD')
         return env.Command(example_target, self.download_all_node,
@@ -342,7 +342,7 @@ class NationalSemiconductor(Vendor):
             md5sum downloads/national/opamps/*.MOD > %(sigfile)s
             cp downloads/national/opamps/*.MOD %(tempdir)s
             md5sum downloads/national/opamps/*.MOD >> %(sigfile)s
-            """ % 
+            """ %
             {'sigfile': os.path.join(MODEL_SIGDIR, 'national_opamps.md5sum'),
              'tempdir': os.path.join(TEMPDIR, 'national', 'opamps')})
     def opamps_fixups(self, modelname, dir):
@@ -407,13 +407,13 @@ class NationalSemiconductor(Vendor):
         fixes.append(fixups.name_has_slash)
         return fixes, patch
 
-       
+
 class NXP(Vendor):
     abbrev = 'nxp'
     sections = ['diodes', 'bipolar']
     unpack_by_section = True
     download_urls = ['http://www.nxp.com/models/spicespar/zip/' + file
-            for file in ['fet.zip', 'power.zip', 'wideband.zip', 'SBD.zip', 
+            for file in ['fet.zip', 'power.zip', 'wideband.zip', 'SBD.zip',
             'SST.zip', 'diodes.zip', 'mmics.zip', 'varicap.zip',
             'basestations.zip', 'complex_discretes.zip']]
     def unpack_diodes(self):
@@ -430,8 +430,8 @@ class NXP(Vendor):
                 md5sum %(tempdir)s/* >> %(csfile)s
                 """ % {'tempdir': os.path.join(TEMPDIR, 'nxp', 'bipolar'),
                     'csfile': os.path.join(MODEL_SIGDIR, 'nxp_bipolar.md5sum')})
-    
-           
+
+
     def diodes_fixups(self, modelname, dir):
         ignore_patterns = [
                 'BZX384-B.*prm',
@@ -622,8 +622,9 @@ class AnalogDevices(Vendor):
 
 ltc = LinearTechnology()
 ti = TexasInstruments()
-national = NationalSemiconductor()
+#national = NationalSemiconductor() # Broke as of 7/7/11
 nxp = NXP()
 adi = AnalogDevices()
 
-mk_aliases(ltc, ti, national, nxp, adi)
+#mk_aliases(ltc, ti, national, nxp, adi)
+mk_aliases(ltc, ti, nxp, adi)
