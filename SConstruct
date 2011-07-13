@@ -25,6 +25,7 @@ import os
 import popen2
 import sys
 import re
+import ConfigParser
 
 sys.path.append('scripts')
 import testlibrary
@@ -312,25 +313,30 @@ class TexasInstruments(Vendor):
 class NationalSemiconductor(Vendor):
     abbrev = 'national'
     unpack_by_section = True
-    download_urls = ['http://www.national.com/rdr.jsp?url=/en/amplifiers/software.html']
     sections = ['opamps']
+
     def download_all(self):
-        url = self.download_urls[0]
         basedir = os.path.join('downloads', self.abbrev)
-        file = os.path.join(basedir, url.split('/')[-1])
         csfile = os.path.join(MODEL_SIGDIR, self.abbrev + '_all.md5sum')
         #Really, this command has many more targets than just the initial
         #download.  However, they are not known until the initial download
         #has happened.  The downside to this is that if a target file
         #dissapears, scons won't know to redownload it
-        node = env.Command(file, None,
-            """
-            wget -N -P `dirname %(file)s` %(url)s
-            md5sum %(file)s > %(csfile)s
-            wget -N -P %(ddir)s `grep -o 'http://www.national.com/assets/en/tools/spice[^"]*\.MOD' %(file)s | sort | uniq`
-            """ % {'ddir' : os.path.join(basedir, 'opamps'),
-                'file': file, 'url': url, 'csfile': csfile})
-        return node
+        modelconfig = ConfigParser.ConfigParser()
+        modelconfig.read('config/national.config')
+        nodes = []
+        for s in self.sections():
+            baseurl = modelconfig.get(s, 'baseurl')
+            models = modelconfig.get(s, 'models').split(';')
+            models.sort()
+            node = env.Command(s, None,
+                               "wget -N -P %(ddir)s %(urls)s" % \
+                               {'urls': ' '.join([ baseurl + m for m in models if m.endswith('MOD')]),
+                                'ddir' : os.path.join(basedir, s)}
+                               )
+            nodes.append(node)
+        return nodes
+
     def unpack_opamps(self):
         #Really, this command has many more targets than just LM741.MOD
         #However, they are not known until the initial download
@@ -341,7 +347,6 @@ class NationalSemiconductor(Vendor):
             """
             md5sum downloads/national/opamps/*.MOD > %(sigfile)s
             cp downloads/national/opamps/*.MOD %(tempdir)s
-            md5sum downloads/national/opamps/*.MOD >> %(sigfile)s
             """ %
             {'sigfile': os.path.join(MODEL_SIGDIR, 'national_opamps.md5sum'),
              'tempdir': os.path.join(TEMPDIR, 'national', 'opamps')})
@@ -622,9 +627,9 @@ class AnalogDevices(Vendor):
 
 ltc = LinearTechnology()
 ti = TexasInstruments()
-#national = NationalSemiconductor() # Broke as of 7/7/11
+national = NationalSemiconductor()
 nxp = NXP()
 adi = AnalogDevices()
 
-#mk_aliases(ltc, ti, national, nxp, adi)
-mk_aliases(ltc, ti, nxp, adi)
+mk_aliases(ltc, ti, national, nxp, adi)
+#mk_aliases(ltc, ti, nxp, adi)

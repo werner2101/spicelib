@@ -1,8 +1,8 @@
 spicelib Usage
 ==========================================
-* scons download (or scons download[vendor])
-* scons create (or scons create[vendor])
-* scons test (scons test[vendor][libraryname])
+* scons download (or scons download[_vendor])
+* scons create (or scons create[_vendor])
+* scons test (scons test[_vendor][_libraryname])
 
 Building and testing a spice model library
 ==========================================
