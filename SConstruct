@@ -325,14 +325,16 @@ class NationalSemiconductor(Vendor):
         modelconfig = ConfigParser.ConfigParser()
         modelconfig.read('config/national.config')
         nodes = []
-        for s in self.sections():
+        for s in self.sections:
             baseurl = modelconfig.get(s, 'baseurl')
             models = modelconfig.get(s, 'models').split(';')
             models.sort()
-            node = env.Command(s, None,
-                               "wget -N -P %(ddir)s %(urls)s" % \
+            dummy_file = os.path.join(basedir, s + '.download')
+            node = env.Command(dummy_file, None,
+                               "wget -N -P %(ddir)s %(urls)s \ntouch %(dummy_file)s" % \
                                {'urls': ' '.join([ baseurl + m for m in models if m.endswith('MOD')]),
-                                'ddir' : os.path.join(basedir, s)}
+                                'ddir' : os.path.join(basedir, s),
+                                'dummy_file': dummy_file}
                                )
             nodes.append(node)
         return nodes
@@ -345,8 +347,8 @@ class NationalSemiconductor(Vendor):
         example_target = os.path.join(TEMPDIR, 'national', 'opamps', 'LM741.MOD')
         return env.Command(example_target, self.download_all_node,
             """
-            md5sum downloads/national/opamps/*.MOD > %(sigfile)s
             cp downloads/national/opamps/*.MOD %(tempdir)s
+            md5sum %(tempdir)s/* > %(sigfile)s
             """ %
             {'sigfile': os.path.join(MODEL_SIGDIR, 'national_opamps.md5sum'),
              'tempdir': os.path.join(TEMPDIR, 'national', 'opamps')})
