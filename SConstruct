@@ -287,7 +287,7 @@ class TexasInstruments(Vendor):
             """
             unzip -o -d %(TEMPDIR)s $SOURCE
             find %(TEMPDIR)s -type f -exec md5sum {} \; | \
-                sort -k 2 >>%(SIGFILE)s
+                sort -k 2 > %(SIGFILE)s
             find %(TEMPDIR)s -name '*.zip' -exec unzip -o -d {}_d {} \;
             """ % {'TEMPDIR': os.path.join(TEMPDIR, 'ti'),
                    'SIGFILE': os.path.join(MODEL_SIGDIR, 'ti_all.md5sum')})
@@ -427,14 +427,14 @@ class NXP(Vendor):
         return env.Command(None, os.path.join('downloads', 'nxp', 'diodes.zip'),
                 """
                 - unzip -o -d %(tempdir)s $SOURCE
-                md5sum %(tempdir)s/* >> %(csfile)s
+                md5sum %(tempdir)s/* > %(csfile)s
                 """ % {'tempdir': os.path.join(TEMPDIR, 'nxp', 'diodes'),
                     'csfile': os.path.join(MODEL_SIGDIR, 'nxp_diodes.md5sum')})
     def unpack_bipolar(self):
         return env.Command(None, os.path.join('downloads', 'nxp', 'SST.zip'),
                 """
                 - unzip -o -d %(tempdir)s $SOURCE
-                md5sum %(tempdir)s/* >> %(csfile)s
+                md5sum %(tempdir)s/* > %(csfile)s
                 """ % {'tempdir': os.path.join(TEMPDIR, 'nxp', 'bipolar'),
                     'csfile': os.path.join(MODEL_SIGDIR, 'nxp_bipolar.md5sum')})
 
@@ -602,7 +602,7 @@ class AnalogDevices(Vendor):
                 """
                 unzip -o -d %(TEMPDIR)s $SOURCE
                 find %(TEMPDIR)s -type f -exec md5sum {} \; | \
-                        sort -k 2 >> %(SIGFILE)s
+                        sort -k 2 > %(SIGFILE)s
                 """ % {'TEMPDIR': os.path.join(TEMPDIR, 'adi'),
                        'SIGFILE': os.path.join(MODEL_SIGDIR, 'adi_all.md5sum')})
     def opamps_fixups(self, modelname, dir):
