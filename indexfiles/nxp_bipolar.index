@@ -2216,15 +2216,14 @@ model_status_good=gnucap_0.35
 # .ENDS statement in model without subcircuit
 
 
-# subcircuits with 4 pins
 [BCP68_NXP00113]
 symbol=npn.sym
 value=BCP68
 modelname=BCP68
 file=BCP68.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=1
+pinseq_c=1
+pinseq_b=2
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B

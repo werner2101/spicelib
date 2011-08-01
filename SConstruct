@@ -520,7 +520,7 @@ class NXP(Vendor):
             "PBSS5160U.prm": ("*.MODEL", ".MODEL" ),
             "PDTC123YT.prm": ("TC2233Y", "TC223Y" ),
             "PXTA14.prm": ("LE 3 333", "LE 3 33" )}
-        patches = {'BCP68.prm': 'BCP68.patch'}
+	patches = {}
         fixes = []
         if modelname in string_replacements:
             query, repl = string_replacements[modelname]
