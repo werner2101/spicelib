@@ -163,7 +163,7 @@ class Vendor(object):
             sources = [indexfile,
                 os.path.join(MODEL_LIBDIR, self.abbrev, section, file)]
             dir_ = os.path.join(TESTDIR, self.abbrev, section, partid)
-            target = os.path.join(dir_, 'status.htm')
+            target = os.path.join(dir_, 'status.cfg')
             nodes.append(env.TestSingle(target, sources, partid=partid, library=library))
         setattr(self, 'test_' + section,
                 env.Alias(''.join(['test_', self.abbrev, '_', section]), nodes))

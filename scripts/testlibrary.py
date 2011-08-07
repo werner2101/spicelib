@@ -236,6 +236,20 @@ class modelpartBase(object):
         self.current_checksum = current
         self.checksum_status = checksum_status
 
+    def cfg_status(self):
+        self.update_checksum()
+        status = ConfigParser.RawConfigParser()
+        status.add_section('checksum')
+        status.set('checksum','checksum',self.checksum_status)
+        status.add_section('simulators')
+        for sim in SIMULATORS:
+            status.set('simulators', sim, self.test_status.get(sim, 'None'))
+        if not os.path.isdir(self.testdir):
+            os.makedirs(self.testdir)
+        fid = open(os.path.join(self.testdir, 'status.cfg'), 'wb')
+        status.write(fid)
+        fid.close()
+
     def html_status(self):
         repl = {}
         repl.update(self.properties)
@@ -249,6 +263,11 @@ class modelpartBase(object):
         repl["checksum_test"] = self.checksum_status
         repl["checksum_test_color"] = color(self.checksum_status)
 
+        status = ConfigParser.RawConfigParser()
+        statusfile = os.path.join(self.testdir, 'status.cfg')
+        if os.path.exists(statusfile):
+            status.read(statusfile)
+        
         base_tmpl = string.Template(ROW_TEMPLATES['base'])
         test_tmpl = string.Template(ROW_TEMPLATES['model_test'])
         status_tmpl = string.Template(ROW_TEMPLATES['model_status'])
@@ -257,12 +276,12 @@ class modelpartBase(object):
         for sim in SIMULATORS:
             testdir = os.path.join(self.testdir, SIMULATORS[sim]['folder'])
             if os.path.exists(os.path.join(testdir, 'index.html')) and \
-                    sim in self.test_status:
-                status = self.test_status[sim]
-                test_repl = {'model_test_color': COLORS[status]}
+                    status.has_option('simulators', sim):
+                sim_status = status.get('simulators', sim)
+                test_repl = {'model_test_color': COLORS[sim_status]}
                 test_repl['model_test'] = '<a href="%s">%s</a>' % \
                         (os.path.join(self.name, SIMULATORS[sim]['folder'],
-                                'index.html'), status)
+                                'index.html'), sim_status)
             else:
                 test_repl = {'model_test': 'None',
                              'model_test_color': COLORS['default']}
@@ -274,11 +293,9 @@ class modelpartBase(object):
 
         repl['sim_status_columns'] = sim_status_columns
         repl['sim_test_columns'] = sim_test_columns
-        status = base_tmpl.safe_substitute(repl)
-        if not os.path.isdir(self.testdir):
-            os.makedirs(self.testdir)
-        open(os.path.join(self.testdir, 'status.htm'), 'w').write(status)
-        return status
+
+        return base_tmpl.safe_substitute(repl)
+
 
     def plot_all(self, dir, simulator):
         """Generate all plots in directory dir, based on simulator"""
@@ -1051,7 +1068,7 @@ class modellibrary(object):
             print "\n" + "*"*75
             print "Testing part: " + part.name + "  model: " + self.modeldir + part.properties["file"]
             part.test()
-            part.html_status()
+            part.cfg_status()
             print "Result: ", part.test_status
 
     def htmlindex(self):
@@ -1060,10 +1077,7 @@ class modellibrary(object):
         partnames.sort(sort_modelnumber)
 
         for part in partnames:
-            try:
-                rows.append(open(os.path.join(self.modelparts[part].testdir, 'status.htm')).read())
-            except IOError:
-                rows.append(self.modelparts[part].html_status())
+            rows.append(self.modelparts[part].html_status())
         
         lib = {"indexfile": self.indexfilename,
                "testdir": self.testdir,
@@ -1095,7 +1109,7 @@ class modellibrary(object):
 
         print "Testing part: " + part.name + "  model: " + self.modeldir + part.properties["file"]
         part.test()
-        part.html_status()
+        part.cfg_status()
         print "Result: ", part.test_status, "\n"
 
     def get_devicetext(self, partname):
