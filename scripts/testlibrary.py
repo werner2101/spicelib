@@ -984,6 +984,7 @@ class modellibrary(object):
 
     def load_library_index(self):
         self.index = ConfigParser.ConfigParser()
+        print self.indexfilename
         #TODO: check that indexfilename exists
         self.index.read(self.indexfilename)
         self.testdir = self.index.get("GLOBAL","TESTDIR")
@@ -1096,6 +1097,18 @@ class modellibrary(object):
         part.test()
         part.html_status()
         print "Result: ", part.test_status, "\n"
+
+    def get_devicetext(self, partname):
+        items = self.index.items(partname)
+        text = '\n'.join(['='.join([a,b]) for a,b in items])
+        return text
+
+    def get_modeltext(self, partname):
+        filename = self.index.get(partname, 'file')
+        return open(os.path.join(self.modeldir, filename)).read()
+
+    def set_modeltext(self, partname, text):
+        pass
         
 
 #################### FUNCTIONS
