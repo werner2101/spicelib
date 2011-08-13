@@ -1,11 +1,11 @@
-
 [GLOBAL]
-MODELDIR=model_library/nxp/bipolar/
-TESTDIR=model_tests/nxp/bipolar/
-DESCRIPTION=NXP bipolar models
-GOLDEN_CHECKSUMS=model_golden_checksums/nxp_bipolar_lib.md5sum
-CURRENT_CHECKSUMS=model_checksums/nxp_bipolar_lib.md5sum
+modeldir=model_library/nxp/bipolar/
+testdir=model_tests/nxp/bipolar/
+description=NXP bipolar models
+golden_checksums=model_golden_checksums/nxp_bipolar_lib.md5sum
+current_checksums=model_checksums/nxp_bipolar_lib.md5sum
 model_status_undefined=
+
 
 [2PA1576Q_NXP00001]
 symbol=pnp.sym
@@ -61,7 +61,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1576_5.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PA1774QM_NXP00004]
@@ -271,7 +271,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/2PC4081_5.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
 
 
 [2PC4081R_NXP00015]
@@ -1280,7 +1279,6 @@ test_refdes=Q1
 model_status_good=gnucap_0.35
 
 
-
 [BC847BS_NXP00068]
 symbol=npn.sym
 value=QBC847BS
@@ -1923,7 +1921,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
 
 
 [BC857W_NXP00102]
@@ -1943,7 +1940,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
 
 
 [BC858B_NXP00103]
@@ -1963,7 +1959,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
 
 
 [BC858W_NXP00104]
@@ -1983,7 +1978,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
 
 
 [BC868_NXP00105]
@@ -2003,7 +1997,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC868_7.pdf
 description=NPN medium power transistor; 20V, 1A
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
 
 
 [BC869_NXP00106]
@@ -2023,7 +2016,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC869_6.pdf
 description=PNP medium power transistor; 20V, 1A
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
 
 
 [BCP51_NXP00107]
@@ -2043,7 +2035,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC636_BCP51_BCX51_7.pdf
 description=45V, 1A PNP medium power transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
 
 
 [BCP52-16_NXP00108]
@@ -2063,7 +2054,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC638_BCP52_BCX52_7.pdf
 description=60V, 1A PNP medium power transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS card
 
 
 [BCP53-16_NXP00109]
@@ -2083,7 +2073,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC640_BCP53_BCX53_7.pdf
 description=80V, 1A PNP medium power transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS card
 
 
 [BCP54-16_NXP00110]
@@ -2103,7 +2092,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC635_BCP54_BCX54_7.pdf
 description=45V, 1A NPN medium power transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
 
 
 [BCP55-16_NXP00111]
@@ -2123,7 +2111,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC637_BCP55_BCX55_7.pdf
 description=60V, 1A NPN medium power transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
 
 
 [BCP56-16_NXP00112]
@@ -2143,7 +2130,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC639_BCP56_BCX56_8.pdf
 description=80V, 1A NPN medium power transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
 
 
 [BCP68_NXP00113]
@@ -2182,7 +2168,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCP69_5.pdf
 description=PNP medium power transistor; 20V, 1A
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
 
 
 [BCV26_NXP00115]
@@ -2280,7 +2265,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-# LE connected to the open node 333
 [BCV47_NXP00120]
 symbol=npn_darlington.sym
 value=BCV47
@@ -2298,6 +2282,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCV27_BCV47_5.pdf
 description=NPN Darlington transistors
 test_refdes=X1
 model_status_good=gnucap_0.35
+test_comment=LE connected to the open node 333
 
 
 [BCV48_NXP00121]
@@ -2338,8 +2323,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 4 connections
 [BCV61A_NXP00123]
 symbol=.sym
 value=BCV61A
@@ -2357,10 +2340,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCV61_3.pdf
 description=NPN general purpose double transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 4 connections
 
 
-
-# Subcircuit with 4 connections
 [BCV61B_NXP00124]
 symbol=.sym
 value=BCV61B
@@ -2378,10 +2360,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCV61_3.pdf
 description=NPN general purpose double transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 4 connections
 
 
-
-# Subcircuit with 4 connections
 [BCV61C_NXP00125]
 symbol=.sym
 value=BCV61C
@@ -2399,10 +2380,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCV61_3.pdf
 description=NPN general purpose double transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 4 connections
 
 
-
-# Subcircuit with 4 connections
 [BCV62A_NXP00126]
 symbol=.sym
 value=BCV62A
@@ -2420,10 +2400,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
 description=PNP general purpose double transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 4 connections
 
 
-
-# Subcircuit with 4 connections
 [BCV62B_NXP00127]
 symbol=.sym
 value=BCV62B
@@ -2441,10 +2420,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
 description=PNP general purpose double transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 4 connections
 
 
-
-# Subcircuit with 4 connections
 [BCV62C_NXP00128]
 symbol=.sym
 value=BCV62C
@@ -2462,10 +2440,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
 description=PNP general purpose double transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 4 connections
 
 
-
-# Subcircuit with 4 connections
 [BCV65_NXP00129]
 symbol=.sym
 value=BCV65
@@ -2483,7 +2460,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCV65_3.pdf
 description=NPN/PNP general purpose transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 4 connections
 
 
 [BCW29_NXP00130]
@@ -2503,8 +2480,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCW29_BCW30_5.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BCW30_NXP00131]
@@ -2524,8 +2499,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCW29_BCW30_5.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BCX17_NXP00132]
@@ -2545,8 +2518,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCX17_BCX18_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BCX18_NXP00133]
@@ -2566,8 +2537,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCX17_BCX18_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BCX19_NXP00134]
@@ -2587,8 +2556,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCX19_5.pdf
 description=NPN general purpose transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BCX51_NXP00135]
@@ -2608,8 +2575,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC636_BCP51_BCX51_7.pdf
 description=45V, 1A PNP medium power transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BCX56_NXP00136]
@@ -2629,7 +2594,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC639_BCP56_BCX56_8.pdf
 description=80V, 1A NPN medium power transistors
 test_refdes=X1
 model_status_good=gnucap_0.35
-# trailing NPN at the Q1 definition wrong
+test_comment=trailing NPN at the Q1 definition wrong
 
 
 [BCX70G_NXP00137]
@@ -2649,8 +2614,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BCX70H_NXP00138]
@@ -2670,8 +2633,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BCX70J_NXP00139]
@@ -2691,8 +2652,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BCX70K_NXP00140]
@@ -2712,8 +2671,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BF199_NXP00141]
@@ -2735,7 +2692,6 @@ test_refdes=Q1
 model_status_good=gnucap_0.35
 
 
-
 [BF240_NXP00142]
 symbol=npn.sym
 value=QBF240
@@ -2753,7 +2709,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BF240_5.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-
 
 
 [BF324_NXP00143]
@@ -2775,7 +2730,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BF370_NXP00144]
 symbol=npn.sym
 value=BF370
@@ -2793,7 +2747,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BF370_4.pdf
 description=NPN medium frequency transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [BF420_NXP00145]
@@ -2815,7 +2768,6 @@ test_refdes=Q1
 model_status_good=gnucap_0.35
 
 
-
 [BF421_NXP00146]
 symbol=pnp.sym
 value=QBF421
@@ -2833,7 +2785,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BF421_423_3.pdf
 description=PNP high voltage transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-
 
 
 [BF422_NXP00147]
@@ -2855,7 +2806,6 @@ test_refdes=Q1
 model_status_good=gnucap_0.35
 
 
-
 [BF423_NXP00148]
 symbol=pnp.sym
 value=QBF423
@@ -2873,7 +2823,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BF421_423_3.pdf
 description=PNP high voltage transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-
 
 
 [BF450_NXP00149]
@@ -2895,7 +2844,6 @@ test_refdes=Q1
 model_status_good=gnucap_0.35
 
 
-
 [BF550_NXP00150]
 symbol=pnp.sym
 value=QBF550
@@ -2913,8 +2861,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BF550_4.pdf
 description=PNP medium frequency transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BF570_NXP00151]
@@ -2936,7 +2882,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BF620_NXP00152]
 symbol=npn.sym
 value=QBF620
@@ -2954,8 +2899,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BF620_622_4.pdf
 description=NPN high-voltage transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BF621_NXP00153]
@@ -2977,7 +2920,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BF622_NXP00154]
 symbol=npn.sym
 value=QBF622
@@ -2995,8 +2937,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BF620_622_4.pdf
 description=NPN high-voltage transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BF623_NXP00155]
@@ -3018,8 +2958,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 4 connections
 [BF723_NXP00156]
 symbol=.sym
 value=BF723
@@ -3037,7 +2975,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/BF723_3.pdf
 description=PNP high-voltage transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 4 connections
 
 
 [BF820_NXP00157]
@@ -3057,8 +2995,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BF820_BF822_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BF820W_NXP00158]
@@ -3078,8 +3014,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BF820W_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BF821_NXP00159]
@@ -3101,7 +3035,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BF822_NXP00160]
 symbol=npn.sym
 value=QBF822
@@ -3119,8 +3052,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BF820_BF822_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BF823_NXP00161]
@@ -3142,7 +3073,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BF824_NXP00162]
 symbol=pnp.sym
 value=BF824
@@ -3162,7 +3092,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BF824W_NXP00163]
 symbol=pnp.sym
 value=QBF824W
@@ -3180,8 +3109,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BF824W_3.pdf
 description=PNP medium frequency transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BF840_NXP00164]
@@ -3201,8 +3128,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BF840_5.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BFS19_NXP00165]
@@ -3222,8 +3147,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BFS19_4.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BFS20_NXP00166]
@@ -3243,8 +3166,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BFS20_5.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BSP19_NXP00167]
@@ -3266,7 +3187,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BSP31_NXP00168]
 symbol=pnp.sym
 value=BSP31
@@ -3284,7 +3204,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BSP31_32_33_3.pdf
 description=PNP medium power transistors
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [BSP33_NXP00169]
@@ -3306,7 +3225,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BSP41_NXP00170]
 symbol=npn.sym
 value=BSP41
@@ -3324,7 +3242,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BSP41_43_4.pdf
 description=NPN medium power transistors
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [BSP43_NXP00171]
@@ -3346,7 +3263,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BSP52_NXP00172]
 symbol=npn_darlington.sym
 value=BSP52
@@ -3364,7 +3280,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BSP50_51_52_3.pdf
 description=NPN Darlington transistors with resistor and diode
 test_refdes=X1
 model_status_undefined=
-
 
 
 [BSP62_NXP00173]
@@ -3386,7 +3301,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [BSR14_NXP00174]
 symbol=npn.sym
 value=QBSR14
@@ -3404,8 +3318,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BSR13_BSR14_4.pdf
 description=NPN switching transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BSR16_NXP00175]
@@ -3427,7 +3339,6 @@ test_refdes=Q1
 model_status_good=gnucap_0.35
 
 
-
 [BSR19A_NXP00176]
 symbol=npn.sym
 value=QBSR19A
@@ -3445,8 +3356,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BSR19_BSR19A_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [BSR31_NXP00177]
@@ -3468,7 +3377,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BSR33_NXP00178]
 symbol=pnp.sym
 value=BSR33
@@ -3486,7 +3394,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BSR30_31_33_4.pdf
 description=PNP medium power transistors
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [BSR41_NXP00179]
@@ -3508,7 +3415,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BSR43_NXP00180]
 symbol=npn.sym
 value=BSR43
@@ -3526,7 +3432,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BSR40_41_42_43_4.pdf
 description=NPN medium power transistors
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [BST39_NXP00181]
@@ -3548,7 +3453,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BST52_NXP00182]
 symbol=npn_darlington.sym
 value=BST52
@@ -3566,7 +3470,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BST50_51_52_5.pdf
 description=NPN Darlington transistor with resistor and diode
 test_refdes=X1
 model_status_undefined=
-
 
 
 [BST62_NXP00183]
@@ -3588,7 +3491,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [BSV52_NXP00184]
 symbol=npn.sym
 value=BSV52
@@ -3608,7 +3510,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [MMBT2222A_NXP00185]
 symbol=npn.sym
 value=QMMBT2222A
@@ -3626,8 +3527,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/MMBT2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [MMBT3904_NXP00186]
@@ -3647,8 +3546,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/MMBT3904_4.pdf
 description=NPN switching transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [MMBT3906_NXP00187]
@@ -3668,8 +3565,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/MMBT3906_2.pdf
 description=PNP switching transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [MMBTA42_NXP00188]
@@ -3691,7 +3586,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [MMBTA92_NXP00189]
 symbol=pnp.sym
 value=MMBTA92
@@ -3709,7 +3603,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/MMBTA92_2.pdf
 description=PNP high-voltage transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [MPSA44_NXP00190]
@@ -3731,7 +3624,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [MPSA56_NXP00191]
 symbol=pnp.sym
 value=MPSA56
@@ -3749,7 +3641,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/MPSA56_5.pdf
 description=PNP general purpose transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [MPSA92_NXP00192]
@@ -3771,7 +3662,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBRN113EK_NXP00193]
 symbol=npn_bin.sym
 value=PBRN113EK
@@ -3789,7 +3679,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBRN113E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=1k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBRN113ES_NXP00194]
@@ -3811,7 +3700,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBRN113ET_NXP00195]
 symbol=npn_bin.sym
 value=PBRN113ET
@@ -3829,7 +3717,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBRN113E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=1k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBRN113ZK_NXP00196]
@@ -3851,7 +3738,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBRN113ZS_NXP00197]
 symbol=npn_bin.sym
 value=PBRN113ZS
@@ -3871,7 +3757,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBRN113ZT_NXP00198]
 symbol=npn_bin.sym
 value=PBRN113ZT
@@ -3889,7 +3774,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBRN113Z_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBRN123EK_NXP00199]
@@ -3930,7 +3814,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBRN123ET_NXP00201]
 symbol=npn_bin.sym
 value=PBRN123ET
@@ -3948,7 +3831,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBRN123E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBRN123YK_NXP00202]
@@ -3970,7 +3852,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBRN123YS_NXP00203]
 symbol=npn_bin.sym
 value=PBRN123YS
@@ -3988,7 +3869,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBRN123Y_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBRN123YT_NXP00204]
@@ -4010,7 +3890,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS2515E_NXP00205]
 symbol=npn.sym
 value=PBSS2515E
@@ -4028,7 +3907,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515E_1.pdf
 description=15V, 0.5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBSS2515M_NXP00206]
@@ -4050,8 +3928,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS2515VPN_NXP00207]
 symbol=.sym
 value=PBSS2515VPN
@@ -4069,10 +3945,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515VPN_3.pdf
 description=15V low VCEsat NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PBSS2515VS_NXP00208]
 symbol=.sym
 value=PBSS2515VS
@@ -4090,10 +3965,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515VS_3.pdf
 description=15V low VCEsat NPN double transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PBSS2515YPN_NXP00209]
 symbol=.sym
 value=PBSS2515YPN
@@ -4111,7 +3985,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515YPN_3.pdf
 description=15V low VCEsat NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS2540E_NXP00210]
@@ -4133,7 +4007,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS301NX_NXP00211]
 symbol=npn.sym
 value=PBSS301NX
@@ -4151,7 +4024,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS301NX_1.pdf
 description=12V, 5.3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBSS301PX_NXP00212]
@@ -4173,8 +4045,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections (4 collector pins)
 [PBSS302ND_NXP00213]
 symbol=.sym
 value=PBSS302ND
@@ -4192,7 +4062,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS302ND_1.pdf
 description=40V NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS302NX_NXP00214]
@@ -4214,8 +4084,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS302PD_NXP00215]
 symbol=.sym
 value=PBSS302PD
@@ -4233,7 +4101,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS302PD_1.pdf
 description=40V PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections (4 collector pins)
 
 
 [PBSS302PX_NXP00216]
@@ -4255,8 +4123,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS303ND_NXP00217]
 symbol=.sym
 value=PBSS303ND
@@ -4274,7 +4140,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS303ND_1.pdf
 description=60V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PBSS303NX_NXP00218]
@@ -4296,8 +4161,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS303PD_NXP00219]
 symbol=.sym
 value=PBSS303PD
@@ -4315,7 +4178,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS303PD_1.pdf
 description=60V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS303PX_NXP00220]
@@ -4337,8 +4200,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS304ND_NXP00221]
 symbol=.sym
 value=PBSS304ND
@@ -4356,7 +4217,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS304ND_1.pdf
 description=80V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS304NX_NXP00222]
@@ -4378,8 +4239,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS304PD_NXP00223]
 symbol=.sym
 value=PBSS304PD
@@ -4397,7 +4256,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS304PD_1.pdf
 description=80V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS304PX_NXP00224]
@@ -4419,8 +4278,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS305ND_NXP00225]
 symbol=.sym
 value=PBSS305ND
@@ -4438,7 +4295,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS305ND_1.pdf
 description=100V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS305NX_NXP00226]
@@ -4460,8 +4317,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS305PD_NXP00227]
 symbol=.sym
 value=PBSS305PD
@@ -4479,7 +4334,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS305PD_1.pdf
 description=100V, 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS305PX_NXP00228]
@@ -4501,7 +4356,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS306NX_NXP00229]
 symbol=npn.sym
 value=PBSS306NX
@@ -4519,7 +4373,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS306NX_1.pdf
 description=100V, 4.5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBSS306PX_NXP00230]
@@ -4541,7 +4394,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS3515E_NXP00231]
 symbol=pnp.sym
 value=PBSS3515E
@@ -4559,7 +4411,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS3515E_1.pdf
 description=15V, 0.5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBSS3515M_NXP00232]
@@ -4581,8 +4432,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS3515VS_NXP00233]
 symbol=.sym
 value=PBSS3515VS
@@ -4600,7 +4449,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS3515VS_3.pdf
 description=15V low VCEsat PNP double transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS4120T_NXP00234]
@@ -4622,7 +4471,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS4130T_NXP00235]
 symbol=npn.sym
 value=PBSS4130T
@@ -4642,8 +4490,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS4140DPN_NXP00236]
 symbol=.sym
 value=PBSS4140DPN
@@ -4661,7 +4507,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140DPN_1.pdf
 description=40V low VCEsat NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS4140S_NXP00237]
@@ -4683,7 +4529,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS4140T_NXP00238]
 symbol=npn.sym
 value=PBSS4140T
@@ -4701,7 +4546,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140T_5.pdf
 description=40V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBSS4140U_NXP00239]
@@ -4723,8 +4567,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS4140V_NXP00240]
 symbol=.sym
 value=PBSS4140V
@@ -4742,10 +4584,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140V_2.pdf
 description=40V low VCEsat NPN transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PBSS4160DPN_NXP00241]
 symbol=.sym
 value=PBSS4160DPN
@@ -4763,10 +4604,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140DPN_1.pdf
 description=40V low VCEsat NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PBSS4160DS_NXP00242]
 symbol=.sym
 value=PBSS4160DS
@@ -4784,7 +4624,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160DS_3.pdf
 description=60V, 1A NPN/NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS4160K_NXP00243]
@@ -4806,7 +4646,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS4160T_NXP00244]
 symbol=npn.sym
 value=PBSS4160T
@@ -4824,7 +4663,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160T_2.pdf
 description=60V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBSS4160U_NXP00245]
@@ -4846,8 +4684,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS4220V_NXP00246]
 symbol=.sym
 value=PBSS4220V
@@ -4865,7 +4701,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4220V_1.pdf
 description=20V, 2A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS4230T_NXP00247]
@@ -4887,8 +4723,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS4240DPN_NXP00248]
 symbol=.sym
 value=PBSS4240DPN
@@ -4906,7 +4740,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240DPN_1.pdf
 description=40V low VCEsat NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS4240T_NXP00249]
@@ -4928,8 +4762,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS4240V_NXP00250]
 symbol=.sym
 value=PBSS4240V
@@ -4947,10 +4779,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240V_1.pdf
 description=40V low VCEsat NPN transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PBSS4240Y_NXP00251]
 symbol=.sym
 value=PBSS4240Y
@@ -4968,7 +4799,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240Y_1.pdf
 description=40V low VCEsat NPN transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS4320T_NXP00252]
@@ -4990,7 +4821,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS4320X_NXP00253]
 symbol=npn.sym
 value=PBSS4320X
@@ -5008,7 +4838,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4320X_3.pdf
 description=20V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBSS4330X_NXP00254]
@@ -5030,8 +4859,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS4350D_NXP00255]
 symbol=.sym
 value=PBSS4350D
@@ -5049,7 +4876,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350D_3.pdf
 description=50V low VCEsat NPN transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS4350S_NXP00256]
@@ -5071,7 +4898,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS4350T_NXP00257]
 symbol=npn.sym
 value=PBSS4350T
@@ -5091,8 +4917,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 4 connections
 [PBSS4350Z_NXP00258]
 symbol=.sym
 value=PBSS4350Z
@@ -5110,10 +4934,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350Z_3.pdf
 description=50V low VCEsat NPN transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 4 connections
 
 
-
-# Subcircuit with 6 connections
 [PBSS4420D_NXP00259]
 symbol=.sym
 value=PBSS4420D
@@ -5131,10 +4954,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4420D_1.pdf
 description=20V, 4A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PBSS4440D_NXP00260]
 symbol=.sym
 value=PBSS4440D
@@ -5152,7 +4974,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4440D_1.pdf
 description=40V NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS4540X_NXP00261]
@@ -5172,7 +4994,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS4540X_3.pdf
 description=40V, 5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-# model call does not match model definitions
+test_comment=model call does not match model definitions
 
 
 [PBSS4540Z_NXP00262]
@@ -5194,7 +5016,6 @@ test_refdes=Q1
 model_status_undefined=
 
 
-
 [PBSS5120T_NXP00263]
 symbol=pnp.sym
 value=PBSS5120T
@@ -5212,7 +5033,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5120T_1.pdf
 description=20V; 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBSS5130T_NXP00264]
@@ -5234,7 +5054,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS5140S_NXP00265]
 symbol=pnp.sym
 value=PBSS5140S
@@ -5252,7 +5071,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140S_2.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBSS5140T_NXP00266]
@@ -5274,7 +5092,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS5140U_NXP00267]
 symbol=pnp.sym
 value=PBSS5140U
@@ -5294,8 +5111,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS5140V_NXP00268]
 symbol=.sym
 value=PBSS5140V
@@ -5313,10 +5128,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140V_2.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PBSS5160DS_NXP00269]
 symbol=.sym
 value=PBSS5160DS
@@ -5334,7 +5148,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160DS_2.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS5160K_NXP00270]
@@ -5354,8 +5168,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160K_2.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-# model statement has leading Asterisk "*"
-
+test_comment=model statement has leading Asterisk "*"
 
 
 [PBSS5160T_NXP00271]
@@ -5377,7 +5190,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS5160U_NXP00272]
 symbol=pnp.sym
 value=PBSS5160U
@@ -5395,11 +5207,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160U_3.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-# model definition has leading asterisk "*"
+test_comment=model definition has leading asterisk "*"
 
 
-
-# Subcircuit with 6 connections
 [PBSS5160V_NXP00273]
 symbol=.sym
 value=PBSS5160V
@@ -5417,7 +5227,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160V_2.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS5220T_NXP00274]
@@ -5439,8 +5249,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS5220V_NXP00275]
 symbol=.sym
 value=PBSS5220V
@@ -5458,7 +5266,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5220V_2.pdf
 description=20V, 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS5230T_NXP00276]
@@ -5480,7 +5288,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS5240T_NXP00277]
 symbol=pnp.sym
 value=PBSS5240T
@@ -5500,8 +5307,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS5240V_NXP00278]
 symbol=.sym
 value=PBSS5240V
@@ -5519,10 +5324,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5240V_1.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PBSS5240Y_NXP00279]
 symbol=.sym
 value=PBSS5240Y
@@ -5540,7 +5344,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5240Y_2.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS5250T_NXP00280]
@@ -5562,7 +5366,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS5250X_NXP00281]
 symbol=pnp.sym
 value=PBSS5250X
@@ -5582,8 +5385,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS5320D_NXP00282]
 symbol=.sym
 value=PBSS5320D
@@ -5601,7 +5402,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5320D_1.pdf
 description=20V low VCEsat PNP transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS5320T_NXP00283]
@@ -5623,7 +5424,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS5320X_NXP00284]
 symbol=pnp.sym
 value=PBSS5320X
@@ -5643,8 +5443,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS5350D_NXP00285]
 symbol=.sym
 value=PBSS5350D
@@ -5662,7 +5460,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350D_4.pdf
 description=50V low VCEsat PNP transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS5350S_NXP00286]
@@ -5684,7 +5482,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS5350T_NXP00287]
 symbol=pnp.sym
 value=PBSS5350T
@@ -5702,7 +5499,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350T_2.pdf
 description=50V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBSS5350X_NXP00288]
@@ -5724,7 +5520,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS5350Z_NXP00289]
 symbol=pnp.sym
 value=PBSS5350Z
@@ -5744,8 +5539,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS5420D_NXP00290]
 symbol=.sym
 value=PBSS5420D
@@ -5763,10 +5556,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5420D_1.pdf
 description=20V, 4A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PBSS5440D_NXP00291]
 symbol=.sym
 value=PBSS5440D
@@ -5784,7 +5576,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5440D_1.pdf
 description=40V PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS5540X_NXP00292]
@@ -5806,8 +5598,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 4 connections
 [PBSS5540Z_NXP00293]
 symbol=.sym
 value=PBSS5540Z
@@ -5825,7 +5615,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS5540Z_4.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 4 connections
 
 
 [PBSS8110AS_NXP00294]
@@ -5845,11 +5635,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110AS_3.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-# asterisk in front of the subckt definition
+test_comment=asterisk in front of the subckt definition
 
 
-
-# Subcircuit with 6 connections
 [PBSS8110D_NXP00295]
 symbol=.sym
 value=PBSS8110D
@@ -5867,7 +5655,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110D_1.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS8110T_NXP00296]
@@ -5889,7 +5677,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS8110X_NXP00297]
 symbol=npn.sym
 value=PBSS8110X
@@ -5909,9 +5696,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-
-# Subcircuit with 6 connections
 [PBSS8110Y_NXP00298]
 symbol=.sym
 value=PBSS8110Y
@@ -5929,9 +5713,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110Y_1.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-# npn transistor with 4 connections
 [PBSS8110Z_NXP00299]
 symbol=npn.sym
 value=PBSS8110Z
@@ -5949,7 +5733,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110Z_2.pdf
 description=100V, 1A NPN low VCesat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=npn transistor with 4 connections
 
 
 [PBSS9110AS_NXP00300]
@@ -5971,8 +5755,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS9110D_NXP00301]
 symbol=.sym
 value=PBSS9110D
@@ -5990,7 +5772,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110D_2.pdf
 description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PBSS9110S_NXP00302]
@@ -6012,7 +5794,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBSS9110T_NXP00303]
 symbol=pnp.sym
 value=PBSS9110T
@@ -6030,7 +5811,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110T_3.pdf
 description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBSS9110X_NXP00304]
@@ -6052,8 +5832,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PBSS9110Y_NXP00305]
 symbol=.sym
 value=PBSS9110Y
@@ -6071,9 +5849,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110Y_1.pdf
 description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-# subckt has 4 pins
 [PBSS9110Z_NXP00306]
 symbol=.sym
 value=PBSS9110Z
@@ -6091,8 +5869,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110Z_2.pdf
 description=100V, 1A NPN low VCesat (BISS) transistor
 test_refdes=Q1
 model_status_undefined=
-# asterisk in front of the subckt definition
-
+test_comment=subckt has 4 pins; asterisk in front of the subckt definition
 
 
 [PDTA113EE_NXP00307]
@@ -6114,7 +5891,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA113EK_NXP00308]
 symbol=pnp_bin.sym
 value=PDTA113EK
@@ -6132,7 +5908,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA113EM_NXP00309]
@@ -6154,7 +5929,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA113ES_NXP00310]
 symbol=pnp_bin.sym
 value=PDTA113ES
@@ -6172,7 +5946,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA113ET_NXP00311]
@@ -6194,7 +5967,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA113EU_NXP00312]
 symbol=pnp_bin.sym
 value=PDTA113EU
@@ -6212,7 +5984,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA113ZE_NXP00313]
@@ -6234,7 +6005,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA113ZK_NXP00314]
 symbol=pnp_bin.sym
 value=PDTA113ZK
@@ -6252,7 +6022,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA113ZM_NXP00315]
@@ -6274,7 +6043,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA113ZS_NXP00316]
 symbol=pnp_bin.sym
 value=PDTA113ZS
@@ -6292,7 +6060,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA113ZT_NXP00317]
@@ -6314,7 +6081,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA113ZU_NXP00318]
 symbol=pnp_bin.sym
 value=PDTA113ZU
@@ -6332,7 +6098,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA114EE_NXP00319]
@@ -6354,7 +6119,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA114EK_NXP00320]
 symbol=pnp_bin.sym
 value=PDTA114EK
@@ -6372,7 +6136,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA114EM_NXP00321]
@@ -6394,7 +6157,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA114E_NXP00322]
 symbol=pnp_bin.sym
 value=PDTA114E
@@ -6412,7 +6174,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA114ES_NXP00323]
@@ -6434,7 +6195,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA114ET_NXP00324]
 symbol=pnp_bin.sym
 value=PDTA114ET
@@ -6452,7 +6212,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA114EU_NXP00325]
@@ -6474,7 +6233,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA114TE_NXP00326]
 symbol=pnp_rbase.sym
 value=PDTA114TE
@@ -6492,7 +6250,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA114TK_NXP00327]
@@ -6514,7 +6271,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA114TM_NXP00328]
 symbol=pnp_rbase.sym
 value=PDTA114TM
@@ -6534,9 +6290,8 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA114T_NXP00329]
-symbol= pnp_rbase.sym
+symbol=pnp_rbase.sym
 value=PDTA114T
 modelname=PDTA114T
 file=PDTA114T.prm
@@ -6552,7 +6307,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA114TS_NXP00330]
@@ -6574,7 +6328,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA114TT_NXP00331]
 symbol=pnp_rbase.sym
 value=PDTA114TT
@@ -6592,7 +6345,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA114TU_NXP00332]
@@ -6614,7 +6366,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA114YE_NXP00333]
 symbol=pnp_bin.sym
 value=PDTA114YE
@@ -6632,7 +6383,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA114YK_NXP00334]
@@ -6654,7 +6404,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA114YM_NXP00335]
 symbol=pnp_bin.sym
 value=PDTA114YM
@@ -6672,7 +6421,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA114YS_NXP00336]
@@ -6694,7 +6442,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA114YT_NXP00337]
 symbol=pnp_bin.sym
 value=PDTA114YT
@@ -6712,7 +6459,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA114YU_NXP00338]
@@ -6734,7 +6480,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA115EE_NXP00339]
 symbol=pnp_bin.sym
 value=PDTA115EE
@@ -6752,7 +6497,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA115EK_NXP00340]
@@ -6774,7 +6518,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA115EM_NXP00341]
 symbol=pnp_bin.sym
 value=PDTA115EM
@@ -6792,7 +6535,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA115ES_NXP00342]
@@ -6814,7 +6556,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA115ET_NXP00343]
 symbol=pnp_bin.sym
 value=PDTA115ET
@@ -6832,7 +6573,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA115EU_NXP00344]
@@ -6854,7 +6594,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA115TE_NXP00345]
 symbol=pnp_rbase.sym
 value=PDTA115TE
@@ -6872,7 +6611,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA115TK_NXP00346]
@@ -6894,7 +6632,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA115TM_NXP00347]
 symbol=pnp_rbase.sym
 value=PDTA115TM
@@ -6912,7 +6649,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA115TS_NXP00348]
@@ -6934,7 +6670,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA115TT_NXP00349]
 symbol=pnp_rbase.sym
 value=PDTA115TT
@@ -6952,7 +6687,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA115TU_NXP00350]
@@ -6974,7 +6708,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA123EE_NXP00351]
 symbol=pnp_bin.sym
 value=PDTA123EE
@@ -6992,7 +6725,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA123EK_NXP00352]
@@ -7014,7 +6746,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA123ES_NXP00353]
 symbol=pnp_bin.sym
 value=PDTA123ES
@@ -7032,7 +6763,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA123ET_NXP00354]
@@ -7054,7 +6784,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA123EU_NXP00355]
 symbol=pnp_bin.sym
 value=PDTA123EU
@@ -7072,7 +6801,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA123JE_NXP00356]
@@ -7094,7 +6822,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA123JK_NXP00357]
 symbol=pnp_bin.sym
 value=PDTA123JK
@@ -7112,7 +6839,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA123JM_NXP00358]
@@ -7134,7 +6860,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA123JS_NXP00359]
 symbol=pnp_bin.sym
 value=PDTA123JS
@@ -7152,7 +6877,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA123JT_NXP00360]
@@ -7174,7 +6898,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA123JU_NXP00361]
 symbol=pnp_bin.sym
 value=PDTA123JU
@@ -7192,7 +6915,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA123TK_NXP00362]
@@ -7214,7 +6936,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA123TM_NXP00363]
 symbol=pnp_rbase.sym
 value=PDTA123TM
@@ -7232,7 +6953,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA123TS_NXP00364]
@@ -7254,7 +6974,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA123TT_NXP00365]
 symbol=pnp_rbase.sym
 value=PDTA123TT
@@ -7272,7 +6991,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA123TU_NXP00366]
@@ -7294,7 +7012,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA123YT_NXP00367]
 symbol=pnp_bin.sym
 value=PDTA123YT
@@ -7312,7 +7029,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA124EE_NXP00368]
@@ -7334,7 +7050,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA124EK_NXP00369]
 symbol=pnp_bin.sym
 value=PDTA124EK
@@ -7352,7 +7067,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA124EM_NXP00370]
@@ -7374,7 +7088,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA124ES_NXP00371]
 symbol=pnp_bin.sym
 value=PDTA124ES
@@ -7392,7 +7105,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA124ET_NXP00372]
@@ -7414,7 +7126,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA124EU_NXP00373]
 symbol=pnp_bin.sym
 value=PDTA124EU
@@ -7432,7 +7143,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA124TE_NXP00374]
@@ -7454,7 +7164,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA124TK_NXP00375]
 symbol=pnp_rbase.sym
 value=PDTA124TK
@@ -7472,7 +7181,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA124TM_NXP00376]
@@ -7494,7 +7202,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA124TS_NXP00377]
 symbol=pnp_rbase.sym
 value=PDTA124TS
@@ -7512,7 +7219,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA124TT_NXP00378]
@@ -7534,7 +7240,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA124TU_NXP00379]
 symbol=pnp_rbase.sym
 value=PDTA124TU
@@ -7552,7 +7257,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA124XE_NXP00380]
@@ -7574,7 +7278,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA124XK_NXP00381]
 symbol=pnp_bin.sym
 value=PDTA124XK
@@ -7592,7 +7295,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA124XM_NXP00382]
@@ -7614,7 +7316,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA124XS_NXP00383]
 symbol=pnp_bin.sym
 value=PDTA124XS
@@ -7632,7 +7333,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA124XT_NXP00384]
@@ -7654,7 +7354,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA124XU_NXP00385]
 symbol=pnp_bin.sym
 value=PDTA124XU
@@ -7672,7 +7371,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA143EE_NXP00386]
@@ -7694,7 +7392,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA143EK_NXP00387]
 symbol=pnp_bin.sym
 value=PDTA143EK
@@ -7712,7 +7409,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA143EM_NXP00388]
@@ -7734,7 +7430,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA143ES_NXP00389]
 symbol=pnp_bin.sym
 value=PDTA143ES
@@ -7752,7 +7447,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA143ET_NXP00390]
@@ -7774,7 +7468,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA143EU_NXP00391]
 symbol=pnp_bin.sym
 value=PDTA143EU
@@ -7792,7 +7485,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA143TE_NXP00392]
@@ -7814,7 +7506,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA143TK_NXP00393]
 symbol=pnp_rbase.sym
 value=PDTA143TK
@@ -7832,7 +7523,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA143TM_NXP00394]
@@ -7854,7 +7544,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA143T_NXP00395]
 symbol=pnp_rbase.sym
 value=PDTA143T
@@ -7872,7 +7561,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA143TS_NXP00396]
@@ -7894,7 +7582,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA143TT_NXP00397]
 symbol=pnp_rbase.sym
 value=PDTA143TT
@@ -7912,7 +7599,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA143TU_NXP00398]
@@ -7934,7 +7620,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA143XE_NXP00399]
 symbol=pnp_bin.sym
 value=PDTA143XE
@@ -7952,8 +7637,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
-
 
 
 [PDTA143XK_NXP00400]
@@ -7975,7 +7658,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA143XM_NXP00401]
 symbol=pnp_bin.sym
 value=PDTA143XM
@@ -7993,7 +7675,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA143XS_NXP00402]
@@ -8015,7 +7696,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA143XT_NXP00403]
 symbol=pnp_bin.sym
 value=PDTA143XT
@@ -8033,7 +7713,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA143XU_NXP00404]
@@ -8055,7 +7734,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA143ZE_NXP00405]
 symbol=pnp_bin.sym
 value=PDTA143ZE
@@ -8073,7 +7751,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA143ZK_NXP00406]
@@ -8095,7 +7772,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA143ZM_NXP00407]
 symbol=pnp_bin.sym
 value=PDTA143ZM
@@ -8113,7 +7789,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA143ZS_NXP00408]
@@ -8135,7 +7810,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA143ZT_NXP00409]
 symbol=pnp_bin.sym
 value=PDTA143ZT
@@ -8153,7 +7827,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA143ZU_NXP00410]
@@ -8175,7 +7848,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA144EE_NXP00411]
 symbol=pnp_bin.sym
 value=PDTA144EE
@@ -8193,7 +7865,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA144EK_NXP00412]
@@ -8215,7 +7886,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA144EM_NXP00413]
 symbol=pnp_bin.sym
 value=PDTA144EM
@@ -8233,7 +7903,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA144E_NXP00414]
@@ -8255,7 +7924,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA144ES_NXP00415]
 symbol=pnp_bin.sym
 value=PDTA144ES
@@ -8273,7 +7941,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA144ET_NXP00416]
@@ -8295,7 +7962,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA144EU_NXP00417]
 symbol=pnp_bin.sym
 value=PDTA144EU
@@ -8313,7 +7979,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA144TE_NXP00418]
@@ -8335,7 +8000,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA144TK_NXP00419]
 symbol=pnp_rbase.sym
 value=PDTA144TK
@@ -8353,7 +8017,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA144TM_NXP00420]
@@ -8375,7 +8038,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA144TS_NXP00421]
 symbol=pnp_rbase.sym
 value=PDTA144TS
@@ -8393,7 +8055,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA144TT_NXP00422]
@@ -8415,7 +8076,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA144TU_NXP00423]
 symbol=pnp_rbase.sym
 value=PDTA144TU
@@ -8433,7 +8093,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA144VE_NXP00424]
@@ -8455,7 +8114,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA144VK_NXP00425]
 symbol=pnp_bin.sym
 value=PDTA144VK
@@ -8473,7 +8131,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA144VM_NXP00426]
@@ -8495,7 +8152,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA144VS_NXP00427]
 symbol=pnp_bin.sym
 value=PDTA144VS
@@ -8513,7 +8169,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA144VT_NXP00428]
@@ -8535,7 +8190,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA144VU_NXP00429]
 symbol=pnp_bin.sym
 value=PDTA144VU
@@ -8553,7 +8207,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA144WE_NXP00430]
@@ -8575,7 +8228,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA144WM_NXP00431]
 symbol=pnp_bin.sym
 value=PDTA144WM
@@ -8593,7 +8245,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA144WS_NXP00432]
@@ -8615,7 +8266,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA144WT_NXP00433]
 symbol=pnp_bin.sym
 value=PDTA144WT
@@ -8633,7 +8283,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA144WU_NXP00434]
@@ -8655,7 +8304,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA323TK_NXP00435]
 symbol=pnp_rbase.sym
 value=PDTA323TK
@@ -8673,7 +8321,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA323TK_1.pdf
 description=PNP 500 mA, 15 V resistor-equipped transistor; R1=2.2k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTB113EK_NXP00436]
@@ -8695,7 +8342,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTB113ES_NXP00437]
 symbol=pnp_bin.sym
 value=PDTB113ES
@@ -8713,7 +8359,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTB113E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTB113ET_NXP00438]
@@ -8735,7 +8380,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTB113ZK_NXP00439]
 symbol=pnp_bin.sym
 value=PDTB113ZK
@@ -8753,7 +8397,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTB113Z_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTB113ZS_NXP00440]
@@ -8775,7 +8418,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTB113ZT_NXP00441]
 symbol=pnp_bin.sym
 value=PDTB113ZT
@@ -8793,7 +8435,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTB113Z_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTB123EK_NXP00442]
@@ -8815,7 +8456,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTB123ES_NXP00443]
 symbol=pnp_bin.sym
 value=PDTB123ES
@@ -8833,7 +8473,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTB123E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTB123ET_NXP00444]
@@ -8855,7 +8494,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTB123TK_NXP00445]
 symbol=pnp_rbase.sym
 value=PDTB123TK
@@ -8873,7 +8511,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTB123T_SER_2.pdf
 description=PNP 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTB123TS_NXP00446]
@@ -8895,7 +8532,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTB123TT_NXP00447]
 symbol=pnp_rbase.sym
 value=PDTB123TT
@@ -8913,7 +8549,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTB123T_SER_2.pdf
 description=PNP 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTB123YK_NXP00448]
@@ -8935,7 +8570,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTB123YS_NXP00449]
 symbol=pnp_bin.sym
 value=PDTB123YS
@@ -8953,7 +8587,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTB123YT_NXP00450]
@@ -8975,7 +8608,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC114EE_NXP00451]
 symbol=npn_bin.sym
 value=PDTC114EE
@@ -8993,7 +8625,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC114EK_NXP00452]
@@ -9015,7 +8646,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC114EM_NXP00453]
 symbol=npn_bin.sym
 value=PDTC114EM
@@ -9033,7 +8663,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC114E_NXP00454]
@@ -9055,7 +8684,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC114ES_NXP00455]
 symbol=npn_bin.sym
 value=PDTC114ES
@@ -9073,7 +8701,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC114ET_NXP00456]
@@ -9095,7 +8722,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC114EU_NXP00457]
 symbol=npn_bin.sym
 value=PDTC114EU
@@ -9113,7 +8739,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC114TE_NXP00458]
@@ -9135,7 +8760,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC114TK_NXP00459]
 symbol=npn_rbase.sym
 value=PDTC114TK
@@ -9153,7 +8777,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC114TM_NXP00460]
@@ -9175,7 +8798,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC114T_NXP00461]
 symbol=npn_rbase.sym
 value=PDTC114T
@@ -9193,7 +8815,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC114TS_NXP00462]
@@ -9215,7 +8836,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC114TT_NXP00463]
 symbol=npn_rbase.sym
 value=PDTC114TT
@@ -9233,7 +8853,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC114TU_NXP00464]
@@ -9255,7 +8874,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC114YE_NXP00465]
 symbol=npn_bin.sym
 value=PDTC114YE
@@ -9273,7 +8891,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC114YK_NXP00466]
@@ -9295,7 +8912,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC114YM_NXP00467]
 symbol=npn_bin.sym
 value=PDTC114YM
@@ -9313,7 +8929,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC114Y_NXP00468]
@@ -9335,7 +8950,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC114YS_NXP00469]
 symbol=npn_bin.sym
 value=PDTC114YS
@@ -9353,7 +8967,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC114YT_NXP00470]
@@ -9375,7 +8988,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC114YU_NXP00471]
 symbol=npn_bin.sym
 value=PDTC114YU
@@ -9393,7 +9005,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC115EE_NXP00472]
@@ -9415,7 +9026,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC115EK_NXP00473]
 symbol=npn_bin.sym
 value=PDTC115EK
@@ -9433,7 +9043,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC115EM_NXP00474]
@@ -9455,7 +9064,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC115ES_NXP00475]
 symbol=npn_bin.sym
 value=PDTC115ES
@@ -9473,7 +9081,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC115ET_NXP00476]
@@ -9495,7 +9102,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC115EU_NXP00477]
 symbol=npn_bin.sym
 value=PDTC115EU
@@ -9513,7 +9119,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC115TE_NXP00478]
@@ -9535,7 +9140,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC115TK_NXP00479]
 symbol=npn_rbase.sym
 value=PDTC115TK
@@ -9553,7 +9157,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC115TM_NXP00480]
@@ -9575,7 +9178,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC115TS_NXP00481]
 symbol=npn_rbase.sym
 value=PDTC115TS
@@ -9593,7 +9195,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC115TT_NXP00482]
@@ -9615,7 +9216,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC115TU_NXP00483]
 symbol=npn_rbase.sym
 value=PDTC115TU
@@ -9633,7 +9233,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC123EE_NXP00484]
@@ -9655,7 +9254,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC123EK_NXP00485]
 symbol=npn_bin.sym
 value=PDTC123EK
@@ -9673,7 +9271,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC123EM_NXP00486]
@@ -9695,7 +9292,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC123ES_NXP00487]
 symbol=npn_bin.sym
 value=PDTC123ES
@@ -9713,7 +9309,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC123ET_NXP00488]
@@ -9735,7 +9330,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC123EU_NXP00489]
 symbol=npn_bin.sym
 value=PDTC123EU
@@ -9753,7 +9347,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC123JE_NXP00490]
@@ -9775,7 +9368,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC123JK_NXP00491]
 symbol=npn_bin.sym
 value=PDTC123JK
@@ -9793,7 +9385,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC123JM_NXP00492]
@@ -9815,7 +9406,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC123J_NXP00493]
 symbol=npn_bin.sym
 value=PDTC123J
@@ -9833,7 +9423,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC123JS_NXP00494]
@@ -9855,7 +9444,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC123JT_NXP00495]
 symbol=npn_bin.sym
 value=PDTC123JT
@@ -9873,7 +9461,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC123JU_NXP00496]
@@ -9895,7 +9482,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC123TK_NXP00497]
 symbol=npn_rbase.sym
 value=PDTC123TK
@@ -9913,7 +9499,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC123TM_NXP00498]
@@ -9935,7 +9520,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC123TS_NXP00499]
 symbol=npn_rbase.sym
 value=PDTC123TS
@@ -9953,7 +9537,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC123TT_NXP00500]
@@ -9975,7 +9558,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC123TU_NXP00501]
 symbol=npn_rbase.sym
 value=PDTC123TU
@@ -9993,7 +9575,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC123YE_NXP00502]
@@ -10015,7 +9596,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC123YK_NXP00503]
 symbol=npn_bin.sym
 value=PDTC123YK
@@ -10033,7 +9613,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC123YM_NXP00504]
@@ -10055,7 +9634,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC123YS_NXP00505]
 symbol=npn_bin.sym
 value=PDTC123YS
@@ -10075,7 +9653,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC123YT_NXP00506]
 symbol=npn_bin.sym
 value=PDTC123YT
@@ -10093,8 +9670,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-# model definition name different from usage
-
+test_comment=model definition name different from usage
 
 
 [PDTC123YU_NXP00507]
@@ -10116,7 +9692,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC124EE_NXP00508]
 symbol=npn_bin.sym
 value=PDTC124EE
@@ -10134,7 +9709,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC124EK_NXP00509]
@@ -10156,7 +9730,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC124EM_NXP00510]
 symbol=npn_bin.sym
 value=PDTC124EM
@@ -10174,7 +9747,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC124E_NXP00511]
@@ -10196,7 +9768,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PDTC124ES_NXP00512]
 symbol=npn_bin.sym
 value=PDTC124ES
@@ -10214,7 +9785,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC124ET_NXP00513]
@@ -10236,7 +9806,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC124EU_NXP00514]
 symbol=npn_bin.sym
 value=PDTC124EU
@@ -10254,7 +9823,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC124TK_NXP00515]
@@ -10276,7 +9844,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC124TM_NXP00516]
 symbol=npn_rbase.sym
 value=PDTC124TM
@@ -10294,7 +9861,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC124TS_NXP00517]
@@ -10316,7 +9882,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC124TT_NXP00518]
 symbol=npn_rbase.sym
 value=PDTC124TT
@@ -10334,7 +9899,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC124TU_NXP00519]
@@ -10356,7 +9920,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC124XE_NXP00520]
 symbol=npn_bin.sym
 value=PDTC124XE
@@ -10374,7 +9937,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC124XK_NXP00521]
@@ -10396,7 +9958,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC124XM_NXP00522]
 symbol=npn_bin.sym
 value=PDTC124XM
@@ -10414,7 +9975,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC124XS_NXP00523]
@@ -10436,7 +9996,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC124XT_NXP00524]
 symbol=npn_bin.sym
 value=PDTC124XT
@@ -10454,7 +10013,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC124XU_NXP00525]
@@ -10476,7 +10034,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC143EE_NXP00526]
 symbol=npn_bin.sym
 value=PDTC143EE
@@ -10494,7 +10051,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC143EK_NXP00527]
@@ -10516,7 +10072,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC143EM_NXP00528]
 symbol=npn_bin.sym
 value=PDTC143EM
@@ -10534,7 +10089,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC143ES_NXP00529]
@@ -10556,7 +10110,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC143ET_NXP00530]
 symbol=npn_bin.sym
 value=PDTC143ET
@@ -10574,7 +10127,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC143EU_NXP00531]
@@ -10596,7 +10148,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC143TE_NXP00532]
 symbol=npn_rbase.sym
 value=PDTC143TE
@@ -10614,7 +10165,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC143TK_NXP00533]
@@ -10636,7 +10186,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC143TM_NXP00534]
 symbol=npn_rbase.sym
 value=PDTC143TM
@@ -10654,7 +10203,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC143T_NXP00535]
@@ -10676,7 +10224,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC143TS_NXP00536]
 symbol=npn_rbase.sym
 value=PDTC143TS
@@ -10694,7 +10241,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC143TT_NXP00537]
@@ -10716,7 +10262,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC143TU_NXP00538]
 symbol=npn_rbase.sym
 value=PDTC143TU
@@ -10734,7 +10279,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC143XE_NXP00539]
@@ -10756,7 +10300,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC143XK_NXP00540]
 symbol=npn_bin.sym
 value=PDTC143XK
@@ -10774,7 +10317,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC143XM_NXP00541]
@@ -10796,7 +10338,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC143XS_NXP00542]
 symbol=npn_bin.sym
 value=PDTC143XS
@@ -10814,7 +10355,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC143XT_NXP00543]
@@ -10836,7 +10376,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC143XU_NXP00544]
 symbol=npn_bin.sym
 value=PDTC143XU
@@ -10854,7 +10393,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC143ZE_NXP00545]
@@ -10876,7 +10414,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC143ZK_NXP00546]
 symbol=npn_bin.sym
 value=PDTC143ZK
@@ -10894,7 +10431,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC143ZM_NXP00547]
@@ -10916,7 +10452,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC143Z_NXP00548]
 symbol=npn_bin.sym
 value=PDTC143Z
@@ -10934,7 +10469,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PDTC143ZS_NXP00549]
@@ -10956,7 +10490,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC143ZT_NXP00550]
 symbol=npn_bin.sym
 value=PDTC143ZT
@@ -10974,7 +10507,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC143ZU_NXP00551]
@@ -10996,7 +10528,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC144EE_NXP00552]
 symbol=npn_bin.sym
 value=PDTC144EE
@@ -11014,7 +10545,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC144EK_NXP00553]
@@ -11036,7 +10566,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC144EM_NXP00554]
 symbol=npn_bin.sym
 value=PDTC144EM
@@ -11054,7 +10583,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC144E_NXP00555]
@@ -11076,7 +10604,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PDTC144ES_NXP00556]
 symbol=npn_bin.sym
 value=PDTC144ES
@@ -11094,7 +10621,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC144ET_NXP00557]
@@ -11116,7 +10642,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC144EU_NXP00558]
 symbol=npn_bin.sym
 value=PDTC144EU
@@ -11134,7 +10659,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC144TE_NXP00559]
@@ -11156,7 +10680,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC144TK_NXP00560]
 symbol=npn_rbase.sym
 value=PDTC144TK
@@ -11174,7 +10697,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC144TM_NXP00561]
@@ -11196,7 +10718,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC144TS_NXP00562]
 symbol=npn_rbase.sym
 value=PDTC144TS
@@ -11214,7 +10735,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC144TT_NXP00563]
@@ -11236,7 +10756,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC144TU_NXP00564]
 symbol=npn_rbase.sym
 value=PDTC144TU
@@ -11254,7 +10773,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC144VE_NXP00565]
@@ -11276,7 +10794,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC144VK_NXP00566]
 symbol=npn_bin.sym
 value=PDTC144VK
@@ -11294,7 +10811,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC144VM_NXP00567]
@@ -11316,7 +10832,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC144VS_NXP00568]
 symbol=npn_bin.sym
 value=PDTC144VS
@@ -11334,7 +10849,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC144VT_NXP00569]
@@ -11356,7 +10870,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC144VU_NXP00570]
 symbol=npn_bin.sym
 value=PDTC144VU
@@ -11374,7 +10887,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC144WE_NXP00571]
@@ -11396,7 +10908,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC144WK_NXP00572]
 symbol=npn_bin.sym
 value=PDTC144WK
@@ -11414,7 +10925,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC144WM_NXP00573]
@@ -11436,7 +10946,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC144WS_NXP00574]
 symbol=npn_bin.sym
 value=PDTC144WS
@@ -11454,7 +10963,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC144WT_NXP00575]
@@ -11476,7 +10984,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTC144WU_NXP00576]
 symbol=npn_bin.sym
 value=PDTC144WU
@@ -11494,7 +11001,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTC323TK_NXP00577]
@@ -11516,7 +11022,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTD113EK_NXP00578]
 symbol=npn_bin.sym
 value=PDTD113EK
@@ -11534,7 +11039,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTD113E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTD113ES_NXP00579]
@@ -11556,7 +11060,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTD113ET_NXP00580]
 symbol=npn_bin.sym
 value=PDTD113ET
@@ -11574,7 +11077,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTD113E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTD113ZK_NXP00581]
@@ -11596,7 +11098,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTD113ZS_NXP00582]
 symbol=npn_bin.sym
 value=PDTD113ZS
@@ -11614,7 +11115,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTD113Z_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTD113ZT_NXP00583]
@@ -11636,7 +11136,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTD123EK_NXP00584]
 symbol=npn_bin.sym
 value=PDTD123EK
@@ -11654,7 +11153,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTD123E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTD123ES_NXP00585]
@@ -11676,7 +11174,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTD123ET_NXP00586]
 symbol=npn_bin.sym
 value=PDTD123ET
@@ -11694,7 +11191,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTD123E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTD123TK_NXP00587]
@@ -11716,7 +11212,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTD123TS_NXP00588]
 symbol=npn_rbase.sym
 value=PDTD123TS
@@ -11734,7 +11229,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTD123T_SER_2.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTD123TT_NXP00589]
@@ -11756,7 +11250,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTD123YK_NXP00590]
 symbol=npn_bin.sym
 value=PDTD123YK
@@ -11774,7 +11267,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTD123YS_NXP00591]
@@ -11796,7 +11288,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTD123YT_NXP00592]
 symbol=npn_bin.sym
 value=PDTD123YT
@@ -11816,8 +11307,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PEMB10_NXP00593]
 symbol=.sym
 value=PEMB10
@@ -11835,10 +11324,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB11_NXP00594]
 symbol=.sym
 value=PEMB11
@@ -11856,10 +11344,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB13_NXP00595]
 symbol=.sym
 value=PEMB13
@@ -11877,10 +11364,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB14_NXP00596]
 symbol=.sym
 value=PEMB14
@@ -11898,10 +11384,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB15_NXP00597]
 symbol=.sym
 value=PEMB15
@@ -11919,10 +11404,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB16_NXP00598]
 symbol=.sym
 value=PEMB16
@@ -11940,10 +11424,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB17_NXP00599]
 symbol=.sym
 value=PEMB17
@@ -11961,10 +11444,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB18_NXP00600]
 symbol=.sym
 value=PEMB18
@@ -11982,10 +11464,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB19_NXP00601]
 symbol=.sym
 value=PEMB19
@@ -12003,10 +11484,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB1_NXP00602]
 symbol=.sym
 value=PEMB1
@@ -12024,10 +11504,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB20_NXP00603]
 symbol=.sym
 value=PEMB20
@@ -12045,10 +11524,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB24_NXP00604]
 symbol=.sym
 value=PEMB24
@@ -12066,10 +11544,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB30_NXP00605]
 symbol=.sym
 value=PEMB30
@@ -12087,10 +11564,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB3_NXP00606]
 symbol=.sym
 value=PEMB3
@@ -12108,10 +11584,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB4_NXP00607]
 symbol=.sym
 value=PEMB4
@@ -12129,10 +11604,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMB9_NXP00608]
 symbol=.sym
 value=PEMB9
@@ -12150,10 +11624,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD10_NXP00609]
 symbol=.sym
 value=PEMD10
@@ -12171,10 +11644,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD13_NXP00610]
 symbol=.sym
 value=PEMD13
@@ -12192,10 +11664,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD14_NXP00611]
 symbol=.sym
 value=PEMD14
@@ -12213,10 +11684,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD15_NXP00612]
 symbol=.sym
 value=PEMD15
@@ -12234,10 +11704,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD16_NXP00613]
 symbol=.sym
 value=PEMD16
@@ -12255,10 +11724,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD17_NXP00614]
 symbol=.sym
 value=PEMD17
@@ -12276,10 +11744,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD18_NXP00615]
 symbol=.sym
 value=PEMD18
@@ -12297,10 +11764,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD19_NXP00616]
 symbol=.sym
 value=PEMD19
@@ -12318,10 +11784,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD20_NXP00617]
 symbol=.sym
 value=PEMD20
@@ -12339,10 +11804,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD24_NXP00618]
 symbol=.sym
 value=PEMD24
@@ -12360,10 +11824,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD2_NXP00619]
 symbol=.sym
 value=PEMD2
@@ -12381,10 +11844,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD30_NXP00620]
 symbol=.sym
 value=PEMD30
@@ -12402,10 +11864,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD4_NXP00621]
 symbol=.sym
 value=PEMD4
@@ -12423,10 +11884,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH10_NXP00622]
 symbol=.sym
 value=PEMH10
@@ -12444,10 +11904,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH11_NXP00623]
 symbol=.sym
 value=PEMH11
@@ -12465,10 +11924,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH13_NXP00624]
 symbol=.sym
 value=PEMH13
@@ -12486,10 +11944,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH14_NXP00625]
 symbol=.sym
 value=PEMH14
@@ -12507,10 +11964,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH15_NXP00626]
 symbol=.sym
 value=PEMH15
@@ -12528,10 +11984,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH16_NXP00627]
 symbol=.sym
 value=PEMH16
@@ -12549,10 +12004,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH17_NXP00628]
 symbol=.sym
 value=PEMH17
@@ -12570,10 +12024,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH18_NXP00629]
 symbol=.sym
 value=PEMH18
@@ -12591,10 +12044,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH19_NXP00630]
 symbol=.sym
 value=PEMH19
@@ -12612,10 +12064,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH1_NXP00631]
 symbol=.sym
 value=PEMH1
@@ -12633,10 +12084,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH20_NXP00632]
 symbol=.sym
 value=PEMH20
@@ -12654,10 +12104,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH24_NXP00633]
 symbol=.sym
 value=PEMH24
@@ -12675,10 +12124,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH2_NXP00634]
 symbol=.sym
 value=PEMH2
@@ -12696,10 +12144,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH30_NXP00635]
 symbol=.sym
 value=PEMH30
@@ -12717,10 +12164,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH4_NXP00636]
 symbol=.sym
 value=PEMH4
@@ -12738,10 +12184,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH7_NXP00637]
 symbol=.sym
 value=PEMH7
@@ -12759,7 +12204,7 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PEMX1_NXP00638]
@@ -12781,7 +12226,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PEMZ1_NXP00639]
 symbol=.sym
 value=PEMZ1
@@ -12801,8 +12245,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PEMZ7_NXP00640]
 symbol=.sym
 value=PEMZ7
@@ -12820,7 +12262,7 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PH2369_NXP00641]
@@ -12843,8 +12285,6 @@ model_status_undefined=ngspice_19 #this model hangs ngspice
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PIMD2_NXP00642]
 symbol=.sym
 value=PIMD2
@@ -12862,10 +12302,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PIMT1_NXP00643]
 symbol=.sym
 value=PIMT1
@@ -12883,10 +12322,9 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PIMZ2_NXP00644]
 symbol=.sym
 value=PIMZ2
@@ -12904,7 +12342,7 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PMBT2222A_NXP00645]
@@ -12924,8 +12362,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMBT2222_2222A_5.pdf
 description=NPN switching transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [PMBT2222_NXP00646]
@@ -12945,8 +12381,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMBT2222_2222A_5.pdf
 description=NPN switching transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [PMBT2369_NXP00647]
@@ -12968,7 +12402,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PMBT2907A_NXP00648]
 symbol=pnp.sym
 value=QPMBT2907A
@@ -12986,8 +12419,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMBT2907_PMBT2907A_5.pdf
 description=PNP switching transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [PMBT2907_NXP00649]
@@ -13007,8 +12438,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMBT2907_PMBT2907A_5.pdf
 description=PNP switching transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# .ENDS statement in model without subcircuit
-
 
 
 [PMBT3904_NXP00650]
@@ -13030,8 +12459,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-
 [PMBT3906_NXP00651]
 symbol=pnp.sym
 value=QPMBT3906
@@ -13049,8 +12476,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMBT3906_N_5.pdf
 description=PNP switching transistor
 test_refdes=Q1
 model_status_broken=gnucap_0.35
-# unknown parameter B=1
-
+test_comment=unknown parameter B=1
 
 
 [PMBT4401_NXP00652]
@@ -13072,7 +12498,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PMBT4403_NXP00653]
 symbol=pnp.sym
 value=QPMBT4403
@@ -13090,7 +12515,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMBT4403_4.pdf
 description=PNP switching transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS statement
+test_comment=wrong .ENDS statement
 
 
 [PMBT5401_NXP00654]
@@ -13112,7 +12537,6 @@ test_refdes=Q1
 model_status_good=gnucap_0.35
 
 
-
 [PMBT5550_NXP00655]
 symbol=npn.sym
 value=QPMBT5550
@@ -13130,7 +12554,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMBT5550_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS statement
 
 
 [PMBT5551_NXP00656]
@@ -13150,7 +12573,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMBT5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS statement
 
 
 [PMBT6429_NXP00657]
@@ -13172,7 +12594,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PMBTA06_NXP00658]
 symbol=npn.sym
 value=PMBTA06
@@ -13190,7 +12611,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMBTA06_5.pdf
 description=NPN general purpose transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PMBTA13_NXP00659]
@@ -13212,7 +12632,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PMBTA14_NXP00660]
 symbol=npn_darlington.sym
 value=PMBTA14
@@ -13232,8 +12651,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PMBTA42DS_NXP00661]
 symbol=.sym
 value=PMBTA42DS
@@ -13251,7 +12668,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMBTA42DS_1.pdf
 description=NPN/NPN high-voltage double transistors
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PMBTA42_NXP00662]
@@ -13273,7 +12690,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PMBTA64_NXP00663]
 symbol=pnp_darlington.sym
 value=PMBTA64
@@ -13291,7 +12707,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMBTA64_6.pdf
 description=PNP Darlington transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PMBTA92_NXP00664]
@@ -13313,7 +12728,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PMMT491A_NXP00665]
 symbol=npn.sym
 value=PMMT491A
@@ -13331,7 +12745,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMMT491A_5.pdf
 description=NPN BISS transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PMMT591A_NXP00666]
@@ -13353,7 +12766,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PMSS3906_NXP00667]
 symbol=pnp.sym
 value=QPMSS3906
@@ -13371,8 +12783,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMSS3906_4.pdf
 description=PNP switching transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS statement
-
 
 
 [PMST2222A_NXP00668]
@@ -13392,8 +12802,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMST2222_2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS statement
-
 
 
 [PMST2222_NXP00669]
@@ -13413,8 +12821,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMST2222_2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS statement
-
 
 
 [PMST2369_NXP00670]
@@ -13434,8 +12840,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMST2369_3.pdf
 description=NPN switching transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS statement
-
 
 
 [PMST2907A_NXP00671]
@@ -13455,8 +12859,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMST2907A_3.pdf
 description=PNP switching transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS statement
-
 
 
 [PMST4403_NXP00672]
@@ -13476,8 +12878,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMST4403_3.pdf
 description=PNP switching transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS statement
-
 
 
 [PMST5088_NXP00673]
@@ -13497,8 +12897,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMST5088_5089_3.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS statement
-
 
 
 [PMST5089_NXP00674]
@@ -13518,8 +12916,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMST5088_5089_3.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS statement
-
 
 
 [PMST5401_NXP00675]
@@ -13541,7 +12937,6 @@ test_refdes=Q1
 model_status_good=gnucap_0.35
 
 
-
 [PMST5550_NXP00676]
 symbol=npn.sym
 value=QPMST5550
@@ -13559,8 +12954,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMST5550_5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS statement
-
 
 
 [PMST5551_NXP00677]
@@ -13580,8 +12973,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMST5550_5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
 model_status_good=gnucap_0.35
-# wrong .ENDS statement
-
 
 
 [PMST6429_NXP00678]
@@ -13603,7 +12994,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PMSTA42_NXP00679]
 symbol=npn.sym
 value=PMSTA42
@@ -13621,7 +13011,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PMSTA42_43_2.pdf
 description=NPN high-voltage transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PMSTA92_NXP00680]
@@ -13643,8 +13032,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PSSI2021SAY_NXP00681]
 symbol=.sym
 value=PSSI2021SAY
@@ -13662,7 +13049,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PSSI2021SAY_2.pdf
 description=constant current source in SOT353
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PSSI3120_NXP00682]
@@ -13684,8 +13071,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PUMB13_NXP00683]
 symbol=.sym
 value=PUMB13
@@ -13703,10 +13088,9 @@ documentation=
 description=2 pnp transistors with buildin resistors
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMB14_NXP00684]
 symbol=.sym
 value=PUMB14
@@ -13724,10 +13108,9 @@ documentation=
 description=2 pnp transistors with base resistors
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMB19_NXP00685]
 symbol=.sym
 value=PUMB19
@@ -13747,8 +13130,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PUMB1_NXP00686]
 symbol=.sym
 value=PUMB1
@@ -13768,8 +13149,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PUMB24_NXP00687]
 symbol=.sym
 value=PUMB24
@@ -13789,8 +13168,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PUMB30_NXP00688]
 symbol=.sym
 value=PUMB30
@@ -13808,10 +13185,9 @@ documentation=
 description=2 pnp transistors with base resistors
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMB9_NXP00689]
 symbol=.sym
 value=PUMB9
@@ -13829,10 +13205,9 @@ documentation=
 description=2 pnp transistors with buildin resistors
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMD14_NXP00690]
 symbol=.sym
 value=PUMD14
@@ -13850,10 +13225,9 @@ documentation=
 description=2 pnp transistors with base resistors
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMD18_NXP00691]
 symbol=.sym
 value=PUMD18
@@ -13871,10 +13245,9 @@ documentation=
 description=2 pnp transistors with buildin resistors
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMD19_NXP00692]
 symbol=.sym
 value=PUMD19
@@ -13892,10 +13265,9 @@ documentation=
 description=2 pnp transistors with base resistors
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMD20_NXP00693]
 symbol=.sym
 value=PUMD20
@@ -13913,10 +13285,9 @@ documentation=
 description=2 npn transistors with buildin resistors
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMD24_NXP00694]
 symbol=.sym
 value=PUMD24
@@ -13934,10 +13305,9 @@ documentation=
 description=2 npn transistors with buildin resistors
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMD2_NXP00695]
 symbol=.sym
 value=PUMD2
@@ -13955,10 +13325,9 @@ documentation=
 description=2 npn transistors with buildin resistors
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMD30_NXP00696]
 symbol=.sym
 value=PUMD30
@@ -13976,10 +13345,9 @@ documentation=
 description=2 npn transistors with base resistors
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMF11_NXP00697]
 symbol=.sym
 value=PUMF11
@@ -13997,10 +13365,9 @@ documentation=
 description=pnp transistor and npn transistor with resistors
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMH13_NXP00698]
 symbol=.sym
 value=PUMH13
@@ -14018,10 +13385,9 @@ documentation=
 description=2 npn transistors with buildin resistors
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMH30_NXP00699]
 symbol=.sym
 value=PUMH30
@@ -14039,7 +13405,7 @@ documentation=
 description=2 npn transistors with base resistors
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PUMT1_NXP00700]
@@ -14061,7 +13427,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PUMX1_NXP00701]
 symbol=.sym
 value=PUMX1
@@ -14081,8 +13446,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PUMX2_NXP00702]
 symbol=.sym
 value=PUMX2
@@ -14100,7 +13463,7 @@ documentation=
 description=2 npn transistors
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PUMZ1_NXP00703]
@@ -14122,8 +13485,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PUMZ2_NXP00704]
 symbol=.sym
 value=PUMZ2
@@ -14141,7 +13502,7 @@ documentation=
 description=npn/pnp transistors
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PXTA14_NXP00705]
@@ -14161,8 +13522,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PXTA14_4.pdf
 description=NPN Darlington transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-# missing connection between nodes 33 and 333
-
+test_comment=missing connection between nodes 33 and 333
 
 
 [PXTA42_NXP00706]
@@ -14184,7 +13544,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PXTA92_NXP00707]
 symbol=pnp.sym
 value=PXTA92
@@ -14202,7 +13561,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PXTA92_4.pdf
 description=PNP high-voltage transistor
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PZTA14_NXP00708]
@@ -14224,7 +13582,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PZTA42_NXP00709]
 symbol=npn.sym
 value=PZTA42
@@ -14244,8 +13601,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 4 connections
 [PZTA44_NXP00710]
 symbol=.sym
 value=PZTA44
@@ -14263,10 +13618,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZTA44_4.pdf
 description=NPN high-voltage transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 4 connections
 
 
-
-# Subcircuit with 4 connections
 [PZTA92_NXP00711]
 symbol=.sym
 value=PZTA92
@@ -14284,7 +13638,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZTA92_3.pdf
 description=PNP high-voltage transistor
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 4 connections
 
 
 [PBSS4520X_NXP00712]
@@ -14306,8 +13660,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-
 [PBHV8115T_NXP00713]
 symbol=npn.sym
 value=PBHV8115T
@@ -14325,8 +13677,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBHV8115T_1.pdf
 description=150V, 1A NPN high-voltage low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_broken=gnucap_0.35
-#node 333 is not connected
-
+test_comment=node 333 is not connected
 
 
 [PBHV8115Z_NXP00714]
@@ -14348,7 +13699,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PBHV8540T_NXP00715]
 symbol=npn.sym
 value=PBHV8540T
@@ -14366,8 +13716,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBHV8540T_1.pdf
 description=500V, 0.5A NPN high-voltage low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_broken=gnucap_0.35
-#node 333 is not connected
-
+test_comment=node 333 is not connected
 
 
 [PBHV8540Z_NXP00716]
@@ -14389,7 +13738,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PBHV9040T_NXP00717]
 symbol=pnp.sym
 value=PBHV9040T
@@ -14407,8 +13755,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBHV9040T_1.pdf
 description=500V, 0.25A PNP high-voltage low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_broken=gnucap_0.35
-# node 333 is not connected
-
+test_comment=node 333 is not connected
 
 
 [PBRP113ET_NXP00718]
@@ -14430,7 +13777,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBRP113ZT_NXP00719]
 symbol=pnp_bin.sym
 value=PBRP113ZT
@@ -14448,7 +13794,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBRP113ZT_1.pdf
 description=PNP 800mA, 40V BISS RET; R1=1kOhm, R2=10kOhm
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBRP123ET_NXP00720]
@@ -14470,7 +13815,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PBRP123YT_NXP00721]
 symbol=pnp_bin.sym
 value=PBRP123YT
@@ -14488,7 +13832,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBRP123YT_1.pdf
 description=PNP 800mA, 40V BISS RET; R1=2.2kOhm, R2=10kOhm
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PBSS301NZ_NXP00722]
@@ -14510,7 +13853,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PBSS301PZ_NXP00723]
 symbol=
 value=PBSS301PZ
@@ -14528,7 +13870,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS301PZ_1.pdf
 description=12V, 5.7A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PBSS302NZ_NXP00724]
@@ -14550,7 +13891,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PBSS302PZ_NXP00725]
 symbol=
 value=PBSS302PZ
@@ -14568,7 +13908,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS302PZ_1.pdf
 description=20V, 5.5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PBSS303NZ_NXP00726]
@@ -14590,7 +13929,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PBSS303PZ_NXP00727]
 symbol=
 value=PBSS303PZ
@@ -14608,7 +13946,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS303PZ_1.pdf
 description=30V, 5.3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PBSS304NZ_NXP00728]
@@ -14630,7 +13967,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PBSS304PZ_NXP00729]
 symbol=
 value=PBSS304PZ
@@ -14648,7 +13984,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS304PZ_1.pdf
 description=60V, 4.5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PBSS305NZ_NXP00730]
@@ -14670,7 +14005,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PBSS305PZ_NXP00731]
 symbol=
 value=PBSS305PZ
@@ -14688,7 +14022,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS305PZ_1.pdf
 description=80V, 4.5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PBSS306NZ_NXP00732]
@@ -14710,7 +14043,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PBSS306PZ_NXP00733]
 symbol=
 value=PBSS306PZ
@@ -14728,8 +14060,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PBSS306PZ_1.pdf
 description=100V, 4.1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
 model_status_undefined=
-
-
 
 
 [2PB709ARL_NXP00734]
@@ -14751,7 +14081,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [2PB709ASL_NXP00735]
 symbol=pnp.sym
 value=2PB709ASL
@@ -14769,7 +14098,6 @@ description=45 V, 100 mA PNP general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PB709AXL_1.pdf
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [2PB710ARL_NXP00736]
@@ -14791,7 +14119,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [2PB710ASL_NXP00737]
 symbol=pnp.sym
 value=2PB710ASL
@@ -14809,7 +14136,6 @@ description=50 V, 500 mA PNP general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PB710AXL_1.pdf
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [2PD601ARL_NXP00738]
@@ -14831,7 +14157,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [2PD601ASL_NXP00739]
 symbol=npn.sym
 value=2PD601ASL
@@ -14849,7 +14174,6 @@ description=50 V, 100 mA NPN general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PD601AXL_1.pdf
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [2PD602AQL_NXP00740]
@@ -14871,7 +14195,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [2PD602ARL_NXP00741]
 symbol=npn.sym
 value=2PD602ARL
@@ -14889,7 +14212,6 @@ description=50 V, 500 mA NPN general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PD602AXL_1.pdf
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [2PD602ASL_NXP00742]
@@ -14911,8 +14233,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [BC817DPN_NXP00743]
 symbol=.sym
 value=BC817DPN
@@ -14930,10 +14250,9 @@ description=NPN/PNP general purpose transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BC817DPN_2.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [BC817DS_NXP00744]
 symbol=.sym
 value=BC817DS
@@ -14951,7 +14270,7 @@ description=NPN general purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BC817DS_2.pdf
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [BC859BW_NXP00745]
@@ -14973,7 +14292,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BC859CW_NXP00746]
 symbol=pnp.sym
 value=BC859CW
@@ -14991,7 +14309,6 @@ description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BC859W_860W_4.pdf
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [BC860B_NXP00747]
@@ -15013,8 +14330,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 4 connections
 [BCV62_NXP00748]
 symbol=.sym
 value=BCV62
@@ -15032,10 +14347,9 @@ description=PNP general purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 4 connections
 
 
-
-# Subcircuit with 4 connections
 [BCV64B_NXP00749]
 symbol=.sym
 value=BCV64B
@@ -15053,7 +14367,7 @@ description=PNP general purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BCV64B_3.pdf
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 4 connections
 
 
 [BCW61B_NXP00750]
@@ -15075,7 +14389,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BCW61C_NXP00751]
 symbol=pnp.sym
 value=BCW61C
@@ -15093,7 +14406,6 @@ description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BCW61_3.pdf
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [BCW61D_NXP00752]
@@ -15115,7 +14427,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BCW69_NXP00753]
 symbol=pnp.sym
 value=BCW69
@@ -15133,7 +14444,6 @@ description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BCW69_BCW70_4.pdf
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [BCW70_NXP00754]
@@ -15155,7 +14465,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BCW89_NXP00755]
 symbol=pnp.sym
 value=BCW89
@@ -15175,7 +14484,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [BF720_NXP00756]
 symbol=npn.sym
 value=BF720
@@ -15193,8 +14501,7 @@ description=NPN high voltage transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BF720_722_3.pdf
 test_refdes=X1
 model_status_broken=gnucap_0.35
-# model parameter without leading "+"
-
+test_comment=model parameter without leading "+"
 
 
 [BF722_NXP00757]
@@ -15214,11 +14521,9 @@ description=NPN high voltage transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BF720_722_3.pdf
 test_refdes=X1
 model_status_broken=gnucap_0.35
-# model parameter without leading "+"
+test_comment=model parameter without leading "+"
 
 
-
-# Subcircuit with 4 connections
 [PBHV9040Z_NXP00758]
 symbol=.sym
 value=PBHV9040Z
@@ -15238,7 +14543,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PBHV9115T_NXP00759]
 symbol=pnp.sym
 value=PBHV9115T
@@ -15256,11 +14560,9 @@ description=150 V, 1 A PNP high-voltage low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV9115T_2.pdf
 test_refdes=X1
 model_status_broken=gnucap_0.35
-# nodes 22 and 222 not connected?
+test_comment=nodes 22 and 222 not connected?
 
 
-
-# Subcircuit with 4 connections
 [PBHV9115Z_NXP00760]
 symbol=.sym
 value=PBHV9115Z
@@ -15278,10 +14580,9 @@ description=150 V, 1 A PNP high-voltage low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV9115Z_2.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 4 connections
 
 
-
-# Subcircuit with 4 connections
 [PBSS5330X_NXP00761]
 symbol=.sym
 value=PBSS5330X
@@ -15299,7 +14600,7 @@ description=30 V, 3 A PNP low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5330X_3.pdf
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 4 connections
 
 
 [PDTA123YE_NXP00762]
@@ -15321,7 +14622,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PDTA123YM_NXP00763]
 symbol=pnp_bin.sym
 value=PDTA123YM
@@ -15339,7 +14639,6 @@ description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PDTA123YU_NXP00764]
@@ -15361,8 +14660,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PEMB2_NXP00765]
 symbol=.sym
 value=PEMB2
@@ -15380,10 +14677,9 @@ description=PNP/PNP resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB2_PUMB2_2.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD12_NXP00766]
 symbol=.sym
 value=PEMD12
@@ -15401,10 +14697,9 @@ description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD12_PUMD12_3.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD3_NXP00767]
 symbol=.sym
 value=PEMD3
@@ -15422,10 +14717,9 @@ description=NPN/PNP resistor-equipped transistors; R1=10k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD3_PIMD3_PUMD3_9.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD48_NXP00768]
 symbol=.sym
 value=PEMD48
@@ -15443,10 +14737,9 @@ description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k and R1=2.2k, R
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD48_PUMD48_4.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD6_NXP00769]
 symbol=.sym
 value=PEMD6
@@ -15464,10 +14757,9 @@ description=NPN/PNP resistor-equipped transistors; R1=4.7k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD6_PUMD6_4.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMD9_NXP00770]
 symbol=.sym
 value=PEMD9
@@ -15485,10 +14777,9 @@ description=NPN/PNP resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD9_PUMD9_5.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMH9_NXP00771]
 symbol=.sym
 value=PEMH9
@@ -15506,10 +14797,9 @@ description=NPN/NPN resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PIMH9_PUMH9_PEMH9_4.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PEMT1_NXP00772]
 symbol=.sym
 value=PEMT1
@@ -15527,10 +14817,9 @@ description=PNP general purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PEMT1_2.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PIMH9_NXP00773]
 symbol=.sym
 value=PIMH9
@@ -15548,7 +14837,7 @@ description=NPN/NPN resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PIMH9_PUMH9_PEMH9_4.pdf
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PMBS3904_NXP00774]
@@ -15570,7 +14859,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PMBS3906_NXP00775]
 symbol=pnp.sym
 value=PMBS3906
@@ -15588,11 +14876,9 @@ description=PNP general purpose transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBS3906_5.pdf
 test_refdes=X1
 model_status_broken=gnucap_0.35
-# model parameter "+" missing
+test_comment=model parameter "+" missing
 
 
-
-# Subcircuit with 6 connections
 [PMBT3904YS_NXP00776]
 symbol=.sym
 value=PMBT3904YS
@@ -15610,10 +14896,9 @@ description=40 V, 200 mA NPN/NPN general-purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3904YS_1.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PMBT3906YS_NXP00777]
 symbol=.sym
 value=PMBT3906YS
@@ -15631,10 +14916,9 @@ description=40 V, 200 mA PNP/PNP general-purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3906YS_2.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PMBT3946YPN_NXP00778]
 symbol=.sym
 value=PMBT3946YPN
@@ -15652,7 +14936,7 @@ description=40 V, 200 mA NPN/PNP general-purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3946YPN_1.pdf
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 6 connections
 
 
 [PMBTA44_NXP00779]
@@ -15672,8 +14956,7 @@ description=400 V, 0.3 A NPN high-voltage low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA44_1.pdf
 test_refdes=X1
 model_status_broken=gnucap_0.35
-# nodes 222 and 22 not connected?
-
+test_comment=nodes 222 and 22 not connected?
 
 
 [PMST3904_NXP00780]
@@ -15695,7 +14978,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
 [PMST3906_NXP00781]
 symbol=pnp.sym
 value=PMST3906
@@ -15713,7 +14995,6 @@ description=40 V, 200 mA PNP switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMST3906_5.pdf
 test_refdes=X1
 model_status_good=gnucap_0.35
-
 
 
 [PMST4401_NXP00782]
@@ -15735,8 +15016,6 @@ test_refdes=X1
 model_status_good=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [PUMB11_NXP00783]
 symbol=.sym
 value=PUMB11
@@ -15754,10 +15033,9 @@ description=PNP/PNP resistor-equipped transistors; R1 = 10 kOhm, R2 = 10 kOhm
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB11_PUMB11_2.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMB2_NXP00784]
 symbol=.sym
 value=PUMB2
@@ -15775,10 +15053,9 @@ description=PNP/PNP resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB2_PUMB2_2.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMB3_NXP00785]
 symbol=.sym
 value=PUMB3
@@ -15796,10 +15073,9 @@ description=PNP/PNP resistor-equipped transistors; R1=4.7k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB3_PUMB3_2.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMB4_NXP00786]
 symbol=.sym
 value=PUMB4
@@ -15817,10 +15093,9 @@ description=PNP/PNP resistor-equipped transistors; R1=10k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB4_PUMB4_4.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMD10_NXP00787]
 symbol=.sym
 value=PUMD10
@@ -15838,10 +15113,9 @@ description=NPN/PNP resistor-equipped transistors; R1=2.2k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD10_PUMD10_5.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMD12_NXP00788]
 symbol=.sym
 value=PUMD12
@@ -15861,8 +15135,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PUMD13_NXP00789]
 symbol=.sym
 value=PUMD13
@@ -15880,10 +15152,9 @@ description=NPN/PNP resistor-equipped transistors; R1=4.7k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD13_PUMD13_2.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMD3_NXP00790]
 symbol=.sym
 value=PUMD3
@@ -15901,10 +15172,9 @@ description=NPN/PNP resistor-equipped transistors; R1=10k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD3_PIMD3_PUMD3_9.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMD48_NXP00791]
 symbol=.sym
 value=PUMD48
@@ -15922,10 +15192,9 @@ description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k and R1=2.2k, R
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD48_PUMD48_4.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMD6_NXP00792]
 symbol=.sym
 value=PUMD6
@@ -15943,10 +15212,9 @@ description=NPN/PNP resistor-equipped transistors; R1=4.7k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD6_PUMD6_4.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMD9_NXP00793]
 symbol=.sym
 value=PUMD9
@@ -15964,10 +15232,9 @@ description=NPN/PNP resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD9_PUMD9_5.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMH1_NXP00794]
 symbol=.sym
 value=PUMH1
@@ -15985,10 +15252,9 @@ description=NPN/NPN resistor-equipped transistors; R1=22k, R2=22k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH1_PUMH1_4.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMH10_NXP00795]
 symbol=.sym
 value=PUMH10
@@ -16006,10 +15272,9 @@ description=NPN/NPN resistor-equipped transistors; R1=2.2k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH10_PUMH10_2.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMH11_NXP00796]
 symbol=.sym
 value=PUMH11
@@ -16027,10 +15292,9 @@ description=NPN/NPN resistor-equipped transistors; R1=10k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH11_PUMH11_5.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMH2_NXP00797]
 symbol=.sym
 value=PUMH2
@@ -16048,10 +15312,9 @@ description=NPN/NPN resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH2_PUMH2_3.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMH4_NXP00798]
 symbol=.sym
 value=PUMH4
@@ -16069,10 +15332,9 @@ description=NPN/NPN resistor-equipped transistors; R1=10k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH4_PUMH4_5.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMH7_NXP00799]
 symbol=.sym
 value=PUMH7
@@ -16090,10 +15352,9 @@ description=NPN/NPN resistor-equipped transistors; R1=4.7k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH7_PUMH7_3.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 6 connections
 [PUMH9_NXP00800]
 symbol=.sym
 value=PUMH9
@@ -16111,10 +15372,9 @@ description=NPN/NPN resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PIMH9_PUMH9_PEMH9_4.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 6 connections
 
 
-
-# Subcircuit with 4 connections
 [PXT4401_NXP00801]
 symbol=.sym
 value=PXT4401
@@ -16132,10 +15392,9 @@ description=NPN switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PXT4401_4.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 4 connections
 
 
-
-# Subcircuit with 4 connections
 [PXT4403_NXP00802]
 symbol=.sym
 value=PXT4403
@@ -16153,10 +15412,9 @@ description=PNP switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PXT4403_4.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=Subcircuit with 4 connections
 
 
-
-# Subcircuit with 4 connections
 [PZT2222A_NXP00803]
 symbol=.sym
 value=PZT2222A
@@ -16174,7 +15432,7 @@ description=NPN switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PZT2222A_3.pdf
 test_refdes=X1
 model_status_undefined=
-
+test_comment=Subcircuit with 4 connections
 
 
 [PZT2907A_NXP00804]
@@ -16194,8 +15452,7 @@ description=PNP switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PZT2907A_3.pdf
 test_refdes=X1
 model_status_broken=gnucap_0.35
-# model parameter "+" missing
-
+test_comment=model parameter "+" missing
 
 
 [PZT4401_NXP00805]
@@ -16215,8 +15472,7 @@ description=NPN switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PZT4401_1.pdf
 test_refdes=X1
 model_status_broken=gnucap_0.35
-# model parameter "+" missing
-
+test_comment=model parameter "+" missing
 
 
 [PZT4403_NXP00806]
@@ -16236,7 +15492,7 @@ description=PNP switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PZT4403_N_2.pdf
 test_refdes=X1
 model_status_broken=gnucap_0.35
-# model parameter "+" missing
+test_comment=model parameter "+" missing
 
 
 [BC847BPN_NXP00807]
@@ -16257,6 +15513,7 @@ description=NPN/PNP general purpose transistor
 test_refdes=Q1
 model_status_undefined=
 
+
 [BC847BVN_NXP00808]
 symbol=pnp.sym
 value=QBC847BVN_PNP
@@ -16274,4 +15531,5 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC847BVN_2.pdf
 description=NPN/PNP general purpose transistor
 test_refdes=Q1
 model_status_undefined=
+
 
