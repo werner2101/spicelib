@@ -99,9 +99,12 @@ class SpicelibTestGui:
             status = gtk.Entry()
             self.testwidgets[(sim,'status')] = status
             table.attach(status,n,n+1,1,2)
+            rating = gtk.Entry()
+            self.testwidgets[(sim,'rating')] = rating
+            table.attach(rating,n,n+1,2,3)
             for m,action in enumerate(['good', 'broken','view']):
                 button = gtk.Button(action)
-                table.attach(button,n,n+1,2+m,3+m)
+                table.attach(button,n,n+1,3+m,4+m)
                 button.connect('clicked', self.callback_simulator_action, (sim,action))
         vbox2.pack_start(table, False, False, 5)
         
@@ -136,8 +139,10 @@ class SpicelibTestGui:
     def callback_test(self, widget, data=None):
         path = self.model_tree.get_cursor()[0]
         model = self.model_list[path][0]
+        (start,end) = self.device_text_buffer.get_bounds()
+        self.library.set_devicetext(model, self.device_text_buffer.get_text(start,end))
         self.library.test_single(model)
-        self.update_teststatus()
+        self.callback_select(self.model_tree)
 
     def callback_move(self, widget, data):
         path = self.model_tree.get_cursor()[0]
@@ -150,10 +155,9 @@ class SpicelibTestGui:
         sim, action = data
         path = self.model_tree.get_cursor()[0]
         device = self.model_list[path][0]
-        if action == 'broken':
-            print sim, action, device
-        elif action == 'good':
-            print sim, action, device
+        if action in  ['broken', 'good']:
+            self.library.set_model_status(device, sim, action)
+            self.callback_select(self.model_tree)
         elif action == 'view':
             resultfile = os.path.join(self.library.testdir, device,
                                       SIMULATORS[sim]['folder'], 'index.html')
@@ -191,14 +195,13 @@ class SpicelibTestGui:
             self.entry_checksum.set_text('None')
             self.entry_checksum.modify_base(gtk.STATE_NORMAL,
                                             gtk.gdk.color_parse("#FFFFFF"))
-
-    def out_of_range(self):
-        d = gtk.MessageDialog(parent=self.window, flags=gtk.DIALOG_MODAL,
-                              type=gtk.MESSAGE_ERROR, buttons=gtk.BUTTONS_CLOSE,
-                              message_format='Point number out of range')
-
-        d.run()
-        d.destroy()
+        # rating
+        for sim in SIMULATORS:
+            s = self.library.get_model_status(device,sim)
+            c = COLORS.get(s,'#777777')
+            self.testwidgets[(sim,'rating')].set_text(s)
+            self.testwidgets[(sim,'rating')].modify_base(gtk.STATE_NORMAL,
+                                                         gtk.gdk.color_parse(c))
 
     def delete_event(self, widget, event, data=None):
         return False

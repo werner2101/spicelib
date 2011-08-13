@@ -110,6 +110,24 @@ class SimulatorError(Exception):
 
 #################### CLASSES
 
+class MyConfigParser(ConfigParser.SafeConfigParser):
+    def __init__(self):
+        ConfigParser.SafeConfigParser.__init__(self)
+
+    def write(self, fp):
+        """create my own write function as the config parser
+        adds whitespices around the delimiter"""
+        for section in self._sections:
+            fp.write("[%s]\n" % section)
+            for key, value in self._sections[section].items():
+                if key == '__name__':
+                    continue
+                if value is None:
+                    value = ""
+                fp.write("%s=%s\n" %(key, value))
+            fp.write("\n\n")
+            
+
 class modelpart(object):
     def __new__(cls, name, testdir, modeldir, properties):
         d = dict(properties)
@@ -227,7 +245,7 @@ class modelpartBase(object):
 
     def cfg_status(self):
         self.update_checksum()
-        status = ConfigParser.RawConfigParser()
+        status = MyConfigParser()
         status.add_section('checksum')
         status.set('checksum','checksum',self.checksum_status)
         status.add_section('simulators')
@@ -252,7 +270,7 @@ class modelpartBase(object):
         repl["checksum_test"] = self.checksum_status
         repl["checksum_test_color"] = color(self.checksum_status)
 
-        status = ConfigParser.RawConfigParser()
+        status = MyConfigParser()
         statusfile = os.path.join(self.testdir, 'status.cfg')
         if os.path.exists(statusfile):
             status.read(statusfile)
@@ -989,9 +1007,9 @@ class modellibrary(object):
         self.test_library_index()
 
     def load_library_index(self):
-        self.index = ConfigParser.ConfigParser()
-        print self.indexfilename
-        #TODO: check that indexfilename exists
+        self.index = MyConfigParser()
+        if not os.path.exists(self.indexfilename):
+            raise IOError('File "%s" does not exist' % self.indexfilename)
         self.index.read(self.indexfilename)
         self.testdir = self.index.get("GLOBAL","TESTDIR")
         self.modeldir = self.index.get("GLOBAL","MODELDIR")
@@ -1003,10 +1021,13 @@ class modellibrary(object):
         for sec in self.index.sections():
             if sec == "GLOBAL":
                 continue
-            part = modelpart(sec, self.testdir + sec, self.modeldir, self.index.items(sec))
-            modelpath = self.modeldir + part.properties['file']
-            part.golden_checksum = self.golden_md5.get(modelpath, False)
-            self.modelparts[part.name] = part
+            self.load_device(sec)
+
+    def load_device(self, sec):
+        part = modelpart(sec, self.testdir + sec, self.modeldir, self.index.items(sec))
+        modelpath = self.modeldir + part.properties['file']
+        part.golden_checksum = self.golden_md5.get(modelpath, False)
+        self.modelparts[part.name] = part
 
     def test_library_index(self):
         """
@@ -1117,7 +1138,16 @@ class modellibrary(object):
         return text
 
     def set_devicetext(self, partname, text):
-        pass
+        opts = set(self.index.options(partname))
+        for line in text.split('\n'):
+            option, value = line.split('=',1)
+            self.index.set(partname, option, value)
+            if option in opts:
+                opts.remove(option)
+        for o in opts:
+            self.index.remove_option(partname, o)
+        self.load_device(partname)
+        self.index.write(open(self.indexfilename, 'wb'))
 
     def get_modeltext(self, partname):
         filename = self.index.get(partname, 'file')
@@ -1132,6 +1162,50 @@ class modellibrary(object):
         
         self.golden_md5[modelfile] = part.golden_checksum
         self.save_md5sums()
+
+    def set_model_status(self, partname, sim, status):
+        if status == 'good':
+            if self.index.has_option(partname, 'model_status_good'):
+                good = self.index.get(partname, 'model_status_good')
+                if sim not in good:
+                    self.index.set(partname,'model_status_good', good + ' ' + sim)
+            else:
+                self.index.set(partname,'model_status_good', sim)
+            if self.index.has_option(partname, 'model_status_broken'):
+                broken = self.index.get(partname, 'model_status_broken')
+                if sim in broken:
+                    broken_new = broken.replace(sim,'').strip()
+                    if len(broken_new):
+                        self.index.set(partname, 'model_status_broken', broken_new)
+                    else:
+                        self.index.remove_option(partname, 'model_status_broken')
+        elif status == 'broken':
+            if self.index.has_option(partname, 'model_status_broken'):
+                broken = self.index.get(partname, 'model_status_broken')
+                if sim not in broken:
+                    self.index.set(partname,'model_status_broken', broken + ' ' + sim)
+            else:
+                self.index.set(partname,'model_status_broken', sim)
+            if self.index.has_option(partname, 'model_status_good'):
+                good = self.index.get(partname, 'model_status_good')
+                if sim in good:
+                    good_new = good.replace(sim,'').strip()
+                    if len(good_new):
+                        self.index.set(partname, 'model_status_good', good_new)
+                    else:
+                        self.index.remove_option(partname, 'model_status_good')
+
+        if status in ['broken', 'good']:
+            if self.index.has_option(partname, 'model_status_test'):
+                self.index.remove_option(partname, 'model_status_test')
+            if self.index.has_option(partname, 'model_status_undefined'):
+                self.index.remove_option(partname, 'model_status_undefined')
+
+        self.load_device(partname)
+        self.index.write(open(self.indexfilename, 'wb'))
+
+    def get_model_status(self, partname, sim):
+        return self.modelparts[partname].model_status(sim)
         
         
 
