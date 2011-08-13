@@ -1,10 +1,12 @@
 #!/usr/bin/python
 
-import sys
+import sys, os
+import ConfigParser
 import pygtk
 pygtk.require('2.0')
 import gtk
 
+from spicelibconf import *
 import testlibrary
 
 
@@ -75,23 +77,51 @@ class SpicelibTestGui:
         scroll3.add(self.device_text)
 
         ## tester buttons
+        button_prev = gtk.Button("<<")
+        button_prev.connect("clicked", self.callback_move, -1)
+        button_next = gtk.Button(">>")
+        button_next.connect("clicked", self.callback_move, +1)
         button_test = gtk.Button("test model definition")
         button_test.connect("clicked", self.callback_test, None)
-        vbox2.pack_start(button_test, False, False, 5)
+        hbox_test = gtk.HBox()
+        hbox_test.pack_start(button_prev, False, False, 0)
+        hbox_test.pack_start(button_test, True, True, 0)
+        hbox_test.pack_start(button_next, False, False, 0)
+        vbox2.pack_start(hbox_test, False, False, 5)
 
+
+        ## simulator action buttons in a widget table
+        self.testwidgets = {}
+        table = gtk.Table(5,len(SIMULATORS))
+        for n, sim in enumerate(SIMULATORS):
+            headline = gtk.Label(sim + ':')
+            table.attach(headline,n,n+1,0,1)
+            status = gtk.Entry()
+            self.testwidgets[(sim,'status')] = status
+            table.attach(status,n,n+1,1,2)
+            for m,action in enumerate(['good', 'broken','view']):
+                button = gtk.Button(action)
+                table.attach(button,n,n+1,2+m,3+m)
+                button.connect('clicked', self.callback_simulator_action, (sim,action))
+        vbox2.pack_start(table, False, False, 5)
+        
         ## update checksum button
-        button_sign = gtk.Button('update library golden checksum')
+        hbox2 = gtk.HBox()
+        vbox2.pack_start(hbox2, False, False, 5)
+        self.entry_checksum = gtk.Entry()
+        hbox2.pack_start(self.entry_checksum, True, True, 5)
+        button_sign = gtk.Button('sign checksum')
         button_sign.connect("clicked", self.callback_sign, None)
-        vbox2.pack_start(button_sign, False, False, 5)
+        hbox2.pack_start(button_sign, True, True, 5)
 
-        ## html status widget in the bottom
+        ## logging window in the bottom
         # TBD
 
         # The final step is to display this newly created widgets
         self.window.show_all()
 
     def load_models(self):
-        for model in sorted(self.library.modelparts.keys()):
+        for model in self.library.get_devices():
             self.model_list.append([model])
 
     def callback_select(self, treeview, data=None):
@@ -101,16 +131,66 @@ class SpicelibTestGui:
         self.device_text_buffer.set_text(devicetext)
         modeltext = self.library.get_modeltext(device)
         self.model_text_buffer.set_text(modeltext)
+        self.update_teststatus()
 
     def callback_test(self, widget, data=None):
         path = self.model_tree.get_cursor()[0]
         model = self.model_list[path][0]
         self.library.test_single(model)
+        self.update_teststatus()
 
+    def callback_move(self, widget, data):
+        path = self.model_tree.get_cursor()[0]
+        newnr = path[0] + data
+        if newnr >= 0 and newnr < len(self.model_list):
+           self.model_tree.set_cursor((newnr,))
+        
+
+    def callback_simulator_action(self, widget, data):
+        sim, action = data
+        path = self.model_tree.get_cursor()[0]
+        device = self.model_list[path][0]
+        if action == 'broken':
+            print sim, action, device
+        elif action == 'good':
+            print sim, action, device
+        elif action == 'view':
+            resultfile = os.path.join(self.library.testdir, device,
+                                      SIMULATORS[sim]['folder'], 'index.html')
+            os.system('firefox '+resultfile)
 
     def callback_sign(self, widget, data=None):
-        print 'callback_sign'
+        path = self.model_tree.get_cursor()[0]
+        device = self.model_list[path][0]
+        self.library.sign_checksum(device)
 
+
+    def update_teststatus(self):
+        path = self.model_tree.get_cursor()[0]
+        device = self.model_list[path][0]
+        statusfile = os.path.join(self.library.testdir, device, 'status.cfg')
+        if os.path.exists(statusfile):
+            status = ConfigParser.RawConfigParser()
+            status.read(statusfile)
+            for sim in SIMULATORS:
+                s = status.get('simulators', sim)
+                self.testwidgets[(sim,'status')].set_text(s)
+                c = COLORS.get(s,'#777777')
+                self.testwidgets[(sim,'status')].modify_base(gtk.STATE_NORMAL,
+                                                             gtk.gdk.color_parse(c))
+            s = status.get('checksum','checksum')
+            self.entry_checksum.set_text('checksum=' + s)
+            c = COLORS.get(s,'#777777')
+            self.entry_checksum.modify_base(gtk.STATE_NORMAL,
+                                            gtk.gdk.color_parse(c))
+        else:
+            for sim in SIMULATORS:
+                self.testwidgets[(sim,'status')].set_text('None')
+                self.testwidgets[(sim,'status')].modify_base(gtk.STATE_NORMAL,
+                                                             gtk.gdk.color_parse("#FFFFFF"))
+            self.entry_checksum.set_text('None')
+            self.entry_checksum.modify_base(gtk.STATE_NORMAL,
+                                            gtk.gdk.color_parse("#FFFFFF"))
 
     def out_of_range(self):
         d = gtk.MessageDialog(parent=self.window, flags=gtk.DIALOG_MODAL,

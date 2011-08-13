@@ -38,17 +38,6 @@ ROW_TEMPLATES = {
 <td bgcolor="$model_status_color">$model_status</td>"""
 }
 
-COLORS = {"broken": "#FF3F3F",
-          "good": "#7FFF7F",
-          "---": "#CFCFCF",
-          "test": "#FFFF7F",
-          "missing1": "#FFFF7F",
-          "missing2": "#FFFF7F",
-          "failed": "#FF3F3F",
-          "succeeded": "#7FFF7F",
-          "NIY": "#CFCFCF",
-          "undefined": "#CFCFCF",
-          "default": "#FFFFFF"}
 
 TESTDEFS = {"npn.sym": { "dir" : BASE_DIR + "testcircuits/npn_bipolar/",
                          "schematics" : ["dc_current_gain.sch",
@@ -1051,6 +1040,11 @@ class modellibrary(object):
             md5[tok[1]] = tok[0]
         return md5
 
+    def save_md5sums(self):
+        fid = open(BASE_DIR + self.index.get("GLOBAL","GOLDEN_CHECKSUMS"),'wb')
+        for k,v in sorted(self.golden_md5.items()):
+            fid.write(v + '  ' + k + '\n')
+
     def test(self, status=None, checksum=None):
         partnames = self.modelparts.keys()
         partnames.sort(sort_modelnumber)
@@ -1112,17 +1106,33 @@ class modellibrary(object):
         part.cfg_status()
         print "Result: ", part.test_status, "\n"
 
+    def get_devices(self):
+        partnames = self.modelparts.keys()
+        partnames.sort(sort_modelnumber)
+        return partnames
+
     def get_devicetext(self, partname):
         items = self.index.items(partname)
         text = '\n'.join(['='.join([a,b]) for a,b in items])
         return text
 
+    def set_devicetext(self, partname, text):
+        pass
+
     def get_modeltext(self, partname):
         filename = self.index.get(partname, 'file')
         return open(os.path.join(self.modeldir, filename)).read()
 
-    def set_modeltext(self, partname, text):
-        pass
+    def sign_checksum(self, partname):
+        part = self.modelparts[partname]
+        part.update_checksum()
+        part.golden_checksum = part.current_checksum
+        part.update_checksum()
+        modelfile = os.path.join(part.modeldir, part.properties['file'])
+        
+        self.golden_md5[modelfile] = part.golden_checksum
+        self.save_md5sums()
+        
         
 
 #################### FUNCTIONS
