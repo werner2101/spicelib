@@ -23,7 +23,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1576_5.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PA1576R_NXP00002]
@@ -42,7 +42,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1576_5.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PA1576S_NXP00003]
@@ -80,7 +80,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1774M_SERIES_1.pdf
 description=PNP general purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PA1774Q_NXP00005]
@@ -99,7 +99,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1774_4.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PA1774RM_NXP00006]
@@ -118,7 +118,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1774M_SERIES_1.pdf
 description=PNP general purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PA1774R_NXP00007]
@@ -137,7 +137,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1774_4.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PA1774SM_NXP00008]
@@ -156,7 +156,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1774M_SERIES_1.pdf
 description=PNP general purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PA1774S_NXP00009]
@@ -175,7 +175,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PA1774_4.pdf
 description=PNP general-purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PB1424_NXP00010]
@@ -194,7 +194,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PB1424_2.pdf
 description=20 V, 3 A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PB709AR_NXP00011]
@@ -213,7 +213,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/2PB709A_4.pdf
 description=45 V, 100 mA PNP general-purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PB709ART_NXP00012]
@@ -232,7 +232,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PB709ART_1.pdf
 description=45 V, 100 mA PNP general-purpose transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PB709ARW_NXP00013]
@@ -251,7 +251,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PB709AXW_SERIES_1.pdf
 description=PNP general purpose transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PC4081Q_NXP00014]
@@ -270,7 +270,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PC4081_5.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PC4081R_NXP00015]
@@ -289,7 +289,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PC4081_5.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PC4081S_NXP00016]
@@ -308,7 +308,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PC4081_5.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PC4617Q_NXP00017]
@@ -327,7 +327,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/2PC4617_4.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PC4617R_NXP00018]
@@ -346,7 +346,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/2PC4617_4.pdf
 description=NPN general-purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PD2150_NXP00019]
@@ -365,7 +365,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PD2150_2.pdf
 description=20V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PD601AR_NXP00020]
@@ -384,7 +384,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PD601A_SER_6.pdf
 description=NPN general purpose transistors; 50 V, 100 mA
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PD601ART_NXP00021]
@@ -403,7 +403,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PD601ART_1.pdf
 description=50V, 100mA NPN general-purpose transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PD601ARW_NXP00022]
@@ -422,7 +422,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PD601A_SER_6.pdf
 description=NPN general purpose transistors; 50V, 100mA
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC327-25_NXP00023]
@@ -441,7 +441,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45V, 500mA PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC327-40_NXP00024]
@@ -460,7 +460,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45V, 500mA PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC327_NXP00025]
@@ -479,7 +479,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45V, 500mA PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC337-16_NXP00026]
@@ -498,7 +498,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC337-25_NXP00027]
@@ -517,7 +517,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45V, 500mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC337-40_NXP00028]
@@ -536,7 +536,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45V, 500mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC368_NXP00029]
@@ -555,7 +555,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCP68_4.pdf
 description=NPN medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC369_NXP00030]
@@ -574,7 +574,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC369_5.pdf
 description=PNP medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC546A_NXP00031]
@@ -593,7 +593,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC846_BC546_SER_6.pdf
 description=65V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC546B_NXP00032]
@@ -612,7 +612,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC846_BC546_SER_6.pdf
 description=65V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC547B_NXP00033]
@@ -631,7 +631,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC848_SER_6.pdf
 description=30V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC547C_NXP00034]
@@ -650,7 +650,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC556A_NXP00035]
@@ -669,7 +669,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC556_557_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC556B_NXP00036]
@@ -688,7 +688,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC556_557_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC557B_NXP00037]
@@ -707,7 +707,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC556_557_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC557C_NXP00038]
@@ -726,7 +726,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC556_557_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC807-25_NXP00039]
@@ -745,7 +745,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC807-25W_NXP00040]
@@ -764,7 +764,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC807-40_NXP00041]
@@ -783,7 +783,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC807-40W_NXP00042]
@@ -802,7 +802,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC807_NXP00043]
@@ -821,7 +821,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC807W_NXP00044]
@@ -840,7 +840,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC807_BC807W_BC327_5.pdf
 description=45 V, 500 mA PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC817-16_NXP00045]
@@ -859,7 +859,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC817-16W_NXP00046]
@@ -878,7 +878,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC817-25_NXP00047]
@@ -897,7 +897,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC817-25W_NXP00048]
@@ -916,7 +916,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC817-40_NXP00049]
@@ -935,7 +935,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC817-40W_NXP00050]
@@ -954,7 +954,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC817_NXP00051]
@@ -973,7 +973,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC817W_NXP00052]
@@ -992,7 +992,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC817_BC817W_BC337_5.pdf
 description=45 V, 500 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC846A_NXP00053]
@@ -1011,7 +1011,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC846AT_NXP00054]
@@ -1030,7 +1030,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC846AW_NXP00055]
@@ -1049,7 +1049,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC846B_NXP00056]
@@ -1068,7 +1068,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC846BT_NXP00057]
@@ -1087,7 +1087,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC846BW_NXP00058]
@@ -1106,7 +1106,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846_BC546_SER_6.pdf
 description=65 V, 100 mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC846_NXP00059]
@@ -1125,7 +1125,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC846_BC546_SER_6.pdf
 description=65V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC846S_NXP00060]
@@ -1144,6 +1144,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC846S_2.pdf
 description=NPN general purpose double transistor
 test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC846W_NXP00061]
@@ -1162,7 +1163,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC846_BC546_SER_6.pdf
 description=65V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847A_NXP00062]
@@ -1181,7 +1182,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847AT_NXP00063]
@@ -1200,7 +1201,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847AW_NXP00064]
@@ -1219,7 +1220,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847BM_NXP00065]
@@ -1238,7 +1239,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847BPN_NXP00066]
@@ -1257,7 +1258,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847BPN_3.pdf
 description=NPN/PNP general purpose transistor
 test_refdes=Q1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847B_NXP00067]
@@ -1276,7 +1277,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847BS_NXP00068]
@@ -1295,7 +1296,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847BS_2.pdf
 description=NPN general purpose double transistor
 test_refdes=Q1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847BT_NXP00069]
@@ -1314,7 +1315,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847BVN_NXP00070]
@@ -1333,7 +1334,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847BVN_2.pdf
 description=NPN/PNP general purpose transistor
 test_refdes=Q1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847BV_NXP00071]
@@ -1352,7 +1353,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847BV_1.pdf
 description=NPN general purpose double transistor
 test_refdes=Q1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847BW_NXP00072]
@@ -1371,7 +1372,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847C_NXP00073]
@@ -1390,7 +1391,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847CT_NXP00074]
@@ -1409,7 +1410,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847CW_NXP00075]
@@ -1428,7 +1429,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=X1
-model_status_good=
+model_status_good= gnucap_0.35 ngspice_23
 
 
 [BC847_NXP00076]
@@ -1447,7 +1448,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847W_NXP00077]
@@ -1466,7 +1467,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC848B_NXP00078]
@@ -1485,7 +1486,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC848_SER_6.pdf
 description=30V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC848W_NXP00079]
@@ -1504,7 +1505,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat_download/datasheets/BC848_SER_6.pdf
 description=30V, 100mA NPN general-purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC856A_NXP00080]
@@ -1523,7 +1524,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC856AT_NXP00081]
@@ -1542,7 +1543,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC856AW_NXP00082]
@@ -1561,7 +1562,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC856B_NXP00083]
@@ -1580,7 +1581,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC856BT_NXP00084]
@@ -1599,7 +1600,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC856BW_NXP00085]
@@ -1618,7 +1619,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC856_NXP00086]
@@ -1637,7 +1638,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC856S_NXP00087]
@@ -1656,7 +1657,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856S_1.pdf
 description=PNP general purpose double transistor
 test_refdes=Q1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC856W_NXP00088]
@@ -1675,7 +1676,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857A_NXP00089]
@@ -1694,7 +1695,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857AT_NXP00090]
@@ -1713,7 +1714,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857AW_NXP00091]
@@ -1732,7 +1733,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857BM_NXP00092]
@@ -1751,7 +1752,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC857M_SERIES_2.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857B_NXP00093]
@@ -1770,7 +1771,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857BS_NXP00094]
@@ -1789,6 +1790,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC857BS_2.pdf
 description=PNP general purpose double transistor
 test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857BT_NXP00095]
@@ -1807,7 +1809,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857BV_NXP00096]
@@ -1826,6 +1828,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC857BV_2.pdf
 description=PNP general purpose double transistor
 test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857BW_NXP00097]
@@ -1844,7 +1847,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857C_NXP00098]
@@ -1863,7 +1866,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857CT_NXP00099]
@@ -1882,7 +1885,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856T_857T_SERIES_3.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857CW_NXP00100]
@@ -1901,7 +1904,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857_NXP00101]
