@@ -1429,7 +1429,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847_BC547_SER_6.pdf
 description=45V, 100mA NPN general-purpose transistors
 test_refdes=X1
-model_status_good= gnucap_0.35 ngspice_23
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847_NXP00076]
@@ -1923,7 +1923,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC857W_NXP00102]
@@ -1942,7 +1942,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC858B_NXP00103]
@@ -1961,7 +1961,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856_BC857_BC858_6.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC858W_NXP00104]
@@ -1980,7 +1980,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC856W_BC857W_BC858W_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC868_NXP00105]
@@ -1999,7 +1999,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC868_7.pdf
 description=NPN medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC869_NXP00106]
@@ -2018,7 +2018,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC869_6.pdf
 description=PNP medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCP51_NXP00107]
@@ -2037,7 +2037,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC636_BCP51_BCX51_7.pdf
 description=45V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCP52-16_NXP00108]
@@ -2056,7 +2056,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC638_BCP52_BCX52_7.pdf
 description=60V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCP53-16_NXP00109]
@@ -2075,15 +2075,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC640_BCP53_BCX53_7.pdf
 description=80V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCP54-16_NXP00110]
 symbol=npn.sym
-value=QBCP54_16
-modelname=QBCP54_16
+value=BCP54_16
+modelname=BCP54_16
 file=BCP54-16.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2093,16 +2093,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC635_BCP54_BCX54_7.pdf
 description=45V, 1A NPN medium power transistors
-test_refdes=Q1
-model_status_good=gnucap_0.35
+test_refdes=X1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCP55-16_NXP00111]
 symbol=npn.sym
-value=QBCP55_16
-modelname=QBCP55_16
+value=BCP55_16
+modelname=BCP55_16
 file=BCP55-16.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2112,16 +2112,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC637_BCP55_BCX55_7.pdf
 description=60V, 1A NPN medium power transistors
-test_refdes=Q1
-model_status_good=gnucap_0.35
+test_refdes=X1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCP56-16_NXP00112]
 symbol=npn.sym
-value=QBCP56_16
-modelname=QBCP56_16
+value=BCP56_16
+modelname=BCP56_16
 file=BCP56-16.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2131,8 +2131,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC639_BCP56_BCX56_8.pdf
 description=80V, 1A NPN medium power transistors
-test_refdes=Q1
-model_status_good=gnucap_0.35
+test_refdes=X1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCP68_NXP00113]
@@ -2151,7 +2151,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCP68_4.pdf
 description=NPN medium power transistor; 20V, 1A
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCP69_NXP00114]
@@ -2170,7 +2170,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCP69_5.pdf
 description=PNP medium power transistor; 20V, 1A
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCV26_NXP00115]
@@ -2189,7 +2189,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV26_BCV46_5.pdf
 description=PNP Darlington transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCV27_NXP00116]
@@ -2208,7 +2209,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV27_BCV47_5.pdf
 description=NPN Darlington transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCV28_NXP00117]
@@ -2227,7 +2229,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV28_48_5.pdf
 description=PNP Darlington transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCV29_NXP00118]
@@ -2246,7 +2249,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV29_49_6.pdf
 description=NPN Darlington transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=ngspice_23
+model_status_broken=gnucap_0.35
 
 
 [BCV46_NXP00119]
@@ -2265,7 +2269,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV26_BCV46_5.pdf
 description=PNP Darlington transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCV47_NXP00120]
@@ -2284,8 +2289,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV27_BCV47_5.pdf
 description=NPN Darlington transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
-test_comment=LE connected to the open node 333
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCV48_NXP00121]
@@ -2304,7 +2309,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV28_48_5.pdf
 description=PNP Darlington transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCV49_NXP00122]
@@ -2323,15 +2329,16 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV29_49_6.pdf
 description=NPN Darlington transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCV61A_NXP00123]
-symbol=.sym
-value=BCV61A
-modelname=BCV61A
+symbol=npn.sym
+value=QBCV61A
+modelname=QBCV61A
 file=BCV61A.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2341,17 +2348,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV61_3.pdf
 description=NPN general purpose double transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCV61B_NXP00124]
-symbol=.sym
-value=BCV61B
-modelname=BCV61B
+symbol=npn.sym
+value=QBCV61B
+modelname=QBCV61B
 file=BCV61B.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2361,17 +2367,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV61_3.pdf
 description=NPN general purpose double transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCV61C_NXP00125]
-symbol=.sym
-value=BCV61C
-modelname=BCV61C
+symbol=npn.sym
+value=QBCV61C
+modelname=QBCV61C
 file=BCV61C.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2381,17 +2386,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV61_3.pdf
 description=NPN general purpose double transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCV62A_NXP00126]
-symbol=.sym
-value=BCV62A
-modelname=BCV62A
+symbol=pnp.sym
+value=QBCV62A
+modelname=QBCV62A
 file=BCV62A.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2401,17 +2405,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
 description=PNP general purpose double transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+test_refdes=Q1
+model_status_good=ngspice_23 gnucap_0.35
 
 
 [BCV62B_NXP00127]
-symbol=.sym
-value=BCV62B
-modelname=BCV62B
+symbol=pnp.sym
+value=QBCV62B
+modelname=QBCV62B
 file=BCV62B.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2421,17 +2424,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
 description=PNP general purpose double transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCV62C_NXP00128]
-symbol=.sym
-value=BCV62C
-modelname=BCV62C
+symbol=pnp.sym
+value=QBCV62C
+modelname=QBCV62C
 file=BCV62C.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2441,15 +2443,14 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
 description=PNP general purpose double transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+test_refdes=Q1
+model_status_good=ngspice_23 gnucap_0.35
 
 
 [BCV65_NXP00129]
-symbol=.sym
-value=BCV65
-modelname=BCV65
+symbol=npn.sym
+value=QBCV65_NPN
+modelname=QBCV65_NPN
 file=BCV65.prm
 refdes=X?
 pinseq_c=1
@@ -2461,9 +2462,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV65_3.pdf
 description=NPN/PNP general purpose transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCW29_NXP00130]
@@ -2482,7 +2482,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCW29_BCW30_5.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCW30_NXP00131]
@@ -2501,7 +2501,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCW29_BCW30_5.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCX17_NXP00132]
@@ -2520,7 +2520,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX17_BCX18_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCX18_NXP00133]
@@ -2539,7 +2539,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX17_BCX18_4.pdf
 description=PNP general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCX19_NXP00134]
@@ -2558,7 +2558,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX19_5.pdf
 description=NPN general purpose transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCX51_NXP00135]
@@ -2577,7 +2577,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC636_BCP51_BCX51_7.pdf
 description=45V, 1A PNP medium power transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCX56_NXP00136]
@@ -2586,9 +2586,9 @@ value=BCX56
 modelname=BCX56
 file=BCX56.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -2596,8 +2596,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC639_BCP56_BCX56_8.pdf
 description=80V, 1A NPN medium power transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
-test_comment=trailing NPN at the Q1 definition wrong
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCX70G_NXP00137]
@@ -2616,7 +2615,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCX70H_NXP00138]
@@ -2635,7 +2634,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCX70J_NXP00139]
@@ -2654,7 +2653,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCX70K_NXP00140]
@@ -2673,7 +2672,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCX70_4.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF199_NXP00141]
@@ -2692,7 +2691,7 @@ footprint=none
 documentation=x
 description=x
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF240_NXP00142]
@@ -2711,7 +2710,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF240_5.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF324_NXP00143]
@@ -2730,15 +2729,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF324_3.pdf
 description=PNP medium frequency transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF370_NXP00144]
 symbol=npn.sym
-value=BF370
-modelname=BF370
+value=QBF370
+modelname=QBF370
 file=BF370.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2748,8 +2747,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF370_4.pdf
 description=NPN medium frequency transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF420_NXP00145]
@@ -2768,7 +2767,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF420_422_3.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF421_NXP00146]
@@ -2787,7 +2786,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF421_423_3.pdf
 description=PNP high voltage transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF422_NXP00147]
@@ -2806,7 +2805,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF420_422_3.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF423_NXP00148]
@@ -2825,7 +2824,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF421_423_3.pdf
 description=PNP high voltage transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF450_NXP00149]
@@ -2844,7 +2843,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF450_3.pdf
 description=PNP medium frequency transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF550_NXP00150]
@@ -2863,15 +2862,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF550_4.pdf
 description=PNP medium frequency transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF570_NXP00151]
 symbol=npn.sym
-value=BF570
-modelname=BF570
+value=QBF570
+modelname=QBF570
 file=BF570.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2881,8 +2880,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF570_4.pdf
 description=NPN medium frequency transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF620_NXP00152]
@@ -2901,15 +2900,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF620_622_4.pdf
 description=NPN high-voltage transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF621_NXP00153]
 symbol=pnp.sym
-value=BF621
-modelname=BF621
+value=QBF621
+modelname=QBF621
 file=BF621.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2919,8 +2918,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF621_623_4.pdf
 description=PNP high-voltage transistors
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF622_NXP00154]
@@ -2939,15 +2938,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF620_622_4.pdf
 description=NPN high-voltage transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF623_NXP00155]
 symbol=pnp.sym
-value=BF623
-modelname=BF623
+value=QBF623
+modelname=QBF623
 file=BF623.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2957,16 +2956,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF621_623_4.pdf
 description=PNP high-voltage transistors
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF723_NXP00156]
-symbol=.sym
-value=BF723
-modelname=BF723
+symbol=pnp.sym
+value=QBF723
+modelname=QBF723
 file=BF723.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -2976,9 +2975,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF723_3.pdf
 description=PNP high-voltage transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF820_NXP00157]
@@ -2997,7 +2995,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF820_BF822_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF820W_NXP00158]
@@ -3016,15 +3014,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF820W_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF821_NXP00159]
 symbol=pnp.sym
-value=BF821
-modelname=BF821
+value=QBF821
+modelname=QBF821
 file=BF821.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3034,8 +3032,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF821_BF823_4.pdf
 description=PNP high voltage transistors
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF822_NXP00160]
@@ -3054,15 +3052,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF820_BF822_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF823_NXP00161]
 symbol=pnp.sym
-value=BF823
-modelname=BF823
+value=QBF823
+modelname=QBF823
 file=BF823.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3072,16 +3070,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF821_BF823_4.pdf
 description=PNP high voltage transistors
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF824_NXP00162]
 symbol=pnp.sym
-value=BF824
-modelname=BF824
+value=QBF824
+modelname=QBF824
 file=BF824.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3091,8 +3089,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF824_4.pdf
 description=PNP medium frequency transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF824W_NXP00163]
@@ -3111,7 +3109,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF824W_3.pdf
 description=PNP medium frequency transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF840_NXP00164]
@@ -3130,7 +3128,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BF840_5.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BFS19_NXP00165]
@@ -3149,7 +3147,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BFS19_4.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BFS20_NXP00166]
@@ -3168,7 +3166,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BFS20_5.pdf
 description=NPN medium frequency transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BSP19_NXP00167]
@@ -3187,7 +3185,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP19_20_3.pdf
 description=NPN high-voltage transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BSP31_NXP00168]
@@ -3206,7 +3204,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP31_32_33_3.pdf
 description=PNP medium power transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BSP33_NXP00169]
@@ -3225,7 +3223,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP31_32_33_3.pdf
 description=PNP medium power transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BSP41_NXP00170]
@@ -3244,7 +3242,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP41_43_4.pdf
 description=NPN medium power transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BSP43_NXP00171]
@@ -3263,7 +3261,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP41_43_4.pdf
 description=NPN medium power transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BSP52_NXP00172]
@@ -3282,7 +3280,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP50_51_52_3.pdf
 description=NPN Darlington transistors with resistor and diode
 test_refdes=X1
-model_status_undefined=
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BSP62_NXP00173]
@@ -3301,7 +3300,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSP60_61_62_5.pdf
 description=PNP Darlington transistors with resistor and diode
 test_refdes=X1
-model_status_undefined=
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BSR14_NXP00174]
@@ -3320,7 +3320,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR13_BSR14_4.pdf
 description=NPN switching transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BSR16_NXP00175]
@@ -3339,7 +3339,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR15_BSR16_4.pdf
 description=PNP switching transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BSR19A_NXP00176]
@@ -3358,7 +3358,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR19_BSR19A_4.pdf
 description=NPN high voltage transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BSR31_NXP00177]
@@ -3377,7 +3377,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR30_31_33_4.pdf
 description=PNP medium power transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BSR33_NXP00178]
@@ -3396,7 +3396,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR30_31_33_4.pdf
 description=PNP medium power transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BSR41_NXP00179]
@@ -3415,7 +3415,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR40_41_42_43_4.pdf
 description=NPN medium power transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BSR43_NXP00180]
@@ -3434,7 +3434,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSR40_41_42_43_4.pdf
 description=NPN medium power transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BST39_NXP00181]
@@ -3453,7 +3453,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BST39-40_5.pdf
 description=NPN high-voltage transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BST52_NXP00182]
@@ -3472,7 +3472,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BST50_51_52_5.pdf
 description=NPN Darlington transistor with resistor and diode
 test_refdes=X1
-model_status_undefined=
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BST62_NXP00183]
@@ -3491,15 +3492,16 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BST60_61_62_5.pdf
 description=PNP Darlington transistor with resistor and diode
 test_refdes=X1
-model_status_undefined=
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BSV52_NXP00184]
 symbol=npn.sym
-value=BSV52
-modelname=BSV52
+value=QBSV52
+modelname=QBSV52
 file=BSV52.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3509,8 +3511,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BSV52_4.pdf
 description=NPN switching transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [MMBT2222A_NXP00185]
@@ -3529,7 +3531,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBT2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [MMBT3904_NXP00186]
@@ -3548,7 +3550,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBT3904_4.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [MMBT3906_NXP00187]
@@ -3567,15 +3569,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBT3906_2.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [MMBTA42_NXP00188]
 symbol=npn.sym
-value=MMBTA42
-modelname=MMBTA42
+value=QMMBTA42
+modelname=QMMBTA42
 file=MMBTA42.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3585,16 +3587,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBTA42_1.pdf
 description=NPN high-voltage transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [MMBTA92_NXP00189]
 symbol=pnp.sym
-value=MMBTA92
-modelname=MMBTA92
+value=QMMBTA92
+modelname=QMMBTA92
 file=MMBTA92.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3604,8 +3606,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MMBTA92_2.pdf
 description=PNP high-voltage transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [MPSA44_NXP00190]
@@ -3624,15 +3626,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MPSA42_43_5.pdf
 description=NPN high-voltage transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [MPSA56_NXP00191]
 symbol=pnp.sym
-value=MPSA56
-modelname=MPSA56
+value=QMPSA56
+modelname=QMPSA56
 file=MPSA56.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3642,16 +3644,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MPSA56_5.pdf
 description=PNP general purpose transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [MPSA92_NXP00192]
 symbol=pnp.sym
-value=MPSA92
-modelname=MPSA92
+value=QMPSA92
+modelname=QMPSA92
 file=MPSA92.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3661,8 +3663,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/MPSA92_5.pdf
 description=PNP high-voltage transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBRN113EK_NXP00193]
@@ -3681,7 +3683,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN113E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBRN113ES_NXP00194]
@@ -3700,7 +3702,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN113E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBRN113ET_NXP00195]
@@ -3709,9 +3711,9 @@ value=PBRN113ET
 modelname=PBRN113ET
 file=PBRN113ET.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -3719,7 +3721,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN113E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1, R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PBRN113ZK_NXP00196]
@@ -3738,7 +3741,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN113Z_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBRN113ZS_NXP00197]
@@ -3757,7 +3760,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN113Z_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBRN113ZT_NXP00198]
@@ -3766,9 +3769,9 @@ value=PBRN113ZT
 modelname=PBRN113ZT
 file=PBRN113ZT.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -3776,7 +3779,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN113Z_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PBRN123EK_NXP00199]
@@ -3795,7 +3799,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN123E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBRN123ES_NXP00200]
@@ -3814,7 +3818,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN123E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBRN123ET_NXP00201]
@@ -3823,9 +3827,9 @@ value=PBRN123ET
 modelname=PBRN123ET
 file=PBRN123ET.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -3833,7 +3837,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN123E_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PBRN123YK_NXP00202]
@@ -3852,7 +3857,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN123Y_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBRN123YS_NXP00203]
@@ -3871,7 +3876,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN123Y_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBRN123YT_NXP00204]
@@ -3880,9 +3885,9 @@ value=PBRN123YT
 modelname=PBRN123YT
 file=PBRN123YT.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -3890,45 +3895,46 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRN123Y_SER_1.pdf
 description=NPN 800mA, 40V BISS RETs; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PBSS2515E_NXP00205]
 symbol=npn.sym
-value=PBSS2515E
-modelname=PBSS2515E
+value=QPBSS2515E
+modelname=QPBSS2515E
 file=PBSS2515E.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515E_1.pdf
 description=15V, 0.5A NPN low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS2515M_NXP00206]
 symbol=npn.sym
-value=PBSS2515M
-modelname=PBSS2515M
+value=QPBSS2515M
+modelname=QPBSS2515M
 file=PBSS2515M.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515M_3.pdf
 description=15V, 0.5A NPN low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS2515VPN_NXP00207]
@@ -3952,11 +3958,11 @@ test_comment=Subcircuit with 6 connections
 
 
 [PBSS2515VS_NXP00208]
-symbol=.sym
-value=PBSS2515VS
-modelname=PBSS2515VS
+symbol=npn.sym
+value=QPBSS2515VS
+modelname=QPBSS2515VS
 file=PBSS2515VS.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -3966,9 +3972,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS2515VS_3.pdf
 description=15V low VCEsat NPN double transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS2515YPN_NXP00209]
@@ -3997,9 +4002,9 @@ value=PBSS2540E
 modelname=PBSS2540E
 file=PBSS2540E.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -4007,49 +4012,49 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS2540E_1.pdf
 description=40V, 500mA NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS301NX_NXP00211]
 symbol=npn.sym
-value=PBSS301NX
-modelname=PBSS301NX
+value=QPBSS301NX
+modelname=QPBSS301NX
 file=PBSS301NX.prm
-refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS301NX_1.pdf
 description=12V, 5.3A NPN low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS301PX_NXP00212]
 symbol=pnp.sym
-value=PBSS301PX
-modelname=PBSS301PX
+value=QPBSS301PX
+modelname=QPBSS301PX
 file=PBSS301PX.prm
-refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS301PX_1.pdf
 description=12V, 5.3A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS302ND_NXP00213]
-symbol=.sym
+symbol=npn.sym
 value=PBSS302ND
 modelname=PBSS302ND
 file=PBSS302ND.prm
@@ -4064,31 +4069,30 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS302ND_1.pdf
 description=40V NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS302NX_NXP00214]
 symbol=npn.sym
-value=PBSS302NX
-modelname=PBSS302NX
+value=QPBSS302NX
+modelname=QPBSS302NX
 file=PBSS302NX.prm
-refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS302NX_1.pdf
 description=20V, 5.3A NPN low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS302PD_NXP00215]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS302PD
 modelname=PBSS302PD
 file=PBSS302PD.prm
@@ -4103,31 +4107,30 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS302PD_1.pdf
 description=40V PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections (4 collector pins)
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS302PX_NXP00216]
 symbol=pnp.sym
-value=PBSS302PX
-modelname=PBSS302PX
+value=QPBSS302PX
+modelname=QPBSS302PX
 file=PBSS302PX.prm
-refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS302PX_1.pdf
 description=20V, 5.1A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS303ND_NXP00217]
-symbol=.sym
+symbol=npn.sym
 value=PBSS303ND
 modelname=PBSS303ND
 file=PBSS303ND.prm
@@ -4142,7 +4145,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS303ND_1.pdf
 description=60V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS303NX_NXP00218]
@@ -4151,9 +4154,9 @@ value=PBSS303NX
 modelname=PBSS303NX
 file=PBSS303NX.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -4161,11 +4164,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS303NX_1.pdf
 description=30V, 5.1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS303PD_NXP00219]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS303PD
 modelname=PBSS303PD
 file=PBSS303PD.prm
@@ -4180,8 +4183,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS303PD_1.pdf
 description=60V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS303PX_NXP00220]
@@ -4190,9 +4192,9 @@ value=PBSS303PX
 modelname=PBSS303PX
 file=PBSS303PX.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -4200,11 +4202,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS303PX_1.pdf
 description=30V, 5.1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS304ND_NXP00221]
-symbol=.sym
+symbol=npn.sym
 value=PBSS304ND
 modelname=PBSS304ND
 file=PBSS304ND.prm
@@ -4219,8 +4221,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS304ND_1.pdf
 description=80V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS304NX_NXP00222]
@@ -4229,9 +4230,9 @@ value=PBSS304NX
 modelname=PBSS304NX
 file=PBSS304NX.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -4239,11 +4240,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS304NX_1.pdf
 description=60V, 4.7A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS304PD_NXP00223]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS304PD
 modelname=PBSS304PD
 file=PBSS304PD.prm
@@ -4258,8 +4259,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS304PD_1.pdf
 description=80V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS304PX_NXP00224]
@@ -4268,9 +4268,9 @@ value=PBSS304PX
 modelname=PBSS304PX
 file=PBSS304PX.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -4278,11 +4278,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS304PX_1.pdf
 description=60V, 4.2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS305ND_NXP00225]
-symbol=.sym
+symbol=npn.sym
 value=PBSS305ND
 modelname=PBSS305ND
 file=PBSS305ND.prm
@@ -4297,8 +4297,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS305ND_1.pdf
 description=100V, 3A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS305NX_NXP00226]
@@ -4307,9 +4306,9 @@ value=PBSS305NX
 modelname=PBSS305NX
 file=PBSS305NX.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -4317,11 +4316,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS305NX_1.pdf
 description=80V, 4.6A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS305PD_NXP00227]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS305PD
 modelname=PBSS305PD
 file=PBSS305PD.prm
@@ -4336,27 +4335,26 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS305PD_1.pdf
 description=100V, 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS305PX_NXP00228]
 symbol=pnp.sym
-value=PBSS305PX
-modelname=PBSS305PX
+value=QPBSS305PX
+modelname=QPBSS305PX
 file=PBSS305PX.prm
-refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS305PX_1.pdf
 description=80V, 4.0A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS306NX_NXP00229]
@@ -4365,9 +4363,9 @@ value=PBSS306NX
 modelname=PBSS306NX
 file=PBSS306NX.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -4375,7 +4373,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS306NX_1.pdf
 description=100V, 4.5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS306PX_NXP00230]
@@ -4384,9 +4382,9 @@ value=PBSS306PX
 modelname=PBSS306PX
 file=PBSS306PX.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -4394,53 +4392,53 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS306PX_1.pdf
 description=100V, 3.7A PNP low VCEsat(BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS3515E_NXP00231]
 symbol=pnp.sym
-value=PBSS3515E
-modelname=PBSS3515E
+value=QPBSS3515E
+modelname=QPBSS3515E
 file=PBSS3515E.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS3515E_1.pdf
 description=15V, 0.5A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS3515M_NXP00232]
 symbol=pnp.sym
-value=PBSS3515M
-modelname=PBSS3515M
+value=QPBSS3515M
+modelname=QPBSS3515M
 file=PBSS3515M.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS3515M_1.pdf
 description=15V, 0.5A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS3515VS_NXP00233]
-symbol=.sym
-value=PBSS3515VS
-modelname=PBSS3515VS
+symbol=pnp.sym
+value=QPBSS3515VS
+modelname=QPBSS3515VS
 file=PBSS3515VS.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4450,47 +4448,46 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS3515VS_3.pdf
 description=15V low VCEsat PNP double transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4120T_NXP00234]
 symbol=npn.sym
-value=PBSS4120T
-modelname=PBSS4120T
+value=QPBSS4120T
+modelname=QPBSS4120T
 file=PBSS4120T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4120T_1.pdf
 description=20V; 1A NPN low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4130T_NXP00235]
 symbol=npn.sym
-value=PBSS4130T
-modelname=PBSS4130T
+value=QPBSS4130T
+modelname=QPBSS4130T
 file=PBSS4130T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4130T_1.pdf
 description=30V; 1A NPN low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4140DPN_NXP00236]
@@ -4529,7 +4526,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140S_2.pdf
 description=40V low VCEsat NPN transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4140T_NXP00238]
@@ -4538,9 +4535,9 @@ value=PBSS4140T
 modelname=PBSS4140T
 file=PBSS4140T.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -4548,7 +4545,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140T_5.pdf
 description=40V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4140U_NXP00239]
@@ -4557,9 +4554,9 @@ value=PBSS4140U
 modelname=PBSS4140U
 file=PBSS4140U.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -4567,15 +4564,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140U_2.pdf
 description=40V Low VCEsat NPN Transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4140V_NXP00240]
-symbol=.sym
-value=PBSS4140V
-modelname=PBSS4140V
+symbol=npn.sym
+value=QPBSS4140V
+modelname=QPBSS4140V
 file=PBSS4140V.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4585,9 +4582,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4140V_2.pdf
 description=40V low VCEsat NPN transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4160DPN_NXP00241]
@@ -4611,7 +4607,7 @@ test_comment=Subcircuit with 6 connections
 
 
 [PBSS4160DS_NXP00242]
-symbol=.sym
+symbol=npn.sym
 value=PBSS4160DS
 modelname=PBSS4160DS
 file=PBSS4160DS.prm
@@ -4626,8 +4622,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160DS_3.pdf
 description=60V, 1A NPN/NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=ngspice_23 gnucap_0.35
 
 
 [PBSS4160K_NXP00243]
@@ -4646,7 +4641,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160K_2.pdf
 description=60V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4160T_NXP00244]
@@ -4655,9 +4650,9 @@ value=PBSS4160T
 modelname=PBSS4160T
 file=PBSS4160T.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -4665,7 +4660,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160T_2.pdf
 description=60V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4160U_NXP00245]
@@ -4674,9 +4669,9 @@ value=PBSS4160U
 modelname=PBSS4160U
 file=PBSS4160U.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -4684,11 +4679,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4160U_2.pdf
 description=60V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4220V_NXP00246]
-symbol=.sym
+symbol=npn.sym
 value=PBSS4220V
 modelname=PBSS4220V
 file=PBSS4220V.prm
@@ -4703,27 +4698,26 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4220V_1.pdf
 description=20V, 2A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4230T_NXP00247]
 symbol=npn.sym
-value=PBSS4230T
-modelname=PBSS4230T
+value=QPBSS4230T
+modelname=QPBSS4230T
 file=PBSS4230T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4230T_1.pdf
 description=30V; 2A NPN low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4240DPN_NXP00248]
@@ -4748,29 +4742,29 @@ test_comment=Subcircuit with 6 connections
 
 [PBSS4240T_NXP00249]
 symbol=npn.sym
-value=PBSS4240T
-modelname=PBSS4240T
+value=QPBSS4240T
+modelname=QPBSS4240T
 file=PBSS4240T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240T_2.pdf
 description=40V; 2A NPN low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4240V_NXP00250]
-symbol=.sym
-value=PBSS4240V
-modelname=PBSS4240V
+symbol=npn.sym
+value=QPBSS4240V
+modelname=QPBSS4240V
 file=PBSS4240V.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4780,17 +4774,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240V_1.pdf
 description=40V low VCEsat NPN transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4240Y_NXP00251]
-symbol=.sym
-value=PBSS4240Y
-modelname=PBSS4240Y
+symbol=npn.sym
+value=QPBSS4240Y
+modelname=QPBSS4240Y
 file=PBSS4240Y.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -4800,70 +4793,69 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4240Y_1.pdf
 description=40V low VCEsat NPN transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4320T_NXP00252]
 symbol=npn.sym
-value=PBSS4320T
-modelname=PBSS4320T
+value=QPBSS4320T
+modelname=QPBSS4320T
 file=PBSS4320T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4320T_2.pdf
 description=20V NPN low VCEsat transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4320X_NXP00253]
 symbol=npn.sym
-value=PBSS4320X
-modelname=PBSS4320X
+value=QPBSS4320X
+modelname=QPBSS4320X
 file=PBSS4320X.prm
-refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4320X_3.pdf
 description=20V, 3A NPN low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4330X_NXP00254]
 symbol=npn.sym
-value=PBSS4330X
-modelname=PBSS4330X
+value=QPBSS4330X
+modelname=QPBSS4330X
 file=PBSS4330X.prm
-refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4330X_3.pdf
 description=30V, 3A NPN low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4350D_NXP00255]
-symbol=.sym
+symbol=npn.sym
 value=PBSS4350D
 modelname=PBSS4350D
 file=PBSS4350D.prm
@@ -4878,8 +4870,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350D_3.pdf
 description=50V low VCEsat NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4350S_NXP00256]
@@ -4898,30 +4889,30 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350S_2.pdf
 description=50V low VCEsat NPN transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4350T_NXP00257]
 symbol=npn.sym
-value=PBSS4350T
-modelname=PBSS4350T
+value=QPBSS4350T
+modelname=QPBSS4350T
 file=PBSS4350T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350T_2.pdf
 description=50V; 3A NPN low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4350Z_NXP00258]
-symbol=.sym
+symbol=npn.sym
 value=PBSS4350Z
 modelname=PBSS4350Z
 file=PBSS4350Z.prm
@@ -4936,12 +4927,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4350Z_3.pdf
 description=50V low VCEsat NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+model_status_good=ngspice_23 gnucap_0.35
 
 
 [PBSS4420D_NXP00259]
-symbol=.sym
+symbol=npn.sym
 value=PBSS4420D
 modelname=PBSS4420D
 file=PBSS4420D.prm
@@ -4956,12 +4946,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4420D_1.pdf
 description=20V, 4A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4440D_NXP00260]
-symbol=.sym
+symbol=npn.sym
 value=PBSS4440D
 modelname=PBSS4440D
 file=PBSS4440D.prm
@@ -4976,8 +4965,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4440D_1.pdf
 description=40V NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4540X_NXP00261]
@@ -4986,9 +4974,9 @@ value=PBSS4540X
 modelname=PBSS4540X
 file=PBSS4540X.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -4996,16 +4984,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4540X_3.pdf
 description=40V, 5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
-test_comment=model call does not match model definitions
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4540Z_NXP00262]
-symbol=.sym
+symbol=npn.sym
 value=PBSS4540Z
 modelname=PBSS4540Z
 file=PBSS4540Z.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -5015,46 +5002,46 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4540Z_3.pdf
 description=40V low VCEsat NPN transistor
-test_refdes=Q1
-model_status_undefined=
+test_refdes=X1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5120T_NXP00263]
 symbol=pnp.sym
-value=PBSS5120T
-modelname=PBSS5120T
+value=QPBSS5120T
+modelname=QPBSS5120T
 file=PBSS5120T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5120T_1.pdf
 description=20V; 1A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5130T_NXP00264]
 symbol=pnp.sym
-value=PBSS5130T
-modelname=PBSS5130T
+value=QPBSS5130T
+modelname=QPBSS5130T
 file=PBSS5130T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5130T_1.pdf
 description=30V; 1A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5140S_NXP00265]
@@ -5073,53 +5060,53 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140S_2.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5140T_NXP00266]
 symbol=pnp.sym
-value=PBSS5140T
-modelname=PBSS5140T
+value=QPBSS5140T
+modelname=QPBSS5140T
 file=PBSS5140T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140T_3.pdf
 description=40V low VCEsat PNP transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5140U_NXP00267]
 symbol=pnp.sym
-value=PBSS5140U
-modelname=PBSS5140U
+value=QPBSS5140U
+modelname=QPBSS5140U
 file=PBSS5140U.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140U_2.pdf
 description=40V low VCEsat PNP transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5140V_NXP00268]
-symbol=.sym
-value=PBSS5140V
-modelname=PBSS5140V
+symbol=pnp.sym
+value=QPBSS5140V
+modelname=QPBSS5140V
 file=PBSS5140V.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -5129,13 +5116,12 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5140V_2.pdf
 description=40V low VCEsat PNP transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5160DS_NXP00269]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS5160DS
 modelname=PBSS5160DS
 file=PBSS5160DS.prm
@@ -5150,8 +5136,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160DS_2.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5160K_NXP00270]
@@ -5170,7 +5155,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160K_2.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 test_comment=model statement has leading Asterisk "*"
 
 
@@ -5180,9 +5165,9 @@ value=PBSS5160T
 modelname=PBSS5160T
 file=PBSS5160T.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -5190,7 +5175,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160T_2.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5160U_NXP00272]
@@ -5199,9 +5184,9 @@ value=PBSS5160U
 modelname=PBSS5160U
 file=PBSS5160U.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -5209,17 +5194,16 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160U_3.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
-test_comment=model definition has leading asterisk "*"
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5160V_NXP00273]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS5160V
 modelname=PBSS5160V
 file=PBSS5160V.prm
 refdes=X?
-pinseq_c=
+pinseq_c=1
 pinseq_b=2
 pinseq_e=3
 pinnr_c=C
@@ -5229,35 +5213,34 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5160V_2.pdf
 description=60V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5220T_NXP00274]
 symbol=pnp.sym
-value=PBSS5220T
-modelname=PBSS5220T
+value=QPBSS5220T
+modelname=QPBSS5220T
 file=PBSS5220T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5220T_1.pdf
 description=20V; 2A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5220V_NXP00275]
-symbol=.sym
-value=PBSS5220V
-modelname=PBSS5220V
+symbol=pnp.sym
+value=QPBSS5220V
+modelname=QPBSS5220V
 file=PBSS5220V.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -5267,55 +5250,54 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5220V_2.pdf
 description=20V, 2A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5230T_NXP00276]
 symbol=pnp.sym
-value=PBSS5230T
-modelname=PBSS5230T
+value=QPBSS5230T
+modelname=QPBSS5230T
 file=PBSS5230T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5230T_1.pdf
 description=30V; 2A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5240T_NXP00277]
 symbol=pnp.sym
-value=PBSS5240T
-modelname=PBSS5240T
+value=QPBSS5240T
+modelname=QPBSS5240T
 file=PBSS5240T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5240T_2.pdf
 description=40V, 2A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5240V_NXP00278]
-symbol=.sym
-value=PBSS5240V
-modelname=PBSS5240V
+symbol=pnp.sym
+value=QPBSS5240V
+modelname=QPBSS5240V
 file=PBSS5240V.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -5325,17 +5307,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5240V_1.pdf
 description=40V low VCEsat PNP transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5240Y_NXP00279]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS5240Y
-modelname=PBSS5240Y
+modelname=QPBSS5240Y
 file=PBSS5240Y.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -5345,28 +5326,27 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5240Y_2.pdf
 description=40V low VCEsat PNP transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5250T_NXP00280]
 symbol=pnp.sym
 value=PBSS5250T
-modelname=PBSS5250T
+modelname=QPBSS5250T
 file=PBSS5250T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5250T_1.pdf
 description=50V; 2A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5250X_NXP00281]
@@ -5375,9 +5355,9 @@ value=PBSS5250X
 modelname=PBSS5250X
 file=PBSS5250X.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -5385,15 +5365,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5250X_2.pdf
 description=50V, 2A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5320D_NXP00282]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS5320D
-modelname=PBSS5320D
+modelname=QPBSS5320D
 file=PBSS5320D.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -5403,51 +5383,50 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5320D_1.pdf
 description=20V low VCEsat PNP transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5320T_NXP00283]
 symbol=pnp.sym
 value=PBSS5320T
-modelname=PBSS5320T
+modelname=QPBSS5320T
 file=PBSS5320T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5320T_2.pdf
 description=20V, 3A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5320X_NXP00284]
 symbol=pnp.sym
 value=PBSS5320X
-modelname=PBSS5320X
+modelname=QPBSS5320X
 file=PBSS5320X.prm
-refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5320X_3.pdf
 description=20V, 3A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5350D_NXP00285]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS5350D
 modelname=PBSS5350D
 file=PBSS5350D.prm
@@ -5462,8 +5441,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350D_4.pdf
 description=50V low VCEsat PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=ngspice_23 gnucap_0.35
 
 
 [PBSS5350S_NXP00286]
@@ -5482,26 +5460,26 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350S_2.pdf
 description=50V low VCEsat PNP transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5350T_NXP00287]
 symbol=pnp.sym
 value=PBSS5350T
-modelname=PBSS5350T
+modelname=QPBSS5350T
 file=PBSS5350T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350T_2.pdf
 description=50V, 3A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5350X_NXP00288]
@@ -5510,9 +5488,9 @@ value=PBSS5350X
 modelname=PBSS5350X
 file=PBSS5350X.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -5520,7 +5498,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350X_3.pdf
 description=50V, 3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5350Z_NXP00289]
@@ -5529,8 +5507,8 @@ value=PBSS5350Z
 modelname=PBSS5350Z
 file=PBSS5350Z.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=1
+pinseq_c=1
+pinseq_b=2
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
@@ -5539,11 +5517,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5350Z_4.pdf
 description=50V low VCEsat PNP transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5420D_NXP00290]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS5420D
 modelname=PBSS5420D
 file=PBSS5420D.prm
@@ -5558,12 +5536,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5420D_1.pdf
 description=20V, 4A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5440D_NXP00291]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS5440D
 modelname=PBSS5440D
 file=PBSS5440D.prm
@@ -5578,31 +5555,30 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5440D_1.pdf
 description=40V PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5540X_NXP00292]
 symbol=pnp.sym
 value=PBSS5540X
-modelname=PBSS5540X
+modelname=QPBSS5540X
 file=PBSS5540X.prm
-refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5540X_3.pdf
 description=40V, 5A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5540Z_NXP00293]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS5540Z
 modelname=PBSS5540Z
 file=PBSS5540Z.prm
@@ -5617,8 +5593,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5540Z_4.pdf
 description=40V low VCEsat PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS8110AS_NXP00294]
@@ -5637,12 +5612,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110AS_3.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
-test_comment=asterisk in front of the subckt definition
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS8110D_NXP00295]
-symbol=.sym
+symbol=npn.sym
 value=PBSS8110D
 modelname=PBSS8110D
 file=PBSS8110D.prm
@@ -5657,8 +5631,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110D_1.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS8110T_NXP00296]
@@ -5667,9 +5640,9 @@ value=PBSS8110T
 modelname=PBSS8110T
 file=PBSS8110T.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -5677,7 +5650,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110T_2.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS8110X_NXP00297]
@@ -5686,9 +5659,9 @@ value=PBSS8110X
 modelname=PBSS8110X
 file=PBSS8110X.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -5696,11 +5669,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110X_1.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS8110Y_NXP00298]
-symbol=.sym
+symbol=npn.sym
 value=PBSS8110Y
 modelname=PBSS8110Y
 file=PBSS8110Y.prm
@@ -5715,8 +5688,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110Y_1.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS8110Z_NXP00299]
@@ -5725,8 +5697,8 @@ value=PBSS8110Z
 modelname=PBSS8110Z
 file=PBSS8110Z.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=1
+pinseq_c=1
+pinseq_b=2
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
@@ -5735,8 +5707,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110Z_2.pdf
 description=100V, 1A NPN low VCesat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=npn transistor with 4 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS9110AS_NXP00300]
@@ -5755,11 +5726,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110AS_2.pdf
 description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS9110D_NXP00301]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS9110D
 modelname=PBSS9110D
 file=PBSS9110D.prm
@@ -5774,8 +5745,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110D_2.pdf
 description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS9110S_NXP00302]
@@ -5794,7 +5764,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110S_2.pdf
 description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS9110T_NXP00303]
@@ -5803,9 +5773,9 @@ value=PBSS9110T
 modelname=PBSS9110T
 file=PBSS9110T.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -5813,7 +5783,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110T_3.pdf
 description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS9110X_NXP00304]
@@ -5822,9 +5792,9 @@ value=PBSS9110X
 modelname=PBSS9110X
 file=PBSS9110X.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -5832,11 +5802,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110X_1.pdf
 description=100V, 1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS9110Y_NXP00305]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS9110Y
 modelname=PBSS9110Y
 file=PBSS9110Y.prm
@@ -5851,16 +5821,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS9110Y_1.pdf
 description=100V, 1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS9110Z_NXP00306]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS9110Z
 modelname=PBSS9110Z
 file=PBSS9110Z.prm
-refdes=Q?
+refdes=X?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -5870,9 +5839,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS8110Z_2.pdf
 description=100V, 1A NPN low VCesat (BISS) transistor
-test_refdes=Q1
-model_status_undefined=
-test_comment=subckt has 4 pins; asterisk in front of the subckt definition
+test_refdes=X1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA113EE_NXP00307]
@@ -5881,9 +5849,9 @@ value=PDTA113EE
 modelname=PDTA113EE
 file=PDTA113EE.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -5891,7 +5859,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTA113EK_NXP00308]
@@ -5910,7 +5879,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA113EM_NXP00309]
@@ -5919,9 +5888,9 @@ value=PDTA113EM
 modelname=PDTA113EM
 file=PDTA113EM.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -5929,7 +5898,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PDTA113ES_NXP00310]
@@ -5948,7 +5917,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA113ET_NXP00311]
@@ -5957,9 +5926,9 @@ value=PDTA113ET
 modelname=PDTA113ET
 file=PDTA113ET.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -5967,7 +5936,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTA113EU_NXP00312]
@@ -5986,7 +5956,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113E_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTA113ZE_NXP00313]
@@ -5995,9 +5966,9 @@ value=PDTA113ZE
 modelname=PDTA113ZE
 file=PDTA113ZE.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -6005,7 +5976,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PDTA113ZK_NXP00314]
@@ -6014,9 +5986,9 @@ value=PDTA113ZK
 modelname=PDTA113ZK
 file=PDTA113ZK.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -6024,7 +5996,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PDTA113ZM_NXP00315]
@@ -6033,9 +6006,9 @@ value=PDTA113ZM
 modelname=PDTA113ZM
 file=PDTA113ZM.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -6043,7 +6016,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PDTA113ZS_NXP00316]
@@ -6062,7 +6036,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA113ZT_NXP00317]
@@ -6071,9 +6045,9 @@ value=PDTA113ZT
 modelname=PDTA113ZT
 file=PDTA113ZT.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -6081,7 +6055,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PDTA113ZU_NXP00318]
@@ -6090,9 +6065,9 @@ value=PDTA113ZU
 modelname=PDTA113ZU
 file=PDTA113ZU.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -6100,18 +6075,19 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA113Z_SER_3.pdf
 description=PNP resistor-equipped transistor; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PDTA114EE_NXP00319]
 symbol=pnp_bin.sym
 value=PDTA114EE
-modelname=PDTA114EE
+modelname=QPDTA114EE
 file=PDTA114EE.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -6119,18 +6095,19 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1, R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PDTA114EK_NXP00320]
 symbol=pnp_bin.sym
 value=PDTA114EK
-modelname=PDTA114EK
+modelname=QPDTA114EK
 file=PDTA114EK.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -6138,7 +6115,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1, R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PDTA114EM_NXP00321]
@@ -15534,5 +15512,23 @@ documentation=http://www.nxp.com/acrobat/datasheets/BC847BVN_2.pdf
 description=NPN/PNP general purpose transistor
 test_refdes=Q1
 model_status_undefined=
+
+
+[BCV65_NXP00809]
+symbol=pnp.sym
+value=QBCV65_PNP
+modelname=QBCV65_PNP
+file=BCV65.prm
+refdes=X?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
+pinnr_c=C
+pinnr_b=B
+pinnr_e=E
+footprint=none
+documentation=http://www.nxp.com/acrobat/datasheets/BCV65_3.pdf
+description=NPN/PNP general purpose transistor
+test_refdes=Q1
 
 
