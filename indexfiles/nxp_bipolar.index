@@ -6125,9 +6125,9 @@ value=PDTA114EM
 modelname=PDTA114EM
 file=PDTA114EM.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -6135,7 +6135,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA114E_NXP00322]
@@ -6154,7 +6155,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA114ES_NXP00323]
@@ -6173,7 +6174,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA114ET_NXP00324]
@@ -6192,7 +6194,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA114EU_NXP00325]
@@ -6211,7 +6214,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114E_SERIES_8.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1, R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PDTA114TE_NXP00326]
@@ -6230,7 +6234,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1, R2 missing
 
 
 [PDTA114TK_NXP00327]
@@ -6249,7 +6254,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA114TM_NXP00328]
@@ -6268,7 +6273,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA114T_NXP00329]
@@ -6287,7 +6293,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA114TS_NXP00330]
@@ -6306,7 +6312,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA114TT_NXP00331]
@@ -6325,7 +6331,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA114TU_NXP00332]
@@ -6344,7 +6351,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114T_SER_7.pdf
 description=PNP resistor-equipped transistors; R1 = 10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA114YE_NXP00333]
@@ -6363,7 +6371,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA114YK_NXP00334]
@@ -6382,7 +6391,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTA114YM_NXP00335]
@@ -6401,7 +6411,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTA114YS_NXP00336]
@@ -6420,7 +6431,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA114YT_NXP00337]
@@ -6439,7 +6450,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1, R2 missing
 
 
 [PDTA114YU_NXP00338]
@@ -6458,7 +6470,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA114Y_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1, R2 missing
 
 
 [PDTA115EE_NXP00339]
@@ -6477,7 +6490,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1, R2 missing
 
 
 [PDTA115EK_NXP00340]
@@ -6496,7 +6510,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA115EM_NXP00341]
@@ -6515,7 +6529,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1, R2 missing
 
 
 [PDTA115ES_NXP00342]
@@ -6534,7 +6549,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA115ET_NXP00343]
@@ -6553,7 +6568,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1, R2 missing
 
 
 [PDTA115EU_NXP00344]
@@ -6572,7 +6588,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115E_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1, R2 missing
 
 
 [PDTA115TE_NXP00345]
@@ -6591,7 +6608,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1, R2 missing
 
 
 [PDTA115TK_NXP00346]
@@ -6610,7 +6628,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA115TM_NXP00347]
@@ -6629,7 +6647,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1 missing
 
 
 [PDTA115TS_NXP00348]
@@ -6648,7 +6667,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA115TT_NXP00349]
@@ -6667,7 +6686,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA115TU_NXP00350]
@@ -6686,7 +6706,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA115T_SER_4.pdf
 description=PNP resistor-equipped transistor; R1=100k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA123EE_NXP00351]
@@ -6705,7 +6726,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA123EK_NXP00352]
@@ -6724,7 +6746,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA123ES_NXP00353]
@@ -6743,7 +6766,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA123ET_NXP00354]
@@ -6762,7 +6785,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA123EU_NXP00355]
@@ -6781,7 +6805,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA123JE_NXP00356]
@@ -6800,7 +6825,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA123JK_NXP00357]
@@ -6819,7 +6845,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA123JM_NXP00358]
@@ -6838,7 +6865,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA123JS_NXP00359]
@@ -6857,7 +6885,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA123JT_NXP00360]
@@ -6876,7 +6904,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA123JU_NXP00361]
@@ -6895,7 +6924,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123J_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA123TK_NXP00362]
@@ -6914,7 +6944,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA123TM_NXP00363]
@@ -6933,7 +6963,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA123TS_NXP00364]
@@ -6952,7 +6983,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA123TT_NXP00365]
@@ -6971,7 +7002,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA123TU_NXP00366]
@@ -6990,7 +7022,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123T_SER_1.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA123YT_NXP00367]
@@ -7009,7 +7042,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA124EE_NXP00368]
@@ -7028,7 +7062,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA124EK_NXP00369]
@@ -7047,7 +7082,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA124EM_NXP00370]
@@ -7066,7 +7102,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA124ES_NXP00371]
@@ -7085,7 +7122,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA124ET_NXP00372]
@@ -7104,7 +7141,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA124EU_NXP00373]
@@ -7123,7 +7161,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA124TE_NXP00374]
@@ -7142,7 +7181,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA124TK_NXP00375]
@@ -7161,7 +7201,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA124TM_NXP00376]
@@ -7180,7 +7220,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA124TS_NXP00377]
@@ -7199,7 +7240,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA124TT_NXP00378]
@@ -7218,7 +7259,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA124TU_NXP00379]
@@ -7237,7 +7279,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA124XE_NXP00380]
@@ -7256,7 +7299,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA124XK_NXP00381]
@@ -7275,7 +7319,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA124XM_NXP00382]
@@ -7294,7 +7338,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA124XS_NXP00383]
@@ -7313,7 +7358,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA124XT_NXP00384]
@@ -7332,7 +7377,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA124XU_NXP00385]
@@ -7351,7 +7397,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143EE_NXP00386]
@@ -7370,7 +7417,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143EK_NXP00387]
@@ -7389,7 +7437,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143EM_NXP00388]
@@ -7408,7 +7457,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143ES_NXP00389]
@@ -7427,7 +7477,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143ET_NXP00390]
@@ -7446,7 +7497,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143EU_NXP00391]
@@ -7465,7 +7517,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143TE_NXP00392]
@@ -7484,7 +7537,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA143TK_NXP00393]
@@ -7503,7 +7557,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA143TM_NXP00394]
@@ -7522,7 +7577,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA143T_NXP00395]
@@ -7541,7 +7597,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA143TS_NXP00396]
@@ -7560,7 +7616,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA143TT_NXP00397]
@@ -7579,7 +7635,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143TU_NXP00398]
@@ -7598,7 +7655,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143T_SERIES_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA143XE_NXP00399]
@@ -7617,7 +7675,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143XK_NXP00400]
@@ -7636,7 +7695,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA143XM_NXP00401]
@@ -7655,7 +7714,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143XS_NXP00402]
@@ -7674,7 +7734,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA143XT_NXP00403]
@@ -7693,7 +7753,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143XU_NXP00404]
@@ -7712,7 +7773,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143X_SER_4.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143ZE_NXP00405]
@@ -7731,7 +7793,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143ZK_NXP00406]
@@ -7750,7 +7813,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143ZM_NXP00407]
@@ -7769,7 +7833,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143ZS_NXP00408]
@@ -7788,7 +7853,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA143ZT_NXP00409]
@@ -7807,7 +7872,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA143ZU_NXP00410]
@@ -7826,7 +7892,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA143Z_SERIES_6.pdf
 description=PNP resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA144EE_NXP00411]
@@ -7845,7 +7912,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA144EK_NXP00412]
@@ -7864,7 +7932,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA144EM_NXP00413]
@@ -7883,7 +7952,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA144E_NXP00414]
@@ -7902,7 +7972,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA144ES_NXP00415]
@@ -7921,7 +7991,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA144ET_NXP00416]
@@ -7940,7 +8010,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA144EU_NXP00417]
@@ -7959,7 +8030,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144E_SERIES_7.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA144TE_NXP00418]
@@ -7978,7 +8050,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA144TK_NXP00419]
@@ -7997,7 +8070,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA144TM_NXP00420]
@@ -8016,7 +8089,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA144TS_NXP00421]
@@ -8035,7 +8109,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA144TT_NXP00422]
@@ -8054,7 +8128,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA144TU_NXP00423]
@@ -8073,7 +8148,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144T_SERIES_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTA144VE_NXP00424]
@@ -8092,7 +8168,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA144VK_NXP00425]
@@ -8111,7 +8188,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA144VM_NXP00426]
@@ -8130,7 +8207,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA144VS_NXP00427]
@@ -8149,7 +8227,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA144VT_NXP00428]
@@ -8168,7 +8246,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA144VU_NXP00429]
@@ -8187,7 +8266,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA144V_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA144WE_NXP00430]
@@ -8206,7 +8286,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA144WM_NXP00431]
@@ -8225,7 +8306,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA144WS_NXP00432]
@@ -8244,7 +8326,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA144WT_NXP00433]
@@ -8263,7 +8345,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA144WU_NXP00434]
@@ -8282,7 +8365,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTA323TK_NXP00435]
@@ -8301,7 +8385,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA323TK_1.pdf
 description=PNP 500 mA, 15 V resistor-equipped transistor; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTB113EK_NXP00436]
@@ -8320,7 +8404,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB113E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTB113ES_NXP00437]
@@ -8339,7 +8423,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB113E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTB113ET_NXP00438]
@@ -8358,7 +8442,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB113E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTB113ZK_NXP00439]
@@ -8377,7 +8462,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB113Z_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTB113ZS_NXP00440]
@@ -8396,7 +8481,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB113Z_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTB113ZT_NXP00441]
@@ -8415,7 +8500,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB113Z_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTB123EK_NXP00442]
@@ -8434,7 +8520,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB123E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTB123ES_NXP00443]
@@ -8453,7 +8540,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB123E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTB123ET_NXP00444]
@@ -8472,7 +8559,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB123E_SER_1.pdf
 description=PNP 500 mA, 50 V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTB123TK_NXP00445]
@@ -8491,7 +8579,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB123T_SER_2.pdf
 description=PNP 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTB123TS_NXP00446]
@@ -8510,7 +8599,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB123T_SER_2.pdf
 description=PNP 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTB123TT_NXP00447]
@@ -8529,7 +8618,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTB123T_SER_2.pdf
 description=PNP 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTB123YK_NXP00448]
@@ -8548,7 +8638,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTB123YS_NXP00449]
@@ -8567,7 +8658,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTB123YT_NXP00450]
@@ -8586,7 +8677,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC114EE_NXP00451]
@@ -8605,7 +8697,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC114EK_NXP00452]
@@ -8624,7 +8717,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC114EM_NXP00453]
@@ -8643,7 +8737,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC114E_NXP00454]
@@ -8662,7 +8757,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC114ES_NXP00455]
@@ -8681,7 +8776,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC114ET_NXP00456]
@@ -8700,7 +8795,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC114EU_NXP00457]
@@ -8719,7 +8815,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114E_SERIES_10.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC114TE_NXP00458]
@@ -8738,7 +8835,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC114TK_NXP00459]
@@ -8757,7 +8855,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC114TM_NXP00460]
@@ -8776,7 +8875,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC114T_NXP00461]
@@ -8795,7 +8895,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC114TS_NXP00462]
@@ -8814,7 +8914,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC114TT_NXP00463]
@@ -8833,7 +8933,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC114TU_NXP00464]
@@ -8852,7 +8953,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114T_SER_8.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC114YE_NXP00465]
@@ -8871,7 +8973,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC114YK_NXP00466]
@@ -8890,7 +8993,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC114YM_NXP00467]
@@ -8909,7 +9013,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC114Y_NXP00468]
@@ -8928,7 +9033,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC114YS_NXP00469]
@@ -8947,7 +9052,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC114YT_NXP00470]
@@ -8966,7 +9071,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC114YU_NXP00471]
@@ -8985,7 +9091,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC114Y_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=10k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC115EE_NXP00472]
@@ -9004,7 +9111,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC115EK_NXP00473]
@@ -9023,7 +9131,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC115EM_NXP00474]
@@ -9042,7 +9150,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC115ES_NXP00475]
@@ -9061,7 +9170,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC115ET_NXP00476]
@@ -9080,7 +9189,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC115EU_NXP00477]
@@ -9099,7 +9209,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115E_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=100k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC115TE_NXP00478]
@@ -9118,7 +9229,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1 missing
 
 
 [PDTC115TK_NXP00479]
@@ -9137,26 +9249,28 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1 missing
 
 
 [PDTC115TM_NXP00480]
 symbol=npn_rbase.sym
 value=PDTC115TM
-modelname=PDTC115TM
+modelname=QPDTC115TM
 file=PDTC115TM.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC115TS_NXP00481]
@@ -9175,7 +9289,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC115TT_NXP00482]
@@ -9194,7 +9308,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC115TU_NXP00483]
@@ -9213,7 +9328,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC115T_SER_4.pdf
 description=NPN resistor-equipped transistors; R1=100k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC123EE_NXP00484]
@@ -9232,7 +9348,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC123EK_NXP00485]
@@ -9251,7 +9368,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1, R2 missing
 
 
 [PDTC123EM_NXP00486]
@@ -9270,7 +9388,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC123ES_NXP00487]
@@ -9289,7 +9408,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC123ET_NXP00488]
@@ -9308,7 +9427,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC123EU_NXP00489]
@@ -9327,7 +9447,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC123JE_NXP00490]
@@ -9346,7 +9467,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC123JK_NXP00491]
@@ -9365,7 +9487,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC123JM_NXP00492]
@@ -9384,7 +9507,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC123J_NXP00493]
@@ -9403,7 +9527,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC123JS_NXP00494]
@@ -9422,7 +9546,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC123JT_NXP00495]
@@ -9441,7 +9565,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC123JU_NXP00496]
@@ -9460,7 +9585,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123J_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1, R2 missing
 
 
 [PDTC123TK_NXP00497]
@@ -9479,7 +9605,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC123TM_NXP00498]
@@ -9498,7 +9624,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC123TS_NXP00499]
@@ -9517,7 +9644,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC123TT_NXP00500]
@@ -9536,7 +9663,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC123TU_NXP00501]
@@ -9555,7 +9683,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC123T_SER_1.pdf
 description=NPN resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC123YE_NXP00502]
@@ -9574,7 +9703,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC123YK_NXP00503]
@@ -9593,7 +9723,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC123YM_NXP00504]
@@ -9612,7 +9743,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1,R2 missing
 
 
 [PDTC123YS_NXP00505]
@@ -9631,7 +9763,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC123YT_NXP00506]
@@ -9650,8 +9782,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
-test_comment=model definition name different from usage
+test_comment=R1,R2 missing
+model_status_broken=ngspice_23 gnucap_0.35
 
 
 [PDTC123YU_NXP00507]
@@ -9670,7 +9802,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1,R2 missing
 
 
 [PDTC124EE_NXP00508]
@@ -9689,7 +9822,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=ngspice_23 gnucap_0.35
+test_comment=R1,R2 missing
 
 
 [PDTC124EK_NXP00509]
@@ -9708,7 +9842,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC124EM_NXP00510]
@@ -9727,7 +9862,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC124E_NXP00511]
@@ -9746,7 +9882,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC124ES_NXP00512]
@@ -9765,7 +9901,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC124ET_NXP00513]
@@ -9784,7 +9920,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC124EU_NXP00514]
@@ -9803,7 +9940,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124E_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC124TK_NXP00515]
@@ -9822,7 +9960,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC124TM_NXP00516]
@@ -9841,7 +9979,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC124TS_NXP00517]
@@ -9860,7 +9999,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC124TT_NXP00518]
@@ -9879,7 +10018,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC124TU_NXP00519]
@@ -9898,7 +10038,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC124T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=22k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC124XE_NXP00520]
@@ -9917,7 +10058,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC124XK_NXP00521]
@@ -9936,7 +10078,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC124XM_NXP00522]
@@ -9955,7 +10097,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC124XS_NXP00523]
@@ -9974,7 +10117,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC124XT_NXP00524]
@@ -9993,7 +10136,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC124XU_NXP00525]
@@ -10012,7 +10156,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA124X_SER_7.pdf
 description=PNP resistor-equipped transistors; R1=22k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143EE_NXP00526]
@@ -10031,7 +10176,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143EK_NXP00527]
@@ -10050,7 +10196,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143EM_NXP00528]
@@ -10069,7 +10216,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC143ES_NXP00529]
@@ -10088,7 +10236,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143ET_NXP00530]
@@ -10107,7 +10256,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143EU_NXP00531]
@@ -10126,7 +10276,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143E_SERIES_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=4.7k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143TE_NXP00532]
@@ -10145,7 +10296,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143TK_NXP00533]
@@ -10164,7 +10316,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC143TM_NXP00534]
@@ -10183,7 +10335,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC143T_NXP00535]
@@ -10202,7 +10355,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC143TS_NXP00536]
@@ -10221,7 +10374,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC143TT_NXP00537]
@@ -10240,7 +10393,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143TU_NXP00538]
@@ -10259,7 +10413,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143T_SERIES_6.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC143XE_NXP00539]
@@ -10278,7 +10433,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143XK_NXP00540]
@@ -10297,7 +10453,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143XM_NXP00541]
@@ -10316,7 +10473,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143XS_NXP00542]
@@ -10335,7 +10493,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC143XT_NXP00543]
@@ -10354,7 +10512,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143XU_NXP00544]
@@ -10373,7 +10532,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143X_SER_9.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143ZE_NXP00545]
@@ -10392,7 +10552,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143ZK_NXP00546]
@@ -10411,7 +10572,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143ZM_NXP00547]
@@ -10430,7 +10592,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143Z_NXP00548]
@@ -10449,7 +10612,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC143ZS_NXP00549]
@@ -10468,7 +10631,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC143ZT_NXP00550]
@@ -10487,7 +10650,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC143ZU_NXP00551]
@@ -10506,7 +10670,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC143Z_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=4.7k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144EE_NXP00552]
@@ -10525,7 +10690,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144EK_NXP00553]
@@ -10544,7 +10710,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144EM_NXP00554]
@@ -10563,7 +10730,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144E_NXP00555]
@@ -10582,7 +10750,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC144ES_NXP00556]
@@ -10601,7 +10769,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC144ET_NXP00557]
@@ -10620,7 +10788,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144EU_NXP00558]
@@ -10639,7 +10808,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144E_SERIES_8.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=47k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144TE_NXP00559]
@@ -10658,7 +10828,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144TK_NXP00560]
@@ -10677,7 +10848,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC144TM_NXP00561]
@@ -10696,7 +10867,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144TS_NXP00562]
@@ -10715,7 +10887,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC144TT_NXP00563]
@@ -10734,7 +10906,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC144TU_NXP00564]
@@ -10753,7 +10926,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144T_SERIES_5.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTC144VE_NXP00565]
@@ -10772,7 +10946,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144VK_NXP00566]
@@ -10791,7 +10966,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144VM_NXP00567]
@@ -10810,7 +10986,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144VS_NXP00568]
@@ -10829,7 +11006,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC144VT_NXP00569]
@@ -10848,7 +11025,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144VU_NXP00570]
@@ -10867,7 +11045,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144V_SER_3.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144WE_NXP00571]
@@ -10886,7 +11065,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144WK_NXP00572]
@@ -10905,7 +11085,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144WM_NXP00573]
@@ -10924,7 +11105,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144WS_NXP00574]
@@ -10943,7 +11125,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTC144WT_NXP00575]
@@ -10962,7 +11144,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC144WU_NXP00576]
@@ -10981,7 +11164,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC144W_SERIES_7.pdf
 description=NPN resistor-equipped transistors; R1=47k, R2=22k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTC323TK_NXP00577]
@@ -11000,7 +11184,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTC323TK_1.pdf
 description=NPN 500mA, 15V resistor-equipped transistor; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=ngspice_23 gnucap_0.35
 
 
 [PDTD113EK_NXP00578]
@@ -11019,7 +11203,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD113E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTD113ES_NXP00579]
@@ -11038,7 +11223,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD113E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTD113ET_NXP00580]
@@ -11057,7 +11242,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD113E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=1k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTD113ZK_NXP00581]
@@ -11076,7 +11262,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD113Z_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTD113ZS_NXP00582]
@@ -11095,7 +11281,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD113Z_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTD113ZT_NXP00583]
@@ -11114,7 +11300,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD113Z_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=1k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTD123EK_NXP00584]
@@ -11133,7 +11320,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTD123ES_NXP00585]
@@ -11152,7 +11340,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTD123ET_NXP00586]
@@ -11171,7 +11359,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123E_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=2.2k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTD123TK_NXP00587]
@@ -11190,7 +11379,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123T_SER_2.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTD123TS_NXP00588]
@@ -11209,7 +11399,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123T_SER_2.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTD123TT_NXP00589]
@@ -11228,7 +11418,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123T_SER_2.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=open
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1 missing
 
 
 [PDTD123YK_NXP00590]
@@ -11247,7 +11438,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PDTD123YS_NXP00591]
@@ -11266,7 +11458,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTD123YT_NXP00592]
@@ -11285,11 +11477,12 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PDTD123Y_SER_1.pdf
 description=NPN 500mA, 50V resistor-equipped transistors; R1=2.2k, R2=10k
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PEMB10_NXP00593]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB10
 modelname=PEMB10
 file=PEMB10.prm
@@ -11302,14 +11495,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB11_NXP00594]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB11
 modelname=PEMB11
 file=PEMB11.prm
@@ -11322,14 +11515,13 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB13_NXP00595]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB13
 modelname=PEMB13
 file=PEMB13.prm
@@ -11342,14 +11534,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=R1,R2 missing
 
 
 [PEMB14_NXP00596]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB14
 modelname=PEMB14
 file=PEMB14.prm
@@ -11362,14 +11554,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB15_NXP00597]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB15
 modelname=PEMB15
 file=PEMB15.prm
@@ -11382,14 +11574,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB16_NXP00598]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB16
 modelname=PEMB16
 file=PEMB16.prm
@@ -11402,14 +11594,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB17_NXP00599]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB17
 modelname=PEMB17
 file=PEMB17.prm
@@ -11422,14 +11614,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB18_NXP00600]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB18
 modelname=PEMB18
 file=PEMB18.prm
@@ -11442,14 +11634,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB19_NXP00601]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB19
 modelname=PEMB19
 file=PEMB19.prm
@@ -11462,14 +11654,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB1_NXP00602]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB1
 modelname=PEMB1
 file=PEMB1.prm
@@ -11482,14 +11674,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB20_NXP00603]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB20
 modelname=PEMB20
 file=PEMB20.prm
@@ -11502,14 +11694,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB24_NXP00604]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB24
 modelname=PEMB24
 file=PEMB24.prm
@@ -11522,14 +11714,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB30_NXP00605]
-symbol=.sym
+symbol=pnp.sym
 value=PEMB30
 modelname=PEMB30
 file=PEMB30.prm
@@ -11544,12 +11736,12 @@ footprint=none
 documentation=
 description=
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB3_NXP00606]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB3
 modelname=PEMB3
 file=PEMB3.prm
@@ -11562,14 +11754,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB4_NXP00607]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB4
 modelname=PEMB4
 file=PEMB4.prm
@@ -11582,14 +11774,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB9_NXP00608]
-symbol=.sym
+symbol=pnp_bin.sym
 value=PEMB9
 modelname=PEMB9
 file=PEMB9.prm
@@ -11602,10 +11794,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped PNP/PNP transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMD10_NXP00609]
@@ -11622,10 +11814,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD13_NXP00610]
@@ -11642,10 +11834,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD14_NXP00611]
@@ -11662,10 +11854,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD15_NXP00612]
@@ -11682,10 +11874,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD16_NXP00613]
@@ -11702,10 +11894,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD17_NXP00614]
@@ -11722,10 +11914,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD18_NXP00615]
@@ -11742,10 +11934,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD19_NXP00616]
@@ -11762,10 +11954,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD20_NXP00617]
@@ -11782,10 +11974,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD24_NXP00618]
@@ -11802,10 +11994,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD2_NXP00619]
@@ -11822,10 +12014,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD30_NXP00620]
@@ -11842,10 +12034,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD4_NXP00621]
@@ -11862,14 +12054,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMH10_NXP00622]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH10
 modelname=PEMH10
 file=PEMH10.prm
@@ -11882,14 +12074,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH11_NXP00623]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH11
 modelname=PEMH11
 file=PEMH11.prm
@@ -11902,14 +12094,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH13_NXP00624]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH13
 modelname=PEMH13
 file=PEMH13.prm
@@ -11922,14 +12114,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH14_NXP00625]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH14
 modelname=PEMH14
 file=PEMH14.prm
@@ -11942,14 +12134,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH15_NXP00626]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH15
 modelname=PEMH15
 file=PEMH15.prm
@@ -11962,14 +12154,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH16_NXP00627]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH16
 modelname=PEMH16
 file=PEMH16.prm
@@ -11982,14 +12174,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH17_NXP00628]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH17
 modelname=PEMH17
 file=PEMH17.prm
@@ -12002,14 +12194,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH18_NXP00629]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH18
 modelname=PEMH18
 file=PEMH18.prm
@@ -12022,14 +12214,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH19_NXP00630]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH19
 modelname=PEMH19
 file=PEMH19.prm
@@ -12042,14 +12234,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH1_NXP00631]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH1
 modelname=PEMH1
 file=PEMH1.prm
@@ -12062,14 +12254,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH20_NXP00632]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH20
 modelname=PEMH20
 file=PEMH20.prm
@@ -12082,14 +12274,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH24_NXP00633]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH24
 modelname=PEMH24
 file=PEMH24.prm
@@ -12102,14 +12294,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH2_NXP00634]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH2
 modelname=PEMH2
 file=PEMH2.prm
@@ -12122,14 +12314,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH30_NXP00635]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH30
 modelname=PEMH30
 file=PEMH30.prm
@@ -12142,14 +12334,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH4_NXP00636]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH4
 modelname=PEMH4
 file=PEMH4.prm
@@ -12162,14 +12354,14 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMH7_NXP00637]
-symbol=.sym
+symbol=npn_bin.sym
 value=PEMH7
 modelname=PEMH7
 file=PEMH7.prm
@@ -12182,18 +12374,18 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/NPN transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMX1_NXP00638]
-symbol=.sym
+symbol=npn.sym
 value=PEMX1
-modelname=PEMX1
+modelname=QPEMX1
 file=PEMX1.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12202,17 +12394,17 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
-test_refdes=X1
-model_status_undefined=
+description=general purpose double NPN transistor
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PEMZ1_NXP00639]
-symbol=.sym
+symbol=npn.sym
 value=PEMZ1
-modelname=PEMZ1
+modelname=QPEMZ1_NPN
 file=PEMZ1.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12221,17 +12413,17 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
-test_refdes=X1
-model_status_undefined=
+description=general purpose NPN/PNP transistor
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PEMZ7_NXP00640]
-symbol=.sym
+symbol=npn.sym
 value=PEMZ7
-modelname=PEMZ7
+modelname=QPEMZ7_NPN
 file=PEMZ7.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12240,18 +12432,17 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+description=general purpose NPN/PNP transistor
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PH2369_NXP00641]
 symbol=npn.sym
 value=PH2369
-modelname=PH2369
+modelname=QPH2369
 file=PH2369.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12261,9 +12452,10 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PH2369_4.pdf
 description=NPN switching transistor
-test_refdes=X1
-model_status_undefined=ngspice_19 #this model hangs ngspice
+test_refdes=Q1
 model_status_good=gnucap_0.35
+model_status_broken=ngspice_23
+test_comment=bad line "+IRB ="
 
 
 [PIMD2_NXP00642]
@@ -12280,10 +12472,10 @@ pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=
-description=
+description=Resistor equipped NPN/PNP transistor
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PIMT1_NXP00643]
@@ -12303,7 +12495,7 @@ documentation=
 description=
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PIMZ2_NXP00644]
@@ -12342,7 +12534,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2222_2222A_5.pdf
 description=NPN switching transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBT2222_NXP00646]
@@ -12361,15 +12553,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2222_2222A_5.pdf
 description=NPN switching transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBT2369_NXP00647]
 symbol=npn.sym
 value=PMBT2369
-modelname=PMBT2369
+modelname=QPMBT2369
 file=PMBT2369.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12379,8 +12571,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2369_4.pdf
 description=NPN switching transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBT2907A_NXP00648]
@@ -12399,7 +12591,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2907_PMBT2907A_5.pdf
 description=PNP switching transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBT2907_NXP00649]
@@ -12418,7 +12610,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT2907_PMBT2907A_5.pdf
 description=PNP switching transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBT3904_NXP00650]
@@ -12427,9 +12619,9 @@ value=PMBT3904
 modelname=PMBT3904
 file=PMBT3904.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -12437,7 +12629,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3904_4.pdf
 description=NPN switching transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBT3906_NXP00651]
@@ -12456,27 +12648,27 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3906_N_5.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status_broken=gnucap_0.35
-test_comment=unknown parameter B=1
+model_status_broken=gnucap_0.35 ngspice_23
+test_comment=the model says its an npn Transistor while the datasheet say pnp
 
 
 [PMBT4401_NXP00652]
 symbol=npn.sym
 value=PMBT4401
-modelname=PMBT4401
+modelname=QPMBT4401
 file=PMBT4401.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT4401_4.pdf
 description=NPN switching transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBT4403_NXP00653]
@@ -12495,7 +12687,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT4403_4.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 test_comment=wrong .ENDS statement
 
 
@@ -12515,7 +12707,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT5401_4.pdf
 description=PNP high-voltage transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBT5550_NXP00655]
@@ -12534,7 +12726,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT5550_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBT5551_NXP00656]
@@ -12553,7 +12745,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBT6429_NXP00657]
@@ -12572,7 +12764,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT6428_PMBT6429_4.pdf
 description=NPN general purpose transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBTA06_NXP00658]
@@ -12591,7 +12783,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA06_5.pdf
 description=NPN general purpose transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBTA13_NXP00659]
@@ -12610,7 +12802,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA13_PMBTA14_5.pdf
 description=NPN Darlington transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [PMBTA14_NXP00660]
@@ -12629,15 +12822,16 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA13_PMBTA14_5.pdf
 description=NPN Darlington transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [PMBTA42DS_NXP00661]
-symbol=.sym
+symbol=npn.sym
 value=PMBTA42DS
-modelname=PMBTA42DS
+modelname=QPMBTA42DS
 file=PMBTA42DS.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12647,17 +12841,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA42DS_1.pdf
 description=NPN/NPN high-voltage double transistors
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBTA42_NXP00662]
 symbol=npn.sym
 value=PMBTA42
-modelname=PMBTA42
+modelname=QPMBTA42
 file=PMBTA42.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12667,8 +12860,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA42_4.pdf
 description=NPN high-voltage transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBTA64_NXP00663]
@@ -12687,15 +12880,16 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA64_6.pdf
 description=PNP Darlington transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [PMBTA92_NXP00664]
 symbol=pnp.sym
 value=PMBTA92
-modelname=PMBTA92
+modelname=QPMBTA92
 file=PMBTA92.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12705,8 +12899,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA92_5.pdf
 description=PNP high-voltage transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMMT491A_NXP00665]
@@ -12725,15 +12919,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMMT491A_5.pdf
 description=NPN BISS transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMMT591A_NXP00666]
 symbol=pnp.sym
 value=PMMT591A
-modelname=PMMT591A
+modelname=QPMMT591A
 file=PMMT591A.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -12743,8 +12937,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMMT591A_5.pdf
 description=PNP BISS transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMSS3906_NXP00667]
@@ -12763,7 +12957,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMSS3906_4.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST2222A_NXP00668]
@@ -12782,7 +12976,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2222_2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST2222_NXP00669]
@@ -12801,7 +12995,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2222_2222A_2.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST2369_NXP00670]
@@ -12820,12 +13014,12 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2369_3.pdf
 description=NPN switching transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST2907A_NXP00671]
 symbol=pnp.sym
-value=QPMST2907A
+value=PMST2907A
 modelname=QPMST2907A
 file=PMST2907A.prm
 refdes=Q?
@@ -12839,12 +13033,12 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST2907A_3.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST4403_NXP00672]
 symbol=pnp.sym
-value=QPMST4403
+value=PMST4403
 modelname=QPMST4403
 file=PMST4403.prm
 refdes=Q?
@@ -12858,12 +13052,12 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST4403_3.pdf
 description=PNP switching transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST5088_NXP00673]
 symbol=npn.sym
-value=QPMST5088
+value=PMST5088
 modelname=QPMST5088
 file=PMST5088.prm
 refdes=Q?
@@ -12877,12 +13071,12 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5088_5089_3.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST5089_NXP00674]
 symbol=npn.sym
-value=QPMST5089
+value=PMST5089
 modelname=QPMST5089
 file=PMST5089.prm
 refdes=Q?
@@ -12896,7 +13090,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5088_5089_3.pdf
 description=NPN general purpose transistors
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST5401_NXP00675]
@@ -12915,12 +13109,12 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5401_3.pdf
 description=PNP high-voltage transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST5550_NXP00676]
 symbol=npn.sym
-value=QPMST5550
+value=PMST5550
 modelname=QPMST5550
 file=PMST5550.prm
 refdes=Q?
@@ -12934,12 +13128,12 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5550_5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST5551_NXP00677]
 symbol=npn.sym
-value=QPMST5551
+value=PMST5551
 modelname=QPMST5551
 file=PMST5551.prm
 refdes=Q?
@@ -12953,7 +13147,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST5550_5551_4.pdf
 description=NPN high-voltage transistor
 test_refdes=Q1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST6429_NXP00678]
@@ -12972,7 +13166,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMST6428_6429_3.pdf
 description=NPN general purpose transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMSTA42_NXP00679]
@@ -12991,7 +13185,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMSTA42_43_2.pdf
 description=NPN high-voltage transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMSTA92_NXP00680]
@@ -13010,7 +13204,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PMSTA92_3.pdf
 description=PNP high-voltage transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PSSI2021SAY_NXP00681]
@@ -13030,7 +13224,7 @@ documentation=http://www.nxp.com/acrobat/datasheets/PSSI2021SAY_2.pdf
 description=constant current source in SOT353
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=Subcircuit with 4 connections
 
 
 [PSSI3120_NXP00682]
@@ -13053,11 +13247,11 @@ model_status_undefined=
 
 
 [PUMB13_NXP00683]
-symbol=.sym
+symbol=pnp.sym
 value=PUMB13
-modelname=PUMB13
+modelname=QPUMB13
 file=PUMB13.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13067,17 +13261,16 @@ pinnr_e=E
 footprint=none
 documentation=
 description=2 pnp transistors with buildin resistors
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMB14_NXP00684]
-symbol=.sym
+symbol=pnp.sym
 value=PUMB14
-modelname=PUMB14
+modelname=QPUMB14
 file=PUMB14.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13087,17 +13280,16 @@ pinnr_e=E
 footprint=none
 documentation=
 description=2 pnp transistors with base resistors
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMB19_NXP00685]
-symbol=.sym
+symbol=pnp.sym
 value=PUMB19
-modelname=PUMB19
+modelname=QPUMB19
 file=PUMB19.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13107,16 +13299,16 @@ pinnr_e=E
 footprint=none
 documentation=
 description=2 pnp transistors with base resistors
-test_refdes=X1
-model_status_undefined=
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMB1_NXP00686]
-symbol=.sym
+symbol=pnp.sym
 value=PUMB1
-modelname=PUMB1
+modelname=QPUMB1
 file=PUMB1.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13126,16 +13318,16 @@ pinnr_e=E
 footprint=none
 documentation=
 description=2 pnp transistors with buildin resistors
-test_refdes=X1
-model_status_undefined=
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMB24_NXP00687]
-symbol=.sym
+symbol=pnp.sym
 value=PUMB24
-modelname=PUMB24
+modelname=QPUMB24
 file=PUMB24.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13145,16 +13337,16 @@ pinnr_e=E
 footprint=none
 documentation=
 description=2 pnp transistors with buildin resistors
-test_refdes=X1
-model_status_undefined=
+test_refdes=Q1
+model_status_good=ngspice_23 gnucap_0.35
 
 
 [PUMB30_NXP00688]
-symbol=.sym
+symbol=pnp.sym
 value=PUMB30
-modelname=PUMB30
+modelname=QPUMB30
 file=PUMB30.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13164,17 +13356,16 @@ pinnr_e=E
 footprint=none
 documentation=
 description=2 pnp transistors with base resistors
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMB9_NXP00689]
-symbol=.sym
+symbol=pnp.sym
 value=PUMB9
-modelname=PUMB9
+modelname=QPUMB9
 file=PUMB9.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13184,9 +13375,8 @@ pinnr_e=E
 footprint=none
 documentation=
 description=2 pnp transistors with buildin resistors
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMD14_NXP00690]
@@ -13206,7 +13396,7 @@ documentation=
 description=2 pnp transistors with base resistors
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMD18_NXP00691]
@@ -13226,7 +13416,7 @@ documentation=
 description=2 pnp transistors with buildin resistors
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMD19_NXP00692]
@@ -13246,7 +13436,7 @@ documentation=
 description=2 pnp transistors with base resistors
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMD20_NXP00693]
@@ -13266,7 +13456,7 @@ documentation=
 description=2 npn transistors with buildin resistors
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMD24_NXP00694]
@@ -13286,7 +13476,7 @@ documentation=
 description=2 npn transistors with buildin resistors
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMD2_NXP00695]
@@ -13306,7 +13496,7 @@ documentation=
 description=2 npn transistors with buildin resistors
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMD30_NXP00696]
@@ -13326,7 +13516,7 @@ documentation=
 description=2 npn transistors with base resistors
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMF11_NXP00697]
@@ -13350,11 +13540,11 @@ test_comment=Subcircuit with 6 connections
 
 
 [PUMH13_NXP00698]
-symbol=.sym
+symbol=npn.sym
 value=PUMH13
-modelname=PUMH13
+modelname=QPUMH13
 file=PUMH13.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13364,17 +13554,16 @@ pinnr_e=E
 footprint=none
 documentation=
 description=2 npn transistors with buildin resistors
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMH30_NXP00699]
-symbol=.sym
+symbol=npn.sym
 value=PUMH30
-modelname=PUMH30
+modelname=QPUMH30
 file=PUMH30.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13384,17 +13573,16 @@ pinnr_e=E
 footprint=none
 documentation=
 description=2 npn transistors with base resistors
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMT1_NXP00700]
-symbol=.sym
+symbol=pnp.sym
 value=PUMT1
-modelname=PUMT1
+modelname=QPUMT1
 file=PUMT1.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13404,16 +13592,16 @@ pinnr_e=E
 footprint=none
 documentation=
 description=2 PNP Transistors in SC-88
-test_refdes=X1
-model_status_undefined=
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMX1_NXP00701]
-symbol=.sym
+symbol=npn.sym
 value=PUMX1
-modelname=PUMX1
+modelname=QPUMX1
 file=PUMX1.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13423,12 +13611,12 @@ pinnr_e=E
 footprint=none
 documentation=
 description=2 NPN Transistors in SC-88
-test_refdes=X1
-model_status_undefined=
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMX2_NXP00702]
-symbol=.sym
+symbol=npn.sym
 value=PUMX2
 modelname=PUMX2
 file=PUMX2.prm
@@ -13443,8 +13631,7 @@ footprint=none
 documentation=
 description=2 npn transistors
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMZ1_NXP00703]
@@ -13464,6 +13651,7 @@ documentation=
 description=npn/pnp transistor
 test_refdes=X1
 model_status_undefined=
+test_comment=subckt with 6 connections
 
 
 [PUMZ2_NXP00704]
@@ -13502,8 +13690,9 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PXTA14_4.pdf
 description=NPN Darlington transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
 test_comment=missing connection between nodes 33 and 333
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [PXTA42_NXP00706]
@@ -13522,26 +13711,26 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PXTA42_4.pdf
 description=NPN high-voltage transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PXTA92_NXP00707]
 symbol=pnp.sym
 value=PXTA92
-modelname=PXTA92
+modelname=QPXTA92
 file=PXTA92.prm
-refdes=X?
-pinseq_c=3
+refdes=Q?
+pinseq_c=1
 pinseq_b=2
-pinseq_e=1
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PXTA92_4.pdf
 description=PNP high-voltage transistor
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PZTA14_NXP00708]
@@ -13560,7 +13749,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZTA14_4.pdf
 description=NPN Darlington transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [PZTA42_NXP00709]
@@ -13579,11 +13769,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZTA42_3.pdf
 description=NPN high-voltage transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PZTA44_NXP00710]
-symbol=.sym
+symbol=npn.sym
 value=PZTA44
 modelname=PZTA44
 file=PZTA44.prm
@@ -13598,16 +13788,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZTA44_4.pdf
 description=NPN high-voltage transistor
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+model_status_good=ngspice_23 gnucap_0.35
 
 
 [PZTA92_NXP00711]
-symbol=.sym
+symbol=pnp.sym
 value=PZTA92
-modelname=PZTA92
+modelname=QPZTA92
 file=PZTA92.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13617,9 +13806,8 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PZTA92_3.pdf
 description=PNP high-voltage transistor
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS4520X_NXP00712]
@@ -13628,9 +13816,9 @@ value=PBSS4520X
 modelname=PBSS4520X
 file=PBSS4520X.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=3
-pinseq_e=1
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -13638,7 +13826,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS4520X_3.pdf
 description=20V, 5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBHV8115T_NXP00713]
@@ -13657,12 +13845,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV8115T_1.pdf
 description=150V, 1A NPN high-voltage low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_broken=gnucap_0.35
-test_comment=node 333 is not connected
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBHV8115Z_NXP00714]
-symbol=
+symbol=npn.sym
 value=PBHV8115Z
 modelname=PBHV8115Z
 file=PBHV8115Z.prm
@@ -13677,7 +13864,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV8115Z_1.pdf
 description=150V, 1A NPN high-voltage low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBHV8540T_NXP00715]
@@ -13686,9 +13873,9 @@ value=PBHV8540T
 modelname=PBHV8540T
 file=PBHV8540T.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -13696,12 +13883,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV8540T_1.pdf
 description=500V, 0.5A NPN high-voltage low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_broken=gnucap_0.35
-test_comment=node 333 is not connected
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBHV8540Z_NXP00716]
-symbol=
+symbol=npn.sym
 value=PBHV8540Z
 modelname=PBHV8540Z
 file=PBHV8540Z.prm
@@ -13716,27 +13902,26 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV8540Z_1.pdf
 description=500V, 0.5A NPN high-voltage low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBHV9040T_NXP00717]
 symbol=pnp.sym
 value=PBHV9040T
-modelname=PBHV9040T
+modelname=QPBHV9040T
 file=PBHV9040T.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV9040T_1.pdf
 description=500V, 0.25A PNP high-voltage low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_broken=gnucap_0.35
-test_comment=node 333 is not connected
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBRP113ET_NXP00718]
@@ -13755,7 +13940,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRP113ET_1.pdf
 description=PNP 800mA, 40V BISS RET; R1=1kOhm, R2=1kOhm
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PBRP113ZT_NXP00719]
@@ -13774,7 +13960,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRP113ZT_1.pdf
 description=PNP 800mA, 40V BISS RET; R1=1kOhm, R2=10kOhm
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PBRP123ET_NXP00720]
@@ -13793,7 +13980,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRP123ET_1.pdf
 description=PNP 800mA, 40V BISS RET; R1=2.2kOhm, R2=2.2kOhm
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PBRP123YT_NXP00721]
@@ -13812,15 +14000,16 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBRP123YT_1.pdf
 description=PNP 800mA, 40V BISS RET; R1=2.2kOhm, R2=10kOhm
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PBSS301NZ_NXP00722]
-symbol=
+symbol=npn.sym
 value=PBSS301NZ
-modelname=PBSS301NZ
+modelname=QPBSS301NZ
 file=PBSS301NZ.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13830,16 +14019,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS301NZ_1.pdf
 description=12V, 5.8A NPN low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_undefined=
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS301PZ_NXP00723]
-symbol=
+symbol=pnp.sym
 value=PBSS301PZ
-modelname=PBSS301PZ
+modelname=QPBSS301PZ
 file=PBSS301PZ.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13849,16 +14038,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS301PZ_1.pdf
 description=12V, 5.7A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_undefined=
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS302NZ_NXP00724]
-symbol=
+symbol=npn.sym
 value=PBSS302NZ
-modelname=PBSS302NZ
+modelname=QPBSS302NZ
 file=PBSS302NZ.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13868,16 +14057,16 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS302NZ_1.pdf
 description=20V, 5.8A NPN low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_undefined=
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS302PZ_NXP00725]
-symbol=
+symbol=pnp.sym
 value=PBSS302PZ
-modelname=PBSS302PZ
+modelname=QPBSS302PZ
 file=PBSS302PZ.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -13887,12 +14076,12 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS302PZ_1.pdf
 description=20V, 5.5A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_undefined=
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS303NZ_NXP00726]
-symbol=
+symbol=npn.sym
 value=PBSS303NZ
 modelname=PBSS303NZ
 file=PBSS303NZ.prm
@@ -13907,11 +14096,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS303NZ_1.pdf
 description=30V, 5.5A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS303PZ_NXP00727]
-symbol=
+symbol=pnp.sym
 value=PBSS303PZ
 modelname=PBSS303PZ
 file=PBSS303PZ.prm
@@ -13926,11 +14115,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS303PZ_1.pdf
 description=30V, 5.3A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS304NZ_NXP00728]
-symbol=
+symbol=npn.sym
 value=PBSS304NZ
 modelname=PBSS304NZ
 file=PBSS304NZ.prm
@@ -13945,11 +14134,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS304NZ_1.pdf
 description=60V, 5.2A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS304PZ_NXP00729]
-symbol=
+symbol=pnp.sym
 value=PBSS304PZ
 modelname=PBSS304PZ
 file=PBSS304PZ.prm
@@ -13964,11 +14153,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS304PZ_1.pdf
 description=60V, 4.5A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS305NZ_NXP00730]
-symbol=
+symbol=npn.sym
 value=PBSS305NZ
 modelname=PBSS305NZ
 file=PBSS305NZ.prm
@@ -13983,15 +14172,15 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS305NZ_1.pdf
 description=80V, 5.1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS305PZ_NXP00731]
-symbol=
+symbol=pnp.sym
 value=PBSS305PZ
-modelname=PBSS305PZ
+modelname=QPBSS305PZ
 file=PBSS305PZ.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -14001,12 +14190,12 @@ pinnr_e=E
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS305PZ_1.pdf
 description=80V, 4.5A PNP low VCEsat (BISS) transistor
-test_refdes=X1
-model_status_undefined=
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS306NZ_NXP00732]
-symbol=
+symbol=npn.sym
 value=PBSS306NZ
 modelname=PBSS306NZ
 file=PBSS306NZ.prm
@@ -14021,11 +14210,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS306NZ_1.pdf
 description=100V, 5.1A NPN low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS306PZ_NXP00733]
-symbol=
+symbol=pnp.sym
 value=PBSS306PZ
 modelname=PBSS306PZ
 file=PBSS306PZ.prm
@@ -14040,7 +14229,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS306PZ_1.pdf
 description=100V, 4.1A PNP low VCEsat (BISS) transistor
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PB709ARL_NXP00734]
@@ -14049,9 +14238,9 @@ value=2PB709ARL
 modelname=2PB709ARL
 file=2PB709ARL.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14059,7 +14248,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/2PB709AXL_1.pdf
 description=45 V, 100 mA PNP general-purpose transistors
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PB709ASL_NXP00735]
@@ -14068,9 +14257,9 @@ value=2PB709ASL
 modelname=2PB709ASL
 file=2PB709ASL.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14078,45 +14267,45 @@ footprint=none
 description=45 V, 100 mA PNP general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PB709AXL_1.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PB710ARL_NXP00736]
 symbol=pnp.sym
 value=2PB710ARL
-modelname=2PB710ARL
+modelname=Q2PB710ARL
 file=2PB710ARL.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 description=50 V, 500 mA PNP general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PB710AXL_1.pdf
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PB710ASL_NXP00737]
 symbol=pnp.sym
 value=2PB710ASL
-modelname=2PB710ASL
+modelname=Q2PB710ASL
 file=2PB710ASL.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 description=50 V, 500 mA PNP general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PB710AXL_1.pdf
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PD601ARL_NXP00738]
@@ -14125,9 +14314,9 @@ value=2PD601ARL
 modelname=2PD601ARL
 file=2PD601ARL.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14135,7 +14324,7 @@ footprint=none
 description=50 V, 100 mA NPN general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PD601AXL_1.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PD601ASL_NXP00739]
@@ -14144,9 +14333,9 @@ value=2PD601ASL
 modelname=2PD601ASL
 file=2PD601ASL.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14154,7 +14343,7 @@ footprint=none
 description=50 V, 100 mA NPN general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PD601AXL_1.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PD602AQL_NXP00740]
@@ -14163,9 +14352,9 @@ value=2PD602AQL
 modelname=2PD602AQL
 file=2PD602AQL.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14173,7 +14362,7 @@ footprint=none
 description=50 V, 500 mA NPN general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PD602AXL_1.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PD602ARL_NXP00741]
@@ -14182,9 +14371,9 @@ value=2PD602ARL
 modelname=2PD602ARL
 file=2PD602ARL.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14192,7 +14381,7 @@ footprint=none
 description=50 V, 500 mA NPN general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PD602AXL_1.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [2PD602ASL_NXP00742]
@@ -14201,9 +14390,9 @@ value=2PD602ASL
 modelname=2PD602ASL
 file=2PD602ASL.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14211,7 +14400,7 @@ footprint=none
 description=50 V, 500 mA NPN general-purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/2PD602AXL_1.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC817DPN_NXP00743]
@@ -14231,15 +14420,14 @@ description=NPN/PNP general purpose transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BC817DPN_2.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
 
 
 [BC817DS_NXP00744]
-symbol=.sym
+symbol=npn.sym
 value=BC817DS
-modelname=BC817DS
+modelname=QBC817DS
 file=BC817DS.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -14249,9 +14437,8 @@ pinnr_e=E
 footprint=none
 description=NPN general purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BC817DS_2.pdf
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC859BW_NXP00745]
@@ -14260,9 +14447,9 @@ value=BC859BW
 modelname=BC859BW
 file=BC859BW.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14270,7 +14457,8 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BC859W_860W_4.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BC859CW_NXP00746]
@@ -14279,9 +14467,9 @@ value=BC859CW
 modelname=BC859CW
 file=BC859CW.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14289,7 +14477,8 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BC859W_860W_4.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BC860B_NXP00747]
@@ -14298,9 +14487,9 @@ value=BC860B
 modelname=BC860B
 file=BC860B.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14308,11 +14497,12 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BC859_BC860_5.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCV62_NXP00748]
-symbol=.sym
+symbol=pnp.sym
 value=BCV62
 modelname=BCV62
 file=BCV62.prm
@@ -14327,12 +14517,12 @@ footprint=none
 description=PNP general purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BCV62_3.pdf
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCV64B_NXP00749]
-symbol=.sym
+symbol=pnp.sym
 value=BCV64B
 modelname=BCV64B
 file=BCV64B.prm
@@ -14347,8 +14537,8 @@ footprint=none
 description=PNP general purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BCV64B_3.pdf
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCW61B_NXP00750]
@@ -14357,9 +14547,9 @@ value=BCW61B
 modelname=BCW61B
 file=BCW61B.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14367,7 +14557,8 @@ footprint=none
 description=General purpose PNP transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BCW61_3.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCW61C_NXP00751]
@@ -14376,9 +14567,9 @@ value=BCW61C
 modelname=BCW61C
 file=BCW61C.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14386,7 +14577,8 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BCW61_3.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCW61D_NXP00752]
@@ -14395,9 +14587,9 @@ value=BCW61D
 modelname=BCW61D
 file=BCW61D.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14405,7 +14597,8 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BCW61_3.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCW69_NXP00753]
@@ -14414,9 +14607,9 @@ value=BCW69
 modelname=BCW69
 file=BCW69.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14424,7 +14617,8 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BCW69_BCW70_4.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCW70_NXP00754]
@@ -14433,9 +14627,9 @@ value=BCW70
 modelname=BCW70
 file=BCW70.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14443,7 +14637,8 @@ footprint=none
 description=PNP general purpose transistors
 documentation=http://www.nxp.com/acrobat/datasheets/BCW69_BCW70_4.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BCW89_NXP00755]
@@ -14452,9 +14647,9 @@ value=BCW89
 modelname=BCW89
 file=BCW89.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14462,17 +14657,18 @@ footprint=none
 description=General purpose PNP transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BCW89_3.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BF720_NXP00756]
 symbol=npn.sym
 value=BF720
-modelname=BF720
+modelname=QBF720
 file=BF720.prm
-refdes=X?
-pinseq_c=2
-pinseq_b=1
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
@@ -14480,19 +14676,18 @@ pinnr_e=E
 footprint=none
 description=NPN high voltage transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BF720_722_3.pdf
-test_refdes=X1
-model_status_broken=gnucap_0.35
-test_comment=model parameter without leading "+"
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BF722_NXP00757]
 symbol=npn.sym
 value=BF722
-modelname=BF722
+modelname=QBF722
 file=BF722.prm
-refdes=X?
-pinseq_c=2
-pinseq_b=1
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
@@ -14500,17 +14695,16 @@ pinnr_e=E
 footprint=none
 description=NPN high voltage transistor
 documentation=http://www.nxp.com/acrobat/datasheets/BF720_722_3.pdf
-test_refdes=X1
-model_status_broken=gnucap_0.35
-test_comment=model parameter without leading "+"
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBHV9040Z_NXP00758]
-symbol=.sym
+symbol=pnp.sym
 value=PBHV9040Z
-modelname=PBHV9040Z
+modelname=QPBHV9040Z
 file=PBHV9040Z.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -14520,8 +14714,8 @@ pinnr_e=E
 footprint=none
 description=500 V, 0.25 A PNP high-voltage low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV9040Z_2.pdf
-test_refdes=X1
-model_status_undefined=
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBHV9115T_NXP00759]
@@ -14530,9 +14724,9 @@ value=PBHV9115T
 modelname=PBHV9115T
 file=PBHV9115T.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14540,12 +14734,11 @@ footprint=none
 description=150 V, 1 A PNP high-voltage low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV9115T_2.pdf
 test_refdes=X1
-model_status_broken=gnucap_0.35
-test_comment=nodes 22 and 222 not connected?
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBHV9115Z_NXP00760]
-symbol=.sym
+symbol=pnp.sym
 value=PBHV9115Z
 modelname=PBHV9115Z
 file=PBHV9115Z.prm
@@ -14560,16 +14753,15 @@ footprint=none
 description=150 V, 1 A PNP high-voltage low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PBHV9115Z_2.pdf
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PBSS5330X_NXP00761]
-symbol=.sym
+symbol=pnp.sym
 value=PBSS5330X
-modelname=PBSS5330X
+modelname=QPBSS5330X
 file=PBSS5330X.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -14579,9 +14771,8 @@ pinnr_e=E
 footprint=none
 description=30 V, 3 A PNP low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PBSS5330X_3.pdf
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PDTA123YE_NXP00762]
@@ -14600,7 +14791,8 @@ footprint=none
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PDTA123YM_NXP00763]
@@ -14619,7 +14811,8 @@ footprint=none
 description=PNP resistor-equipped transistors; R1=2.2k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PDTA123YU_NXP00764]
@@ -14638,15 +14831,16 @@ footprint=none
 description=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 documentation=http://www.nxp.com/acrobat/datasheets/PDTA123Y_SER_3.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PEMB2_NXP00765]
-symbol=.sym
+symbol=pnp.sym
 value=PEMB2
-modelname=PEMB2
+modelname=QPEMB2
 file=PEMB2.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -14656,9 +14850,8 @@ pinnr_e=E
 footprint=none
 description=PNP/PNP resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB2_PUMB2_2.pdf
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PEMD12_NXP00766]
@@ -14678,7 +14871,7 @@ description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD12_PUMD12_3.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD3_NXP00767]
@@ -14698,7 +14891,7 @@ description=NPN/PNP resistor-equipped transistors; R1=10k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD3_PIMD3_PUMD3_9.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD48_NXP00768]
@@ -14718,7 +14911,7 @@ description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k and R1=2.2k, R
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD48_PUMD48_4.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD6_NXP00769]
@@ -14738,7 +14931,7 @@ description=NPN/PNP resistor-equipped transistors; R1=4.7k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD6_PUMD6_4.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMD9_NXP00770]
@@ -14758,7 +14951,7 @@ description=NPN/PNP resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD9_PUMD9_5.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMH9_NXP00771]
@@ -14778,15 +14971,15 @@ description=NPN/NPN resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PIMH9_PUMH9_PEMH9_4.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PEMT1_NXP00772]
-symbol=.sym
+symbol=pnp.sym
 value=PEMT1
-modelname=PEMT1
+modelname=QPEMT1
 file=PEMT1.prm
-refdes=X?
+refdes=W?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -14796,15 +14989,14 @@ pinnr_e=E
 footprint=none
 description=PNP general purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PEMT1_2.pdf
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PIMH9_NXP00773]
-symbol=.sym
+symbol=npn_bin.sym
 value=PIMH9
-modelname=PIMH9
+modelname=QPIMH9
 file=PIMH9.prm
 refdes=X?
 pinseq_c=1
@@ -14817,8 +15009,8 @@ footprint=none
 description=NPN/NPN resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PIMH9_PUMH9_PEMH9_4.pdf
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [PMBS3904_NXP00774]
@@ -14827,9 +15019,9 @@ value=PMBS3904
 modelname=PMBS3904
 file=PMBS3904.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14837,31 +15029,30 @@ footprint=none
 description=NPN general purpose transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBS3904_5.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBS3906_NXP00775]
 symbol=pnp.sym
 value=PMBS3906
-modelname=PMBS3906
+modelname=QPMBS3906
 file=PMBS3906.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 description=PNP general purpose transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBS3906_5.pdf
-test_refdes=X1
-model_status_broken=gnucap_0.35
-test_comment=model parameter "+" missing
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBT3904YS_NXP00776]
-symbol=.sym
+symbol=npn.sym
 value=PMBT3904YS
 modelname=PMBT3904YS
 file=PMBT3904YS.prm
@@ -14876,16 +15067,15 @@ footprint=none
 description=40 V, 200 mA NPN/NPN general-purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3904YS_1.pdf
 test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBT3906YS_NXP00777]
-symbol=.sym
+symbol=pnp.sym
 value=PMBT3906YS
-modelname=PMBT3906YS
+modelname=QPMBT3906YS
 file=PMBT3906YS.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -14895,9 +15085,8 @@ pinnr_e=E
 footprint=none
 description=40 V, 200 mA PNP/PNP general-purpose double transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBT3906YS_2.pdf
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMBT3946YPN_NXP00778]
@@ -14926,9 +15115,9 @@ value=PMBTA44
 modelname=PMBTA44
 file=PMBTA44.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14936,8 +15125,7 @@ footprint=none
 description=400 V, 0.3 A NPN high-voltage low VCEsat (BISS) transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMBTA44_1.pdf
 test_refdes=X1
-model_status_broken=gnucap_0.35
-test_comment=nodes 222 and 22 not connected?
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST3904_NXP00780]
@@ -14946,9 +15134,9 @@ value=PMST3904
 modelname=PMST3904
 file=PMST3904.prm
 refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
@@ -14956,53 +15144,53 @@ footprint=none
 description=NPN switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMST3904_4.pdf
 test_refdes=X1
-model_status_good=gnucap_0.35
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST3906_NXP00781]
 symbol=pnp.sym
 value=PMST3906
-modelname=PMST3906
+modelname=QPMST3906
 file=PMST3906.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 description=40 V, 200 mA PNP switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMST3906_5.pdf
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PMST4401_NXP00782]
 symbol=npn.sym
 value=PMST4401
-modelname=PMST4401
+modelname=QPMST4401
 file=PMST4401.prm
-refdes=X?
-pinseq_c=3
-pinseq_b=1
-pinseq_e=2
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
 pinnr_c=C
 pinnr_b=B
 pinnr_e=E
 footprint=none
 description=NPN switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PMST4401_3.pdf
-test_refdes=X1
-model_status_good=gnucap_0.35
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMB11_NXP00783]
-symbol=.sym
+symbol=pnp.sym
 value=PUMB11
-modelname=PUMB11
+modelname=QPUMB11
 file=PUMB11.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -15012,17 +15200,16 @@ pinnr_e=E
 footprint=none
 description=PNP/PNP resistor-equipped transistors; R1 = 10 kOhm, R2 = 10 kOhm
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB11_PUMB11_2.pdf
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMB2_NXP00784]
-symbol=.sym
+symbol=pnp.sym
 value=PUMB2
-modelname=PUMB2
+modelname=QPUMB2
 file=PUMB2.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -15032,17 +15219,16 @@ pinnr_e=E
 footprint=none
 description=PNP/PNP resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB2_PUMB2_2.pdf
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMB3_NXP00785]
-symbol=.sym
+symbol=pnp.sym
 value=PUMB3
-modelname=PUMB3
+modelname=QPUMB3
 file=PUMB3.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -15052,17 +15238,16 @@ pinnr_e=E
 footprint=none
 description=PNP/PNP resistor-equipped transistors; R1=4.7k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB3_PUMB3_2.pdf
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMB4_NXP00786]
-symbol=.sym
+symbol=pnp.sym
 value=PUMB4
-modelname=PUMB4
+modelname=QPUMB4
 file=PUMB4.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -15072,9 +15257,8 @@ pinnr_e=E
 footprint=none
 description=PNP/PNP resistor-equipped transistors; R1=10k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMB4_PUMB4_4.pdf
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PUMD10_NXP00787]
@@ -15094,7 +15278,7 @@ description=NPN/PNP resistor-equipped transistors; R1=2.2k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD10_PUMD10_5.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMD12_NXP00788]
@@ -15114,6 +15298,7 @@ description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD12_PUMD12_3.pdf
 test_refdes=X1
 model_status_undefined=
+test_comment=R1,R2 missing
 
 
 [PUMD13_NXP00789]
@@ -15133,7 +15318,7 @@ description=NPN/PNP resistor-equipped transistors; R1=4.7k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD13_PUMD13_2.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMD3_NXP00790]
@@ -15153,7 +15338,7 @@ description=NPN/PNP resistor-equipped transistors; R1=10k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD3_PIMD3_PUMD3_9.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMD48_NXP00791]
@@ -15173,7 +15358,7 @@ description=NPN/PNP resistor-equipped transistors; R1=47k, R2=47k and R1=2.2k, R
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD48_PUMD48_4.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMD6_NXP00792]
@@ -15193,7 +15378,7 @@ description=NPN/PNP resistor-equipped transistors; R1=4.7k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD6_PUMD6_4.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMD9_NXP00793]
@@ -15213,7 +15398,7 @@ description=NPN/PNP resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMD9_PUMD9_5.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMH1_NXP00794]
@@ -15233,7 +15418,7 @@ description=NPN/NPN resistor-equipped transistors; R1=22k, R2=22k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH1_PUMH1_4.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMH10_NXP00795]
@@ -15253,7 +15438,7 @@ description=NPN/NPN resistor-equipped transistors; R1=2.2k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH10_PUMH10_2.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMH11_NXP00796]
@@ -15273,7 +15458,7 @@ description=NPN/NPN resistor-equipped transistors; R1=10k, R2=10k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH11_PUMH11_5.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMH2_NXP00797]
@@ -15293,7 +15478,7 @@ description=NPN/NPN resistor-equipped transistors; R1=47k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH2_PUMH2_3.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMH4_NXP00798]
@@ -15313,7 +15498,7 @@ description=NPN/NPN resistor-equipped transistors; R1=10k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH4_PUMH4_5.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMH7_NXP00799]
@@ -15333,7 +15518,7 @@ description=NPN/NPN resistor-equipped transistors; R1=4.7k, R2=open
 documentation=http://www.nxp.com/acrobat/datasheets/PEMH7_PUMH7_3.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PUMH9_NXP00800]
@@ -15353,15 +15538,15 @@ description=NPN/NPN resistor-equipped transistors; R1=10k, R2=47k
 documentation=http://www.nxp.com/acrobat/datasheets/PIMH9_PUMH9_PEMH9_4.pdf
 test_refdes=X1
 model_status_undefined=
-test_comment=Subcircuit with 6 connections
+test_comment=R1,R2 missing
 
 
 [PXT4401_NXP00801]
-symbol=.sym
+symbol=npn.sym
 value=PXT4401
-modelname=PXT4401
+modelname=QPXT4401
 file=PXT4401.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -15371,17 +15556,16 @@ pinnr_e=E
 footprint=none
 description=NPN switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PXT4401_4.pdf
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PXT4403_NXP00802]
-symbol=.sym
+symbol=pnp.sym
 value=PXT4403
-modelname=PXT4403
+modelname=QPXT4403
 file=PXT4403.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -15391,17 +15575,16 @@ pinnr_e=E
 footprint=none
 description=PNP switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PXT4403_4.pdf
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PZT2222A_NXP00803]
-symbol=.sym
+symbol=npn.sym
 value=PZT2222A
-modelname=PZT2222A
+modelname=QPZT2222A
 file=PZT2222A.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -15411,19 +15594,18 @@ pinnr_e=E
 footprint=none
 description=NPN switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PZT2222A_3.pdf
-test_refdes=X1
-model_status_undefined=
-test_comment=Subcircuit with 4 connections
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PZT2907A_NXP00804]
 symbol=pnp.sym
 value=PZT2907A
-modelname=PZT2907A
+modelname=QPZT2907A
 file=PZT2907A.prm
 refdes=X?
-pinseq_c=2
-pinseq_b=1
+pinseq_c=1
+pinseq_b=2
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
@@ -15431,19 +15613,18 @@ pinnr_e=E
 footprint=none
 description=PNP switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PZT2907A_3.pdf
-test_refdes=X1
-model_status_broken=gnucap_0.35
-test_comment=model parameter "+" missing
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PZT4401_NXP00805]
 symbol=npn.sym
 value=PZT4401
-modelname=PZT4401
+modelname=QPZT4401
 file=PZT4401.prm
-refdes=X?
-pinseq_c=2
-pinseq_b=1
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
@@ -15451,19 +15632,18 @@ pinnr_e=E
 footprint=none
 description=NPN switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PZT4401_1.pdf
-test_refdes=X1
-model_status_broken=gnucap_0.35
-test_comment=model parameter "+" missing
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [PZT4403_NXP00806]
 symbol=pnp.sym
 value=PZT4403
-modelname=PZT4403
+modelname=QPZT4403
 file=PZT4403.prm
-refdes=X?
-pinseq_c=2
-pinseq_b=1
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
 pinseq_e=3
 pinnr_c=C
 pinnr_b=B
@@ -15471,13 +15651,12 @@ pinnr_e=E
 footprint=none
 description=PNP switching transistor
 documentation=http://www.nxp.com/acrobat/datasheets/PZT4403_N_2.pdf
-test_refdes=X1
-model_status_broken=gnucap_0.35
-test_comment=model parameter "+" missing
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847BPN_NXP00807]
-symbol=PNP.sym
+symbol=pnp.sym
 value=QBC847BPN_PNP
 modelname=QBC847BPN_PNP
 file=BC847BPN.prm
@@ -15492,7 +15671,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847BPN_3.pdf
 description=NPN/PNP general purpose transistor
 test_refdes=Q1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BC847BVN_NXP00808]
@@ -15511,7 +15690,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BC847BVN_2.pdf
 description=NPN/PNP general purpose transistor
 test_refdes=Q1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BCV65_NXP00809]
@@ -15519,7 +15698,7 @@ symbol=pnp.sym
 value=QBCV65_PNP
 modelname=QBCV65_PNP
 file=BCV65.prm
-refdes=X?
+refdes=Q?
 pinseq_c=1
 pinseq_b=2
 pinseq_e=3
@@ -15530,5 +15709,44 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BCV65_3.pdf
 description=NPN/PNP general purpose transistor
 test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
+
+
+[PEMZ1_NXP00810]
+symbol=pnp.sym
+value=PEMZ1
+modelname=QPEMZ1_PNP
+file=PEMZ1.prm
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
+pinnr_c=C
+pinnr_b=B
+pinnr_e=E
+footprint=none
+documentation=
+description=general purpose NPN/PNP transistor
+test_refdes=Q1
+model_status_good=ngspice_23 gnucap_0.35
+
+
+[PEMZ7_NXP00811]
+symbol=pnp.sym
+value=PEMZ7
+modelname=QPEMZ7_PNP
+file=PEMZ7.prm
+refdes=Q?
+pinseq_c=1
+pinseq_b=2
+pinseq_e=3
+pinnr_c=C
+pinnr_b=B
+pinnr_e=E
+footprint=none
+documentation=
+description=general purpose NPN/PNP transistor
+test_refdes=Q1
+model_status_good=gnucap_0.35 ngspice_23
 
 
