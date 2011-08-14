@@ -709,6 +709,22 @@ class modelResistorEquippedTransistor(modelBipolar):
     """Base class transistors with base and/or collector resistors"""
     plot_methods = ['plot_dc_current']
 
+    def base_current_ok(self, Uin, Iin, longmsg):
+        if numpy.any(Iin < -.001) or numpy.any(Iin > 0.1):
+            print >>longmsg, "input current out of expected range [-0.001, 1.0]"
+            return False
+        else:
+            return True
+
+    def collector_current_ok(self, Uin, Ic, longmsg):
+        if numpy.any(Ic < -.001) or numpy.any(Ic > 100.0):
+            print >>longmsg, "collector current out of expected range [-0.001, 100.0]"
+            return False
+        elif not numpy.any(Ic > 0.003):
+            return False
+        else:
+            return True
+
     def plot_dc_current(self, dir, longmsg):
         ret = 0
         pp = plotter()
@@ -780,21 +796,6 @@ class modelBipolarBin(modelResistorEquippedTransistor):
     plot_methods = ['plot_dc_current']
     simulator = 'gnucap'
 
-    def base_current_ok(self, Uin, Iin, longmsg):
-        if numpy.any(Iin < -.001) or numpy.any(Iin > 0.1):
-            print >>longmsg, "input current out of expected range [-0.001, 1.0]"
-            return False
-        else:
-            return True
-
-    def collector_current_ok(self, Uin, Ic, longmsg):
-        if numpy.any(Ic < -.001) or numpy.any(Ic > 100.0):
-            print >>longmsg, "collector current out of expected range [-0.001, 100.0]"
-            return False
-        elif not numpy.any(Ic > 0.01):
-            return False
-        else:
-            return True
 
 
 class modelPNPBin(modelBipolarBin):
