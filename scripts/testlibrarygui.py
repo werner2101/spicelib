@@ -76,6 +76,15 @@ class SpicelibTestGui:
         vbox2.pack_start(scroll3, True, True, 5)
         scroll3.add(self.device_text)
 
+        ## update checksum button
+        hbox2 = gtk.HBox()
+        vbox2.pack_start(hbox2, False, False, 5)
+        self.entry_checksum = gtk.Entry()
+        hbox2.pack_start(self.entry_checksum, True, True, 0)
+        button_sign = gtk.Button('sign checksum')
+        button_sign.connect("clicked", self.callback_sign, None)
+        hbox2.pack_start(button_sign, True, True, 0)
+
         ## tester buttons
         button_prev = gtk.Button("<<")
         button_prev.connect("clicked", self.callback_move, -1)
@@ -89,8 +98,7 @@ class SpicelibTestGui:
         hbox_test.pack_start(button_next, False, False, 0)
         vbox2.pack_start(hbox_test, False, False, 5)
 
-
-        ## simulator action buttons in a widget table
+        ## simulator action buttons in a table widget
         self.testwidgets = {}
         table = gtk.Table(5,len(SIMULATORS))
         for n, sim in enumerate(SIMULATORS):
@@ -99,24 +107,15 @@ class SpicelibTestGui:
             status = gtk.Entry()
             self.testwidgets[(sim,'status')] = status
             table.attach(status,n,n+1,1,2)
+            for m,action in enumerate(['view', 'good', 'broken']):
+                button = gtk.Button(action)
+                table.attach(button,n,n+1,2+m,3+m)
+                button.connect('clicked', self.callback_simulator_action, (sim,action))
             rating = gtk.Entry()
             self.testwidgets[(sim,'rating')] = rating
-            table.attach(rating,n,n+1,2,3)
-            for m,action in enumerate(['good', 'broken','view']):
-                button = gtk.Button(action)
-                table.attach(button,n,n+1,3+m,4+m)
-                button.connect('clicked', self.callback_simulator_action, (sim,action))
+            table.attach(rating,n,n+1,5,6)
         vbox2.pack_start(table, False, False, 5)
         
-        ## update checksum button
-        hbox2 = gtk.HBox()
-        vbox2.pack_start(hbox2, False, False, 5)
-        self.entry_checksum = gtk.Entry()
-        hbox2.pack_start(self.entry_checksum, True, True, 5)
-        button_sign = gtk.Button('sign checksum')
-        button_sign.connect("clicked", self.callback_sign, None)
-        hbox2.pack_start(button_sign, True, True, 5)
-
         ## logging window in the bottom
         # TBD
 
