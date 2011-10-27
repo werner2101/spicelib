@@ -419,9 +419,10 @@ class NXP(Vendor):
     abbrev = 'nxp'
     sections = ['diodes', 'bipolar']
     unpack_by_section = True
-    download_urls = ['http://www.nxp.com/models/spicespar/zip/' + file
-            for file in ['fet.zip', 'power.zip', 'wideband.zip', 'SBD.zip',
-            'SST.zip', 'diodes.zip', 'mmics.zip', 'varicap.zip',
+    ## URL: http://www.nxp.com/models.html
+    download_urls = ['http://www.nxp.com/resources/models/zip/' + file
+            for file in ['fet.zip', 'power.zip', 'wideband.zip', 'sbd.zip',
+            'sst.zip', 'diodes.zip', 'mmics.zip', 'varicap.zip',
             'basestations.zip', 'complex_discretes.zip']]
     def unpack_diodes(self):
         return env.Command(None, os.path.join('downloads', 'nxp', 'diodes.zip'),
@@ -431,7 +432,7 @@ class NXP(Vendor):
                 """ % {'tempdir': os.path.join(TEMPDIR, 'nxp', 'diodes'),
                     'csfile': os.path.join(MODEL_SIGDIR, 'nxp_diodes.md5sum')})
     def unpack_bipolar(self):
-        return env.Command(None, os.path.join('downloads', 'nxp', 'SST.zip'),
+        return env.Command(None, os.path.join('downloads', 'nxp', 'sst.zip'),
                 """
                 - unzip -o -d %(tempdir)s $SOURCE
                 md5sum %(tempdir)s/* > %(csfile)s
