@@ -2051,7 +2051,7 @@ model_status_good=ngspice_19
 [BZX585-B3V0_NXP01113]
 symbol=zener_diode.sym
 value=BZX585B3V0
-modelname=BZX585B3V0
+modelname=BZX585-B3V0
 file=BZX585_B3V0.prm
 refdes=D?
 pinseq_a=1
@@ -6475,7 +6475,7 @@ model_status_good=ngspice_19
 [PZU4V3B1_NXP01355]
 symbol=zener_diode.sym
 value=PZU4V3B1
-modelname=PZU4V3B1
+modelname=PZU4.3B1
 file=PZU4.3B1.prm
 refdes=X?
 pinseq_a=2
@@ -10293,7 +10293,7 @@ pinnr_k=K
 footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
-test_refdes=X1
+test_refdes=D1
 model_status_good=ngspice_19
 
 
@@ -12340,8 +12340,8 @@ model_status_good=ngspice_19
 
 [PZU5V6B3A_NXP01675]
 symbol=zener_diode.sym
-value=PZU5V6B3A
-modelname=PZU5V6B3A
+value=PZU5.6B3A
+modelname=PZU5.6B3A
 file=PZU5.6B3A.prm
 refdes=X?
 pinseq_a=2
@@ -12351,7 +12351,7 @@ pinnr_k=K
 footprint=none
 description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
-test_refdes=X1
+test_refdes=D1
 model_status_good=ngspice_19
 
 
