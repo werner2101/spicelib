@@ -191,6 +191,82 @@
     All test results and some of the test definitions are linked in
     the <a href="../model_tests/spicelib.html">toplevel file</a> in the
     test directory.
+
+    <h2> Run model tests </h2>
+
+    There are differnt ways to run the model tests. All test methods
+    rely on the tester library <b>scripts/testlibrary.py</b>.
+
+    <h3> Command line usages of the tester</h3>
+
+    You can use the commandline of the tester to run tests on a single
+    part or on all parts with a given status.
+
+    <table>
+      <tbody>
+	<tr>
+	  <td bgcolor="#BBBBBB">
+	    <pre>/spicelib> scripts/testlibrary.py --help
+usage is:
+  -i --index libraryname1 [libraryname2, ..]
+  -t --test libraryname1 [libraryname2, ..]
+  -p --part libraryname partname1 [partname2, ..]
+  -s --status status: check/list only one given status
+  -c --checksum checksum: check/list only one checksum status</pre>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+
+    <h3> use scons system </h3>
+    With scons test you can run tests on all devices automatically.
+    
+
+    <h3> use the tester gui</h3>
+
+    When doing manual model testing, it's good to have all
+    informations about one device on the screen. To run the gui, just
+    call it with an indexfile on command line:
+
+    <table>
+      <tbody>
+	<tr>
+	  <td bgcolor="#BBBBBB">
+	    <pre>> ./scripts/testlibrarygui.py indexfiles/national_opamps.index</pre>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+
+
+    <p>
+
+    <img src="bitmaps/testlibrarygui.png"> <p>
+
+    On the left side all devices of the index file are listed. <br> If
+    you select one device, then you'll see the model text in the
+    center text widget. <br> On the right top side you'll see the
+    device definition. You can edit that section to modifiy the
+    definition. <p>
+
+    With the buttons and colored status messages you can run model tests.
+
+    If the <b>model checksum</b> is not the same as in the golden
+    checksum files. You can sign the model. <p>
+
+    The button <b>test model definition</b> runs the tests with all
+    simulators for that device. <b>&lt;&lt;</b> and <b>&gt;&gt;</b>
+    will show the next device. <p>
+
+    The results of the model test is shown below the simulator. The
+    <b>view</b> buttons will show the detailed simulation results in a
+    browser. <p>
+
+    With the button <b>good</b> and <b>broken</b> you can give a
+    manual rating of the model. This will update the fields
+    <i>model_status_good</i> and <i>model_status_bad</i> in the device
+    definition.
+
     
     <h2> Development</h2>
     The development of spicelib is hosted at github: <a href="https://github.com/werner2101/spicelib/">github.com/werner2101/spicelib</a>.
@@ -201,7 +277,7 @@
     <address><a href="mailto:werner.ho@gmx.de">Werner Hoch</a></address>
 <!-- Created: Sat Dec 29 09:54:35 CET 2007 -->
 <!-- hhmts start -->
-Last modified: Tue Jan 18 08:20:52 CET 2011
+Last modified: Sun Mar 24 11:58:05 CET 2013
 <!-- hhmts end -->
   </body>
 </html>

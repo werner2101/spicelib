@@ -126,7 +126,8 @@ And symbol definitions:
   pinnr_e=E
   footprint=none
   test_refdes=Q1
-  model_status=good
+  model_status_good=ngspice_23
+  model_status_broken=gnucap_0.35
 
 The section has a "name" part and a "uniq number" part. Thus all
 generated symbols will be uniq. (important for gschem, ...)
@@ -138,8 +139,9 @@ in the symbol template files.
 
 "test_refdes" is currently required for testing.
 
-The "model_status" is a rating that tells the user whether the symbol
-is good, broken, untested or undefined.
+The "model_status_good" is an optional, manual rating of a model. It's
+value is a list of all simulators that have been tested.  With
+"model_status_bad" bad models can be marked.
 
 
 5. Testing the models
