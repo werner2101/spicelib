@@ -46,7 +46,7 @@ class SpicelibTestGui:
         ## Model text view
         self.model_text = gtk.TextView()
         self.model_text_buffer = gtk.TextBuffer()
-        self.model_text_buffer.set_text('Hello World1!')
+        self.model_text_buffer.set_text('\nModel Text Widget: no model loaded!')
         self.model_text.set_buffer(self.model_text_buffer)
         scroll2 = gtk.ScrolledWindow()
         hbox.pack_start(scroll2, True, True, 5)
@@ -70,7 +70,7 @@ class SpicelibTestGui:
         ## device definition text view
         self.device_text = gtk.TextView()
         self.device_text_buffer = gtk.TextBuffer()
-        self.device_text_buffer.set_text('Hello World2!')
+        self.device_text_buffer.set_text('\nDevice Text Widget: no device loaded!')
         self.device_text.set_buffer(self.device_text_buffer)
         scroll3 = gtk.ScrolledWindow()
         vbox2.pack_start(scroll3, True, True, 5)
@@ -131,8 +131,11 @@ class SpicelibTestGui:
         device = self.model_list[path][0]
         devicetext = self.library.get_devicetext(device)
         self.device_text_buffer.set_text(devicetext)
-        modeltext = self.library.get_modeltext(device)
-        self.model_text_buffer.set_text(modeltext)
+        try:
+            modeltext = self.library.get_modeltext(device)
+            self.model_text_buffer.set_text(modeltext)
+        except:
+            self.model_text_buffer.set_text('\nERROR: Model definition not found! \n\nCheck model file')
         self.update_teststatus()
 
     def callback_test(self, widget, data=None):
