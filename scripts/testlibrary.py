@@ -363,10 +363,10 @@ class modelpartBase(object):
     def model_status(self, simulator):
         """Return the status of the part for the given simulator"""
         sim_family = SIMULATORS[simulator]['simulator']
-        if sim_family in self.properties['model_status_good'] and \
-                sim_family in self.properties['model_status_broken']:
+        if simulator in self.properties['model_status_good'].split() and \
+                simulator in self.properties['model_status_broken'].split():
             raise ValueError, "%s status listed as both good and bad for %s" % \
-                    (sim_family, self.name)
+                    (simulator, self.name)
         if 'model_status_undefined' in self.properties:
             return 'undefined'
         elif sim_family in self.properties['model_status_good']:
