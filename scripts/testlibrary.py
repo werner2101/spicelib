@@ -1020,8 +1020,9 @@ class modellibrary(object):
             self.load_device(sec)
 
     def load_device(self, sec):
-        part = modelpart(sec, self.testdir + sec, self.modeldir, self.index.items(sec))
-        modelpath = self.modeldir + part.properties['file']
+        modeltestdir = os.path.join(self.testdir, sec)
+        part = modelpart(sec, modeltestdir, self.modeldir, self.index.items(sec))
+        modelpath = os.path.join(self.modeldir, part.properties['file'])
         part.golden_checksum = self.golden_md5.get(modelpath, False)
         self.modelparts[part.name] = part
 
@@ -1077,7 +1078,7 @@ class modellibrary(object):
                     continue
 
             print "\n" + "*"*75
-            print "Testing part: " + part.name + "  model: " + self.modeldir + part.properties["file"]
+            print "Testing part: " + part.name + "  model: " + os.path.join(self.modeldir,part.properties["file"])
             part.test()
             part.cfg_status()
             print "Result: ", part.test_status
@@ -1107,7 +1108,7 @@ class modellibrary(object):
         for sim in SIMULATORS:
             simulator_headers += "<th>%s</th>\n" % sim
         lib['simulator_headers'] = simulator_headers
-        open(self.testdir + "index.html", "w").write(html_template.safe_substitute(lib))
+        open(os.path.join(self.testdir, "index.html"), "w").write(html_template.safe_substitute(lib))
 
     def model_url(self, modelname):
         modeldir = self.index.get('GLOBAL','MODELDIR')
@@ -1118,7 +1119,7 @@ class modellibrary(object):
         if part == None:
             raise KeyError
 
-        print "Testing part: " + part.name + "  model: " + self.modeldir + part.properties["file"]
+        print "Testing part: " + part.name + "  model: " + os.path.join(self.modeldir, part.properties["file"])
         part.test()
         part.cfg_status()
         print "Result: ", part.test_status, "\n"
