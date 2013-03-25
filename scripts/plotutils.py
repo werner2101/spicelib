@@ -1,6 +1,5 @@
 #!/usr/bin/python
-# vim: ts=4
-# vim: sw=4
+# vim: ts=4 : et : sw=4 :
 
 import numpy
 from spicelibconf import *
@@ -10,7 +9,10 @@ if PLOTTER == 'gnuplot':
     import Gnuplot
     Gnuplot.GnuplotOpts.default_term = "png"
 else:
+    import matplotlib
+    matplotlib.use('Agg')
     import matplotlib.pyplot
+
 
 
 class gnuplot_subplot(object):
