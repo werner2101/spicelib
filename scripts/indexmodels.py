@@ -1,12 +1,9 @@
 #!/usr/bin/python
-# vim: ts=4
-# vim: sw=4
+# vim: ts=4 : sw=4 : et
 
 import sys,re,string
 import ConfigParser
 import os.path
-
-
 
 
 #################### CONSTANTS

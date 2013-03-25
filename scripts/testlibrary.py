@@ -1,6 +1,5 @@
 #!/usr/bin/python
-# vim: ts=4 :
-# vim: sw=4 :
+# vim: ts=4 : et : sw=4 :
 
 import sys, re, string, os
 import shutil
@@ -913,7 +912,7 @@ class modelOpamp(modelpartBase):
         if not numpy.allclose(2 * vin[t1:t2], vout[t1:t2], rtol=.01, atol=.1):
             #We can't have a very tight tolerance here because input offset 
             #voltages have a large effect when the voltage is near 0
-            print >>longmsg, 'Circuit does not acheive correct amplification'
+            print >>longmsg, 'Circuit does not achieve correct amplification'
             success = False
         return success
 
