@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# vim: ts=4 : et : sw=4 :
 
 import sys, os, re, string
 import ConfigParser
@@ -6,18 +7,15 @@ import getopt
 
 
 #################### SETUP VARS
-REL_DIR= "../"       # relation between this script and the BASE_DIR
-BASE_DIR = os.path.join(os.getcwd(),
-                        os.path.dirname(sys.argv[0]),
-                        REL_DIR)
-PARTDB_DIR = BASE_DIR + "indexfiles/"
-SYMBOLTEMPLATE_DIR = BASE_DIR + "symbol_templates/"
-SYMBOLDUMP_DIR = BASE_DIR + "symbols/"
+BASE_DIR = os.path.join(os.path.dirname(__file__), '../')
+PARTDB_DIR = os.path.join(BASE_DIR,'indexfiles/')
+SYMBOLTEMPLATE_DIR = os.path.join(BASE_DIR,'symbol_templates/')
+SYMBOLDUMP_DIR = os.path.join(BASE_DIR, 'symbols/')
 
 #################### FUNCTIONS
 def list_parts(filename):
     ind = ConfigParser.ConfigParser()
-    ind.read(PARTDB_DIR + filename)
+    ind.read(filename)
     parts = []
     for part in ind.sections():
         if not ind.has_option(part, 'model_status_undefined'):
@@ -26,7 +24,10 @@ def list_parts(filename):
 
 def symbol(filename, partname):
     ind = ConfigParser.ConfigParser()
-    ind.read(PARTDB_DIR + filename)
+    ind.read(filename)
+
+    if verbose:
+        print "trying to get " + partname + " from " + PARTDB_DIR + filename   
 
     symbol = ind.get(partname, "symbol")
     symbol_template = string.Template(open(SYMBOLTEMPLATE_DIR + symbol).read())
@@ -86,9 +87,7 @@ listlibrary = False
 printpart = False
 
 for o, a in opts:
-    if o == "-v":
-        verbose = True
-    elif o in ("-h", "--help"):
+    if o in ("-h", "--help"):
         usage()
         sys.exit()
     elif o in ("-v", "--verbose"):
@@ -104,7 +103,7 @@ for o, a in opts:
         printpart = True
         libraryfile = a
         if len(args) != 1:
-            sys.stderr.write('Error: No partname given\n')
+            sys.stderr.write('ERROR: No partname given\n')
             usage()
             sys.exit(2)
         symbolfile = args[0]
@@ -126,11 +125,21 @@ if dumpsymbols:
     sys.exit()
     
 elif listlibrary:
-    sys.stdout.write("\n".join(list_parts(libraryfile)))
+    librarypath = os.path.join(PARTDB_DIR, libraryfile)
+    if os.path.exists(librarypath):
+        sys.stdout.write("\n".join(list_parts(librarypath)))
+    else:
+        sys.stderr.write('ERROR: Symbol library not found\n')
     sys.exit()
 
 elif printpart:
-    sys.stdout.write(symbol(libraryfile, symbolfile))
+    if verbose:
+        print "printing part from " + libraryfile
+    librarypath = os.path.join(PARTDB_DIR, libraryfile)
+    if os.path.exists(librarypath):
+        sys.stdout.write(symbol(librarypath, symbolfile))
+    else:
+        sys.stderr.write('ERROR: Symbol library not found\n')
     sys.exit()
     
 else:
