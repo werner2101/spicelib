@@ -312,7 +312,8 @@ class modelpartBase(object):
 
         for sch in TESTDEFS[self.properties['symbol']]['schematics']:
             net = os.path.splitext(sch)[0] + '.net'
-            command="gnetlist -g spice-sdb -l scripts/geda-parts.scm -o %(netfile)s %(schfile)s" \
+            gedaparts = os.path.abspath(os.path.join(BASE_DIR, 'scripts/geda-parts.scm'))
+            command="gnetlist -g spice-sdb -l "+ gedaparts +" -o %(netfile)s %(schfile)s" \
                     % {'netfile': os.path.join(dir, net), 
                        'schfile': os.path.join(dir, sch)}
             print >>longmsg, ME, "creating netlist: ", command
