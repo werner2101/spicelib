@@ -23,7 +23,7 @@ ROW_TEMPLATES = {
         'base': """
 <tr><td rowspan="2">$partname</td>
     <td rowspan="2">$value</td>
-    <td rowspan="2">$model_url</td>
+    <td bgcolor="$model_url_color" rowspan="2">$model_url</td>
     <td rowspan="2">$symbol</td>
     <td bgcolor="$checksum_test_color" rowspan="2">$checksum_test</td>
     $sim_test_columns
@@ -264,8 +264,9 @@ class modelpartBase(object):
         make_doc_hyperlink(repl, docname='(d) ')
 
         self.update_checksum()
-
+                     
         repl["model_url"] = '<a href="../../../' + self.modeldir +'/'+repl["file"]+'">'+repl["file"]+'</a>'
+        repl["model_url_color"] = color(os.path.exists(os.path.join(self.modeldir,repl["file"])))
         repl["checksum_test"] = self.checksum_status
         repl["checksum_test_color"] = color(self.checksum_status)
 
@@ -1208,9 +1209,9 @@ class modellibrary(object):
 
 #################### FUNCTIONS
 
-def color(text):
-    if COLORS.has_key(text):
-        return COLORS[text]
+def color(key):
+    if COLORS.has_key(key):
+        return COLORS[key]
     else:
         return COLORS["default"]
 

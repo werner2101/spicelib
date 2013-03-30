@@ -13,7 +13,9 @@ COLORS = {"broken": "#FF3F3F",
           "succeeded": "#7FFF7F",
           "NIY": "#CFCFCF",
           "undefined": "#CFCFCF",
-          "default": "#FFFFFF"}
+          "default": "#FFFFFF",
+          True:"#FFFFFF",
+          False:"#FF3F3F"}
 
 # The format of simulators is a dict of dictionaries.
 # The keys are the simulator identification's name. This is a unique
