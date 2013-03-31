@@ -285,15 +285,15 @@ class modelpartBase(object):
             if os.path.exists(os.path.join(testdir, 'index.html')) and \
                     status.has_option('simulators', sim):
                 sim_status = status.get('simulators', sim)
-                test_repl = {'model_test_color': COLORS[sim_status]}
+                test_repl = {'model_test_color': color(sim_status)}
                 test_repl['model_test'] = '<a href="%s">%s</a>' % \
                         (os.path.join(self.name, SIMULATORS[sim]['folder'],
                                 'index.html'), sim_status)
             else:
                 test_repl = {'model_test': 'None',
-                             'model_test_color': COLORS['default']}
+                             'model_test_color': color('default')}
             model_status = self.model_status(sim)
-            status_repl = {'model_status_color': COLORS[model_status],
+            status_repl = {'model_status_color': color(model_status),
                 'model_status': model_status}
             sim_test_columns += test_tmpl.safe_substitute(test_repl)
             sim_status_columns += status_tmpl.safe_substitute(status_repl)
@@ -1211,10 +1211,7 @@ class modellibrary(object):
 #################### FUNCTIONS
 
 def color(key):
-    if COLORS.has_key(key):
-        return COLORS[key]
-    else:
-        return COLORS["default"]
+    COLORS.get(key, COLORS["default"])
 
 
 def make_doc_hyperlink(repl, docname=None):
