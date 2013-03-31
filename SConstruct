@@ -159,9 +159,11 @@ class Vendor(object):
             partid = name
             if 'model_status_undefined' in library.modelparts[partid].properties:
                 continue
-            file = library.modelparts[partid].properties['file']
-            sources = [indexfile,
-                os.path.join(MODEL_LIBDIR, self.abbrev, section, file)]
+            modelfile = library.modelparts[partid].properties['file']
+            modelpath = os.path.join(MODEL_LIBDIR, self.abbrev, section, modelfile)
+            if not os.path.exists(modelpath):
+                continue
+            sources = [indexfile, modelpath]
             dir_ = os.path.join(TESTDIR, self.abbrev, section, partid)
             target = os.path.join(dir_, 'status.cfg')
             nodes.append(env.TestSingle(target, sources, partid=partid, library=library))
