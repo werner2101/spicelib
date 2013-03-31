@@ -1,9 +1,9 @@
 [GLOBAL]
-MODELDIR=model_library/nxp/diodes/
-TESTDIR=model_tests/nxp/diodes/
-DESCRIPTION=NXP diode models
-GOLDEN_CHECKSUMS=model_golden_checksums/nxp_diodes_lib.md5sum
-CURRENT_CHECKSUMS=model_checksums/nxp_diodes_lib.md5sum
+modeldir=model_library/nxp/diodes/
+testdir=model_tests/nxp/diodes/
+description=NXP diode models
+golden_checksums=model_golden_checksums/nxp_diodes_lib.md5sum
+current_checksums=model_checksums/nxp_diodes_lib.md5sum
 model_status_undefined=
 
 
@@ -19,15 +19,13 @@ pinnr_a=A
 pinnr_k=K
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/1N4728A_1.pdf
-description=6.2V zener diode 
+description=6.2V zener diode
 test_refdes=X1
-model_status_broken=ngspice_19
+model_status_good=ngspice_23
 
 
-
-# Subcircuit with 3 connections
 [1PS181_NXP01002]
-symbol=.sym
+symbol=zener_diode.sym
 value=1PS181
 modelname=1PS181
 file=1PS181.prm
@@ -40,13 +38,11 @@ footprint=none
 documentation=none
 description=high-speed double diode
 test_refdes=X1
-model_status_undefined=
+model_status_good=ngspice_23
 
 
-
-# Subcircuit with 3 connections
 [1PS300_NXP01003]
-symbol=.sym
+symbol=diode.sym
 value=1PS300
 modelname=1PS300
 file=1PS300.prm
@@ -59,8 +55,7 @@ footprint=none
 documentation=none
 description=high-speed double diode
 test_refdes=X1
-model_status_undefined=
-
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BAS116H_NXP01004]
@@ -77,8 +72,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS116H_1.pdf
 description=low-leakage diode
 test_refdes=D1
-model_status_good=ngspice_19
-
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAS116_NXP01005]
@@ -95,8 +89,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS116_4.pdf
 description=low-leakage diode
 test_refdes=D1
-model_status_good=ngspice_19
-
+model_status_good=ngspice_19 ngspice_23 gnucap_0.35
 
 
 [BAS16H_NXP01006]
@@ -113,9 +106,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS16H_1.pdf
 description=high-speed switching diode
 test_refdes=D1
-model_status_good=ngspice_19
-
-
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAS16L_NXP01007]
@@ -132,8 +123,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS16L_1.pdf
 description=high-speed diode
 test_refdes=D1
-model_status_good=ngspice_19
-
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAS16_NXP01008]
@@ -151,16 +141,15 @@ documentation=http://www.nxp.com/acrobat/datasheets/BAS16_4.pdf
 description=high-speed diode
 test_refdes=D1
 model_status_good=ngspice_19
+model_status_broken=gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [BAS16VV_NXP01009]
-symbol=.sym
+symbol=diode.sym
 value=BAS16VV
 modelname=BAS16VV
 file=BAS16VV.prm
-refdes=X?
+refdes=D?
 pinseq_a=1
 pinseq_k=2
 pinnr_a=A
@@ -168,14 +157,12 @@ pinnr_k=K
 footprint=none
 documentation=none
 description=3 diodes in one package
-test_refdes=X1
-model_status_undefined=
+test_refdes=D1
+model_status_good=gnucap_0.35 ngspice_23
 
 
-
-# Subcircuit with 6 connections
 [BAS16VY_NXP01010]
-symbol=.sym
+symbol=diode.sym
 value=BAS16VY
 modelname=BAS16VY
 file=BAS16VY.prm
@@ -188,8 +175,8 @@ footprint=none
 documentation=none
 description=3 diodes in one package
 test_refdes=X1
-model_status_undefined=
-
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BAS216_NXP01011]
@@ -206,8 +193,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS216_5.pdf
 description=high-speed switching diode
 test_refdes=D1
-model_status_good=ngspice_19
-
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAS21H_NXP01012]
@@ -216,21 +202,19 @@ value=BAS21H
 modelname=BAS21H
 file=BAS21H.prm
 refdes=X?
-pinseq_a=2
-pinseq_k=1
+pinseq_a=1
+pinseq_k=2
 pinnr_a=A
 pinnr_k=K
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS21H_2.pdf
 description=high voltage switching diode
 test_refdes=X1
-model_status_good=ngspice_19
+model_status_good=ngspice_19 gnucap_0.35
 
 
-
-# Subcircuit with 3 connections
 [BAS21_NXP01013]
-symbol=.sym
+symbol=diode.sym
 value=BAS21
 modelname=BAS21
 file=BAS21.prm
@@ -243,13 +227,11 @@ footprint=none
 documentation=none
 description=diode with 3 pins
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
-
-# Subcircuit with 6 connections
 [BAS21VD_NXP01014]
-symbol=.sym
+symbol=diode.sym
 value=BAS21VD
 modelname=BAS21VD
 file=BAS21VD.prm
@@ -262,8 +244,7 @@ footprint=none
 documentation=none
 description=3 diodes in one package
 test_refdes=X1
-model_status_undefined=
-
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BAS28_NXP01015]
@@ -280,8 +261,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS28_2.pdf
 description=High-speed double diode
 test_refdes=D1
-model_status_good=ngspice_19
-
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAS321_NXP01016]
@@ -298,8 +278,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS321_2.pdf
 description=general purpose diode
 test_refdes=X1
-model_status_good=ngspice_19
-
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAS32L_NXP01017]
@@ -316,8 +295,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS32L_4.pdf
 description=high-speed switching diode
 test_refdes=D1
-model_status_good=ngspice_19
-
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAS416_NXP01018]
@@ -334,8 +312,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS416_2.pdf
 description=low-leackage diode
 test_refdes=D1
-model_status_good=ngspice_19
-
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAS45A_NXP01019]
@@ -352,8 +329,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS45A_2.pdf
 description=low-leakage diode
 test_refdes=D1
-model_status_good=ngspice_19
-
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAS516_NXP01020]
@@ -370,8 +346,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS516_1.pdf
 description=high-speed diode
 test_refdes=D1
-model_status_good=ngspice_19
-
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAS521_NXP01021]
@@ -388,8 +363,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS521_1.pdf
 description=high voltage switching diode
 test_refdes=X1
-model_status_good=ngspice_19
-
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAS56_NXP01022]
@@ -406,8 +380,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS56_2.pdf
 description=high-speed double diode
 test_refdes=D1
-model_status_good=ngspice_19
-
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAS716_NXP01023]
@@ -415,7 +388,7 @@ symbol=diode.sym
 value=BAS716
 modelname=BAS716
 file=BAS716.prm
-refdes=X?
+refdes=D?
 pinseq_a=1
 pinseq_k=2
 pinnr_a=A
@@ -423,9 +396,8 @@ pinnr_k=K
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAS716_1.pdf
 description=low-leakage diode
-test_refdes=X1
-model_status_good=ngspice_19
-
+test_refdes=D1
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAV103_NXP01024]
@@ -442,8 +414,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV102_BAV103_3.pdf
 description=general-purpose switching diodes
 test_refdes=D1
-model_status_good=ngspice_19
-
+model_status_good=ngspice_19 gnucap_0.35
 
 
 [BAV199_NXP01025]
@@ -460,13 +431,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV199_4.pdf
 description=low-leakage double diode
 test_refdes=D1
-model_status_good=ngspice_19
+model_status_good=ngspice_19 gnucap_0.35
 
 
-
-# Subcircuit with 4 connections
 [BAV23_NXP01026]
-symbol=.sym
+symbol=diode.sym
 value=BAV23
 modelname=BAV23
 file=BAV23.prm
@@ -479,13 +448,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV23_2.pdf
 description=general purpose double diode
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
-
-# Subcircuit with 3 connections
 [BAV23S_NXP01027]
-symbol=.sym
+symbol=diode.sym
 value=BAV23S
 modelname=BAV23S
 file=BAV23S.prm
@@ -498,13 +465,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV23S_5.pdf
 description=general purpose double diode
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
-
-# Subcircuit with 3 connections
 [BAV70_NXP01028]
-symbol=.sym
+symbol=diode.sym
 value=BAV70
 modelname=BAV70
 file=BAV70.prm
@@ -517,8 +482,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV70_6.pdf
 description=high-speed double diode
 test_refdes=X1
-model_status_undefined=
-
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BAV99S_NXP01029]
@@ -535,13 +499,12 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAV99S_3.pdf
 description=high-speed switching diode array
 test_refdes=D1
-model_status_good=ngspice_19
+model_status_good=ngspice_19 ngspice_23
+model_status_broken=gnucap_0.35
 
 
-
-# Subcircuit with 4 connections
 [BAW101_NXP01030]
-symbol=.sym
+symbol=diode.sym
 value=BAW101
 modelname=BAW101
 file=BAW101.prm
@@ -554,13 +517,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW101_1.pdf
 description=high voltage double diode
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
-
-# Subcircuit with 6 connections
 [BAW101S_NXP01031]
-symbol=.sym
+symbol=diode.sym
 value=BAW101S
 modelname=BAW101S
 file=BAW101S.prm
@@ -573,13 +534,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW101S_1.pdf
 description=high voltage double diode
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
-
-# Subcircuit with 3 connections
 [BAW56_NXP01032]
-symbol=.sym
+symbol=diode.sym
 value=BAW56
 modelname=BAW56
 file=BAW56.prm
@@ -592,13 +551,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW56_4.pdf
 description=high-speed double diode
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
-
-# Subcircuit with 6 connections
 [BAW56S_NXP01033]
-symbol=.sym
+symbol=diode.sym
 value=BAW56S
 modelname=BAW56S
 file=BAW56S.prm
@@ -611,13 +568,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW56S_2.pdf
 description=high-speed double diode array
 test_refdes=X1
-model_status_undefined=
-# duplicate usage of refdes in the subckt
+model_status_good=gnucap_0.35 ngspice_23
 
 
-# Subcircuit with 3 connections
 [BAW56T_NXP01034]
-symbol=.sym
+symbol=diode.sym
 value=BAW56T
 modelname=BAW56T
 file=BAW56T.prm
@@ -630,13 +585,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW56T_2.pdf
 description=high-speed double diode
 test_refdes=X1
-model_status_undefined=
+model_status_good=gnucap_0.35 ngspice_23
 
 
-
-# Subcircuit with 3 connections
 [BAW56W_NXP01035]
-symbol=.sym
+symbol=diode.sym
 value=BAW56W
 modelname=BAW56W
 file=BAW56W.prm
@@ -649,8 +602,7 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW56W_4.pdf
 description=high-speed double diode
 test_refdes=X1
-model_status_undefined=
-
+model_status_good=gnucap_0.35 ngspice_23
 
 
 [BAW62_NXP01036]
@@ -667,13 +619,11 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BAW62_2.pdf
 description=high-speed diode
 test_refdes=X1
-model_status_good=ngspice_19
+model_status_good=ngspice_19 ngspice_23 gnucap_0.35
 
 
-
-# Subcircuit with 6 connections
 [BZA408B_NXP01037]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=BZA408B
 modelname=BZA408B
 file=BZA408B.prm
@@ -686,13 +636,12 @@ footprint=none
 documentation=none
 description=TBD
 test_refdes=X1
-model_status_undefined=
+model_status_broken=gnucap_0.35 ngspice_23
+comment=netname mismatch
 
 
-
-# Subcircuit with 6 connections
 [BZA418A_NXP01038]
-symbol=.sym
+symbol=zener_bidirectional.sym
 value=BZA418A
 modelname=BZA418A
 file=BZA418A.prm
@@ -705,8 +654,8 @@ footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA408B_2.pdf
 description=Quadruple bidirectional ESD transient voltage suppressor
 test_refdes=X1
-model_status_undefined=
-
+comment=diode is not bidirectional
+model_status_broken=gnucap_0.35 ngspice_23
 
 
 [BZA820A_NXP01039]
@@ -724,7 +673,7 @@ documentation=http://www.nxp.com/acrobat_download/datasheets/BZA800A_SERIES_3.pd
 description=20V quadruple ESD transient voltage suppressor
 test_refdes=D1
 model_status_good=ngspice_19
-
+model_status_broken=gnucap_0.35
 
 
 [BZA856A_NXP01040]
@@ -742,16 +691,15 @@ documentation=http://www.nxp.com/acrobat_download/datasheets/BZA800A_SERIES_3.pd
 description=5.6V quadruple ESD transient voltage suppressor
 test_refdes=D1
 model_status_good=ngspice_19
+model_status_broken=gnucap_0.35
 
 
-
-# Subcircuit with 5 connections
 [BZA856AVL_NXP01041]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZA856AVL
 modelname=BZA856AVL
 file=BZA856AVL.prm
-refdes=X?
+refdes=D?
 pinseq_a=1
 pinseq_k=2
 pinnr_a=A
@@ -759,9 +707,9 @@ pinnr_k=K
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA800AVL_SERIES_2.pdf
 description=5.6V quadruple low capacitance ESD suppressor
-test_refdes=X1
-model_status_undefined=
-
+test_refdes=D1
+model_status_broken=gnucap_0.35
+model_status_good=ngspice_23
 
 
 [BZA862A_NXP01042]
@@ -779,16 +727,15 @@ documentation=http://www.nxp.com/acrobat_download/datasheets/BZA800A_SERIES_3.pd
 description=6.2V quadruple ESD transient voltage suppressor
 test_refdes=D1
 model_status_good=ngspice_19
+model_status_broken=gnucap_0.35
 
 
-
-# Subcircuit with 5 connections
 [BZA862AVL_NXP01043]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZA862AVL
 modelname=BZA862AVL
 file=BZA862AVL.prm
-refdes=X?
+refdes=D?
 pinseq_a=1
 pinseq_k=2
 pinnr_a=A
@@ -796,9 +743,9 @@ pinnr_k=K
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA800AVL_SERIES_2.pdf
 description=6.2V quadruple low capacitance ESD suppressor
-test_refdes=X1
-model_status_undefined=
-
+test_refdes=D1
+model_status_good=ngspice_23
+model_status_broken=gnucap_0.35
 
 
 [BZA868A_NXP01044]
@@ -816,16 +763,15 @@ documentation=http://www.nxp.com/acrobat_download/datasheets/BZA800A_SERIES_3.pd
 description=6.8V quadruple ESD transient voltage suppressor
 test_refdes=D1
 model_status_good=ngspice_19
+model_status_broken=gnucap_0.35
 
 
-
-# Subcircuit with 5 connections
 [BZA868AVL_NXP01045]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZA868AVL
 modelname=BZA868AVL
 file=BZA868AVL.prm
-refdes=X?
+refdes=D?
 pinseq_a=1
 pinseq_k=2
 pinnr_a=A
@@ -833,9 +779,9 @@ pinnr_k=K
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA800AVL_SERIES_2.pdf
 description=6.8V quadruple low capacitance ESD suppressor
-test_refdes=X1
-model_status_undefined=
-
+test_refdes=D1
+model_status_good=ngspice_23
+model_status_broken=gnucap_0.35
 
 
 [BZA956A_NXP01046]
@@ -853,16 +799,15 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZA900A_SERIES_1.pdf
 description=5.6V quadruple ESD transient voltage suppressor
 test_refdes=D1
 model_status_good=ngspice_19
+model_status_broken=gnucap_0.35
 
 
-
-# Subcircuit with 5 connections
 [BZA956AVL_NXP01047]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZA956AVL
 modelname=BZA956AVL
 file=BZA956AVL.prm
-refdes=X?
+refdes=D?
 pinseq_a=1
 pinseq_k=2
 pinnr_a=A
@@ -870,9 +815,9 @@ pinnr_k=K
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA900AVL_SERIES_3.pdf
 description=5.6V quadruple low capacitance ESD suppressor
-test_refdes=X1
-model_status_undefined=
-
+test_refdes=D1
+model_status_good=ngspice_23
+model_status_broken=gnucap_0.35
 
 
 [BZA962A_NXP01048]
@@ -890,16 +835,15 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZA900A_SERIES_1.pdf
 description=6.2V quadruple ESD transient voltage suppressor
 test_refdes=D1
 model_status_good=ngspice_19
+model_status_broken=gnucap_0.35
 
 
-
-# Subcircuit with 5 connections
 [BZA962AVL_NXP01049]
-symbol=.sym
+symbol=zener_diode.sym
 value=BZA962AVL
 modelname=BZA962AVL
 file=BZA962AVL.prm
-refdes=X?
+refdes=D?
 pinseq_a=1
 pinseq_k=2
 pinnr_a=A
@@ -907,9 +851,9 @@ pinnr_k=K
 footprint=none
 documentation=http://www.nxp.com/acrobat/datasheets/BZA900AVL_SERIES_3.pdf
 description=6.2V quadruple low capacitance ESD suppressor
-test_refdes=X1
-model_status_undefined=
-
+test_refdes=D1
+model_status_good=ngspice_23
+model_status_broken=gnucap_0.35
 
 
 [BZA968A_NXP01050]
@@ -927,10 +871,9 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZA900A_SERIES_1.pdf
 description=6.8V quadruple ESD transient voltage suppressor
 test_refdes=D1
 model_status_good=ngspice_19
+model_status_broken=gnucap_0.35
 
 
-
-# Subcircuit with 5 connections
 [BZA968AVL_NXP01051]
 symbol=.sym
 value=BZA968AVL
@@ -946,7 +889,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZA900AVL_SERIES_3.pdf
 description=6.8V quadruple low capacitance ESD suppressor
 test_refdes=X1
 model_status_undefined=
-
 
 
 [BZV85-C33_NXP01052]
@@ -966,7 +908,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZV85C3V6_NXP01053]
 symbol=zener_diode.sym
 value=BZV85C3V6
@@ -982,7 +923,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZV85_2.pdf
 description=3.6V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZV90C30_NXP01054]
@@ -1002,7 +942,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX100A_NXP01055]
 symbol=zener_diode.sym
 value=BZX100A
@@ -1018,8 +957,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX100A_1.pdf
 description=100V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-## Model has no Devicetype
-
 
 
 [BZX284B6V2_NXP01056]
@@ -1039,7 +976,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX284C7V5_NXP01057]
 symbol=zener_diode.sym
 value=BZX284C7V5
@@ -1055,7 +991,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX284_4.pdf
 description=7.5V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX284C8V2_NXP01058]
@@ -1075,7 +1010,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX384B10_NXP01059]
 symbol=zener_diode.sym
 value=BZX384B10
@@ -1091,7 +1025,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=10V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B11_NXP01060]
@@ -1111,7 +1044,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B12_NXP01061]
 symbol=zener_diode.sym
 value=BZX384B12
@@ -1127,7 +1059,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=12V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B13_NXP01062]
@@ -1147,7 +1078,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B15_NXP01063]
 symbol=zener_diode.sym
 value=BZX384B15
@@ -1163,7 +1093,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=15V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B16_NXP01064]
@@ -1183,7 +1112,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B18_NXP01065]
 symbol=zener_diode.sym
 value=BZX384B18
@@ -1199,7 +1127,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=18V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B20_NXP01066]
@@ -1219,7 +1146,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B22_NXP01067]
 symbol=zener_diode.sym
 value=BZX384B22
@@ -1235,7 +1161,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=22V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B24_NXP01068]
@@ -1255,7 +1180,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B27_NXP01069]
 symbol=zener_diode.sym
 value=BZX384B27
@@ -1271,7 +1195,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=27V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B2V4_NXP01070]
@@ -1291,7 +1214,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B2V7_NXP01071]
 symbol=zener_diode.sym
 value=BZX384B2V7
@@ -1307,7 +1229,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=2.7V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B30_NXP01072]
@@ -1327,7 +1248,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B33_NXP01073]
 symbol=zener_diode.sym
 value=BZX384B33
@@ -1343,7 +1263,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=33V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B36_NXP01074]
@@ -1363,7 +1282,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B39_NXP01075]
 symbol=zener_diode.sym
 value=BZX384B39
@@ -1379,7 +1297,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=39V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B3V0_NXP01076]
@@ -1399,7 +1316,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B3V3_NXP01077]
 symbol=zener_diode.sym
 value=BZX384B3V3
@@ -1415,7 +1331,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=3.3V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B3V6_NXP01078]
@@ -1435,7 +1350,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B3V9_NXP01079]
 symbol=zener_diode.sym
 value=BZX384B3V9
@@ -1451,7 +1365,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=3.9V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B43_NXP01080]
@@ -1471,7 +1384,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B47_NXP01081]
 symbol=zener_diode.sym
 value=BZX384B47
@@ -1487,7 +1399,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=47V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B4V3_NXP01082]
@@ -1507,7 +1418,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B4V7_NXP01083]
 symbol=zener_diode.sym
 value=BZX384B4V7
@@ -1523,7 +1433,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=4.7V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B51_NXP01084]
@@ -1543,7 +1452,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B56_NXP01085]
 symbol=zener_diode.sym
 value=BZX384B56
@@ -1559,7 +1467,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=56V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B5V1_NXP01086]
@@ -1579,7 +1486,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B5V6_NXP01087]
 symbol=zener_diode.sym
 value=BZX384B5V6
@@ -1595,7 +1501,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=5.6V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B62_NXP01088]
@@ -1615,7 +1520,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B68_NXP01089]
 symbol=zener_diode.sym
 value=BZX384B68
@@ -1631,7 +1535,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=68V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B6V2_NXP01090]
@@ -1651,7 +1554,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B6V8_NXP01091]
 symbol=zener_diode.sym
 value=BZX384B6V8
@@ -1667,7 +1569,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=6.8V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B75_NXP01092]
@@ -1687,7 +1588,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B7V5_NXP01093]
 symbol=zener_diode.sym
 value=BZX384B7V5
@@ -1703,7 +1603,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=7.5V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX384B8V2_NXP01094]
@@ -1723,7 +1622,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [BZX384B9V1_NXP01095]
 symbol=zener_diode.sym
 value=BZX384B9V1
@@ -1739,7 +1637,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX384_SERIES_2.pdf
 description=9.1V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B10_NXP01096]
@@ -1759,7 +1656,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B11_NXP01097]
 symbol=zener_diode.sym
 value=BZX585B11
@@ -1775,7 +1671,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=11V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B12_NXP01098]
@@ -1795,7 +1690,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B13_NXP01099]
 symbol=zener_diode.sym
 value=BZX585B13
@@ -1811,7 +1705,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=13V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B15_NXP01100]
@@ -1831,7 +1724,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B16_NXP01101]
 symbol=zener_diode.sym
 value=BZX585B16
@@ -1847,7 +1739,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=16V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B18_NXP01102]
@@ -1867,7 +1758,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B20_NXP01103]
 symbol=zener_diode.sym
 value=BZX585B20
@@ -1883,7 +1773,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=20V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B22_NXP01104]
@@ -1903,7 +1792,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B24_NXP01105]
 symbol=zener_diode.sym
 value=BZX585B24
@@ -1919,7 +1807,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=24V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B27_NXP01106]
@@ -1939,7 +1826,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B2V4_NXP01107]
 symbol=zener_diode.sym
 value=BZX585B2V4
@@ -1955,7 +1841,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=2.4V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B2V7_NXP01108]
@@ -1975,7 +1860,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B30_NXP01109]
 symbol=zener_diode.sym
 value=BZX585B30
@@ -1991,7 +1875,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=30V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B33_NXP01110]
@@ -2011,7 +1894,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B36_NXP01111]
 symbol=zener_diode.sym
 value=BZX585B36
@@ -2027,7 +1909,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=36V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B39_NXP01112]
@@ -2047,7 +1928,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B3V0_NXP01113]
 symbol=zener_diode.sym
 value=BZX585B3V0
@@ -2063,7 +1943,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=3.0V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B3V3_NXP01114]
@@ -2083,7 +1962,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B3V6_NXP01115]
 symbol=zener_diode.sym
 value=BZX585B3V6
@@ -2099,7 +1977,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=3.6V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B3V9_NXP01116]
@@ -2119,7 +1996,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B43_NXP01117]
 symbol=zener_diode.sym
 value=BZX585B43
@@ -2135,7 +2011,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=43V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B47_NXP01118]
@@ -2155,7 +2030,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B4V3_NXP01119]
 symbol=zener_diode.sym
 value=BZX585B4V3
@@ -2171,7 +2045,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=4.3V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B4V7_NXP01120]
@@ -2191,7 +2064,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B51_NXP01121]
 symbol=zener_diode.sym
 value=BZX585B51
@@ -2207,7 +2079,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=51V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B56_NXP01122]
@@ -2227,7 +2098,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B5V1_NXP01123]
 symbol=zener_diode.sym
 value=BZX585B5V1
@@ -2243,7 +2113,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=5.1V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B5V6_NXP01124]
@@ -2263,7 +2132,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B62_NXP01125]
 symbol=zener_diode.sym
 value=BZX585B62
@@ -2279,7 +2147,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=62V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B68_NXP01126]
@@ -2299,7 +2166,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B6V2_NXP01127]
 symbol=zener_diode.sym
 value=BZX585B6V2
@@ -2315,7 +2181,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=6.2V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B6V8_NXP01128]
@@ -2335,7 +2200,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B75_NXP01129]
 symbol=zener_diode.sym
 value=BZX585B75
@@ -2351,7 +2215,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=75V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B7V5_NXP01130]
@@ -2371,7 +2234,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX585-B8V2_NXP01131]
 symbol=zener_diode.sym
 value=BZX585B8V2
@@ -2387,7 +2249,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX585_SERIES_4.pdf
 description=8.2V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX585-B9V1_NXP01132]
@@ -2407,7 +2268,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX79C6V8_NXP01133]
 symbol=zener_diode.sym
 value=BZX79C6V8
@@ -2423,8 +2283,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX79_3.pdf
 description=6.8V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
-
 
 
 [BZX84C10V_NXP01134]
@@ -2444,7 +2302,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C11V_NXP01135]
 symbol=zener_diode.sym
 value=BZX84C11V
@@ -2460,7 +2317,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=11V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C12V_NXP01136]
@@ -2480,7 +2336,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C13V_NXP01137]
 symbol=zener_diode.sym
 value=BZX84C13V
@@ -2496,7 +2351,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=13V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C15V_NXP01138]
@@ -2516,7 +2370,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C16V_NXP01139]
 symbol=zener_diode.sym
 value=BZX84C16V
@@ -2532,7 +2385,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=16V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C18V_NXP01140]
@@ -2552,7 +2404,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C20V_NXP01141]
 symbol=zener_diode.sym
 value=BZX84C20V
@@ -2568,7 +2419,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=20V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C22V_NXP01142]
@@ -2588,7 +2438,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C24V_NXP01143]
 symbol=zener_diode.sym
 value=BZX84C24V
@@ -2604,7 +2453,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=24V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C27V_NXP01144]
@@ -2624,7 +2472,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C2V4_NXP01145]
 symbol=zener_diode.sym
 value=BZX84C2V4
@@ -2640,7 +2487,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=2.4V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C2V7_NXP01146]
@@ -2660,7 +2506,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C30V_NXP01147]
 symbol=zener_diode.sym
 value=BZX84C30V
@@ -2676,7 +2521,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=20V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C33V_NXP01148]
@@ -2696,7 +2540,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C36V_NXP01149]
 symbol=zener_diode.sym
 value=BZX84C36V
@@ -2712,7 +2555,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=36V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C39V_NXP01150]
@@ -2732,7 +2574,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C3V0_NXP01151]
 symbol=zener_diode.sym
 value=BZX84C3V0
@@ -2750,8 +2591,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [BZX84C3V3_NXP01152]
 symbol=zener_diode.sym
 value=BZX84C3V3
@@ -2767,7 +2606,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=3.3V zener diode
 test_refdes=X1
 model_status_broken=ngspice_19
-
 
 
 [BZX84C3V6_NXP01153]
@@ -2787,7 +2625,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C3V9_NXP01154]
 symbol=zener_diode.sym
 value=BZX84C3V9
@@ -2803,7 +2640,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=3.9V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C43V_NXP01155]
@@ -2823,7 +2659,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C47V_NXP01156]
 symbol=zener_diode.sym
 value=BZX84C47V
@@ -2841,8 +2676,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [BZX84C4V3_NXP01157]
 symbol=zener_diode.sym
 value=BZX84C4V3
@@ -2858,7 +2691,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=4.3V zener diode
 test_refdes=X1
 model_status_broken=ngspice_19
-
 
 
 [BZX84C4V7_NXP01158]
@@ -2878,7 +2710,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C51V_NXP01159]
 symbol=zener_diode.sym
 value=BZX84C51V
@@ -2894,7 +2725,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=51V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C56V_NXP01160]
@@ -2914,7 +2744,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C5V1_NXP01161]
 symbol=zener_diode.sym
 value=BZX84C5V1
@@ -2930,7 +2759,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=5.1V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C5V6_NXP01162]
@@ -2950,7 +2778,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C62V_NXP01163]
 symbol=zener_diode.sym
 value=BZX84C62V
@@ -2966,7 +2793,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=62V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C68V_NXP01164]
@@ -2986,7 +2812,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C6V2_NXP01165]
 symbol=zener_diode.sym
 value=BZX84C6V2
@@ -3002,7 +2827,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=6.2V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C6V8_NXP01166]
@@ -3022,8 +2846,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [BZX84C75_NXP01167]
 symbol=zener_diode.sym
 value=BZX84C75
@@ -3039,7 +2861,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=75V zener diode
 test_refdes=X1
 model_status_broken=ngspice_19
-
 
 
 [BZX84C7V5_NXP01168]
@@ -3059,7 +2880,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84C8V2_NXP01169]
 symbol=zener_diode.sym
 value=BZX84C8V2
@@ -3075,7 +2895,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX84_SERIES_3.pdf
 description=8.2V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84C9V1_NXP01170]
@@ -3095,7 +2914,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B10_NXP01171]
 symbol=zener_diode.sym
 value=BZX884B10
@@ -3111,7 +2929,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=10V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B11_NXP01172]
@@ -3131,7 +2948,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B12_NXP01173]
 symbol=zener_diode.sym
 value=BZX884B12
@@ -3147,7 +2963,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=12V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B13_NXP01174]
@@ -3167,7 +2982,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B15_NXP01175]
 symbol=zener_diode.sym
 value=BZX884B15
@@ -3183,7 +2997,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=15V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B16_NXP01176]
@@ -3203,7 +3016,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B18_NXP01177]
 symbol=zener_diode.sym
 value=BZX884B18
@@ -3219,7 +3031,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=18V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B20_NXP01178]
@@ -3239,7 +3050,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B22_NXP01179]
 symbol=zener_diode.sym
 value=BZX884B22
@@ -3255,7 +3065,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=22V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B24_NXP01180]
@@ -3275,7 +3084,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B27_NXP01181]
 symbol=zener_diode.sym
 value=BZX884B27
@@ -3291,7 +3099,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=27V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B2V4_NXP01182]
@@ -3311,7 +3118,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B2V7_NXP01183]
 symbol=zener_diode.sym
 value=BZX884B2V7
@@ -3327,7 +3133,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=2.7V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B30_NXP01184]
@@ -3347,7 +3152,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B33_NXP01185]
 symbol=zener_diode.sym
 value=BZX884B33
@@ -3363,7 +3167,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=33V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B36_NXP01186]
@@ -3383,7 +3186,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B39_NXP01187]
 symbol=zener_diode.sym
 value=BZX884B39
@@ -3399,7 +3201,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=39V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B3V0_NXP01188]
@@ -3419,7 +3220,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B3V3_NXP01189]
 symbol=zener_diode.sym
 value=BZX884B3V3
@@ -3435,7 +3235,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=3.3V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B3V6_NXP01190]
@@ -3455,7 +3254,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B3V9_NXP01191]
 symbol=zener_diode.sym
 value=BZX884B3V9
@@ -3471,7 +3269,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=3.9V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B43_NXP01192]
@@ -3491,7 +3288,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B47_NXP01193]
 symbol=zener_diode.sym
 value=BZX884B47
@@ -3507,7 +3303,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=47V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B4V3_NXP01194]
@@ -3527,7 +3322,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B4V7_NXP01195]
 symbol=zener_diode.sym
 value=BZX884B4V7
@@ -3543,7 +3337,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=4.7V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B51_NXP01196]
@@ -3563,7 +3356,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B56_NXP01197]
 symbol=zener_diode.sym
 value=BZX884B56
@@ -3579,7 +3371,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=56V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B5V1_NXP01198]
@@ -3599,7 +3390,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B5V6_NXP01199]
 symbol=zener_diode.sym
 value=BZX884B5V6
@@ -3615,7 +3405,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=5.6V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B62_NXP01200]
@@ -3635,7 +3424,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B68_NXP01201]
 symbol=zener_diode.sym
 value=BZX884B68
@@ -3651,7 +3439,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=68V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B6V2_NXP01202]
@@ -3671,7 +3458,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B6V8_NXP01203]
 symbol=zener_diode.sym
 value=BZX884B6V8
@@ -3687,7 +3473,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=6.8V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B75_NXP01204]
@@ -3707,7 +3492,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B7V5_NXP01205]
 symbol=zener_diode.sym
 value=BZX884B7V5
@@ -3723,7 +3507,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=7.5V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX884-B8V2_NXP01206]
@@ -3743,7 +3526,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX884-B9V1_NXP01207]
 symbol=zener_diode.sym
 value=BZX884B9V1
@@ -3759,7 +3541,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BZX884_SERIES_2.pdf
 description=9.1V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PDZ10B_NXP01208]
@@ -3779,7 +3560,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PDZ11B_NXP01209]
 symbol=zener_diode.sym
 value=PDZ11B
@@ -3795,7 +3575,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 description=11V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PDZ4.7B_NXP01210]
@@ -3815,8 +3594,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-
 [PDZ5.6B_NXP01211]
 symbol=zener_diode.sym
 value=PDZ5V6B
@@ -3832,7 +3609,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PDZ-B_SERIES_5.pdf
 description=5.6V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PDZ9.1B_NXP01212]
@@ -3852,8 +3628,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-
 [PESD12VL1BA_NXP01213]
 symbol=zener_bidirectional.sym
 value=PESD12VL1BA
@@ -3871,8 +3645,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PESD12VL2BT_NXP01214]
 symbol=.sym
 value=PESD12VL2BT
@@ -3888,7 +3660,6 @@ documentation=none
 description=TBD
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PESD12VS1UB_NXP01215]
@@ -3908,7 +3679,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PESD12VS1UL_NXP01216]
 symbol=zener_diode.sym
 value=PESD12VS1UL
@@ -3926,8 +3696,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PESD12VS2UAT_NXP01217]
 symbol=.sym
 value=PESD12VS2UAT
@@ -3945,8 +3713,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD12VS2UQ_NXP01218]
 symbol=.sym
 value=PESD12VS2UQ
@@ -3964,8 +3730,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD12VS2UT_NXP01219]
 symbol=.sym
 value=PESD12VS2UT
@@ -3983,8 +3747,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD12VS4UD_NXP01220]
 symbol=.sym
 value=PESD12VS4UD
@@ -4002,8 +3764,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD12VS5UD_NXP01221]
 symbol=.sym
 value=PESD12VS5UD
@@ -4021,8 +3781,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD12VU1UT_NXP01222]
 symbol=.sym
 value=PESD12VU1UT
@@ -4038,7 +3796,6 @@ documentation=none
 description=TBD
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PESD15VL1BA_NXP01223]
@@ -4058,8 +3815,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PESD15VL2BT_NXP01224]
 symbol=.sym
 value=PESD15VL2BT
@@ -4075,7 +3830,6 @@ documentation=none
 description=TBD
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PESD15VS1UB_NXP01225]
@@ -4095,7 +3849,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PESD15VS1UL_NXP01226]
 symbol=zener_diode.sym
 value=PESD15VS1UL
@@ -4113,8 +3866,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PESD15VS2UAT_NXP01227]
 symbol=.sym
 value=PESD15VS2UAT
@@ -4132,8 +3883,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD15VS2UQ_NXP01228]
 symbol=.sym
 value=PESD15VS2UQ
@@ -4151,8 +3900,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD15VS2UT_NXP01229]
 symbol=.sym
 value=PESD15VS2UT
@@ -4170,8 +3917,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD15VS4UD_NXP01230]
 symbol=.sym
 value=PESD15VS4UD
@@ -4189,8 +3934,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD15VS5UD_NXP01231]
 symbol=.sym
 value=PESD15VS5UD
@@ -4208,8 +3951,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD15VU1UT_NXP01232]
 symbol=.sym
 value=PESD15VU1UT
@@ -4227,8 +3968,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD1CAN_NXP01233]
 symbol=.sym
 value=PESD1CAN
@@ -4244,7 +3983,6 @@ documentation=none
 description=TBD
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PESD1LIN_NXP01234]
@@ -4264,7 +4002,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PESD24VL1BA_NXP01235]
 symbol=zener_bidirectional.sym
 value=PESD24VL1BA
@@ -4282,8 +4019,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PESD24VL2BT_NXP01236]
 symbol=.sym
 value=PESD24VL2BT
@@ -4299,7 +4034,6 @@ documentation=none
 description=TBD
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PESD24VS1UB_NXP01237]
@@ -4319,7 +4053,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PESD24VS1UL_NXP01238]
 symbol=zener_diode.sym
 value=PESD24VS1UL
@@ -4337,8 +4070,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PESD24VS2UAT_NXP01239]
 symbol=.sym
 value=PESD24VS2UAT
@@ -4356,8 +4087,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD24VS2UQ_NXP01240]
 symbol=.sym
 value=PESD24VS2UQ
@@ -4375,8 +4104,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD24VS2UT_NXP01241]
 symbol=.sym
 value=PESD24VS2UT
@@ -4394,8 +4121,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD24VS4UD_NXP01242]
 symbol=.sym
 value=PESD24VS4UD
@@ -4413,8 +4138,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD24VS5UD_NXP01243]
 symbol=.sym
 value=PESD24VS5UD
@@ -4432,8 +4155,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD24VU1UT_NXP01244]
 symbol=.sym
 value=PESD24VU1UT
@@ -4451,7 +4172,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PESD3V3L1BA_NXP01245]
 symbol=zener_bidirectional.sym
 value=PESD3V3L1BA
@@ -4467,11 +4187,8 @@ documentation=http://www.nxp.com/acrobat_download/datasheets/PESDXL1BA_SER_1.pdf
 description=3.3V low capacitance bidirectional ESD protection diode
 test_refdes=X1
 model_status_good=ngspice_19
-# asterisk * in front of the model statement
 
 
-
-# Subcircuit with 3 connections
 [PESD3V3L2BT_NXP01246]
 symbol=.sym
 value=PESD3V3L2BT
@@ -4489,8 +4206,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD3V3L2UM_NXP01247]
 symbol=.sym
 value=PESD3V3L2UM
@@ -4508,8 +4223,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 5 connections
 [PESD3V3L4UG_NXP01248]
 symbol=.sym
 value=PESD3V3L4UG
@@ -4527,8 +4240,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 5 connections
 [PESD3V3L4UW_NXP01249]
 symbol=.sym
 value=PESD3V3L4UW
@@ -4546,8 +4257,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD3V3L5UV_NXP01250]
 symbol=.sym
 value=PESD3V3L5UV
@@ -4565,8 +4274,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD3V3L5UY_NXP01251]
 symbol=.sym
 value=PESD3V3L5UY
@@ -4582,7 +4289,6 @@ documentation=none
 description=TBD
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PESD3V3S1UB_NXP01252]
@@ -4602,7 +4308,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PESD3V3S1UL_NXP01253]
 symbol=zener_diode.sym
 value=PESD3V3S1UL
@@ -4620,8 +4325,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PESD3V3S2UAT_NXP01254]
 symbol=.sym
 value=PESD3V3S2UAT
@@ -4639,8 +4342,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD3V3S2UQ_NXP01255]
 symbol=.sym
 value=PESD3V3S2UQ
@@ -4658,8 +4359,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD3V3S2UT_NXP01256]
 symbol=.sym
 value=PESD3V3S2UT
@@ -4677,8 +4376,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD3V3S4UD_NXP01257]
 symbol=.sym
 value=PESD3V3S4UD
@@ -4696,8 +4393,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD3V3S5UD_NXP01258]
 symbol=.sym
 value=PESD3V3S5UD
@@ -4715,8 +4410,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD3V3U1UT_NXP01259]
 symbol=.sym
 value=PESD3V3U1UT
@@ -4734,8 +4427,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 5 connections
 [PESD3V3V4UG_NXP01260]
 symbol=.sym
 value=PESD3V3V4UG
@@ -4753,8 +4444,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 5 connections
 [PESD3V3V4UW_NXP01261]
 symbol=.sym
 value=PESD3V3V4UW
@@ -4770,7 +4459,6 @@ documentation=none
 description=TBD
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PESD5V0L1BA_NXP01262]
@@ -4790,8 +4478,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PESD5V0L2BT_NXP01263]
 symbol=.sym
 value=PESD5V0L2BT
@@ -4809,8 +4495,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD5V0L2UM_NXP01264]
 symbol=.sym
 value=PESD5V0L2UM
@@ -4828,8 +4512,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 5 connections
 [PESD5V0L4UG_NXP01265]
 symbol=.sym
 value=PESD5V0L4UG
@@ -4847,8 +4529,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 5 connections
 [PESD5V0L4UW_NXP01266]
 symbol=.sym
 value=PESD5V0L4UW
@@ -4866,8 +4546,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD5V0L5UV_NXP01267]
 symbol=.sym
 value=PESD5V0L5UV
@@ -4885,8 +4563,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD5V0L5UY_NXP01268]
 symbol=.sym
 value=PESD5V0L5UY
@@ -4904,8 +4580,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 8 connections
 [PESD5V0L6UAS_NXP01269]
 symbol=.sym
 value=PESD5V0L6UAS
@@ -4923,8 +4597,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 8 connections
 [PESD5V0L6US_NXP01270]
 symbol=.sym
 value=PESD5V0L6US
@@ -4942,8 +4614,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 8 connections
 [PESD5V0L7BAS_NXP01271]
 symbol=.sym
 value=PESD5V0L7BAS
@@ -4961,8 +4631,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 8 connections
 [PESD5V0L7BS_NXP01272]
 symbol=.sym
 value=PESD5V0L7BS
@@ -4980,7 +4648,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [PESD5V0S1BA_NXP01273]
 symbol=zener_bidirectional.sym
 value=PESD5V0S1BA
@@ -4996,8 +4663,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1BA_BB_BL_3.pdf
 description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
 model_status_broken=ngspice_19
-# model parameter N much to low
-
 
 
 [PESD5V0S1BB_NXP01274]
@@ -5015,8 +4680,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1BA_BB_BL_3.pdf
 description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
 model_status_broken=ngspice_19
-# model parameter N much to low
-
 
 
 [PESD5V0S1BL_NXP01275]
@@ -5034,8 +4697,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0S1BA_BB_BL_3.pdf
 description=5.0V low capacitance bidirectional ESD protection diode
 test_refdes=X1
 model_status_broken=ngspice_19
-# model parameter N much to low
-
 
 
 [PESD5V0S1UB_NXP01276]
@@ -5055,7 +4716,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PESD5V0S1UL_NXP01277]
 symbol=zener_diode.sym
 value=PESD5V0S1UL
@@ -5073,8 +4733,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PESD5V0S2BT_NXP01278]
 symbol=.sym
 value=PESD5V0S2BT
@@ -5092,8 +4750,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD5V0S2UAT_NXP01279]
 symbol=.sym
 value=PESD5V0S2UAT
@@ -5111,8 +4767,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD5V0S2UQ_NXP01280]
 symbol=.sym
 value=PESD5V0S2UQ
@@ -5130,8 +4784,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD5V0S4UD_NXP01281]
 symbol=.sym
 value=PESD5V0S4UD
@@ -5149,8 +4801,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD5V0S5UD_NXP01282]
 symbol=.sym
 value=PESD5V0S5UD
@@ -5168,8 +4818,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD5V0U1UT_NXP01283]
 symbol=.sym
 value=PESD5V0U1UT
@@ -5187,8 +4835,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 5 connections
 [PESD5V0V4UG_NXP01284]
 symbol=.sym
 value=PESD5V0V4UG
@@ -5206,8 +4852,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 20 connections
 [PESD5V2S18U_NXP01285]
 symbol=.sym
 value=PESD5V2S18U
@@ -5225,8 +4869,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD5V2S2UT_NXP01286]
 symbol=.sym
 value=PESD5V2S2UT
@@ -5244,8 +4886,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 5 connections
 [PESD5V0V4UW_NXP01287]
 symbol=.sym
 value=PESD5V0V4UW
@@ -5261,7 +4901,6 @@ documentation=none
 description=TBD
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PLVA2656A_NXP01288]
@@ -5281,7 +4920,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PLVA650A_NXP01289]
 symbol=zener_diode.sym
 value=PLVA650A
@@ -5297,7 +4935,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PLVA6XXA_SERIES_3.pdf
 description=5.0V low-voltage avalanche regulator diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PMBD6050_NXP01290]
@@ -5317,8 +4954,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PMBD6100_NXP01291]
 symbol=.sym
 value=PMBD6100
@@ -5334,7 +4969,6 @@ documentation=none
 description=TBD
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PMBD7000_NXP01292]
@@ -5354,8 +4988,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PMBD7100_NXP01293]
 symbol=.sym
 value=PMBD7100
@@ -5371,7 +5003,6 @@ documentation=none
 description=TBD
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU10B1_NXP01294]
@@ -5391,7 +5022,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU10B2_NXP01295]
 symbol=zener_diode.sym
 value=PZU10B2
@@ -5407,7 +5037,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=10V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU10B3_NXP01296]
@@ -5427,7 +5056,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU10B_NXP01297]
 symbol=zener_diode.sym
 value=PZU10B
@@ -5443,7 +5071,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=10V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU11B1_NXP01298]
@@ -5463,7 +5090,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU11B2_NXP01299]
 symbol=zener_diode.sym
 value=PZU11B2
@@ -5479,7 +5105,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=11V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU11B3_NXP01300]
@@ -5499,7 +5124,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU11B_NXP01301]
 symbol=zener_diode.sym
 value=PZU11B
@@ -5515,7 +5139,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=11V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU12B1_NXP01302]
@@ -5535,7 +5158,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU12B2_NXP01303]
 symbol=zener_diode.sym
 value=PZU12B2
@@ -5551,7 +5173,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=12V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU12B3_NXP01304]
@@ -5571,7 +5192,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU12B_NXP01305]
 symbol=zener_diode.sym
 value=PZU12B
@@ -5587,7 +5207,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=12V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU13B1_NXP01306]
@@ -5607,7 +5226,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU13B2_NXP01307]
 symbol=zener_diode.sym
 value=PZU13B2
@@ -5623,7 +5241,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=13V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU13B3_NXP01308]
@@ -5643,7 +5260,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU13B_NXP01309]
 symbol=zener_diode.sym
 value=PZU13B
@@ -5659,7 +5275,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=13V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU14B2_NXP01310]
@@ -5679,7 +5294,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU15B1_NXP01311]
 symbol=zener_diode.sym
 value=PZU15B1
@@ -5695,7 +5309,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=15V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU15B2_NXP01312]
@@ -5715,7 +5328,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU15B3_NXP01313]
 symbol=zener_diode.sym
 value=PZU15B3
@@ -5731,7 +5343,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=15V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU15B_NXP01314]
@@ -5751,7 +5362,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU16B1_NXP01315]
 symbol=zener_diode.sym
 value=PZU16B1
@@ -5767,7 +5377,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=16V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU16B2_NXP01316]
@@ -5787,7 +5396,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU16B3_NXP01317]
 symbol=zener_diode.sym
 value=PZU16B3
@@ -5803,7 +5411,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=16V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU16B_NXP01318]
@@ -5823,7 +5430,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU18B1_NXP01319]
 symbol=zener_diode.sym
 value=PZU18B1
@@ -5839,7 +5445,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=18V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU18B2_NXP01320]
@@ -5859,7 +5464,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU18B3_NXP01321]
 symbol=zener_diode.sym
 value=PZU18B3
@@ -5875,7 +5479,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=18V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU18B_NXP01322]
@@ -5895,7 +5498,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU20B1_NXP01323]
 symbol=zener_diode.sym
 value=PZU20B1
@@ -5911,7 +5513,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=20V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU20B2_NXP01324]
@@ -5931,7 +5532,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU20B3_NXP01325]
 symbol=zener_diode.sym
 value=PZU20B3
@@ -5947,7 +5547,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=20V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU20B_NXP01326]
@@ -5967,7 +5566,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU22B1_NXP01327]
 symbol=zener_diode.sym
 value=PZU22B1
@@ -5983,7 +5581,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=22V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU22B2_NXP01328]
@@ -6003,7 +5600,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU22B3_NXP01329]
 symbol=zener_diode.sym
 value=PZU22B3
@@ -6019,7 +5615,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=22V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU22B_NXP01330]
@@ -6039,7 +5634,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU24B1_NXP01331]
 symbol=zener_diode.sym
 value=PZU24B1
@@ -6055,7 +5649,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=24V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU24B2_NXP01332]
@@ -6075,7 +5668,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU24B3_NXP01333]
 symbol=zener_diode.sym
 value=PZU24B3
@@ -6091,7 +5683,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=24V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU2V4B_NXP01334]
@@ -6111,7 +5702,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU24B_NXP01335]
 symbol=zener_diode.sym
 value=PZU24B
@@ -6127,7 +5717,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=24V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU2V7B1_NXP01336]
@@ -6147,7 +5736,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU2V7B2_NXP01337]
 symbol=zener_diode.sym
 value=PZU2V7B2
@@ -6163,7 +5751,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=2.7V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU2V7B_NXP01338]
@@ -6183,7 +5770,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU27B_NXP01339]
 symbol=zener_diode.sym
 value=PZU27B
@@ -6199,7 +5785,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=27V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU3V0B1_NXP01340]
@@ -6219,7 +5804,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU3V0B2_NXP01341]
 symbol=zener_diode.sym
 value=PZU3V0B2
@@ -6235,7 +5819,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.0V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU3V0B_NXP01342]
@@ -6255,7 +5838,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU30B_NXP01343]
 symbol=zener_diode.sym
 value=PZU30B
@@ -6271,7 +5853,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=30V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU3V3B1_NXP01344]
@@ -6291,7 +5872,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU3V3B2_NXP01345]
 symbol=zener_diode.sym
 value=PZU3V3B2
@@ -6307,7 +5887,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.3V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU3V3B_NXP01346]
@@ -6327,7 +5906,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU33B_NXP01347]
 symbol=zener_diode.sym
 value=PZU33B
@@ -6343,7 +5921,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=33V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU3V6B1_NXP01348]
@@ -6363,7 +5940,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU3V6B2_NXP01349]
 symbol=zener_diode.sym
 value=PZU3V6B2
@@ -6379,7 +5955,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.6V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU3V6B_NXP01350]
@@ -6399,7 +5974,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU36B_NXP01351]
 symbol=zener_diode.sym
 value=PZU36B
@@ -6415,7 +5989,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=36V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU3V9B1_NXP01352]
@@ -6435,7 +6008,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU3V9B2_NXP01353]
 symbol=zener_diode.sym
 value=PZU3V9B2
@@ -6451,7 +6023,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=3.9V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU3V9B_NXP01354]
@@ -6471,7 +6042,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU4V3B1_NXP01355]
 symbol=zener_diode.sym
 value=PZU4V3B1
@@ -6487,7 +6057,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.3V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU4V3B2_NXP01356]
@@ -6507,7 +6076,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU4V3B3_NXP01357]
 symbol=zener_diode.sym
 value=PZU4V3B3
@@ -6523,7 +6091,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.3V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU4V3B_NXP01358]
@@ -6543,7 +6110,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU4V7B1_NXP01359]
 symbol=zener_diode.sym
 value=PZU4V7B1
@@ -6559,7 +6125,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.7V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU4V7B2_NXP01360]
@@ -6579,7 +6144,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU4V7B3_NXP01361]
 symbol=zener_diode.sym
 value=PZU4V7B3
@@ -6595,7 +6159,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=4.7V zener diode
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU4V7B_NXP01362]
@@ -6615,7 +6178,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU5.1B1_NXP01363]
 symbol=zener_diode.sym
 value=PZU5V1B1
@@ -6631,7 +6193,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.1V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU5.1B2_NXP01364]
@@ -6651,7 +6212,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU5.1B3_NXP01365]
 symbol=zener_diode.sym
 value=PZU5V1B3
@@ -6667,7 +6227,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.1V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU5.1B_NXP01366]
@@ -6687,7 +6246,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU5.6B1_NXP01367]
 symbol=zener_diode.sym
 value=PZU5V6B1
@@ -6703,7 +6261,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.6V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU5.6B2_NXP01368]
@@ -6723,7 +6280,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU5.6B3_NXP01369]
 symbol=zener_diode.sym
 value=PZU5V6B3
@@ -6739,7 +6295,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.6V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU5.6B_NXP01370]
@@ -6759,7 +6314,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU6.2B1_NXP01371]
 symbol=zener_diode.sym
 value=PZU6V2B1
@@ -6775,7 +6329,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=5.6V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU6.2B2_NXP01372]
@@ -6795,7 +6348,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU6.2B3_NXP01373]
 symbol=zener_diode.sym
 value=PZU6V2B3
@@ -6811,7 +6363,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.2V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU6.2B_NXP01374]
@@ -6831,7 +6382,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU6.8B1_NXP01375]
 symbol=zener_diode.sym
 value=PZU6V8B1
@@ -6847,7 +6397,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.8V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU6.8B2_NXP01376]
@@ -6867,7 +6416,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU6.8B3_NXP01377]
 symbol=zener_diode.sym
 value=PZU6V8B3
@@ -6883,7 +6431,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=6.8V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU6.8B_NXP01378]
@@ -6903,7 +6450,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU7.5B1_NXP01379]
 symbol=zener_diode.sym
 value=PZU7V5B1
@@ -6919,7 +6465,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=7.5V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU7.5B2_NXP01380]
@@ -6939,7 +6484,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU7.5B3_NXP01381]
 symbol=zener_diode.sym
 value=PZU7V5B3
@@ -6955,7 +6499,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=7.5V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU7.5B_NXP01382]
@@ -6975,7 +6518,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU8.2B1_NXP01383]
 symbol=zener_diode.sym
 value=PZU8V2B1
@@ -6991,7 +6533,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=8.2V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU8.2B2_NXP01384]
@@ -7011,7 +6552,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU8.2B3_NXP01385]
 symbol=zener_diode.sym
 value=PZU8V2B3
@@ -7027,7 +6567,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=8.2V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU8.2B_NXP01386]
@@ -7047,7 +6586,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU9.1B1_NXP01387]
 symbol=zener_diode.sym
 value=PZU9V1B1
@@ -7063,7 +6601,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=9.1V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU9.1B2_NXP01388]
@@ -7083,7 +6620,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU9.1B3_NXP01389]
 symbol=zener_diode.sym
 value=PZU9V1B3
@@ -7099,7 +6635,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/PZUXB_SER_1.pdf
 description=9.1V zener diode
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU9.1B_NXP01390]
@@ -7119,7 +6654,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [1N4148_NXP01391]
 symbol=diode.sym
 value=1N4148
@@ -7135,8 +6669,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/1N4148_1N4448_5.pdf
 description=High-speed diode
 test_refdes=X1
 model_status_good=ngspice_19
-## ENDS missing
-
 
 
 [BAS101_NXP01392]
@@ -7156,7 +6688,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-## contains two diodes
 [BAS101S_NXP01393]
 symbol=.sym
 value=BAS101S
@@ -7174,7 +6705,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
 [BAS16J_NXP01394]
 symbol=diode.sym
 value=BAS16J
@@ -7190,7 +6720,6 @@ documentation=http://www.nxp.com/acrobat/datasheets/BAS16_SER_5.pdf
 description=High-speed switching diode
 test_refdes=D1
 model_status_good=ngspice_19
-## .ENDS in a Model
 
 
 [BAS21J_NXP01395]
@@ -7210,9 +6739,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-
-# Subcircuit with 3 connections
 [BAV23ADG_NXP01396]
 symbol=.sym
 value=BAV23ADG
@@ -7230,8 +6756,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BAV23CDG_NXP01397]
 symbol=.sym
 value=BAV23CDG
@@ -7249,8 +6773,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BAV70M_NXP01398]
 symbol=.sym
 value=BAV70M
@@ -7268,8 +6790,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 1 connections
 [BAV99_NXP01399]
 symbol=.sym
 value=BAV99
@@ -7287,8 +6807,6 @@ test_refdes=D1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BAW56M_NXP01400]
 symbol=.sym
 value=BAW56M
@@ -7306,8 +6824,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [BZA420A_NXP01401]
 symbol=.sym
 value=BZA420A
@@ -7325,8 +6841,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [BZA456A_NXP01402]
 symbol=.sym
 value=BZA456A
@@ -7344,8 +6858,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [BZA462A_NXP01403]
 symbol=.sym
 value=BZA462A
@@ -7363,8 +6875,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 5 connections
 [BZA856AL_NXP01404]
 symbol=.sym
 value=BZA856AL
@@ -7382,8 +6892,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 5 connections
 [BZA862AL_NXP01405]
 symbol=.sym
 value=BZA862AL
@@ -7401,8 +6909,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 5 connections
 [BZA868AL_NXP01406]
 symbol=.sym
 value=BZA868AL
@@ -7418,7 +6924,6 @@ description=Quadruple ESD transient voltage suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/BZA800AL_SERIES_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [BZB100A_NXP01407]
@@ -7438,7 +6943,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-# Subcircuit with 3 connections
 [BZB84B10_NXP01408]
 symbol=.sym
 value=BZB84B10
@@ -7456,8 +6960,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B11_NXP01409]
 symbol=.sym
 value=BZB84B11
@@ -7475,8 +6977,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B12_NXP01410]
 symbol=.sym
 value=BZB84B12
@@ -7494,8 +6994,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B13_NXP01411]
 symbol=.sym
 value=BZB84B13
@@ -7513,8 +7011,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B15_NXP01412]
 symbol=.sym
 value=BZB84B15
@@ -7532,8 +7028,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B16_NXP01413]
 symbol=.sym
 value=BZB84B16
@@ -7551,8 +7045,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B18_NXP01414]
 symbol=.sym
 value=BZB84B18
@@ -7570,8 +7062,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B20_NXP01415]
 symbol=.sym
 value=BZB84B20
@@ -7589,8 +7079,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B22_NXP01416]
 symbol=.sym
 value=BZB84B22
@@ -7608,8 +7096,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B24_NXP01417]
 symbol=.sym
 value=BZB84B24
@@ -7627,8 +7113,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B27_NXP01418]
 symbol=.sym
 value=BZB84B27
@@ -7646,8 +7130,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B2V4_NXP01419]
 symbol=.sym
 value=BZB84B2V4
@@ -7665,8 +7147,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B2V7_NXP01420]
 symbol=.sym
 value=BZB84B2V7
@@ -7684,8 +7164,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B30_NXP01421]
 symbol=.sym
 value=BZB84B30
@@ -7703,8 +7181,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B33_NXP01422]
 symbol=.sym
 value=BZB84B33
@@ -7722,8 +7198,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B36_NXP01423]
 symbol=.sym
 value=BZB84B36
@@ -7741,8 +7215,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B39_NXP01424]
 symbol=.sym
 value=BZB84B39
@@ -7760,8 +7232,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B3V0_NXP01425]
 symbol=.sym
 value=BZB84B3V0
@@ -7779,8 +7249,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B3V3_NXP01426]
 symbol=.sym
 value=BZB84B3V3
@@ -7798,8 +7266,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B3V6_NXP01427]
 symbol=.sym
 value=BZB84B3V6
@@ -7817,8 +7283,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B3V9_NXP01428]
 symbol=.sym
 value=BZB84B3V9
@@ -7836,8 +7300,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B43_NXP01429]
 symbol=.sym
 value=BZB84B43
@@ -7855,8 +7317,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B47_NXP01430]
 symbol=.sym
 value=BZB84B47
@@ -7874,8 +7334,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B4V3_NXP01431]
 symbol=.sym
 value=BZB84B4V3
@@ -7893,8 +7351,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B4V7_NXP01432]
 symbol=.sym
 value=BZB84B4V7
@@ -7912,8 +7368,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B51_NXP01433]
 symbol=.sym
 value=BZB84B51
@@ -7931,8 +7385,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B56_NXP01434]
 symbol=.sym
 value=BZB84B56
@@ -7950,8 +7402,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B5V1_NXP01435]
 symbol=.sym
 value=BZB84B5V1
@@ -7969,8 +7419,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B5V6_NXP01436]
 symbol=.sym
 value=BZB84B5V6
@@ -7988,8 +7436,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B62_NXP01437]
 symbol=.sym
 value=BZB84B62
@@ -8007,8 +7453,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B68_NXP01438]
 symbol=.sym
 value=BZB84B68
@@ -8026,8 +7470,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B6V2_NXP01439]
 symbol=.sym
 value=BZB84B6V2
@@ -8045,8 +7487,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B6V8_NXP01440]
 symbol=.sym
 value=BZB84B6V8
@@ -8064,8 +7504,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B75_NXP01441]
 symbol=.sym
 value=BZB84B75
@@ -8083,8 +7521,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B7V5_NXP01442]
 symbol=.sym
 value=BZB84B7V5
@@ -8102,8 +7538,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B8V2_NXP01443]
 symbol=.sym
 value=BZB84B8V2
@@ -8121,8 +7555,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZB84B9V1_NXP01444]
 symbol=.sym
 value=BZB84B9V1
@@ -8140,8 +7572,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZV49C12_NXP01445]
 symbol=.sym
 value=BZV49C12
@@ -8159,8 +7589,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [BZV49C16_NXP01446]
 symbol=.sym
 value=BZV49C16
@@ -8176,7 +7604,6 @@ description=Voltage regulator diodes
 documentation=http://www.nxp.com/acrobat/datasheets/BZV49_SERIES_4.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [BZX84JB10_NXP01447]
@@ -8196,8 +7623,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-
 [BZX84JB11_NXP01448]
 symbol=zener_diode.sym
 value=BZX84JB11
@@ -8213,8 +7638,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
-
 
 
 [BZX84JB12_NXP01449]
@@ -8234,7 +7657,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB13_NXP01450]
 symbol=zener_diode.sym
 value=BZX84JB13
@@ -8250,7 +7672,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB15_NXP01451]
@@ -8270,7 +7691,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB16_NXP01452]
 symbol=zener_diode.sym
 value=BZX84JB16
@@ -8286,7 +7706,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB18_NXP01453]
@@ -8306,8 +7725,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-
 [BZX84JB20_NXP01454]
 symbol=zener_diode.sym
 value=BZX84JB20
@@ -8323,7 +7740,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB22_NXP01455]
@@ -8343,7 +7759,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB24_NXP01456]
 symbol=zener_diode.sym
 value=BZX84JB24
@@ -8359,7 +7774,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB27_NXP01457]
@@ -8379,7 +7793,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB2V4_NXP01458]
 symbol=zener_diode.sym
 value=BZX84JB2V4
@@ -8395,7 +7808,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB2V7_NXP01459]
@@ -8415,7 +7827,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB30_NXP01460]
 symbol=zener_diode.sym
 value=BZX84JB30
@@ -8431,7 +7842,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB33_NXP01461]
@@ -8451,7 +7861,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB36_NXP01462]
 symbol=zener_diode.sym
 value=BZX84JB36
@@ -8467,7 +7876,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB39_NXP01463]
@@ -8487,7 +7895,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB3V0_NXP01464]
 symbol=zener_diode.sym
 value=BZX84JB3V0
@@ -8503,7 +7910,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB3V3_NXP01465]
@@ -8523,7 +7929,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB3V6_NXP01466]
 symbol=zener_diode.sym
 value=BZX84JB3V6
@@ -8539,7 +7944,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB3V9_NXP01467]
@@ -8559,7 +7963,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB43_NXP01468]
 symbol=zener_diode.sym
 value=BZX84JB43
@@ -8575,7 +7978,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB47_NXP01469]
@@ -8595,7 +7997,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB4V3_NXP01470]
 symbol=zener_diode.sym
 value=BZX84JB4V3
@@ -8611,7 +8012,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB4V7_NXP01471]
@@ -8631,7 +8031,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB51_NXP01472]
 symbol=zener_diode.sym
 value=BZX84JB51
@@ -8647,7 +8046,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB56_NXP01473]
@@ -8667,7 +8065,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB5V1_NXP01474]
 symbol=zener_diode.sym
 value=BZX84JB5V1
@@ -8683,7 +8080,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB5V6_NXP01475]
@@ -8703,7 +8099,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB62_NXP01476]
 symbol=zener_diode.sym
 value=BZX84JB62
@@ -8719,7 +8114,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB68_NXP01477]
@@ -8739,7 +8133,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB6V2_NXP01478]
 symbol=zener_diode.sym
 value=BZX84JB6V2
@@ -8755,7 +8148,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB6V8_NXP01479]
@@ -8775,7 +8167,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB75_NXP01480]
 symbol=zener_diode.sym
 value=BZX84JB75
@@ -8791,7 +8182,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB7V5_NXP01481]
@@ -8811,7 +8201,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [BZX84JB8V2_NXP01482]
 symbol=zener_diode.sym
 value=BZX84JB8V2
@@ -8827,7 +8216,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/BZX84J_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [BZX84JB9V1_NXP01483]
@@ -8847,8 +8235,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [MMBZ12VAL_NXP01484]
 symbol=.sym
 value=MMBZ12VAL
@@ -8866,8 +8252,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [MMBZ12VDL_NXP01485]
 symbol=.sym
 value=MMBZ12VDL
@@ -8885,8 +8269,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [MMBZ15VAL_NXP01486]
 symbol=.sym
 value=MMBZ15VAL
@@ -8904,8 +8286,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [MMBZ15VDL_NXP01487]
 symbol=.sym
 value=MMBZ15VDL
@@ -8923,8 +8303,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [MMBZ18VAL_NXP01488]
 symbol=.sym
 value=MMBZ18VAL
@@ -8942,8 +8320,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [MMBZ18VCL_NXP01489]
 symbol=.sym
 value=MMBZ18VCL
@@ -8961,8 +8337,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [MMBZ20VAL_NXP01490]
 symbol=.sym
 value=MMBZ20VAL
@@ -8980,8 +8354,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [MMBZ20VCL_NXP01491]
 symbol=.sym
 value=MMBZ20VCL
@@ -8999,8 +8371,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [MMBZ27VAL_NXP01492]
 symbol=.sym
 value=MMBZ27VAL
@@ -9018,8 +8388,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [MMBZ27VCL_NXP01493]
 symbol=.sym
 value=MMBZ27VCL
@@ -9037,8 +8405,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [MMBZ33VAL_NXP01494]
 symbol=.sym
 value=MMBZ33VAL
@@ -9056,8 +8422,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [MMBZ33VCL_NXP01495]
 symbol=.sym
 value=MMBZ33VCL
@@ -9073,7 +8437,6 @@ description=Double ESD protection diodes for transient overvoltage suppression
 documentation=http://www.nxp.com/acrobat/datasheets/MMBZXVAL_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PDZ6V2B_NXP01496]
@@ -9093,7 +8456,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PESD12VS1UA_NXP01497]
 symbol=zener_diode.sym
 value=PESD12VS1UA
@@ -9111,8 +8473,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PESD1FLEX_NXP01498]
 symbol=.sym
 value=PESD1FLEX
@@ -9130,8 +8490,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD2CAN_NXP01499]
 symbol=.sym
 value=PESD2CAN
@@ -9149,8 +8507,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD3V3L4UF_NXP01500]
 symbol=.sym
 value=PESD3V3L4UF
@@ -9168,8 +8524,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD3V3L5UF_NXP01501]
 symbol=.sym
 value=PESD3V3L5UF
@@ -9187,8 +8541,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD3V3S4UF_NXP01502]
 symbol=.sym
 value=PESD3V3S4UF
@@ -9206,8 +8558,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD3V3V4UF_NXP01503]
 symbol=.sym
 value=PESD3V3V4UF
@@ -9225,8 +8575,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD5V0L4UF_NXP01504]
 symbol=.sym
 value=PESD5V0L4UF
@@ -9242,7 +8590,6 @@ description=Low capacitance unidirectional quadruple ESD protection diode arrays
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXL4UF_G_W_4.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PESD5V0S1UA_NXP01505]
@@ -9262,8 +8609,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 6 connections
 [PESD5V0S4UF_NXP01506]
 symbol=.sym
 value=PESD5V0S4UF
@@ -9279,7 +8624,6 @@ description=Unidirectional quadruple ESD protection diode arrays
 documentation=http://www.nxp.com/acrobat/datasheets/PESD3V3S4UF_PESD5V0S4UF_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PESD5V0U1BA_NXP01507]
@@ -9299,7 +8643,6 @@ test_refdes=X1
 model_status_broken=ngspice_19
 
 
-
 [PESD5V0U1BB_NXP01508]
 symbol=zener_bidirectional.sym
 value=PESD5V0U1BB
@@ -9315,7 +8658,6 @@ description=Ultra low capacitance bidirectional ESD protection diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1BA_BB_BL_1.pdf
 test_refdes=X1
 model_status_broken=ngspice_19
-
 
 
 [PESD5V0U1BL_NXP01509]
@@ -9335,7 +8677,6 @@ test_refdes=X1
 model_status_broken=ngspice_19
 
 
-
 [PESD5V0U1UA_NXP01510]
 symbol=zener_diode.sym
 value=PESD5V0U1UA
@@ -9351,7 +8692,6 @@ description=Ultra low capacitance unidirectional ESD protection diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0U1UA_UB_UL_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PESD5V0U1UB_NXP01511]
@@ -9371,7 +8711,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PESD5V0U1UL_NXP01512]
 symbol=zener_diode.sym
 value=PESD5V0U1UL
@@ -9389,8 +8728,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PESD5V0U2BT_NXP01513]
 symbol=.sym
 value=PESD5V0U2BT
@@ -9408,8 +8745,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 6 connections
 [PESD5V0V4UF_NXP01514]
 symbol=.sym
 value=PESD5V0V4UF
@@ -9425,7 +8760,6 @@ description=Very low capacitance unidirectional quadruple ESD protection diode a
 documentation=http://www.nxp.com/acrobat/datasheets/PESDXV4UF_G_W_3.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PESD5V0X1BL_NXP01515]
@@ -9445,8 +8779,6 @@ test_refdes=X1
 model_status_broken=ngspice_19
 
 
-
-# Subcircuit with 3 connections
 [PESD5V0X1BQ_NXP01516]
 symbol=.sym
 value=PESD5V0X1BQ
@@ -9464,8 +8796,6 @@ test_refdes=X1
 model_status_undefined=
 
 
-
-# Subcircuit with 3 connections
 [PESD5V0X1BT_NXP01517]
 symbol=.sym
 value=PESD5V0X1BT
@@ -9481,7 +8811,6 @@ description=Ultra low capacitance bidirectional ESD protection diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PESD5V0X1BQ_PESD5V0X1BT_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PMLL4148L_NXP01518]
@@ -9501,7 +8830,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PTVS10VS1UR_NXP01519]
 symbol=zener_diode.sym
 value=PTVS10VS1UR
@@ -9517,7 +8845,6 @@ description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PTVS11VS1UR_NXP01520]
@@ -9537,7 +8864,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PTVS12VS1UR_NXP01521]
 symbol=zener_diode.sym
 value=PTVS12VS1UR
@@ -9553,7 +8879,6 @@ description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PTVS13VS1UR_NXP01522]
@@ -9573,7 +8898,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PTVS14VS1UR_NXP01523]
 symbol=zener_diode.sym
 value=PTVS14VS1UR
@@ -9589,7 +8913,6 @@ description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PTVS15VS1UR_NXP01524]
@@ -9609,7 +8932,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PTVS16VS1UR_NXP01525]
 symbol=zener_diode.sym
 value=PTVS16VS1UR
@@ -9625,7 +8947,6 @@ description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PTVS17VS1UR_NXP01526]
@@ -9645,7 +8966,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PTVS18VS1UR_NXP01527]
 symbol=zener_diode.sym
 value=PTVS18VS1UR
@@ -9661,7 +8981,6 @@ description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PTVS3V3S1UR_NXP01528]
@@ -9681,7 +9000,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PTVS5V0S1UR_NXP01529]
 symbol=zener_diode.sym
 value=PTVS5V0S1UR
@@ -9697,7 +9015,6 @@ description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PTVS6V0S1UR_NXP01530]
@@ -9717,7 +9034,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PTVS6V5S1UR_NXP01531]
 symbol=zener_diode.sym
 value=PTVS6V5S1UR
@@ -9733,7 +9049,6 @@ description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PTVS7V0S1UR_NXP01532]
@@ -9753,7 +9068,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PTVS7V5S1UR_NXP01533]
 symbol=zener_diode.sym
 value=PTVS7V5S1UR
@@ -9769,7 +9083,6 @@ description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PTVS8V0S1UR_NXP01534]
@@ -9789,7 +9102,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PTVS8V5S1UR_NXP01535]
 symbol=zener_diode.sym
 value=PTVS8V5S1UR
@@ -9805,7 +9117,6 @@ description=400 W Transient Voltage Suppressor
 documentation=http://www.nxp.com/acrobat/datasheets/PTVSXS1UR_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PTVS9V0S1UR_NXP01536]
@@ -9825,7 +9136,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU10B1A_NXP01537]
 symbol=zener_diode.sym
 value=PZU10B1A
@@ -9841,7 +9151,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU10B2A_NXP01538]
@@ -9861,7 +9170,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU10B2L_NXP01539]
 symbol=zener_diode.sym
 value=PZU10B2L
@@ -9877,7 +9185,6 @@ description=Single Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU10B3A_NXP01540]
@@ -9897,7 +9204,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU10BA_NXP01541]
 symbol=zener_diode.sym
 value=PZU10BA
@@ -9913,7 +9219,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU10BL_NXP01542]
@@ -9933,8 +9238,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU10DB2_NXP01543]
 symbol=.sym
 value=PZU10DB2
@@ -9950,7 +9253,6 @@ description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU11B1A_NXP01544]
@@ -9970,7 +9272,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU11B2A_NXP01545]
 symbol=zener_diode.sym
 value=PZU11B2A
@@ -9986,8 +9287,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
-
 
 
 [PZU11B2L_NXP01546]
@@ -10007,7 +9306,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU11B3A_NXP01547]
 symbol=zener_diode.sym
 value=PZU11B3A
@@ -10023,7 +9321,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU11BA_NXP01548]
@@ -10043,7 +9340,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU11BL_NXP01549]
 symbol=zener_diode.sym
 value=PZU11BL
@@ -10061,8 +9357,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU11DB2_NXP01550]
 symbol=.sym
 value=PZU11DB2
@@ -10078,7 +9372,6 @@ description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU12B1A_NXP01551]
@@ -10098,7 +9391,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU12B2A_NXP01552]
 symbol=zener_diode.sym
 value=PZU12B2A
@@ -10114,7 +9406,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU12B2L_NXP01553]
@@ -10134,7 +9425,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU12B3A_NXP01554]
 symbol=zener_diode.sym
 value=PZU12B3A
@@ -10150,7 +9440,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU12BA_NXP01555]
@@ -10170,7 +9459,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU12BL_NXP01556]
 symbol=zener_diode.sym
 value=PZU12BL
@@ -10188,8 +9476,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU12DB2_NXP01557]
 symbol=.sym
 value=PZU12DB2
@@ -10205,7 +9491,6 @@ description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU13B1A_NXP01558]
@@ -10225,7 +9510,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU13B2A_NXP01559]
 symbol=zener_diode.sym
 value=PZU13B2A
@@ -10241,7 +9525,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU13B2L_NXP01560]
@@ -10261,7 +9544,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU13B3A_NXP01561]
 symbol=zener_diode.sym
 value=PZU13B3A
@@ -10277,7 +9559,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU13BA_NXP01562]
@@ -10297,7 +9578,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU13BL_NXP01563]
 symbol=zener_diode.sym
 value=PZU13BL
@@ -10315,8 +9595,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU13DB2_NXP01564]
 symbol=.sym
 value=PZU13DB2
@@ -10332,7 +9610,6 @@ description=Dual Zener diodes
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU14B2A_NXP01565]
@@ -10352,8 +9629,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-
 [PZU14B2L_NXP01566]
 symbol=zener_diode.sym
 value=PZU14B2L
@@ -10371,8 +9646,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU14DB2_NXP01567]
 symbol=.sym
 value=PZU14DB2
@@ -10388,7 +9661,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU15B1A_NXP01568]
@@ -10408,7 +9680,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU15B2A_NXP01569]
 symbol=zener_diode.sym
 value=PZU15B2A
@@ -10424,8 +9695,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
-
 
 
 [PZU15B2L_NXP01570]
@@ -10445,7 +9714,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU15B3A_NXP01571]
 symbol=zener_diode.sym
 value=PZU15B3A
@@ -10461,7 +9729,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU15BA_NXP01572]
@@ -10481,8 +9748,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-
 [PZU15BL_NXP01573]
 symbol=zener_diode.sym
 value=PZU15BL
@@ -10500,8 +9765,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU15DB2_NXP01574]
 symbol=.sym
 value=PZU15DB2
@@ -10517,7 +9780,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU16B1A_NXP01575]
@@ -10537,7 +9799,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU16B2A_NXP01576]
 symbol=zener_diode.sym
 value=PZU16B2A
@@ -10553,7 +9814,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU16B2L_NXP01577]
@@ -10573,7 +9833,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU16B3A_NXP01578]
 symbol=zener_diode.sym
 value=PZU16B3A
@@ -10589,7 +9848,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU16BA_NXP01579]
@@ -10609,7 +9867,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU16BL_NXP01580]
 symbol=zener_diode.sym
 value=PZU16BL
@@ -10627,8 +9884,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU16DB2_NXP01581]
 symbol=.sym
 value=PZU16DB2
@@ -10644,7 +9899,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU18B1A_NXP01582]
@@ -10664,7 +9918,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU18B2A_NXP01583]
 symbol=zener_diode.sym
 value=PZU18B2A
@@ -10680,8 +9933,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
-
 
 
 [PZU18B2L_NXP01584]
@@ -10701,7 +9952,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU18B3A_NXP01585]
 symbol=zener_diode.sym
 value=PZU18B3A
@@ -10717,7 +9967,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU18BA_NXP01586]
@@ -10737,7 +9986,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU18BL_NXP01587]
 symbol=zener_diode.sym
 value=PZU18BL
@@ -10755,8 +10003,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU18DB2_NXP01588]
 symbol=.sym
 value=PZU18DB2
@@ -10772,7 +10018,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU20B1A_NXP01589]
@@ -10792,7 +10037,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU20B2A_NXP01590]
 symbol=zener_diode.sym
 value=PZU20B2A
@@ -10808,7 +10052,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU20B2L_NXP01591]
@@ -10828,7 +10071,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU20B3A_NXP01592]
 symbol=zener_diode.sym
 value=PZU20B3A
@@ -10844,7 +10086,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU20BA_NXP01593]
@@ -10864,7 +10105,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU20BL_NXP01594]
 symbol=zener_diode.sym
 value=PZU20BL
@@ -10882,8 +10122,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU20DB2_NXP01595]
 symbol=.sym
 value=PZU20DB2
@@ -10899,7 +10137,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU22B1A_NXP01596]
@@ -10919,7 +10156,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU22B2A_NXP01597]
 symbol=zener_diode.sym
 value=PZU22B2A
@@ -10935,7 +10171,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU22B2L_NXP01598]
@@ -10955,7 +10190,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU22B3A_NXP01599]
 symbol=zener_diode.sym
 value=PZU22B3A
@@ -10971,7 +10205,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU22BA_NXP01600]
@@ -10991,8 +10224,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-
 [PZU22BL_NXP01601]
 symbol=zener_diode.sym
 value=PZU22BL
@@ -11010,8 +10241,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU22DB2_NXP01602]
 symbol=.sym
 value=PZU22DB2
@@ -11027,7 +10256,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU24B1A_NXP01603]
@@ -11047,7 +10275,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU24B2A_NXP01604]
 symbol=zener_diode.sym
 value=PZU24B2A
@@ -11063,7 +10290,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU24B2L_NXP01605]
@@ -11083,7 +10309,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU24B3A_NXP01606]
 symbol=zener_diode.sym
 value=PZU24B3A
@@ -11099,7 +10324,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU24BA_NXP01607]
@@ -11119,7 +10343,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU24BL_NXP01608]
 symbol=zener_diode.sym
 value=PZU24BL
@@ -11137,8 +10360,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU24DB2_NXP01609]
 symbol=.sym
 value=PZU24DB2
@@ -11154,7 +10375,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU27BA_NXP01610]
@@ -11174,7 +10394,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU27BL_NXP01611]
 symbol=zener_diode.sym
 value=PZU27BL
@@ -11190,7 +10409,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
 model_status_undefined=
-
 
 
 [PZU2V4BA_NXP01612]
@@ -11210,7 +10428,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU2V4BL_NXP01613]
 symbol=zener_diode.sym
 value=PZU2V4BL
@@ -11226,7 +10443,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU2V7B1A_NXP01614]
@@ -11246,8 +10462,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-
 [PZU2V7B2A_NXP01615]
 symbol=zener_diode.sym
 value=PZU2V7B2A
@@ -11263,7 +10477,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU2V7B2L_NXP01616]
@@ -11283,7 +10496,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU2V7BA_NXP01617]
 symbol=zener_diode.sym
 value=PZU2V7BA
@@ -11299,7 +10511,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU2V7BL_NXP01618]
@@ -11319,8 +10530,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU2V7DB2_NXP01619]
 symbol=.sym
 value=PZU2V7DB2
@@ -11336,7 +10545,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU30BA_NXP01620]
@@ -11356,7 +10564,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU30BL_NXP01621]
 symbol=zener_diode.sym
 value=PZU30BL
@@ -11372,7 +10579,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU33BA_NXP01622]
@@ -11392,7 +10598,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU33BL_NXP01623]
 symbol=zener_diode.sym
 value=PZU33BL
@@ -11408,7 +10613,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU36BA_NXP01624]
@@ -11428,7 +10632,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU36BL_NXP01625]
 symbol=zener_diode.sym
 value=PZU36BL
@@ -11444,7 +10647,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU3V0B1A_NXP01626]
@@ -11464,7 +10666,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU3V0B2A_NXP01627]
 symbol=zener_diode.sym
 value=PZU3V0B2A
@@ -11480,7 +10681,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU3V0B2L_NXP01628]
@@ -11500,7 +10700,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU3V0BA_NXP01629]
 symbol=zener_diode.sym
 value=PZU3V0BA
@@ -11516,7 +10715,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU3V0BL_NXP01630]
@@ -11536,8 +10734,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU3V0DB2_NXP01631]
 symbol=.sym
 value=PZU3V0DB2
@@ -11553,7 +10749,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU3V3B1A_NXP01632]
@@ -11573,7 +10768,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU3V3B2A_NXP01633]
 symbol=zener_diode.sym
 value=PZU3V3B2A
@@ -11589,7 +10783,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU3V3B2L_NXP01634]
@@ -11609,7 +10802,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU3V3BA_NXP01635]
 symbol=zener_diode.sym
 value=PZU3V3BA
@@ -11625,7 +10817,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU3V3BL_NXP01636]
@@ -11645,8 +10836,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU3V3DB2_NXP01637]
 symbol=.sym
 value=PZU3V3DB2
@@ -11662,7 +10851,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU3V6B1A_NXP01638]
@@ -11682,7 +10870,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU3V6B2A_NXP01639]
 symbol=zener_diode.sym
 value=PZU3V6B2A
@@ -11698,7 +10885,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU3V6B2L_NXP01640]
@@ -11718,7 +10904,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU3V6BA_NXP01641]
 symbol=zener_diode.sym
 value=PZU3V6BA
@@ -11734,7 +10919,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU3V6BL_NXP01642]
@@ -11754,8 +10938,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU3V6DB2_NXP01643]
 symbol=.sym
 value=PZU3V6DB2
@@ -11771,8 +10953,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
-
 
 
 [PZU3V9B1A_NXP01644]
@@ -11792,7 +10972,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU3V9B2A_NXP01645]
 symbol=zener_diode.sym
 value=PZU3V9B2A
@@ -11808,7 +10987,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU3V9B2L_NXP01646]
@@ -11828,7 +11006,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU3V9BA_NXP01647]
 symbol=zener_diode.sym
 value=PZU3V9BA
@@ -11844,7 +11021,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU3V9BL_NXP01648]
@@ -11864,8 +11040,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU3V9DB2_NXP01649]
 symbol=.sym
 value=PZU3V9DB2
@@ -11881,8 +11055,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
-
 
 
 [PZU4V3B1A_NXP01650]
@@ -11902,7 +11074,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU4V3B2A_NXP01651]
 symbol=zener_diode.sym
 value=PZU4V3B2A
@@ -11918,7 +11089,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU4V3B2L_NXP01652]
@@ -11938,7 +11108,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU4V3B3A_NXP01653]
 symbol=zener_diode.sym
 value=PZU4V3B3A
@@ -11954,7 +11123,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU4V3BA_NXP01654]
@@ -11974,7 +11142,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU4V3BL_NXP01655]
 symbol=zener_diode.sym
 value=PZU4V3BL
@@ -11992,8 +11159,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU4V3DB2_NXP01656]
 symbol=.sym
 value=PZU4V3DB2
@@ -12009,7 +11174,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU4V7B1A_NXP01657]
@@ -12029,7 +11193,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU4V7B2A_NXP01658]
 symbol=zener_diode.sym
 value=PZU4V7B2A
@@ -12045,7 +11208,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU4V7B2L_NXP01659]
@@ -12065,7 +11227,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU4V7B3A_NXP01660]
 symbol=zener_diode.sym
 value=PZU4V7B3A
@@ -12081,7 +11242,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU4V7BA_NXP01661]
@@ -12101,7 +11261,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU4V7BL_NXP01662]
 symbol=zener_diode.sym
 value=PZU4V7BL
@@ -12119,8 +11278,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU4V7DB2_NXP01663]
 symbol=.sym
 value=PZU4V7DB2
@@ -12136,7 +11293,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU5V1B2L_NXP01664]
@@ -12156,7 +11312,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU5V1BL_NXP01665]
 symbol=zener_diode.sym
 value=PZU5V1BL
@@ -12172,7 +11327,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU5V6B2L_NXP01666]
@@ -12192,7 +11346,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU5V6BL_NXP01667]
 symbol=zener_diode.sym
 value=PZU5V6BL
@@ -12208,7 +11361,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU5V1B1A_NXP01668]
@@ -12228,7 +11380,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU5V1B2A_NXP01669]
 symbol=zener_diode.sym
 value=PZU5V1B2A
@@ -12244,7 +11395,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU5V1B3A_NXP01670]
@@ -12264,7 +11414,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU5V1BA_NXP01671]
 symbol=zener_diode.sym
 value=PZU5V1BA
@@ -12282,8 +11431,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU5V1DB2_NXP01672]
 symbol=zener_diode.sym
 value=PZU5V1DB2
@@ -12299,7 +11446,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU5V6B1A_NXP01673]
@@ -12319,7 +11465,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU5V6B2A_NXP01674]
 symbol=zener_diode.sym
 value=PZU5V6B2A
@@ -12335,7 +11480,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU5V6B3A_NXP01675]
@@ -12355,7 +11499,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU5V6BA_NXP01676]
 symbol=zener_diode.sym
 value=PZU5V6BA
@@ -12373,8 +11516,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU5V6DB2_NXP01677]
 symbol=zener_diode.sym
 value=PZU5V6DB2
@@ -12390,8 +11531,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
-
 
 
 [PZU6V2B2L_NXP01678]
@@ -12411,7 +11550,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU6V2BL_NXP01679]
 symbol=zener_diode.sym
 value=PZU6V2BL
@@ -12427,8 +11565,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
-
 
 
 [PZU6V8B2L_NXP01680]
@@ -12448,7 +11584,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU6V8BL_NXP01681]
 symbol=zener_diode.sym
 value=PZU6V8BL
@@ -12464,8 +11599,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
-
 
 
 [PZU6V2B1A_NXP01682]
@@ -12485,7 +11618,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU6V2B2A_NXP01683]
 symbol=zener_diode.sym
 value=PZU6V2B2A
@@ -12501,7 +11633,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU6V2B3A_NXP01684]
@@ -12521,7 +11652,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU6V2BA_NXP01685]
 symbol=zener_diode.sym
 value=PZU6V2BA
@@ -12539,8 +11669,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU6V2DB2_NXP01686]
 symbol=zener_diode.sym
 value=PZU6V2DB2
@@ -12556,7 +11684,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU6V8B1A_NXP01687]
@@ -12576,7 +11703,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU6V8B2A_NXP01688]
 symbol=zener_diode.sym
 value=PZU6V8B2A
@@ -12592,7 +11718,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU6V8B3A_NXP01689]
@@ -12612,7 +11737,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU6V8BA_NXP01690]
 symbol=zener_diode.sym
 value=PZU6V8BA
@@ -12630,8 +11754,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU6V8DB2_NXP01691]
 symbol=zener_diode.sym
 value=PZU6V8DB2
@@ -12647,7 +11769,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU7V5B2L_NXP01692]
@@ -12667,7 +11788,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU7V5BL_NXP01693]
 symbol=zener_diode.sym
 value=PZU7V5BL
@@ -12683,8 +11803,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
-
 
 
 [PZU7V5B1A_NXP01694]
@@ -12704,7 +11822,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU7V5B2A_NXP01695]
 symbol=zener_diode.sym
 value=PZU7V5B2A
@@ -12720,7 +11837,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU7V5B3A_NXP01696]
@@ -12740,7 +11856,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU7V5BA_NXP01697]
 symbol=zener_diode.sym
 value=PZU7V5BA
@@ -12758,8 +11873,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
-# Subcircuit with 5 connections
 [PZU7V5DB2_NXP01698]
 symbol=zener_diode.sym
 value=PZU7V5DB2
@@ -12775,7 +11888,6 @@ description=Dual Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXDB2_SER_1.pdf
 test_refdes=X1
 model_status_undefined=
-
 
 
 [PZU8V2B2L_NXP01699]
@@ -12795,7 +11907,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU8V2BL_NXP01700]
 symbol=zener_diode.sym
 value=PZU8V2BL
@@ -12811,7 +11922,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU8V2B1A_NXP01701]
@@ -12831,7 +11941,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU8V2B2A_NXP01702]
 symbol=zener_diode.sym
 value=PZU8V2B2A
@@ -12847,7 +11956,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU8V2B3A_NXP01703]
@@ -12867,7 +11975,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU8V2BA_NXP01704]
 symbol=zener_diode.sym
 value=PZU8V2BA
@@ -12883,7 +11990,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU9V1B2L_NXP01705]
@@ -12903,7 +12009,6 @@ test_refdes=D1
 model_status_good=ngspice_19
 
 
-
 [PZU9V1BL_NXP01706]
 symbol=zener_diode.sym
 value=PZU9V1BL
@@ -12919,7 +12024,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBL_SER_1.pdf
 test_refdes=D1
 model_status_good=ngspice_19
-
 
 
 [PZU9V1B1A_NXP01707]
@@ -12939,7 +12043,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU9V1B2A_NXP01708]
 symbol=zener_diode.sym
 value=PZU9V1B2A
@@ -12955,7 +12058,6 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
-
 
 
 [PZU9V1B3A_NXP01709]
@@ -12975,7 +12077,6 @@ test_refdes=X1
 model_status_good=ngspice_19
 
 
-
 [PZU9V1BA_NXP01710]
 symbol=zener_diode.sym
 value=PZU9V1BA
@@ -12991,4 +12092,5 @@ description=Single Zener diode
 documentation=http://www.nxp.com/acrobat/datasheets/PZUXBA_SER_1.pdf
 test_refdes=X1
 model_status_good=ngspice_19
+
 
