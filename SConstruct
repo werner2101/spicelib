@@ -1,25 +1,16 @@
 # vim: filetype=python :
-# vim: sw=4 :
-# vim: ts=4 :
+# vim: ts=4 : et : sw=4 :
 
-#HOW TO ADD VENDORS
-#
-#Inherit from Vendor
-#Define these attributes
-#   abbrev: short abbreviation for your vendor's name
-#   download_urls: url(s) for the primary file(s) that need downloading
-#   sections:   list of sections for which we are preparing files
-#           valid sections are 'diodes', 'bipolar', 'opamps', etc
-#   unpack_by_section: True if your files unpack by category
-#           e.g. bipolar, opamps, etc
-#Define these methods
-#   unpack_<section>: define for all sections present
-#   <section>_fixups: define for all sections present.  This method determines
-#           what fixes and patches need to be applied for which model
-#If neccessary, overload any methods of Vendor
-#New fixups, if needed, should be added to scripts/fixups.py as coroutines
-#New fixups are preferable to new patches
+"""
+SConstruct is the build file for scons
 
+To add new Vendors, inherit from Vendor base class (see docstring of
+Vendor Class)
+
+If you need additional patches or fixing rules, add them into the file
+scripts/fixups.py as coroutines
+New fixups are preferable to new patches
+"""
 
 import os
 import popen2
@@ -31,27 +22,31 @@ sys.path.append('scripts')
 import testlibrary
 import fixups
 
+#################### CONSTANTS
 TEMPDIR='unpack'
 MODEL_SIGDIR='model_checksums'
 MODEL_LIBDIR='model_library'
 TESTDIR='model_tests'
 PATCHDIR='model_patches'
 
-
 env = Environment(ENV = {'PATH': os.environ["PATH"]})
 
-
-#Custom builders
+#################### SCONS CUSTOM BUILDERS
 def test_single(target, source, env):
-    #target should be the status.htm file
-    #source should be all dependent files
-    #env.library should be a testlibrary.modellibrary
-    #env.partid should be the section from the index file eg LM741_LM0001
+    """
+    scons builder for single devise tests
+    
+    target should be the status.cfg file
+    source should be a list of all dependent files
+    env.library should be a testlibrary.modellibrary
+    env.partid should be the section from the index file eg LM741_LM0001
+    """
     partid = env['partid']
     env['library'].test_single(partid)
     return None
-bld = Builder(action = test_single)
-env.Append(BUILDERS = {'TestSingle': bld})
+
+env.Append(BUILDERS = {'TestSingle': Builder(action=test_single)})
+
 
 def html_index(target, source, env):
     """Build the test index html file.  source is the parts.index file followed
@@ -60,26 +55,35 @@ def html_index(target, source, env):
     library = testlibrary.modellibrary(filename)
     library.htmlindex()
     return None
-bld = Builder(action = html_index)
-env.Append(BUILDERS = {'HtmlIndex': bld})
+
+env.Append(BUILDERS = {'HtmlIndex': Builder(action = html_index)})
+
 
 def fixup_model(target, source, env):
     read = fixups.read(source[0])
     fixups.write(target[0], reduce(lambda x, y: y(x), env['flist'], read))
-bld = Builder(action = fixup_model)
-env.Append(BUILDERS = {'Fixup': bld})
 
-#Make necessary directories
-if not os.path.isdir(MODEL_SIGDIR):
-    Execute(Mkdir(MODEL_SIGDIR))
+env.Append(BUILDERS = {'Fixup': Builder(action = fixup_model)})
 
 
-def mk_aliases(*args):
-    for phase in ['download', 'unpack', 'create', 'test']:
-        env.Alias(phase, [phase + '_' + arg.abbrev for arg in args])
-
-
+#################### CLASSES
 class Vendor(object):
+    """
+    Base class for all vendors. It contains all methods that can be
+    reused for every vendor.
+    Each vendor has to provide the vendor specific variables:
+        abbrev: short abbreviation for your vendor's name
+        download_urls: url(s) for the primary file(s) that need downloading
+        sections:   list of sections for which we are preparing files
+                    valid sections are 'diodes', 'bipolar', 'opamps', etc
+        unpack_by_section: True if your files unpack by category
+                           e.g. bipolar, opamps, etc
+    Methods for each vendor:
+        unpack_<section>: define for all sections present
+        <section>_fixups: define for all sections present.  This method determines
+                          what fixes and patches need to be applied for which model
+    If neccessary, overload any methods of Vendor
+    """
     def __init__(self):
         self.download_all_node = self.download_all()
         env.Alias('download_' + self.abbrev, self.download_all_node)
@@ -629,12 +633,24 @@ class AnalogDevices(Vendor):
         return fixes, None
 
 
+#################### FUNCTIONS
+def mk_aliases(*args):
+    for phase in ['download', 'unpack', 'create', 'test']:
+        env.Alias(phase, [phase + '_' + arg.abbrev for arg in args])
 
+#################### MAIN
+
+## Make necessary directories
+if not os.path.isdir(MODEL_SIGDIR):
+    Execute(Mkdir(MODEL_SIGDIR))
+
+## instantiate all Vendors will 
 ltc = LinearTechnology()
 ti = TexasInstruments()
 national = NationalSemiconductor()
 nxp = NXP()
 adi = AnalogDevices()
 
+## create alias build target names
 mk_aliases(ltc, ti, national, nxp, adi)
-#mk_aliases(ltc, ti, nxp, adi)
+
