@@ -29,10 +29,10 @@ COLORS = {"broken": "#FF3F3F",
 # The folder value defines the storage of the result files
 # e.g. [PARTNAME]/[folder]/index.html
 SIMULATORS = {
-    'ngspice_23': {'simulator':'ngspice',
+    'ngspice_25': {'simulator':'ngspice',
                    'command': 'ngspice',
                    'options': '-r X -b',  ## -r X suppresses the "no plot" error
-                   'folder': 'ng23'},
+                   'folder': 'ng25'},
     'gnucap_0.35': {'simulator':'gnucap',
                     'command': '/usr/bin/gnucap',
                     'options': '-b',
