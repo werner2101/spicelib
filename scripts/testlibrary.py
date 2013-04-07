@@ -1211,7 +1211,7 @@ class modellibrary(object):
 #################### FUNCTIONS
 
 def color(key):
-    COLORS.get(key, COLORS["default"])
+    return COLORS.get(key, COLORS["default"])
 
 
 def make_doc_hyperlink(repl, docname=None):
